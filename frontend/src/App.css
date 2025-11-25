@@ -334,6 +334,14 @@
   .grid-2 {
     gap: 32px;
   }
+
+  .grid-3 {
+    gap: 24px;
+  }
+
+  .grid-auto {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
 }
 
 @media (max-width: 1024px) {
@@ -346,14 +354,46 @@
     grid-template-columns: 1fr;
   }
 
+  .grid-auto {
+    grid-template-columns: 1fr;
+  }
+
   .section {
     padding: 24px 28px;
+  }
+
+  .metric-card {
+    padding: 20px 24px;
+  }
+
+  .app-container {
+    gap: 32px;
   }
 }
 
 @media (max-width: 768px) {
   #root {
     padding: 20px;
+    max-width: 100%;
+  }
+
+  .app-container > div:first-child {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .app-container h1 {
+    font-size: 24px !important;
+  }
+
+  .app-container p {
+    font-size: 13px !important;
+  }
+
+  .tab-navigation {
+    padding: 4px;
+    gap: 2px;
+    width: 100%;
   }
 
   .tab-button {
@@ -370,12 +410,189 @@
     padding: 20px 24px;
   }
 
-  .metric-value {
-    font-size: 24px;
+  .section-header {
+    gap: 8px;
+    margin-bottom: 20px;
   }
 
   .section-title {
     font-size: 15px;
+  }
+
+  .section-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .metric-card {
+    padding: 18px 20px;
+  }
+
+  .metric-value {
+    font-size: 24px;
+  }
+
+  .metric-label {
+    font-size: 12px;
+  }
+
+  .input-field {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .app-container {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  #root {
+    padding: 16px;
+  }
+
+  .app-container h1 {
+    font-size: 20px !important;
+    letter-spacing: -0.3px !important;
+  }
+
+  .app-container p {
+    font-size: 12px !important;
+  }
+
+  .tab-navigation {
+    padding: 3px;
+  }
+
+  .tab-button {
+    padding: 8px 10px;
+    font-size: 11px;
+    gap: 4px;
+  }
+
+  .tab-button svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .section {
+    padding: 16px 20px;
+  }
+
+  .section-title {
+    font-size: 14px;
+  }
+
+  .metric-card {
+    padding: 16px 18px;
+  }
+
+  .metric-value {
+    font-size: 20px;
+  }
+
+  .metric-label {
+    font-size: 11px;
+  }
+
+  .input-field {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .input-label {
+    font-size: 12px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .badge {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .app-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  #root {
+    padding: 12px;
+  }
+
+  .app-container h1 {
+    font-size: 18px !important;
+    letter-spacing: -0.2px !important;
+  }
+
+  .app-container p {
+    font-size: 11px !important;
+  }
+
+  .section {
+    padding: 14px 16px;
+  }
+
+  .section-title {
+    font-size: 13px;
+  }
+
+  .metric-value {
+    font-size: 18px;
+  }
+
+  .metric-card {
+    padding: 14px 16px;
+  }
+
+  .input-field {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .btn {
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+
+  .tab-button {
+    padding: 6px 8px;
+    font-size: 10px;
+  }
+
+  .tab-button svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/* Chart Layouts */
+.chart-grid {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .chart-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .chart-grid {
+    gap: 24px;
   }
 }
 

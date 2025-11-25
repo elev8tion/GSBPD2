@@ -316,7 +316,7 @@ const Analytics = () => {
             <h2 className="section-title">Bet Type Performance</h2>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '400px 1fr', gap: '48px', alignItems: 'center' }}>
+          <div className="chart-grid">
             {/* Modern Donut Chart */}
             <div style={{ position: 'relative' }}>
               <ResponsiveContainer width="100%" height={320}>

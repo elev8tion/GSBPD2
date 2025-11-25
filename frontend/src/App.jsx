@@ -69,21 +69,6 @@ function App() {
       >
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '32px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <motion.div
-              whileHover={{ scale: 1.05, rotate: 5 }}
-              whileTap={{ scale: 0.95 }}
-              style={{
-                padding: '16px',
-                background: 'var(--primary)',
-                borderRadius: 'var(--radius-lg)',
-                boxShadow: 'var(--glow-primary), var(--shadow-md)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
-              }}
-            >
-              <Activity size={32} style={{ color: 'var(--bg-dark)' }} />
-            </motion.div>
             <div>
               <h1 style={{
                 fontSize: '32px',
