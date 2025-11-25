@@ -6,3 +6,10 @@ xgboost
 joblib
 pydantic
 python-multipart
+shap
+requests
+opencv-python
+streamlit
+qrcode
+pillow
+sentence-transformers
