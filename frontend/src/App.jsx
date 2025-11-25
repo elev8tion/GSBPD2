@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Activity, Zap, Wallet, LayoutDashboard, GitMerge, Database, Settings as SettingsIcon, TrendingUp } from 'lucide-react';
+import { Activity, Zap, Wallet, LayoutDashboard, GitMerge, Database, Settings as SettingsIcon, TrendingUp, MessageSquare } from 'lucide-react';
 import PredictionCard from './components/PredictionCard';
 import GrokInsight from './components/GrokInsight';
 import StatsChart from './components/StatsChart';
@@ -10,6 +10,7 @@ import ExplainabilityChart from './components/ExplainabilityChart';
 import Portfolio from './components/Portfolio';
 import Pipeline from './components/Pipeline';
 import MemorySearch from './components/MemorySearch';
+import Chat from './components/Chat';
 import BetPlacementModal from './components/BetPlacementModal';
 import Settings from './components/Settings';
 import Analytics from './components/Analytics';
@@ -146,6 +147,15 @@ function App() {
             >
               <TrendingUp size={20} />
               <span>Analytics</span>
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => setActiveTab('chat')}
+              className={`tab-button ${activeTab === 'chat' ? 'active' : ''}`}
+            >
+              <MessageSquare size={20} />
+              <span>KC Chat</span>
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.02 }}
@@ -351,6 +361,18 @@ function App() {
               transition={{ duration: 0.3 }}
             >
               <Analytics />
+            </motion.div>
+          )}
+
+          {activeTab === 'chat' && (
+            <motion.div
+              key="chat"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              <Chat />
             </motion.div>
           )}
 

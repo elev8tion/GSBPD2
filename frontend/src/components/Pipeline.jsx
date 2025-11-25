@@ -346,17 +346,17 @@ const Pipeline = () => {
                         <label className="input-label" style={{ marginBottom: '12px', display: 'block' }}>
                             Sport
                         </label>
-                        <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                        <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', maxWidth: '400px' }}>
                             {sportOptions.map((option) => (
                                 <motion.button
                                     key={option.value}
-                                    whileHover={{ scale: 1.02 }}
-                                    whileTap={{ scale: 0.98 }}
+                                    whileHover={{ scale: 1.01 }}
+                                    whileTap={{ scale: 0.99 }}
                                     onClick={() => setSport(option.value)}
                                     className="card"
                                     style={{
-                                        flex: '1 1 140px',
-                                        padding: '16px',
+                                        flex: '0 0 120px',
+                                        padding: '12px 16px',
                                         cursor: 'pointer',
                                         border: sport === option.value ? '2px solid var(--secondary)' : '2px solid var(--border-subtle)',
                                         background: sport === option.value ? 'rgba(168, 85, 247, 0.1)' : 'var(--bg-card)',
@@ -368,11 +368,10 @@ const Pipeline = () => {
                                         display: 'flex',
                                         alignItems: 'center',
                                         justifyContent: 'center',
-                                        gap: '8px',
-                                        minWidth: 0
+                                        gap: '8px'
                                     }}
                                 >
-                                    <span style={{ fontSize: '20px' }}>{option.icon}</span>
+                                    <span style={{ fontSize: '18px' }}>{option.icon}</span>
                                     {option.label}
                                 </motion.button>
                             ))}
@@ -384,17 +383,17 @@ const Pipeline = () => {
                         <label className="input-label" style={{ marginBottom: '12px', display: 'block' }}>
                             Category
                         </label>
-                        <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                        <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', maxWidth: '500px' }}>
                             {categoryOptions.map((option) => (
                                 <motion.button
                                     key={option.value}
-                                    whileHover={{ scale: 1.02 }}
-                                    whileTap={{ scale: 0.98 }}
+                                    whileHover={{ scale: 1.01 }}
+                                    whileTap={{ scale: 0.99 }}
                                     onClick={() => setCategory(option.value)}
                                     className="card"
                                     style={{
-                                        flex: '1 1 140px',
-                                        padding: '16px',
+                                        flex: '0 0 140px',
+                                        padding: '12px 16px',
                                         cursor: 'pointer',
                                         border: category === option.value ? '2px solid var(--primary)' : '2px solid var(--border-subtle)',
                                         background: category === option.value ? 'rgba(0, 217, 255, 0.1)' : 'var(--bg-card)',
@@ -402,8 +401,7 @@ const Pipeline = () => {
                                         fontWeight: '600',
                                         textAlign: 'center',
                                         transition: 'all 0.2s',
-                                        fontSize: '14px',
-                                        minWidth: 0
+                                        fontSize: '13px'
                                     }}
                                 >
                                     {option.label}
