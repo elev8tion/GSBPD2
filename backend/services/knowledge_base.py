@@ -82,9 +82,15 @@ class KnowledgeBaseService:
         """
         Generic method to record any item (BET, RESULT, OBSERVATION) to Memvid.
         """
+        import uuid
+
+        # Generate unique ID if not present
+        if 'id' not in item_data:
+            item_data['id'] = str(uuid.uuid4())
+
         item_data['timestamp'] = datetime.now().isoformat()
         item_data['type'] = item_type # 'BET', 'OBSERVATION'
-        
+
         if 'status' not in item_data:
             item_data['status'] = 'PENDING' if item_type == 'BET' else 'FINAL'
 
@@ -92,11 +98,11 @@ class KnowledgeBaseService:
         items = self._load_local_items()
         items.append(item_data)
         self._save_local_items(items)
-        
+
         # Rebuild Memvid
         self._rebuild_memvid(items)
-        
-        return {"status": "success", "message": f"{item_type} recorded in Knowledge Base"}
+
+        return {"status": "success", "message": f"{item_type} recorded in Knowledge Base", "id": item_data['id']}
 
     def place_bet(self, bet_data: dict):
         """Wrapper for backward compatibility"""
@@ -108,18 +114,33 @@ class KnowledgeBaseService:
         """
         return self.record_item(game_data, "OBSERVATION")
 
-    def resolve_bet(self, game_id: str, outcome: str):
+    def resolve_bet(self, bet_id: str, outcome: str):
+        """
+        Resolve a bet by its unique ID.
+
+        Args:
+            bet_id: Unique bet identifier
+            outcome: Bet outcome ('win', 'loss', 'push')
+
+        Returns:
+            dict with status and message
+        """
         items = self._load_local_items()
         updated = False
+
         for item in items:
-            if item.get('game_id') == game_id and item.get('type') == 'BET':
-                item['status'] = outcome
+            # Try both 'id' (new) and 'game_id' (legacy) for backward compatibility
+            if (item.get('id') == bet_id or item.get('game_id') == bet_id) and item.get('type') == 'BET':
+                item['status'] = outcome.upper()  # Ensure uppercase for consistency
+                item['resolved_at'] = datetime.now().isoformat()
                 updated = True
-        
+                break
+
         if updated:
             self._save_local_items(items)
             self._rebuild_memvid(items)
-            return {"status": "success", "message": f"Bet {game_id} resolved as {outcome}"}
+            return {"status": "success", "message": f"Bet {bet_id} resolved as {outcome.upper()}"}
+
         return {"status": "error", "message": "Bet not found"}
 
     def get_all_items(self):
@@ -255,6 +276,34 @@ class KnowledgeBaseService:
                 "status": "success",
                 "memories": memories
             }
+        except Exception as e:
+            return {"status": "error", "message": str(e)}
+
+    def delete_memory(self, memory_name: str):
+        """
+        Delete a memvid memory and all its files.
+
+        Args:
+            memory_name: Name of the memory to delete
+
+        Returns:
+            dict with status and message
+        """
+        try:
+            from memvid_integration.helpers import delete_memory
+
+            result = delete_memory(memory_name)
+
+            if result:
+                return {
+                    "status": "success",
+                    "message": f"Memory '{memory_name}' deleted successfully"
+                }
+            else:
+                return {
+                    "status": "error",
+                    "message": f"Memory '{memory_name}' not found"
+                }
         except Exception as e:
             return {"status": "error", "message": str(e)}
 

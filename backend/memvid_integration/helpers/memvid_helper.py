@@ -304,6 +304,32 @@ def get_info(project_name, output_json=False):
 
     return info
 
+def delete_memory(project_name):
+    """
+    Delete a memory and all its files.
+
+    Args:
+        project_name: Name of the memory to delete
+
+    Returns:
+        bool: True if deleted successfully, False otherwise
+    """
+    import shutil
+
+    paths = get_memory_path(project_name)
+
+    if not paths["dir"].exists():
+        print(f"Error: Memory '{project_name}' not found.", file=sys.stderr)
+        return False
+
+    try:
+        shutil.rmtree(paths["dir"])
+        print(f"Successfully deleted memory '{project_name}'", file=sys.stderr)
+        return True
+    except Exception as e:
+        print(f"Error deleting memory '{project_name}': {e}", file=sys.stderr)
+        return False
+
 def main():
     parser = argparse.ArgumentParser(description="Memvid Helper - Manage video-based memories")
     subparsers = parser.add_subparsers(dest="command", help="Commands")
