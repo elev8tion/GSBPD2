@@ -56,126 +56,302 @@ const Pipeline = () => {
     };
 
     return (
-        <div className="space-y-8">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
             {/* Ingestion Section */}
-            <section className="glass-panel p-6">
-                <div className="flex items-center gap-3 mb-6">
-                    <div className="p-2 bg-pink-500/20 rounded-lg text-pink-400">
-                        <Video size={24} />
-                    </div>
+            <motion.section
+                className="section"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4 }}
+            >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
+                    <motion.div
+                        whileHover={{ scale: 1.1, rotate: 5 }}
+                        style={{
+                            padding: '16px',
+                            background: 'var(--bg-elevated)',
+                            borderRadius: 'var(--radius-lg)',
+                            border: '2px solid var(--accent)',
+                            boxShadow: '0 0 20px rgba(255, 62, 157, 0.15)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center'
+                        }}
+                    >
+                        <Video size={28} style={{ color: 'var(--accent)' }} />
+                    </motion.div>
                     <div>
-                        <h2 className="text-xl font-bold text-white">Video Ingest Pipeline</h2>
-                        <p className="text-sm text-slate-400">Analyze screen recordings for real-time SGP insights</p>
+                        <h2 style={{
+                            fontSize: '24px',
+                            fontWeight: '700',
+                            margin: '0 0 4px 0',
+                            color: 'var(--text-primary)'
+                        }}>Video Ingest Pipeline</h2>
+                        <p style={{
+                            fontSize: '14px',
+                            color: 'var(--text-secondary)',
+                            margin: 0
+                        }}>Analyze screen recordings for real-time SGP insights</p>
                     </div>
                 </div>
 
-                <div className="flex gap-4">
+                <div style={{ display: 'flex', gap: '16px' }}>
                     <input
                         type="text"
                         value={filePath}
                         onChange={(e) => setFilePath(e.target.value)}
                         placeholder="/absolute/path/to/video.mp4"
-                        className="flex-1 bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-pink-500 transition-colors font-mono text-sm"
+                        className="input-field"
+                        style={{
+                            flex: 1,
+                            fontFamily: 'monospace',
+                            fontSize: '14px'
+                        }}
                     />
-                    <button
+                    <motion.button
+                        whileHover={{ scale: 1.02, y: -2 }}
+                        whileTap={{ scale: 0.98 }}
                         onClick={handleIngest}
                         disabled={isIngesting || !filePath}
-                        className={`px-6 py-3 rounded-lg font-bold flex items-center gap-2 transition-all ${isIngesting
-                                ? 'bg-slate-700 text-slate-400 cursor-not-allowed'
-                                : 'bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white shadow-lg shadow-pink-500/20'
-                            }`}
+                        className="btn btn-primary"
+                        style={{
+                            padding: '16px 32px',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '8px',
+                            fontSize: '15px',
+                            fontWeight: '700',
+                            opacity: (isIngesting || !filePath) ? 0.5 : 1,
+                            cursor: (isIngesting || !filePath) ? 'not-allowed' : 'pointer',
+                            background: isIngesting ? 'var(--bg-elevated)' : 'var(--accent)',
+                            color: isIngesting ? 'var(--text-secondary)' : 'var(--bg-dark)',
+                            border: isIngesting ? '1px solid var(--border-subtle)' : 'none'
+                        }}
                     >
                         {isIngesting ? (
                             <>
-                                <Cpu className="animate-spin" size={18} />
+                                <Cpu className="animate-spin" size={20} />
                                 Processing...
                             </>
                         ) : (
                             <>
-                                <PlayCircle size={18} />
+                                <PlayCircle size={20} />
                                 Analyze Video
                             </>
                         )}
-                    </button>
+                    </motion.button>
                 </div>
-            </section>
+            </motion.section>
 
             {/* Results Section */}
             {ingestResult && (
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="space-y-6"
+                    transition={{ duration: 0.4, delay: 0.2 }}
+                    style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}
                 >
-                    <div className="flex items-center justify-between">
-                        <h3 className="text-lg font-semibold text-slate-200 flex items-center gap-2">
-                            <Layers size={20} className="text-cyan-400" />
-                            Detected Games & Insights
-                        </h3>
-                        <span className="text-xs font-mono text-slate-500">
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                            <Layers size={24} style={{ color: 'var(--primary)' }} />
+                            <h3 style={{
+                                fontSize: '20px',
+                                fontWeight: '600',
+                                color: 'var(--text-primary)',
+                                margin: 0
+                            }}>
+                                Detected Games & Insights
+                            </h3>
+                        </div>
+                        <div className="badge info" style={{ fontFamily: 'monospace' }}>
                             {ingestResult.data.length} items found
-                        </span>
+                        </div>
                     </div>
 
-                    <div className="grid gap-4">
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
                         {ingestResult.data.map((game, index) => (
-                            <div key={index} className="glass-panel p-0 overflow-hidden border border-slate-700/50">
-                                <div className="p-4 bg-slate-800/50 flex items-center justify-between">
-                                    <div className="flex items-center gap-4">
-                                        <div className="text-center">
-                                            <div className="text-xs text-slate-500 uppercase tracking-wider">Home</div>
-                                            <div className="font-bold text-white text-lg">{game.home_team}</div>
-                                            <div className="text-2xl font-black text-slate-200">{game.home_score}</div>
+                            <motion.div
+                                key={index}
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: index * 0.1 }}
+                                className="card"
+                                style={{ padding: 0, overflow: 'hidden' }}
+                            >
+                                <div style={{
+                                    padding: '28px',
+                                    background: 'var(--bg-elevated)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'space-between',
+                                    borderBottom: '1px solid var(--border-subtle)'
+                                }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
+                                        <div style={{ textAlign: 'center' }}>
+                                            <div style={{
+                                                fontSize: '11px',
+                                                color: 'var(--text-tertiary)',
+                                                textTransform: 'uppercase',
+                                                letterSpacing: '1.5px',
+                                                marginBottom: '8px',
+                                                fontWeight: '600'
+                                            }}>Home</div>
+                                            <div style={{
+                                                fontWeight: '700',
+                                                color: 'var(--text-primary)',
+                                                fontSize: '18px',
+                                                marginBottom: '8px'
+                                            }}>{game.home_team}</div>
+                                            <div style={{
+                                                fontSize: '36px',
+                                                fontWeight: '900',
+                                                color: 'var(--primary)',
+                                                lineHeight: 1
+                                            }}>{game.home_score}</div>
                                         </div>
-                                        <div className="text-slate-600 font-bold text-xl">VS</div>
-                                        <div className="text-center">
-                                            <div className="text-xs text-slate-500 uppercase tracking-wider">Away</div>
-                                            <div className="font-bold text-white text-lg">{game.away_team}</div>
-                                            <div className="text-2xl font-black text-slate-200">{game.away_score}</div>
+                                        <div style={{
+                                            color: 'var(--text-tertiary)',
+                                            fontWeight: '700',
+                                            fontSize: '20px'
+                                        }}>VS</div>
+                                        <div style={{ textAlign: 'center' }}>
+                                            <div style={{
+                                                fontSize: '11px',
+                                                color: 'var(--text-tertiary)',
+                                                textTransform: 'uppercase',
+                                                letterSpacing: '1.5px',
+                                                marginBottom: '8px',
+                                                fontWeight: '600'
+                                            }}>Away</div>
+                                            <div style={{
+                                                fontWeight: '700',
+                                                color: 'var(--text-primary)',
+                                                fontSize: '18px',
+                                                marginBottom: '8px'
+                                            }}>{game.away_team}</div>
+                                            <div style={{
+                                                fontSize: '36px',
+                                                fontWeight: '900',
+                                                color: 'var(--secondary)',
+                                                lineHeight: 1
+                                            }}>{game.away_score}</div>
                                         </div>
                                     </div>
 
-                                    <button
+                                    <motion.button
+                                        whileHover={{ scale: 1.05, x: 4 }}
+                                        whileTap={{ scale: 0.95 }}
                                         onClick={() => handleGenerateSGP(game)}
                                         disabled={loadingSgp === game.game_id}
-                                        className="px-4 py-2 bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-400 border border-cyan-500/50 rounded-lg text-sm font-bold transition-all flex items-center gap-2"
+                                        style={{
+                                            padding: '12px 24px',
+                                            background: loadingSgp === game.game_id ? 'var(--bg-card)' : 'transparent',
+                                            color: 'var(--primary)',
+                                            border: `2px solid var(--primary)`,
+                                            borderRadius: 'var(--radius-md)',
+                                            fontSize: '14px',
+                                            fontWeight: '700',
+                                            cursor: loadingSgp === game.game_id ? 'not-allowed' : 'pointer',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '8px',
+                                            transition: 'all 0.2s ease',
+                                            opacity: loadingSgp === game.game_id ? 0.6 : 1
+                                        }}
                                     >
                                         {loadingSgp === game.game_id ? (
-                                            <Cpu className="animate-spin" size={16} />
+                                            <Cpu className="animate-spin" size={18} />
                                         ) : (
-                                            <Layers size={16} />
+                                            <Layers size={18} />
                                         )}
                                         Generate SGP
-                                    </button>
+                                    </motion.button>
                                 </div>
 
                                 {/* SGP Suggestions */}
                                 {sgpSuggestions[game.game_id] && (
                                     <motion.div
-                                        initial={{ height: 0 }}
-                                        animate={{ height: 'auto' }}
-                                        className="bg-slate-900/50 border-t border-slate-700 p-4"
+                                        initial={{ height: 0, opacity: 0 }}
+                                        animate={{ height: 'auto', opacity: 1 }}
+                                        transition={{ duration: 0.4 }}
+                                        style={{
+                                            padding: '28px',
+                                            background: 'var(--bg-card)'
+                                        }}
                                     >
-                                        <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">
+                                        <h4 style={{
+                                            fontSize: '11px',
+                                            fontWeight: '700',
+                                            color: 'var(--text-secondary)',
+                                            textTransform: 'uppercase',
+                                            letterSpacing: '2px',
+                                            marginBottom: '20px',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '8px'
+                                        }}>
+                                            <Layers size={14} style={{ color: 'var(--secondary)' }} />
                                             AI-Optimized Parlay Suggestions
                                         </h4>
-                                        <div className="grid md:grid-cols-3 gap-3">
+                                        <div className="grid-3">
                                             {sgpSuggestions[game.game_id].map((sgp, i) => (
-                                                <div key={i} className="bg-slate-800 rounded-lg p-3 border border-slate-700 hover:border-cyan-500/50 transition-colors cursor-pointer group">
-                                                    <div className="flex justify-between items-start mb-2">
-                                                        <span className="text-xs font-bold text-purple-400 bg-purple-400/10 px-2 py-0.5 rounded">
-                                                            {(sgp.total_odds).toFixed(2)}x Odds
-                                                        </span>
-                                                        <ArrowRight size={14} className="text-slate-600 group-hover:text-cyan-400 transition-colors" />
+                                                <motion.div
+                                                    key={i}
+                                                    initial={{ opacity: 0, y: 20 }}
+                                                    animate={{ opacity: 1, y: 0 }}
+                                                    transition={{ delay: i * 0.1 }}
+                                                    whileHover={{ y: -4, scale: 1.02 }}
+                                                    className="card"
+                                                    style={{
+                                                        padding: '20px',
+                                                        cursor: 'pointer',
+                                                        position: 'relative',
+                                                        borderLeft: `3px solid var(--secondary)`
+                                                    }}
+                                                >
+                                                    <div style={{
+                                                        display: 'flex',
+                                                        justifyContent: 'space-between',
+                                                        alignItems: 'flex-start',
+                                                        marginBottom: '12px'
+                                                    }}>
+                                                        <div className="badge" style={{
+                                                            background: 'rgba(168, 85, 247, 0.1)',
+                                                            color: 'var(--secondary)',
+                                                            border: '1px solid var(--secondary)',
+                                                            fontSize: '11px',
+                                                            fontWeight: '700'
+                                                        }}>
+                                                            {(sgp.total_odds).toFixed(2)}x ODDS
+                                                        </div>
+                                                        <motion.div
+                                                            whileHover={{ x: 4 }}
+                                                            transition={{ type: 'spring', stiffness: 300 }}
+                                                        >
+                                                            <ArrowRight size={16} style={{ color: 'var(--primary)' }} />
+                                                        </motion.div>
                                                     </div>
-                                                    <div className="text-sm font-medium text-white mb-1">{sgp.name}</div>
-                                                    <div className="text-xs text-slate-500 line-clamp-2">{sgp.reasoning}</div>
-                                                </div>
+                                                    <div style={{
+                                                        fontSize: '15px',
+                                                        fontWeight: '700',
+                                                        color: 'var(--text-primary)',
+                                                        marginBottom: '8px'
+                                                    }}>{sgp.name}</div>
+                                                    <div style={{
+                                                        fontSize: '13px',
+                                                        color: 'var(--text-secondary)',
+                                                        lineHeight: '1.5',
+                                                        display: '-webkit-box',
+                                                        WebkitLineClamp: 2,
+                                                        WebkitBoxOrient: 'vertical',
+                                                        overflow: 'hidden'
+                                                    }}>{sgp.reasoning}</div>
+                                                </motion.div>
                                             ))}
                                         </div>
                                     </motion.div>
                                 )}
-                            </div>
+                            </motion.div>
                         ))}
                     </div>
                 </motion.div>

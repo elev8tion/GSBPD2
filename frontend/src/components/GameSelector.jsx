@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Calendar } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Calendar, ChevronRight } from 'lucide-react';
 
 const GameSelector = ({ onSelectGame }) => {
     const [games, setGames] = useState([]);
@@ -21,37 +22,84 @@ const GameSelector = ({ onSelectGame }) => {
         fetchGames();
     }, []);
 
-    if (loading) return <div className="text-center text-gray-500 text-sm">Loading upcoming games...</div>;
+    if (loading) {
+        return (
+            <div className="skeleton" style={{ height: '200px', marginBottom: '32px' }} />
+        );
+    }
 
     return (
-        <div className="mb-8">
-            <div className="flex items-center gap-2 mb-4">
-                <Calendar className="text-cyan-400" size={20} />
-                <h2 className="text-lg font-semibold text-slate-200">Upcoming Games (Real-Time)</h2>
+        <div style={{ marginBottom: '32px' }}>
+            <div className="section-header">
+                <Calendar className="section-icon" size={24} />
+                <h2 className="section-title">Upcoming Games (Real-Time)</h2>
             </div>
 
-            <div className="grid gap-3">
-                {games.map((game) => (
-                    <button
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                {games.map((game, index) => (
+                    <motion.button
                         key={game.id}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: index * 0.05 }}
+                        whileHover={{ scale: 1.02, x: 4 }}
+                        whileTap={{ scale: 0.98 }}
                         onClick={() => onSelectGame({
                             team_strength: game.home_strength,
                             opponent_strength: game.away_strength,
-                            home_advantage: 1, // Assuming user picks home team perspective
+                            home_advantage: 1,
                             label: `${game.home_team} vs ${game.away_team}`
                         })}
-                        className="flex items-center justify-between p-4 glass-panel hover:bg-slate-800/50 transition-colors text-left group"
+                        className="card"
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            padding: '20px',
+                            textAlign: 'left',
+                            border: 'none',
+                            cursor: 'pointer',
+                            position: 'relative',
+                            overflow: 'hidden'
+                        }}
                     >
-                        <div>
-                            <div className="font-bold text-white group-hover:text-cyan-400 transition-colors">
-                                {game.home_team} vs {game.away_team}
+                        <div style={{ flex: 1 }}>
+                            <div style={{
+                                fontWeight: '700',
+                                color: 'var(--text-primary)',
+                                fontSize: '15px',
+                                marginBottom: '8px',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '8px'
+                            }}>
+                                {game.home_team} <span style={{ color: 'var(--text-tertiary)' }}>vs</span> {game.away_team}
                             </div>
-                            <div className="text-xs text-gray-500">{game.commence_time}</div>
+                            <div style={{
+                                fontSize: '12px',
+                                color: 'var(--text-secondary)',
+                                fontFamily: 'monospace'
+                            }}>{game.commence_time}</div>
                         </div>
-                        <div className="text-xs bg-slate-700 px-2 py-1 rounded text-gray-300">
-                            Select
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '8px'
+                        }}>
+                            <div style={{
+                                fontSize: '12px',
+                                background: 'var(--bg-elevated)',
+                                padding: '6px 12px',
+                                borderRadius: 'var(--radius-sm)',
+                                color: 'var(--primary)',
+                                fontWeight: '600',
+                                border: '1px solid var(--border-subtle)'
+                            }}>
+                                Select
+                            </div>
+                            <ChevronRight size={16} style={{ color: 'var(--primary)' }} />
                         </div>
-                    </button>
+                    </motion.button>
                 ))}
             </div>
         </div>
