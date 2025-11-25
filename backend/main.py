@@ -19,6 +19,8 @@ app.add_middleware(
 from services.odds_api import OddsAPIService
 from services.knowledge_base import KnowledgeBaseService
 from services.sgp_engine import SGPEngine
+from services.nba_service import NBADataService
+from services.nfl_service import NFLDataService
 
 # Initialize services
 model_service = PredictionModel()
@@ -27,6 +29,8 @@ data_service = DataService()
 odds_service = OddsAPIService()
 kb_service = KnowledgeBaseService() # Replaces portfolio_service
 sgp_engine = SGPEngine()
+nba_service = NBADataService()
+nfl_service = NFLDataService()
 
 class PredictionRequest(BaseModel):
     team_strength: float
@@ -310,3 +314,105 @@ def ingest_youtube(request: YouTubeIngestRequest):
         sport=request.sport,
         category=request.category
     )
+
+# ============ NBA DATA ENDPOINTS ============
+
+@app.get("/nba/teams")
+def get_all_nba_teams():
+    """Get all NBA teams with current stats"""
+    try:
+        teams = nba_service.get_all_teams()
+        return {"teams": teams, "total": len(teams)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get teams: {str(e)}")
+
+@app.get("/nba/teams/{team_id}")
+def get_nba_team(team_id: str):
+    """Get specific NBA team by ID"""
+    try:
+        team = nba_service.get_team_by_id(team_id)
+        if not team:
+            raise HTTPException(status_code=404, detail=f"Team {team_id} not found")
+        return team
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get team: {str(e)}")
+
+@app.get("/nba/teams/{team_id}/roster")
+def get_team_roster(team_id: str):
+    """Get roster for a specific team"""
+    try:
+        players = nba_service.get_players_by_team(team_id)
+        return {"team_id": team_id, "players": players, "total": len(players)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get roster: {str(e)}")
+
+@app.get("/nba/players")
+def get_all_nba_players():
+    """Get all NBA players"""
+    try:
+        players = nba_service.get_all_players()
+        return {"players": players, "total": len(players)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get players: {str(e)}")
+
+@app.post("/nba/scrape")
+def scrape_nba_data():
+    """Scrape fresh NBA data from nba.com using Firecrawl"""
+    try:
+        result = nba_service.scrape_all_teams()
+        return {"status": "success", "message": "NBA data scraped successfully", "data": result}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Scraping failed: {str(e)}")
+
+# ============ NFL DATA ENDPOINTS ============
+
+@app.get("/nfl/teams")
+def get_all_nfl_teams():
+    """Get all NFL teams with current stats"""
+    try:
+        teams = nfl_service.get_all_teams()
+        return {"teams": teams, "total": len(teams)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get teams: {str(e)}")
+
+@app.get("/nfl/teams/{team_id}")
+def get_nfl_team(team_id: str):
+    """Get specific NFL team by ID"""
+    try:
+        team = nfl_service.get_team_by_id(team_id)
+        if not team:
+            raise HTTPException(status_code=404, detail=f"Team {team_id} not found")
+        return team
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get team: {str(e)}")
+
+@app.get("/nfl/teams/{team_id}/roster")
+def get_nfl_team_roster(team_id: str):
+    """Get roster for a specific NFL team"""
+    try:
+        players = nfl_service.get_players_by_team(team_id)
+        return {"team_id": team_id, "players": players, "total": len(players)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get roster: {str(e)}")
+
+@app.get("/nfl/players")
+def get_all_nfl_players():
+    """Get all NFL players"""
+    try:
+        players = nfl_service.get_all_players()
+        return {"players": players, "total": len(players)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get players: {str(e)}")
+
+@app.post("/nfl/scrape")
+def scrape_nfl_data():
+    """Scrape fresh NFL data from nfl.com using Firecrawl"""
+    try:
+        result = nfl_service.scrape_all_teams()
+        return {"status": "success", "message": "NFL data scraped successfully", "data": result}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Scraping failed: {str(e)}")
