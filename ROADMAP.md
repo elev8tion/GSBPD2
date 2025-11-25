@@ -30,7 +30,7 @@ Build a **professional-grade sports betting intelligence platform** that combine
 ### 🟡 What's Mock
 - NFL games list (3 hardcoded teams)
 - Video OCR detection (fake game extraction)
-- Grok insights (template-based, not real AI)
+- KC DaCRE8TOR insights (template-based, not real AI)
 - SGP prop odds (hardcoded, not from sportsbook)
 
 ---
@@ -129,7 +129,7 @@ Build a **professional-grade sports betting intelligence platform** that combine
   - Create prompt template for insights
   - Include SHAP values in context
   - Generate personalized betting advice
-  - File: backend/grok.py (entire rewrite)
+  - File: backend/grok.py (rename to insights.py and rewrite)
 
 #### Priority 2.3: Advanced SGP Engine
 - [ ] **Real Prop Odds Integration** (4 hours)

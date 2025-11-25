@@ -1,4 +1,4 @@
-# Grok's Sports Betting Prediction Dashboard (GSBPD)
+# KC DaCRE8TOR's Sports Betting Prediction Dashboard (GSBPD)
 
 AI-Powered Sports Betting Intelligence Platform with Advanced Memory Integration
 

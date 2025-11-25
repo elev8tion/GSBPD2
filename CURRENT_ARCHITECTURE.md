@@ -1,5 +1,5 @@
 # Current Architecture Documentation
-## Grok's Sports Betting Prediction Dashboard - Complete System Inventory
+## KC DaCRE8TOR's Sports Betting Prediction Dashboard - Complete System Inventory
 
 **Document Purpose**: Exact documentation of the current React/FastAPI architecture for refactoring reference. This is a complete inventory of all files, dependencies, integrations, data flows, and functionality as it exists today.
 
@@ -103,9 +103,9 @@
 - **Used**: Only for first-time model training (auto-triggered on first prediction)
 - **To Make Real**: Place bets through UI → Resolve outcomes → Retrain with `/train` endpoint
 
-**Grok Insights** ⚠️
+**KC DaCRE8TOR Insights** ⚠️
 - **Current**: Template-based text generation (backend/grok.py)
-- **To Make Real**: Would need Grok API integration or OpenAI GPT API
+- **To Make Real**: Would need OpenAI GPT API or Anthropic Claude API
 
 **SGP Engine** ⚠️
 - **Current**: Correlation matrix with mock prop odds (backend/services/sgp_engine.py)
@@ -119,7 +119,7 @@
 1. ✅ REAL XGBoost model predicts spread margin
 2. ✅ REAL SHAP values explain the prediction
 3. ✅ REAL chart visualization in Recharts
-4. 🟡 MOCK Grok insight text (but logically sound)
+4. 🟡 MOCK KC DaCRE8TOR insight text (but logically sound)
 
 **Selecting an Upcoming Game:**
 1. 🟡 MOCK game data (3 hardcoded teams)
@@ -148,7 +148,7 @@
 2. Add more training data → Better predictions
 
 **Future Enhancements:**
-1. Grok/GPT API → Real AI insights
+1. GPT/Claude API → Real AI insights
 2. Sportsbook API → Real prop odds
 3. User authentication → Multi-user support
 
@@ -159,7 +159,7 @@
 ### Complete Directory Tree
 
 ```
-Grok's_Sports_Betting_Prediction_Dashboard/
+KC_DaCRE8TOR_Sports_Betting_Prediction_Dashboard/
 ├── .git/                                    # Git repository
 ├── .gitignore                               # 497 bytes
 ├── .venv/                                   # Python virtual environment
@@ -247,7 +247,7 @@ Grok's_Sports_Betting_Prediction_Dashboard/
 **Services Initialized**:
 ```python
 model_service = PredictionModel()           # XGBoost model
-grok_service = GrokInsightGenerator()       # AI insights
+grok_service = GrokInsightGenerator()       # KC DaCRE8TOR insights
 data_service = DataService()                # Mock data
 odds_service = OddsAPIService()             # The Odds API
 kb_service = KnowledgeBaseService()         # Memvid storage
@@ -311,7 +311,7 @@ sgp_engine = SGPEngine()                    # Parlay calculator
 - Uses `TreeExplainer` for feature importance
 - Returns SHAP values as dictionary for frontend visualization
 
-### 3.3 Grok Insight Generator (`backend/grok.py`)
+### 3.3 KC DaCRE8TOR Insight Generator (`backend/grok.py`)
 
 **Purpose**: Generates witty AI insights based on predictions
 
@@ -767,7 +767,7 @@ XGBoost model retraining (asynchronous)
     ↓
 Model saved (if implemented)
     ↓
-Return: {status: "training_started", message: "Grok is learning from X past events..."}
+Return: {status: "training_started", message: "KC DaCRE8TOR is learning from X past events..."}
 ```
 
 ---
@@ -792,7 +792,7 @@ Return: {status: "training_started", message: "Grok is learning from X past even
 
 #### `/health`
 - **No authentication required**
-- **Returns**: Server status and Grok message
+- **Returns**: Server status and KC DaCRE8TOR message
 - **Use case**: Monitoring, debugging
 
 #### `/games`
