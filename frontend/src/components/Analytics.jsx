@@ -6,10 +6,35 @@ import { TrendingUp, DollarSign, Percent, Target, Calendar, Award } from 'lucide
 
 const API_URL = 'http://localhost:8000';
 
+// Mock data for demonstration
+const MOCK_BETS = [
+  { id: 1, bet_type: 'moneyline', sport: 'NFL', team: 'Chiefs', odds: -150, wager_amount: 150, status: 'win', date: '2025-01-20' },
+  { id: 2, bet_type: 'spread', sport: 'NBA', team: 'Lakers -5.5', odds: -110, wager_amount: 110, status: 'win', date: '2025-01-20' },
+  { id: 3, bet_type: 'totals', sport: 'NFL', team: 'Over 47.5', odds: -105, wager_amount: 105, status: 'loss', date: '2025-01-19' },
+  { id: 4, bet_type: 'prop_bet', sport: 'NBA', team: 'LeBron Over 25.5 Pts', odds: 120, wager_amount: 100, status: 'win', date: '2025-01-19' },
+  { id: 5, bet_type: 'parlay', sport: 'NFL', team: '3-Team Parlay', odds: 600, wager_amount: 50, status: 'loss', date: '2025-01-18' },
+  { id: 6, bet_type: 'moneyline', sport: 'NBA', team: 'Warriors', odds: 180, wager_amount: 100, status: 'win', date: '2025-01-18' },
+  { id: 7, bet_type: 'spread', sport: 'NFL', team: '49ers -3', odds: -110, wager_amount: 110, status: 'push', date: '2025-01-17' },
+  { id: 8, bet_type: 'totals', sport: 'NBA', team: 'Under 225.5', odds: -115, wager_amount: 115, status: 'win', date: '2025-01-17' },
+  { id: 9, bet_type: 'moneyline', sport: 'NFL', team: 'Ravens', odds: -200, wager_amount: 200, status: 'win', date: '2025-01-16' },
+  { id: 10, bet_type: 'prop_bet', sport: 'NBA', team: 'Curry Over 4.5 3PM', odds: -120, wager_amount: 120, status: 'loss', date: '2025-01-16' },
+  { id: 11, bet_type: 'spread', sport: 'NFL', team: 'Bills -7', odds: -110, wager_amount: 110, status: 'win', date: '2025-01-15' },
+  { id: 12, bet_type: 'totals', sport: 'NBA', team: 'Over 218.5', odds: -110, wager_amount: 110, status: 'loss', date: '2025-01-15' },
+  { id: 13, bet_type: 'parlay', sport: 'NFL', team: '2-Team Parlay', odds: 260, wager_amount: 75, status: 'win', date: '2025-01-14' },
+  { id: 14, bet_type: 'moneyline', sport: 'NBA', team: 'Celtics', odds: -180, wager_amount: 180, status: 'win', date: '2025-01-14' },
+  { id: 15, bet_type: 'spread', sport: 'NFL', team: 'Cowboys +3.5', odds: -105, wager_amount: 105, status: 'loss', date: '2025-01-13' },
+  { id: 16, bet_type: 'prop_bet', sport: 'NBA', team: 'Giannis Over 30.5 Pts', odds: 110, wager_amount: 100, status: 'win', date: '2025-01-13' },
+  { id: 17, bet_type: 'totals', sport: 'NFL', team: 'Under 51.5', odds: -110, wager_amount: 110, status: 'win', date: '2025-01-12' },
+  { id: 18, bet_type: 'moneyline', sport: 'NBA', team: 'Nuggets', odds: -140, wager_amount: 140, status: 'loss', date: '2025-01-12' },
+  { id: 19, bet_type: 'spread', sport: 'NFL', team: 'Eagles -6', odds: -110, wager_amount: 110, status: 'win', date: '2025-01-11' },
+  { id: 20, bet_type: 'parlay', sport: 'NBA', team: '4-Team Parlay', odds: 1200, wager_amount: 50, status: 'loss', date: '2025-01-11' },
+];
+
 const Analytics = () => {
   const [bets, setBets] = useState([]);
   const [loading, setLoading] = useState(true);
   const [dateRange, setDateRange] = useState('all'); // 'all', '30d', '7d'
+  const [useMockData, setUseMockData] = useState(false);
 
   useEffect(() => {
     fetchBets();
@@ -18,9 +43,19 @@ const Analytics = () => {
   const fetchBets = async () => {
     try {
       const response = await axios.get(`${API_URL}/portfolio`);
-      setBets(response.data);
+      if (response.data && response.data.length > 0) {
+        setBets(response.data);
+        setUseMockData(false);
+      } else {
+        // Use mock data when no real data is available
+        setBets(MOCK_BETS);
+        setUseMockData(true);
+      }
     } catch (error) {
       console.error('Failed to fetch bets:', error);
+      // Use mock data on error
+      setBets(MOCK_BETS);
+      setUseMockData(true);
     } finally {
       setLoading(false);
     }
@@ -130,8 +165,23 @@ const Analytics = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="card-elevated"
-        style={{ padding: '40px', textAlign: 'center' }}
+        style={{ padding: '40px', textAlign: 'center', position: 'relative' }}
       >
+        {useMockData && (
+          <div style={{
+            position: 'absolute',
+            top: '16px',
+            right: '16px',
+            padding: '6px 12px',
+            background: 'var(--accent)',
+            borderRadius: 'var(--radius-md)',
+            fontSize: '12px',
+            fontWeight: '600',
+            color: 'var(--text-primary)'
+          }}>
+            Demo Data
+          </div>
+        )}
         <TrendingUp size={48} style={{ color: 'var(--success)', marginBottom: '16px' }} />
         <h2 style={{
           fontSize: '32px',
