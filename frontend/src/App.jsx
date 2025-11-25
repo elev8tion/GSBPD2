@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Activity, Zap, Wallet, LayoutDashboard, GitMerge, Database } from 'lucide-react';
+import { Activity, Zap, Wallet, LayoutDashboard, GitMerge, Database, Settings as SettingsIcon, TrendingUp } from 'lucide-react';
 import PredictionCard from './components/PredictionCard';
 import GrokInsight from './components/GrokInsight';
 import StatsChart from './components/StatsChart';
@@ -10,6 +10,9 @@ import ExplainabilityChart from './components/ExplainabilityChart';
 import Portfolio from './components/Portfolio';
 import Pipeline from './components/Pipeline';
 import MemorySearch from './components/MemorySearch';
+import BetPlacementModal from './components/BetPlacementModal';
+import Settings from './components/Settings';
+import Analytics from './components/Analytics';
 import './App.css';
 
 const API_URL = 'http://localhost:8000';
@@ -21,6 +24,8 @@ function App() {
   const [shapValues, setShapValues] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [lastInput, setLastInput] = useState(null);
+  const [isBetModalOpen, setIsBetModalOpen] = useState(false);
+  const [betSuccess, setBetSuccess] = useState(false);
 
   const handlePredict = async (data) => {
     setIsLoading(true);
@@ -39,10 +44,18 @@ function App() {
   };
 
   const handleSelectGame = (gameData) => {
-    // Pre-fill the prediction card (logic handled by passing props or context, 
+    // Pre-fill the prediction card (logic handled by passing props or context,
     // but for now we'll just trigger a prediction or update state if we refactor PredictionCard)
     // For this demo, we'll auto-predict
     handlePredict(gameData);
+  };
+
+  const handleBetModalClose = (success) => {
+    setIsBetModalOpen(false);
+    if (success) {
+      setBetSuccess(true);
+      setTimeout(() => setBetSuccess(false), 3000);
+    }
   };
 
   return (
@@ -124,6 +137,24 @@ function App() {
             >
               <Wallet size={20} />
               <span>My Bets</span>
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => setActiveTab('analytics')}
+              className={`tab-button ${activeTab === 'analytics' ? 'active' : ''}`}
+            >
+              <TrendingUp size={20} />
+              <span>Analytics</span>
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => setActiveTab('settings')}
+              className={`tab-button ${activeTab === 'settings' ? 'active' : ''}`}
+            >
+              <SettingsIcon size={20} />
+              <span>Settings</span>
             </motion.button>
           </nav>
         </div>
@@ -214,6 +245,48 @@ function App() {
                       <GrokInsight insight={insight} prediction={prediction} />
 
                       <ExplainabilityChart shapValues={shapValues} />
+
+                      <motion.button
+                        whileHover={{ scale: 1.02 }}
+                        whileTap={{ scale: 0.98 }}
+                        onClick={() => setIsBetModalOpen(true)}
+                        style={{
+                          width: '100%',
+                          padding: '16px 24px',
+                          fontSize: '16px',
+                          fontWeight: '700',
+                          borderRadius: 'var(--radius-md)',
+                          border: 'none',
+                          background: 'linear-gradient(135deg, var(--success), var(--primary))',
+                          color: 'var(--bg-dark)',
+                          cursor: 'pointer',
+                          boxShadow: 'var(--shadow-md)',
+                          textTransform: 'uppercase',
+                          letterSpacing: '1px'
+                        }}
+                      >
+                        Place Bet on This Prediction
+                      </motion.button>
+
+                      {betSuccess && (
+                        <motion.div
+                          initial={{ opacity: 0, y: -10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0 }}
+                          style={{
+                            padding: '12px 16px',
+                            background: 'rgba(0, 255, 136, 0.1)',
+                            border: '1px solid var(--success)',
+                            borderRadius: 'var(--radius-md)',
+                            color: 'var(--success)',
+                            textAlign: 'center',
+                            fontSize: '14px',
+                            fontWeight: '600'
+                          }}
+                        >
+                          ✓ Bet placed successfully! Check the My Bets tab.
+                        </motion.div>
+                      )}
                     </motion.div>
                   ) : (
                     <div className="card" style={{
@@ -268,7 +341,38 @@ function App() {
               <Portfolio />
             </motion.div>
           )}
+
+          {activeTab === 'analytics' && (
+            <motion.div
+              key="analytics"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              <Analytics />
+            </motion.div>
+          )}
+
+          {activeTab === 'settings' && (
+            <motion.div
+              key="settings"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              <Settings />
+            </motion.div>
+          )}
         </AnimatePresence>
+
+        <BetPlacementModal
+          isOpen={isBetModalOpen}
+          onClose={handleBetModalClose}
+          prediction={prediction}
+          gameData={lastInput}
+        />
     </div>
   );
 }
