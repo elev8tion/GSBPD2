@@ -316,51 +316,131 @@ const Analytics = () => {
             <h2 className="section-title">Bet Type Performance</h2>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '32px' }}>
-            <ResponsiveContainer width="100%" height={300}>
-              <PieChart>
-                <Pie
-                  data={betTypeDistribution}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
-                  outerRadius={100}
-                  fill="#8884d8"
-                  dataKey="value"
-                >
-                  {betTypeDistribution.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip
-                  contentStyle={{
-                    background: 'var(--bg-elevated)',
-                    border: '1px solid var(--border-subtle)',
-                    borderRadius: 'var(--radius-md)',
-                    color: 'var(--text-primary)'
-                  }}
-                />
-              </PieChart>
-            </ResponsiveContainer>
-
-            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '16px' }}>
-              {betTypeDistribution.map((type, index) => (
-                <div key={index} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '12px', background: 'var(--bg-elevated)', borderRadius: 'var(--radius-md)', borderLeft: `4px solid ${COLORS[index % COLORS.length]}` }}>
-                  <div>
-                    <div style={{ fontWeight: '600', color: 'var(--text-primary)' }}>{type.name}</div>
-                    <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{type.value} bets total</div>
-                  </div>
-                  <div style={{ textAlign: 'right' }}>
-                    <div className={`badge ${type.wins / type.value >= 0.5 ? 'success' : 'danger'}`}>
-                      {((type.wins / type.value) * 100).toFixed(0)}% Win Rate
-                    </div>
-                    <div style={{ fontSize: '12px', color: 'var(--text-tertiary)', marginTop: '4px' }}>
-                      {type.wins}W - {type.value - type.wins}L
-                    </div>
-                  </div>
+          <div style={{ display: 'grid', gridTemplateColumns: '400px 1fr', gap: '48px', alignItems: 'center' }}>
+            {/* Modern Donut Chart */}
+            <div style={{ position: 'relative' }}>
+              <ResponsiveContainer width="100%" height={320}>
+                <PieChart>
+                  <Pie
+                    data={betTypeDistribution}
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={85}
+                    outerRadius={120}
+                    paddingAngle={2}
+                    dataKey="value"
+                    stroke="none"
+                  >
+                    {betTypeDistribution.map((entry, index) => (
+                      <Cell
+                        key={`cell-${index}`}
+                        fill={COLORS[index % COLORS.length]}
+                      />
+                    ))}
+                  </Pie>
+                  <Tooltip
+                    contentStyle={{
+                      background: 'var(--bg-elevated)',
+                      border: '1px solid var(--border-strong)',
+                      borderRadius: '8px',
+                      color: 'var(--text-primary)',
+                      fontSize: '13px',
+                      padding: '8px 12px',
+                      boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)'
+                    }}
+                  />
+                </PieChart>
+              </ResponsiveContainer>
+              {/* Center Label */}
+              <div style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                textAlign: 'center',
+                pointerEvents: 'none'
+              }}>
+                <div style={{ fontSize: '32px', fontWeight: '700', color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
+                  {resolvedBets.length}
                 </div>
-              ))}
+                <div style={{ fontSize: '13px', color: 'var(--text-secondary)', marginTop: '4px', fontWeight: '500' }}>
+                  Total Bets
+                </div>
+              </div>
+            </div>
+
+            {/* Clean Legend with Stats */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              {betTypeDistribution.map((type, index) => {
+                const percentage = ((type.value / resolvedBets.length) * 100).toFixed(1);
+                const winRate = ((type.wins / type.value) * 100).toFixed(0);
+
+                return (
+                  <div
+                    key={index}
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      padding: '16px 20px',
+                      background: 'var(--bg-elevated)',
+                      borderRadius: '10px',
+                      border: '1px solid var(--border-subtle)',
+                      transition: 'all 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
+                      cursor: 'pointer'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = COLORS[index % COLORS.length];
+                      e.currentTarget.style.transform = 'translateX(4px)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = 'var(--border-subtle)';
+                      e.currentTarget.style.transform = 'translateX(0)';
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '14px', flex: 1 }}>
+                      <div style={{
+                        width: '12px',
+                        height: '12px',
+                        borderRadius: '3px',
+                        background: COLORS[index % COLORS.length],
+                        flexShrink: 0
+                      }} />
+                      <div style={{ flex: 1 }}>
+                        <div style={{
+                          fontWeight: '600',
+                          color: 'var(--text-primary)',
+                          fontSize: '14px',
+                          letterSpacing: '-0.01em',
+                          marginBottom: '4px'
+                        }}>
+                          {type.name}
+                        </div>
+                        <div style={{
+                          fontSize: '12px',
+                          color: 'var(--text-secondary)',
+                          fontWeight: '500'
+                        }}>
+                          {type.value} bets ({percentage}%)
+                        </div>
+                      </div>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '6px' }}>
+                      <div className={`badge ${Number(winRate) >= 50 ? 'success' : 'danger'}`}>
+                        {winRate}% Win
+                      </div>
+                      <div style={{
+                        fontSize: '11px',
+                        color: 'var(--text-tertiary)',
+                        fontWeight: '600',
+                        letterSpacing: '0.02em'
+                      }}>
+                        {type.wins}W - {type.value - type.wins}L
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </motion.div>
