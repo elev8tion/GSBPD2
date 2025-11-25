@@ -168,12 +168,6 @@ function App() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
                 <section>
                   <GameSelector onSelectGame={handleSelectGame} />
-
-                  <div className="section-header" style={{ marginTop: '32px' }}>
-                    <Zap className="section-icon" style={{ color: 'var(--warning)' }} size={24} />
-                    <h2 className="section-title">Custom Parameters</h2>
-                  </div>
-                  <PredictionCard onPredict={handlePredict} isLoading={isLoading} />
                 </section>
 
                 {lastInput && (
