@@ -3,23 +3,26 @@
 
 **Document Purpose**: Exact documentation of the current React/FastAPI architecture for refactoring reference. This is a complete inventory of all files, dependencies, integrations, data flows, and functionality as it exists today.
 
-**Last Updated**: 2025-11-24  
-**Version**: 1.0 (Current Production State)
+**Last Updated**: 2025-11-25
+**Version**: 1.1 (UI Redesigned + Dependencies Fixed)
+
+**STATUS**: ✅ Fully Running (Backend: localhost:8000 | Frontend: localhost:5173)
 
 ---
 
 ## Table of Contents
 1. [System Overview](#system-overview)
-2. [File Structure](#file-structure)
-3. [Backend Architecture](#backend-architecture)
-4. [Frontend Architecture](#frontend-architecture)
-5. [Memvid Integration](#memvid-integration)
-6. [Data Flow](#data-flow)
-7. [API Endpoints](#api-endpoints)
-8. [Dependencies](#dependencies)
-9. [Services Layer](#services-layer)
-10. [State Management](#state-management)
-11. [Storage & Persistence](#storage--persistence)
+2. [REAL vs MOCK Status](#real-vs-mock-status) ⭐ NEW
+3. [File Structure](#file-structure)
+4. [Backend Architecture](#backend-architecture)
+5. [Frontend Architecture](#frontend-architecture)
+6. [Memvid Integration](#memvid-integration)
+7. [Data Flow](#data-flow)
+8. [API Endpoints](#api-endpoints)
+9. [Dependencies](#dependencies)
+10. [Services Layer](#services-layer)
+11. [State Management](#state-management)
+12. [Storage & Persistence](#storage--persistence)
 
 ---
 
@@ -40,7 +43,118 @@
 
 ---
 
-## 2. File Structure
+## 2. REAL vs MOCK Status
+
+### 🟢 REAL & FUNCTIONAL (Production Ready)
+
+**Machine Learning**
+- ✅ **XGBoost Model**: Real gradient boosting algorithm (backend/model.py:27)
+  - Auto-trains on first prediction using mock data
+  - Can retrain with YOUR real betting data via `/train` endpoint
+  - Model file: `xgboost_model.pkl` (created after first use)
+
+- ✅ **SHAP Explainability**: Real AI feature importance (backend/model.py:42-50)
+  - Shows exactly why each prediction was made
+  - Breaks down contribution of each feature (team strength, opponent strength, home advantage)
+  - Visualized as horizontal bar chart in frontend
+
+**Data Storage**
+- ✅ **Memvid Knowledge Base**: Real video-based compression storage (backend/services/knowledge_base.py)
+  - Stores data AS video frames using QR codes (wild but real!)
+  - Files: `knowledge_base.mp4`, `knowledge_base_index.json`, `kb_backup.json`
+  - Supports bets, game observations, video ingest results
+  - Can be used to retrain model with your actual betting history
+
+**Frontend UI**
+- ✅ **React 19 + Framer Motion**: Fully redesigned futuristic outer space theme
+  - Double black backgrounds (#0A0A0A, #141414, #1A1A1A)
+  - Trending 2025 bright accent colors (Electric Cyan, Stellar Purple, Neon Green, Hot Pink)
+  - Zero gradients (solid surfaces only)
+  - 24px rounded borders throughout
+  - Comprehensive micro-interactions and animations
+  - All 9 components working (Dashboard, Pipeline, Portfolio)
+
+**Python Environment**
+- ✅ **Virtual Environment**: Fully configured with all dependencies
+  - Location: `/Users/kcdacre8tor/GSBPD2/venv/`
+  - All packages installed including memvid, SHAP, OpenCV
+  - Backend server running on port 8000
+
+### 🟡 MOCK DATA (Can Be Made Real)
+
+**NFL Games Data** ⚠️
+- **Current**: Mock games (Chiefs vs Bills, Eagles vs Cowboys, 49ers vs Ravens)
+- **Source**: backend/services/odds_api.py:53-81
+- **Why Mock**: No `ODDS_API_KEY` environment variable set
+- **To Make Real**:
+  - Sign up at https://the-odds-api.com (free tier: 500 requests/month)
+  - Set environment variable: `export ODDS_API_KEY=your_key_here`
+  - Restart backend server
+  - Will pull LIVE upcoming NFL games with real odds and timestamps
+
+**Video OCR Detection** ⚠️
+- **Current**: Mock detections (backend/services/knowledge_base.py:40-44)
+- **Behavior**: Always finds 3 fake games (Ravens vs Bengals, Eagles vs Cowboys, 49ers vs Seahawks) regardless of video content
+- **Why Mock**: Real OCR requires computer vision implementation
+- **To Make Real**: Would need Tesseract OCR or EasyOCR + frame sampling logic
+
+**Initial Training Data** ⚠️
+- **Current**: Mock dataset (backend/data_service.py)
+- **Used**: Only for first-time model training (auto-triggered on first prediction)
+- **To Make Real**: Place bets through UI → Resolve outcomes → Retrain with `/train` endpoint
+
+**Grok Insights** ⚠️
+- **Current**: Template-based text generation (backend/grok.py)
+- **To Make Real**: Would need Grok API integration or OpenAI GPT API
+
+**SGP Engine** ⚠️
+- **Current**: Correlation matrix with mock prop odds (backend/services/sgp_engine.py)
+- **Generates**: Real parlay combinations with correlation penalties
+- **Mock Part**: Individual prop odds are hardcoded (not from sportsbook API)
+- **To Make Real**: Integrate with real sportsbook prop odds API
+
+### 📊 What You See When You Use It Right Now
+
+**Making a Prediction:**
+1. ✅ REAL XGBoost model predicts spread margin
+2. ✅ REAL SHAP values explain the prediction
+3. ✅ REAL chart visualization in Recharts
+4. 🟡 MOCK Grok insight text (but logically sound)
+
+**Selecting an Upcoming Game:**
+1. 🟡 MOCK game data (3 hardcoded teams)
+2. ✅ REAL prediction on that mock data
+3. ✅ REAL SHAP explanation
+
+**Placing a Bet:**
+1. ✅ REAL Memvid storage (saved to video!)
+2. ✅ REAL JSON backup (kb_backup.json)
+3. ✅ Can retrain model using your bet data
+
+**Uploading a Video (Pipeline Tab):**
+1. ✅ REAL OpenCV video processing
+2. 🟡 MOCK OCR detection (finds 3 fake games)
+3. ✅ REAL Memvid storage of results
+4. ✅ REAL SGP generation based on mock data
+
+### 🎯 Quick Path to "More Real"
+
+**5-Minute Fixes:**
+1. Get Odds API key → Real NFL games
+2. Check if model file exists → Persistent predictions
+
+**1-Hour Improvements:**
+1. Implement basic OCR → Real video detection
+2. Add more training data → Better predictions
+
+**Future Enhancements:**
+1. Grok/GPT API → Real AI insights
+2. Sportsbook API → Real prop odds
+3. User authentication → Multi-user support
+
+---
+
+## 3. File Structure
 
 ### Complete Directory Tree
 
