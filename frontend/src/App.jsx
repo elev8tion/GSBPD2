@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Activity, Zap, Wallet, LayoutDashboard, GitMerge } from 'lucide-react';
+import { Activity, Zap, Wallet, LayoutDashboard, GitMerge, Database } from 'lucide-react';
 import PredictionCard from './components/PredictionCard';
 import GrokInsight from './components/GrokInsight';
 import StatsChart from './components/StatsChart';
@@ -9,6 +9,7 @@ import GameSelector from './components/GameSelector';
 import ExplainabilityChart from './components/ExplainabilityChart';
 import Portfolio from './components/Portfolio';
 import Pipeline from './components/Pipeline';
+import MemorySearch from './components/MemorySearch';
 import './App.css';
 
 const API_URL = 'http://localhost:8000';
@@ -105,6 +106,15 @@ function App() {
             >
               <GitMerge size={20} />
               <span>Pipeline</span>
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => setActiveTab('knowledge')}
+              className={`tab-button ${activeTab === 'knowledge' ? 'active' : ''}`}
+            >
+              <Database size={20} />
+              <span>Knowledge Base</span>
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.02 }}
@@ -232,6 +242,18 @@ function App() {
               transition={{ duration: 0.3 }}
             >
               <Pipeline />
+            </motion.div>
+          )}
+
+          {activeTab === 'knowledge' && (
+            <motion.div
+              key="knowledge"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              <MemorySearch />
             </motion.div>
           )}
 

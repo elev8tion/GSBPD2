@@ -141,3 +141,52 @@ def predict(request: PredictionRequest):
         "grok_insight": insight,
         "shap_values": shap_values or {}
     }
+
+# ==================== NEW MEMVID PIPELINE ENDPOINTS ====================
+
+class MemorySearchRequest(BaseModel):
+    query: str
+    memories: list = []  # Empty = search all
+    top_k: int = 5
+
+class YouTubeIngestRequest(BaseModel):
+    url: str
+    sport: str = "nfl"  # nfl or nba
+    category: str = "highlights"  # highlights, analysis, player-stats
+
+class TextMemoryRequest(BaseModel):
+    memory_name: str
+    docs_dir: str
+    sport: str = "nfl"
+
+@app.post("/memories/search")
+def search_memories(request: MemorySearchRequest):
+    """Search across memvid memories for relevant knowledge."""
+    return kb_service.search_memories(
+        query=request.query,
+        memories=request.memories if request.memories else None,
+        top_k=request.top_k
+    )
+
+@app.get("/memories/list")
+def list_memories():
+    """List all available memvid memories."""
+    return kb_service.list_all_memories()
+
+@app.post("/memories/create")
+def create_text_memory(request: TextMemoryRequest):
+    """Create a new memory from text documents."""
+    return kb_service.create_memory_from_text(
+        memory_name=request.memory_name,
+        docs_dir=request.docs_dir,
+        sport=request.sport
+    )
+
+@app.post("/pipeline/youtube")
+def ingest_youtube(request: YouTubeIngestRequest):
+    """Download and process YouTube video (NFL/NBA highlights, analysis, etc.)."""
+    return kb_service.ingest_youtube_video(
+        url=request.url,
+        sport=request.sport,
+        category=request.category
+    )

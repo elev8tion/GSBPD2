@@ -2,8 +2,14 @@ import os
 import json
 import cv2
 import random
+import subprocess
+from pathlib import Path
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
 from memvid import MemvidEncoder, MemvidRetriever
+
+# Load environment variables
+load_dotenv()
 
 VIDEO_PATH = "knowledge_base.mp4" # Renamed from portfolio.mp4
 INDEX_PATH = "knowledge_base_index.json"
@@ -168,3 +174,144 @@ class KnowledgeBaseService:
     def _save_local_items(self, items):
         with open("kb_backup.json", "w") as f:
             json.dump(items, f)
+
+    # ==================== NEW PIPELINE METHODS ====================
+
+    def create_memory_from_text(self, memory_name: str, docs_dir: str, sport: str = "nfl"):
+        """
+        Create a memvid memory from text documents.
+
+        Args:
+            memory_name: Name for the memory (e.g., 'nfl-strategies')
+            docs_dir: Directory containing text/markdown files
+            sport: Sport type (nfl, nba)
+
+        Returns:
+            dict with status and message
+        """
+        try:
+            from memvid_integration.helpers import create_memory
+
+            # Create memory with categorization
+            result = create_memory(
+                project_name=f"{sport}-{memory_name}",
+                directory=docs_dir,
+                chunk_size=512
+            )
+
+            return {
+                "status": "success" if result else "error",
+                "message": f"Created memory '{sport}-{memory_name}' from {docs_dir}",
+                "memory_name": f"{sport}-{memory_name}"
+            }
+        except Exception as e:
+            return {"status": "error", "message": str(e)}
+
+    def search_memories(self, query: str, memories: list = None, top_k: int = 5):
+        """
+        Search across one or more memories.
+
+        Args:
+            query: Search query string
+            memories: List of memory names to search (None = all)
+            top_k: Number of results to return
+
+        Returns:
+            dict with search results
+        """
+        try:
+            from memvid_integration.helpers import query_memory, query_multiple, list_memories
+
+            if memories is None or len(memories) == 0:
+                # Search all memories
+                all_mems = list_memories(output_json=False)
+                memories = [m['project_name'] for m in all_mems]
+
+            if len(memories) == 1:
+                result = query_memory(memories[0], query, top_k)
+                return {
+                    "status": "success",
+                    "query": query,
+                    "memory": memories[0],
+                    "results": result
+                }
+            else:
+                result = query_multiple(memories, query, top_k)
+                return {
+                    "status": "success",
+                    "query": query,
+                    "memories": memories,
+                    "results": result
+                }
+        except Exception as e:
+            return {"status": "error", "message": str(e)}
+
+    def list_all_memories(self):
+        """List all available memories."""
+        try:
+            from memvid_integration.helpers import list_memories
+            memories = list_memories(output_json=False)
+            return {
+                "status": "success",
+                "memories": memories
+            }
+        except Exception as e:
+            return {"status": "error", "message": str(e)}
+
+    def ingest_youtube_video(self, url: str, sport: str = "nfl", category: str = "highlights"):
+        """
+        Download and process YouTube video into memvid memory.
+
+        Args:
+            url: YouTube URL
+            sport: Sport type (nfl, nba)
+            category: Category (highlights, analysis, player-stats)
+
+        Returns:
+            dict with status and processing info
+        """
+        try:
+            # Create project directory
+            project_dir = Path("backend/memvid_integration/projects") / f"{sport}_{category}"
+            project_dir.mkdir(parents=True, exist_ok=True)
+
+            # Download video using yt-dlp
+            video_path = project_dir / "video.mp4"
+            subprocess.run([
+                "yt-dlp",
+                "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+                "--merge-output-format", "mp4",
+                "-o", str(video_path),
+                url
+            ], check=True)
+
+            # Extract frames
+            frames_dir = project_dir / "frames"
+            frames_dir.mkdir(exist_ok=True)
+            subprocess.run([
+                "ffmpeg",
+                "-i", str(video_path),
+                "-vf", "fps=1",
+                "-q:v", "2",
+                str(frames_dir / "frame_%04d.png"),
+                "-hide_banner",
+                "-loglevel", "error"
+            ], check=True)
+
+            # Analyze frames (using the frame analyzer)
+            from memvid_integration.video_pipeline import FrameAnalyzer
+            analyzer = FrameAnalyzer(base_dir=str(frames_dir.parent))
+            plan = analyzer.generate_analysis_plan()
+
+            return {
+                "status": "success",
+                "message": f"YouTube video processed successfully",
+                "video_path": str(video_path),
+                "frames": plan['total_frames_selected'],
+                "sport": sport,
+                "category": category
+            }
+        except subprocess.CalledProcessError as e:
+            return {"status": "error", "message": f"Pipeline error: {str(e)}"}
+        except Exception as e:
+            return {"status": "error", "message": str(e)}

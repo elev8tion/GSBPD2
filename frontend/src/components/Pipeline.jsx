@@ -7,8 +7,13 @@ const API_URL = 'http://localhost:8000';
 
 const Pipeline = () => {
     const [filePath, setFilePath] = useState('');
+    const [youtubeUrl, setYoutubeUrl] = useState('');
+    const [sport, setSport] = useState('nfl');
+    const [category, setCategory] = useState('highlights');
     const [isIngesting, setIsIngesting] = useState(false);
+    const [isProcessingYoutube, setIsProcessingYoutube] = useState(false);
     const [ingestResult, setIngestResult] = useState(null);
+    const [youtubeResult, setYoutubeResult] = useState(null);
     const [sgpSuggestions, setSgpSuggestions] = useState({});
     const [loadingSgp, setLoadingSgp] = useState(null);
 
@@ -26,6 +31,26 @@ const Pipeline = () => {
             alert("Failed to ingest video. Check console for details.");
         } finally {
             setIsIngesting(false);
+        }
+    };
+
+    const handleYoutubeIngest = async () => {
+        if (!youtubeUrl) return;
+        setIsProcessingYoutube(true);
+        setYoutubeResult(null);
+
+        try {
+            const response = await axios.post(`${API_URL}/pipeline/youtube`, {
+                url: youtubeUrl,
+                sport: sport,
+                category: category
+            });
+            setYoutubeResult(response.data);
+        } catch (error) {
+            console.error("YouTube ingestion failed:", error);
+            alert("Failed to process YouTube video. Check console for details.");
+        } finally {
+            setIsProcessingYoutube(false);
         }
     };
 
@@ -140,6 +165,141 @@ const Pipeline = () => {
                             </>
                         )}
                     </motion.button>
+                </div>
+            </motion.section>
+
+            {/* YouTube Ingestion Section */}
+            <motion.section
+                className="section"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.1 }}
+            >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
+                    <motion.div
+                        whileHover={{ scale: 1.1, rotate: 5 }}
+                        style={{
+                            padding: '16px',
+                            background: 'var(--bg-elevated)',
+                            borderRadius: 'var(--radius-lg)',
+                            border: '2px solid var(--secondary)',
+                            boxShadow: '0 0 20px rgba(168, 85, 247, 0.15)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center'
+                        }}
+                    >
+                        <PlayCircle size={28} style={{ color: 'var(--secondary)' }} />
+                    </motion.div>
+                    <div>
+                        <h2 style={{
+                            fontSize: '24px',
+                            fontWeight: '700',
+                            margin: '0 0 4px 0',
+                            color: 'var(--text-primary)'
+                        }}>YouTube Video Pipeline</h2>
+                        <p style={{
+                            fontSize: '14px',
+                            color: 'var(--text-secondary)',
+                            margin: 0
+                        }}>Process NFL/NBA game highlights and analysis videos</p>
+                    </div>
+                </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                    <div style={{ display: 'flex', gap: '12px' }}>
+                        <select
+                            value={sport}
+                            onChange={(e) => setSport(e.target.value)}
+                            className="input-field"
+                            style={{ width: '150px' }}
+                        >
+                            <option value="nfl">🏈 NFL</option>
+                            <option value="nba">🏀 NBA</option>
+                        </select>
+                        <select
+                            value={category}
+                            onChange={(e) => setCategory(e.target.value)}
+                            className="input-field"
+                            style={{ width: '200px' }}
+                        >
+                            <option value="highlights">Game Highlights</option>
+                            <option value="analysis">Game Analysis</option>
+                            <option value="player-stats">Player Stats</option>
+                        </select>
+                    </div>
+
+                    <div style={{ display: 'flex', gap: '16px' }}>
+                        <input
+                            type="text"
+                            value={youtubeUrl}
+                            onChange={(e) => setYoutubeUrl(e.target.value)}
+                            placeholder="https://youtube.com/watch?v=..."
+                            className="input-field"
+                            style={{
+                                flex: 1,
+                                fontSize: '14px'
+                            }}
+                        />
+                        <motion.button
+                            whileHover={{ scale: 1.02, y: -2 }}
+                            whileTap={{ scale: 0.98 }}
+                            onClick={handleYoutubeIngest}
+                            disabled={isProcessingYoutube || !youtubeUrl}
+                            className="btn btn-primary"
+                            style={{
+                                padding: '16px 32px',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '8px',
+                                fontSize: '15px',
+                                fontWeight: '700',
+                                opacity: (isProcessingYoutube || !youtubeUrl) ? 0.5 : 1,
+                                cursor: (isProcessingYoutube || !youtubeUrl) ? 'not-allowed' : 'pointer',
+                                background: isProcessingYoutube ? 'var(--bg-elevated)' : 'var(--secondary)',
+                                color: isProcessingYoutube ? 'var(--text-secondary)' : '#fff',
+                                border: isProcessingYoutube ? '1px solid var(--border-subtle)' : 'none'
+                            }}
+                        >
+                            {isProcessingYoutube ? (
+                                <>
+                                    <Cpu className="animate-spin" size={20} />
+                                    Processing...
+                                </>
+                            ) : (
+                                <>
+                                    <PlayCircle size={20} />
+                                    Process Video
+                                </>
+                            )}
+                        </motion.button>
+                    </div>
+
+                    {youtubeResult && (
+                        <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className="card"
+                            style={{
+                                padding: '20px',
+                                background: 'var(--bg-elevated)',
+                                borderLeft: '3px solid var(--secondary)'
+                            }}
+                        >
+                            <div style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>
+                                {youtubeResult.status === 'success' ? (
+                                    <>
+                                        <strong style={{ color: 'var(--secondary)' }}>✓ Success!</strong> Processed{' '}
+                                        {youtubeResult.frames} frames from {youtubeResult.sport.toUpperCase()} {youtubeResult.category}
+                                    </>
+                                ) : (
+                                    <>
+                                        <strong style={{ color: 'var(--accent)' }}>⚠ Error:</strong> {youtubeResult.message}
+                                    </>
+                                )}
+                            </div>
+                        </motion.div>
+                    )}
                 </div>
             </motion.section>
 
