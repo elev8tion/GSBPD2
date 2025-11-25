@@ -29,7 +29,7 @@ from datetime import datetime
 SCRIPT_DIR = Path(__file__).parent
 SCRAPED_DIR = SCRIPT_DIR.parent / "scraped"
 PROCESSED_DIR = SCRIPT_DIR.parent / "processed"
-MEMORIES_DIR = Path.home() / "memvid-projects" / "memories"
+MEMORIES_DIR = Path(__file__).parent.parent.parent / "memories"  # /backend/memories/
 
 def get_categories():
     """List all available categories in scraped folder."""

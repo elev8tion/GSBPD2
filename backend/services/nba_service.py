@@ -62,6 +62,46 @@ class NBADataService:
         self.players_file = self.data_dir / "players.json"
         self.firecrawl_api_key = os.getenv("FIRECRAWL_API_KEY")
 
+        # Initialize Memvid retrievers
+        self.memories_dir = base_dir / "memories"
+        self._init_memvid_retrievers()
+
+    def _init_memvid_retrievers(self):
+        """Initialize Memvid retrievers for NBA data"""
+        try:
+            from memvid import MemvidRetriever
+
+            # NBA Players memory
+            players_video = self.memories_dir / "nba-players" / "nba-players.mp4"
+            players_index = self.memories_dir / "nba-players" / "nba-players_index.json"
+
+            # NBA Games/Standings memory
+            games_video = self.memories_dir / "nba-games" / "nba-games.mp4"
+            games_index = self.memories_dir / "nba-games" / "nba-games_index.json"
+
+            if players_video.exists() and players_index.exists():
+                self.players_retriever = MemvidRetriever(str(players_video), str(players_index))
+                print("✓ NBA Players Memvid retriever initialized")
+            else:
+                self.players_retriever = None
+                print("⚠ NBA Players memory not found - using fallback JSON")
+
+            if games_video.exists() and games_index.exists():
+                self.games_retriever = MemvidRetriever(str(games_video), str(games_index))
+                print("✓ NBA Games Memvid retriever initialized")
+            else:
+                self.games_retriever = None
+                print("⚠ NBA Games memory not found - using fallback JSON")
+
+        except ImportError:
+            print("⚠ Memvid not available - using fallback JSON data")
+            self.players_retriever = None
+            self.games_retriever = None
+        except Exception as e:
+            print(f"⚠ Error initializing Memvid retrievers: {e}")
+            self.players_retriever = None
+            self.games_retriever = None
+
     def scrape_with_firecrawl(self, url: str) -> str:
         """Use Firecrawl to scrape a URL and return markdown content"""
         if not self.firecrawl_api_key:
@@ -180,7 +220,27 @@ class NBADataService:
         return {"teams": teams, "total": len(teams)}
 
     def get_all_teams(self) -> List[Dict]:
-        """Get all teams from cache"""
+        """Get all teams from Memvid or fallback to JSON cache"""
+        # Try Memvid first
+        if self.games_retriever:
+            try:
+                # Query Memvid for all team standings
+                results = self.games_retriever.search("NBA team standings all conferences", top_k=5)
+
+                # Parse Memvid results to extract team data
+                teams = []
+                for result in results:
+                    # Extract team info from markdown tables
+                    teams_from_result = self._parse_teams_from_markdown(result)
+                    teams.extend(teams_from_result)
+
+                if teams:
+                    print(f"✓ Retrieved {len(teams)} teams from Memvid")
+                    return teams
+            except Exception as e:
+                print(f"⚠ Memvid query failed: {e}, falling back to JSON")
+
+        # Fallback to JSON file
         if self.teams_file.exists():
             with open(self.teams_file, 'r') as f:
                 return json.load(f)
@@ -191,15 +251,152 @@ class NBADataService:
         teams = self.get_all_teams()
         return next((t for t in teams if t["team_id"] == team_id), None)
 
+    def _parse_teams_from_markdown(self, markdown: str) -> List[Dict]:
+        """Parse team data from markdown tables"""
+        teams = []
+        lines = markdown.split('\n')
+
+        for line in lines:
+            # Look for table rows with team data
+            if '|' in line and not line.startswith('|---'):
+                parts = [p.strip() for p in line.split('|') if p.strip()]
+
+                # Skip header rows
+                if len(parts) > 2 and not any(header in parts[1] for header in ['Rank', 'Team', 'Conference']):
+                    # Try to find team name in NBA_TEAMS
+                    team_name = None
+                    for part in parts:
+                        for team_info in NBA_TEAMS:
+                            if team_info["name"] in part:
+                                team_name = team_info["name"]
+                                break
+                        if team_name:
+                            break
+
+                    if team_name:
+                        team_info = next((t for t in NBA_TEAMS if t["name"] == team_name), None)
+                        if team_info:
+                            # Extract record (W-L)
+                            record_match = re.search(r'(\d+)-(\d+)', line)
+                            wins = int(record_match.group(1)) if record_match else 0
+                            losses = int(record_match.group(2)) if record_match else 0
+
+                            # Extract stats
+                            stats = [p for p in parts if re.match(r'^\d+\.?\d*$', p)]
+
+                            teams.append({
+                                "team_id": team_info["id"],
+                                "name": team_name,
+                                "slug": team_info["slug"],
+                                "division": team_info["division"],
+                                "conference": team_info["conference"],
+                                "wins": wins,
+                                "losses": losses,
+                                "win_percentage": wins / (wins + losses) if (wins + losses) > 0 else 0.0,
+                                "ppg": float(stats[0]) if len(stats) > 0 else 0.0,
+                                "rpg": float(stats[1]) if len(stats) > 1 else 0.0,
+                                "apg": float(stats[2]) if len(stats) > 2 else 0.0,
+                                "oppg": float(stats[3]) if len(stats) > 3 else 0.0,
+                                "last_updated": datetime.now().isoformat()
+                            })
+
+        return teams
+
     def get_all_players(self) -> List[Dict]:
-        """Get all players from cache"""
+        """Get all players from Memvid or fallback to JSON cache"""
+        # Try Memvid first
+        if self.players_retriever:
+            try:
+                # Query Memvid for player rosters
+                all_players = []
+                for team_info in NBA_TEAMS[:5]:  # Get first 5 teams as sample
+                    results = self.players_retriever.search(f"{team_info['name']} roster players", top_k=2)
+
+                    for result in results:
+                        players_from_result = self._parse_players_from_markdown(result, team_info["id"])
+                        all_players.extend(players_from_result)
+
+                if all_players:
+                    print(f"✓ Retrieved {len(all_players)} players from Memvid")
+                    return all_players
+            except Exception as e:
+                print(f"⚠ Memvid query failed: {e}, falling back to JSON")
+
+        # Fallback to JSON file
         if self.players_file.exists():
             with open(self.players_file, 'r') as f:
                 return json.load(f)
         return []
 
+    def _parse_players_from_markdown(self, markdown: str, team_id: str) -> List[Dict]:
+        """Parse player data from markdown roster"""
+        players = []
+        lines = markdown.split('\n')
+
+        # Find team name
+        team_info = next((t for t in NBA_TEAMS if t["id"] == team_id), None)
+        team_name = team_info["name"] if team_info else "Unknown"
+
+        for line in lines:
+            # Look for player entries (format: "- Name (#Jersey, Position, Height, Weight, Age, Years Pro) - Stats")
+            match = re.search(r'-\s+([\w\s\.]+?)\s+\(#(\d+),\s+([\w-]+),\s+([\d\'"-]+),\s+([\d\s]+lbs),\s+Age\s+(\d+),\s+(\w+)\s+YRS?\s+PRO\)\s+-\s+([\d\.\s]+PPG,\s+[\d\.\s]+APG,\s+[\d\.\s]+RPG)', line)
+
+            if match:
+                name = match.group(1).strip()
+                jersey = match.group(2).strip()
+                position = match.group(3).strip()
+                height = match.group(4).strip()
+                weight = match.group(5).strip()
+                age = match.group(6).strip()
+                years_pro = match.group(7).strip()
+                stats_str = match.group(8).strip()
+
+                # Parse stats
+                stats_match = re.findall(r'([\d\.]+)', stats_str)
+                ppg = float(stats_match[0]) if len(stats_match) > 0 else 0.0
+                apg = float(stats_match[1]) if len(stats_match) > 1 else 0.0
+                rpg = float(stats_match[2]) if len(stats_match) > 2 else 0.0
+
+                players.append({
+                    "player_id": f"{team_id}_{jersey}",
+                    "name": name,
+                    "team_id": team_id,
+                    "team_name": team_name,
+                    "jersey_number": jersey,
+                    "position": position,
+                    "height": height,
+                    "weight": weight,
+                    "age": int(age) if age.isdigit() else 0,
+                    "experience": years_pro,
+                    "ppg": ppg,
+                    "apg": apg,
+                    "rpg": rpg
+                })
+
+        return players
+
     def get_players_by_team(self, team_id: str) -> List[Dict]:
-        """Get all players for a specific team"""
+        """Get all players for a specific team from Memvid or fallback to JSON"""
+        # Try Memvid first
+        if self.players_retriever:
+            try:
+                # Get team name
+                team_info = next((t for t in NBA_TEAMS if t["id"] == team_id), None)
+                if team_info:
+                    results = self.players_retriever.search(f"{team_info['name']} roster", top_k=3)
+
+                    players = []
+                    for result in results:
+                        players_from_result = self._parse_players_from_markdown(result, team_id)
+                        players.extend(players_from_result)
+
+                    if players:
+                        print(f"✓ Retrieved {len(players)} players for {team_info['name']} from Memvid")
+                        return players
+            except Exception as e:
+                print(f"⚠ Memvid query failed: {e}, falling back to JSON")
+
+        # Fallback to filtering all players
         all_players = self.get_all_players()
         return [p for p in all_players if p["team_id"] == team_id]
 
