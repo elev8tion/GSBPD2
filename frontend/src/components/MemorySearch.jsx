@@ -141,9 +141,7 @@ export default function MemorySearch() {
           fontSize: '32px',
           fontWeight: '700',
           marginBottom: '8px',
-          background: 'linear-gradient(135deg, var(--primary), var(--secondary))',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent'
+          color: 'var(--text-primary)'
         }}>
           Knowledge Base Search
         </h2>
@@ -215,8 +213,8 @@ export default function MemorySearch() {
             style={{
               flex: 1,
               padding: '16px',
-              background: loading || !query.trim() ? 'var(--bg-hover)' : 'linear-gradient(135deg, var(--primary), var(--secondary))',
-              color: 'var(--text-primary)',
+              background: loading || !query.trim() ? 'var(--bg-hover)' : 'var(--primary)',
+              color: loading || !query.trim() ? 'var(--text-tertiary)' : 'var(--bg-dark)',
               border: 'none',
               borderRadius: 'var(--radius-md)',
               fontWeight: '700',
@@ -290,7 +288,7 @@ export default function MemorySearch() {
             style={{
               marginLeft: 'auto',
               padding: '12px 20px',
-              background: 'linear-gradient(135deg, var(--success), var(--primary))',
+              background: 'var(--success)',
               color: 'var(--bg-dark)',
               border: 'none',
               borderRadius: 'var(--radius-md)',
@@ -497,7 +495,7 @@ export default function MemorySearch() {
                 left: 0,
                 right: 0,
                 height: '4px',
-                background: 'linear-gradient(90deg, var(--success), var(--primary))'
+                background: 'var(--success)'
               }} />
 
               <div style={{ padding: '32px' }}>
@@ -600,7 +598,7 @@ export default function MemorySearch() {
                     disabled={creating}
                     style={{
                       padding: '16px',
-                      background: creating ? 'var(--bg-hover)' : 'linear-gradient(135deg, var(--success), var(--primary))',
+                      background: creating ? 'var(--bg-hover)' : 'var(--success)',
                       color: creating ? 'var(--text-tertiary)' : 'var(--bg-dark)',
                       border: 'none',
                       borderRadius: 'var(--radius-md)',

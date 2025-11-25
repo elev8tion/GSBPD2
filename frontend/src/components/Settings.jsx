@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Settings as SettingsIcon, DollarSign, Bell, Palette, Key, Save, RefreshCw, Shield } from 'lucide-react';
+import { Settings as SettingsIcon, DollarSign, Bell, Palette, Key, Save, RefreshCw, Shield, Sun, Moon } from 'lucide-react';
 
 const Settings = () => {
   const [settings, setSettings] = useState({
@@ -107,9 +107,7 @@ const Settings = () => {
           fontSize: '32px',
           fontWeight: '700',
           marginBottom: '8px',
-          background: 'linear-gradient(135deg, var(--primary), var(--secondary))',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent'
+          color: 'var(--text-primary)'
         }}>
           Settings & Preferences
         </h2>
@@ -571,7 +569,7 @@ const Settings = () => {
           style={{
             flex: 1,
             padding: '16px',
-            background: loading ? 'var(--bg-hover)' : 'linear-gradient(135deg, var(--success), var(--primary))',
+            background: loading ? 'var(--bg-hover)' : 'var(--success)',
             color: loading ? 'var(--text-tertiary)' : 'var(--bg-dark)',
             border: 'none',
             borderRadius: 'var(--radius-md)',

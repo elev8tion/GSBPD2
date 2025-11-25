@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Video, Cpu, Layers, ArrowRight, PlayCircle } from 'lucide-react';
+import { Video, Cpu, Layers, ArrowRight, PlayCircle, Film, Youtube } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const API_URL = 'http://localhost:8000';
@@ -57,9 +57,6 @@ const Pipeline = () => {
     const handleGenerateSGP = async (game) => {
         setLoadingSgp(game.game_id);
         try {
-            // We use the extracted data to request an SGP
-            // We assume a prediction margin based on the extracted score for this demo
-            // In a real scenario, we'd run the prediction model *on* the extracted data first
             const margin = game.home_score - game.away_score;
 
             const response = await axios.post(`${API_URL}/pipeline/sgp`, {
@@ -80,16 +77,27 @@ const Pipeline = () => {
         }
     };
 
+    const sportOptions = [
+        { value: 'nfl', label: 'NFL', icon: '🏈' },
+        { value: 'nba', label: 'NBA', icon: '🏀' }
+    ];
+
+    const categoryOptions = [
+        { value: 'highlights', label: 'Game Highlights' },
+        { value: 'analysis', label: 'Game Analysis' },
+        { value: 'player-stats', label: 'Player Stats' }
+    ];
+
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
-            {/* Ingestion Section */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px', maxWidth: '100%' }}>
+            {/* Video Ingest Section */}
             <motion.section
                 className="section"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4 }}
             >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px', flexWrap: 'wrap' }}>
                     <motion.div
                         whileHover={{ scale: 1.1, rotate: 5 }}
                         style={{
@@ -97,15 +105,15 @@ const Pipeline = () => {
                             background: 'var(--bg-elevated)',
                             borderRadius: 'var(--radius-lg)',
                             border: '2px solid var(--accent)',
-                            boxShadow: '0 0 20px rgba(255, 62, 157, 0.15)',
+                            boxShadow: 'var(--glow-accent)',
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center'
                         }}
                     >
-                        <Video size={28} style={{ color: 'var(--accent)' }} />
+                        <Film size={28} style={{ color: 'var(--accent)' }} />
                     </motion.div>
-                    <div>
+                    <div style={{ flex: '1 1 auto', minWidth: '200px' }}>
                         <h2 style={{
                             fontSize: '24px',
                             fontWeight: '700',
@@ -120,7 +128,7 @@ const Pipeline = () => {
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', gap: '16px' }}>
+                <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
                     <input
                         type="text"
                         value={filePath}
@@ -128,9 +136,10 @@ const Pipeline = () => {
                         placeholder="/absolute/path/to/video.mp4"
                         className="input-field"
                         style={{
-                            flex: 1,
+                            flex: '1 1 300px',
                             fontFamily: 'monospace',
-                            fontSize: '14px'
+                            fontSize: '14px',
+                            minWidth: 0
                         }}
                     />
                     <motion.button
@@ -150,7 +159,8 @@ const Pipeline = () => {
                             cursor: (isIngesting || !filePath) ? 'not-allowed' : 'pointer',
                             background: isIngesting ? 'var(--bg-elevated)' : 'var(--accent)',
                             color: isIngesting ? 'var(--text-secondary)' : 'var(--bg-dark)',
-                            border: isIngesting ? '1px solid var(--border-subtle)' : 'none'
+                            border: isIngesting ? '1px solid var(--border-subtle)' : 'none',
+                            whiteSpace: 'nowrap'
                         }}
                     >
                         {isIngesting ? (
@@ -175,7 +185,7 @@ const Pipeline = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.1 }}
             >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px', flexWrap: 'wrap' }}>
                     <motion.div
                         whileHover={{ scale: 1.1, rotate: 5 }}
                         style={{
@@ -183,15 +193,15 @@ const Pipeline = () => {
                             background: 'var(--bg-elevated)',
                             borderRadius: 'var(--radius-lg)',
                             border: '2px solid var(--secondary)',
-                            boxShadow: '0 0 20px rgba(168, 85, 247, 0.15)',
+                            boxShadow: 'var(--glow-secondary)',
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center'
                         }}
                     >
-                        <PlayCircle size={28} style={{ color: 'var(--secondary)' }} />
+                        <Youtube size={28} style={{ color: 'var(--secondary)' }} />
                     </motion.div>
-                    <div>
+                    <div style={{ flex: '1 1 auto', minWidth: '200px' }}>
                         <h2 style={{
                             fontSize: '24px',
                             fontWeight: '700',
@@ -206,30 +216,80 @@ const Pipeline = () => {
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                    <div style={{ display: 'flex', gap: '12px' }}>
-                        <select
-                            value={sport}
-                            onChange={(e) => setSport(e.target.value)}
-                            className="input-field"
-                            style={{ width: '150px' }}
-                        >
-                            <option value="nfl">🏈 NFL</option>
-                            <option value="nba">🏀 NBA</option>
-                        </select>
-                        <select
-                            value={category}
-                            onChange={(e) => setCategory(e.target.value)}
-                            className="input-field"
-                            style={{ width: '200px' }}
-                        >
-                            <option value="highlights">Game Highlights</option>
-                            <option value="analysis">Game Analysis</option>
-                            <option value="player-stats">Player Stats</option>
-                        </select>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                    {/* Sport Selection - Chip Style */}
+                    <div>
+                        <label className="input-label" style={{ marginBottom: '12px', display: 'block' }}>
+                            Sport
+                        </label>
+                        <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                            {sportOptions.map((option) => (
+                                <motion.button
+                                    key={option.value}
+                                    whileHover={{ scale: 1.02 }}
+                                    whileTap={{ scale: 0.98 }}
+                                    onClick={() => setSport(option.value)}
+                                    className="card"
+                                    style={{
+                                        flex: '1 1 140px',
+                                        padding: '16px',
+                                        cursor: 'pointer',
+                                        border: sport === option.value ? '2px solid var(--secondary)' : '2px solid var(--border-subtle)',
+                                        background: sport === option.value ? 'rgba(168, 85, 247, 0.1)' : 'var(--bg-card)',
+                                        color: sport === option.value ? 'var(--secondary)' : 'var(--text-secondary)',
+                                        fontWeight: '600',
+                                        textAlign: 'center',
+                                        transition: 'all 0.2s',
+                                        fontSize: '14px',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        gap: '8px',
+                                        minWidth: 0
+                                    }}
+                                >
+                                    <span style={{ fontSize: '20px' }}>{option.icon}</span>
+                                    {option.label}
+                                </motion.button>
+                            ))}
+                        </div>
                     </div>
 
-                    <div style={{ display: 'flex', gap: '16px' }}>
+                    {/* Category Selection - Chip Style */}
+                    <div>
+                        <label className="input-label" style={{ marginBottom: '12px', display: 'block' }}>
+                            Category
+                        </label>
+                        <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                            {categoryOptions.map((option) => (
+                                <motion.button
+                                    key={option.value}
+                                    whileHover={{ scale: 1.02 }}
+                                    whileTap={{ scale: 0.98 }}
+                                    onClick={() => setCategory(option.value)}
+                                    className="card"
+                                    style={{
+                                        flex: '1 1 140px',
+                                        padding: '16px',
+                                        cursor: 'pointer',
+                                        border: category === option.value ? '2px solid var(--primary)' : '2px solid var(--border-subtle)',
+                                        background: category === option.value ? 'rgba(0, 217, 255, 0.1)' : 'var(--bg-card)',
+                                        color: category === option.value ? 'var(--primary)' : 'var(--text-secondary)',
+                                        fontWeight: '600',
+                                        textAlign: 'center',
+                                        transition: 'all 0.2s',
+                                        fontSize: '14px',
+                                        minWidth: 0
+                                    }}
+                                >
+                                    {option.label}
+                                </motion.button>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* URL Input */}
+                    <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
                         <input
                             type="text"
                             value={youtubeUrl}
@@ -237,8 +297,9 @@ const Pipeline = () => {
                             placeholder="https://youtube.com/watch?v=..."
                             className="input-field"
                             style={{
-                                flex: 1,
-                                fontSize: '14px'
+                                flex: '1 1 300px',
+                                fontSize: '14px',
+                                minWidth: 0
                             }}
                         />
                         <motion.button
@@ -258,7 +319,8 @@ const Pipeline = () => {
                                 cursor: (isProcessingYoutube || !youtubeUrl) ? 'not-allowed' : 'pointer',
                                 background: isProcessingYoutube ? 'var(--bg-elevated)' : 'var(--secondary)',
                                 color: isProcessingYoutube ? 'var(--text-secondary)' : '#fff',
-                                border: isProcessingYoutube ? '1px solid var(--border-subtle)' : 'none'
+                                border: isProcessingYoutube ? '1px solid var(--border-subtle)' : 'none',
+                                whiteSpace: 'nowrap'
                             }}
                         >
                             {isProcessingYoutube ? (
@@ -311,7 +373,7 @@ const Pipeline = () => {
                     transition={{ duration: 0.4, delay: 0.2 }}
                     style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}
                 >
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                             <Layers size={24} style={{ color: 'var(--primary)' }} />
                             <h3 style={{
@@ -344,10 +406,12 @@ const Pipeline = () => {
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'space-between',
-                                    borderBottom: '1px solid var(--border-subtle)'
+                                    borderBottom: '1px solid var(--border-subtle)',
+                                    flexWrap: 'wrap',
+                                    gap: '20px'
                                 }}>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
-                                        <div style={{ textAlign: 'center' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '32px', flexWrap: 'wrap' }}>
+                                        <div style={{ textAlign: 'center', minWidth: '80px' }}>
                                             <div style={{
                                                 fontSize: '11px',
                                                 color: 'var(--text-tertiary)',
@@ -374,7 +438,7 @@ const Pipeline = () => {
                                             fontWeight: '700',
                                             fontSize: '20px'
                                         }}>VS</div>
-                                        <div style={{ textAlign: 'center' }}>
+                                        <div style={{ textAlign: 'center', minWidth: '80px' }}>
                                             <div style={{
                                                 fontSize: '11px',
                                                 color: 'var(--text-tertiary)',
@@ -416,7 +480,8 @@ const Pipeline = () => {
                                             alignItems: 'center',
                                             gap: '8px',
                                             transition: 'all 0.2s ease',
-                                            opacity: loadingSgp === game.game_id ? 0.6 : 1
+                                            opacity: loadingSgp === game.game_id ? 0.6 : 1,
+                                            whiteSpace: 'nowrap'
                                         }}
                                     >
                                         {loadingSgp === game.game_id ? (
@@ -453,7 +518,11 @@ const Pipeline = () => {
                                             <Layers size={14} style={{ color: 'var(--secondary)' }} />
                                             AI-Optimized Parlay Suggestions
                                         </h4>
-                                        <div className="grid-3">
+                                        <div style={{
+                                            display: 'grid',
+                                            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                                            gap: '16px'
+                                        }}>
                                             {sgpSuggestions[game.game_id].map((sgp, i) => (
                                                 <motion.div
                                                     key={i}

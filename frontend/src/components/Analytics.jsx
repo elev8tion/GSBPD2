@@ -137,9 +137,7 @@ const Analytics = () => {
           fontSize: '32px',
           fontWeight: '700',
           marginBottom: '8px',
-          background: 'linear-gradient(135deg, var(--success), var(--primary))',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent'
+          color: 'var(--text-primary)'
         }}>
           Performance Analytics
         </h2>
@@ -237,12 +235,6 @@ const Analytics = () => {
             </div>
             <ResponsiveContainer width="100%" height={300}>
               <AreaChart data={profitOverTime}>
-                <defs>
-                  <linearGradient id="profitGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="var(--primary)" stopOpacity={0.3}/>
-                    <stop offset="95%" stopColor="var(--primary)" stopOpacity={0}/>
-                  </linearGradient>
-                </defs>
                 <CartesianGrid strokeDasharray="3 3" stroke="var(--border-subtle)" />
                 <XAxis dataKey="bet" stroke="var(--text-secondary)" />
                 <YAxis stroke="var(--text-secondary)" />
@@ -254,7 +246,7 @@ const Analytics = () => {
                     color: 'var(--text-primary)'
                   }}
                 />
-                <Area type="monotone" dataKey="profit" stroke="var(--primary)" strokeWidth={3} fillOpacity={1} fill="url(#profitGradient)" />
+                <Area type="monotone" dataKey="profit" stroke="var(--primary)" strokeWidth={3} fillOpacity={0.1} fill="var(--primary)" />
               </AreaChart>
             </ResponsiveContainer>
           </motion.div>
