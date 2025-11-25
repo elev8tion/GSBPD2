@@ -29,7 +29,7 @@ class GrokInsightGenerator:
                 quotes = [
                     "Slam dunk! (Wrong sport, but you get it). This looks like a solid win.",
                     "The stars are aligning! High confidence in this spread covering.",
-                    "Grok approves! This margin is wider than the Grand Canyon."
+                    "KC DaCRE8TOR approves! This margin is wider than the Grand Canyon."
                 ]
             else:
                 quotes = [

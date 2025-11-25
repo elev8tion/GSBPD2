@@ -91,7 +91,7 @@ function App() {
                 color: 'var(--text-primary)',
                 letterSpacing: '-0.5px'
               }}>
-                <span style={{ color: 'var(--primary)' }}>Grok's</span> Prediction Dashboard
+                <span style={{ color: 'var(--primary)' }}>KC DaCRE8TOR</span> Prediction Dashboard
               </h1>
               <p style={{
                 color: 'var(--text-secondary)',

@@ -51,7 +51,7 @@ const GrokInsight = ({ insight, prediction }) => {
                                 fontWeight: '700',
                                 margin: 0,
                                 color: 'var(--secondary)'
-                            }}>Grok's Take</h3>
+                            }}>KC DaCRE8TOR's Take</h3>
                             <Sparkles size={18} style={{ color: 'var(--warning)' }} />
                         </div>
 

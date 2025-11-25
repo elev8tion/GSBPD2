@@ -60,7 +60,7 @@ class ResolveRequest(BaseModel):
 
 @app.get("/health")
 def health_check():
-    return {"status": "healthy", "grok_says": "I'm alive and kicking!"}
+    return {"status": "healthy", "kc_dacre8tor_says": "I'm alive and kicking!"}
 
 @app.get("/games")
 def get_upcoming_games():
@@ -150,7 +150,7 @@ def train_model(background_tasks: BackgroundTasks):
     print(f"Found {len(training_data)} training examples from Knowledge Base.")
     
     background_tasks.add_task(model_service.train, training_data)
-    return {"status": "training_started", "message": f"Grok is learning from {len(training_data)} past events..."}
+    return {"status": "training_started", "message": f"KC DaCRE8TOR is learning from {len(training_data)} past events..."}
 
 @app.post("/predict", response_model=PredictionResponse)
 def predict(request: PredictionRequest):
