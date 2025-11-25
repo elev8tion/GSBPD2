@@ -246,8 +246,8 @@ const Pipeline = () => {
                         }}
                     />
                     <motion.button
-                        whileHover={{ scale: 1.02, y: -2 }}
-                        whileTap={{ scale: 0.98 }}
+                        whileHover={{ scale: 1.01 }}
+                        whileTap={{ scale: 0.99 }}
                         onClick={handleIngest}
                         disabled={isIngesting || !filePath}
                         className="btn btn-primary"
@@ -260,9 +260,9 @@ const Pipeline = () => {
                             fontWeight: '700',
                             opacity: (isIngesting || !filePath) ? 0.5 : 1,
                             cursor: (isIngesting || !filePath) ? 'not-allowed' : 'pointer',
-                            background: isIngesting ? 'var(--bg-elevated)' : 'var(--accent)',
-                            color: isIngesting ? 'var(--text-secondary)' : 'var(--bg-dark)',
-                            border: isIngesting ? '1px solid var(--border-subtle)' : 'none',
+                            background: isIngesting ? 'var(--bg-elevated)' : 'rgba(255, 184, 0, 0.1)',
+                            color: isIngesting ? 'var(--text-secondary)' : 'var(--accent)',
+                            border: isIngesting ? '2px solid var(--border-subtle)' : '2px solid var(--accent)',
                             whiteSpace: 'nowrap'
                         }}
                     >
@@ -279,8 +279,8 @@ const Pipeline = () => {
                         )}
                     </motion.button>
                     <motion.button
-                        whileHover={{ scale: 1.02, y: -2 }}
-                        whileTap={{ scale: 0.98 }}
+                        whileHover={{ scale: 1.01 }}
+                        whileTap={{ scale: 0.99 }}
                         onClick={loadDemoData}
                         className="btn"
                         style={{
@@ -290,7 +290,7 @@ const Pipeline = () => {
                             gap: '8px',
                             fontSize: '15px',
                             fontWeight: '700',
-                            background: 'transparent',
+                            background: 'rgba(0, 217, 255, 0.1)',
                             color: 'var(--primary)',
                             border: '2px solid var(--primary)',
                             whiteSpace: 'nowrap'
@@ -427,8 +427,8 @@ const Pipeline = () => {
                             }}
                         />
                         <motion.button
-                            whileHover={{ scale: 1.02, y: -2 }}
-                            whileTap={{ scale: 0.98 }}
+                            whileHover={{ scale: 1.01 }}
+                            whileTap={{ scale: 0.99 }}
                             onClick={handleYoutubeIngest}
                             disabled={isProcessingYoutube || !youtubeUrl}
                             className="btn btn-primary"
@@ -441,9 +441,9 @@ const Pipeline = () => {
                                 fontWeight: '700',
                                 opacity: (isProcessingYoutube || !youtubeUrl) ? 0.5 : 1,
                                 cursor: (isProcessingYoutube || !youtubeUrl) ? 'not-allowed' : 'pointer',
-                                background: isProcessingYoutube ? 'var(--bg-elevated)' : 'var(--secondary)',
-                                color: isProcessingYoutube ? 'var(--text-secondary)' : '#fff',
-                                border: isProcessingYoutube ? '1px solid var(--border-subtle)' : 'none',
+                                background: isProcessingYoutube ? 'var(--bg-elevated)' : 'rgba(168, 85, 247, 0.1)',
+                                color: isProcessingYoutube ? 'var(--text-secondary)' : 'var(--secondary)',
+                                border: isProcessingYoutube ? '2px solid var(--border-subtle)' : '2px solid var(--secondary)',
                                 whiteSpace: 'nowrap'
                             }}
                         >
@@ -601,13 +601,13 @@ const Pipeline = () => {
                                     </div>
 
                                     <motion.button
-                                        whileHover={{ scale: 1.05, x: 4 }}
-                                        whileTap={{ scale: 0.95 }}
+                                        whileHover={{ scale: 1.01 }}
+                                        whileTap={{ scale: 0.99 }}
                                         onClick={() => handleGenerateSGP(game)}
                                         disabled={loadingSgp === game.game_id}
                                         style={{
                                             padding: '12px 24px',
-                                            background: loadingSgp === game.game_id ? 'var(--bg-card)' : 'transparent',
+                                            background: loadingSgp === game.game_id ? 'var(--bg-card)' : 'rgba(0, 217, 255, 0.1)',
                                             color: 'var(--primary)',
                                             border: `2px solid var(--primary)`,
                                             borderRadius: 'var(--radius-md)',
@@ -667,7 +667,7 @@ const Pipeline = () => {
                                                     initial={{ opacity: 0, y: 20 }}
                                                     animate={{ opacity: 1, y: 0 }}
                                                     transition={{ delay: i * 0.1 }}
-                                                    whileHover={{ y: -4, scale: 1.02 }}
+                                                    whileHover={{ y: -2 }}
                                                     className="card"
                                                     style={{
                                                         padding: '20px',

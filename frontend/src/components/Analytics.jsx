@@ -211,7 +211,7 @@ const Analytics = () => {
           <motion.div
             key={index}
             className="metric-card"
-            whileHover={{ y: -8 }}
+            whileHover={{ y: -2 }}
             style={{ textAlign: 'center' }}
           >
             <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>

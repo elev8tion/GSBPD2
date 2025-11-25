@@ -285,16 +285,16 @@ export default function MemorySearch() {
 
         <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
           <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
             onClick={handleSearch}
             disabled={loading || !query.trim()}
             style={{
               flex: '1 1 150px',
               padding: '16px',
-              background: loading || !query.trim() ? 'var(--bg-hover)' : 'var(--primary)',
-              color: loading || !query.trim() ? 'var(--text-tertiary)' : 'var(--bg-dark)',
-              border: 'none',
+              background: loading || !query.trim() ? 'var(--bg-hover)' : 'rgba(0, 217, 255, 0.1)',
+              color: loading || !query.trim() ? 'var(--text-tertiary)' : 'var(--primary)',
+              border: loading || !query.trim() ? '2px solid var(--border-subtle)' : '2px solid var(--primary)',
               borderRadius: 'var(--radius-md)',
               fontWeight: '700',
               fontSize: '16px',
@@ -306,14 +306,14 @@ export default function MemorySearch() {
           </motion.button>
 
           <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
             onClick={loadMemories}
             style={{
               padding: '16px 24px',
               background: 'rgba(168, 85, 247, 0.1)',
               color: 'var(--secondary)',
-              border: '1px solid var(--secondary)',
+              border: '2px solid var(--secondary)',
               borderRadius: 'var(--radius-md)',
               fontWeight: '600',
               fontSize: '14px',
@@ -329,12 +329,12 @@ export default function MemorySearch() {
           </motion.button>
 
           <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
             onClick={loadDemoData}
             style={{
               padding: '16px 24px',
-              background: 'transparent',
+              background: 'rgba(255, 184, 0, 0.1)',
               color: 'var(--accent)',
               border: '2px solid var(--accent)',
               borderRadius: 'var(--radius-md)',
@@ -397,15 +397,15 @@ export default function MemorySearch() {
             </div>
           )}
           <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+            whileHover={{ scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
             onClick={() => setShowCreateModal(true)}
             style={{
               marginLeft: 'auto',
               padding: '12px 20px',
-              background: 'var(--success)',
-              color: 'var(--bg-dark)',
-              border: 'none',
+              background: 'rgba(0, 255, 136, 0.1)',
+              color: 'var(--success)',
+              border: '2px solid var(--success)',
               borderRadius: 'var(--radius-md)',
               fontWeight: '700',
               fontSize: '14px',
@@ -430,7 +430,7 @@ export default function MemorySearch() {
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: idx * 0.05 }}
-                  whileHover={{ y: -4 }}
+                  whileHover={{ y: -2 }}
                   className="card"
                   style={{ padding: '20px', position: 'relative' }}
                 >
@@ -542,7 +542,7 @@ export default function MemorySearch() {
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: idx * 0.05 }}
-                    whileHover={{ x: 4 }}
+                    whileHover={{ x: 2 }}
                     className="card"
                     style={{ padding: '20px' }}
                   >
@@ -721,14 +721,14 @@ export default function MemorySearch() {
 
                   <motion.button
                     type="submit"
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+                    whileHover={{ scale: 1.01 }}
+                    whileTap={{ scale: 0.99 }}
                     disabled={creating}
                     style={{
                       padding: '16px',
-                      background: creating ? 'var(--bg-hover)' : 'var(--success)',
-                      color: creating ? 'var(--text-tertiary)' : 'var(--bg-dark)',
-                      border: 'none',
+                      background: creating ? 'var(--bg-hover)' : 'rgba(0, 255, 136, 0.1)',
+                      color: creating ? 'var(--text-tertiary)' : 'var(--success)',
+                      border: creating ? '2px solid var(--border-subtle)' : '2px solid var(--success)',
                       borderRadius: 'var(--radius-md)',
                       fontWeight: '700',
                       fontSize: '16px',
@@ -825,16 +825,16 @@ export default function MemorySearch() {
                     Cancel
                   </motion.button>
                   <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+                    whileHover={{ scale: 1.01 }}
+                    whileTap={{ scale: 0.99 }}
                     onClick={handleDeleteMemory}
                     disabled={deleting}
                     style={{
                       flex: 1,
                       padding: '16px',
-                      background: deleting ? 'var(--bg-hover)' : 'var(--danger)',
-                      color: deleting ? 'var(--text-tertiary)' : 'white',
-                      border: 'none',
+                      background: deleting ? 'var(--bg-hover)' : 'rgba(255, 62, 157, 0.1)',
+                      color: deleting ? 'var(--text-tertiary)' : 'var(--danger)',
+                      border: deleting ? '2px solid var(--border-subtle)' : '2px solid var(--danger)',
                       borderRadius: 'var(--radius-md)',
                       fontWeight: '700',
                       cursor: deleting ? 'not-allowed' : 'pointer',
