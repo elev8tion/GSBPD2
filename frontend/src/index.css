@@ -23,50 +23,54 @@
   --text-secondary: #A0A0A0;
   --text-tertiary: #707070;
 
-  /* Spacing & Borders */
-  --radius-sm: 12px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --radius-xl: 32px;
+  /* Spacing & Borders - Linear-style */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
 
-  /* Shadows - Subtle Elevation */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.6);
+  /* Shadows - Minimal Elevation */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.12);
 
-  /* Accent Glow (subtle) */
-  --glow-primary: 0 0 20px rgba(0, 217, 255, 0.15);
-  --glow-secondary: 0 0 20px rgba(168, 85, 247, 0.15);
+  /* Accent Glow (very subtle) */
+  --glow-primary: 0 0 16px rgba(0, 217, 255, 0.1);
+  --glow-secondary: 0 0 16px rgba(168, 85, 247, 0.1);
 }
 
 body {
   margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background-color: var(--bg-dark);
   color: var(--text-primary);
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
 }
 
-/* Solid Card Styles - No Glassmorphism */
+/* Professional Card Styles - Linear-inspired */
 .card {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-  transition: all 0.2s ease;
+  box-shadow: none;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card:hover {
-  background: var(--bg-elevated);
+  background: var(--bg-card);
   border-color: var(--border-strong);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
 }
 
 .card-elevated {
   background: var(--bg-elevated);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 /* Custom Slider Styling - Solid, No Glow */
