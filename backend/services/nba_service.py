@@ -374,7 +374,7 @@ class NBADataService:
             print(f"⚠ Error saving games to cache: {e}")
 
     def _fetch_games_from_odds_api(self) -> List[Dict]:
-        """Fetch games from The Odds API"""
+        """Fetch games from The Odds API using DraftKings exclusively"""
         if not self.odds_api_key:
             print("⚠ ODDS_API_KEY not configured")
             return []
@@ -385,7 +385,8 @@ class NBADataService:
                 "apiKey": self.odds_api_key,
                 "regions": "us",
                 "markets": "h2h,spreads",
-                "oddsFormat": "decimal"
+                "oddsFormat": "decimal",
+                "bookmakers": "draftkings"  # Use DraftKings exclusively
             }
 
             response = requests.get(url, params=params, timeout=10)
@@ -423,10 +424,11 @@ class NBADataService:
                     "home_odds": home_odds,
                     "away_odds": away_odds,
                     "spread": spread_line,
-                    "sport": "NBA"
+                    "sport": "NBA",
+                    "bookmaker": "DraftKings"  # Track bookmaker source
                 })
 
-            print(f"✓ Retrieved {len(games)} upcoming NBA games from Odds API")
+            print(f"✓ Retrieved {len(games)} upcoming NBA games from DraftKings via Odds API")
             return games
 
         except requests.exceptions.RequestException as e:
