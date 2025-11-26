@@ -240,30 +240,21 @@ class NBADataService:
         return {"teams": teams, "total": len(teams)}
 
     def get_all_teams(self) -> List[Dict]:
-        """Get all teams from Memvid or fallback to JSON cache"""
-        # Try Memvid first
-        if self.games_retriever:
-            try:
-                # Query Memvid for all team standings
-                results = self.games_retriever.search("NBA team standings all conferences", top_k=5)
+        """Get all teams from JSON cache (Memvid temporarily disabled due to FAISS hang)"""
+        # FIXME: Memvid games query causes FAISS hang on macOS with uvicorn reload
+        # Issue: FAISS .search() deadlocks when called inside FastAPI with --reload
+        # Root cause: Conflict between FAISS threading + uvicorn's StatReload mechanism
+        # Standalone memvid scripts work fine, but not in FastAPI server context
+        # TODO: Investigate using FAISS in separate process or switch to ChromaDB/Qdrant
 
-                # Parse Memvid results to extract team data
-                teams = []
-                for result in results:
-                    # Extract team info from markdown tables
-                    teams_from_result = self._parse_teams_from_markdown(result)
-                    teams.extend(teams_from_result)
-
-                if teams:
-                    print(f"✓ Retrieved {len(teams)} teams from Memvid")
-                    return teams
-            except Exception as e:
-                print(f"⚠ Memvid query failed: {e}, falling back to JSON")
-
-        # Fallback to JSON file
+        # Use JSON file directly
         if self.teams_file.exists():
             with open(self.teams_file, 'r') as f:
-                return json.load(f)
+                teams = json.load(f)
+                print(f"✓ Retrieved {len(teams)} teams from JSON cache")
+                return teams
+
+        print("⚠ No teams data available - teams.json not found")
         return []
 
     def get_team_by_id(self, team_id: str) -> Optional[Dict]:
