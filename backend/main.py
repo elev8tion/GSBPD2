@@ -379,6 +379,51 @@ def refresh_nba_games():
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to refresh games: {str(e)}")
 
+@app.get("/nba/betting-insights")
+def get_betting_insights():
+    """Get AI-powered betting insights for upcoming NBA games"""
+    try:
+        games = nba_service.get_upcoming_games()
+
+        insights = []
+        for game in games:
+            # Calculate implied probability from decimal odds
+            home_prob = (1 / game['home_odds'] * 100) if game.get('home_odds') else None
+            away_prob = (1 / game['away_odds'] * 100) if game.get('away_odds') else None
+
+            # Determine value bets (where probability suggests better value)
+            total_prob = (home_prob + away_prob) if (home_prob and away_prob) else None
+
+            insight = {
+                "game_id": game['id'],
+                "matchup": f"{game['away_team']} @ {game['home_team']}",
+                "commence_time": game['commence_time'],
+                "favorite": game['home_team'] if game.get('spread', 0) < 0 else game['away_team'],
+                "spread": game.get('spread'),
+                "total": game.get('total'),
+                "implied_probabilities": {
+                    "home": round(home_prob, 2) if home_prob else None,
+                    "away": round(away_prob, 2) if away_prob else None
+                },
+                "betting_analysis": {
+                    "spread_line": f"{abs(game.get('spread', 0))} points",
+                    "total_line": f"{game.get('total', 0)} points",
+                    "over_odds": game.get('over_odds'),
+                    "under_odds": game.get('under_odds'),
+                    "market_efficiency": round(total_prob, 2) if total_prob else None  # Should be ~200% (includes vig)
+                },
+                "recommendation": "Analysis pending - integrate with team stats for predictions"
+            }
+            insights.append(insight)
+
+        return {
+            "insights": insights,
+            "total": len(insights),
+            "disclaimer": "For entertainment purposes only. Bet responsibly."
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get insights: {str(e)}")
+
 @app.post("/nba/scrape")
 def scrape_nba_data():
     """Scrape fresh NBA data from nba.com using Firecrawl"""

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { motion } from 'framer-motion';
-import { Activity, Zap, Wallet, LayoutDashboard, GitMerge, Database, Settings as SettingsIcon, TrendingUp, MessageSquare, Users, UserCircle, Calendar } from 'lucide-react';
+import { Activity, Zap, Wallet, LayoutDashboard, GitMerge, Database, Settings as SettingsIcon, TrendingUp, MessageSquare, Users, UserCircle, Calendar, DollarSign } from 'lucide-react';
 import { useSport } from './contexts/SportContext';
 import PredictionCard from './components/PredictionCard';
 import GrokInsight from './components/GrokInsight';
@@ -21,6 +21,7 @@ import TeamDetail from './components/TeamDetail';
 import PlayersEnhanced from './components/PlayersEnhanced';
 import Schedule from './components/Schedule';
 import Matchup from './components/Matchup';
+import BettingInsights from './components/BettingInsights';
 import './App.css';
 
 const API_URL = 'http://localhost:8000';
@@ -44,6 +45,7 @@ function App() {
     if (path.startsWith('/teams')) return 'teams';
     if (path.startsWith('/players')) return 'players';
     if (path.startsWith('/schedule') || path.startsWith('/matchup')) return 'schedule';
+    if (path.startsWith('/betting')) return 'betting';
     if (path.startsWith('/portfolio')) return 'portfolio';
     if (path.startsWith('/pipeline')) return 'pipeline';
     if (path.startsWith('/knowledge')) return 'knowledge';
@@ -135,6 +137,12 @@ function App() {
               label="Schedule"
               active={activeTab === 'schedule'}
               onClick={() => navigate('/schedule')}
+            />
+            <TabButton
+              icon={<DollarSign size={20} />}
+              label="Betting"
+              active={activeTab === 'betting'}
+              onClick={() => navigate('/betting')}
             />
             <TabButton
               icon={<Wallet size={20} />}
@@ -298,6 +306,9 @@ function App() {
         {/* Schedule */}
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/matchup/:matchupId" element={<Matchup />} />
+
+        {/* Betting */}
+        <Route path="/betting" element={<BettingInsights />} />
 
         {/* Other Routes */}
         <Route path="/portfolio" element={<PortfolioEnhanced />} />

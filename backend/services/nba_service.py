@@ -308,29 +308,18 @@ class NBADataService:
         return teams
 
     def get_all_players(self) -> List[Dict]:
-        """Get all players from Memvid or fallback to JSON cache"""
-        # Try Memvid first
-        if self.players_retriever:
-            try:
-                # Query Memvid for player rosters
-                all_players = []
-                for team_info in NBA_TEAMS[:5]:  # Get first 5 teams as sample
-                    results = self.players_retriever.search(f"{team_info['name']} roster players", top_k=2)
-
-                    for result in results:
-                        players_from_result = self._parse_players_from_markdown(result, team_info["id"])
-                        all_players.extend(players_from_result)
-
-                if all_players:
-                    print(f"✓ Retrieved {len(all_players)} players from Memvid")
-                    return all_players
-            except Exception as e:
-                print(f"⚠ Memvid query failed: {e}, falling back to JSON")
+        """Get all players from JSON cache (Memvid temporarily disabled due to FAISS hang)"""
+        # FIXME: Memvid players query causes FAISS hang on macOS - temporarily disabled
+        # Need to investigate why FAISS .search() hangs even with environment variables set
 
         # Fallback to JSON file
         if self.players_file.exists():
             with open(self.players_file, 'r') as f:
-                return json.load(f)
+                players_data = json.load(f)
+                print(f"✓ Retrieved {len(players_data)} players from JSON cache")
+                return players_data
+
+        print("⚠ No players data available - players.json not found")
         return []
 
     def _is_cache_fresh(self) -> bool:
@@ -384,7 +373,7 @@ class NBADataService:
             params = {
                 "apiKey": self.odds_api_key,
                 "regions": "us",
-                "markets": "h2h,spreads",
+                "markets": "h2h,spreads,totals",  # Added totals (over/under)
                 "oddsFormat": "decimal",
                 "bookmakers": "draftkings"  # Use DraftKings exclusively
             }
@@ -396,25 +385,38 @@ class NBADataService:
             games = []
 
             for game in games_data:
-                # Extract best odds from bookmakers
+                # Extract betting data from bookmakers
                 home_odds = None
                 away_odds = None
                 spread_line = None
+                total_line = None
+                over_odds = None
+                under_odds = None
 
                 if game.get("bookmakers"):
-                    # Get odds from first bookmaker (usually most reputable)
+                    # Get odds from DraftKings
                     bookmaker = game["bookmakers"][0]
                     for market in bookmaker.get("markets", []):
                         if market["key"] == "h2h":
+                            # Moneyline odds
                             for outcome in market["outcomes"]:
                                 if outcome["name"] == game["home_team"]:
                                     home_odds = outcome["price"]
                                 elif outcome["name"] == game["away_team"]:
                                     away_odds = outcome["price"]
                         elif market["key"] == "spreads":
+                            # Point spread
                             for outcome in market["outcomes"]:
                                 if outcome["name"] == game["home_team"]:
                                     spread_line = outcome.get("point")
+                        elif market["key"] == "totals":
+                            # Over/Under totals
+                            for outcome in market["outcomes"]:
+                                if outcome["name"] == "Over":
+                                    over_odds = outcome["price"]
+                                    total_line = outcome.get("point")
+                                elif outcome["name"] == "Under":
+                                    under_odds = outcome["price"]
 
                 games.append({
                     "id": game["id"],
@@ -424,8 +426,11 @@ class NBADataService:
                     "home_odds": home_odds,
                     "away_odds": away_odds,
                     "spread": spread_line,
+                    "total": total_line,
+                    "over_odds": over_odds,
+                    "under_odds": under_odds,
                     "sport": "NBA",
-                    "bookmaker": "DraftKings"  # Track bookmaker source
+                    "bookmaker": "DraftKings"
                 })
 
             print(f"✓ Retrieved {len(games)} upcoming NBA games from DraftKings via Odds API")
