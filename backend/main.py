@@ -394,6 +394,12 @@ def get_betting_insights():
             # Determine value bets (where probability suggests better value)
             total_prob = (home_prob + away_prob) if (home_prob and away_prob) else None
 
+            # Get team stats and top players
+            home_stats = nba_service.get_team_stats(game['home_team'])
+            away_stats = nba_service.get_team_stats(game['away_team'])
+            home_top_scorers = nba_service.get_top_players(game['home_team'], 'pts', 3)
+            away_top_scorers = nba_service.get_top_players(game['away_team'], 'pts', 3)
+
             insight = {
                 "game_id": game['id'],
                 "matchup": f"{game['away_team']} @ {game['home_team']}",
@@ -401,6 +407,14 @@ def get_betting_insights():
                 "favorite": game['home_team'] if game.get('spread', 0) < 0 else game['away_team'],
                 "spread": game.get('spread'),
                 "total": game.get('total'),
+                "team_stats": {
+                    "home": home_stats['stats'] if home_stats else None,
+                    "away": away_stats['stats'] if away_stats else None
+                },
+                "top_players": {
+                    "home": [{"name": p['name'], "ppg": p['stats'].get('pts')} for p in home_top_scorers] if home_top_scorers else [],
+                    "away": [{"name": p['name'], "ppg": p['stats'].get('pts')} for p in away_top_scorers] if away_top_scorers else []
+                },
                 "implied_probabilities": {
                     "home": round(home_prob, 2) if home_prob else None,
                     "away": round(away_prob, 2) if away_prob else None
@@ -412,7 +426,7 @@ def get_betting_insights():
                     "under_odds": game.get('under_odds'),
                     "market_efficiency": round(total_prob, 2) if total_prob else None  # Should be ~200% (includes vig)
                 },
-                "recommendation": "Analysis pending - integrate with team stats for predictions"
+                "recommendation": f"Statistical Analysis: {game['home_team']} averages {home_stats['stats'].get('pts', 'N/A')} PPG vs {game['away_team']}'s {away_stats['stats'].get('pts', 'N/A')} PPG" if (home_stats and away_stats) else "Analysis pending"
             }
             insights.append(insight)
 
@@ -423,6 +437,63 @@ def get_betting_insights():
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get insights: {str(e)}")
+
+@app.get("/nba/rosters")
+def get_all_rosters():
+    """Get complete roster data for all teams"""
+    try:
+        rosters = nba_service.get_roster_data()
+        return {
+            "rosters": rosters,
+            "total_teams": len(rosters),
+            "total_players": sum(len(t.get('players', [])) for t in rosters)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get rosters: {str(e)}")
+
+@app.get("/nba/teams/{team_name}/stats")
+def get_team_statistics(team_name: str):
+    """Get statistics for a specific team"""
+    try:
+        stats = nba_service.get_team_stats(team_name)
+        if not stats:
+            raise HTTPException(status_code=404, detail=f"Team not found: {team_name}")
+        return stats
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get team stats: {str(e)}")
+
+@app.get("/nba/teams/{team_name}/top-players")
+def get_team_top_players(team_name: str, stat: str = "pts", limit: int = 10):
+    """Get top players for a team by a specific statistic"""
+    try:
+        players = nba_service.get_top_players(team_name, stat, limit)
+        if not players:
+            raise HTTPException(status_code=404, detail=f"No players found for team: {team_name}")
+        return {
+            "team": team_name,
+            "stat": stat,
+            "players": players,
+            "total": len(players)
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get top players: {str(e)}")
+
+@app.get("/nba/matchup/{team_a}/{team_b}")
+def get_team_matchup(team_a: str, team_b: str):
+    """Compare two teams' statistics for matchup analysis"""
+    try:
+        comparison = nba_service.get_team_comparison(team_a, team_b)
+        if "error" in comparison:
+            raise HTTPException(status_code=404, detail=comparison["error"])
+        return comparison
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get matchup: {str(e)}")
 
 @app.post("/nba/scrape")
 def scrape_nba_data():

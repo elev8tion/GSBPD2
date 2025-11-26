@@ -61,6 +61,7 @@ class NBADataService:
         self.teams_file = self.data_dir / "teams.json"
         self.players_file = self.data_dir / "players.json"
         self.games_cache_file = self.data_dir / "games_cache.json"
+        self.rosters_file = self.data_dir / "nba_rosters.json"
         self.firecrawl_api_key = os.getenv("FIRECRAWL_API_KEY")
         self.odds_api_key = os.getenv("ODDS_API_KEY")
 
@@ -585,3 +586,85 @@ class NBADataService:
 
         kb.create_memory_from_text(memory_name, str(docs_dir), "nba")
         print(f"✓ Stored in Memvid memory: {memory_name}")
+
+    # ==================== ROSTER DATA METHODS ====================
+
+    def get_roster_data(self) -> List[Dict]:
+        """Load complete roster data from nba_rosters.json"""
+        if not self.rosters_file.exists():
+            print(f"⚠ Roster file not found: {self.rosters_file}")
+            return []
+
+        with open(self.rosters_file, 'r') as f:
+            return json.load(f)
+
+    def get_team_stats(self, team_name: str) -> Optional[Dict]:
+        """Get team statistics by team name"""
+        rosters = self.get_roster_data()
+        for team in rosters:
+            if team['team'].lower() == team_name.lower():
+                return {
+                    "team": team['team'],
+                    "stats": team.get('team_stats', {}),
+                    "roster_size": len(team.get('players', []))
+                }
+        return None
+
+    def get_top_players(self, team_name: str, stat: str = 'pts', limit: int = 3) -> List[Dict]:
+        """Get top players for a team by a specific stat"""
+        rosters = self.get_roster_data()
+        for team in rosters:
+            if team['team'].lower() == team_name.lower():
+                players = team.get('players', [])
+                # Filter players with valid stats and sort
+                valid_players = [
+                    p for p in players
+                    if p.get('stats', {}).get(stat) and p.get('stats', {}).get(stat) != 'N/A'
+                ]
+                # Convert stat to float for sorting
+                for p in valid_players:
+                    try:
+                        p['_sort_val'] = float(p['stats'][stat])
+                    except (ValueError, TypeError):
+                        p['_sort_val'] = 0.0
+
+                # Sort and return top players
+                top = sorted(valid_players, key=lambda x: x['_sort_val'], reverse=True)[:limit]
+
+                # Clean up temporary sort field
+                for p in top:
+                    del p['_sort_val']
+
+                return top
+        return []
+
+    def get_team_comparison(self, team_a: str, team_b: str) -> Dict:
+        """Compare two teams' statistics"""
+        stats_a = self.get_team_stats(team_a)
+        stats_b = self.get_team_stats(team_b)
+
+        if not stats_a or not stats_b:
+            return {"error": "One or both teams not found"}
+
+        comparison = {
+            "team_a": {
+                "name": stats_a['team'],
+                "stats": stats_a['stats']
+            },
+            "team_b": {
+                "name": stats_b['team'],
+                "stats": stats_b['stats']
+            },
+            "differences": {}
+        }
+
+        # Calculate differences for key stats
+        for stat in ['pts', 'reb', 'ast', 'stl', 'blk']:
+            val_a = float(stats_a['stats'].get(stat, 0) or 0)
+            val_b = float(stats_b['stats'].get(stat, 0) or 0)
+            comparison['differences'][stat] = {
+                "advantage": stats_a['team'] if val_a > val_b else stats_b['team'],
+                "diff": abs(val_a - val_b)
+            }
+
+        return comparison

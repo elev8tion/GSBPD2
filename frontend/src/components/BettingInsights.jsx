@@ -93,6 +93,74 @@ const BettingInsights = () => {
               </p>
             </div>
 
+            {/* Team Stats Comparison */}
+            {insight.team_stats?.home && insight.team_stats?.away && (
+              <div className="bg-[#0a0a0a] rounded-lg p-4 mb-4">
+                <div className="text-xs text-gray-500 uppercase mb-3">Team Stats (Season Avg)</div>
+                <div className="grid grid-cols-3 gap-3">
+                  {/* Points Per Game */}
+                  <div>
+                    <div className="text-xs text-gray-500 text-center mb-1">PPG</div>
+                    <div className="flex justify-between items-center">
+                      <span className={`text-sm font-semibold ${
+                        parseFloat(insight.team_stats.home.pts) > parseFloat(insight.team_stats.away.pts)
+                          ? 'text-green-400' : 'text-gray-400'
+                      }`}>
+                        {insight.team_stats.home.pts}
+                      </span>
+                      <span className="text-xs text-gray-600 mx-1">vs</span>
+                      <span className={`text-sm font-semibold ${
+                        parseFloat(insight.team_stats.away.pts) > parseFloat(insight.team_stats.home.pts)
+                          ? 'text-green-400' : 'text-gray-400'
+                      }`}>
+                        {insight.team_stats.away.pts}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Rebounds Per Game */}
+                  <div>
+                    <div className="text-xs text-gray-500 text-center mb-1">RPG</div>
+                    <div className="flex justify-between items-center">
+                      <span className={`text-sm font-semibold ${
+                        parseFloat(insight.team_stats.home.reb) > parseFloat(insight.team_stats.away.reb)
+                          ? 'text-green-400' : 'text-gray-400'
+                      }`}>
+                        {insight.team_stats.home.reb}
+                      </span>
+                      <span className="text-xs text-gray-600 mx-1">vs</span>
+                      <span className={`text-sm font-semibold ${
+                        parseFloat(insight.team_stats.away.reb) > parseFloat(insight.team_stats.home.reb)
+                          ? 'text-green-400' : 'text-gray-400'
+                      }`}>
+                        {insight.team_stats.away.reb}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Assists Per Game */}
+                  <div>
+                    <div className="text-xs text-gray-500 text-center mb-1">APG</div>
+                    <div className="flex justify-between items-center">
+                      <span className={`text-sm font-semibold ${
+                        parseFloat(insight.team_stats.home.ast) > parseFloat(insight.team_stats.away.ast)
+                          ? 'text-green-400' : 'text-gray-400'
+                      }`}>
+                        {insight.team_stats.home.ast}
+                      </span>
+                      <span className="text-xs text-gray-600 mx-1">vs</span>
+                      <span className={`text-sm font-semibold ${
+                        parseFloat(insight.team_stats.away.ast) > parseFloat(insight.team_stats.home.ast)
+                          ? 'text-green-400' : 'text-gray-400'
+                      }`}>
+                        {insight.team_stats.away.ast}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Betting Lines */}
             <div className="grid grid-cols-2 gap-4 mb-4">
               {/* Spread */}
@@ -146,6 +214,48 @@ const BettingInsights = () => {
                     </div>
                   </div>
                 )}
+              </div>
+            )}
+
+            {/* Key Players */}
+            {insight.top_players?.home && insight.top_players?.away && (
+              <div className="bg-[#0a0a0a] rounded-lg p-4 mb-4">
+                <div className="text-xs text-gray-500 uppercase mb-3">Top Scorers</div>
+                <div className="grid grid-cols-2 gap-4">
+                  {/* Home Team Players */}
+                  <div>
+                    <div className="text-xs text-gray-600 mb-2">Home</div>
+                    <div className="space-y-2">
+                      {insight.top_players.home.slice(0, 3).map((player, idx) => (
+                        <div key={idx} className="flex justify-between items-center">
+                          <span className="text-sm text-gray-300 truncate mr-2">
+                            {player.name}
+                          </span>
+                          <span className="text-sm font-semibold text-blue-400">
+                            {player.ppg} PPG
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Away Team Players */}
+                  <div>
+                    <div className="text-xs text-gray-600 mb-2">Away</div>
+                    <div className="space-y-2">
+                      {insight.top_players.away.slice(0, 3).map((player, idx) => (
+                        <div key={idx} className="flex justify-between items-center">
+                          <span className="text-sm text-gray-300 truncate mr-2">
+                            {player.name}
+                          </span>
+                          <span className="text-sm font-semibold text-orange-400">
+                            {player.ppg} PPG
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
             )}
 
