@@ -25,7 +25,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Base directory for scraped content
-SCRAPED_DIR = Path(__file__).parent.parent / "scraped"
+SCRAPED_DIR = Path(__file__).parent.parent / "scraped"  # /backend/memvid_integration/scraped/
 
 def sanitize_filename(name: str) -> str:
     """Convert a string to a safe filename."""
