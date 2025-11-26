@@ -62,6 +62,7 @@ class NBADataService:
         self.players_file = self.data_dir / "players.json"
         self.games_cache_file = self.data_dir / "games_cache.json"
         self.rosters_file = self.data_dir / "nba_rosters.json"
+        self.schedule_file = self.data_dir / "nba_schedule_clean.json"
         self.firecrawl_api_key = os.getenv("FIRECRAWL_API_KEY")
         self.odds_api_key = os.getenv("ODDS_API_KEY")
 
@@ -85,6 +86,10 @@ class NBADataService:
             games_video = self.memories_dir / "nba-games" / "nba-games.mp4"
             games_index = self.memories_dir / "nba-games" / "nba-games_index.json"
 
+            # NBA Schedule memory
+            schedule_video = self.memories_dir / "nba-schedule" / "nba-schedule.mp4"
+            schedule_index = self.memories_dir / "nba-schedule" / "nba-schedule_index.json"
+
             if players_video.exists() and players_index.exists():
                 self.players_retriever = MemvidRetriever(str(players_video), str(players_index))
                 print("✓ NBA Players Memvid retriever initialized")
@@ -99,14 +104,23 @@ class NBADataService:
                 self.games_retriever = None
                 print("⚠ NBA Games memory not found - using fallback JSON")
 
+            if schedule_video.exists() and schedule_index.exists():
+                self.schedule_retriever = MemvidRetriever(str(schedule_video), str(schedule_index))
+                print("✓ NBA Schedule Memvid retriever initialized")
+            else:
+                self.schedule_retriever = None
+                print("⚠ NBA Schedule memory not found - using fallback JSON")
+
         except ImportError:
             print("⚠ Memvid not available - using fallback JSON data")
             self.players_retriever = None
             self.games_retriever = None
+            self.schedule_retriever = None
         except Exception as e:
             print(f"⚠ Error initializing Memvid retrievers: {e}")
             self.players_retriever = None
             self.games_retriever = None
+            self.schedule_retriever = None
 
     def scrape_with_firecrawl(self, url: str) -> str:
         """Use Firecrawl to scrape a URL and return markdown content"""
@@ -668,3 +682,118 @@ class NBADataService:
             }
 
         return comparison
+
+    # ============================================
+    # Schedule Methods
+    # ============================================
+
+    def get_schedule(self) -> List[Dict]:
+        """
+        Get the full NBA schedule for the season.
+
+        Returns:
+            List of all scheduled games
+        """
+        try:
+            if self.schedule_file.exists():
+                with open(self.schedule_file, 'r') as f:
+                    schedule = json.load(f)
+                print(f"✓ Loaded {len(schedule)} games from schedule")
+                return schedule
+            else:
+                print("⚠ Schedule file not found")
+                return []
+        except Exception as e:
+            print(f"⚠ Error loading schedule: {e}")
+            return []
+
+    def get_games_by_date(self, date: str) -> List[Dict]:
+        """
+        Get all games scheduled for a specific date.
+
+        Args:
+            date: Date in format YYYY-MM-DD
+
+        Returns:
+            List of games scheduled for that date
+        """
+        schedule = self.get_schedule()
+        games = [g for g in schedule if g.get('date') == date]
+        print(f"✓ Found {len(games)} games on {date}")
+        return games
+
+    def get_team_schedule(self, team_name: str) -> List[Dict]:
+        """
+        Get schedule for a specific team.
+
+        Args:
+            team_name: Full team name (e.g., "Los Angeles Lakers")
+
+        Returns:
+            List of games for that team (both home and away)
+        """
+        schedule = self.get_schedule()
+        games = [
+            g for g in schedule
+            if g.get('home_team') == team_name or g.get('away_team') == team_name
+        ]
+        print(f"✓ Found {len(games)} games for {team_name}")
+        return games
+
+    def get_upcoming_schedule(self, days: int = 7) -> List[Dict]:
+        """
+        Get games scheduled for the next N days.
+
+        Args:
+            days: Number of days to look ahead (default: 7)
+
+        Returns:
+            List of upcoming games
+        """
+        from datetime import datetime, timedelta
+
+        schedule = self.get_schedule()
+        today = datetime.now().date()
+        cutoff = today + timedelta(days=days)
+
+        upcoming = [
+            g for g in schedule
+            if today <= datetime.fromisoformat(g.get('date')).date() <= cutoff
+        ]
+
+        # Sort by date
+        upcoming = sorted(upcoming, key=lambda x: x.get('date'))
+
+        print(f"✓ Found {len(upcoming)} games in next {days} days")
+        return upcoming
+
+    def search_schedule(self, query: str) -> List[Dict]:
+        """
+        Search schedule using Memvid semantic search (if available).
+
+        Args:
+            query: Search query (e.g., "Lakers games in December")
+
+        Returns:
+            List of relevant games from semantic search
+        """
+        try:
+            if self.schedule_retriever:
+                results = self.schedule_retriever.query(query, top_k=10)
+                print(f"✓ Memvid search returned {len(results)} results")
+                return results
+            else:
+                print("⚠ Schedule Memvid retriever not available - falling back to text search")
+                # Fallback to simple text matching
+                schedule = self.get_schedule()
+                query_lower = query.lower()
+                matches = [
+                    g for g in schedule
+                    if query_lower in g.get('home_team', '').lower()
+                    or query_lower in g.get('away_team', '').lower()
+                    or query_lower in g.get('date', '').lower()
+                ]
+                return matches
+        except Exception as e:
+            print(f"⚠ Error searching schedule: {e}")
+            return []

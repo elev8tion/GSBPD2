@@ -504,6 +504,94 @@ def scrape_nba_data():
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Scraping failed: {str(e)}")
 
+# ============================================
+# NBA Schedule Endpoints
+# ============================================
+
+@app.get("/nba/schedule")
+async def get_nba_schedule():
+    """Get the full NBA schedule for the season"""
+    try:
+        schedule = nba_service.get_schedule()
+        return {
+            "total_games": len(schedule),
+            "schedule": schedule
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/schedule/date/{date}")
+async def get_games_by_date(date: str):
+    """
+    Get all games scheduled for a specific date.
+
+    Args:
+        date: Date in format YYYY-MM-DD (e.g., 2025-12-25)
+    """
+    try:
+        games = nba_service.get_games_by_date(date)
+        return {
+            "date": date,
+            "games_count": len(games),
+            "games": games
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/schedule/team/{team_name}")
+async def get_team_schedule(team_name: str):
+    """
+    Get schedule for a specific team.
+
+    Args:
+        team_name: Full team name (e.g., Los Angeles Lakers)
+    """
+    try:
+        games = nba_service.get_team_schedule(team_name)
+        return {
+            "team": team_name,
+            "games_count": len(games),
+            "schedule": games
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/schedule/upcoming")
+async def get_upcoming_games_schedule(days: int = 7):
+    """
+    Get games scheduled for the next N days.
+
+    Args:
+        days: Number of days to look ahead (default: 7)
+    """
+    try:
+        games = nba_service.get_upcoming_schedule(days)
+        return {
+            "days_ahead": days,
+            "games_count": len(games),
+            "games": games
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/schedule/search")
+async def search_schedule(q: str):
+    """
+    Search schedule using semantic search.
+
+    Args:
+        q: Search query (e.g., "Lakers games in December")
+    """
+    try:
+        results = nba_service.search_schedule(q)
+        return {
+            "query": q,
+            "results_count": len(results),
+            "results": results
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 # ============ NFL DATA ENDPOINTS ============
 
 @app.get("/nfl/teams")
