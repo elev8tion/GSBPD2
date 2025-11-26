@@ -357,6 +357,28 @@ def get_all_nba_players():
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get players: {str(e)}")
 
+@app.get("/nba/games")
+def get_nba_games():
+    """Get upcoming NBA games (cached with 1-hour expiry)"""
+    try:
+        games = nba_service.get_upcoming_games()
+        return {"games": games, "total": len(games)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get games: {str(e)}")
+
+@app.post("/nba/games/refresh")
+def refresh_nba_games():
+    """Manually refresh NBA games cache from The Odds API"""
+    try:
+        result = nba_service.refresh_games_cache()
+        if result.get("status") == "error":
+            raise HTTPException(status_code=500, detail=result.get("message"))
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to refresh games: {str(e)}")
+
 @app.post("/nba/scrape")
 def scrape_nba_data():
     """Scrape fresh NBA data from nba.com using Firecrawl"""

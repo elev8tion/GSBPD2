@@ -60,7 +60,12 @@ class NBADataService:
         self.data_dir.mkdir(exist_ok=True)
         self.teams_file = self.data_dir / "teams.json"
         self.players_file = self.data_dir / "players.json"
+        self.games_cache_file = self.data_dir / "games_cache.json"
         self.firecrawl_api_key = os.getenv("FIRECRAWL_API_KEY")
+        self.odds_api_key = os.getenv("ODDS_API_KEY")
+
+        # Cache expiry time (in seconds) - default 1 hour
+        self.cache_expiry = 3600
 
         # Initialize Memvid retrievers
         self.memories_dir = base_dir / "memories"
@@ -327,6 +332,150 @@ class NBADataService:
             with open(self.players_file, 'r') as f:
                 return json.load(f)
         return []
+
+    def _is_cache_fresh(self) -> bool:
+        """Check if games cache is fresh (within expiry time)"""
+        if not self.games_cache_file.exists():
+            return False
+
+        try:
+            with open(self.games_cache_file, 'r') as f:
+                cache_data = json.load(f)
+
+            cached_at = datetime.fromisoformat(cache_data.get("cached_at", "1970-01-01T00:00:00"))
+            age_seconds = (datetime.now() - cached_at).total_seconds()
+
+            return age_seconds < self.cache_expiry
+        except Exception as e:
+            print(f"⚠ Error checking cache freshness: {e}")
+            return False
+
+    def _load_games_from_cache(self) -> List[Dict]:
+        """Load games from cache file"""
+        try:
+            with open(self.games_cache_file, 'r') as f:
+                cache_data = json.load(f)
+            return cache_data.get("games", [])
+        except Exception as e:
+            print(f"⚠ Error loading games from cache: {e}")
+            return []
+
+    def _save_games_to_cache(self, games: List[Dict]):
+        """Save games to cache file with timestamp"""
+        try:
+            cache_data = {
+                "cached_at": datetime.now().isoformat(),
+                "games": games
+            }
+            with open(self.games_cache_file, 'w') as f:
+                json.dump(cache_data, f, indent=2)
+            print(f"✓ Cached {len(games)} NBA games")
+        except Exception as e:
+            print(f"⚠ Error saving games to cache: {e}")
+
+    def _fetch_games_from_odds_api(self) -> List[Dict]:
+        """Fetch games from The Odds API"""
+        if not self.odds_api_key:
+            print("⚠ ODDS_API_KEY not configured")
+            return []
+
+        try:
+            url = "https://api.the-odds-api.com/v4/sports/basketball_nba/odds/"
+            params = {
+                "apiKey": self.odds_api_key,
+                "regions": "us",
+                "markets": "h2h,spreads",
+                "oddsFormat": "decimal"
+            }
+
+            response = requests.get(url, params=params, timeout=10)
+            response.raise_for_status()
+
+            games_data = response.json()
+            games = []
+
+            for game in games_data:
+                # Extract best odds from bookmakers
+                home_odds = None
+                away_odds = None
+                spread_line = None
+
+                if game.get("bookmakers"):
+                    # Get odds from first bookmaker (usually most reputable)
+                    bookmaker = game["bookmakers"][0]
+                    for market in bookmaker.get("markets", []):
+                        if market["key"] == "h2h":
+                            for outcome in market["outcomes"]:
+                                if outcome["name"] == game["home_team"]:
+                                    home_odds = outcome["price"]
+                                elif outcome["name"] == game["away_team"]:
+                                    away_odds = outcome["price"]
+                        elif market["key"] == "spreads":
+                            for outcome in market["outcomes"]:
+                                if outcome["name"] == game["home_team"]:
+                                    spread_line = outcome.get("point")
+
+                games.append({
+                    "id": game["id"],
+                    "home_team": game["home_team"],
+                    "away_team": game["away_team"],
+                    "commence_time": game["commence_time"],
+                    "home_odds": home_odds,
+                    "away_odds": away_odds,
+                    "spread": spread_line,
+                    "sport": "NBA"
+                })
+
+            print(f"✓ Retrieved {len(games)} upcoming NBA games from Odds API")
+            return games
+
+        except requests.exceptions.RequestException as e:
+            print(f"⚠ Error fetching games from Odds API: {e}")
+            return []
+        except Exception as e:
+            print(f"⚠ Unexpected error getting games: {e}")
+            return []
+
+    def get_upcoming_games(self, force_refresh: bool = False) -> List[Dict]:
+        """
+        Get upcoming NBA games - first from cache, then from Odds API if needed.
+
+        Args:
+            force_refresh: If True, bypass cache and fetch fresh data
+
+        Returns:
+            List of game dictionaries
+        """
+        # Check cache first (unless force refresh)
+        if not force_refresh and self._is_cache_fresh():
+            games = self._load_games_from_cache()
+            if games:
+                print(f"✓ Loaded {len(games)} NBA games from cache")
+                return games
+
+        # Cache miss or stale - fetch from Odds API
+        games = self._fetch_games_from_odds_api()
+
+        # Save to cache for next time
+        if games:
+            self._save_games_to_cache(games)
+
+        return games
+
+    def refresh_games_cache(self) -> Dict:
+        """Manually refresh games cache from Odds API"""
+        games = self._fetch_games_from_odds_api()
+        if games:
+            self._save_games_to_cache(games)
+            return {
+                "status": "success",
+                "message": f"Refreshed {len(games)} games from Odds API",
+                "games": games
+            }
+        return {
+            "status": "error",
+            "message": "Failed to fetch games from Odds API"
+        }
 
     def _parse_players_from_markdown(self, markdown: str, team_id: str) -> List[Dict]:
         """Parse player data from markdown roster"""

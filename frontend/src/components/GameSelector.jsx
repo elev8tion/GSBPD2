@@ -2,25 +2,36 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { motion } from 'framer-motion';
 import { Calendar, ChevronRight } from 'lucide-react';
+import { useSport } from '../contexts/SportContext';
 
 const GameSelector = ({ onSelectGame }) => {
+    const { selectedSport } = useSport();
     const [games, setGames] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchGames = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/games');
-                setGames(response.data);
+                // Dynamically select endpoint based on selected sport
+                const endpoint = selectedSport === 'NBA'
+                    ? 'http://localhost:8000/nba/games'
+                    : 'http://localhost:8000/games';
+
+                const response = await axios.get(endpoint);
+
+                // Handle different response structures
+                const gamesData = response.data.games || response.data;
+                setGames(gamesData);
             } catch (error) {
                 console.error("Failed to fetch games:", error);
+                setGames([]);
             } finally {
                 setLoading(false);
             }
         };
 
         fetchGames();
-    }, []);
+    }, [selectedSport]);
 
     if (loading) {
         return (
