@@ -17,16 +17,29 @@ export OMP_NUM_THREADS=4
 export KMP_AFFINITY=disabled
 export MKL_THREADING_LAYER=GNU
 
+# Fix for macOS fork safety warnings and semaphore leaks
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+export PYTHONWARNINGS="ignore::UserWarning:multiprocessing.resource_tracker"
+
+# Cleanup stale processes on port 8000
+lsof -ti:8000 | xargs kill -9 2>/dev/null || true
+
 echo "========================================="
 echo "FastAPI Server with OpenMP Fix"
 echo "========================================="
 echo "OpenMP Library: $DYLD_INSERT_LIBRARIES"
 echo "Max Threads: $OMP_NUM_THREADS"
+echo "Fork Safety: Disabled"
+echo "Resource Tracker: Warnings Suppressed"
 echo "========================================="
 echo ""
 
 # Activate virtual environment and start server
 source "$SCRIPT_DIR/memvid_venv/bin/activate"
 
-# Start uvicorn with reload for development
-python -m uvicorn main:app --reload --port 8000 --host 0.0.0.0
+# Create log directory if it doesn't exist
+mkdir -p "$SCRIPT_DIR/logs"
+
+# Start uvicorn with reload for development and log to file
+echo "Starting server... Logs: $SCRIPT_DIR/logs/server.log"
+python -m uvicorn main:app --reload --port 8000 --host 0.0.0.0 2>&1 | tee "$SCRIPT_DIR/logs/server.log"
