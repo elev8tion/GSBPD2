@@ -1,0 +1,4 @@
+#!/bin/bash
+# Simple launcher - calls the actual startup script
+cd "$(dirname "$0")"
+./scripts/start.sh

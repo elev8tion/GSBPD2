@@ -1,2 +1,9 @@
 nba_data/games_cache.json
 logs/
+memvid_venv/
+*.pyc
+__pycache__/
+memvid_integration/processed/
+*.json
+!nba_data/teams.json
+!nba_data/players.json

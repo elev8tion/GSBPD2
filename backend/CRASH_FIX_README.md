@@ -33,25 +33,30 @@ export PYTHONWARNINGS="ignore::UserWarning:multiprocessing.resource_tracker"
 
 ### Usage
 
-**Always use the startup script instead of running uvicorn directly:**
+**There is ONLY ONE way to start the server:**
 
 ```bash
 cd backend
-./start_server.sh
+./start
 ```
 
-**DO NOT run:**
+**DO NOT run any of these:**
 ```bash
-uvicorn main:app --reload  # ❌ Will crash due to missing environment variables
+uvicorn main:app --reload              # ❌ Will crash - missing environment variables
+python -m uvicorn main:app --reload    # ❌ Will crash - missing environment variables
+./scripts/start.sh                     # ❌ Wrong - use ./start instead
 ```
+
+The `./start` launcher ensures all crash prevention environment variables are set correctly.
 
 ### Monitoring
 
 Server logs are saved to `logs/server.log` for debugging. If you see crashes:
 
 1. Check `logs/server.log` for error messages
-2. Verify all environment variables are set in `start_server.sh`
+2. Verify all environment variables are set in `scripts/start.sh`
 3. Ensure no other processes are using port 8000
+4. Make sure you're using `./start` not running uvicorn directly
 
 ### Technical Details
 
