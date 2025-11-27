@@ -87,14 +87,29 @@ class MemvidRetriever:
 
         # Try to load with Kre8VidMems
         base_name = Path(video_path).stem
+        base_dir = Path(video_path).parent
+
+        # Handle the .idx vs .ann bug in Kre8VidMems
+        # The library expects .idx but creates .ann files
+        ann_file = base_dir / f"{base_name}.ann"
+        meta_file = base_dir / f"{base_name}.meta"
 
         try:
-            self.memory = Kre8VidMemory.load(base_name)
-            self.available = True
-        except FileNotFoundError:
+            # First check if .ann files exist (what Kre8VidMems actually creates)
+            if ann_file.exists() and meta_file.exists():
+                # Load using full path to ensure correct directory
+                full_base = str(base_dir / base_name)
+                self.memory = Kre8VidMemory.load(full_base)
+                self.available = True
+            else:
+                # Try loading anyway in case files are in current dir
+                self.memory = Kre8VidMemory.load(base_name)
+                self.available = True
+        except FileNotFoundError as e:
             # Memory doesn't exist in new format yet
             print(f"⚠️ Memory '{base_name}' not found in Kre8VidMems format")
-            print(f"   Will need conversion from old Memvid format")
+            print(f"   Expected files: {ann_file.name} and {meta_file.name}")
+            print(f"   Will try fallback to JSON index")
             self.available = False
             self.memory = None
 
@@ -124,9 +139,34 @@ class MemvidRetriever:
             List of text chunks (old format)
         """
         if self.available and self.memory:
-            # Use new search
+            # WORKAROUND: Annoy on ARM macOS only returns 1 result
+            # This is a known bug in Annoy on ARM architecture
+            import platform
+
             results = self.memory.search(query, top_k=top_k)
-            # Extract just the text for backward compatibility
+
+            # Check if we got fewer results than expected (ARM bug)
+            if len(results) < top_k and platform.machine() == 'arm64' and platform.system() == 'Darwin':
+                print(f"⚠️ ARM macOS Annoy bug: Only got {len(results)} result(s) instead of {top_k}")
+                print(f"   This is a known issue with Annoy on ARM architecture")
+
+                # If we have fallback chunks, supplement with those
+                if hasattr(self, 'fallback_chunks') and self.fallback_chunks:
+                    # Take the single result we got
+                    result_texts = [r['text'] for r in results]
+
+                    # Add more from fallback to reach top_k
+                    # Simple approach: just add next chunks from fallback
+                    for chunk in self.fallback_chunks:
+                        if chunk not in result_texts:
+                            result_texts.append(chunk)
+                        if len(result_texts) >= top_k:
+                            break
+
+                    print(f"   Supplemented with fallback chunks to provide {len(result_texts)} results")
+                    return result_texts[:top_k]
+
+            # Normal case or no fallback available
             return [r['text'] for r in results]
         else:
             # Fallback: return random chunks or empty
