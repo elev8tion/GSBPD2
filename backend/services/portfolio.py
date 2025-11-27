@@ -1,7 +1,19 @@
 import os
 import json
 from datetime import datetime
-from memvid import MemvidEncoder, MemvidRetriever
+
+# Migration: Use adapter instead of direct memvid import
+# This provides backward compatibility while using Kre8VidMems underneath
+try:
+    from services.memvid_adapter import MemvidEncoder, MemvidRetriever
+    print("✅ Portfolio Service: Using Kre8VidMems adapter (no FAISS!)")
+except ImportError:
+    try:
+        from memvid import MemvidEncoder, MemvidRetriever
+        print("⚠️ Portfolio Service: Using original Memvid (FAISS issues may occur)")
+    except ImportError:
+        print("❌ Portfolio Service: Neither Kre8VidMems adapter nor Memvid available")
+        raise
 
 VIDEO_PATH = "portfolio.mp4"
 INDEX_PATH = "portfolio_index.json"

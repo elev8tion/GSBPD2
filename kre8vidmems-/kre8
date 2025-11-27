@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+"""
+Wrapper script that auto-activates virtual environment
+Usage: ./kre8 <command>
+"""
+import os
+import sys
+import subprocess
+from pathlib import Path
+
+def main():
+    # Get project directory
+    project_dir = Path(__file__).parent.absolute()
+    venv_dir = project_dir / ".venv"
+    venv_python = venv_dir / "bin" / "python3"
+    
+    # Check if venv exists
+    if not venv_python.exists():
+        print("⚠️  Virtual environment not found!")
+        print("Run: source setup.sh")
+        sys.exit(1)
+    
+    # If no arguments, show help
+    if len(sys.argv) == 1:
+        print("Kre8VidMems CLI")
+        print("=" * 40)
+        print("\nUsage:")
+        print("  ./kre8 test              - Run tests")
+        print("  ./kre8 example           - Run example")
+        print("  ./kre8 python <script>   - Run Python script in venv")
+        print("  ./kre8 shell             - Start Python shell in venv")
+        print("\nOr activate manually:")
+        print("  source .venv/bin/activate")
+        sys.exit(0)
+    
+    # Handle commands
+    command = sys.argv[1]
+    
+    if command == "test":
+        # Run test script
+        test_script = project_dir / "test_build.py"
+        subprocess.run([str(venv_python), str(test_script)])
+        
+    elif command == "example":
+        # Run example
+        example_script = project_dir / "examples" / "simple_example.py"
+        subprocess.run([str(venv_python), str(example_script)])
+        
+    elif command == "python":
+        # Run arbitrary Python script
+        if len(sys.argv) < 3:
+            print("Usage: ./kre8 python <script.py>")
+            sys.exit(1)
+        script = sys.argv[2]
+        subprocess.run([str(venv_python), script] + sys.argv[3:])
+        
+    elif command == "shell":
+        # Start Python shell
+        subprocess.run([str(venv_python)])
+        
+    else:
+        print(f"Unknown command: {command}")
+        print("Run './kre8' for help")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()

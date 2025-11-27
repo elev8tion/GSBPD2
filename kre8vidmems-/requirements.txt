@@ -1,0 +1,11 @@
+numpy
+opencv-python
+qrcode[pil]
+sentence-transformers
+annoy
+tqdm
+Pillow
+pyzbar
+openai
+google-generativeai
+anthropic

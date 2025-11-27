@@ -14,11 +14,13 @@ qrcode
 pillow
 sentence-transformers
 
-# Memvid Integration
-memvid>=1.0.0
+# Memory System (Kre8VidMems - no FAISS crashes!)
+kre8vidmems>=0.1.0  # New Annoy-based system
+# memvid>=1.0.0  # Optional: kept for reference but not needed
 python-dotenv>=1.0.0
 yt-dlp>=2023.10.13
 numpy>=1.24.0
+annoy>=1.17.0  # Approximate Nearest Neighbors Oh Yeah!
 
 # OCR for video processing
 pytesseract>=0.3.10

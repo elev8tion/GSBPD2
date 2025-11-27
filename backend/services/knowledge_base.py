@@ -6,7 +6,21 @@ import subprocess
 from pathlib import Path
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
-from memvid import MemvidEncoder, MemvidRetriever
+
+# Migration: Use adapter instead of direct memvid import
+# This provides backward compatibility while using Kre8VidMems underneath
+try:
+    # Try the migration adapter first (Kre8VidMems backend)
+    from services.memvid_adapter import MemvidEncoder, MemvidRetriever
+    print("✅ Using Kre8VidMems adapter (no FAISS!)")
+except ImportError:
+    # Fallback to original memvid if adapter not available
+    try:
+        from memvid import MemvidEncoder, MemvidRetriever
+        print("⚠️ Using original Memvid (FAISS issues may occur)")
+    except ImportError:
+        print("❌ Neither Kre8VidMems adapter nor Memvid available")
+        raise
 
 # Load environment variables
 load_dotenv()

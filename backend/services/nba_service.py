@@ -76,7 +76,14 @@ class NBADataService:
     def _init_memvid_retrievers(self):
         """Initialize Memvid retrievers for NBA data"""
         try:
-            from memvid import MemvidRetriever
+            # Migration: Use adapter instead of direct memvid import
+            # This provides backward compatibility while using Kre8VidMems underneath
+            try:
+                from services.memvid_adapter import MemvidRetriever
+                print("✅ NBA Service: Using Kre8VidMems adapter (no FAISS!)")
+            except ImportError:
+                from memvid import MemvidRetriever
+                print("⚠️ NBA Service: Using original Memvid (FAISS issues may occur)")
 
             # NBA Players memory
             players_video = self.memories_dir / "nba-players" / "nba-players.mp4"
