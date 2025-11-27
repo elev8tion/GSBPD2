@@ -7,20 +7,9 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
-# Migration: Use adapter instead of direct memvid import
-# This provides backward compatibility while using Kre8VidMems underneath
-try:
-    # Try the migration adapter first (Kre8VidMems backend)
-    from services.memvid_adapter import MemvidEncoder, MemvidRetriever
-    print("✅ Using Kre8VidMems adapter (no FAISS!)")
-except ImportError:
-    # Fallback to original memvid if adapter not available
-    try:
-        from memvid import MemvidEncoder, MemvidRetriever
-        print("⚠️ Using original Memvid (FAISS issues may occur)")
-    except ImportError:
-        print("❌ Neither Kre8VidMems adapter nor Memvid available")
-        raise
+# Use Kre8VidMems directly - no more FAISS crashes!
+from kre8vidmems import Kre8VidMemory
+print("✅ Using Kre8VidMems directly (no FAISS!)")
 
 # Load environment variables
 load_dotenv()
@@ -30,9 +19,15 @@ INDEX_PATH = "knowledge_base_index.json"
 
 class KnowledgeBaseService:
     def __init__(self):
-        self.encoder = MemvidEncoder()
-        if not os.path.exists(VIDEO_PATH):
-            pass
+        self.memory = None
+        if os.path.exists(VIDEO_PATH):
+            try:
+                # Load existing memory
+                base_path = Path(VIDEO_PATH).stem
+                self.memory = Kre8VidMemory.load(base_path)
+            except:
+                # Create new memory if loading fails
+                self.memory = Kre8VidMemory()
 
     def ingest_video(self, file_path: str):
         """

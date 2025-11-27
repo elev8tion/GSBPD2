@@ -1,6 +1,7 @@
 nba_data/games_cache.json
 logs/
 memvid_venv/
+kre8vid_venv/
 *.pyc
 __pycache__/
 memvid_integration/processed/

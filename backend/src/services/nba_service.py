@@ -74,47 +74,40 @@ class NBADataService:
         self._init_memvid_retrievers()
 
     def _init_memvid_retrievers(self):
-        """Initialize Memvid retrievers for NBA data"""
+        """Initialize Kre8VidMems memories for NBA data"""
         try:
-            # Migration: Use adapter instead of direct memvid import
-            # This provides backward compatibility while using Kre8VidMems underneath
-            try:
-                from services.memvid_adapter import MemvidRetriever
-                print("✅ NBA Service: Using Kre8VidMems adapter (no FAISS!)")
-            except ImportError:
-                from memvid import MemvidRetriever
-                print("⚠️ NBA Service: Using original Memvid (FAISS issues may occur)")
+            from kre8vidmems import Kre8VidMemory
+            print("✅ NBA Service: Using Kre8VidMems directly (no FAISS!)")
 
             # NBA Players memory
-            players_video = self.memories_dir / "nba-players" / "nba-players.mp4"
-            players_index = self.memories_dir / "nba-players" / "nba-players_index.json"
+            players_path = self.memories_dir / "nba-players" / "nba-players"
 
             # NBA Games/Standings memory
-            games_video = self.memories_dir / "nba-games" / "nba-games.mp4"
-            games_index = self.memories_dir / "nba-games" / "nba-games_index.json"
+            games_path = self.memories_dir / "nba-games" / "nba-games"
 
             # NBA Schedule memory
-            schedule_video = self.memories_dir / "nba-schedule" / "nba-schedule.mp4"
-            schedule_index = self.memories_dir / "nba-schedule" / "nba-schedule_index.json"
+            schedule_path = self.memories_dir / "nba-schedule" / "nba-schedule"
 
-            if players_video.exists() and players_index.exists():
-                self.players_retriever = MemvidRetriever(str(players_video), str(players_index))
-                print("✓ NBA Players Memvid retriever initialized")
-            else:
+            # Load memories
+            try:
+                self.players_retriever = Kre8VidMemory.load(str(players_path))
+                print("✓ NBA Players Kre8VidMems memory loaded")
+            except:
                 self.players_retriever = None
+                print("⚠ NBA Players memory not found")
                 print("⚠ NBA Players memory not found - using fallback JSON")
 
-            if games_video.exists() and games_index.exists():
-                self.games_retriever = MemvidRetriever(str(games_video), str(games_index))
-                print("✓ NBA Games Memvid retriever initialized")
-            else:
+            try:
+                self.games_retriever = Kre8VidMemory.load(str(games_path))
+                print("✓ NBA Games Kre8VidMems memory loaded")
+            except:
                 self.games_retriever = None
                 print("⚠ NBA Games memory not found - using fallback JSON")
 
-            if schedule_video.exists() and schedule_index.exists():
-                self.schedule_retriever = MemvidRetriever(str(schedule_video), str(schedule_index))
-                print("✓ NBA Schedule Memvid retriever initialized")
-            else:
+            try:
+                self.schedule_retriever = Kre8VidMemory.load(str(schedule_path))
+                print("✓ NBA Schedule Kre8VidMems memory loaded")
+            except:
                 self.schedule_retriever = None
                 print("⚠ NBA Schedule memory not found - using fallback JSON")
 

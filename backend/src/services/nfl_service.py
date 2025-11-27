@@ -1,6 +1,6 @@
 """
 NFL Data Service
-Handles scraping, storing, and retrieving NFL data using Firecrawl + Memvid
+Handles storing and retrieving NFL data using Kre8VidMems
 """
 
 import json
@@ -8,6 +8,10 @@ import os
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
+
+# Use Kre8VidMems directly - no more FAISS crashes!
+from kre8vidmems import Kre8VidMemory
+print("✅ NFL Service: Using Kre8VidMems directly (no FAISS!)")
 
 # NFL Teams Database (32 teams)
 NFL_TEAMS = [
@@ -56,10 +60,36 @@ NFL_TEAMS = [
 class NFLDataService:
     def __init__(self):
         base_dir = Path(__file__).parent.parent
-        self.data_dir = base_dir / "nfl_data"
+        self.data_dir = base_dir / "data"
         self.data_dir.mkdir(exist_ok=True)
-        self.teams_file = self.data_dir / "teams.json"
-        self.players_file = self.data_dir / "players.json"
+        self.rosters_file = self.data_dir / "nfl_rosters.json"
+
+        # Initialize Kre8VidMems retrievers
+        self.teams_memory = None
+        self.players_memory = None
+        self._init_memories()
+
+    def _init_memories(self):
+        """Initialize Kre8VidMems memories for NFL data."""
+        try:
+            # Load NFL teams memory
+            if Path("nfl-teams.ann").exists():
+                self.teams_memory = Kre8VidMemory.load("nfl-teams")
+                print("✓ NFL Teams Kre8VidMems memory loaded")
+            else:
+                print("⚠ NFL Teams memory not found")
+
+            # Load NFL players memory
+            if Path("nfl-players.ann").exists():
+                self.players_memory = Kre8VidMemory.load("nfl-players")
+                print("✓ NFL Players Kre8VidMems memory loaded")
+            else:
+                print("⚠ NFL Players memory not found")
+
+        except Exception as e:
+            print(f"⚠ Error initializing NFL memories: {e}")
+            self.teams_memory = None
+            self.players_memory = None
 
     def scrape_all_teams(self) -> Dict:
         """Scrape data for all NFL teams"""
@@ -91,41 +121,104 @@ class NFLDataService:
         return {"teams": teams, "total": len(teams)}
 
     def get_all_teams(self) -> List[Dict]:
-        """Get all teams from cache"""
-        if self.teams_file.exists():
-            with open(self.teams_file, 'r') as f:
-                return json.load(f)
-        # Return default structure if file doesn't exist
+        """Get all teams from rosters file or memory"""
+        # Try loading from rosters file first
+        if self.rosters_file.exists():
+            with open(self.rosters_file, 'r') as f:
+                data = json.load(f)
+                return [{"name": team["team"]} for team in data]
+
+        # Fallback to default teams
         return [
             {
                 "team_id": team["id"],
                 "name": team["name"],
                 "slug": team["slug"],
                 "division": team["division"],
-                "conference": team["conference"],
-                "wins": 0,
-                "losses": 0,
-                "ties": 0,
-                "win_percentage": 0.0,
-                "points_for": 0,
-                "points_against": 0
+                "conference": team["conference"]
             }
             for team in NFL_TEAMS
         ]
 
-    def get_team_by_id(self, team_id: str) -> Optional[Dict]:
-        """Get specific team by ID"""
-        teams = self.get_all_teams()
-        return next((t for t in teams if t["team_id"] == team_id), None)
+    def search_teams(self, query: str, top_k: int = 5) -> List[Dict]:
+        """Search teams using Kre8VidMems."""
+        if self.teams_memory:
+            try:
+                results = self.teams_memory.search(query, top_k=top_k)
+                teams = []
+                for result in results:
+                    if isinstance(result, dict):
+                        # Extract text from result
+                        text = result.get('text', '')
+                        try:
+                            # Parse the JSON from the text field
+                            chunk_data = json.loads(text)
+                            metadata = chunk_data.get("metadata", {})
+                            teams.append(metadata)
+                        except:
+                            # If parsing fails, try to extract team info directly
+                            pass
+                return teams
+            except Exception as e:
+                print(f"Error searching teams: {e}")
 
-    def get_all_players(self) -> List[Dict]:
-        """Get all players from cache"""
-        if self.players_file.exists():
-            with open(self.players_file, 'r') as f:
-                return json.load(f)
+        # Fallback to text search
+        return self._fallback_team_search(query)
+
+    def _fallback_team_search(self, query: str) -> List[Dict]:
+        """Fallback text search for teams."""
+        query_lower = query.lower()
+        teams = self.get_all_teams()
+        results = []
+        for team in teams:
+            if query_lower in team.get("name", "").lower():
+                results.append(team)
+        return results
+
+    def search_players(self, query: str, top_k: int = 10) -> List[Dict]:
+        """Search players using Kre8VidMems."""
+        if self.players_memory:
+            try:
+                results = self.players_memory.search(query, top_k=top_k)
+                players = []
+                for result in results:
+                    if isinstance(result, dict):
+                        # Extract text from result
+                        text = result.get('text', '')
+                        try:
+                            # Parse the JSON from the text field
+                            chunk_data = json.loads(text)
+                            metadata = chunk_data.get("metadata", {})
+                            players.append(metadata)
+                        except:
+                            # If parsing fails, try to extract player info directly
+                            pass
+                return players
+            except Exception as e:
+                print(f"Error searching players: {e}")
+
+        # Fallback to loading from file
+        return self._fallback_player_search(query)
+
+    def _fallback_player_search(self, query: str) -> List[Dict]:
+        """Fallback text search for players."""
+        if self.rosters_file.exists():
+            with open(self.rosters_file, 'r') as f:
+                data = json.load(f)
+                query_lower = query.lower()
+                results = []
+                for team in data:
+                    for player in team.get("players", []):
+                        if (query_lower in player.get("name", "").lower() or
+                            query_lower in player.get("position", "").lower()):
+                            player_data = player.copy()
+                            player_data["team"] = team["team"]
+                            results.append(player_data)
+                return results[:10]
         return []
 
-    def get_players_by_team(self, team_id: str) -> List[Dict]:
-        """Get all players for a specific team"""
-        all_players = self.get_all_players()
-        return [p for p in all_players if p["team_id"] == team_id]
+    def get_team_roster(self, team_name: str) -> List[Dict]:
+        """Get all players for a specific team."""
+        # Search for team's players
+        results = self.search_players(f"{team_name} roster", top_k=50)
+        return results

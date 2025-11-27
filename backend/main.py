@@ -1,9 +1,9 @@
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from model import PredictionModel
-from grok import GrokInsightGenerator
-from data_service import DataService
+from src.core.model import PredictionModel
+from src.core.grok import GrokInsightGenerator
+from src.core.data_service import DataService
 
 app = FastAPI(title="Grok's Sports Betting Prediction Dashboard")
 
@@ -16,11 +16,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from services.odds_api import OddsAPIService
-from services.knowledge_base import KnowledgeBaseService
-from services.sgp_engine import SGPEngine
-from services.nba_service import NBADataService
-from services.nfl_service import NFLDataService
+from src.services.odds_api import OddsAPIService
+from src.services.knowledge_base import KnowledgeBaseService
+from src.services.sgp_engine import SGPEngine
+from src.services.nba_service import NBADataService
+from src.services.nfl_service import NFLDataService
 
 # Initialize services
 model_service = PredictionModel()
@@ -642,3 +642,30 @@ def scrape_nfl_data():
         return {"status": "success", "message": "NFL data scraped successfully", "data": result}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Scraping failed: {str(e)}")
+
+@app.get("/nfl/search/teams")
+def search_nfl_teams(query: str, limit: int = 5):
+    """Search NFL teams using Kre8VidMems semantic search"""
+    try:
+        results = nfl_service.search_teams(query, top_k=limit)
+        return {"query": query, "results": results, "count": len(results)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Search failed: {str(e)}")
+
+@app.get("/nfl/search/players")
+def search_nfl_players(query: str, limit: int = 10):
+    """Search NFL players using Kre8VidMems semantic search"""
+    try:
+        results = nfl_service.search_players(query, top_k=limit)
+        return {"query": query, "results": results, "count": len(results)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Search failed: {str(e)}")
+
+@app.get("/nfl/roster/{team_name}")
+def get_nfl_team_roster_by_name(team_name: str):
+    """Get roster for a team by name using Kre8VidMems search"""
+    try:
+        players = nfl_service.get_team_roster(team_name)
+        return {"team": team_name, "players": players, "total": len(players)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get roster: {str(e)}")

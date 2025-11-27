@@ -2,29 +2,28 @@ import os
 import json
 from datetime import datetime
 
-# Migration: Use adapter instead of direct memvid import
-# This provides backward compatibility while using Kre8VidMems underneath
-try:
-    from services.memvid_adapter import MemvidEncoder, MemvidRetriever
-    print("✅ Portfolio Service: Using Kre8VidMems adapter (no FAISS!)")
-except ImportError:
-    try:
-        from memvid import MemvidEncoder, MemvidRetriever
-        print("⚠️ Portfolio Service: Using original Memvid (FAISS issues may occur)")
-    except ImportError:
-        print("❌ Portfolio Service: Neither Kre8VidMems adapter nor Memvid available")
-        raise
+# Use Kre8VidMems directly - no more FAISS crashes!
+from kre8vidmems import Kre8VidMemory
+print("✅ Portfolio Service: Using Kre8VidMems directly (no FAISS!)")
 
 VIDEO_PATH = "portfolio.mp4"
 INDEX_PATH = "portfolio_index.json"
 
 class PortfolioService:
     def __init__(self):
-        self.encoder = MemvidEncoder()
-        # Ensure files exist or handle initialization
-        if not os.path.exists(VIDEO_PATH):
-            # Initialize empty video if possible, or just wait for first add
-            pass
+        self.memory = None
+        # Load existing memory or create new one
+        if os.path.exists(VIDEO_PATH):
+            try:
+                from pathlib import Path
+                base_path = Path(VIDEO_PATH).stem
+                self.memory = Kre8VidMemory.load(base_path)
+            except:
+                # Create new memory if loading fails
+                self.memory = Kre8VidMemory()
+        else:
+            # Create new memory
+            self.memory = Kre8VidMemory()
 
     def place_bet(self, bet_data: dict):
         """
@@ -91,9 +90,13 @@ class PortfolioService:
 
     def _rebuild_memvid(self, bets):
         chunks = [json.dumps(b) for b in bets]
-        self.encoder = MemvidEncoder() # Reset
-        self.encoder.add_chunks(chunks)
-        self.encoder.build_video(VIDEO_PATH, INDEX_PATH)
+        # Create new memory and add chunks
+        self.memory = Kre8VidMemory()
+        self.memory.add_chunks(chunks)
+        # Save the memory with the portfolio name
+        from pathlib import Path
+        base_path = Path(VIDEO_PATH).stem
+        self.memory.save(base_path)
 
     def _load_local_bets(self):
         if os.path.exists("bets_backup.json"):
