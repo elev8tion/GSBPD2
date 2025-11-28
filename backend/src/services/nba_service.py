@@ -69,11 +69,11 @@ class NBADataService:
         # Cache expiry time (in seconds) - default 1 hour
         self.cache_expiry = 3600
 
-        # Initialize Memvid retrievers
+        # Initialize Kre8VidMems retrievers
         self.memories_dir = base_dir / "memories"
-        self._init_memvid_retrievers()
+        self._init_kre8vidmems_retrievers()
 
-    def _init_memvid_retrievers(self):
+    def _init_kre8vidmems_retrievers(self):
         """Initialize Kre8VidMems memories for NBA data"""
         try:
             from kre8vidmems import Kre8VidMemory
@@ -240,22 +240,26 @@ class NBADataService:
         return {"teams": teams, "total": len(teams)}
 
     def get_all_teams(self) -> List[Dict]:
-        """Get all teams from JSON cache (Memvid temporarily disabled due to FAISS hang)"""
-        # FIXME: Memvid games query causes FAISS hang on macOS with uvicorn reload
-        # Issue: FAISS .search() deadlocks when called inside FastAPI with --reload
-        # Root cause: Conflict between FAISS threading + uvicorn's StatReload mechanism
-        # Standalone memvid scripts work fine, but not in FastAPI server context
-        # TODO: Investigate using FAISS in separate process or switch to ChromaDB/Qdrant
-
-        # Use JSON file directly
+        """Get all NBA teams from hardcoded database or JSON cache"""
+        # Try JSON cache first
         if self.teams_file.exists():
             with open(self.teams_file, 'r') as f:
                 teams = json.load(f)
                 print(f"✓ Retrieved {len(teams)} teams from JSON cache")
                 return teams
 
-        print("⚠ No teams data available - teams.json not found")
-        return []
+        # Fallback to hardcoded NBA_TEAMS
+        print(f"✓ Retrieved {len(NBA_TEAMS)} teams from hardcoded database")
+        return [
+            {
+                "team_id": team["id"],
+                "name": team["name"],
+                "slug": team["slug"],
+                "division": team["division"],
+                "conference": team["conference"]
+            }
+            for team in NBA_TEAMS
+        ]
 
     def get_team_by_id(self, team_id: str) -> Optional[Dict]:
         """Get specific team by ID"""
@@ -562,8 +566,8 @@ class NBADataService:
         all_players = self.get_all_players()
         return [p for p in all_players if p["team_id"] == team_id]
 
-    def store_in_memvid(self, data: Dict, memory_name: str):
-        """Store scraped data in Memvid for semantic search"""
+    def store_in_kre8vidmems(self, data: Dict, memory_name: str):
+        """Store scraped data in Kre8VidMems for semantic search"""
         from services.knowledge_base import KnowledgeBaseService
 
         kb = KnowledgeBaseService()

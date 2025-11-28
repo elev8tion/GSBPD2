@@ -16,8 +16,7 @@ sentence-transformers
 openai>=1.0.0
 
 # Memory System (Kre8VidMems - no FAISS crashes!)
-kre8vidmems>=0.1.0  # New Annoy-based system
-# memvid>=1.0.0  # Optional: kept for reference but not needed
+kre8vidmems>=0.1.0  # Annoy-based vector memory system
 python-dotenv>=1.0.0
 yt-dlp>=2023.10.13
 numpy>=1.24.0

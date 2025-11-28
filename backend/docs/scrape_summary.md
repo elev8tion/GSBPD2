@@ -49,7 +49,7 @@
 
 ## Next Steps
 1. Parse markdown data with `parse_roster_v2.py`
-2. Convert to text format for Memvid ingestion
-3. Run `encode_to_memvid.py --name nba-players`
-4. Verify memory creation in `/backend/memories/nba-players/`
-5. Update NBADataService to query from Memvid
+2. Convert to text format for Kre8VidMems ingestion
+3. Run `encode_to_kre8vidmems.py --name nba-players`
+4. Verify memory creation in `/backend/data/memories/nba-players/`
+5. Update NBADataService to query from Kre8VidMems

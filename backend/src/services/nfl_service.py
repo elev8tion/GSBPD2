@@ -59,7 +59,8 @@ NFL_TEAMS = [
 
 class NFLDataService:
     def __init__(self):
-        base_dir = Path(__file__).parent.parent
+        # Go up two levels from src/services/ to get to backend root
+        base_dir = Path(__file__).parent.parent.parent
         self.data_dir = base_dir / "data"
         self.data_dir.mkdir(exist_ok=True)
         self.rosters_file = self.data_dir / "nfl_rosters.json"
@@ -217,8 +218,30 @@ class NFLDataService:
                 return results[:10]
         return []
 
+    def get_all_players(self) -> List[Dict]:
+        """Get all NFL players from rosters file."""
+        if self.rosters_file.exists():
+            with open(self.rosters_file, 'r') as f:
+                data = json.load(f)
+                all_players = []
+                for team in data:
+                    team_name = team.get("team", "")
+                    for player in team.get("players", []):
+                        player_data = player.copy()
+                        player_data["team"] = team_name
+                        all_players.append(player_data)
+                return all_players
+        return []
+
     def get_team_roster(self, team_name: str) -> List[Dict]:
         """Get all players for a specific team."""
-        # Search for team's players
-        results = self.search_players(f"{team_name} roster", top_k=50)
-        return results
+        if self.rosters_file.exists():
+            with open(self.rosters_file, 'r') as f:
+                data = json.load(f)
+                team_name_lower = team_name.lower()
+                for team in data:
+                    # Match team name flexibly (handle full name, city, or mascot)
+                    team_full = team.get("team", "").lower()
+                    if team_name_lower in team_full or team_full in team_name_lower:
+                        return team.get("players", [])
+        return []

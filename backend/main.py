@@ -125,7 +125,7 @@ def resolve_bet(resolve: ResolveRequest):
 
 class SGPRequest(BaseModel):
     game_id: str
-    prediction_margin: float
+    prediction_margin: float = 0.0  # Default to 0 if not provided
     home_team: str
     away_team: str
 
@@ -148,7 +148,7 @@ def ingest_video(request: IngestRequest):
 
 @app.post("/train")
 def train_model(background_tasks: BackgroundTasks):
-    # Pull data from Memvid Knowledge Base
+    # Pull data from Kre8VidMems Knowledge Base
     training_data = kb_service.get_training_data()
     
     if not training_data:
@@ -190,7 +190,7 @@ def predict(request: PredictionRequest):
         "shap_values": shap_values or {}
     }
 
-# ==================== NEW MEMVID PIPELINE ENDPOINTS ====================
+# ==================== KRE8VIDMEMS KNOWLEDGE BASE ENDPOINTS ====================
 
 class MemorySearchRequest(BaseModel):
     query: str
@@ -209,7 +209,7 @@ class TextMemoryRequest(BaseModel):
 
 @app.post("/memories/search")
 def search_memories(request: MemorySearchRequest):
-    """Search across memvid memories for relevant knowledge."""
+    """Search across Kre8VidMems memories for relevant knowledge."""
     try:
         # Validate query
         if not request.query or len(request.query.strip()) == 0:
@@ -236,7 +236,7 @@ def search_memories(request: MemorySearchRequest):
 
 @app.get("/memories/list")
 def list_memories():
-    """List all available memvid memories."""
+    """List all available Kre8VidMems memories."""
     try:
         result = kb_service.list_all_memories()
 
@@ -293,7 +293,7 @@ def create_text_memory(request: TextMemoryRequest):
 
 @app.delete("/memories/{memory_name}")
 def delete_memory(memory_name: str):
-    """Delete a memvid memory."""
+    """Delete a Kre8VidMems memory."""
     try:
         # Validate memory name
         if not memory_name or len(memory_name.strip()) == 0:

@@ -108,8 +108,8 @@ class KnowledgeBaseService:
         items.append(item_data)
         self._save_local_items(items)
 
-        # Rebuild Memvid
-        self._rebuild_memvid(items)
+        # Rebuild Kre8VidMems
+        self._rebuild_kre8vidmems(items)
 
         return {"status": "success", "message": f"{item_type} recorded in Knowledge Base", "id": item_data['id']}
 
@@ -147,7 +147,7 @@ class KnowledgeBaseService:
 
         if updated:
             self._save_local_items(items)
-            self._rebuild_memvid(items)
+            self._rebuild_kre8vidmems(items)
             return {"status": "success", "message": f"Bet {bet_id} resolved as {outcome.upper()}"}
 
         return {"status": "error", "message": "Bet not found"}
@@ -185,7 +185,7 @@ class KnowledgeBaseService:
                 training_data.append((features, label))
         return training_data
 
-    def _rebuild_memvid(self, items):
+    def _rebuild_kre8vidmems(self, items):
         chunks = [json.dumps(i) for i in items]
         self.encoder = MemvidEncoder()
         self.encoder.add_chunks(chunks)
@@ -209,7 +209,7 @@ class KnowledgeBaseService:
 
     def create_memory_from_text(self, memory_name: str, docs_dir: str, sport: str = "nfl"):
         """
-        Create a memvid memory from text documents.
+        Create a Kre8VidMems memory from text documents.
 
         Args:
             memory_name: Name for the memory (e.g., 'nfl-strategies')
@@ -220,26 +220,44 @@ class KnowledgeBaseService:
             dict with status and message
         """
         try:
-            from memvid_integration.helpers import create_memory
+            docs_path = Path(docs_dir)
+            if not docs_path.exists():
+                return {"status": "error", "message": f"Directory not found: {docs_dir}"}
 
-            # Create memory with categorization
-            result = create_memory(
-                project_name=f"{sport}-{memory_name}",
-                directory=docs_dir,
-                chunk_size=512
-            )
+            # Read all text files
+            text_files = list(docs_path.glob("*.txt")) + list(docs_path.glob("*.md"))
+            if not text_files:
+                return {"status": "error", "message": f"No .txt or .md files found in {docs_dir}"}
+
+            # Combine all text
+            all_text = []
+            for file_path in text_files:
+                with open(file_path, 'r') as f:
+                    all_text.append(f.read())
+
+            combined_text = "\n\n".join(all_text)
+
+            # Create memory
+            full_memory_name = f"{sport}-{memory_name}"
+            memories_dir = Path("data/memories")
+            memories_dir.mkdir(parents=True, exist_ok=True)
+
+            memory = Kre8VidMemory()
+            memory.add_text(combined_text)
+            memory.save(str(memories_dir / full_memory_name))
 
             return {
-                "status": "success" if result else "error",
-                "message": f"Created memory '{sport}-{memory_name}' from {docs_dir}",
-                "memory_name": f"{sport}-{memory_name}"
+                "status": "success",
+                "message": f"Created memory '{full_memory_name}' from {len(text_files)} files",
+                "memory_name": full_memory_name,
+                "files_processed": len(text_files)
             }
         except Exception as e:
             return {"status": "error", "message": str(e)}
 
     def search_memories(self, query: str, memories: list = None, top_k: int = 5):
         """
-        Search across one or more memories.
+        Search across one or more Kre8VidMems memories.
 
         Args:
             query: Search query string
@@ -250,47 +268,88 @@ class KnowledgeBaseService:
             dict with search results
         """
         try:
-            from memvid_integration.helpers import query_memory, query_multiple, list_memories
+            memories_dir = Path("data/memories")
 
             if memories is None or len(memories) == 0:
-                # Search all memories
-                all_mems = list_memories(output_json=False)
-                memories = [m['project_name'] for m in all_mems]
+                # Get all available memories
+                memory_files = list(memories_dir.glob("*.ann"))
+                memories = [f.stem for f in memory_files]
 
-            if len(memories) == 1:
-                result = query_memory(memories[0], query, top_k)
-                return {
-                    "status": "success",
-                    "query": query,
-                    "memory": memories[0],
-                    "results": result
-                }
-            else:
-                result = query_multiple(memories, query, top_k)
-                return {
-                    "status": "success",
-                    "query": query,
-                    "memories": memories,
-                    "results": result
-                }
+            if not memories:
+                return {"status": "error", "message": "No memories found"}
+
+            all_results = []
+
+            for memory_name in memories:
+                try:
+                    # Load memory and search
+                    memory = Kre8VidMemory.load(str(memories_dir / memory_name))
+                    results = memory.search(query, top_k=top_k)
+
+                    for result in results:
+                        all_results.append({
+                            "memory": memory_name,
+                            "text": result.get("text", ""),
+                            "score": result.get("score", 0.0),
+                            "chunk_id": result.get("chunk_id", 0)
+                        })
+                except Exception as e:
+                    # Skip memories that fail to load
+                    continue
+
+            # Sort by score and limit to top_k
+            all_results.sort(key=lambda x: x["score"], reverse=True)
+            all_results = all_results[:top_k]
+
+            return {
+                "status": "success",
+                "query": query,
+                "memories_searched": memories,
+                "results": all_results,
+                "total_results": len(all_results)
+            }
         except Exception as e:
             return {"status": "error", "message": str(e)}
 
     def list_all_memories(self):
         """List all available memories."""
         try:
-            from memvid_integration.helpers import list_memories
-            memories = list_memories(output_json=False)
+            memories_dir = Path("data/memories")
+            if not memories_dir.exists():
+                return {"status": "success", "memories": []}
+
+            # Find all .ann files (Kre8VidMems memory indexes)
+            memory_files = list(memories_dir.glob("*.ann"))
+            memories = []
+
+            for mem_file in memory_files:
+                memory_name = mem_file.stem
+                meta_file = memories_dir / f"{memory_name}.meta"
+
+                memory_info = {"name": memory_name}
+
+                # Try to read metadata if available
+                if meta_file.exists():
+                    try:
+                        with open(meta_file, 'r') as f:
+                            meta = json.load(f)
+                            memory_info["chunks"] = len(meta.get("metadata", []))
+                    except:
+                        pass
+
+                memories.append(memory_info)
+
             return {
                 "status": "success",
-                "memories": memories
+                "memories": memories,
+                "total": len(memories)
             }
         except Exception as e:
             return {"status": "error", "message": str(e)}
 
     def delete_memory(self, memory_name: str):
         """
-        Delete a memvid memory and all its files.
+        Delete a Kre8VidMems memory and all its files.
 
         Args:
             memory_name: Name of the memory to delete
@@ -299,14 +358,21 @@ class KnowledgeBaseService:
             dict with status and message
         """
         try:
-            from memvid_integration.helpers import delete_memory
+            memories_dir = Path("data/memories")
+            extensions = [".ann", ".meta", ".mp4", ".idx"]
 
-            result = delete_memory(memory_name)
+            deleted_files = []
+            for ext in extensions:
+                file_path = memories_dir / f"{memory_name}{ext}"
+                if file_path.exists():
+                    file_path.unlink()
+                    deleted_files.append(str(file_path))
 
-            if result:
+            if deleted_files:
                 return {
                     "status": "success",
-                    "message": f"Memory '{memory_name}' deleted successfully"
+                    "message": f"Memory '{memory_name}' deleted successfully",
+                    "deleted_files": deleted_files
                 }
             else:
                 return {
@@ -318,7 +384,7 @@ class KnowledgeBaseService:
 
     def ingest_youtube_video(self, url: str, sport: str = "nfl", category: str = "highlights"):
         """
-        Download and process YouTube video into memvid memory.
+        Download and process YouTube video into Kre8VidMems memory.
 
         Args:
             url: YouTube URL
@@ -330,7 +396,7 @@ class KnowledgeBaseService:
         """
         try:
             # Create project directory
-            project_dir = Path("backend/memvid_integration/projects") / f"{sport}_{category}"
+            project_dir = Path("backend/kre8vidmems_integration/projects") / f"{sport}_{category}"
             project_dir.mkdir(parents=True, exist_ok=True)
 
             # Download video using yt-dlp
@@ -357,7 +423,7 @@ class KnowledgeBaseService:
             ], check=True)
 
             # Analyze frames (using the frame analyzer)
-            from memvid_integration.video_pipeline import FrameAnalyzer
+            from kre8vidmems_integration.video_pipeline import FrameAnalyzer
             analyzer = FrameAnalyzer(base_dir=str(frames_dir.parent))
             plan = analyzer.generate_analysis_plan()
 

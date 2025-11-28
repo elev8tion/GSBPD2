@@ -38,11 +38,11 @@ class PortfolioService:
         bets = self._load_local_bets()
         bets.append(bet_data)
         self._save_local_bets(bets)
-        
-        # Rebuild Memvid video
-        self._rebuild_memvid(bets)
-        
-        return {"status": "success", "message": "Bet recorded in Memvid with Analysis Data"}
+
+        # Rebuild Kre8VidMems video
+        self._rebuild_kre8vidmems(bets)
+
+        return {"status": "success", "message": "Bet recorded in Kre8VidMems with Analysis Data"}
 
     def resolve_bet(self, game_id: str, outcome: str):
         """
@@ -57,7 +57,7 @@ class PortfolioService:
         
         if updated:
             self._save_local_bets(bets)
-            self._rebuild_memvid(bets)
+            self._rebuild_kre8vidmems(bets)
             return {"status": "success", "message": f"Bet {game_id} resolved as {outcome}"}
         return {"status": "error", "message": "Bet not found"}
 
@@ -88,7 +88,7 @@ class PortfolioService:
                 training_data.append((features, label))
         return training_data
 
-    def _rebuild_memvid(self, bets):
+    def _rebuild_kre8vidmems(self, bets):
         chunks = [json.dumps(b) for b in bets]
         # Create new memory and add chunks
         self.memory = Kre8VidMemory()
