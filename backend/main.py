@@ -22,6 +22,7 @@ from src.services.sgp_engine import SGPEngine
 from src.services.nba_service import NBADataService
 from src.services.nfl_service import NFLDataService
 from src.services.draftkings_odds_service import DraftKingsOddsService
+from src.services.openai_service import OpenAIInsightsService
 
 # Initialize services
 model_service = PredictionModel()
@@ -33,6 +34,7 @@ sgp_engine = SGPEngine()
 nba_service = NBADataService()
 nfl_service = NFLDataService()
 dk_odds_service = DraftKingsOddsService()
+openai_service = OpenAIInsightsService()
 
 class PredictionRequest(BaseModel):
     team_strength: float
@@ -733,3 +735,61 @@ def get_odds_history(sport: str = None, game_id: str = None):
         return dk_odds_service.get_odds_history(sport, game_id)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get odds history: {str(e)}")
+
+# ============ OPENAI GPT-4O-MINI INSIGHTS ENDPOINTS ============
+
+@app.post("/ai/analyze-game")
+def analyze_single_game(game_data: dict):
+    """
+    Analyze a single game's odds using GPT-4o-mini.
+
+    Request body should contain game data with DraftKings odds.
+    """
+    try:
+        result = openai_service.analyze_game_odds(game_data)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to analyze game: {str(e)}")
+
+@app.get("/ai/insights/{sport}")
+def get_ai_insights(sport: str):
+    """
+    Get AI-powered betting insights for all games in a sport using GPT-4o-mini.
+
+    Args:
+        sport: "nba" or "nfl"
+
+    Returns comprehensive analysis with top betting opportunities.
+    """
+    try:
+        if sport.lower() not in ["nba", "nfl"]:
+            raise HTTPException(status_code=400, detail="Sport must be 'nba' or 'nfl'")
+
+        result = openai_service.analyze_multiple_games(sport.lower())
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get AI insights: {str(e)}")
+
+@app.get("/ai/odds-movement/{sport}/{game_id}")
+def analyze_odds_movement(sport: str, game_id: str):
+    """
+    Analyze historical odds movement for a specific game using GPT-4o-mini.
+
+    Args:
+        sport: "nba" or "nfl"
+        game_id: Game ID to analyze
+
+    Returns analysis of line movements and what they indicate.
+    """
+    try:
+        if sport.lower() not in ["nba", "nfl"]:
+            raise HTTPException(status_code=400, detail="Sport must be 'nba' or 'nfl'")
+
+        result = openai_service.compare_odds_movement(sport.lower(), game_id)
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to analyze odds movement: {str(e)}")

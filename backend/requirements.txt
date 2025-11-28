@@ -13,6 +13,7 @@ streamlit
 qrcode
 pillow
 sentence-transformers
+openai>=1.0.0
 
 # Memory System (Kre8VidMems - no FAISS crashes!)
 kre8vidmems>=0.1.0  # New Annoy-based system
