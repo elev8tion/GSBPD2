@@ -1,0 +1,201 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NFL 2024 Season Offensive Down Conversion Statistics Overview | Total Teams: 32 | Stat Type: Offensive Down Conversions | Category: Offensive Statistics"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "Team: 49ers | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 67/141 (47.5%) | 4th Down Conversions: 7/11 (63.6%) | Total First Downs: 242 | Passing First Downs: 159 (59.1% of receptions) | Rushing First Downs: 83 (41.6% of rushes) | Total Scrimmage Plays: 950 | First Down Rate: 25.5% of plays | 49ers offensive down conversions | 49ers 3rd down offense | 49ers 4th down offense | 49ers offensive stats | 49ers situational offense | 49ers offense | 49ers conversion rate | 49ers offensive efficiency | 49ers moving the chains | 49ers sustaining drives | elite 3rd down offense | converting third downs | clutch offense | moving the chains consistently | efficient offense | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "Team: Bears | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 52/137 (38.0%) | 4th Down Conversions: 9/15 (60.0%) | Total First Downs: 246 | Passing First Downs: 155 (55.6% of receptions) | Rushing First Downs: 91 (42.8% of rushes) | Total Scrimmage Plays: 971 | First Down Rate: 25.3% of plays | Bears offensive down conversions | Bears 3rd down offense | Bears 4th down offense | Bears offensive stats | Bears situational offense | Bears offense | Bears conversion rate | Bears offensive efficiency | Bears moving the chains | Bears sustaining drives"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "Team: Bengals | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 54/137 (39.4%) | 4th Down Conversions: 6/10 (60.0%) | Total First Downs: 185 | Passing First Downs: 125 (58.4% of receptions) | Rushing First Downs: 60 (32.6% of rushes) | Total Scrimmage Plays: 863 | First Down Rate: 21.4% of plays | Bengals offensive down conversions | Bengals 3rd down offense | Bengals 4th down offense | Bengals offensive stats | Bengals situational offense | Bengals offense | Bengals conversion rate | Bengals offensive efficiency | Bengals moving the chains | Bengals sustaining drives"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "Team: Bills | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 50/118 (42.4%) | 4th Down Conversions: 9/17 (52.9%) | Total First Downs: 214 | Passing First Downs: 130 (56.3% of receptions) | Rushing First Downs: 84 (41.8% of rushes) | Total Scrimmage Plays: 933 | First Down Rate: 22.9% of plays | Bills offensive down conversions | Bills 3rd down offense | Bills 4th down offense | Bills offensive stats | Bills situational offense | Bills offense | Bills conversion rate | Bills offensive efficiency | Bills moving the chains | Bills sustaining drives | good 3rd down offense | above average conversions"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "Team: Broncos | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 51/128 (39.8%) | 4th Down Conversions: 11/16 (68.8%) | Total First Downs: 220 | Passing First Downs: 135 (57.2% of receptions) | Rushing First Downs: 85 (42.1% of rushes) | Total Scrimmage Plays: 991 | First Down Rate: 22.2% of plays | Broncos offensive down conversions | Broncos 3rd down offense | Broncos 4th down offense | Broncos offensive stats | Broncos situational offense | Broncos offense | Broncos conversion rate | Broncos offensive efficiency | Broncos moving the chains | Broncos sustaining drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "Team: Browns | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 40/127 (31.5%) | 4th Down Conversions: 11/21 (52.4%) | Total First Downs: 157 | Passing First Downs: 92 (50.0% of receptions) | Rushing First Downs: 65 (34.1% of rushes) | Total Scrimmage Plays: 928 | First Down Rate: 16.9% of plays | Browns offensive down conversions | Browns 3rd down offense | Browns 4th down offense | Browns offensive stats | Browns situational offense | Browns offense | Browns conversion rate | Browns offensive efficiency | Browns moving the chains | Browns sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "Team: Buccaneers | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 56/148 (37.8%) | 4th Down Conversions: 8/15 (53.3%) | Total First Downs: 255 | Passing First Downs: 171 (57.6% of receptions) | Rushing First Downs: 84 (36.4% of rushes) | Total Scrimmage Plays: 976 | First Down Rate: 26.1% of plays | Buccaneers offensive down conversions | Buccaneers 3rd down offense | Buccaneers 4th down offense | Buccaneers offensive stats | Buccaneers situational offense | Buccaneers offense | Buccaneers conversion rate | Buccaneers offensive efficiency | Buccaneers moving the chains | Buccaneers sustaining drives"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "Team: Cardinals | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 57/146 (39.0%) | 4th Down Conversions: 7/16 (43.8%) | Total First Downs: 193 | Passing First Downs: 130 (59.0% of receptions) | Rushing First Downs: 63 (34.6% of rushes) | Total Scrimmage Plays: 947 | First Down Rate: 20.4% of plays | Cardinals offensive down conversions | Cardinals 3rd down offense | Cardinals 4th down offense | Cardinals offensive stats | Cardinals situational offense | Cardinals offense | Cardinals conversion rate | Cardinals offensive efficiency | Cardinals moving the chains | Cardinals sustaining drives"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "Team: Chargers | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 51/133 (38.3%) | 4th Down Conversions: 6/14 (42.9%) | Total First Downs: 199 | Passing First Downs: 122 (48.6% of receptions) | Rushing First Downs: 77 (41.0% of rushes) | Total Scrimmage Plays: 976 | First Down Rate: 20.4% of plays | Chargers offensive down conversions | Chargers 3rd down offense | Chargers 4th down offense | Chargers offensive stats | Chargers situational offense | Chargers offense | Chargers conversion rate | Chargers offensive efficiency | Chargers moving the chains | Chargers sustaining drives"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "Team: Chiefs | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 54/136 (39.7%) | 4th Down Conversions: 9/20 (45.0%) | Total First Downs: 252 | Passing First Downs: 162 (56.1% of receptions) | Rushing First Downs: 90 (43.5% of rushes) | Total Scrimmage Plays: 976 | First Down Rate: 25.8% of plays | Chiefs offensive down conversions | Chiefs 3rd down offense | Chiefs 4th down offense | Chiefs offensive stats | Chiefs situational offense | Chiefs offense | Chiefs conversion rate | Chiefs offensive efficiency | Chiefs moving the chains | Chiefs sustaining drives"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "Team: Colts | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 50/128 (39.1%) | 4th Down Conversions: 13/21 (61.9%) | Total First Downs: 213 | Passing First Downs: 132 (54.1% of receptions) | Rushing First Downs: 81 (37.1% of rushes) | Total Scrimmage Plays: 969 | First Down Rate: 22.0% of plays | Colts offensive down conversions | Colts 3rd down offense | Colts 4th down offense | Colts offensive stats | Colts situational offense | Colts offense | Colts conversion rate | Colts offensive efficiency | Colts moving the chains | Colts sustaining drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "Team: Commanders | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 44/141 (31.2%) | 4th Down Conversions: 9/18 (50.0%) | Total First Downs: 274 | Passing First Downs: 192 (59.1% of receptions) | Rushing First Downs: 82 (34.6% of rushes) | Total Scrimmage Plays: 1042 | First Down Rate: 26.3% of plays | Commanders offensive down conversions | Commanders 3rd down offense | Commanders 4th down offense | Commanders offensive stats | Commanders situational offense | Commanders offense | Commanders conversion rate | Commanders offensive efficiency | Commanders moving the chains | Commanders sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "Team: Cowboys | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 44/141 (31.2%) | 4th Down Conversions: 7/18 (38.9%) | Total First Downs: 243 | Passing First Downs: 162 (59.1% of receptions) | Rushing First Downs: 81 (36.8% of rushes) | Total Scrimmage Plays: 1042 | First Down Rate: 23.3% of plays | Cowboys offensive down conversions | Cowboys 3rd down offense | Cowboys 4th down offense | Cowboys offensive stats | Cowboys situational offense | Cowboys offense | Cowboys conversion rate | Cowboys offensive efficiency | Cowboys moving the chains | Cowboys sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives | poor 4th down conversion | struggling on 4th"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "Team: Dolphins | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 49/127 (38.6%) | 4th Down Conversions: 5/9 (55.6%) | Total First Downs: 179 | Passing First Downs: 115 (55.6% of receptions) | Rushing First Downs: 64 (33.4% of rushes) | Total Scrimmage Plays: 943 | First Down Rate: 19.0% of plays | Dolphins offensive down conversions | Dolphins 3rd down offense | Dolphins 4th down offense | Dolphins offensive stats | Dolphins situational offense | Dolphins offense | Dolphins conversion rate | Dolphins offensive efficiency | Dolphins moving the chains | Dolphins sustaining drives"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "Team: Eagles | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 47/131 (35.9%) | 4th Down Conversions: 11/17 (64.7%) | Total First Downs: 175 | Passing First Downs: 101 (48.6% of receptions) | Rushing First Downs: 74 (33.8% of rushes) | Total Scrimmage Plays: 999 | First Down Rate: 17.5% of plays | Eagles offensive down conversions | Eagles 3rd down offense | Eagles 4th down offense | Eagles offensive stats | Eagles situational offense | Eagles offense | Eagles conversion rate | Eagles offensive efficiency | Eagles moving the chains | Eagles sustaining drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "Team: Falcons | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 46/150 (30.7%) | 4th Down Conversions: 12/19 (63.2%) | Total First Downs: 188 | Passing First Downs: 117 (58.5% of receptions) | Rushing First Downs: 71 (39.9% of rushes) | Total Scrimmage Plays: 989 | First Down Rate: 19.0% of plays | Falcons offensive down conversions | Falcons 3rd down offense | Falcons 4th down offense | Falcons offensive stats | Falcons situational offense | Falcons offense | Falcons conversion rate | Falcons offensive efficiency | Falcons moving the chains | Falcons sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "Team: Giants | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 52/154 (33.8%) | 4th Down Conversions: 14/29 (48.3%) | Total First Downs: 200 | Passing First Downs: 120 (52.2% of receptions) | Rushing First Downs: 80 (27.4% of rushes) | Total Scrimmage Plays: 961 | First Down Rate: 20.8% of plays | Giants offensive down conversions | Giants 3rd down offense | Giants 4th down offense | Giants offensive stats | Giants situational offense | Giants offense | Giants conversion rate | Giants offensive efficiency | Giants moving the chains | Giants sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "Team: Jaguars | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 53/143 (37.1%) | 4th Down Conversions: 14/24 (58.3%) | Total First Downs: 195 | Passing First Downs: 114 (55.1% of receptions) | Rushing First Downs: 81 (39.5% of rushes) | Total Scrimmage Plays: 942 | First Down Rate: 20.7% of plays | Jaguars offensive down conversions | Jaguars 3rd down offense | Jaguars 4th down offense | Jaguars offensive stats | Jaguars situational offense | Jaguars offense | Jaguars conversion rate | Jaguars offensive efficiency | Jaguars moving the chains | Jaguars sustaining drives"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "Team: Jets | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 54/142 (38.0%) | 4th Down Conversions: 9/17 (52.9%) | Total First Downs: 243 | Passing First Downs: 156 (56.5% of receptions) | Rushing First Downs: 87 (37.2% of rushes) | Total Scrimmage Plays: 960 | First Down Rate: 25.3% of plays | Jets offensive down conversions | Jets 3rd down offense | Jets 4th down offense | Jets offensive stats | Jets situational offense | Jets offense | Jets conversion rate | Jets offensive efficiency | Jets moving the chains | Jets sustaining drives"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "Team: Lions | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 50/101 (49.5%) | 4th Down Conversions: 13/20 (65.0%) | Total First Downs: 247 | Passing First Downs: 164 (56.0% of receptions) | Rushing First Downs: 83 (39.9% of rushes) | Total Scrimmage Plays: 950 | First Down Rate: 26.0% of plays | Lions offensive down conversions | Lions 3rd down offense | Lions 4th down offense | Lions offensive stats | Lions situational offense | Lions offense | Lions conversion rate | Lions offensive efficiency | Lions moving the chains | Lions sustaining drives | elite 3rd down offense | converting third downs | clutch offense | moving the chains consistently | efficient offense | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "Team: Packers | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 34/103 (33.0%) | 4th Down Conversions: 12/17 (70.6%) | Total First Downs: 215 | Passing First Downs: 135 (56.5% of receptions) | Rushing First Downs: 80 (38.6% of rushes) | Total Scrimmage Plays: 951 | First Down Rate: 22.6% of plays | Packers offensive down conversions | Packers 3rd down offense | Packers 4th down offense | Packers offensive stats | Packers situational offense | Packers offense | Packers conversion rate | Packers offensive efficiency | Packers moving the chains | Packers sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "Team: Panthers | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 71/154 (46.1%) | 4th Down Conversions: 12/17 (70.6%) | Total First Downs: 215 | Passing First Downs: 135 (56.5% of receptions) | Rushing First Downs: 80 (38.6% of rushes) | Total Scrimmage Plays: 951 | First Down Rate: 22.6% of plays | Panthers offensive down conversions | Panthers 3rd down offense | Panthers 4th down offense | Panthers offensive stats | Panthers situational offense | Panthers offense | Panthers conversion rate | Panthers offensive efficiency | Panthers moving the chains | Panthers sustaining drives | elite 3rd down offense | converting third downs | clutch offense | moving the chains consistently | efficient offense | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "Team: Patriots | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 47/143 (32.9%) | 4th Down Conversions: 9/18 (50.0%) | Total First Downs: 200 | Passing First Downs: 139 (54.1% of receptions) | Rushing First Downs: 61 (38.4% of rushes) | Total Scrimmage Plays: 898 | First Down Rate: 22.3% of plays | Patriots offensive down conversions | Patriots 3rd down offense | Patriots 4th down offense | Patriots offensive stats | Patriots situational offense | Patriots offense | Patriots conversion rate | Patriots offensive efficiency | Patriots moving the chains | Patriots sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "Team: Raiders | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 51/141 (36.2%) | 4th Down Conversions: 9/19 (47.4%) | Total First Downs: 194 | Passing First Downs: 114 (50.0% of receptions) | Rushing First Downs: 80 (33.6% of rushes) | Total Scrimmage Plays: 968 | First Down Rate: 20.0% of plays | Raiders offensive down conversions | Raiders 3rd down offense | Raiders 4th down offense | Raiders offensive stats | Raiders situational offense | Raiders offense | Raiders conversion rate | Raiders offensive efficiency | Raiders moving the chains | Raiders sustaining drives"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "Team: Rams | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 47/121 (38.8%) | 4th Down Conversions: 14/19 (73.7%) | Total First Downs: 173 | Passing First Downs: 130 (59.1% of receptions) | Rushing First Downs: 43 (20.8% of rushes) | Total Scrimmage Plays: 949 | First Down Rate: 18.2% of plays | Rams offensive down conversions | Rams 3rd down offense | Rams 4th down offense | Rams offensive stats | Rams situational offense | Rams offense | Rams conversion rate | Rams offensive efficiency | Rams moving the chains | Rams sustaining drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "Team: Ravens | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 50/141 (35.5%) | 4th Down Conversions: 10/18 (55.6%) | Total First Downs: 278 | Passing First Downs: 172 (57.1% of receptions) | Rushing First Downs: 106 (44.7% of rushes) | Total Scrimmage Plays: 1044 | First Down Rate: 26.6% of plays | Ravens offensive down conversions | Ravens 3rd down offense | Ravens 4th down offense | Ravens offensive stats | Ravens situational offense | Ravens offense | Ravens conversion rate | Ravens offensive efficiency | Ravens moving the chains | Ravens sustaining drives"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "Team: Saints | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 51/131 (38.9%) | 4th Down Conversions: 7/11 (63.6%) | Total First Downs: 178 | Passing First Downs: 113 (54.3% of receptions) | Rushing First Downs: 65 (30.5% of rushes) | Total Scrimmage Plays: 848 | First Down Rate: 21.0% of plays | Saints offensive down conversions | Saints 3rd down offense | Saints 4th down offense | Saints offensive stats | Saints situational offense | Saints offense | Saints conversion rate | Saints offensive efficiency | Saints moving the chains | Saints sustaining drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "Team: Seahawks | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 49/125 (39.2%) | 4th Down Conversions: 4/9 (44.4%) | Total First Downs: 198 | Passing First Downs: 121 (55.0% of receptions) | Rushing First Downs: 77 (33.8% of rushes) | Total Scrimmage Plays: 869 | First Down Rate: 22.8% of plays | Seahawks offensive down conversions | Seahawks 3rd down offense | Seahawks 4th down offense | Seahawks offensive stats | Seahawks situational offense | Seahawks offense | Seahawks conversion rate | Seahawks offensive efficiency | Seahawks moving the chains | Seahawks sustaining drives"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "Team: Steelers | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 51/147 (34.7%) | 4th Down Conversions: 7/11 (63.6%) | Total First Downs: 172 | Passing First Downs: 101 (49.5% of receptions) | Rushing First Downs: 71 (38.0% of rushes) | Total Scrimmage Plays: 849 | First Down Rate: 20.3% of plays | Steelers offensive down conversions | Steelers 3rd down offense | Steelers 4th down offense | Steelers offensive stats | Steelers situational offense | Steelers offense | Steelers conversion rate | Steelers offensive efficiency | Steelers moving the chains | Steelers sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "Team: Texans | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 51/138 (37.0%) | 4th Down Conversions: 7/11 (63.6%) | Total First Downs: 212 | Passing First Downs: 132 (49.4% of receptions) | Rushing First Downs: 80 (38.1% of rushes) | Total Scrimmage Plays: 978 | First Down Rate: 21.7% of plays | Texans offensive down conversions | Texans 3rd down offense | Texans 4th down offense | Texans offensive stats | Texans situational offense | Texans offense | Texans conversion rate | Texans offensive efficiency | Texans moving the chains | Texans sustaining drives | aggressive 4th down team | converting 4th downs | analytics-driven | going for it | gutsy play calling"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "Team: Titans | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 40/148 (27.0%) | 4th Down Conversions: 10/21 (47.6%) | Total First Downs: 190 | Passing First Downs: 110 (48.5% of receptions) | Rushing First Downs: 80 (31.4% of rushes) | Total Scrimmage Plays: 943 | First Down Rate: 20.1% of plays | Titans offensive down conversions | Titans 3rd down offense | Titans 4th down offense | Titans offensive stats | Titans situational offense | Titans offense | Titans conversion rate | Titans offensive efficiency | Titans moving the chains | Titans sustaining drives | struggling 3rd down offense | poor conversion rate | offensive inefficiency | can't sustain drives"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "Team: Vikings | NFL 2024 Season Offensive Down Conversion Statistics | 3rd Down Conversions: 60/140 (42.9%) | 4th Down Conversions: 7/12 (58.3%) | Total First Downs: 230 | Passing First Downs: 169 (61.0% of receptions) | Rushing First Downs: 61 (29.2% of rushes) | Total Scrimmage Plays: 941 | First Down Rate: 24.4% of plays | Vikings offensive down conversions | Vikings 3rd down offense | Vikings 4th down offense | Vikings offensive stats | Vikings situational offense | Vikings offense | Vikings conversion rate | Vikings offensive efficiency | Vikings moving the chains | Vikings sustaining drives | good 3rd down offense | above average conversions | excellent passing efficiency | moving chains through air"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "Best 3rd Down Offense: Lions converting 49.5% | Elite conversion rate | Clutch offense"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "Best 4th Down Offense: Rams converting 73.7% | Aggressive play calling | Analytics-driven"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "Most First Downs: Ravens with 278 | Moving the chains | Sustained drives"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "Best Passing Efficiency: Vikings with 61.0% | Efficient passing attack"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "Best Rushing Efficiency: Ravens with 44.7% | Dominant ground game"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "Worst 3rd Down Offense: Titans converting 27.0% | Struggling on third down"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}

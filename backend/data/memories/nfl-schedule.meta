@@ -1,0 +1,406 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NFL Week 13 2024 Season | Date: Wednesday, November 27, 2024 | Matchup: Green Bay Packers at Detroit Lions | Away Team: Green Bay Packers | Home Team: Detroit Lions | Game Time: 12:30 PM ET | Stadium: Ford Field | TV Network: FOX | Final Score: Green Bay Packers 31, Detroit Lions 24 | Winner: Green Bay Packers | NFL game | NFL schedule | Green Bay Packers vs Detroit Lions | Green Bay Packers game | Detroit Lions game"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "NFL Week 13 2024 Season | Date: Wednesday, November 27, 2024 | Matchup: Kansas City Chiefs at Dallas Cowboys | Away Team: Kansas City Chiefs | Home Team: Dallas Cowboys | Game Time: 4:30 PM ET | Stadium: AT&T Stadium | TV Network: CBS | Status: LIVE | NFL game | NFL schedule | Kansas City Chiefs vs Dallas Cowboys | Kansas City Chiefs game | Dallas Cowboys game"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "NFL Week 13 2024 Season | Date: Wednesday, November 27, 2024 | Matchup: Cincinnati Bengals at Baltimore Ravens | Away Team: Cincinnati Bengals | Home Team: Baltimore Ravens | Game Time: 8:20 PM ET | Stadium: M&T Bank Stadium | TV Network: NBC | NFL game | NFL schedule | Cincinnati Bengals vs Baltimore Ravens | Cincinnati Bengals game | Baltimore Ravens game"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "NFL Week 13 2024 Season | Date: Thursday, November 28, 2024 | Matchup: Chicago Bears at Philadelphia Eagles | Away Team: Chicago Bears | Home Team: Philadelphia Eagles | Game Time: 3:00 PM ET | Stadium: Lincoln Financial Field | TV Network: Prime Video | NFL game | NFL schedule | Chicago Bears vs Philadelphia Eagles | Chicago Bears game | Philadelphia Eagles game"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Los Angeles Rams at Carolina Panthers | Away Team: Los Angeles Rams | Home Team: Carolina Panthers | Game Time: 1:00 PM ET | Stadium: Bank of America Stadium | TV Network: FOX | NFL game | NFL schedule | Los Angeles Rams vs Carolina Panthers | Los Angeles Rams game | Carolina Panthers game"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: San Francisco 49ers at Cleveland Browns | Away Team: San Francisco 49ers | Home Team: Cleveland Browns | Game Time: 1:00 PM ET | Stadium: Cleveland Browns Stadium | TV Network: CBS | NFL game | NFL schedule | San Francisco 49ers vs Cleveland Browns | San Francisco 49ers game | Cleveland Browns game"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Houston Texans at Indianapolis Colts | Away Team: Houston Texans | Home Team: Indianapolis Colts | Game Time: 1:00 PM ET | Stadium: Lucas Oil Stadium | TV Network: CBS | NFL game | NFL schedule | Houston Texans vs Indianapolis Colts | Houston Texans game | Indianapolis Colts game"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: New Orleans Saints at Miami Dolphins | Away Team: New Orleans Saints | Home Team: Miami Dolphins | Game Time: 1:00 PM ET | Stadium: Hard Rock Stadium | TV Network: FOX | NFL game | NFL schedule | New Orleans Saints vs Miami Dolphins | New Orleans Saints game | Miami Dolphins game"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Atlanta Falcons at New York Jets | Away Team: Atlanta Falcons | Home Team: New York Jets | Game Time: 1:00 PM ET | Stadium: MetLife Stadium | TV Network: FOX | NFL game | NFL schedule | Atlanta Falcons vs New York Jets | Atlanta Falcons game | New York Jets game"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Arizona Cardinals at Tampa Bay Buccaneers | Away Team: Arizona Cardinals | Home Team: Tampa Bay Buccaneers | Game Time: 1:00 PM ET | Stadium: Raymond James Stadium | TV Network: FOX | NFL game | NFL schedule | Arizona Cardinals vs Tampa Bay Buccaneers | Arizona Cardinals game | Tampa Bay Buccaneers game"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Jacksonville Jaguars at Tennessee Titans | Away Team: Jacksonville Jaguars | Home Team: Tennessee Titans | Game Time: 1:00 PM ET | Stadium: Nissan Stadium | TV Network: CBS | NFL game | NFL schedule | Jacksonville Jaguars vs Tennessee Titans | Jacksonville Jaguars game | Tennessee Titans game"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Minnesota Vikings at Seattle Seahawks | Away Team: Minnesota Vikings | Home Team: Seattle Seahawks | Game Time: 4:05 PM ET | Stadium: Lumen Field | TV Network: FOX | NFL game | NFL schedule | Minnesota Vikings vs Seattle Seahawks | Minnesota Vikings game | Seattle Seahawks game"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Las Vegas Raiders at Los Angeles Chargers | Away Team: Las Vegas Raiders | Home Team: Los Angeles Chargers | Game Time: 4:25 PM ET | Stadium: SoFi Stadium | TV Network: CBS | NFL game | NFL schedule | Las Vegas Raiders vs Los Angeles Chargers | Las Vegas Raiders game | Los Angeles Chargers game"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Buffalo Bills at Pittsburgh Steelers | Away Team: Buffalo Bills | Home Team: Pittsburgh Steelers | Game Time: 4:25 PM ET | Stadium: Acrisure Stadium | TV Network: CBS | NFL game | NFL schedule | Buffalo Bills vs Pittsburgh Steelers | Buffalo Bills game | Pittsburgh Steelers game"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "NFL Week 13 2024 Season | Date: Saturday, November 30, 2024 | Matchup: Denver Broncos at Washington Commanders | Away Team: Denver Broncos | Home Team: Washington Commanders | Game Time: 8:20 PM ET | Stadium: Northwest Stadium | TV Network: NBC | NFL game | NFL schedule | Denver Broncos vs Washington Commanders | Denver Broncos game | Washington Commanders game"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "NFL Week 13 2024 Season | Date: Sunday, December 01, 2024 | Matchup: New York Giants at New England Patriots | Away Team: New York Giants | Home Team: New England Patriots | Game Time: 8:15 PM ET | Stadium: Gillette Stadium | TV Network: ESPN | NFL game | NFL schedule | New York Giants vs New England Patriots | New York Giants game | New England Patriots game"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "NFL Week 14 2024 Season | Date: Wednesday, December 11, 2024 | Matchup: Atlanta Falcons at Tampa Bay Buccaneers | Away Team: Atlanta Falcons | Home Team: Tampa Bay Buccaneers | Game Time: 8:15 PM ET | Stadium: Raymond James Stadium | TV Network: Prime Video | NFL game | NFL schedule | Atlanta Falcons vs Tampa Bay Buccaneers | Atlanta Falcons game | Tampa Bay Buccaneers game"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Cleveland Browns at Chicago Bears | Away Team: Cleveland Browns | Home Team: Chicago Bears | Game Time: 1:00 PM ET | Stadium: Soldier Field | TV Network: FOX | NFL game | NFL schedule | Cleveland Browns vs Chicago Bears | Cleveland Browns game | Chicago Bears game"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Baltimore Ravens at Cincinnati Bengals | Away Team: Baltimore Ravens | Home Team: Cincinnati Bengals | Game Time: 1:00 PM ET | Stadium: Paycor Stadium | TV Network: CBS | NFL game | NFL schedule | Baltimore Ravens vs Cincinnati Bengals | Baltimore Ravens game | Cincinnati Bengals game"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Arizona Cardinals at Houston Texans | Away Team: Arizona Cardinals | Home Team: Houston Texans | Game Time: 1:00 PM ET | Stadium: NRG Stadium | TV Network: FOX | NFL game | NFL schedule | Arizona Cardinals vs Houston Texans | Arizona Cardinals game | Houston Texans game"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: New York Jets at Jacksonville Jaguars | Away Team: New York Jets | Home Team: Jacksonville Jaguars | Game Time: 1:00 PM ET | Stadium: EverBank Stadium | TV Network: CBS | NFL game | NFL schedule | New York Jets vs Jacksonville Jaguars | New York Jets game | Jacksonville Jaguars game"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Los Angeles Chargers at Kansas City Chiefs | Away Team: Los Angeles Chargers | Home Team: Kansas City Chiefs | Game Time: 1:00 PM ET | Stadium: GEHA Field at Arrowhead Stadium | TV Network: CBS | NFL game | NFL schedule | Los Angeles Chargers vs Kansas City Chiefs | Los Angeles Chargers game | Kansas City Chiefs game"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Buffalo Bills at New England Patriots | Away Team: Buffalo Bills | Home Team: New England Patriots | Game Time: 1:00 PM ET | Stadium: Gillette Stadium | TV Network: CBS | NFL game | NFL schedule | Buffalo Bills vs New England Patriots | Buffalo Bills game | New England Patriots game"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Washington Commanders at New York Giants | Away Team: Washington Commanders | Home Team: New York Giants | Game Time: 1:00 PM ET | Stadium: MetLife Stadium | TV Network: FOX | NFL game | NFL schedule | Washington Commanders vs New York Giants | Washington Commanders game | New York Giants game"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Las Vegas Raiders at Philadelphia Eagles | Away Team: Las Vegas Raiders | Home Team: Philadelphia Eagles | Game Time: 1:00 PM ET | Stadium: Lincoln Financial Field | TV Network: FOX | NFL game | NFL schedule | Las Vegas Raiders vs Philadelphia Eagles | Las Vegas Raiders game | Philadelphia Eagles game"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Green Bay Packers at Denver Broncos | Away Team: Green Bay Packers | Home Team: Denver Broncos | Game Time: 4:25 PM ET | Stadium: Empower Field at Mile High | TV Network: CBS | NFL game | NFL schedule | Green Bay Packers vs Denver Broncos | Green Bay Packers game | Denver Broncos game"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Detroit Lions at Los Angeles Rams | Away Team: Detroit Lions | Home Team: Los Angeles Rams | Game Time: 4:25 PM ET | Stadium: SoFi Stadium | TV Network: FOX | NFL game | NFL schedule | Detroit Lions vs Los Angeles Rams | Detroit Lions game | Los Angeles Rams game"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Carolina Panthers at New Orleans Saints | Away Team: Carolina Panthers | Home Team: New Orleans Saints | Game Time: 4:25 PM ET | Stadium: Caesars Superdome | TV Network: FOX | NFL game | NFL schedule | Carolina Panthers vs New Orleans Saints | Carolina Panthers game | New Orleans Saints game"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Indianapolis Colts at Seattle Seahawks | Away Team: Indianapolis Colts | Home Team: Seattle Seahawks | Game Time: 4:25 PM ET | Stadium: Lumen Field | TV Network: CBS | NFL game | NFL schedule | Indianapolis Colts vs Seattle Seahawks | Indianapolis Colts game | Seattle Seahawks game"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Tennessee Titans at San Francisco 49ers | Away Team: Tennessee Titans | Home Team: San Francisco 49ers | Game Time: 4:25 PM ET | Stadium: Levi's Stadium | TV Network: FOX | NFL game | NFL schedule | Tennessee Titans vs San Francisco 49ers | Tennessee Titans game | San Francisco 49ers game"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "NFL Week 14 2024 Season | Date: Saturday, December 14, 2024 | Matchup: Minnesota Vikings at Dallas Cowboys | Away Team: Minnesota Vikings | Home Team: Dallas Cowboys | Game Time: 8:20 PM ET | Stadium: AT&T Stadium | TV Network: NBC | NFL game | NFL schedule | Minnesota Vikings vs Dallas Cowboys | Minnesota Vikings game | Dallas Cowboys game"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "NFL Week 14 2024 Season | Date: Sunday, December 15, 2024 | Matchup: Miami Dolphins at Pittsburgh Steelers | Away Team: Miami Dolphins | Home Team: Pittsburgh Steelers | Game Time: 8:15 PM ET | Stadium: Acrisure Stadium | TV Network: ESPN | NFL game | NFL schedule | Miami Dolphins vs Pittsburgh Steelers | Miami Dolphins game | Pittsburgh Steelers game"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "NFL Week 15 2024 Season | Date: Wednesday, December 18, 2024 | Matchup: Los Angeles Rams at Seattle Seahawks | Away Team: Los Angeles Rams | Home Team: Seattle Seahawks | Game Time: 8:15 PM ET | Stadium: Lumen Field | TV Network: Prime Video | NFL game | NFL schedule | Los Angeles Rams vs Seattle Seahawks | Los Angeles Rams game | Seattle Seahawks game"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "NFL Week 15 2024 Season | Date: Friday, December 20, 2024 | Matchup: Green Bay Packers at Chicago Bears | Away Team: Green Bay Packers | Home Team: Chicago Bears | Game Time: TBD | Stadium: Soldier Field | TV Network: FOX | NFL game | NFL schedule | Green Bay Packers vs Chicago Bears | Green Bay Packers game | Chicago Bears game"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "NFL Week 15 2024 Season | Date: Friday, December 20, 2024 | Matchup: Philadelphia Eagles at Washington Commanders | Away Team: Philadelphia Eagles | Home Team: Washington Commanders | Game Time: TBD | Stadium: Northwest Stadium | TV Network: FOX | NFL game | NFL schedule | Philadelphia Eagles vs Washington Commanders | Philadelphia Eagles game | Washington Commanders game"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: New England Patriots at Baltimore Ravens | Away Team: New England Patriots | Home Team: Baltimore Ravens | Game Time: 1:00 PM ET | Stadium: M&T Bank Stadium | TV Network: CBS | NFL game | NFL schedule | New England Patriots vs Baltimore Ravens | New England Patriots game | Baltimore Ravens game"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Tampa Bay Buccaneers at Carolina Panthers | Away Team: Tampa Bay Buccaneers | Home Team: Carolina Panthers | Game Time: 1:00 PM ET | Stadium: Bank of America Stadium | TV Network: FOX | NFL game | NFL schedule | Tampa Bay Buccaneers vs Carolina Panthers | Tampa Bay Buccaneers game | Carolina Panthers game"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Buffalo Bills at Cleveland Browns | Away Team: Buffalo Bills | Home Team: Cleveland Browns | Game Time: 1:00 PM ET | Stadium: Cleveland Browns Stadium | TV Network: CBS | NFL game | NFL schedule | Buffalo Bills vs Cleveland Browns | Buffalo Bills game | Cleveland Browns game"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Los Angeles Chargers at Dallas Cowboys | Away Team: Los Angeles Chargers | Home Team: Dallas Cowboys | Game Time: 1:00 PM ET | Stadium: AT&T Stadium | TV Network: FOX | NFL game | NFL schedule | Los Angeles Chargers vs Dallas Cowboys | Los Angeles Chargers game | Dallas Cowboys game"
+    },
+    {
+      "chunk_id": 39,
+      "frame_id": 39,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: New York Jets at New Orleans Saints | Away Team: New York Jets | Home Team: New Orleans Saints | Game Time: 1:00 PM ET | Stadium: Caesars Superdome | TV Network: CBS | NFL game | NFL schedule | New York Jets vs New Orleans Saints | New York Jets game | New Orleans Saints game"
+    },
+    {
+      "chunk_id": 40,
+      "frame_id": 40,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Minnesota Vikings at New York Giants | Away Team: Minnesota Vikings | Home Team: New York Giants | Game Time: 1:00 PM ET | Stadium: MetLife Stadium | TV Network: FOX | NFL game | NFL schedule | Minnesota Vikings vs New York Giants | Minnesota Vikings game | New York Giants game"
+    },
+    {
+      "chunk_id": 41,
+      "frame_id": 41,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Kansas City Chiefs at Tennessee Titans | Away Team: Kansas City Chiefs | Home Team: Tennessee Titans | Game Time: 1:00 PM ET | Stadium: Nissan Stadium | TV Network: CBS | NFL game | NFL schedule | Kansas City Chiefs vs Tennessee Titans | Kansas City Chiefs game | Tennessee Titans game"
+    },
+    {
+      "chunk_id": 42,
+      "frame_id": 42,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Atlanta Falcons at Arizona Cardinals | Away Team: Atlanta Falcons | Home Team: Arizona Cardinals | Game Time: 4:05 PM ET | Stadium: State Farm Stadium | TV Network: FOX | NFL game | NFL schedule | Atlanta Falcons vs Arizona Cardinals | Atlanta Falcons game | Arizona Cardinals game"
+    },
+    {
+      "chunk_id": 43,
+      "frame_id": 43,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Jacksonville Jaguars at Denver Broncos | Away Team: Jacksonville Jaguars | Home Team: Denver Broncos | Game Time: 4:05 PM ET | Stadium: Empower Field at Mile High | TV Network: FOX | NFL game | NFL schedule | Jacksonville Jaguars vs Denver Broncos | Jacksonville Jaguars game | Denver Broncos game"
+    },
+    {
+      "chunk_id": 44,
+      "frame_id": 44,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Pittsburgh Steelers at Detroit Lions | Away Team: Pittsburgh Steelers | Home Team: Detroit Lions | Game Time: 4:25 PM ET | Stadium: Ford Field | TV Network: CBS | NFL game | NFL schedule | Pittsburgh Steelers vs Detroit Lions | Pittsburgh Steelers game | Detroit Lions game"
+    },
+    {
+      "chunk_id": 45,
+      "frame_id": 45,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Las Vegas Raiders at Houston Texans | Away Team: Las Vegas Raiders | Home Team: Houston Texans | Game Time: 4:25 PM ET | Stadium: NRG Stadium | TV Network: CBS | NFL game | NFL schedule | Las Vegas Raiders vs Houston Texans | Las Vegas Raiders game | Houston Texans game"
+    },
+    {
+      "chunk_id": 46,
+      "frame_id": 46,
+      "text": "NFL Week 15 2024 Season | Date: Saturday, December 21, 2024 | Matchup: Cincinnati Bengals at Miami Dolphins | Away Team: Cincinnati Bengals | Home Team: Miami Dolphins | Game Time: 8:20 PM ET | Stadium: Hard Rock Stadium | TV Network: NBC | NFL game | NFL schedule | Cincinnati Bengals vs Miami Dolphins | Cincinnati Bengals game | Miami Dolphins game"
+    },
+    {
+      "chunk_id": 47,
+      "frame_id": 47,
+      "text": "NFL Week 15 2024 Season | Date: Sunday, December 22, 2024 | Matchup: San Francisco 49ers at Indianapolis Colts | Away Team: San Francisco 49ers | Home Team: Indianapolis Colts | Game Time: 8:15 PM ET | Stadium: Lucas Oil Stadium | TV Network: ESPN | NFL game | NFL schedule | San Francisco 49ers vs Indianapolis Colts | San Francisco 49ers game | Indianapolis Colts game"
+    },
+    {
+      "chunk_id": 48,
+      "frame_id": 48,
+      "text": "NFL Week 16 2024 Season | Date: Wednesday, December 25, 2024 | Matchup: Dallas Cowboys at Washington Commanders | Away Team: Dallas Cowboys | Home Team: Washington Commanders | Game Time: 1:00 PM ET | Stadium: Northwest Stadium | TV Network: NETFLIX | NFL game | NFL schedule | Dallas Cowboys vs Washington Commanders | Dallas Cowboys game | Washington Commanders game"
+    },
+    {
+      "chunk_id": 49,
+      "frame_id": 49,
+      "text": "NFL Week 16 2024 Season | Date: Wednesday, December 25, 2024 | Matchup: Detroit Lions at Minnesota Vikings | Away Team: Detroit Lions | Home Team: Minnesota Vikings | Game Time: 4:30 PM ET | Stadium: U.S. Bank Stadium | TV Network: NETFLIX | NFL game | NFL schedule | Detroit Lions vs Minnesota Vikings | Detroit Lions game | Minnesota Vikings game"
+    },
+    {
+      "chunk_id": 50,
+      "frame_id": 50,
+      "text": "NFL Week 16 2024 Season | Date: Wednesday, December 25, 2024 | Matchup: Denver Broncos at Kansas City Chiefs | Away Team: Denver Broncos | Home Team: Kansas City Chiefs | Game Time: 8:15 PM ET | Stadium: GEHA Field at Arrowhead Stadium | TV Network: Prime Video | NFL game | NFL schedule | Denver Broncos vs Kansas City Chiefs | Denver Broncos game | Kansas City Chiefs game"
+    },
+    {
+      "chunk_id": 51,
+      "frame_id": 51,
+      "text": "NFL Week 16 2024 Season | Date: Saturday, December 28, 2024 | Matchup: Pittsburgh Steelers at Cleveland Browns | Away Team: Pittsburgh Steelers | Home Team: Cleveland Browns | Game Time: 1:00 PM ET | Stadium: Cleveland Browns Stadium | TV Network: CBS | NFL game | NFL schedule | Pittsburgh Steelers vs Cleveland Browns | Pittsburgh Steelers game | Cleveland Browns game"
+    },
+    {
+      "chunk_id": 52,
+      "frame_id": 52,
+      "text": "NFL Week 16 2024 Season | Date: Saturday, December 28, 2024 | Matchup: Jacksonville Jaguars at Indianapolis Colts | Away Team: Jacksonville Jaguars | Home Team: Indianapolis Colts | Game Time: 1:00 PM ET | Stadium: Lucas Oil Stadium | TV Network: FOX | NFL game | NFL schedule | Jacksonville Jaguars vs Indianapolis Colts | Jacksonville Jaguars game | Indianapolis Colts game"
+    },
+    {
+      "chunk_id": 53,
+      "frame_id": 53,
+      "text": "NFL Week 16 2024 Season | Date: Saturday, December 28, 2024 | Matchup: Tampa Bay Buccaneers at Miami Dolphins | Away Team: Tampa Bay Buccaneers | Home Team: Miami Dolphins | Game Time: 1:00 PM ET | Stadium: Hard Rock Stadium | TV Network: FOX | NFL game | NFL schedule | Tampa Bay Buccaneers vs Miami Dolphins | Tampa Bay Buccaneers game | Miami Dolphins game"
+    },
+    {
+      "chunk_id": 54,
+      "frame_id": 54,
+      "text": "NFL Week 16 2024 Season | Date: Saturday, December 28, 2024 | Matchup: New England Patriots at New York Jets | Away Team: New England Patriots | Home Team: New York Jets | Game Time: 1:00 PM ET | Stadium: MetLife Stadium | TV Network: CBS | NFL game | NFL schedule | New England Patriots vs New York Jets | New England Patriots game | New York Jets game"
+    },
+    {
+      "chunk_id": 55,
+      "frame_id": 55,
+      "text": "NFL Week 16 2024 Season | Date: Saturday, December 28, 2024 | Matchup: New Orleans Saints at Tennessee Titans | Away Team: New Orleans Saints | Home Team: Tennessee Titans | Game Time: 1:00 PM ET | Stadium: Nissan Stadium | TV Network: CBS | NFL game | NFL schedule | New Orleans Saints vs Tennessee Titans | New Orleans Saints game | Tennessee Titans game"
+    },
+    {
+      "chunk_id": 56,
+      "frame_id": 56,
+      "text": "NFL Week 16 2024 Season | Date: Saturday, December 28, 2024 | Matchup: Philadelphia Eagles at Buffalo Bills | Away Team: Philadelphia Eagles | Home Team: Buffalo Bills | Game Time: 4:25 PM ET | Stadium: Highmark Stadium | TV Network: FOX | NFL game | NFL schedule | Philadelphia Eagles vs Buffalo Bills | Philadelphia Eagles game | Buffalo Bills game"
+    },
+    {
+      "chunk_id": 57,
+      "frame_id": 57,
+      "text": "NFL Week 16 2024 Season | Date: Saturday, December 28, 2024 | Matchup: Chicago Bears at San Francisco 49ers | Away Team: Chicago Bears | Home Team: San Francisco 49ers | Game Time: 8:20 PM ET | Stadium: Levi's Stadium | TV Network: NBC | NFL game | NFL schedule | Chicago Bears vs San Francisco 49ers | Chicago Bears game | San Francisco 49ers game"
+    },
+    {
+      "chunk_id": 58,
+      "frame_id": 58,
+      "text": "NFL Week 16 2024 Season | Date: Sunday, December 29, 2024 | Matchup: Los Angeles Rams at Atlanta Falcons | Away Team: Los Angeles Rams | Home Team: Atlanta Falcons | Game Time: 8:15 PM ET | Stadium: Mercedes-Benz Stadium | TV Network: ESPN | NFL game | NFL schedule | Los Angeles Rams vs Atlanta Falcons | Los Angeles Rams game | Atlanta Falcons game"
+    },
+    {
+      "chunk_id": 59,
+      "frame_id": 59,
+      "text": "NFL Week 16 2024 Season | Date: TBD | Matchup: Seattle Seahawks at Carolina Panthers | Away Team: Seattle Seahawks | Home Team: Carolina Panthers | Game Time: TBD | Stadium: Bank of America Stadium | TV Network: TBD | NFL game | NFL schedule | Seattle Seahawks vs Carolina Panthers | Seattle Seahawks game | Carolina Panthers game"
+    },
+    {
+      "chunk_id": 60,
+      "frame_id": 60,
+      "text": "NFL Week 16 2024 Season | Date: TBD | Matchup: Arizona Cardinals at Cincinnati Bengals | Away Team: Arizona Cardinals | Home Team: Cincinnati Bengals | Game Time: TBD | Stadium: Paycor Stadium | TV Network: TBD | NFL game | NFL schedule | Arizona Cardinals vs Cincinnati Bengals | Arizona Cardinals game | Cincinnati Bengals game"
+    },
+    {
+      "chunk_id": 61,
+      "frame_id": 61,
+      "text": "NFL Week 16 2024 Season | Date: TBD | Matchup: Baltimore Ravens at Green Bay Packers | Away Team: Baltimore Ravens | Home Team: Green Bay Packers | Game Time: TBD | Stadium: Lambeau Field | TV Network: TBD | NFL game | NFL schedule | Baltimore Ravens vs Green Bay Packers | Baltimore Ravens game | Green Bay Packers game"
+    },
+    {
+      "chunk_id": 62,
+      "frame_id": 62,
+      "text": "NFL Week 16 2024 Season | Date: TBD | Matchup: Houston Texans at Los Angeles Chargers | Away Team: Houston Texans | Home Team: Los Angeles Chargers | Game Time: TBD | Stadium: SoFi Stadium | TV Network: TBD | NFL game | NFL schedule | Houston Texans vs Los Angeles Chargers | Houston Texans game | Los Angeles Chargers game"
+    },
+    {
+      "chunk_id": 63,
+      "frame_id": 63,
+      "text": "NFL Week 16 2024 Season | Date: TBD | Matchup: New York Giants at Las Vegas Raiders | Away Team: New York Giants | Home Team: Las Vegas Raiders | Game Time: TBD | Stadium: Allegiant Stadium | TV Network: TBD | NFL game | NFL schedule | New York Giants vs Las Vegas Raiders | New York Giants game | Las Vegas Raiders game"
+    },
+    {
+      "chunk_id": 64,
+      "frame_id": 64,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: New Orleans Saints at Atlanta Falcons | Away Team: New Orleans Saints | Home Team: Atlanta Falcons | Game Time: TBD | Stadium: Mercedes-Benz Stadium | TV Network: TBD | NFL game | NFL schedule | New Orleans Saints vs Atlanta Falcons | New Orleans Saints game | Atlanta Falcons game"
+    },
+    {
+      "chunk_id": 65,
+      "frame_id": 65,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: New York Jets at Buffalo Bills | Away Team: New York Jets | Home Team: Buffalo Bills | Game Time: TBD | Stadium: Highmark Stadium | TV Network: TBD | NFL game | NFL schedule | New York Jets vs Buffalo Bills | New York Jets game | Buffalo Bills game"
+    },
+    {
+      "chunk_id": 66,
+      "frame_id": 66,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Detroit Lions at Chicago Bears | Away Team: Detroit Lions | Home Team: Chicago Bears | Game Time: TBD | Stadium: Soldier Field | TV Network: TBD | NFL game | NFL schedule | Detroit Lions vs Chicago Bears | Detroit Lions game | Chicago Bears game"
+    },
+    {
+      "chunk_id": 67,
+      "frame_id": 67,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Cleveland Browns at Cincinnati Bengals | Away Team: Cleveland Browns | Home Team: Cincinnati Bengals | Game Time: TBD | Stadium: Paycor Stadium | TV Network: TBD | NFL game | NFL schedule | Cleveland Browns vs Cincinnati Bengals | Cleveland Browns game | Cincinnati Bengals game"
+    },
+    {
+      "chunk_id": 68,
+      "frame_id": 68,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Los Angeles Chargers at Denver Broncos | Away Team: Los Angeles Chargers | Home Team: Denver Broncos | Game Time: TBD | Stadium: Empower Field at Mile High | TV Network: TBD | NFL game | NFL schedule | Los Angeles Chargers vs Denver Broncos | Los Angeles Chargers game | Denver Broncos game"
+    },
+    {
+      "chunk_id": 69,
+      "frame_id": 69,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Indianapolis Colts at Houston Texans | Away Team: Indianapolis Colts | Home Team: Houston Texans | Game Time: TBD | Stadium: NRG Stadium | TV Network: TBD | NFL game | NFL schedule | Indianapolis Colts vs Houston Texans | Indianapolis Colts game | Houston Texans game"
+    },
+    {
+      "chunk_id": 70,
+      "frame_id": 70,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Tennessee Titans at Jacksonville Jaguars | Away Team: Tennessee Titans | Home Team: Jacksonville Jaguars | Game Time: TBD | Stadium: EverBank Stadium | TV Network: TBD | NFL game | NFL schedule | Tennessee Titans vs Jacksonville Jaguars | Tennessee Titans game | Jacksonville Jaguars game"
+    },
+    {
+      "chunk_id": 71,
+      "frame_id": 71,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Arizona Cardinals at Los Angeles Rams | Away Team: Arizona Cardinals | Home Team: Los Angeles Rams | Game Time: TBD | Stadium: SoFi Stadium | TV Network: TBD | NFL game | NFL schedule | Arizona Cardinals vs Los Angeles Rams | Arizona Cardinals game | Los Angeles Rams game"
+    },
+    {
+      "chunk_id": 72,
+      "frame_id": 72,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Kansas City Chiefs at Las Vegas Raiders | Away Team: Kansas City Chiefs | Home Team: Las Vegas Raiders | Game Time: TBD | Stadium: Allegiant Stadium | TV Network: TBD | NFL game | NFL schedule | Kansas City Chiefs vs Las Vegas Raiders | Kansas City Chiefs game | Las Vegas Raiders game"
+    },
+    {
+      "chunk_id": 73,
+      "frame_id": 73,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Green Bay Packers at Minnesota Vikings | Away Team: Green Bay Packers | Home Team: Minnesota Vikings | Game Time: TBD | Stadium: U.S. Bank Stadium | TV Network: TBD | NFL game | NFL schedule | Green Bay Packers vs Minnesota Vikings | Green Bay Packers game | Minnesota Vikings game"
+    },
+    {
+      "chunk_id": 74,
+      "frame_id": 74,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Miami Dolphins at New England Patriots | Away Team: Miami Dolphins | Home Team: New England Patriots | Game Time: TBD | Stadium: Gillette Stadium | TV Network: TBD | NFL game | NFL schedule | Miami Dolphins vs New England Patriots | Miami Dolphins game | New England Patriots game"
+    },
+    {
+      "chunk_id": 75,
+      "frame_id": 75,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Dallas Cowboys at New York Giants | Away Team: Dallas Cowboys | Home Team: New York Giants | Game Time: TBD | Stadium: MetLife Stadium | TV Network: TBD | NFL game | NFL schedule | Dallas Cowboys vs New York Giants | Dallas Cowboys game | New York Giants game"
+    },
+    {
+      "chunk_id": 76,
+      "frame_id": 76,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Washington Commanders at Philadelphia Eagles | Away Team: Washington Commanders | Home Team: Philadelphia Eagles | Game Time: TBD | Stadium: Lincoln Financial Field | TV Network: TBD | NFL game | NFL schedule | Washington Commanders vs Philadelphia Eagles | Washington Commanders game | Philadelphia Eagles game"
+    },
+    {
+      "chunk_id": 77,
+      "frame_id": 77,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Baltimore Ravens at Pittsburgh Steelers | Away Team: Baltimore Ravens | Home Team: Pittsburgh Steelers | Game Time: TBD | Stadium: Acrisure Stadium | TV Network: TBD | NFL game | NFL schedule | Baltimore Ravens vs Pittsburgh Steelers | Baltimore Ravens game | Pittsburgh Steelers game"
+    },
+    {
+      "chunk_id": 78,
+      "frame_id": 78,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Seattle Seahawks at San Francisco 49ers | Away Team: Seattle Seahawks | Home Team: San Francisco 49ers | Game Time: TBD | Stadium: Levi's Stadium | TV Network: TBD | NFL game | NFL schedule | Seattle Seahawks vs San Francisco 49ers | Seattle Seahawks game | San Francisco 49ers game"
+    },
+    {
+      "chunk_id": 79,
+      "frame_id": 79,
+      "text": "NFL Week 17 2024 Season | Date: TBD | Matchup: Carolina Panthers at Tampa Bay Buccaneers | Away Team: Carolina Panthers | Home Team: Tampa Bay Buccaneers | Game Time: TBD | Stadium: Raymond James Stadium | TV Network: TBD | NFL game | NFL schedule | Carolina Panthers vs Tampa Bay Buccaneers | Carolina Panthers game | Tampa Bay Buccaneers game"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}

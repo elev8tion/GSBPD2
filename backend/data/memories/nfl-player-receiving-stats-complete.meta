@@ -1,0 +1,711 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NFL 2024-2025 Player Receiving Statistics Complete Dataset | Total Players: 135 | Stats Include: Receptions, Yards, Touchdowns, Targets, YAC, Big Plays, First Downs | Player receiving leaders | Fantasy football receiving stats | PPR rankings"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "Player: Christian McCaffrey | NFL 2024-2025 Season Receiving Statistics | Receptions: 81 | Receiving Yards: 795 | Touchdowns: 5 | Targets: 103 | Catch Rate: 78.6% | Yards per Reception: 9.8 | 20+ Yard Catches: 7 | 40+ Yard Catches: 0 | Longest Reception: 39 yards | First Downs: 40 | Yards After Catch/Reception: 6.18 | Fumbles: 1 | Christian McCaffrey receiving stats | Christian McCaffrey catches | Christian McCaffrey yards | Christian McCaffrey touchdowns | Christian McCaffrey fantasy football | Christian McCaffrey NFL stats | Christian McCaffrey targets | Christian McCaffrey receptions | Christian McCaffrey wide receiver | depth receiver | bye week fill-in | scoring threat | touchdown upside | high volume receiver | reception leader | PPR stud | target hog | target leader | high volume | primary receiver | YAC monster | yards after catch specialist | elusive"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "Player: Trey McBride | NFL 2024-2025 Season Receiving Statistics | Receptions: 80 | Receiving Yards: 797 | Touchdowns: 7 | Targets: 109 | Catch Rate: 73.4% | Yards per Reception: 10.0 | 20+ Yard Catches: 6 | 40+ Yard Catches: 0 | Longest Reception: 31 yards | First Downs: 44 | Yards After Catch/Reception: 3.4 | Fumbles: 0 | Trey McBride receiving stats | Trey McBride catches | Trey McBride yards | Trey McBride touchdowns | Trey McBride fantasy football | Trey McBride NFL stats | Trey McBride targets | Trey McBride receptions | Trey McBride wide receiver | depth receiver | bye week fill-in | reliable scorer | red zone target | consistent target | reliable hands | PPR relevant | target leader | high volume | primary receiver"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "Player: Puka Nacua | NFL 2024-2025 Season Receiving Statistics | Receptions: 80 | Receiving Yards: 947 | Touchdowns: 4 | Targets: 98 | Catch Rate: 81.6% | Yards per Reception: 11.8 | 20+ Yard Catches: 13 | 40+ Yard Catches: 0 | Longest Reception: 39 yards | First Downs: 48 | Yards After Catch/Reception: 3.55 | Fumbles: 1 | Puka Nacua receiving stats | Puka Nacua catches | Puka Nacua yards | Puka Nacua touchdowns | Puka Nacua fantasy football | Puka Nacua NFL stats | Puka Nacua targets | Puka Nacua receptions | Puka Nacua wide receiver | solid receiver | flex option | WR3 | consistent target | reliable hands | PPR relevant | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "Player: Jaxon Smith-Njigba | NFL 2024-2025 Season Receiving Statistics | Receptions: 80 | Receiving Yards: 1,313 | Touchdowns: 7 | Targets: 107 | Catch Rate: 74.8% | Yards per Reception: 16.4 | 20+ Yard Catches: 21 | 40+ Yard Catches: 8 | Longest Reception: 63 yards | First Downs: 57 | Yards After Catch/Reception: 3.32 | Fumbles: 2 | Jaxon Smith-Njigba receiving stats | Jaxon Smith-Njigba catches | Jaxon Smith-Njigba yards | Jaxon Smith-Njigba touchdowns | Jaxon Smith-Njigba fantasy football | Jaxon Smith-Njigba NFL stats | Jaxon Smith-Njigba targets | Jaxon Smith-Njigba receptions | Jaxon Smith-Njigba wide receiver | elite receiver | 1200+ yard receiver | WR1 | top fantasy receiver | reliable scorer | red zone target | consistent target | reliable hands | PPR relevant | target leader | high volume | primary receiver | big play specialist | explosive receiver | deep threat | home run hitter"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "Player: Ja'Marr Chase | NFL 2024-2025 Season Receiving Statistics | Receptions: 79 | Receiving Yards: 861 | Touchdowns: 5 | Targets: 117 | Catch Rate: 67.5% | Yards per Reception: 10.9 | 20+ Yard Catches: 7 | 40+ Yard Catches: 1 | Longest Reception: 64 yards | First Downs: 43 | Yards After Catch/Reception: 4.21 | Fumbles: 1 | Ja'Marr Chase receiving stats | Ja'Marr Chase catches | Ja'Marr Chase yards | Ja'Marr Chase touchdowns | Ja'Marr Chase fantasy football | Ja'Marr Chase NFL stats | Ja'Marr Chase targets | Ja'Marr Chase receptions | Ja'Marr Chase wide receiver | solid receiver | flex option | WR3 | scoring threat | touchdown upside | consistent target | reliable hands | PPR relevant | target leader | high volume | primary receiver"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "Player: Amon-Ra St. Brown | NFL 2024-2025 Season Receiving Statistics | Receptions: 75 | Receiving Yards: 884 | Touchdowns: 9 | Targets: 108 | Catch Rate: 69.4% | Yards per Reception: 11.8 | 20+ Yard Catches: 11 | 40+ Yard Catches: 0 | Longest Reception: 34 yards | First Downs: 45 | Yards After Catch/Reception: 3.51 | Fumbles: 1 | Amon-Ra St. Brown receiving stats | Amon-Ra St. Brown catches | Amon-Ra St. Brown yards | Amon-Ra St. Brown touchdowns | Amon-Ra St. Brown fantasy football | Amon-Ra St. Brown NFL stats | Amon-Ra St. Brown targets | Amon-Ra St. Brown receptions | Amon-Ra St. Brown wide receiver | solid receiver | flex option | WR3 | reliable scorer | red zone target | consistent target | reliable hands | PPR relevant | target leader | high volume | primary receiver | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "Player: George Pickens | NFL 2024-2025 Season Receiving Statistics | Receptions: 73 | Receiving Yards: 1,142 | Touchdowns: 8 | Targets: 105 | Catch Rate: 69.5% | Yards per Reception: 15.6 | 20+ Yard Catches: 18 | 40+ Yard Catches: 4 | Longest Reception: 45 yards | First Downs: 60 | Yards After Catch/Reception: 3.71 | Fumbles: 3 | George Pickens receiving stats | George Pickens catches | George Pickens yards | George Pickens touchdowns | George Pickens fantasy football | George Pickens NFL stats | George Pickens targets | George Pickens receptions | George Pickens wide receiver | 1000 yard receiver | productive receiver | WR2 | reliable scorer | red zone target | consistent target | reliable hands | PPR relevant | target leader | high volume | primary receiver | big play specialist | explosive receiver | deep threat | home run hitter"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "Player: Jake Ferguson | NFL 2024-2025 Season Receiving Statistics | Receptions: 70 | Receiving Yards: 496 | Touchdowns: 7 | Targets: 83 | Catch Rate: 84.3% | Yards per Reception: 7.1 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 26 yards | First Downs: 25 | Yards After Catch/Reception: 2.76 | Fumbles: 2 | Jake Ferguson receiving stats | Jake Ferguson catches | Jake Ferguson yards | Jake Ferguson touchdowns | Jake Ferguson fantasy football | Jake Ferguson NFL stats | Jake Ferguson targets | Jake Ferguson receptions | Jake Ferguson wide receiver | reliable scorer | red zone target | consistent target | reliable hands | PPR relevant | featured receiver | significant target share"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "Player: Chris Olave | NFL 2024-2025 Season Receiving Statistics | Receptions: 69 | Receiving Yards: 734 | Touchdowns: 4 | Targets: 108 | Catch Rate: 63.9% | Yards per Reception: 10.6 | 20+ Yard Catches: 7 | 40+ Yard Catches: 3 | Longest Reception: 62 yards | First Downs: 31 | Yards After Catch/Reception: 1.8 | Fumbles: 0 | Chris Olave receiving stats | Chris Olave catches | Chris Olave yards | Chris Olave touchdowns | Chris Olave fantasy football | Chris Olave NFL stats | Chris Olave targets | Chris Olave receptions | Chris Olave wide receiver | depth receiver | bye week fill-in | consistent target | reliable hands | PPR relevant | target leader | high volume | primary receiver"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "Player: Wan'Dale Robinson | NFL 2024-2025 Season Receiving Statistics | Receptions: 66 | Receiving Yards: 794 | Touchdowns: 3 | Targets: 102 | Catch Rate: 64.7% | Yards per Reception: 12.0 | 20+ Yard Catches: 13 | 40+ Yard Catches: 2 | Longest Reception: 50 yards | First Downs: 31 | Yards After Catch/Reception: 2.99 | Fumbles: 1 | Wan'Dale Robinson receiving stats | Wan'Dale Robinson catches | Wan'Dale Robinson yards | Wan'Dale Robinson touchdowns | Wan'Dale Robinson fantasy football | Wan'Dale Robinson NFL stats | Wan'Dale Robinson targets | Wan'Dale Robinson receptions | Wan'Dale Robinson wide receiver | depth receiver | bye week fill-in | consistent target | reliable hands | PPR relevant | target leader | high volume | primary receiver | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "Player: Stefon Diggs | NFL 2024-2025 Season Receiving Statistics | Receptions: 61 | Receiving Yards: 679 | Touchdowns: 3 | Targets: 75 | Catch Rate: 81.3% | Yards per Reception: 11.1 | 20+ Yard Catches: 9 | 40+ Yard Catches: 0 | Longest Reception: 33 yards | First Downs: 35 | Yards After Catch/Reception: 2.18 | Fumbles: 0 | Stefon Diggs receiving stats | Stefon Diggs catches | Stefon Diggs yards | Stefon Diggs touchdowns | Stefon Diggs fantasy football | Stefon Diggs NFL stats | Stefon Diggs targets | Stefon Diggs receptions | Stefon Diggs wide receiver | depth receiver | bye week fill-in | consistent target | reliable hands | PPR relevant"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "Player: Justin Jefferson | NFL 2024-2025 Season Receiving Statistics | Receptions: 60 | Receiving Yards: 795 | Touchdowns: 2 | Targets: 99 | Catch Rate: 60.6% | Yards per Reception: 13.2 | 20+ Yard Catches: 11 | 40+ Yard Catches: 2 | Longest Reception: 50 yards | First Downs: 34 | Yards After Catch/Reception: 3.21 | Fumbles: 0 | Justin Jefferson receiving stats | Justin Jefferson catches | Justin Jefferson yards | Justin Jefferson touchdowns | Justin Jefferson fantasy football | Justin Jefferson NFL stats | Justin Jefferson targets | Justin Jefferson receptions | Justin Jefferson wide receiver | depth receiver | bye week fill-in | regular target | possession receiver | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "Player: Drake London | NFL 2024-2025 Season Receiving Statistics | Receptions: 60 | Receiving Yards: 810 | Touchdowns: 6 | Targets: 94 | Catch Rate: 63.8% | Yards per Reception: 13.5 | 20+ Yard Catches: 12 | 40+ Yard Catches: 3 | Longest Reception: 43 yards | First Downs: 39 | Yards After Catch/Reception: 2.23 | Fumbles: 1 | Drake London receiving stats | Drake London catches | Drake London yards | Drake London touchdowns | Drake London fantasy football | Drake London NFL stats | Drake London targets | Drake London receptions | Drake London wide receiver | solid receiver | flex option | WR3 | scoring threat | touchdown upside | regular target | possession receiver | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "Player: Travis Kelce | NFL 2024-2025 Season Receiving Statistics | Receptions: 59 | Receiving Yards: 719 | Touchdowns: 5 | Targets: 78 | Catch Rate: 75.6% | Yards per Reception: 12.2 | 20+ Yard Catches: 9 | 40+ Yard Catches: 1 | Longest Reception: 44 yards | First Downs: 37 | Yards After Catch/Reception: 3.75 | Fumbles: 0 | Travis Kelce receiving stats | Travis Kelce catches | Travis Kelce yards | Travis Kelce touchdowns | Travis Kelce fantasy football | Travis Kelce NFL stats | Travis Kelce targets | Travis Kelce receptions | Travis Kelce wide receiver | depth receiver | bye week fill-in | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "Player: Michael Pittman Jr. | NFL 2024-2025 Season Receiving Statistics | Receptions: 59 | Receiving Yards: 607 | Touchdowns: 7 | Targets: 78 | Catch Rate: 75.6% | Yards per Reception: 10.3 | 20+ Yard Catches: 4 | 40+ Yard Catches: 0 | Longest Reception: 27 yards | First Downs: 36 | Yards After Catch/Reception: 1.95 | Fumbles: 0 | Michael Pittman Jr. receiving stats | Michael Pittman Jr. catches | Michael Pittman Jr. yards | Michael Pittman Jr. touchdowns | Michael Pittman Jr. fantasy football | Michael Pittman Jr. NFL stats | Michael Pittman Jr. targets | Michael Pittman Jr. receptions | Michael Pittman Jr. wide receiver | depth receiver | bye week fill-in | reliable scorer | red zone target | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "Player: Zay Flowers | NFL 2024-2025 Season Receiving Statistics | Receptions: 58 | Receiving Yards: 761 | Touchdowns: 1 | Targets: 77 | Catch Rate: 75.3% | Yards per Reception: 13.1 | 20+ Yard Catches: 12 | 40+ Yard Catches: 2 | Longest Reception: 56 yards | First Downs: 31 | Yards After Catch/Reception: 3.31 | Fumbles: 1 | Zay Flowers receiving stats | Zay Flowers catches | Zay Flowers yards | Zay Flowers touchdowns | Zay Flowers fantasy football | Zay Flowers NFL stats | Zay Flowers targets | Zay Flowers receptions | Zay Flowers wide receiver | depth receiver | bye week fill-in | regular target | possession receiver | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "Player: Keenan Allen | NFL 2024-2025 Season Receiving Statistics | Receptions: 56 | Receiving Yards: 592 | Touchdowns: 4 | Targets: 86 | Catch Rate: 65.1% | Yards per Reception: 10.6 | 20+ Yard Catches: 6 | 40+ Yard Catches: 0 | Longest Reception: 31 yards | First Downs: 36 | Yards After Catch/Reception: 1.95 | Fumbles: 1 | Keenan Allen receiving stats | Keenan Allen catches | Keenan Allen yards | Keenan Allen touchdowns | Keenan Allen fantasy football | Keenan Allen NFL stats | Keenan Allen targets | Keenan Allen receptions | Keenan Allen wide receiver | regular target | possession receiver | featured receiver | significant target share"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "Player: Tatianna McMillan | NFL 2024-2025 Season Receiving Statistics | Receptions: 56 | Receiving Yards: 783 | Touchdowns: 5 | Targets: 96 | Catch Rate: 58.3% | Yards per Reception: 14.0 | 20+ Yard Catches: 13 | 40+ Yard Catches: 1 | Longest Reception: 40 yards | First Downs: 45 | Yards After Catch/Reception: 2.15 | Fumbles: 0 | Tatianna McMillan receiving stats | Tatianna McMillan catches | Tatianna McMillan yards | Tatianna McMillan touchdowns | Tatianna McMillan fantasy football | Tatianna McMillan NFL stats | Tatianna McMillan targets | Tatianna McMillan receptions | Tatianna McMillan wide receiver | depth receiver | bye week fill-in | scoring threat | touchdown upside | regular target | possession receiver | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "Player: DeVonta Smith | NFL 2024-2025 Season Receiving Statistics | Receptions: 55 | Receiving Yards: 754 | Touchdowns: 3 | Targets: 78 | Catch Rate: 70.5% | Yards per Reception: 13.7 | 20+ Yard Catches: 10 | 40+ Yard Catches: 3 | Longest Reception: 79 yards | First Downs: 32 | Yards After Catch/Reception: 2.11 | Fumbles: 0 | DeVonta Smith receiving stats | DeVonta Smith catches | DeVonta Smith yards | DeVonta Smith touchdowns | DeVonta Smith fantasy football | DeVonta Smith NFL stats | DeVonta Smith targets | DeVonta Smith receptions | DeVonta Smith wide receiver | depth receiver | bye week fill-in | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "Player: Tyler Warren | NFL 2024-2025 Season Receiving Statistics | Receptions: 55 | Receiving Yards: 662 | Touchdowns: 3 | Targets: 74 | Catch Rate: 74.3% | Yards per Reception: 12.0 | 20+ Yard Catches: 10 | 40+ Yard Catches: 1 | Longest Reception: 41 yards | First Downs: 32 | Yards After Catch/Reception: 4.13 | Fumbles: 0 | Tyler Warren receiving stats | Tyler Warren catches | Tyler Warren yards | Tyler Warren touchdowns | Tyler Warren fantasy football | Tyler Warren NFL stats | Tyler Warren targets | Tyler Warren receptions | Tyler Warren wide receiver | depth receiver | bye week fill-in | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "Player: De'Von Achane | NFL 2024-2025 Season Receiving Statistics | Receptions: 54 | Receiving Yards: 370 | Touchdowns: 4 | Targets: 71 | Catch Rate: 76.1% | Yards per Reception: 6.9 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 29 yards | First Downs: 17 | Yards After Catch/Reception: 4.0 | Fumbles: 0 | De'Von Achane receiving stats | De'Von Achane catches | De'Von Achane yards | De'Von Achane touchdowns | De'Von Achane fantasy football | De'Von Achane NFL stats | De'Von Achane targets | De'Von Achane receptions | De'Von Achane wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "Player: Ladd McConkey | NFL 2024-2025 Season Receiving Statistics | Receptions: 54 | Receiving Yards: 644 | Touchdowns: 4 | Targets: 84 | Catch Rate: 64.3% | Yards per Reception: 11.9 | 20+ Yard Catches: 6 | 40+ Yard Catches: 2 | Longest Reception: 58 yards | First Downs: 29 | Yards After Catch/Reception: 2.69 | Fumbles: 0 | Ladd McConkey receiving stats | Ladd McConkey catches | Ladd McConkey yards | Ladd McConkey touchdowns | Ladd McConkey fantasy football | Ladd McConkey NFL stats | Ladd McConkey targets | Ladd McConkey receptions | Ladd McConkey wide receiver | depth receiver | bye week fill-in | regular target | possession receiver | featured receiver | significant target share"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "Player: Khalil Shakir | NFL 2024-2025 Season Receiving Statistics | Receptions: 54 | Receiving Yards: 564 | Touchdowns: 3 | Targets: 71 | Catch Rate: 76.1% | Yards per Reception: 10.4 | 20+ Yard Catches: 7 | 40+ Yard Catches: 3 | Longest Reception: 54 yards | First Downs: 24 | Yards After Catch/Reception: 4.09 | Fumbles: 1 | Khalil Shakir receiving stats | Khalil Shakir catches | Khalil Shakir yards | Khalil Shakir touchdowns | Khalil Shakir fantasy football | Khalil Shakir NFL stats | Khalil Shakir targets | Khalil Shakir receptions | Khalil Shakir wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "Player: Deebo Samuel Sr. | NFL 2024-2025 Season Receiving Statistics | Receptions: 53 | Receiving Yards: 470 | Touchdowns: 5 | Targets: 68 | Catch Rate: 77.9% | Yards per Reception: 8.9 | 20+ Yard Catches: 6 | 40+ Yard Catches: 0 | Longest Reception: 28 yards | First Downs: 19 | Yards After Catch/Reception: 2.94 | Fumbles: 1 | Deebo Samuel Sr. receiving stats | Deebo Samuel Sr. catches | Deebo Samuel Sr. yards | Deebo Samuel Sr. touchdowns | Deebo Samuel Sr. fantasy football | Deebo Samuel Sr. NFL stats | Deebo Samuel Sr. targets | Deebo Samuel Sr. receptions | Deebo Samuel Sr. wide receiver | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "Player: Nico Collins | NFL 2024-2025 Season Receiving Statistics | Receptions: 52 | Receiving Yards: 697 | Touchdowns: 4 | Targets: 80 | Catch Rate: 65.0% | Yards per Reception: 13.4 | 20+ Yard Catches: 9 | 40+ Yard Catches: 2 | Longest Reception: 54 yards | First Downs: 31 | Yards After Catch/Reception: 1.71 | Fumbles: 1 | Nico Collins receiving stats | Nico Collins catches | Nico Collins yards | Nico Collins touchdowns | Nico Collins fantasy football | Nico Collins NFL stats | Nico Collins targets | Nico Collins receptions | Nico Collins wide receiver | depth receiver | bye week fill-in | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "Player: Dalton Schultz | NFL 2024-2025 Season Receiving Statistics | Receptions: 52 | Receiving Yards: 497 | Touchdowns: 1 | Targets: 72 | Catch Rate: 72.2% | Yards per Reception: 9.6 | 20+ Yard Catches: 4 | 40+ Yard Catches: 1 | Longest Reception: 47 yards | First Downs: 26 | Yards After Catch/Reception: 2.3 | Fumbles: 0 | Dalton Schultz receiving stats | Dalton Schultz catches | Dalton Schultz yards | Dalton Schultz touchdowns | Dalton Schultz fantasy football | Dalton Schultz NFL stats | Dalton Schultz targets | Dalton Schultz receptions | Dalton Schultz wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "Player: Jahmyr Gibbs | NFL 2024-2025 Season Receiving Statistics | Receptions: 51 | Receiving Yards: 397 | Touchdowns: 3 | Targets: 59 | Catch Rate: 86.4% | Yards per Reception: 7.8 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 42 yards | First Downs: 18 | Yards After Catch/Reception: 4.45 | Fumbles: 0 | Jahmyr Gibbs receiving stats | Jahmyr Gibbs catches | Jahmyr Gibbs yards | Jahmyr Gibbs touchdowns | Jahmyr Gibbs fantasy football | Jahmyr Gibbs NFL stats | Jahmyr Gibbs targets | Jahmyr Gibbs receptions | Jahmyr Gibbs wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "Player: CeeDee Lamb | NFL 2024-2025 Season Receiving Statistics | Receptions: 51 | Receiving Yards: 744 | Touchdowns: 3 | Targets: 81 | Catch Rate: 63.0% | Yards per Reception: 14.6 | 20+ Yard Catches: 10 | 40+ Yard Catches: 3 | Longest Reception: 74 yards | First Downs: 29 | Yards After Catch/Reception: 2.27 | Fumbles: 0 | CeeDee Lamb receiving stats | CeeDee Lamb catches | CeeDee Lamb yards | CeeDee Lamb touchdowns | CeeDee Lamb fantasy football | CeeDee Lamb NFL stats | CeeDee Lamb targets | CeeDee Lamb receptions | CeeDee Lamb wide receiver | depth receiver | bye week fill-in | regular target | possession receiver | featured receiver | significant target share"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "Player: Alvin Kamara | NFL 2024-2025 Season Receiving Statistics | Receptions: 49 | Receiving Yards: 537 | Touchdowns: 3 | Targets: 62 | Catch Rate: 79.0% | Yards per Reception: 11.0 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 53 yards | First Downs: 26 | Yards After Catch/Reception: 3.34 | Fumbles: 1 | Alvin Kamara receiving stats | Alvin Kamara catches | Alvin Kamara yards | Alvin Kamara touchdowns | Alvin Kamara fantasy football | Alvin Kamara NFL stats | Alvin Kamara targets | Alvin Kamara receptions | Alvin Kamara wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "Player: Kyle Pitts | NFL 2024-2025 Season Receiving Statistics | Receptions: 49 | Receiving Yards: 359 | Touchdowns: 1 | Targets: 62 | Catch Rate: 79.0% | Yards per Reception: 7.3 | 20+ Yard Catches: 6 | 40+ Yard Catches: 0 | Longest Reception: 25 yards | First Downs: 23 | Yards After Catch/Reception: 1.03 | Fumbles: 0 | Kyle Pitts receiving stats | Kyle Pitts catches | Kyle Pitts yards | Kyle Pitts touchdowns | Kyle Pitts fantasy football | Kyle Pitts NFL stats | Kyle Pitts targets | Kyle Pitts receptions | Kyle Pitts wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "Player: Brian Robinson Jr. | NFL 2024-2025 Season Receiving Statistics | Receptions: 49 | Receiving Yards: 543 | Touchdowns: 2 | Targets: 61 | Catch Rate: 80.3% | Yards per Reception: 11.1 | 20+ Yard Catches: 7 | 40+ Yard Catches: 2 | Longest Reception: 69 yards | First Downs: 22 | Yards After Catch/Reception: 5.1 | Fumbles: 0 | Brian Robinson Jr. receiving stats | Brian Robinson Jr. catches | Brian Robinson Jr. yards | Brian Robinson Jr. touchdowns | Brian Robinson Jr. fantasy football | Brian Robinson Jr. NFL stats | Brian Robinson Jr. targets | Brian Robinson Jr. receptions | Brian Robinson Jr. wide receiver | regular target | possession receiver | YAC monster | yards after catch specialist | elusive"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "Player: Jaylen Waddle | NFL 2024-2025 Season Receiving Statistics | Receptions: 49 | Receiving Yards: 722 | Touchdowns: 5 | Targets: 73 | Catch Rate: 67.1% | Yards per Reception: 14.7 | 20+ Yard Catches: 11 | 40+ Yard Catches: 3 | Longest Reception: 46 yards | First Downs: 35 | Yards After Catch/Reception: 1.7 | Fumbles: 0 | Jaylen Waddle receiving stats | Jaylen Waddle catches | Jaylen Waddle yards | Jaylen Waddle touchdowns | Jaylen Waddle fantasy football | Jaylen Waddle NFL stats | Jaylen Waddle targets | Jaylen Waddle receptions | Jaylen Waddle wide receiver | depth receiver | bye week fill-in | scoring threat | touchdown upside | regular target | possession receiver | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "Player: Davante Adams | NFL 2024-2025 Season Receiving Statistics | Receptions: 48 | Receiving Yards: 831 | Touchdowns: 12 | Targets: 94 | Catch Rate: 51.1% | Yards per Reception: 17.3 | 20+ Yard Catches: 12 | 40+ Yard Catches: 1 | Longest Reception: 44 yards | First Downs: 40 | Yards After Catch/Reception: 0.91 | Fumbles: 0 | Davante Adams receiving stats | Davante Adams catches | Davante Adams yards | Davante Adams touchdowns | Davante Adams fantasy football | Davante Adams NFL stats | Davante Adams targets | Davante Adams receptions | Davante Adams wide receiver | solid receiver | flex option | WR3 | touchdown machine | red zone threat | scoring receiver | double digit TDs | regular target | possession receiver | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "Player: Chase Brown | NFL 2024-2025 Season Receiving Statistics | Receptions: 48 | Receiving Yards: 297 | Touchdowns: 1 | Targets: 64 | Catch Rate: 75.0% | Yards per Reception: 6.2 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 21 yards | First Downs: 10 | Yards After Catch/Reception: 3.05 | Fumbles: 1 | Chase Brown receiving stats | Chase Brown catches | Chase Brown yards | Chase Brown touchdowns | Chase Brown fantasy football | Chase Brown NFL stats | Chase Brown targets | Chase Brown receptions | Chase Brown wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "Player: Emeka Egbuka | NFL 2024-2025 Season Receiving Statistics | Receptions: 48 | Receiving Yards: 749 | Touchdowns: 6 | Targets: 93 | Catch Rate: 51.6% | Yards per Reception: 15.6 | 20+ Yard Catches: 16 | 40+ Yard Catches: 2 | Longest Reception: 77 yards | First Downs: 28 | Yards After Catch/Reception: 2.72 | Fumbles: 0 | Emeka Egbuka receiving stats | Emeka Egbuka catches | Emeka Egbuka yards | Emeka Egbuka touchdowns | Emeka Egbuka fantasy football | Emeka Egbuka NFL stats | Emeka Egbuka targets | Emeka Egbuka receptions | Emeka Egbuka wide receiver | depth receiver | bye week fill-in | scoring threat | touchdown upside | regular target | possession receiver | featured receiver | significant target share | big play specialist | explosive receiver | deep threat | home run hitter"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "Player: Harold Fanroy Jr. | NFL 2024-2025 Season Receiving Statistics | Receptions: 48 | Receiving Yards: 462 | Touchdowns: 2 | Targets: 69 | Catch Rate: 69.6% | Yards per Reception: 9.6 | 20+ Yard Catches: 5 | 40+ Yard Catches: 0 | Longest Reception: 35 yards | First Downs: 23 | Yards After Catch/Reception: 2.37 | Fumbles: 0 | Harold Fanroy Jr. receiving stats | Harold Fanroy Jr. catches | Harold Fanroy Jr. yards | Harold Fanroy Jr. touchdowns | Harold Fanroy Jr. fantasy football | Harold Fanroy Jr. NFL stats | Harold Fanroy Jr. targets | Harold Fanroy Jr. receptions | Harold Fanroy Jr. wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "Player: Rashid Shaheed | NFL 2024-2025 Season Receiving Statistics | Receptions: 47 | Receiving Yards: 529 | Touchdowns: 2 | Targets: 74 | Catch Rate: 63.5% | Yards per Reception: 11.3 | 20+ Yard Catches: 4 | 40+ Yard Catches: 1 | Longest Reception: 87 yards | First Downs: 23 | Yards After Catch/Reception: 1.5 | Fumbles: 1 | Rashid Shaheed receiving stats | Rashid Shaheed catches | Rashid Shaheed yards | Rashid Shaheed touchdowns | Rashid Shaheed fantasy football | Rashid Shaheed NFL stats | Rashid Shaheed targets | Rashid Shaheed receptions | Rashid Shaheed wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "Player: Michael Wilson | NFL 2024-2025 Season Receiving Statistics | Receptions: 47 | Receiving Yards: 534 | Touchdowns: 1 | Targets: 71 | Catch Rate: 66.2% | Yards per Reception: 11.4 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 50 yards | First Downs: 26 | Yards After Catch/Reception: 1.39 | Fumbles: 0 | Michael Wilson receiving stats | Michael Wilson catches | Michael Wilson yards | Michael Wilson touchdowns | Michael Wilson fantasy football | Michael Wilson NFL stats | Michael Wilson targets | Michael Wilson receptions | Michael Wilson wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 39,
+      "frame_id": 39,
+      "text": "Player: A.J. Brown | NFL 2024-2025 Season Receiving Statistics | Receptions: 46 | Receiving Yards: 567 | Touchdowns: 4 | Targets: 75 | Catch Rate: 61.3% | Yards per Reception: 12.3 | 20+ Yard Catches: 8 | 40+ Yard Catches: 1 | Longest Reception: 45 yards | First Downs: 24 | Yards After Catch/Reception: 1.46 | Fumbles: 0 | A.J. Brown receiving stats | A.J. Brown catches | A.J. Brown yards | A.J. Brown touchdowns | A.J. Brown fantasy football | A.J. Brown NFL stats | A.J. Brown targets | A.J. Brown receptions | A.J. Brown wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 40,
+      "frame_id": 40,
+      "text": "Player: Tony Franklin | NFL 2024-2025 Season Receiving Statistics | Receptions: 46 | Receiving Yards: 509 | Touchdowns: 5 | Targets: 61 | Catch Rate: 75.4% | Yards per Reception: 11.1 | 20+ Yard Catches: 7 | 40+ Yard Catches: 1 | Longest Reception: 42 yards | First Downs: 24 | Yards After Catch/Reception: 2.24 | Fumbles: 0 | Tony Franklin receiving stats | Tony Franklin catches | Tony Franklin yards | Tony Franklin touchdowns | Tony Franklin fantasy football | Tony Franklin NFL stats | Tony Franklin targets | Tony Franklin receptions | Tony Franklin wide receiver | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 41,
+      "frame_id": 41,
+      "text": "Player: Brock Bowers | NFL 2024-2025 Season Receiving Statistics | Receptions: 45 | Receiving Yards: 510 | Touchdowns: 3 | Targets: 64 | Catch Rate: 70.3% | Yards per Reception: 11.3 | 20+ Yard Catches: 6 | 40+ Yard Catches: 0 | Longest Reception: 38 yards | First Downs: 24 | Yards After Catch/Reception: 2.36 | Fumbles: 0 | Brock Bowers receiving stats | Brock Bowers catches | Brock Bowers yards | Brock Bowers touchdowns | Brock Bowers fantasy football | Brock Bowers NFL stats | Brock Bowers targets | Brock Bowers receptions | Brock Bowers wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 42,
+      "frame_id": 42,
+      "text": "Player: Romeo Doubs | NFL 2024-2025 Season Receiving Statistics | Receptions: 45 | Receiving Yards: 542 | Touchdowns: 5 | Targets: 71 | Catch Rate: 63.4% | Yards per Reception: 12.0 | 20+ Yard Catches: 8 | 40+ Yard Catches: 1 | Longest Reception: 48 yards | First Downs: 32 | Yards After Catch/Reception: 1.21 | Fumbles: 1 | Romeo Doubs receiving stats | Romeo Doubs catches | Romeo Doubs yards | Romeo Doubs touchdowns | Romeo Doubs fantasy football | Romeo Doubs NFL stats | Romeo Doubs targets | Romeo Doubs receptions | Romeo Doubs wide receiver | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 43,
+      "frame_id": 43,
+      "text": "Player: Jakobi Meyers | NFL 2024-2025 Season Receiving Statistics | Receptions: 45 | Receiving Yards: 507 | Touchdowns: 1 | Targets: 64 | Catch Rate: 70.3% | Yards per Reception: 11.3 | 20+ Yard Catches: 7 | 40+ Yard Catches: 1 | Longest Reception: 45 yards | First Downs: 24 | Yards After Catch/Reception: 1.93 | Fumbles: 0 | Jakobi Meyers receiving stats | Jakobi Meyers catches | Jakobi Meyers yards | Jakobi Meyers touchdowns | Jakobi Meyers fantasy football | Jakobi Meyers NFL stats | Jakobi Meyers targets | Jakobi Meyers receptions | Jakobi Meyers wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 44,
+      "frame_id": 44,
+      "text": "Player: Courtland Sutton | NFL 2024-2025 Season Receiving Statistics | Receptions: 45 | Receiving Yards: 649 | Touchdowns: 4 | Targets: 78 | Catch Rate: 57.7% | Yards per Reception: 14.4 | 20+ Yard Catches: 12 | 40+ Yard Catches: 1 | Longest Reception: 62 yards | First Downs: 32 | Yards After Catch/Reception: 1.62 | Fumbles: 0 | Courtland Sutton receiving stats | Courtland Sutton catches | Courtland Sutton yards | Courtland Sutton touchdowns | Courtland Sutton fantasy football | Courtland Sutton NFL stats | Courtland Sutton targets | Courtland Sutton receptions | Courtland Sutton wide receiver | depth receiver | bye week fill-in | regular target | possession receiver | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 45,
+      "frame_id": 45,
+      "text": "Player: Kenneth Gainwell | NFL 2024-2025 Season Receiving Statistics | Receptions: 43 | Receiving Yards: 234 | Touchdowns: 2 | Targets: 48 | Catch Rate: 89.6% | Yards per Reception: 5.4 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 28 yards | First Downs: 10 | Yards After Catch/Reception: 2.94 | Fumbles: 1 | Kenneth Gainwell receiving stats | Kenneth Gainwell catches | Kenneth Gainwell yards | Kenneth Gainwell touchdowns | Kenneth Gainwell fantasy football | Kenneth Gainwell NFL stats | Kenneth Gainwell targets | Kenneth Gainwell receptions | Kenneth Gainwell wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 46,
+      "frame_id": 46,
+      "text": "Player: DK Metcalf | NFL 2024-2025 Season Receiving Statistics | Receptions: 43 | Receiving Yards: 573 | Touchdowns: 5 | Targets: 70 | Catch Rate: 61.4% | Yards per Reception: 13.3 | 20+ Yard Catches: 9 | 40+ Yard Catches: 1 | Longest Reception: 80 yards | First Downs: 28 | Yards After Catch/Reception: 3.21 | Fumbles: 0 | DK Metcalf receiving stats | DK Metcalf catches | DK Metcalf yards | DK Metcalf touchdowns | DK Metcalf fantasy football | DK Metcalf NFL stats | DK Metcalf targets | DK Metcalf receptions | DK Metcalf wide receiver | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 47,
+      "frame_id": 47,
+      "text": "Player: Rome Odunze | NFL 2024-2025 Season Receiving Statistics | Receptions: 42 | Receiving Yards: 653 | Touchdowns: 6 | Targets: 84 | Catch Rate: 50.0% | Yards per Reception: 15.5 | 20+ Yard Catches: 13 | 40+ Yard Catches: 0 | Longest Reception: 37 yards | First Downs: 36 | Yards After Catch/Reception: 2.13 | Fumbles: 0 | Rome Odunze receiving stats | Rome Odunze catches | Rome Odunze yards | Rome Odunze touchdowns | Rome Odunze fantasy football | Rome Odunze NFL stats | Rome Odunze targets | Rome Odunze receptions | Rome Odunze wide receiver | depth receiver | bye week fill-in | scoring threat | touchdown upside | regular target | possession receiver | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 48,
+      "frame_id": 48,
+      "text": "Player: Rashee Rice | NFL 2024-2025 Season Receiving Statistics | Receptions: 42 | Receiving Yards: 486 | Touchdowns: 5 | Targets: 59 | Catch Rate: 71.2% | Yards per Reception: 11.6 | 20+ Yard Catches: 9 | 40+ Yard Catches: 2 | Longest Reception: 47 yards | First Downs: 26 | Yards After Catch/Reception: 3.28 | Fumbles: 1 | Rashee Rice receiving stats | Rashee Rice catches | Rashee Rice yards | Rashee Rice touchdowns | Rashee Rice fantasy football | Rashee Rice NFL stats | Rashee Rice targets | Rashee Rice receptions | Rashee Rice wide receiver | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 49,
+      "frame_id": 49,
+      "text": "Player: Marquise Brown | NFL 2024-2025 Season Receiving Statistics | Receptions: 41 | Receiving Yards: 459 | Touchdowns: 5 | Targets: 60 | Catch Rate: 68.3% | Yards per Reception: 11.2 | 20+ Yard Catches: 5 | 40+ Yard Catches: 2 | Longest Reception: 49 yards | First Downs: 25 | Yards After Catch/Reception: 1.81 | Fumbles: 0 | Marquise Brown receiving stats | Marquise Brown catches | Marquise Brown yards | Marquise Brown touchdowns | Marquise Brown fantasy football | Marquise Brown NFL stats | Marquise Brown targets | Marquise Brown receptions | Marquise Brown wide receiver | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 50,
+      "frame_id": 50,
+      "text": "Player: Hunter Henry | NFL 2024-2025 Season Receiving Statistics | Receptions: 41 | Receiving Yards: 537 | Touchdowns: 5 | Targets: 63 | Catch Rate: 65.1% | Yards per Reception: 13.1 | 20+ Yard Catches: 3 | 40+ Yard Catches: 0 | Longest Reception: 31 yards | First Downs: 29 | Yards After Catch/Reception: 2.91 | Fumbles: 0 | Hunter Henry receiving stats | Hunter Henry catches | Hunter Henry yards | Hunter Henry touchdowns | Hunter Henry fantasy football | Hunter Henry NFL stats | Hunter Henry targets | Hunter Henry receptions | Hunter Henry wide receiver | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 51,
+      "frame_id": 51,
+      "text": "Player: Cade Otton | NFL 2024-2025 Season Receiving Statistics | Receptions: 41 | Receiving Yards: 402 | Touchdowns: 0 | Targets: 60 | Catch Rate: 68.3% | Yards per Reception: 9.8 | 20+ Yard Catches: 5 | 40+ Yard Catches: 0 | Longest Reception: 27 yards | First Downs: 18 | Yards After Catch/Reception: 2.16 | Fumbles: 0 | Cade Otton receiving stats | Cade Otton catches | Cade Otton yards | Cade Otton touchdowns | Cade Otton fantasy football | Cade Otton NFL stats | Cade Otton targets | Cade Otton receptions | Cade Otton wide receiver | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 52,
+      "frame_id": 52,
+      "text": "Player: Tre Tucker | NFL 2024-2025 Season Receiving Statistics | Receptions: 41 | Receiving Yards: 530 | Touchdowns: 5 | Targets: 64 | Catch Rate: 64.1% | Yards per Reception: 12.9 | 20+ Yard Catches: 8 | 40+ Yard Catches: 1 | Longest Reception: 61 yards | First Downs: 24 | Yards After Catch/Reception: 2.3 | Fumbles: 0 | Tre Tucker receiving stats | Tre Tucker catches | Tre Tucker yards | Tre Tucker touchdowns | Tre Tucker fantasy football | Tre Tucker NFL stats | Tre Tucker targets | Tre Tucker receptions | Tre Tucker wide receiver | scoring threat | touchdown upside | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 53,
+      "frame_id": 53,
+      "text": "Player: Tee Higgins | NFL 2024-2025 Season Receiving Statistics | Receptions: 40 | Receiving Yards: 575 | Touchdowns: 7 | Targets: 70 | Catch Rate: 57.1% | Yards per Reception: 14.4 | 20+ Yard Catches: 9 | 40+ Yard Catches: 3 | Longest Reception: 44 yards | First Downs: 28 | Yards After Catch/Reception: 1.32 | Fumbles: 0 | Tee Higgins receiving stats | Tee Higgins catches | Tee Higgins yards | Tee Higgins touchdowns | Tee Higgins fantasy football | Tee Higgins NFL stats | Tee Higgins targets | Tee Higgins receptions | Tee Higgins wide receiver | reliable scorer | red zone target"
+    },
+    {
+      "chunk_id": 54,
+      "frame_id": 54,
+      "text": "Player: Sam LaPorta | NFL 2024-2025 Season Receiving Statistics | Receptions: 40 | Receiving Yards: 489 | Touchdowns: 3 | Targets: 49 | Catch Rate: 81.6% | Yards per Reception: 12.2 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 40 yards | First Downs: 23 | Yards After Catch/Reception: 2.74 | Fumbles: 0 | Sam LaPorta receiving stats | Sam LaPorta catches | Sam LaPorta yards | Sam LaPorta touchdowns | Sam LaPorta fantasy football | Sam LaPorta NFL stats | Sam LaPorta targets | Sam LaPorta receptions | Sam LaPorta wide receiver"
+    },
+    {
+      "chunk_id": 55,
+      "frame_id": 55,
+      "text": "Player: Zach Ertz | NFL 2024-2025 Season Receiving Statistics | Receptions: 39 | Receiving Yards: 387 | Touchdowns: 4 | Targets: 57 | Catch Rate: 68.4% | Yards per Reception: 9.9 | 20+ Yard Catches: 4 | 40+ Yard Catches: 0 | Longest Reception: 30 yards | First Downs: 18 | Yards After Catch/Reception: 0.82 | Fumbles: 1 | Zach Ertz receiving stats | Zach Ertz catches | Zach Ertz yards | Zach Ertz touchdowns | Zach Ertz fantasy football | Zach Ertz NFL stats | Zach Ertz targets | Zach Ertz receptions | Zach Ertz wide receiver"
+    },
+    {
+      "chunk_id": 56,
+      "frame_id": 56,
+      "text": "Player: Tilen Johnson | NFL 2024-2025 Season Receiving Statistics | Receptions: 39 | Receiving Yards: 427 | Touchdowns: 5 | Targets: 60 | Catch Rate: 65.0% | Yards per Reception: 10.9 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 41 yards | First Downs: 22 | Yards After Catch/Reception: 1.47 | Fumbles: 0 | Tilen Johnson receiving stats | Tilen Johnson catches | Tilen Johnson yards | Tilen Johnson touchdowns | Tilen Johnson fantasy football | Tilen Johnson NFL stats | Tilen Johnson targets | Tilen Johnson receptions | Tilen Johnson wide receiver | scoring threat | touchdown upside"
+    },
+    {
+      "chunk_id": 57,
+      "frame_id": 57,
+      "text": "Player: Josh Downs | NFL 2024-2025 Season Receiving Statistics | Receptions: 38 | Receiving Yards: 326 | Touchdowns: 3 | Targets: 54 | Catch Rate: 70.4% | Yards per Reception: 8.6 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 29 yards | First Downs: 23 | Yards After Catch/Reception: 0.89 | Fumbles: 0 | Josh Downs receiving stats | Josh Downs catches | Josh Downs yards | Josh Downs touchdowns | Josh Downs fantasy football | Josh Downs NFL stats | Josh Downs targets | Josh Downs receptions | Josh Downs wide receiver"
+    },
+    {
+      "chunk_id": 58,
+      "frame_id": 58,
+      "text": "Player: Dallas Goedert | NFL 2024-2025 Season Receiving Statistics | Receptions: 38 | Receiving Yards: 376 | Touchdowns: 7 | Targets: 52 | Catch Rate: 73.1% | Yards per Reception: 9.9 | 20+ Yard Catches: 5 | 40+ Yard Catches: 0 | Longest Reception: 36 yards | First Downs: 21 | Yards After Catch/Reception: 1.26 | Fumbles: 0 | Dallas Goedert receiving stats | Dallas Goedert catches | Dallas Goedert yards | Dallas Goedert touchdowns | Dallas Goedert fantasy football | Dallas Goedert NFL stats | Dallas Goedert targets | Dallas Goedert receptions | Dallas Goedert wide receiver | reliable scorer | red zone target"
+    },
+    {
+      "chunk_id": 59,
+      "frame_id": 59,
+      "text": "Player: T.J. Hockenson | NFL 2024-2025 Season Receiving Statistics | Receptions: 38 | Receiving Yards: 299 | Touchdowns: 2 | Targets: 51 | Catch Rate: 74.5% | Yards per Reception: 7.9 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 21 yards | First Downs: 14 | Yards After Catch/Reception: 1.6 | Fumbles: 0 | T.J. Hockenson receiving stats | T.J. Hockenson catches | T.J. Hockenson yards | T.J. Hockenson touchdowns | T.J. Hockenson fantasy football | T.J. Hockenson NFL stats | T.J. Hockenson targets | T.J. Hockenson receptions | T.J. Hockenson wide receiver"
+    },
+    {
+      "chunk_id": 60,
+      "frame_id": 60,
+      "text": "Player: Jameson Williams | NFL 2024-2025 Season Receiving Statistics | Receptions: 38 | Receiving Yards: 706 | Touchdowns: 6 | Targets: 63 | Catch Rate: 60.3% | Yards per Reception: 18.6 | 20+ Yard Catches: 14 | 40+ Yard Catches: 5 | Longest Reception: 64 yards | First Downs: 32 | Yards After Catch/Reception: 3.31 | Fumbles: 0 | Jameson Williams receiving stats | Jameson Williams catches | Jameson Williams yards | Jameson Williams touchdowns | Jameson Williams fantasy football | Jameson Williams NFL stats | Jameson Williams targets | Jameson Williams receptions | Jameson Williams wide receiver | depth receiver | bye week fill-in | scoring threat | touchdown upside | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 61,
+      "frame_id": 61,
+      "text": "Player: Mark Andrews | NFL 2024-2025 Season Receiving Statistics | Receptions: 37 | Receiving Yards: 332 | Touchdowns: 5 | Targets: 52 | Catch Rate: 71.2% | Yards per Reception: 9.0 | 20+ Yard Catches: 3 | 40+ Yard Catches: 0 | Longest Reception: 27 yards | First Downs: 21 | Yards After Catch/Reception: 0.85 | Fumbles: 1 | Mark Andrews receiving stats | Mark Andrews catches | Mark Andrews yards | Mark Andrews touchdowns | Mark Andrews fantasy football | Mark Andrews NFL stats | Mark Andrews targets | Mark Andrews receptions | Mark Andrews wide receiver | scoring threat | touchdown upside"
+    },
+    {
+      "chunk_id": 62,
+      "frame_id": 62,
+      "text": "Player: Devin Godwin II | NFL 2024-2025 Season Receiving Statistics | Receptions: 37 | Receiving Yards: 507 | Touchdowns: 2 | Targets: 49 | Catch Rate: 75.5% | Yards per Reception: 13.7 | 20+ Yard Catches: 8 | 40+ Yard Catches: 2 | Longest Reception: 53 yards | First Downs: 20 | Yards After Catch/Reception: 1.72 | Fumbles: 1 | Devin Godwin II receiving stats | Devin Godwin II catches | Devin Godwin II yards | Devin Godwin II touchdowns | Devin Godwin II fantasy football | Devin Godwin II NFL stats | Devin Godwin II targets | Devin Godwin II receptions | Devin Godwin II wide receiver"
+    },
+    {
+      "chunk_id": 63,
+      "frame_id": 63,
+      "text": "Player: Ashton Jeanty | NFL 2024-2025 Season Receiving Statistics | Receptions: 37 | Receiving Yards: 221 | Touchdowns: 4 | Targets: 46 | Catch Rate: 80.4% | Yards per Reception: 6.0 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 29 yards | First Downs: 11 | Yards After Catch/Reception: 3.3 | Fumbles: 1 | Ashton Jeanty receiving stats | Ashton Jeanty catches | Ashton Jeanty yards | Ashton Jeanty touchdowns | Ashton Jeanty fantasy football | Ashton Jeanty NFL stats | Ashton Jeanty targets | Ashton Jeanty receptions | Ashton Jeanty wide receiver"
+    },
+    {
+      "chunk_id": 64,
+      "frame_id": 64,
+      "text": "Player: Jauan Jennings | NFL 2024-2025 Season Receiving Statistics | Receptions: 37 | Receiving Yards: 419 | Touchdowns: 4 | Targets: 63 | Catch Rate: 58.7% | Yards per Reception: 11.3 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 42 yards | First Downs: 21 | Yards After Catch/Reception: 1.32 | Fumbles: 1 | Jauan Jennings receiving stats | Jauan Jennings catches | Jauan Jennings yards | Jauan Jennings touchdowns | Jauan Jennings fantasy football | Jauan Jennings NFL stats | Jauan Jennings targets | Jauan Jennings receptions | Jauan Jennings wide receiver"
+    },
+    {
+      "chunk_id": 65,
+      "frame_id": 65,
+      "text": "Player: Quentin Johnston | NFL 2024-2025 Season Receiving Statistics | Receptions: 37 | Receiving Yards: 502 | Touchdowns: 6 | Targets: 65 | Catch Rate: 56.9% | Yards per Reception: 13.6 | 20+ Yard Catches: 9 | 40+ Yard Catches: 1 | Longest Reception: 60 yards | First Downs: 18 | Yards After Catch/Reception: 1.89 | Fumbles: 1 | Quentin Johnston receiving stats | Quentin Johnston catches | Quentin Johnston yards | Quentin Johnston touchdowns | Quentin Johnston fantasy football | Quentin Johnston NFL stats | Quentin Johnston targets | Quentin Johnston receptions | Quentin Johnston wide receiver | scoring threat | touchdown upside"
+    },
+    {
+      "chunk_id": 66,
+      "frame_id": 66,
+      "text": "Player: Sterling Shepard | NFL 2024-2025 Season Receiving Statistics | Receptions: 37 | Receiving Yards: 361 | Touchdowns: 1 | Targets: 50 | Catch Rate: 74.0% | Yards per Reception: 9.8 | 20+ Yard Catches: 5 | 40+ Yard Catches: 0 | Longest Reception: 36 yards | First Downs: 17 | Yards After Catch/Reception: 1.48 | Fumbles: 1 | Sterling Shepard receiving stats | Sterling Shepard catches | Sterling Shepard yards | Sterling Shepard touchdowns | Sterling Shepard fantasy football | Sterling Shepard NFL stats | Sterling Shepard targets | Sterling Shepard receptions | Sterling Shepard wide receiver"
+    },
+    {
+      "chunk_id": 67,
+      "frame_id": 67,
+      "text": "Player: Mason Taylor | NFL 2024-2025 Season Receiving Statistics | Receptions: 37 | Receiving Yards: 297 | Touchdowns: 1 | Targets: 53 | Catch Rate: 69.8% | Yards per Reception: 8.0 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 27 yards | First Downs: 18 | Yards After Catch/Reception: 0.95 | Fumbles: 0 | Mason Taylor receiving stats | Mason Taylor catches | Mason Taylor yards | Mason Taylor touchdowns | Mason Taylor fantasy football | Mason Taylor NFL stats | Mason Taylor targets | Mason Taylor receptions | Mason Taylor wide receiver"
+    },
+    {
+      "chunk_id": 68,
+      "frame_id": 68,
+      "text": "Player: DJ Moore | NFL 2024-2025 Season Receiving Statistics | Receptions: 36 | Receiving Yards: 485 | Touchdowns: 3 | Targets: 58 | Catch Rate: 62.1% | Yards per Reception: 13.5 | 20+ Yard Catches: 7 | 40+ Yard Catches: 1 | Longest Reception: 42 yards | First Downs: 22 | Yards After Catch/Reception: 1.96 | Fumbles: 1 | DJ Moore receiving stats | DJ Moore catches | DJ Moore yards | DJ Moore touchdowns | DJ Moore fantasy football | DJ Moore NFL stats | DJ Moore targets | DJ Moore receptions | DJ Moore wide receiver"
+    },
+    {
+      "chunk_id": 69,
+      "frame_id": 69,
+      "text": "Player: Garrett Wilson | NFL 2024-2025 Season Receiving Statistics | Receptions: 36 | Receiving Yards: 395 | Touchdowns: 4 | Targets: 59 | Catch Rate: 61.0% | Yards per Reception: 11.0 | 20+ Yard Catches: 4 | 40+ Yard Catches: 0 | Longest Reception: 33 yards | First Downs: 18 | Yards After Catch/Reception: 1.0 | Fumbles: 1 | Garrett Wilson receiving stats | Garrett Wilson catches | Garrett Wilson yards | Garrett Wilson touchdowns | Garrett Wilson fantasy football | Garrett Wilson NFL stats | Garrett Wilson targets | Garrett Wilson receptions | Garrett Wilson wide receiver"
+    },
+    {
+      "chunk_id": 70,
+      "frame_id": 70,
+      "text": "Player: Saquon Barkley | NFL 2024-2025 Season Receiving Statistics | Receptions: 35 | Receiving Yards: 259 | Touchdowns: 2 | Targets: 41 | Catch Rate: 85.4% | Yards per Reception: 7.4 | 20+ Yard Catches: 2 | 40+ Yard Catches: 2 | Longest Reception: 47 yards | First Downs: 11 | Yards After Catch/Reception: 2.79 | Fumbles: 1 | Saquon Barkley receiving stats | Saquon Barkley catches | Saquon Barkley yards | Saquon Barkley touchdowns | Saquon Barkley fantasy football | Saquon Barkley NFL stats | Saquon Barkley targets | Saquon Barkley receptions | Saquon Barkley wide receiver"
+    },
+    {
+      "chunk_id": 71,
+      "frame_id": 71,
+      "text": "Player: Chig Okonkwo | NFL 2024-2025 Season Receiving Statistics | Receptions: 35 | Receiving Yards: 377 | Touchdowns: 0 | Targets: 46 | Catch Rate: 76.1% | Yards per Reception: 10.8 | 20+ Yard Catches: 5 | 40+ Yard Catches: 0 | Longest Reception: 39 yards | First Downs: 16 | Yards After Catch/Reception: 2.01 | Fumbles: 0 | Chig Okonkwo receiving stats | Chig Okonkwo catches | Chig Okonkwo yards | Chig Okonkwo touchdowns | Chig Okonkwo fantasy football | Chig Okonkwo NFL stats | Chig Okonkwo targets | Chig Okonkwo receptions | Chig Okonkwo wide receiver"
+    },
+    {
+      "chunk_id": 72,
+      "frame_id": 72,
+      "text": "Player: Parker Washington | NFL 2024-2025 Season Receiving Statistics | Receptions: 35 | Receiving Yards: 421 | Touchdowns: 3 | Targets: 60 | Catch Rate: 58.3% | Yards per Reception: 12.0 | 20+ Yard Catches: 5 | 40+ Yard Catches: 1 | Longest Reception: 40 yards | First Downs: 22 | Yards After Catch/Reception: 1.16 | Fumbles: 0 | Parker Washington receiving stats | Parker Washington catches | Parker Washington yards | Parker Washington touchdowns | Parker Washington fantasy football | Parker Washington NFL stats | Parker Washington targets | Parker Washington receptions | Parker Washington wide receiver"
+    },
+    {
+      "chunk_id": 73,
+      "frame_id": 73,
+      "text": "Player: Xavier Worthy | NFL 2024-2025 Season Receiving Statistics | Receptions: 35 | Receiving Yards: 401 | Touchdowns: 1 | Targets: 59 | Catch Rate: 59.3% | Yards per Reception: 11.5 | 20+ Yard Catches: 5 | 40+ Yard Catches: 1 | Longest Reception: 42 yards | First Downs: 16 | Yards After Catch/Reception: 1.43 | Fumbles: 0 | Xavier Worthy receiving stats | Xavier Worthy catches | Xavier Worthy yards | Xavier Worthy touchdowns | Xavier Worthy fantasy football | Xavier Worthy NFL stats | Xavier Worthy targets | Xavier Worthy receptions | Xavier Worthy wide receiver"
+    },
+    {
+      "chunk_id": 74,
+      "frame_id": 74,
+      "text": "Player: Marvin Harrison Jr. | NFL 2024-2025 Season Receiving Statistics | Receptions: 34 | Receiving Yards: 525 | Touchdowns: 4 | Targets: 62 | Catch Rate: 54.8% | Yards per Reception: 15.4 | 20+ Yard Catches: 8 | 40+ Yard Catches: 2 | Longest Reception: 45 yards | First Downs: 25 | Yards After Catch/Reception: 1.08 | Fumbles: 0 | Marvin Harrison Jr. receiving stats | Marvin Harrison Jr. catches | Marvin Harrison Jr. yards | Marvin Harrison Jr. touchdowns | Marvin Harrison Jr. fantasy football | Marvin Harrison Jr. NFL stats | Marvin Harrison Jr. targets | Marvin Harrison Jr. receptions | Marvin Harrison Jr. wide receiver"
+    },
+    {
+      "chunk_id": 75,
+      "frame_id": 75,
+      "text": "Player: K.J. Barrier | NFL 2024-2025 Season Receiving Statistics | Receptions: 33 | Receiving Yards: 324 | Touchdowns: 4 | Targets: 41 | Catch Rate: 80.5% | Yards per Reception: 9.8 | 20+ Yard Catches: 2 | 40+ Yard Catches: 1 | Longest Reception: 61 yards | First Downs: 16 | Yards After Catch/Reception: 1.51 | Fumbles: 2 | K.J. Barrier receiving stats | K.J. Barrier catches | K.J. Barrier yards | K.J. Barrier touchdowns | K.J. Barrier fantasy football | K.J. Barrier NFL stats | K.J. Barrier targets | K.J. Barrier receptions | K.J. Barrier wide receiver"
+    },
+    {
+      "chunk_id": 76,
+      "frame_id": 76,
+      "text": "Player: Alvin Kamara | NFL 2024-2025 Season Receiving Statistics | Receptions: 33 | Receiving Yards: 186 | Touchdowns: 0 | Targets: 39 | Catch Rate: 84.6% | Yards per Reception: 5.6 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 26 yards | First Downs: 7 | Yards After Catch/Reception: 2.02 | Fumbles: 1 | Alvin Kamara receiving stats | Alvin Kamara catches | Alvin Kamara yards | Alvin Kamara touchdowns | Alvin Kamara fantasy football | Alvin Kamara NFL stats | Alvin Kamara targets | Alvin Kamara receptions | Alvin Kamara wide receiver"
+    },
+    {
+      "chunk_id": 77,
+      "frame_id": 77,
+      "text": "Player: George Kittle | NFL 2024-2025 Season Receiving Statistics | Receptions: 33 | Receiving Yards: 329 | Touchdowns: 5 | Targets: 40 | Catch Rate: 82.5% | Yards per Reception: 10.0 | 20+ Yard Catches: 3 | 40+ Yard Catches: 0 | Longest Reception: 30 yards | First Downs: 20 | Yards After Catch/Reception: 1.27 | Fumbles: 0 | George Kittle receiving stats | George Kittle catches | George Kittle yards | George Kittle touchdowns | George Kittle fantasy football | George Kittle NFL stats | George Kittle targets | George Kittle receptions | George Kittle wide receiver | scoring threat | touchdown upside"
+    },
+    {
+      "chunk_id": 78,
+      "frame_id": 78,
+      "text": "Player: Malik Washington | NFL 2024-2025 Season Receiving Statistics | Receptions: 33 | Receiving Yards: 234 | Touchdowns: 2 | Targets: 47 | Catch Rate: 70.2% | Yards per Reception: 7.1 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 28 yards | First Downs: 12 | Yards After Catch/Reception: 1.84 | Fumbles: 0 | Malik Washington receiving stats | Malik Washington catches | Malik Washington yards | Malik Washington touchdowns | Malik Washington fantasy football | Malik Washington NFL stats | Malik Washington targets | Malik Washington receptions | Malik Washington wide receiver"
+    },
+    {
+      "chunk_id": 79,
+      "frame_id": 79,
+      "text": "Player: Quentin Zaccheaus | NFL 2024-2025 Season Receiving Statistics | Receptions: 33 | Receiving Yards: 254 | Touchdowns: 1 | Targets: 51 | Catch Rate: 64.7% | Yards per Reception: 7.7 | 20+ Yard Catches: 0 | 40+ Yard Catches: 0 | Longest Reception: 16 yards | First Downs: 11 | Yards After Catch/Reception: 1.07 | Fumbles: 0 | Quentin Zaccheaus receiving stats | Quentin Zaccheaus catches | Quentin Zaccheaus yards | Quentin Zaccheaus touchdowns | Quentin Zaccheaus fantasy football | Quentin Zaccheaus NFL stats | Quentin Zaccheaus targets | Quentin Zaccheaus receptions | Quentin Zaccheaus wide receiver"
+    },
+    {
+      "chunk_id": 80,
+      "frame_id": 80,
+      "text": "Player: Kevin Coleman | NFL 2024-2025 Season Receiving Statistics | Receptions: 32 | Receiving Yards: 330 | Touchdowns: 3 | Targets: 49 | Catch Rate: 65.3% | Yards per Reception: 10.3 | 20+ Yard Catches: 4 | 40+ Yard Catches: 0 | Longest Reception: 35 yards | First Downs: 21 | Yards After Catch/Reception: 0.59 | Fumbles: 1 | Kevin Coleman receiving stats | Kevin Coleman catches | Kevin Coleman yards | Kevin Coleman touchdowns | Kevin Coleman fantasy football | Kevin Coleman NFL stats | Kevin Coleman targets | Kevin Coleman receptions | Kevin Coleman wide receiver"
+    },
+    {
+      "chunk_id": 81,
+      "frame_id": 81,
+      "text": "Player: Evan Engram | NFL 2024-2025 Season Receiving Statistics | Receptions: 32 | Receiving Yards: 260 | Touchdowns: 1 | Targets: 50 | Catch Rate: 64.0% | Yards per Reception: 8.1 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 20 yards | First Downs: 14 | Yards After Catch/Reception: 1.78 | Fumbles: 0 | Evan Engram receiving stats | Evan Engram catches | Evan Engram yards | Evan Engram touchdowns | Evan Engram fantasy football | Evan Engram NFL stats | Evan Engram targets | Evan Engram receptions | Evan Engram wide receiver"
+    },
+    {
+      "chunk_id": 82,
+      "frame_id": 82,
+      "text": "Player: Noah Fant | NFL 2024-2025 Season Receiving Statistics | Receptions: 32 | Receiving Yards: 268 | Touchdowns: 3 | Targets: 37 | Catch Rate: 86.5% | Yards per Reception: 8.4 | 20+ Yard Catches: 3 | 40+ Yard Catches: 0 | Longest Reception: 25 yards | First Downs: 12 | Yards After Catch/Reception: 1.56 | Fumbles: 2 | Noah Fant receiving stats | Noah Fant catches | Noah Fant yards | Noah Fant touchdowns | Noah Fant fantasy football | Noah Fant NFL stats | Noah Fant targets | Noah Fant receptions | Noah Fant wide receiver"
+    },
+    {
+      "chunk_id": 83,
+      "frame_id": 83,
+      "text": "Player: Mack Hollins | NFL 2024-2025 Season Receiving Statistics | Receptions: 32 | Receiving Yards: 417 | Touchdowns: 2 | Targets: 44 | Catch Rate: 72.7% | Yards per Reception: 13.0 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 54 yards | First Downs: 22 | Yards After Catch/Reception: 0.92 | Fumbles: 0 | Mack Hollins receiving stats | Mack Hollins catches | Mack Hollins yards | Mack Hollins touchdowns | Mack Hollins fantasy football | Mack Hollins NFL stats | Mack Hollins targets | Mack Hollins receptions | Mack Hollins wide receiver"
+    },
+    {
+      "chunk_id": 84,
+      "frame_id": 84,
+      "text": "Player: Jerry Jeudy | NFL 2024-2025 Season Receiving Statistics | Receptions: 32 | Receiving Yards: 395 | Touchdowns: 1 | Targets: 76 | Catch Rate: 42.1% | Yards per Reception: 12.3 | 20+ Yard Catches: 5 | 40+ Yard Catches: 0 | Longest Reception: 39 yards | First Downs: 21 | Yards After Catch/Reception: 1.08 | Fumbles: 1 | Jerry Jeudy receiving stats | Jerry Jeudy catches | Jerry Jeudy yards | Jerry Jeudy touchdowns | Jerry Jeudy fantasy football | Jerry Jeudy NFL stats | Jerry Jeudy targets | Jerry Jeudy receptions | Jerry Jeudy wide receiver"
+    },
+    {
+      "chunk_id": 85,
+      "frame_id": 85,
+      "text": "Player: Tucker Kraft | NFL 2024-2025 Season Receiving Statistics | Receptions: 32 | Receiving Yards: 489 | Touchdowns: 6 | Targets: 44 | Catch Rate: 72.7% | Yards per Reception: 15.3 | 20+ Yard Catches: 6 | 40+ Yard Catches: 2 | Longest Reception: 59 yards | First Downs: 22 | Yards After Catch/Reception: 3.44 | Fumbles: 0 | Tucker Kraft receiving stats | Tucker Kraft catches | Tucker Kraft yards | Tucker Kraft touchdowns | Tucker Kraft fantasy football | Tucker Kraft NFL stats | Tucker Kraft targets | Tucker Kraft receptions | Tucker Kraft wide receiver | scoring threat | touchdown upside"
+    },
+    {
+      "chunk_id": 86,
+      "frame_id": 86,
+      "text": "Player: Jonathan Taylor | NFL 2024-2025 Season Receiving Statistics | Receptions: 32 | Receiving Yards: 268 | Touchdowns: 2 | Targets: 35 | Catch Rate: 91.4% | Yards per Reception: 8.4 | 20+ Yard Catches: 2 | 40+ Yard Catches: 1 | Longest Reception: 43 yards | First Downs: 11 | Yards After Catch/Reception: 3.08 | Fumbles: 1 | Jonathan Taylor receiving stats | Jonathan Taylor catches | Jonathan Taylor yards | Jonathan Taylor touchdowns | Jonathan Taylor fantasy football | Jonathan Taylor NFL stats | Jonathan Taylor targets | Jonathan Taylor receptions | Jonathan Taylor wide receiver"
+    },
+    {
+      "chunk_id": 87,
+      "frame_id": 87,
+      "text": "Player: Kendrick Bourne | NFL 2024-2025 Season Receiving Statistics | Receptions: 31 | Receiving Yards: 482 | Touchdowns: 0 | Targets: 42 | Catch Rate: 73.8% | Yards per Reception: 15.5 | 20+ Yard Catches: 4 | 40+ Yard Catches: 2 | Longest Reception: 56 yards | First Downs: 23 | Yards After Catch/Reception: 1.49 | Fumbles: 0 | Kendrick Bourne receiving stats | Kendrick Bourne catches | Kendrick Bourne yards | Kendrick Bourne touchdowns | Kendrick Bourne fantasy football | Kendrick Bourne NFL stats | Kendrick Bourne targets | Kendrick Bourne receptions | Kendrick Bourne wide receiver"
+    },
+    {
+      "chunk_id": 88,
+      "frame_id": 88,
+      "text": "Player: Cooper Kupp | NFL 2024-2025 Season Receiving Statistics | Receptions: 31 | Receiving Yards: 414 | Touchdowns: 1 | Targets: 46 | Catch Rate: 67.4% | Yards per Reception: 13.4 | 20+ Yard Catches: 5 | 40+ Yard Catches: 1 | Longest Reception: 67 yards | First Downs: 18 | Yards After Catch/Reception: 2.0 | Fumbles: 0 | Cooper Kupp receiving stats | Cooper Kupp catches | Cooper Kupp yards | Cooper Kupp touchdowns | Cooper Kupp fantasy football | Cooper Kupp NFL stats | Cooper Kupp targets | Cooper Kupp receptions | Cooper Kupp wide receiver"
+    },
+    {
+      "chunk_id": 89,
+      "frame_id": 89,
+      "text": "Player: Javonte Williams | NFL 2024-2025 Season Receiving Statistics | Receptions: 31 | Receiving Yards: 128 | Touchdowns: 2 | Targets: 42 | Catch Rate: 73.8% | Yards per Reception: 4.1 | 20+ Yard Catches: 0 | 40+ Yard Catches: 0 | Longest Reception: 14 yards | First Downs: 7 | Yards After Catch/Reception: 1.81 | Fumbles: 1 | Javonte Williams receiving stats | Javonte Williams catches | Javonte Williams yards | Javonte Williams touchdowns | Javonte Williams fantasy football | Javonte Williams NFL stats | Javonte Williams targets | Javonte Williams receptions | Javonte Williams wide receiver"
+    },
+    {
+      "chunk_id": 90,
+      "frame_id": 90,
+      "text": "Player: Gunnar Helm | NFL 2024-2025 Season Receiving Statistics | Receptions: 30 | Receiving Yards: 267 | Touchdowns: 1 | Targets: 37 | Catch Rate: 81.1% | Yards per Reception: 8.9 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 22 yards | First Downs: 15 | Yards After Catch/Reception: 1.08 | Fumbles: 0 | Gunnar Helm receiving stats | Gunnar Helm catches | Gunnar Helm yards | Gunnar Helm touchdowns | Gunnar Helm fantasy football | Gunnar Helm NFL stats | Gunnar Helm targets | Gunnar Helm receptions | Gunnar Helm wide receiver"
+    },
+    {
+      "chunk_id": 91,
+      "frame_id": 91,
+      "text": "Player: David Njoku | NFL 2024-2025 Season Receiving Statistics | Receptions: 30 | Receiving Yards: 288 | Touchdowns: 3 | Targets: 45 | Catch Rate: 66.7% | Yards per Reception: 9.6 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 23 yards | First Downs: 10 | Yards After Catch/Reception: 1.58 | Fumbles: 0 | David Njoku receiving stats | David Njoku catches | David Njoku yards | David Njoku touchdowns | David Njoku fantasy football | David Njoku NFL stats | David Njoku targets | David Njoku receptions | David Njoku wide receiver"
+    },
+    {
+      "chunk_id": 92,
+      "frame_id": 92,
+      "text": "Player: Brian Thomas Jr. | NFL 2024-2025 Season Receiving Statistics | Receptions: 30 | Receiving Yards: 420 | Touchdowns: 1 | Targets: 60 | Catch Rate: 50.0% | Yards per Reception: 14.0 | 20+ Yard Catches: 7 | 40+ Yard Catches: 1 | Longest Reception: 46 yards | First Downs: 19 | Yards After Catch/Reception: 1.12 | Fumbles: 0 | Brian Thomas Jr. receiving stats | Brian Thomas Jr. catches | Brian Thomas Jr. yards | Brian Thomas Jr. touchdowns | Brian Thomas Jr. fantasy football | Brian Thomas Jr. NFL stats | Brian Thomas Jr. targets | Brian Thomas Jr. receptions | Brian Thomas Jr. wide receiver"
+    },
+    {
+      "chunk_id": 93,
+      "frame_id": 93,
+      "text": "Player: TreVayne Henderson | NFL 2024-2025 Season Receiving Statistics | Receptions: 29 | Receiving Yards: 180 | Touchdowns: 1 | Targets: 34 | Catch Rate: 85.3% | Yards per Reception: 6.2 | 20+ Yard Catches: 0 | 40+ Yard Catches: 0 | Longest Reception: 19 yards | First Downs: 6 | Yards After Catch/Reception: 1.97 | Fumbles: 0 | TreVayne Henderson receiving stats | TreVayne Henderson catches | TreVayne Henderson yards | TreVayne Henderson touchdowns | TreVayne Henderson fantasy football | TreVayne Henderson NFL stats | TreVayne Henderson targets | TreVayne Henderson receptions | TreVayne Henderson wide receiver"
+    },
+    {
+      "chunk_id": 94,
+      "frame_id": 94,
+      "text": "Player: Josh Jacobs | NFL 2024-2025 Season Receiving Statistics | Receptions: 29 | Receiving Yards: 245 | Touchdowns: 0 | Targets: 36 | Catch Rate: 80.6% | Yards per Reception: 8.4 | 20+ Yard Catches: 4 | 40+ Yard Catches: 0 | Longest Reception: 31 yards | First Downs: 7 | Yards After Catch/Reception: 2.74 | Fumbles: 0 | Josh Jacobs receiving stats | Josh Jacobs catches | Josh Jacobs yards | Josh Jacobs touchdowns | Josh Jacobs fantasy football | Josh Jacobs NFL stats | Josh Jacobs targets | Josh Jacobs receptions | Josh Jacobs wide receiver"
+    },
+    {
+      "chunk_id": 95,
+      "frame_id": 95,
+      "text": "Player: Dalton Kincaid | NFL 2024-2025 Season Receiving Statistics | Receptions: 29 | Receiving Yards: 448 | Touchdowns: 4 | Targets: 36 | Catch Rate: 80.6% | Yards per Reception: 15.4 | 20+ Yard Catches: 10 | 40+ Yard Catches: 1 | Longest Reception: 47 yards | First Downs: 21 | Yards After Catch/Reception: 1.95 | Fumbles: 1 | Dalton Kincaid receiving stats | Dalton Kincaid catches | Dalton Kincaid yards | Dalton Kincaid touchdowns | Dalton Kincaid fantasy football | Dalton Kincaid NFL stats | Dalton Kincaid targets | Dalton Kincaid receptions | Dalton Kincaid wide receiver"
+    },
+    {
+      "chunk_id": 96,
+      "frame_id": 96,
+      "text": "Player: Alec Pierce | NFL 2024-2025 Season Receiving Statistics | Receptions: 29 | Receiving Yards: 611 | Touchdowns: 1 | Targets: 54 | Catch Rate: 53.7% | Yards per Reception: 21.1 | 20+ Yard Catches: 11 | 40+ Yard Catches: 3 | Longest Reception: 60 yards | First Downs: 25 | Yards After Catch/Reception: 0.79 | Fumbles: 0 | Alec Pierce receiving stats | Alec Pierce catches | Alec Pierce yards | Alec Pierce touchdowns | Alec Pierce fantasy football | Alec Pierce NFL stats | Alec Pierce targets | Alec Pierce receptions | Alec Pierce wide receiver | depth receiver | bye week fill-in | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 97,
+      "frame_id": 97,
+      "text": "Player: Jonnu Smith | NFL 2024-2025 Season Receiving Statistics | Receptions: 29 | Receiving Yards: 194 | Touchdowns: 2 | Targets: 41 | Catch Rate: 70.7% | Yards per Reception: 6.7 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 21 yards | First Downs: 8 | Yards After Catch/Reception: 1.46 | Fumbles: 1 | Jonnu Smith receiving stats | Jonnu Smith catches | Jonnu Smith yards | Jonnu Smith touchdowns | Jonnu Smith fantasy football | Jonnu Smith NFL stats | Jonnu Smith targets | Jonnu Smith receptions | Jonnu Smith wide receiver"
+    },
+    {
+      "chunk_id": 98,
+      "frame_id": 98,
+      "text": "Player: Rasheed White | NFL 2024-2025 Season Receiving Statistics | Receptions: 29 | Receiving Yards: 148 | Touchdowns: 0 | Targets: 33 | Catch Rate: 87.9% | Yards per Reception: 5.1 | 20+ Yard Catches: 0 | 40+ Yard Catches: 0 | Longest Reception: 18 yards | First Downs: 8 | Yards After Catch/Reception: 2.22 | Fumbles: 0 | Rasheed White receiving stats | Rasheed White catches | Rasheed White yards | Rasheed White touchdowns | Rasheed White fantasy football | Rasheed White NFL stats | Rasheed White targets | Rasheed White receptions | Rasheed White wide receiver"
+    },
+    {
+      "chunk_id": 99,
+      "frame_id": 99,
+      "text": "Player: Jordan Addison | NFL 2024-2025 Season Receiving Statistics | Receptions: 28 | Receiving Yards: 412 | Touchdowns: 3 | Targets: 53 | Catch Rate: 52.8% | Yards per Reception: 14.7 | 20+ Yard Catches: 7 | 40+ Yard Catches: 1 | Longest Reception: 81 yards | First Downs: 18 | Yards After Catch/Reception: 1.01 | Fumbles: 0 | Jordan Addison receiving stats | Jordan Addison catches | Jordan Addison yards | Jordan Addison touchdowns | Jordan Addison fantasy football | Jordan Addison NFL stats | Jordan Addison targets | Jordan Addison receptions | Jordan Addison wide receiver"
+    },
+    {
+      "chunk_id": 100,
+      "frame_id": 100,
+      "text": "Player: Eric Armstead | NFL 2024-2025 Season Receiving Statistics | Receptions: 28 | Receiving Yards: 334 | Touchdowns: 2 | Targets: 59 | Catch Rate: 47.5% | Yards per Reception: 11.9 | 20+ Yard Catches: 5 | 40+ Yard Catches: 0 | Longest Reception: 33 yards | First Downs: 20 | Yards After Catch/Reception: 0.83 | Fumbles: 0 | Eric Armstead receiving stats | Eric Armstead catches | Eric Armstead yards | Eric Armstead touchdowns | Eric Armstead fantasy football | Eric Armstead NFL stats | Eric Armstead targets | Eric Armstead receptions | Eric Armstead wide receiver"
+    },
+    {
+      "chunk_id": 101,
+      "frame_id": 101,
+      "text": "Player: Chinyere Okie | NFL 2024-2025 Season Receiving Statistics | Receptions: 28 | Receiving Yards: 252 | Touchdowns: 2 | Targets: 43 | Catch Rate: 65.1% | Yards per Reception: 9.0 | 20+ Yard Catches: 3 | 40+ Yard Catches: 0 | Longest Reception: 38 yards | First Downs: 12 | Yards After Catch/Reception: 1.48 | Fumbles: 0 | Chinyere Okie receiving stats | Chinyere Okie catches | Chinyere Okie yards | Chinyere Okie touchdowns | Chinyere Okie fantasy football | Chinyere Okie NFL stats | Chinyere Okie targets | Chinyere Okie receptions | Chinyere Okie wide receiver"
+    },
+    {
+      "chunk_id": 102,
+      "frame_id": 102,
+      "text": "Player: Essence Hall | NFL 2024-2025 Season Receiving Statistics | Receptions: 28 | Receiving Yards: 301 | Touchdowns: 1 | Targets: 37 | Catch Rate: 75.7% | Yards per Reception: 10.8 | 20+ Yard Catches: 3 | 40+ Yard Catches: 2 | Longest Reception: 42 yards | First Downs: 10 | Yards After Catch/Reception: 2.65 | Fumbles: 0 | Essence Hall receiving stats | Essence Hall catches | Essence Hall yards | Essence Hall touchdowns | Essence Hall fantasy football | Essence Hall NFL stats | Essence Hall targets | Essence Hall receptions | Essence Hall wide receiver"
+    },
+    {
+      "chunk_id": 103,
+      "frame_id": 103,
+      "text": "Player: P.J. Harvey | NFL 2024-2025 Season Receiving Statistics | Receptions: 28 | Receiving Yards: 195 | Touchdowns: 4 | Targets: 32 | Catch Rate: 87.5% | Yards per Reception: 7.0 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 27 yards | First Downs: 9 | Yards After Catch/Reception: 1.94 | Fumbles: 0 | P.J. Harvey receiving stats | P.J. Harvey catches | P.J. Harvey yards | P.J. Harvey touchdowns | P.J. Harvey fantasy football | P.J. Harvey NFL stats | P.J. Harvey targets | P.J. Harvey receptions | P.J. Harvey wide receiver"
+    },
+    {
+      "chunk_id": 104,
+      "frame_id": 104,
+      "text": "Player: Travis Hunter | NFL 2024-2025 Season Receiving Statistics | Receptions: 28 | Receiving Yards: 298 | Touchdowns: 1 | Targets: 45 | Catch Rate: 62.2% | Yards per Reception: 10.6 | 20+ Yard Catches: 5 | 40+ Yard Catches: 1 | Longest Reception: 44 yards | First Downs: 12 | Yards After Catch/Reception: 1.4 | Fumbles: 1 | Travis Hunter receiving stats | Travis Hunter catches | Travis Hunter yards | Travis Hunter touchdowns | Travis Hunter fantasy football | Travis Hunter NFL stats | Travis Hunter targets | Travis Hunter receptions | Travis Hunter wide receiver"
+    },
+    {
+      "chunk_id": 105,
+      "frame_id": 105,
+      "text": "Player: Quinton Loveland | NFL 2024-2025 Season Receiving Statistics | Receptions: 28 | Receiving Yards: 378 | Touchdowns: 3 | Targets: 38 | Catch Rate: 73.7% | Yards per Reception: 13.5 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 58 yards | First Downs: 16 | Yards After Catch/Reception: 1.57 | Fumbles: 0 | Quinton Loveland receiving stats | Quinton Loveland catches | Quinton Loveland yards | Quinton Loveland touchdowns | Quinton Loveland fantasy football | Quinton Loveland NFL stats | Quinton Loveland targets | Quinton Loveland receptions | Quinton Loveland wide receiver"
+    },
+    {
+      "chunk_id": 106,
+      "frame_id": 106,
+      "text": "Player: Greg Dortch | NFL 2024-2025 Season Receiving Statistics | Receptions: 27 | Receiving Yards: 192 | Touchdowns: 3 | Targets: 31 | Catch Rate: 87.1% | Yards per Reception: 7.1 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 39 yards | First Downs: 9 | Yards After Catch/Reception: 1.77 | Fumbles: 0 | Greg Dortch receiving stats | Greg Dortch catches | Greg Dortch yards | Greg Dortch touchdowns | Greg Dortch fantasy football | Greg Dortch NFL stats | Greg Dortch targets | Greg Dortch receptions | Greg Dortch wide receiver"
+    },
+    {
+      "chunk_id": 107,
+      "frame_id": 107,
+      "text": "Player: Rico Dowdle | NFL 2024-2025 Season Receiving Statistics | Receptions: 27 | Receiving Yards: 233 | Touchdowns: 1 | Targets: 34 | Catch Rate: 79.4% | Yards per Reception: 8.6 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 36 yards | First Downs: 12 | Yards After Catch/Reception: 2.6 | Fumbles: 0 | Rico Dowdle receiving stats | Rico Dowdle catches | Rico Dowdle yards | Rico Dowdle touchdowns | Rico Dowdle fantasy football | Rico Dowdle NFL stats | Rico Dowdle targets | Rico Dowdle receptions | Rico Dowdle wide receiver"
+    },
+    {
+      "chunk_id": 108,
+      "frame_id": 108,
+      "text": "Player: Jayden Higgins | NFL 2024-2025 Season Receiving Statistics | Receptions: 27 | Receiving Yards: 294 | Touchdowns: 4 | Targets: 45 | Catch Rate: 60.0% | Yards per Reception: 10.9 | 20+ Yard Catches: 4 | 40+ Yard Catches: 0 | Longest Reception: 28 yards | First Downs: 17 | Yards After Catch/Reception: 0.61 | Fumbles: 0 | Jayden Higgins receiving stats | Jayden Higgins catches | Jayden Higgins yards | Jayden Higgins touchdowns | Jayden Higgins fantasy football | Jayden Higgins NFL stats | Jayden Higgins targets | Jayden Higgins receptions | Jayden Higgins wide receiver"
+    },
+    {
+      "chunk_id": 109,
+      "frame_id": 109,
+      "text": "Player: Xavier Legette | NFL 2024-2025 Season Receiving Statistics | Receptions: 27 | Receiving Yards: 286 | Touchdowns: 3 | Targets: 51 | Catch Rate: 52.9% | Yards per Reception: 10.6 | 20+ Yard Catches: 6 | 40+ Yard Catches: 0 | Longest Reception: 36 yards | First Downs: 14 | Yards After Catch/Reception: 0.62 | Fumbles: 1 | Xavier Legette receiving stats | Xavier Legette catches | Xavier Legette yards | Xavier Legette touchdowns | Xavier Legette fantasy football | Xavier Legette NFL stats | Xavier Legette targets | Xavier Legette receptions | Xavier Legette wide receiver"
+    },
+    {
+      "chunk_id": 110,
+      "frame_id": 110,
+      "text": "Player: Calvin Austin III | NFL 2024-2025 Season Receiving Statistics | Receptions: 26 | Receiving Yards: 278 | Touchdowns: 2 | Targets: 42 | Catch Rate: 61.9% | Yards per Reception: 10.7 | 20+ Yard Catches: 3 | 40+ Yard Catches: 0 | Longest Reception: 30 yards | First Downs: 10 | Yards After Catch/Reception: 1.08 | Fumbles: 0 | Calvin Austin III receiving stats | Calvin Austin III catches | Calvin Austin III yards | Calvin Austin III touchdowns | Calvin Austin III fantasy football | Calvin Austin III NFL stats | Calvin Austin III targets | Calvin Austin III receptions | Calvin Austin III wide receiver"
+    },
+    {
+      "chunk_id": 111,
+      "frame_id": 111,
+      "text": "Player: Pat Freiermuth | NFL 2024-2025 Season Receiving Statistics | Receptions: 26 | Receiving Yards: 298 | Touchdowns: 4 | Targets: 32 | Catch Rate: 81.2% | Yards per Reception: 11.5 | 20+ Yard Catches: 2 | 40+ Yard Catches: 1 | Longest Reception: 68 yards | First Downs: 12 | Yards After Catch/Reception: 1.51 | Fumbles: 0 | Pat Freiermuth receiving stats | Pat Freiermuth catches | Pat Freiermuth yards | Pat Freiermuth touchdowns | Pat Freiermuth fantasy football | Pat Freiermuth NFL stats | Pat Freiermuth targets | Pat Freiermuth receptions | Pat Freiermuth wide receiver"
+    },
+    {
+      "chunk_id": 112,
+      "frame_id": 112,
+      "text": "Player: Tony Pollard | NFL 2024-2025 Season Receiving Statistics | Receptions: 26 | Receiving Yards: 168 | Touchdowns: 0 | Targets: 32 | Catch Rate: 81.2% | Yards per Reception: 6.5 | 20+ Yard Catches: 1 | 40+ Yard Catches: 0 | Longest Reception: 29 yards | First Downs: 8 | Yards After Catch/Reception: 1.53 | Fumbles: 0 | Tony Pollard receiving stats | Tony Pollard catches | Tony Pollard yards | Tony Pollard touchdowns | Tony Pollard fantasy football | Tony Pollard NFL stats | Tony Pollard targets | Tony Pollard receptions | Tony Pollard wide receiver"
+    },
+    {
+      "chunk_id": 113,
+      "frame_id": 113,
+      "text": "Player: JuJu Smith-Schuster | NFL 2024-2025 Season Receiving Statistics | Receptions: 26 | Receiving Yards: 299 | Touchdowns: 1 | Targets: 33 | Catch Rate: 78.8% | Yards per Reception: 11.5 | 20+ Yard Catches: 3 | 40+ Yard Catches: 0 | Longest Reception: 30 yards | First Downs: 16 | Yards After Catch/Reception: 1.77 | Fumbles: 0 | JuJu Smith-Schuster receiving stats | JuJu Smith-Schuster catches | JuJu Smith-Schuster yards | JuJu Smith-Schuster touchdowns | JuJu Smith-Schuster fantasy football | JuJu Smith-Schuster NFL stats | JuJu Smith-Schuster targets | JuJu Smith-Schuster receptions | JuJu Smith-Schuster wide receiver"
+    },
+    {
+      "chunk_id": 114,
+      "frame_id": 114,
+      "text": "Player: Jake Targes | NFL 2024-2025 Season Receiving Statistics | Receptions: 26 | Receiving Yards: 226 | Touchdowns: 4 | Targets: 35 | Catch Rate: 74.3% | Yards per Reception: 8.7 | 20+ Yard Catches: 2 | 40+ Yard Catches: 0 | Longest Reception: 23 yards | First Downs: 14 | Yards After Catch/Reception: 1.29 | Fumbles: 0 | Jake Targes receiving stats | Jake Targes catches | Jake Targes yards | Jake Targes touchdowns | Jake Targes fantasy football | Jake Targes NFL stats | Jake Targes targets | Jake Targes receptions | Jake Targes wide receiver"
+    },
+    {
+      "chunk_id": 115,
+      "frame_id": 115,
+      "text": "Player: Deveyston Wicks | NFL 2024-2025 Season Receiving Statistics | Receptions: 26 | Receiving Yards: 307 | Touchdowns: 2 | Targets: 41 | Catch Rate: 63.4% | Yards per Reception: 11.8 | 20+ Yard Catches: 3 | 40+ Yard Catches: 0 | Longest Reception: 30 yards | First Downs: 20 | Yards After Catch/Reception: 0.63 | Fumbles: 0 | Deveyston Wicks receiving stats | Deveyston Wicks catches | Deveyston Wicks yards | Deveyston Wicks touchdowns | Deveyston Wicks fantasy football | Deveyston Wicks NFL stats | Deveyston Wicks targets | Deveyston Wicks receptions | Deveyston Wicks wide receiver"
+    },
+    {
+      "chunk_id": 116,
+      "frame_id": 116,
+      "text": "Player: Kayshon Boutte | NFL 2024-2025 Season Receiving Statistics | Receptions: 25 | Receiving Yards: 446 | Touchdowns: 5 | Targets: 33 | Catch Rate: 75.8% | Yards per Reception: 17.8 | 20+ Yard Catches: 9 | 40+ Yard Catches: 0 | Longest Reception: 39 yards | First Downs: 21 | Yards After Catch/Reception: 0.25 | Fumbles: 0 | Kayshon Boutte receiving stats | Kayshon Boutte catches | Kayshon Boutte yards | Kayshon Boutte touchdowns | Kayshon Boutte fantasy football | Kayshon Boutte NFL stats | Kayshon Boutte targets | Kayshon Boutte receptions | Kayshon Boutte wide receiver | scoring threat | touchdown upside"
+    },
+    {
+      "chunk_id": 117,
+      "frame_id": 117,
+      "text": "Player: Ja'Tavion Sanders | NFL 2024-2025 Season Receiving Statistics | Receptions: 25 | Receiving Yards: 176 | Touchdowns: 0 | Targets: 30 | Catch Rate: 83.3% | Yards per Reception: 7.0 | 20+ Yard Catches: 0 | 40+ Yard Catches: 0 | Longest Reception: 18 yards | First Downs: 7 | Yards After Catch/Reception: 0.81 | Fumbles: 0 | Ja'Tavion Sanders receiving stats | Ja'Tavion Sanders catches | Ja'Tavion Sanders yards | Ja'Tavion Sanders touchdowns | Ja'Tavion Sanders fantasy football | Ja'Tavion Sanders NFL stats | Ja'Tavion Sanders targets | Ja'Tavion Sanders receptions | Ja'Tavion Sanders wide receiver"
+    },
+    {
+      "chunk_id": 118,
+      "frame_id": 118,
+      "text": "Player: Brenton Strange | NFL 2024-2025 Season Receiving Statistics | Receptions: 25 | Receiving Yards: 297 | Touchdowns: 0 | Targets: 29 | Catch Rate: 86.2% | Yards per Reception: 11.9 | 20+ Yard Catches: 5 | 40+ Yard Catches: 0 | Longest Reception: 30 yards | First Downs: 14 | Yards After Catch/Reception: 1.35 | Fumbles: 0 | Brenton Strange receiving stats | Brenton Strange catches | Brenton Strange yards | Brenton Strange touchdowns | Brenton Strange fantasy football | Brenton Strange NFL stats | Brenton Strange targets | Brenton Strange receptions | Brenton Strange wide receiver"
+    },
+    {
+      "chunk_id": 119,
+      "frame_id": 119,
+      "text": "Player: Taylor Warren | NFL 2024-2025 Season Receiving Statistics | Receptions: 25 | Receiving Yards: 219 | Touchdowns: 1 | Targets: 28 | Catch Rate: 89.3% | Yards per Reception: 8.8 | 20+ Yard Catches: 1 | 40+ Yard Catches: 1 | Longest Reception: 65 yards | First Downs: 10 | Yards After Catch/Reception: 2.63 | Fumbles: 0 | Taylor Warren receiving stats | Taylor Warren catches | Taylor Warren yards | Taylor Warren touchdowns | Taylor Warren fantasy football | Taylor Warren NFL stats | Taylor Warren targets | Taylor Warren receptions | Taylor Warren wide receiver"
+    },
+    {
+      "chunk_id": 120,
+      "frame_id": 120,
+      "text": "Player: James Cook | NFL 2024-2025 Season Receiving Statistics | Receptions: 24 | Receiving Yards: 203 | Touchdowns: 1 | Targets: 26 | Catch Rate: 92.3% | Yards per Reception: 8.5 | 20+ Yard Catches: 3 | 40+ Yard Catches: 1 | Longest Reception: 51 yards | First Downs: 6 | Yards After Catch/Reception: 1.72 | Fumbles: 0 | James Cook receiving stats | James Cook catches | James Cook yards | James Cook touchdowns | James Cook fantasy football | James Cook NFL stats | James Cook targets | James Cook receptions | James Cook wide receiver"
+    },
+    {
+      "chunk_id": 121,
+      "frame_id": 121,
+      "text": "Player: DeMario Douglas | NFL 2024-2025 Season Receiving Statistics | Receptions: 24 | Receiving Yards: 369 | Touchdowns: 3 | Targets: 36 | Catch Rate: 66.7% | Yards per Reception: 15.4 | 20+ Yard Catches: 6 | 40+ Yard Catches: 3 | Longest Reception: 58 yards | First Downs: 14 | Yards After Catch/Reception: 1.5 | Fumbles: 0 | DeMario Douglas receiving stats | DeMario Douglas catches | DeMario Douglas yards | DeMario Douglas touchdowns | DeMario Douglas fantasy football | DeMario Douglas NFL stats | DeMario Douglas targets | DeMario Douglas receptions | DeMario Douglas wide receiver"
+    },
+    {
+      "chunk_id": 122,
+      "frame_id": 122,
+      "text": "Player: Travis Etienne | NFL 2024-2025 Season Receiving Statistics | Receptions: 24 | Receiving Yards: 160 | Touchdowns: 2 | Targets: 37 | Catch Rate: 64.9% | Yards per Reception: 6.7 | 20+ Yard Catches: 0 | 40+ Yard Catches: 0 | Longest Reception: 16 yards | First Downs: 7 | Yards After Catch/Reception: 2.05 | Fumbles: 0 | Travis Etienne receiving stats | Travis Etienne catches | Travis Etienne yards | Travis Etienne touchdowns | Travis Etienne fantasy football | Travis Etienne NFL stats | Travis Etienne targets | Travis Etienne receptions | Travis Etienne wide receiver"
+    },
+    {
+      "chunk_id": 123,
+      "frame_id": 123,
+      "text": "Player: Matthew Golden | NFL 2024-2025 Season Receiving Statistics | Receptions: 24 | Receiving Yards: 286 | Touchdowns: 0 | Targets: 32 | Catch Rate: 75.0% | Yards per Reception: 11.9 | 20+ Yard Catches: 6 | 40+ Yard Catches: 1 | Longest Reception: 46 yards | First Downs: 12 | Yards After Catch/Reception: 0.86 | Fumbles: 0 | Matthew Golden receiving stats | Matthew Golden catches | Matthew Golden yards | Matthew Golden touchdowns | Matthew Golden fantasy football | Matthew Golden NFL stats | Matthew Golden targets | Matthew Golden receptions | Matthew Golden wide receiver"
+    },
+    {
+      "chunk_id": 124,
+      "frame_id": 124,
+      "text": "Player: Xavier Hutchinson | NFL 2024-2025 Season Receiving Statistics | Receptions: 24 | Receiving Yards: 264 | Touchdowns: 3 | Targets: 34 | Catch Rate: 70.6% | Yards per Reception: 11.0 | 20+ Yard Catches: 4 | 40+ Yard Catches: 0 | Longest Reception: 30 yards | First Downs: 12 | Yards After Catch/Reception: 0.67 | Fumbles: 0 | Xavier Hutchinson receiving stats | Xavier Hutchinson catches | Xavier Hutchinson yards | Xavier Hutchinson touchdowns | Xavier Hutchinson fantasy football | Xavier Hutchinson NFL stats | Xavier Hutchinson targets | Xavier Hutchinson receptions | Xavier Hutchinson wide receiver"
+    },
+    {
+      "chunk_id": 125,
+      "frame_id": 125,
+      "text": "Player: Andrel Holmes | NFL 2024-2025 Season Receiving Statistics | Receptions: 24 | Receiving Yards: 346 | Touchdowns: 2 | Targets: 44 | Catch Rate: 54.5% | Yards per Reception: 14.4 | 20+ Yard Catches: 6 | 40+ Yard Catches: 0 | Longest Reception: 37 yards | First Downs: 17 | Yards After Catch/Reception: 0.78 | Fumbles: 0 | Andrel Holmes receiving stats | Andrel Holmes catches | Andrel Holmes yards | Andrel Holmes touchdowns | Andrel Holmes fantasy football | Andrel Holmes NFL stats | Andrel Holmes targets | Andrel Holmes receptions | Andrel Holmes wide receiver"
+    },
+    {
+      "chunk_id": 126,
+      "frame_id": 126,
+      "text": "Player: Mike Evans | NFL 2024-2025 Season Receiving Statistics | Receptions: 71 | Receiving Yards: 1,008 | Touchdowns: 11 | Targets: 102 | Catch Rate: 69.6% | Yards per Reception: 14.2 | 20+ Yard Catches: 15 | 40+ Yard Catches: 4 | Longest Reception: 67 yards | First Downs: 48 | Yards After Catch/Reception: 2.41 | Fumbles: 1 | Mike Evans receiving stats | Mike Evans catches | Mike Evans yards | Mike Evans touchdowns | Mike Evans fantasy football | Mike Evans NFL stats | Mike Evans targets | Mike Evans receptions | Mike Evans wide receiver | 1000 yard receiver | productive receiver | WR2 | touchdown machine | red zone threat | scoring receiver | double digit TDs | consistent target | reliable hands | PPR relevant | target leader | high volume | primary receiver | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 127,
+      "frame_id": 127,
+      "text": "Player: Tyreek Hill | NFL 2024-2025 Season Receiving Statistics | Receptions: 67 | Receiving Yards: 938 | Touchdowns: 6 | Targets: 94 | Catch Rate: 71.3% | Yards per Reception: 14.0 | 20+ Yard Catches: 14 | 40+ Yard Catches: 3 | Longest Reception: 72 yards | First Downs: 42 | Yards After Catch/Reception: 4.12 | Fumbles: 0 | Tyreek Hill receiving stats | Tyreek Hill catches | Tyreek Hill yards | Tyreek Hill touchdowns | Tyreek Hill fantasy football | Tyreek Hill NFL stats | Tyreek Hill targets | Tyreek Hill receptions | Tyreek Hill wide receiver | solid receiver | flex option | WR3 | scoring threat | touchdown upside | consistent target | reliable hands | PPR relevant | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 128,
+      "frame_id": 128,
+      "text": "Player: AJ Brown | NFL 2024-2025 Season Receiving Statistics | Receptions: 65 | Receiving Yards: 1,032 | Touchdowns: 8 | Targets: 97 | Catch Rate: 67.0% | Yards per Reception: 15.9 | 20+ Yard Catches: 16 | 40+ Yard Catches: 5 | Longest Reception: 78 yards | First Downs: 51 | Yards After Catch/Reception: 3.21 | Fumbles: 1 | AJ Brown receiving stats | AJ Brown catches | AJ Brown yards | AJ Brown touchdowns | AJ Brown fantasy football | AJ Brown NFL stats | AJ Brown targets | AJ Brown receptions | AJ Brown wide receiver | 1000 yard receiver | productive receiver | WR2 | reliable scorer | red zone target | consistent target | reliable hands | PPR relevant | featured receiver | significant target share | big play specialist | explosive receiver | deep threat | home run hitter"
+    },
+    {
+      "chunk_id": 129,
+      "frame_id": 129,
+      "text": "Player: Calvin Ridley | NFL 2024-2025 Season Receiving Statistics | Receptions: 64 | Receiving Yards: 912 | Touchdowns: 7 | Targets: 98 | Catch Rate: 65.3% | Yards per Reception: 14.2 | 20+ Yard Catches: 13 | 40+ Yard Catches: 2 | Longest Reception: 58 yards | First Downs: 44 | Yards After Catch/Reception: 2.87 | Fumbles: 0 | Calvin Ridley receiving stats | Calvin Ridley catches | Calvin Ridley yards | Calvin Ridley touchdowns | Calvin Ridley fantasy football | Calvin Ridley NFL stats | Calvin Ridley targets | Calvin Ridley receptions | Calvin Ridley wide receiver | solid receiver | flex option | WR3 | reliable scorer | red zone target | consistent target | reliable hands | PPR relevant | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 130,
+      "frame_id": 130,
+      "text": "Player: Amari Cooper | NFL 2024-2025 Season Receiving Statistics | Receptions: 63 | Receiving Yards: 854 | Touchdowns: 5 | Targets: 91 | Catch Rate: 69.2% | Yards per Reception: 13.6 | 20+ Yard Catches: 11 | 40+ Yard Catches: 3 | Longest Reception: 61 yards | First Downs: 39 | Yards After Catch/Reception: 2.14 | Fumbles: 0 | Amari Cooper receiving stats | Amari Cooper catches | Amari Cooper yards | Amari Cooper touchdowns | Amari Cooper fantasy football | Amari Cooper NFL stats | Amari Cooper targets | Amari Cooper receptions | Amari Cooper wide receiver | solid receiver | flex option | WR3 | scoring threat | touchdown upside | consistent target | reliable hands | PPR relevant | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 131,
+      "frame_id": 131,
+      "text": "Player: Terry McLaurin | NFL 2024-2025 Season Receiving Statistics | Receptions: 62 | Receiving Yards: 897 | Touchdowns: 6 | Targets: 88 | Catch Rate: 70.5% | Yards per Reception: 14.5 | 20+ Yard Catches: 12 | 40+ Yard Catches: 3 | Longest Reception: 65 yards | First Downs: 41 | Yards After Catch/Reception: 2.76 | Fumbles: 0 | Terry McLaurin receiving stats | Terry McLaurin catches | Terry McLaurin yards | Terry McLaurin touchdowns | Terry McLaurin fantasy football | Terry McLaurin NFL stats | Terry McLaurin targets | Terry McLaurin receptions | Terry McLaurin wide receiver | solid receiver | flex option | WR3 | scoring threat | touchdown upside | consistent target | reliable hands | PPR relevant | featured receiver | significant target share | big play threat | vertical threat"
+    },
+    {
+      "chunk_id": 132,
+      "frame_id": 132,
+      "text": "Player: DeAndre Hopkins | NFL 2024-2025 Season Receiving Statistics | Receptions: 61 | Receiving Yards: 823 | Touchdowns: 7 | Targets: 89 | Catch Rate: 68.5% | Yards per Reception: 13.5 | 20+ Yard Catches: 10 | 40+ Yard Catches: 2 | Longest Reception: 55 yards | First Downs: 38 | Yards After Catch/Reception: 1.98 | Fumbles: 0 | DeAndre Hopkins receiving stats | DeAndre Hopkins catches | DeAndre Hopkins yards | DeAndre Hopkins touchdowns | DeAndre Hopkins fantasy football | DeAndre Hopkins NFL stats | DeAndre Hopkins targets | DeAndre Hopkins receptions | DeAndre Hopkins wide receiver | solid receiver | flex option | WR3 | reliable scorer | red zone target | consistent target | reliable hands | PPR relevant | featured receiver | significant target share"
+    },
+    {
+      "chunk_id": 133,
+      "frame_id": 133,
+      "text": "Player: Diontae Johnson | NFL 2024-2025 Season Receiving Statistics | Receptions: 60 | Receiving Yards: 784 | Touchdowns: 4 | Targets: 92 | Catch Rate: 65.2% | Yards per Reception: 13.1 | 20+ Yard Catches: 9 | 40+ Yard Catches: 1 | Longest Reception: 49 yards | First Downs: 35 | Yards After Catch/Reception: 3.45 | Fumbles: 1 | Diontae Johnson receiving stats | Diontae Johnson catches | Diontae Johnson yards | Diontae Johnson touchdowns | Diontae Johnson fantasy football | Diontae Johnson NFL stats | Diontae Johnson targets | Diontae Johnson receptions | Diontae Johnson wide receiver | depth receiver | bye week fill-in | regular target | possession receiver | featured receiver | significant target share"
+    },
+    {
+      "chunk_id": 134,
+      "frame_id": 134,
+      "text": "Player: Tyler Lockett | NFL 2024-2025 Season Receiving Statistics | Receptions: 59 | Receiving Yards: 712 | Touchdowns: 5 | Targets: 81 | Catch Rate: 72.8% | Yards per Reception: 12.1 | 20+ Yard Catches: 8 | 40+ Yard Catches: 1 | Longest Reception: 48 yards | First Downs: 33 | Yards After Catch/Reception: 2.23 | Fumbles: 0 | Tyler Lockett receiving stats | Tyler Lockett catches | Tyler Lockett yards | Tyler Lockett touchdowns | Tyler Lockett fantasy football | Tyler Lockett NFL stats | Tyler Lockett targets | Tyler Lockett receptions | Tyler Lockett wide receiver | depth receiver | bye week fill-in | scoring threat | touchdown upside | regular target | possession receiver | featured receiver | significant target share"
+    },
+    {
+      "chunk_id": 135,
+      "frame_id": 135,
+      "text": "Player: Brandin Cooks | NFL 2024-2025 Season Receiving Statistics | Receptions: 58 | Receiving Yards: 698 | Touchdowns: 4 | Targets: 79 | Catch Rate: 73.4% | Yards per Reception: 12.0 | 20+ Yard Catches: 7 | 40+ Yard Catches: 1 | Longest Reception: 46 yards | First Downs: 31 | Yards After Catch/Reception: 1.89 | Fumbles: 0 | Brandin Cooks receiving stats | Brandin Cooks catches | Brandin Cooks yards | Brandin Cooks touchdowns | Brandin Cooks fantasy football | Brandin Cooks NFL stats | Brandin Cooks targets | Brandin Cooks receptions | Brandin Cooks wide receiver | depth receiver | bye week fill-in | regular target | possession receiver"
+    },
+    {
+      "chunk_id": 136,
+      "frame_id": 136,
+      "text": "Reception Leader: Christian McCaffrey with 81 catches | Volume receiver | PPR stud | Target hog"
+    },
+    {
+      "chunk_id": 137,
+      "frame_id": 137,
+      "text": "Receiving Yards Leader: Jaxon Smith-Njigba with 1,313 yards | Elite receiver | WR1"
+    },
+    {
+      "chunk_id": 138,
+      "frame_id": 138,
+      "text": "Touchdown Leader: Davante Adams with 12 TDs | Red zone threat | Scoring machine"
+    },
+    {
+      "chunk_id": 139,
+      "frame_id": 139,
+      "text": "Target Leader: Ja'Marr Chase with 117 targets | Volume leader | Primary receiver"
+    },
+    {
+      "chunk_id": 140,
+      "frame_id": 140,
+      "text": "Big Play Leader: Jaxon Smith-Njigba with 21 20+ yard catches | Explosive receiver"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}

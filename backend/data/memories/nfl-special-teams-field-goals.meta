@@ -1,0 +1,171 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NFL 2024 Season Special Teams - Field Goal Statistics | special teams | field-goals"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "Team: 49ers | FG Made/Att: 25/27 | FG%: 92.6% | Long: 55 | 40-49 yards: 7/7 | 50+ yards: 4/5 | XP Made/Att: 27/27 | elite kicker | 90%+ FG | 49ers reliable kicker | 55+ yard FG | strong leg kicker | 49ers long FG capability | 49ers special teams | 49ers field-goals"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "Team: Bears | FG Made/Att: 29/33 | FG%: 87.9% | Long: 61 | 40-49 yards: 7/9 | 50+ yards: 7/8 | XP Made/Att: 33/33 | strong kicker | 85%+ FG | Bears good kicking | 60+ yard FG | long range kicker | Bears power kicker | Bears special teams | Bears field-goals"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "Team: Bengals | FG Made/Att: 17/20 | FG%: 85.0% | Long: 53 | 40-49 yards: 7/7 | 50+ yards: 1/4 | XP Made/Att: 20/20 | strong kicker | 85%+ FG | Bengals good kicking | Bengals special teams | Bengals field-goals"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "Team: Bills | FG Made/Att: 17/19 | FG%: 89.5% | Long: 52 | 40-49 yards: 5/5 | 50+ yards: 3/4 | XP Made/Att: 19/19 | strong kicker | 85%+ FG | Bills good kicking | Bills special teams | Bills field-goals"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "Team: Broncos | FG Made/Att: 17/20 | FG%: 85.0% | Long: 59 | 40-49 yards: 4/5 | 50+ yards: 4/4 | XP Made/Att: 19/20 | strong kicker | 85%+ FG | Broncos good kicking | 55+ yard FG | strong leg kicker | Broncos long FG capability | Broncos special teams | Broncos field-goals"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "Team: Browns | FG Made/Att: 16/19 | FG%: 84.2% | Long: 59 | 40-49 yards: 4/5 | 50+ yards: 1/4 | XP Made/Att: 19/19 | 55+ yard FG | strong leg kicker | Browns long FG capability | Browns special teams | Browns field-goals"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "Team: Buccaneers | FG Made/Att: 25/28 | FG%: 89.3% | Long: 57 | 40-49 yards: 9/9 | 50+ yards: 5/6 | XP Made/Att: 28/28 | strong kicker | 85%+ FG | Buccaneers good kicking | 55+ yard FG | strong leg kicker | Buccaneers long FG capability | Buccaneers special teams | Buccaneers field-goals"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "Team: Cardinals | FG Made/Att: 17/21 | FG%: 81.0% | Long: 57 | 40-49 yards: 4/5 | 50+ yards: 2/2 | XP Made/Att: 21/21 | 55+ yard FG | strong leg kicker | Cardinals long FG capability | Cardinals special teams | Cardinals field-goals"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "Team: Chargers | FG Made/Att: 25/27 | FG%: 92.6% | Long: 52 | 40-49 yards: 9/9 | 50+ yards: 2/2 | XP Made/Att: 27/27 | elite kicker | 90%+ FG | Chargers reliable kicker | Chargers special teams | Chargers field-goals"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "Team: Chiefs | FG Made/Att: 21/24 | FG%: 87.5% | Long: 54 | 40-49 yards: 7/7 | 50+ yards: 4/4 | XP Made/Att: 24/24 | strong kicker | 85%+ FG | Chiefs good kicking | Chiefs special teams | Chiefs field-goals"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "Team: Colts | FG Made/Att: 22/24 | FG%: 91.7% | Long: 54 | 40-49 yards: 5/5 | 50+ yards: 3/3 | XP Made/Att: 24/24 | elite kicker | 90%+ FG | Colts reliable kicker | Colts special teams | Colts field-goals"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "Team: Commanders | FG Made/Att: 18/19 | FG%: 94.7% | Long: 54 | 40-49 yards: 9/9 | 50+ yards: 3/4 | XP Made/Att: 18/19 | elite kicker | 90%+ FG | Commanders reliable kicker | Commanders special teams | Commanders field-goals"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "Team: Cowboys | FG Made/Att: 22/24 | FG%: 91.7% | Long: 64 | 40-49 yards: 8/8 | 50+ yards: 4/4 | XP Made/Att: 23/24 | elite kicker | 90%+ FG | Cowboys reliable kicker | 60+ yard FG | long range kicker | Cowboys power kicker | Cowboys special teams | Cowboys field-goals"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "Team: Dolphins | FG Made/Att: 17/19 | FG%: 89.5% | Long: 60 | 40-49 yards: 4/5 | 50+ yards: 3/4 | XP Made/Att: 18/19 | strong kicker | 85%+ FG | Dolphins good kicking | 60+ yard FG | long range kicker | Dolphins power kicker | Dolphins special teams | Dolphins field-goals"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "Team: Eagles | FG Made/Att: 11/18 | FG%: 78.6% | Long: 55 | 40-49 yards: 4/5 | 50+ yards: 2/6 | XP Made/Att: 18/18 | 55+ yard FG | strong leg kicker | Eagles long FG capability | Eagles special teams | Eagles field-goals"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "Team: Falcons | FG Made/Att: 19/23 | FG%: 82.6% | Long: 56 | 40-49 yards: 5/8 | 50+ yards: 3/5 | XP Made/Att: 23/23 | 55+ yard FG | strong leg kicker | Falcons long FG capability | Falcons special teams | Falcons field-goals"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "Team: Giants | FG Made/Att: 15/16 | FG%: 93.8% | Long: 54 | 40-49 yards: 3/2 | 50+ yards: 0/2 | XP Made/Att: 15/16 | elite kicker | 90%+ FG | Giants reliable kicker | Giants special teams | Giants field-goals"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "Team: Jaguars | FG Made/Att: 18/22 | FG%: 81.8% | Long: 59 | 40-49 yards: 6/8 | 50+ yards: 3/4 | XP Made/Att: 22/22 | 55+ yard FG | strong leg kicker | Jaguars long FG capability | Jaguars special teams | Jaguars field-goals"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "Team: Jets | FG Made/Att: 20/20 | FG%: 100.0% | Long: 54 | 40-49 yards: 5/4 | 50+ yards: 4/6 | XP Made/Att: 20/20 | elite kicker | 90%+ FG | Jets reliable kicker | Jets special teams | Jets field-goals"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "Team: Lions | FG Made/Att: 16/20 | FG%: 80.0% | Long: 59 | 40-49 yards: 5/8 | 50+ yards: 1/2 | XP Made/Att: 20/20 | 55+ yard FG | strong leg kicker | Lions long FG capability | Lions special teams | Lions field-goals"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "Team: Packers | FG Made/Att: 19/25 | FG%: 76.0% | Long: 51 | 40-49 yards: 5/4 | 50+ yards: 2/7 | XP Made/Att: 24/25 | Packers special teams | Packers field-goals"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "Team: Panthers | FG Made/Att: 18/22 | FG%: 81.8% | Long: 57 | 40-49 yards: 4/5 | 50+ yards: 2/4 | XP Made/Att: 22/22 | 55+ yard FG | strong leg kicker | Panthers long FG capability | Panthers special teams | Panthers field-goals"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "Team: Patriots | FG Made/Att: 19/21 | FG%: 90.5% | Long: 51 | 40-49 yards: 5/5 | 50+ yards: 1/3 | XP Made/Att: 21/21 | elite kicker | 90%+ FG | Patriots reliable kicker | Patriots special teams | Patriots field-goals"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "Team: Raiders | FG Made/Att: 16/21 | FG%: 76.2% | Long: 54 | 40-49 yards: 5/4 | 50+ yards: 1/6 | XP Made/Att: 20/21 | Raiders special teams | Raiders field-goals"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "Team: Rams | FG Made/Att: 12/17 | FG%: 70.6% | Long: 52 | 40-49 yards: 1/1 | 50+ yards: 2/6 | XP Made/Att: 17/17 | struggling kicker | below 75% FG | Rams kicking issues | Rams special teams | Rams field-goals"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "Team: Ravens | FG Made/Att: 29/32 | FG%: 90.6% | Long: 52 | 40-49 yards: 11/12 | 50+ yards: 5/7 | XP Made/Att: 31/32 | elite kicker | 90%+ FG | Ravens reliable kicker | Ravens special teams | Ravens field-goals"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "Team: Saints | FG Made/Att: 18/20 | FG%: 90.0% | Long: 54 | 40-49 yards: 5/5 | 50+ yards: 2/2 | XP Made/Att: 20/20 | elite kicker | 90%+ FG | Saints reliable kicker | Saints special teams | Saints field-goals"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "Team: Seahawks | FG Made/Att: 24/29 | FG%: 82.8% | Long: 57 | 40-49 yards: 8/7 | 50+ yards: 3/8 | XP Made/Att: 28/29 | 55+ yard FG | strong leg kicker | Seahawks long FG capability | Seahawks special teams | Seahawks field-goals"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "Team: Steelers | FG Made/Att: 19/22 | FG%: 86.4% | Long: 60 | 40-49 yards: 7/8 | 50+ yards: 2/3 | XP Made/Att: 22/22 | strong kicker | 85%+ FG | Steelers good kicking | 60+ yard FG | long range kicker | Steelers power kicker | Steelers special teams | Steelers field-goals"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "Team: Texans | FG Made/Att: 29/32 | FG%: 90.6% | Long: 59 | 40-49 yards: 8/10 | 50+ yards: 7/8 | XP Made/Att: 32/32 | elite kicker | 90%+ FG | Texans reliable kicker | 55+ yard FG | strong leg kicker | Texans long FG capability | Texans special teams | Texans field-goals"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "Team: Titans | FG Made/Att: 21/26 | FG%: 80.8% | Long: 57 | 40-49 yards: 9/7 | 50+ yards: 4/12 | XP Made/Att: 25/26 | 55+ yard FG | strong leg kicker | Titans long FG capability | Titans special teams | Titans field-goals"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "Team: Vikings | FG Made/Att: 21/23 | FG%: 91.3% | Long: 52 | 40-49 yards: 8/7 | 50+ yards: 3/4 | XP Made/Att: 23/23 | elite kicker | 90%+ FG | Vikings reliable kicker | Vikings special teams | Vikings field-goals"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}

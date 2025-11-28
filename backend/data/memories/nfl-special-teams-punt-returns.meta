@@ -1,0 +1,166 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NFL 2024 Season Special Teams - Punt Return Statistics | special teams | punt-returns"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "Team: 49ers | Returns: 0 | Return Yards: 185 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 9 | 49ers special teams | 49ers punt-returns"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "Team: Bears | Returns: 0 | Return Yards: 163 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 10 | Bears special teams | Bears punt-returns"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "Team: Bengals | Returns: 0 | Return Yards: 106 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 13 | Bengals special teams | Bengals punt-returns"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "Team: Bills | Returns: 0 | Return Yards: 114 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 9 | Bills special teams | Bills punt-returns"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "Team: Broncos | Returns: 0 | Return Yards: 273 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 16 | Broncos special teams | Broncos punt-returns"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "Team: Browns | Returns: 0 | Return Yards: 204 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 15 | Browns special teams | Browns punt-returns"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "Team: Buccaneers | Returns: 0 | Return Yards: 234 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 10 | Buccaneers special teams | Buccaneers punt-returns"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "Team: Cardinals | Returns: 0 | Return Yards: 179 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 4 | Cardinals special teams | Cardinals punt-returns"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "Team: Chargers | Returns: 0 | Return Yards: 104 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 17 | Chargers special teams | Chargers punt-returns"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "Team: Chiefs | Returns: 0 | Return Yards: 160 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 7 | Chiefs special teams | Chiefs punt-returns"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "Team: Colts | Returns: 0 | Return Yards: 172 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 9 | Colts special teams | Colts punt-returns"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "Team: Commanders | Returns: 0 | Return Yards: 210 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 6 | Commanders special teams | Commanders punt-returns"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "Team: Cowboys | Returns: 0 | Return Yards: 82 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 12 | Cowboys special teams | Cowboys punt-returns"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "Team: Dolphins | Returns: 0 | Return Yards: 225 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 5 | Dolphins special teams | Dolphins punt-returns"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "Team: Eagles | Returns: 0 | Return Yards: 115 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 16 | Eagles special teams | Eagles punt-returns"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "Team: Falcons | Returns: 0 | Return Yards: 101 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 13 | Falcons special teams | Falcons punt-returns"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "Team: Giants | Returns: 0 | Return Yards: 166 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 12 | Giants special teams | Giants punt-returns"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "Team: Jaguars | Returns: 0 | Return Yards: 309 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 8 | Jaguars special teams | Jaguars punt-returns"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "Team: Jets | Returns: 0 | Return Yards: 301 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 9 | Jets special teams | Jets punt-returns"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "Team: Lions | Returns: 0 | Return Yards: 167 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 13 | Lions special teams | Lions punt-returns"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "Team: Packers | Returns: 0 | Return Yards: 139 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 5 | Packers special teams | Packers punt-returns"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "Team: Panthers | Returns: 0 | Return Yards: 90 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 11 | Panthers special teams | Panthers punt-returns"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "Team: Patriots | Returns: 0 | Return Yards: 131 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 16 | Patriots special teams | Patriots punt-returns"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "Team: Raiders | Returns: 0 | Return Yards: 122 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 13 | Raiders special teams | Raiders punt-returns"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "Team: Rams | Returns: 0 | Return Yards: 150 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 13 | Rams special teams | Rams punt-returns"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "Team: Ravens | Returns: 0 | Return Yards: 147 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 12 | Ravens special teams | Ravens punt-returns"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "Team: Saints | Returns: 0 | Return Yards: 298 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 15 | Saints special teams | Saints punt-returns"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "Team: Seahawks | Returns: 0 | Return Yards: 160 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 7 | Seahawks special teams | Seahawks punt-returns"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "Team: Steelers | Returns: 0 | Return Yards: 83 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 11 | Steelers special teams | Steelers punt-returns"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "Team: Texans | Returns: 0 | Return Yards: 286 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 16 | Texans special teams | Texans punt-returns"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "Team: Vikings | Returns: 0 | Return Yards: 278 | Avg Return: 0 | Long: 0 | Return TDs: 0 | Fair Catches: 8 | Vikings special teams | Vikings punt-returns"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}
