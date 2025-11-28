@@ -21,6 +21,7 @@ from src.services.knowledge_base import KnowledgeBaseService
 from src.services.sgp_engine import SGPEngine
 from src.services.nba_service import NBADataService
 from src.services.nfl_service import NFLDataService
+from src.services.draftkings_odds_service import DraftKingsOddsService
 
 # Initialize services
 model_service = PredictionModel()
@@ -31,6 +32,7 @@ kb_service = KnowledgeBaseService() # Replaces portfolio_service
 sgp_engine = SGPEngine()
 nba_service = NBADataService()
 nfl_service = NFLDataService()
+dk_odds_service = DraftKingsOddsService()
 
 class PredictionRequest(BaseModel):
     team_strength: float
@@ -669,3 +671,65 @@ def get_nfl_team_roster_by_name(team_name: str):
         return {"team": team_name, "players": players, "total": len(players)}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get roster: {str(e)}")
+
+# ============ DRAFTKINGS ODDS ENDPOINTS ============
+
+@app.post("/odds/nba/refresh")
+def refresh_nba_odds():
+    """
+    MANUAL REFRESH: Fetch fresh NBA odds from DraftKings via Odds API.
+    This uses API credits - only call when user clicks the refresh button!
+    """
+    try:
+        result = dk_odds_service.fetch_nba_odds()
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to refresh NBA odds: {str(e)}")
+
+@app.post("/odds/nfl/refresh")
+def refresh_nfl_odds():
+    """
+    MANUAL REFRESH: Fetch fresh NFL odds from DraftKings via Odds API.
+    This uses API credits - only call when user clicks the refresh button!
+    """
+    try:
+        result = dk_odds_service.fetch_nfl_odds()
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to refresh NFL odds: {str(e)}")
+
+@app.get("/odds/nba")
+def get_nba_odds():
+    """
+    Get cached NBA odds from DraftKings (no API call).
+    Returns last fetched data.
+    """
+    try:
+        return dk_odds_service.get_cached_nba_odds()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get NBA odds: {str(e)}")
+
+@app.get("/odds/nfl")
+def get_nfl_odds():
+    """
+    Get cached NFL odds from DraftKings (no API call).
+    Returns last fetched data.
+    """
+    try:
+        return dk_odds_service.get_cached_nfl_odds()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get NFL odds: {str(e)}")
+
+@app.get("/odds/history")
+def get_odds_history(sport: str = None, game_id: str = None):
+    """
+    Get historical odds movements.
+
+    Query params:
+        sport: Filter by NBA or NFL
+        game_id: Filter by specific game ID
+    """
+    try:
+        return dk_odds_service.get_odds_history(sport, game_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get odds history: {str(e)}")

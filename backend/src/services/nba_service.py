@@ -12,7 +12,7 @@ from typing import List, Dict, Optional
 import requests
 from dotenv import load_dotenv
 
-from models.nba_models import (
+from src.models.nba_models import (
     NBATeam, NBAPlayer, TeamStats, GameSchedule,
     TeamMatchup, PlayerProfile, TeamProfile
 )
