@@ -1,0 +1,2376 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NFL Player Fumbles Stats | CeeDee Lamb | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "NFL Player Fumbles Stats | Travis Kelce | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "NFL Player Fumbles Stats | Tee Higgins | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "NFL Player Fumbles Stats | DeAndre Washington | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "NFL Player Fumbles Stats | Brandin Cooks | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "NFL Player Fumbles Stats | Brandon Aiyuk | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Brandon Aiyuk awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "NFL Player Fumbles Stats | Davante Adams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "NFL Player Fumbles Stats | Alec Ingold | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "NFL Player Fumbles Stats | DeVante Adams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "NFL Player Fumbles Stats | Tyreek Hill | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Tyreek Hill awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "NFL Player Fumbles Stats | Jaylen Warren | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jaylen Warren awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "NFL Player Fumbles Stats | Stefon Diggs | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "NFL Player Fumbles Stats | Tee Higgins | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "NFL Player Fumbles Stats | Christian Kirk | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "NFL Player Fumbles Stats | George Kittle | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "NFL Player Fumbles Stats | Jamarr Chase | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "NFL Player Fumbles Stats | Tyreek Hill | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "NFL Player Fumbles Stats | Davante Adams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "NFL Player Fumbles Stats | Samson Ebukam | FF (Forced Fumbles): 1 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0 | solid defender | Samson Ebukam opportunistic | creates turnovers"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "NFL Player Fumbles Stats | Mike Evans | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "NFL Player Fumbles Stats | Rashod Bateman | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "NFL Player Fumbles Stats | Darius Stills | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "NFL Player Fumbles Stats | Tee Higgins | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Tee Higgins awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "NFL Player Fumbles Stats | David Njoku | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "NFL Player Fumbles Stats | Trevion Bradford | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "NFL Player Fumbles Stats | Cole Kmet | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "NFL Player Fumbles Stats | Antonio Gibson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "NFL Player Fumbles Stats | Jayson Moore II | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jayson Moore II awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "NFL Player Fumbles Stats | Gideon Greeley | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "NFL Player Fumbles Stats | Chris Green | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "NFL Player Fumbles Stats | Dallas Goedert | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "NFL Player Fumbles Stats | Isaiah Likely | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "NFL Player Fumbles Stats | Peyton Barber | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "NFL Player Fumbles Stats | Malik Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "NFL Player Fumbles Stats | Kaden Ellis | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "NFL Player Fumbles Stats | Josh Dotson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "NFL Player Fumbles Stats | Daryl Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "NFL Player Fumbles Stats | Christian Benford | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "NFL Player Fumbles Stats | Julius Johnson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 39,
+      "frame_id": 39,
+      "text": "NFL Player Fumbles Stats | Zaire Kelly | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 40,
+      "frame_id": 40,
+      "text": "NFL Player Fumbles Stats | Byron Murphy | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 41,
+      "frame_id": 41,
+      "text": "NFL Player Fumbles Stats | Myles Murphy | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 42,
+      "frame_id": 42,
+      "text": "NFL Player Fumbles Stats | Byron Murphy II | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 43,
+      "frame_id": 43,
+      "text": "NFL Player Fumbles Stats | Kenneth Murray, Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Kenneth Murray, Jr. awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 44,
+      "frame_id": 44,
+      "text": "NFL Player Fumbles Stats | Eric Murray | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 45,
+      "frame_id": 45,
+      "text": "NFL Player Fumbles Stats | Malik Mustapha | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 46,
+      "frame_id": 46,
+      "text": "NFL Player Fumbles Stats | PJ Mustipher | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 47,
+      "frame_id": 47,
+      "text": "NFL Player Fumbles Stats | Jason Myers | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 48,
+      "frame_id": 48,
+      "text": "NFL Player Fumbles Stats | Malik Nabors | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 49,
+      "frame_id": 49,
+      "text": "NFL Player Fumbles Stats | Jalen Nailor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 50,
+      "frame_id": 50,
+      "text": "NFL Player Fumbles Stats | Dusell Nehami | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 51,
+      "frame_id": 51,
+      "text": "NFL Player Fumbles Stats | Siran Neal | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 52,
+      "frame_id": 52,
+      "text": "NFL Player Fumbles Stats | Greg Newsome II | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 53,
+      "frame_id": 53,
+      "text": "NFL Player Fumbles Stats | Josh Newton | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 54,
+      "frame_id": 54,
+      "text": "NFL Player Fumbles Stats | Bilal Nichols | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 55,
+      "frame_id": 55,
+      "text": "NFL Player Fumbles Stats | Law Nichols III | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 56,
+      "frame_id": 56,
+      "text": "NFL Player Fumbles Stats | Perry Nickerson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 57,
+      "frame_id": 57,
+      "text": "NFL Player Fumbles Stats | Nick Niemann | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 58,
+      "frame_id": 58,
+      "text": "NFL Player Fumbles Stats | Keisean Nixon | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Keisean Nixon awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 59,
+      "frame_id": 59,
+      "text": "NFL Player Fumbles Stats | Maema Njongmeta | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 60,
+      "frame_id": 60,
+      "text": "NFL Player Fumbles Stats | Darreck Nxadi | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 61,
+      "frame_id": 61,
+      "text": "NFL Player Fumbles Stats | Walter Nolen | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 1 | alert defender | Walter Nolen awareness | recovers fumbles | touchdown scorer | Walter Nolen defensive TD | game changer | scoring threat | high impact defender | Walter Nolen difference maker | creates turnovers"
+    },
+    {
+      "chunk_id": 62,
+      "frame_id": 62,
+      "text": "NFL Player Fumbles Stats | Comar Norman-Lott | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 63,
+      "frame_id": 63,
+      "text": "NFL Player Fumbles Stats | Joe Noteboom | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 64,
+      "frame_id": 64,
+      "text": "NFL Player Fumbles Stats | Trevor Nowsaki | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Trevor Nowsaki awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 65,
+      "frame_id": 65,
+      "text": "NFL Player Fumbles Stats | Tyler Nubin | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 66,
+      "frame_id": 66,
+      "text": "NFL Player Fumbles Stats | Rakeem Nunez-Roches | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 67,
+      "frame_id": 67,
+      "text": "NFL Player Fumbles Stats | Uchenna Nwosu | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 68,
+      "frame_id": 68,
+      "text": "NFL Player Fumbles Stats | Patrick O'Connell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 69,
+      "frame_id": 69,
+      "text": "NFL Player Fumbles Stats | Pat O'Connor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 70,
+      "frame_id": 70,
+      "text": "NFL Player Fumbles Stats | Days Olayesinigba | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 71,
+      "frame_id": 71,
+      "text": "NFL Player Fumbles Stats | Osa Odighizuwa | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 72,
+      "frame_id": 72,
+      "text": "NFL Player Fumbles Stats | Emmanuel Ogbah | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 73,
+      "frame_id": 73,
+      "text": "NFL Player Fumbles Stats | Aimen Ogbondaire | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 74,
+      "frame_id": 74,
+      "text": "NFL Player Fumbles Stats | Olti Ogborna | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 75,
+      "frame_id": 75,
+      "text": "NFL Player Fumbles Stats | Andrew Ogletree | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 76,
+      "frame_id": 76,
+      "text": "NFL Player Fumbles Stats | Dame Ogunbowale | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 77,
+      "frame_id": 77,
+      "text": "NFL Player Fumbles Stats | Larry Ogunsakin | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 78,
+      "frame_id": 78,
+      "text": "NFL Player Fumbles Stats | David Okaibe | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 79,
+      "frame_id": 79,
+      "text": "NFL Player Fumbles Stats | Moro Ojomo | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 80,
+      "frame_id": 80,
+      "text": "NFL Player Fumbles Stats | Ameez Qulain | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 81,
+      "frame_id": 81,
+      "text": "NFL Player Fumbles Stats | BJ Ojulari | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 82,
+      "frame_id": 82,
+      "text": "NFL Player Fumbles Stats | Ty Okada | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 83,
+      "frame_id": 83,
+      "text": "NFL Player Fumbles Stats | Bobby Okamikie | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 84,
+      "frame_id": 84,
+      "text": "NFL Player Fumbles Stats | Chaj Okorafor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 85,
+      "frame_id": 85,
+      "text": "NFL Player Fumbles Stats | Basil Okoye | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 86,
+      "frame_id": 86,
+      "text": "NFL Player Fumbles Stats | Jeff Okudah | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jeff Okudah awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 87,
+      "frame_id": 87,
+      "text": "NFL Player Fumbles Stats | Kiari Oluadapo | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 88,
+      "frame_id": 88,
+      "text": "NFL Player Fumbles Stats | Chukcwhufuma Oledapo | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 89,
+      "frame_id": 89,
+      "text": "NFL Player Fumbles Stats | Chris Olave | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 90,
+      "frame_id": 90,
+      "text": "NFL Player Fumbles Stats | Bryce Oliver | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 91,
+      "frame_id": 91,
+      "text": "NFL Player Fumbles Stats | Isaiah Oliver | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 92,
+      "frame_id": 92,
+      "text": "NFL Player Fumbles Stats | Sagan Olshi | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 93,
+      "frame_id": 93,
+      "text": "NFL Player Fumbles Stats | Charles Omemchu | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 94,
+      "frame_id": 94,
+      "text": "NFL Player Fumbles Stats | Mike Onwenu | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 95,
+      "frame_id": 95,
+      "text": "NFL Player Fumbles Stats | David Onyemate | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 96,
+      "frame_id": 96,
+      "text": "NFL Player Fumbles Stats | Ruke Orhotomo | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 97,
+      "frame_id": 97,
+      "text": "NFL Player Fumbles Stats | Amaur Onaweriye | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 98,
+      "frame_id": 98,
+      "text": "NFL Player Fumbles Stats | Matthew Orzech | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 99,
+      "frame_id": 99,
+      "text": "NFL Player Fumbles Stats | Esezi Otomewo | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 100,
+      "frame_id": 100,
+      "text": "NFL Player Fumbles Stats | Connor O'Toole | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Connor O'Toole awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 101,
+      "frame_id": 101,
+      "text": "NFL Player Fumbles Stats | Cadie Otton | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 102,
+      "frame_id": 102,
+      "text": "NFL Player Fumbles Stats | Robbie Outts | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 103,
+      "frame_id": 103,
+      "text": "NFL Player Fumbles Stats | DeMaryon Overshaw | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 104,
+      "frame_id": 104,
+      "text": "NFL Player Fumbles Stats | Olafu Oweh | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 105,
+      "frame_id": 105,
+      "text": "NFL Player Fumbles Stats | Jonathan Owens | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 106,
+      "frame_id": 106,
+      "text": "NFL Player Fumbles Stats | Tyler Owens | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 107,
+      "frame_id": 107,
+      "text": "NFL Player Fumbles Stats | Ivan Pace Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 108,
+      "frame_id": 108,
+      "text": "NFL Player Fumbles Stats | Josh Palmer | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 109,
+      "frame_id": 109,
+      "text": "NFL Player Fumbles Stats | Owen Pappoe | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 110,
+      "frame_id": 110,
+      "text": "NFL Player Fumbles Stats | Jacob Parrish | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 111,
+      "frame_id": 111,
+      "text": "NFL Player Fumbles Stats | Tim Patrick | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 112,
+      "frame_id": 112,
+      "text": "NFL Player Fumbles Stats | Riley Patterson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 113,
+      "frame_id": 113,
+      "text": "NFL Player Fumbles Stats | Karly Paye | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 114,
+      "frame_id": 114,
+      "text": "NFL Player Fumbles Stats | Rico Payton | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 115,
+      "frame_id": 115,
+      "text": "NFL Player Fumbles Stats | Ricky Pearsal | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 116,
+      "frame_id": 116,
+      "text": "NFL Player Fumbles Stats | Aeneas Peebles | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 117,
+      "frame_id": 117,
+      "text": "NFL Player Fumbles Stats | JJ Pegues | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 118,
+      "frame_id": 118,
+      "text": "NFL Player Fumbles Stats | Mike Perrell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 119,
+      "frame_id": 119,
+      "text": "NFL Player Fumbles Stats | Jabulli Peppers | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jabulli Peppers awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 120,
+      "frame_id": 120,
+      "text": "NFL Player Fumbles Stats | Seroge Perine | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 121,
+      "frame_id": 121,
+      "text": "NFL Player Fumbles Stats | David Perryman | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 122,
+      "frame_id": 122,
+      "text": "NFL Player Fumbles Stats | Jeremiah Pharma Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 123,
+      "frame_id": 123,
+      "text": "NFL Player Fumbles Stats | Asdru Phillips | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Asdru Phillips awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 124,
+      "frame_id": 124,
+      "text": "NFL Player Fumbles Stats | Dal'Shawn Phillips | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Dal'Shawn Phillips awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 125,
+      "frame_id": 125,
+      "text": "NFL Player Fumbles Stats | Jardan Phillips | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 2 | FR TD (Fumble Recovery TDs): 0 | opportunistic defender | Jardan Phillips good hands | ball hawk"
+    },
+    {
+      "chunk_id": 126,
+      "frame_id": 126,
+      "text": "NFL Player Fumbles Stats | Jordan Phillips | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 127,
+      "frame_id": 127,
+      "text": "NFL Player Fumbles Stats | Jordan Phillips | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 128,
+      "frame_id": 128,
+      "text": "NFL Player Fumbles Stats | Clark Phillips III | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 129,
+      "frame_id": 129,
+      "text": "NFL Player Fumbles Stats | George Pickora | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 130,
+      "frame_id": 130,
+      "text": "NFL Player Fumbles Stats | Alec Pierce | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 131,
+      "frame_id": 131,
+      "text": "NFL Player Fumbles Stats | James Pierre | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 1 | alert defender | James Pierre awareness | recovers fumbles | touchdown scorer | James Pierre defensive TD | game changer | scoring threat | high impact defender | James Pierre difference maker | creates turnovers"
+    },
+    {
+      "chunk_id": 132,
+      "frame_id": 132,
+      "text": "NFL Player Fumbles Stats | Bradley Pinion | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 133,
+      "frame_id": 133,
+      "text": "NFL Player Fumbles Stats | Jason Pinnock | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 134,
+      "frame_id": 134,
+      "text": "NFL Player Fumbles Stats | Jalen Pitra | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 135,
+      "frame_id": 135,
+      "text": "NFL Player Fumbles Stats | Anthony Pittman | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 136,
+      "frame_id": 136,
+      "text": "NFL Player Fumbles Stats | Sarah Pola-Mao | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 137,
+      "frame_id": 137,
+      "text": "NFL Player Fumbles Stats | Elijah Punder | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 138,
+      "frame_id": 138,
+      "text": "NFL Player Fumbles Stats | Garian Porter | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 139,
+      "frame_id": 139,
+      "text": "NFL Player Fumbles Stats | Joey Porter Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 140,
+      "frame_id": 140,
+      "text": "NFL Player Fumbles Stats | Jackson Powers-Johnson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 141,
+      "frame_id": 141,
+      "text": "NFL Player Fumbles Stats | Jordan Poyer | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 142,
+      "frame_id": 142,
+      "text": "NFL Player Fumbles Stats | Germaine Pratt | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Germaine Pratt awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 143,
+      "frame_id": 143,
+      "text": "NFL Player Fumbles Stats | Adam Prentice | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 144,
+      "frame_id": 144,
+      "text": "NFL Player Fumbles Stats | Oak Prescott | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 145,
+      "frame_id": 145,
+      "text": "NFL Player Fumbles Stats | Nehemiah Pritchett | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 146,
+      "frame_id": 146,
+      "text": "NFL Player Fumbles Stats | Dominick Puri | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 147,
+      "frame_id": 147,
+      "text": "NFL Player Fumbles Stats | Jalen Ramsey | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 148,
+      "frame_id": 148,
+      "text": "NFL Player Fumbles Stats | Shalon Rankins | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 1 | alert defender | Shalon Rankins awareness | recovers fumbles | touchdown scorer | Shalon Rankins defensive TD | game changer | scoring threat | high impact defender | Shalon Rankins difference maker | creates turnovers"
+    },
+    {
+      "chunk_id": 149,
+      "frame_id": 149,
+      "text": "NFL Player Fumbles Stats | Taylor Rapp | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 150,
+      "frame_id": 150,
+      "text": "NFL Player Fumbles Stats | Spencer Rattler | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 151,
+      "frame_id": 151,
+      "text": "NFL Player Fumbles Stats | LaRyan Ray | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 152,
+      "frame_id": 152,
+      "text": "NFL Player Fumbles Stats | OJ Reader | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 153,
+      "frame_id": 153,
+      "text": "NFL Player Fumbles Stats | Jeremy Reaves | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 154,
+      "frame_id": 154,
+      "text": "NFL Player Fumbles Stats | Haason Reddick | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 155,
+      "frame_id": 155,
+      "text": "NFL Player Fumbles Stats | Jarran Reed | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 156,
+      "frame_id": 156,
+      "text": "NFL Player Fumbles Stats | Jaylen Reed | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jaylen Reed awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 157,
+      "frame_id": 157,
+      "text": "NFL Player Fumbles Stats | Nikko Reed | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 158,
+      "frame_id": 158,
+      "text": "NFL Player Fumbles Stats | Troy Reeder | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 159,
+      "frame_id": 159,
+      "text": "NFL Player Fumbles Stats | Jarrick Reed II | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 160,
+      "frame_id": 160,
+      "text": "NFL Player Fumbles Stats | Justin Reid | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 161,
+      "frame_id": 161,
+      "text": "NFL Player Fumbles Stats | Kaarre Reid | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 162,
+      "frame_id": 162,
+      "text": "NFL Player Fumbles Stats | Shannon Revel Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 163,
+      "frame_id": 163,
+      "text": "NFL Player Fumbles Stats | Craig Reynolds | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 164,
+      "frame_id": 164,
+      "text": "NFL Player Fumbles Stats | Josh Reynolds | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 165,
+      "frame_id": 165,
+      "text": "NFL Player Fumbles Stats | Jim Rhattigan | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 166,
+      "frame_id": 166,
+      "text": "NFL Player Fumbles Stats | Luke Rhodes | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 167,
+      "frame_id": 167,
+      "text": "NFL Player Fumbles Stats | Sean Rhyan | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 168,
+      "frame_id": 168,
+      "text": "NFL Player Fumbles Stats | Patrick Ricari | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 169,
+      "frame_id": 169,
+      "text": "NFL Player Fumbles Stats | Monty Rice | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 170,
+      "frame_id": 170,
+      "text": "NFL Player Fumbles Stats | Decameron Richardson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 171,
+      "frame_id": 171,
+      "text": "NFL Player Fumbles Stats | Demian Richardson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Demian Richardson awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 172,
+      "frame_id": 172,
+      "text": "NFL Player Fumbles Stats | Bo Richter | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 173,
+      "frame_id": 173,
+      "text": "NFL Player Fumbles Stats | John Ridgeway | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 174,
+      "frame_id": 174,
+      "text": "NFL Player Fumbles Stats | Xeles Ringe | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Xeles Ringe awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 175,
+      "frame_id": 175,
+      "text": "NFL Player Fumbles Stats | Jalen Rivers | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 176,
+      "frame_id": 176,
+      "text": "NFL Player Fumbles Stats | Malcolm Roach | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 177,
+      "frame_id": 177,
+      "text": "NFL Player Fumbles Stats | Glandon Roberts | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Glandon Roberts awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 178,
+      "frame_id": 178,
+      "text": "NFL Player Fumbles Stats | Elijah Roberts | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Elijah Roberts awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 179,
+      "frame_id": 179,
+      "text": "NFL Player Fumbles Stats | Sam Roberts | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 180,
+      "frame_id": 180,
+      "text": "NFL Player Fumbles Stats | Roy Robertson-Harris | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 181,
+      "frame_id": 181,
+      "text": "NFL Player Fumbles Stats | A'Shawn Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 182,
+      "frame_id": 182,
+      "text": "NFL Player Fumbles Stats | Chop Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 183,
+      "frame_id": 183,
+      "text": "NFL Player Fumbles Stats | Curtis Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 184,
+      "frame_id": 184,
+      "text": "NFL Player Fumbles Stats | Garuus Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 185,
+      "frame_id": 185,
+      "text": "NFL Player Fumbles Stats | Dominique Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 186,
+      "frame_id": 186,
+      "text": "NFL Player Fumbles Stats | Mark Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 187,
+      "frame_id": 187,
+      "text": "NFL Player Fumbles Stats | Micah Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 188,
+      "frame_id": 188,
+      "text": "NFL Player Fumbles Stats | Guc Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 189,
+      "frame_id": 189,
+      "text": "NFL Player Fumbles Stats | Ty Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 190,
+      "frame_id": 190,
+      "text": "NFL Player Fumbles Stats | Wan'Dale Robinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 191,
+      "frame_id": 191,
+      "text": "NFL Player Fumbles Stats | Robert Rochell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 192,
+      "frame_id": 192,
+      "text": "NFL Player Fumbles Stats | Levi Drake Rodriguez | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 193,
+      "frame_id": 193,
+      "text": "NFL Player Fumbles Stats | Malcolm Rodriguez | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 194,
+      "frame_id": 194,
+      "text": "NFL Player Fumbles Stats | Chris Rodriguez Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 195,
+      "frame_id": 195,
+      "text": "NFL Player Fumbles Stats | Christian Roland-Wallace | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 196,
+      "frame_id": 196,
+      "text": "NFL Player Fumbles Stats | D'Angelo Ross | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 197,
+      "frame_id": 197,
+      "text": "NFL Player Fumbles Stats | Jalen Royals | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 198,
+      "frame_id": 198,
+      "text": "NFL Player Fumbles Stats | Hayden Rucci | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 199,
+      "frame_id": 199,
+      "text": "NFL Player Fumbles Stats | Jeremy Ruckert | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 200,
+      "frame_id": 200,
+      "text": "NFL Player Fumbles Stats | Carter Rummon | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 201,
+      "frame_id": 201,
+      "text": "NFL Player Fumbles Stats | Brady Russell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 202,
+      "frame_id": 202,
+      "text": "NFL Player Fumbles Stats | Mike Sanrietti | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 203,
+      "frame_id": 203,
+      "text": "NFL Player Fumbles Stats | Cameron Sample | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 204,
+      "frame_id": 204,
+      "text": "NFL Player Fumbles Stats | Drew Sample | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 205,
+      "frame_id": 205,
+      "text": "NFL Player Fumbles Stats | Dylan Sampson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 206,
+      "frame_id": 206,
+      "text": "NFL Player Fumbles Stats | Curtis Samuel | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 207,
+      "frame_id": 207,
+      "text": "NFL Player Fumbles Stats | Deloui Samuel Sr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 208,
+      "frame_id": 208,
+      "text": "NFL Player Fumbles Stats | Jack Sanborn | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 209,
+      "frame_id": 209,
+      "text": "NFL Player Fumbles Stats | Ja'Tavion Sanders | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 210,
+      "frame_id": 210,
+      "text": "NFL Player Fumbles Stats | Sheldur Sanders | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 211,
+      "frame_id": 211,
+      "text": "NFL Player Fumbles Stats | T.J. Sanders | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 212,
+      "frame_id": 212,
+      "text": "NFL Player Fumbles Stats | Jonas Sarker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jonas Sarker awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 213,
+      "frame_id": 213,
+      "text": "NFL Player Fumbles Stats | Eric Saubert | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 214,
+      "frame_id": 214,
+      "text": "NFL Player Fumbles Stats | Khalen Saunders | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 215,
+      "frame_id": 215,
+      "text": "NFL Player Fumbles Stats | Jonah Savaiama | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 216,
+      "frame_id": 216,
+      "text": "NFL Player Fumbles Stats | Jack Sawyer | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 217,
+      "frame_id": 217,
+      "text": "NFL Player Fumbles Stats | Jacob Saylors | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 218,
+      "frame_id": 218,
+      "text": "NFL Player Fumbles Stats | Branden Schuler | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 219,
+      "frame_id": 219,
+      "text": "NFL Player Fumbles Stats | Luke Schoonmaker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 220,
+      "frame_id": 220,
+      "text": "NFL Player Fumbles Stats | Dalton Schultz | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 221,
+      "frame_id": 221,
+      "text": "NFL Player Fumbles Stats | Carson Schwesinger | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 222,
+      "frame_id": 222,
+      "text": "NFL Player Fumbles Stats | Daniel Scott | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 223,
+      "frame_id": 223,
+      "text": "NFL Player Fumbles Stats | Nick Scott | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Nick Scott awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 224,
+      "frame_id": 224,
+      "text": "NFL Player Fumbles Stats | Javier Scott | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 225,
+      "frame_id": 225,
+      "text": "NFL Player Fumbles Stats | Nic Scoutrion | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 226,
+      "frame_id": 226,
+      "text": "NFL Player Fumbles Stats | Trey Sermon | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 227,
+      "frame_id": 227,
+      "text": "NFL Player Fumbles Stats | Tim Settle | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 228,
+      "frame_id": 228,
+      "text": "NFL Player Fumbles Stats | Rashid Shaheed | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 229,
+      "frame_id": 229,
+      "text": "NFL Player Fumbles Stats | Khalil Shakir | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 230,
+      "frame_id": 230,
+      "text": "NFL Player Fumbles Stats | Tyrell Shavers | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 231,
+      "frame_id": 231,
+      "text": "NFL Player Fumbles Stats | Kendall Sheffield | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 232,
+      "frame_id": 232,
+      "text": "NFL Player Fumbles Stats | Nathan Shepherd | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 233,
+      "frame_id": 233,
+      "text": "NFL Player Fumbles Stats | Trent Sherfield | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 234,
+      "frame_id": 234,
+      "text": "NFL Player Fumbles Stats | Jamie Sherrill | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 235,
+      "frame_id": 235,
+      "text": "NFL Player Fumbles Stats | Jamien Sherwood | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 236,
+      "frame_id": 236,
+      "text": "NFL Player Fumbles Stats | Will Shipley | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 237,
+      "frame_id": 237,
+      "text": "NFL Player Fumbles Stats | Justin Shorter | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 238,
+      "frame_id": 238,
+      "text": "NFL Player Fumbles Stats | Tyler Siaugh | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 239,
+      "frame_id": 239,
+      "text": "NFL Player Fumbles Stats | Trent Sieg | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Trent Sieg awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 240,
+      "frame_id": 240,
+      "text": "NFL Player Fumbles Stats | Zach Sieler | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 241,
+      "frame_id": 241,
+      "text": "NFL Player Fumbles Stats | Manyese Style | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Manyese Style awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 242,
+      "frame_id": 242,
+      "text": "NFL Player Fumbles Stats | Elijah Simmons | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 243,
+      "frame_id": 243,
+      "text": "NFL Player Fumbles Stats | Jodii Simmons | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 244,
+      "frame_id": 244,
+      "text": "NFL Player Fumbles Stats | Taonton Simpson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 245,
+      "frame_id": 245,
+      "text": "NFL Player Fumbles Stats | Devin Singletary | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 246,
+      "frame_id": 246,
+      "text": "NFL Player Fumbles Stats | Jackson Simmon | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 247,
+      "frame_id": 247,
+      "text": "NFL Player Fumbles Stats | JL Skinner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | JL Skinner awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 248,
+      "frame_id": 248,
+      "text": "NFL Player Fumbles Stats | Bian Slowoosiak | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Bian Slowoosiak awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 249,
+      "frame_id": 249,
+      "text": "NFL Player Fumbles Stats | Tadarrell Statum | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 250,
+      "frame_id": 250,
+      "text": "NFL Player Fumbles Stats | Darius Slay | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 251,
+      "frame_id": 251,
+      "text": "NFL Player Fumbles Stats | Joey Slye | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 252,
+      "frame_id": 252,
+      "text": "NFL Player Fumbles Stats | Stone Smart | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 253,
+      "frame_id": 253,
+      "text": "NFL Player Fumbles Stats | Arian Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 254,
+      "frame_id": 254,
+      "text": "NFL Player Fumbles Stats | Jaylin Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jaylin Smith awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 255,
+      "frame_id": 255,
+      "text": "NFL Player Fumbles Stats | Masson Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 256,
+      "frame_id": 256,
+      "text": "NFL Player Fumbles Stats | Madi Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 257,
+      "frame_id": 257,
+      "text": "NFL Player Fumbles Stats | Preston Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 258,
+      "frame_id": 258,
+      "text": "NFL Player Fumbles Stats | Breognn Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 1 | alert defender | Breognn Smith awareness | recovers fumbles | touchdown scorer | Breognn Smith defensive TD | game changer | scoring threat | high impact defender | Breognn Smith difference maker | creates turnovers"
+    },
+    {
+      "chunk_id": 259,
+      "frame_id": 259,
+      "text": "NFL Player Fumbles Stats | Trem\u00f3n Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 260,
+      "frame_id": 260,
+      "text": "NFL Player Fumbles Stats | Tyree Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Tyree Smith awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 261,
+      "frame_id": 261,
+      "text": "NFL Player Fumbles Stats | Xavier Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 262,
+      "frame_id": 262,
+      "text": "NFL Player Fumbles Stats | Za'Darius Smith | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 263,
+      "frame_id": 263,
+      "text": "NFL Player Fumbles Stats | Chris Smith II | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 264,
+      "frame_id": 264,
+      "text": "NFL Player Fumbles Stats | Jason Smith-Nigba | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 265,
+      "frame_id": 265,
+      "text": "NFL Player Fumbles Stats | Chau Smith-Wade | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 266,
+      "frame_id": 266,
+      "text": "NFL Player Fumbles Stats | Damuane Snoot | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 267,
+      "frame_id": 267,
+      "text": "NFL Player Fumbles Stats | LChariss Snoot | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 268,
+      "frame_id": 268,
+      "text": "NFL Player Fumbles Stats | Charles Snowden | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 269,
+      "frame_id": 269,
+      "text": "NFL Player Fumbles Stats | Jason Solomon | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 270,
+      "frame_id": 270,
+      "text": "NFL Player Fumbles Stats | Barryn Sorell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 271,
+      "frame_id": 271,
+      "text": "NFL Player Fumbles Stats | Brwyn Sparr-Fund | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 272,
+      "frame_id": 272,
+      "text": "NFL Player Fumbles Stats | Tyast Spears | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 273,
+      "frame_id": 273,
+      "text": "NFL Player Fumbles Stats | Baylor Spector | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 274,
+      "frame_id": 274,
+      "text": "NFL Player Fumbles Stats | E.J. Speed | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 275,
+      "frame_id": 275,
+      "text": "NFL Player Fumbles Stats | Omar Speights | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 276,
+      "frame_id": 276,
+      "text": "NFL Player Fumbles Stats | Nazir Stackhouse | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 277,
+      "frame_id": 277,
+      "text": "NFL Player Fumbles Stats | Sarah Stabford | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 278,
+      "frame_id": 278,
+      "text": "NFL Player Fumbles Stats | Maldi Starks | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 279,
+      "frame_id": 279,
+      "text": "NFL Player Fumbles Stats | Amon-Ra St. Brown | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 280,
+      "frame_id": 280,
+      "text": "NFL Player Fumbles Stats | Branidon Stephens | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 281,
+      "frame_id": 281,
+      "text": "NFL Player Fumbles Stats | Grover Stewart | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 282,
+      "frame_id": 282,
+      "text": "NFL Player Fumbles Stats | Josiah Stewart | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 283,
+      "frame_id": 283,
+      "text": "NFL Player Fumbles Stats | Shemar Stewart | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 284,
+      "frame_id": 284,
+      "text": "NFL Player Fumbles Stats | Gwaertez Stiggers | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 285,
+      "frame_id": 285,
+      "text": "NFL Player Fumbles Stats | Tahsol Still | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 286,
+      "frame_id": 286,
+      "text": "NFL Player Fumbles Stats | Jack Stoll | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 287,
+      "frame_id": 287,
+      "text": "NFL Player Fumbles Stats | Goro Stone | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 288,
+      "frame_id": 288,
+      "text": "NFL Player Fumbles Stats | Jordan Stout | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 289,
+      "frame_id": 289,
+      "text": "NFL Player Fumbles Stats | Xantavious Street | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 290,
+      "frame_id": 290,
+      "text": "NFL Player Fumbles Stats | Laren Strickland | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 291,
+      "frame_id": 291,
+      "text": "NFL Player Fumbles Stats | Danny Striggrow | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Danny Striggrow awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 292,
+      "frame_id": 292,
+      "text": "NFL Player Fumbles Stats | Justin Strnad | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 293,
+      "frame_id": 293,
+      "text": "NFL Player Fumbles Stats | Dorian Strong | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 294,
+      "frame_id": 294,
+      "text": "NFL Player Fumbles Stats | Grant Stuard | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 295,
+      "frame_id": 295,
+      "text": "NFL Player Fumbles Stats | Danny Stutsman | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 296,
+      "frame_id": 296,
+      "text": "NFL Player Fumbles Stats | Ty Summers | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 297,
+      "frame_id": 297,
+      "text": "NFL Player Fumbles Stats | Rex Sunshara | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 298,
+      "frame_id": 298,
+      "text": "NFL Player Fumbles Stats | Charz Sunrell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 299,
+      "frame_id": 299,
+      "text": "NFL Player Fumbles Stats | Pat Sustain II | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 300,
+      "frame_id": 300,
+      "text": "NFL Player Fumbles Stats | Courtland Sutton | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 301,
+      "frame_id": 301,
+      "text": "NFL Player Fumbles Stats | T'Vondre Sweat | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 302,
+      "frame_id": 302,
+      "text": "NFL Player Fumbles Stats | Bradyn Swinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 303,
+      "frame_id": 303,
+      "text": "NFL Player Fumbles Stats | T.J. Tampa | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 304,
+      "frame_id": 304,
+      "text": "NFL Player Fumbles Stats | JaRani Tavai | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 305,
+      "frame_id": 305,
+      "text": "NFL Player Fumbles Stats | Alanidat Taylor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 306,
+      "frame_id": 306,
+      "text": "NFL Player Fumbles Stats | Darrell Taylor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 307,
+      "frame_id": 307,
+      "text": "NFL Player Fumbles Stats | Ja'Sir Taylor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 308,
+      "frame_id": 308,
+      "text": "NFL Player Fumbles Stats | Jonathan Taylor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 309,
+      "frame_id": 309,
+      "text": "NFL Player Fumbles Stats | Keith Taylor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 310,
+      "frame_id": 310,
+      "text": "NFL Player Fumbles Stats | Tory Taylor | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 311,
+      "frame_id": 311,
+      "text": "NFL Player Fumbles Stats | Cam Taylor-Britt | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 312,
+      "frame_id": 312,
+      "text": "NFL Player Fumbles Stats | Leonard Taylor III | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 313,
+      "frame_id": 313,
+      "text": "NFL Player Fumbles Stats | Dalton Taylor-Demerson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 314,
+      "frame_id": 314,
+      "text": "NFL Player Fumbles Stats | A.J. Terrell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 315,
+      "frame_id": 315,
+      "text": "NFL Player Fumbles Stats | Kayan Thibodeaux | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 316,
+      "frame_id": 316,
+      "text": "NFL Player Fumbles Stats | Azarryah Thomas | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 317,
+      "frame_id": 317,
+      "text": "NFL Player Fumbles Stats | Cameron Thomas | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 318,
+      "frame_id": 318,
+      "text": "NFL Player Fumbles Stats | Daniel Thomas | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 319,
+      "frame_id": 319,
+      "text": "NFL Player Fumbles Stats | Drake Thomas | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Drake Thomas awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 320,
+      "frame_id": 320,
+      "text": "NFL Player Fumbles Stats | Ian Thomas | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 321,
+      "frame_id": 321,
+      "text": "NFL Player Fumbles Stats | Juanyeh Thomas | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 322,
+      "frame_id": 322,
+      "text": "NFL Player Fumbles Stats | Rodiney Thomas | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 323,
+      "frame_id": 323,
+      "text": "NFL Player Fumbles Stats | Tristan Thomas | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 324,
+      "frame_id": 324,
+      "text": "NFL Player Fumbles Stats | Brian Thomas Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 325,
+      "frame_id": 325,
+      "text": "NFL Player Fumbles Stats | Jisan Thornhill | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 326,
+      "frame_id": 326,
+      "text": "NFL Player Fumbles Stats | Dari'S Thornton Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 327,
+      "frame_id": 327,
+      "text": "NFL Player Fumbles Stats | Jerry Tillery | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jerry Tillery awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 328,
+      "frame_id": 328,
+      "text": "NFL Player Fumbles Stats | Gordrea Tillman | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 329,
+      "frame_id": 329,
+      "text": "NFL Player Fumbles Stats | Tommy Togiai | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 330,
+      "frame_id": 330,
+      "text": "NFL Player Fumbles Stats | Jay Toia | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 331,
+      "frame_id": 331,
+      "text": "NFL Player Fumbles Stats | Galvin Tomkinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 332,
+      "frame_id": 332,
+      "text": "NFL Player Fumbles Stats | Keynte Tonga | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 333,
+      "frame_id": 333,
+      "text": "NFL Player Fumbles Stats | Jake Tonges | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 334,
+      "frame_id": 334,
+      "text": "NFL Player Fumbles Stats | Robert Toryan | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 335,
+      "frame_id": 335,
+      "text": "NFL Player Fumbles Stats | Henry Teftrio | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 336,
+      "frame_id": 336,
+      "text": "NFL Player Fumbles Stats | Austin Trammell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 337,
+      "frame_id": 337,
+      "text": "NFL Player Fumbles Stats | Duve Tranquill | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Duve Tranquill awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 338,
+      "frame_id": 338,
+      "text": "NFL Player Fumbles Stats | Adam Trastrean | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 339,
+      "frame_id": 339,
+      "text": "NFL Player Fumbles Stats | Layden Traudewell | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 340,
+      "frame_id": 340,
+      "text": "NFL Player Fumbles Stats | Brycen Tremayne | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 341,
+      "frame_id": 341,
+      "text": "NFL Player Fumbles Stats | Tommy Tremble | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 342,
+      "frame_id": 342,
+      "text": "NFL Player Fumbles Stats | Jeremiah Trotter Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 343,
+      "frame_id": 343,
+      "text": "NFL Player Fumbles Stats | Joe Tryon-Shoyinka | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 344,
+      "frame_id": 344,
+      "text": "NFL Player Fumbles Stats | Tim Trucker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 345,
+      "frame_id": 345,
+      "text": "NFL Player Fumbles Stats | Jay Tufele | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 346,
+      "frame_id": 346,
+      "text": "NFL Player Fumbles Stats | JT Tuimoidau | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 347,
+      "frame_id": 347,
+      "text": "NFL Player Fumbles Stats | Marlon Tuipulotu | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 348,
+      "frame_id": 348,
+      "text": "NFL Player Fumbles Stats | Josh Tupou | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 349,
+      "frame_id": 349,
+      "text": "NFL Player Fumbles Stats | Dallas Turner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 350,
+      "frame_id": 350,
+      "text": "NFL Player Fumbles Stats | OJ Turner II | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | OJ Turner II awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 351,
+      "frame_id": 351,
+      "text": "NFL Player Fumbles Stats | Jordan Turner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 352,
+      "frame_id": 352,
+      "text": "NFL Player Fumbles Stats | Kobee Turner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 353,
+      "frame_id": 353,
+      "text": "NFL Player Fumbles Stats | Malik Turner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 354,
+      "frame_id": 354,
+      "text": "NFL Player Fumbles Stats | Shermar Turner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 355,
+      "frame_id": 355,
+      "text": "NFL Player Fumbles Stats | Ka'Vontae Turpin | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 356,
+      "frame_id": 356,
+      "text": "NFL Player Fumbles Stats | Shayshul Tuten | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 357,
+      "frame_id": 357,
+      "text": "NFL Player Fumbles Stats | Sky Tuttle | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 358,
+      "frame_id": 358,
+      "text": "NFL Player Fumbles Stats | Joshua Uche | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 359,
+      "frame_id": 359,
+      "text": "NFL Player Fumbles Stats | Brend Urban | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 360,
+      "frame_id": 360,
+      "text": "NFL Player Fumbles Stats | Eyoma Uesariko | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 361,
+      "frame_id": 361,
+      "text": "NFL Player Fumbles Stats | Slone Vaki | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 362,
+      "frame_id": 362,
+      "text": "NFL Player Fumbles Stats | Carrington Valentina | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 363,
+      "frame_id": 363,
+      "text": "NFL Player Fumbles Stats | Greedy Vance | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 364,
+      "frame_id": 364,
+      "text": "NFL Player Fumbles Stats | Andrew Van Ginkel | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 365,
+      "frame_id": 365,
+      "text": "NFL Player Fumbles Stats | Lukas Van Ness | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 366,
+      "frame_id": 366,
+      "text": "NFL Player Fumbles Stats | Kyle Van Noy | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 367,
+      "frame_id": 367,
+      "text": "NFL Player Fumbles Stats | Vita Vea | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Vita Vea awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 368,
+      "frame_id": 368,
+      "text": "NFL Player Fumbles Stats | Kimani Vidal | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 369,
+      "frame_id": 369,
+      "text": "NFL Player Fumbles Stats | Kirda Vider | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 370,
+      "frame_id": 370,
+      "text": "NFL Player Fumbles Stats | Travis Volbick | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 371,
+      "frame_id": 371,
+      "text": "NFL Player Fumbles Stats | Jaylen Waddle | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 372,
+      "frame_id": 372,
+      "text": "NFL Player Fumbles Stats | Bobby Wagner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 373,
+      "frame_id": 373,
+      "text": "NFL Player Fumbles Stats | William Wagner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 374,
+      "frame_id": 374,
+      "text": "NFL Player Fumbles Stats | Daone Walker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Daone Walker awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 375,
+      "frame_id": 375,
+      "text": "NFL Player Fumbles Stats | Daconttir Walker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 376,
+      "frame_id": 376,
+      "text": "NFL Player Fumbles Stats | Jahdar Walker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 377,
+      "frame_id": 377,
+      "text": "NFL Player Fumbles Stats | Mykal Walker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 378,
+      "frame_id": 378,
+      "text": "NFL Player Fumbles Stats | Quay Walker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 379,
+      "frame_id": 379,
+      "text": "NFL Player Fumbles Stats | Tavan Walker | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 380,
+      "frame_id": 380,
+      "text": "NFL Player Fumbles Stats | Jesh Wallace | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 381,
+      "frame_id": 381,
+      "text": "NFL Player Fumbles Stats | Tevin Wallace | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 382,
+      "frame_id": 382,
+      "text": "NFL Player Fumbles Stats | Tyler Wallace | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 383,
+      "frame_id": 383,
+      "text": "NFL Player Fumbles Stats | David Wallow | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 384,
+      "frame_id": 384,
+      "text": "NFL Player Fumbles Stats | Alex Ward | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 385,
+      "frame_id": 385,
+      "text": "NFL Player Fumbles Stats | Charusis Ward | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Charusis Ward awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 386,
+      "frame_id": 386,
+      "text": "NFL Player Fumbles Stats | Darnell Ward | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 387,
+      "frame_id": 387,
+      "text": "NFL Player Fumbles Stats | Jay Ward | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Jay Ward awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 388,
+      "frame_id": 388,
+      "text": "NFL Player Fumbles Stats | Shad Ward | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 389,
+      "frame_id": 389,
+      "text": "NFL Player Fumbles Stats | Broderick Washington | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 390,
+      "frame_id": 390,
+      "text": "NFL Player Fumbles Stats | Malik Washington | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 391,
+      "frame_id": 391,
+      "text": "NFL Player Fumbles Stats | Parker Washington | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 392,
+      "frame_id": 392,
+      "text": "NFL Player Fumbles Stats | Tahi Washington | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 393,
+      "frame_id": 393,
+      "text": "NFL Player Fumbles Stats | Trey Washington | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 394,
+      "frame_id": 394,
+      "text": "NFL Player Fumbles Stats | Jaylen Watson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 395,
+      "frame_id": 395,
+      "text": "NFL Player Fumbles Stats | Luke Wattenberg | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 396,
+      "frame_id": 396,
+      "text": "NFL Player Fumbles Stats | Marless Watts | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 397,
+      "frame_id": 397,
+      "text": "NFL Player Fumbles Stats | Xavier Watts | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 398,
+      "frame_id": 398,
+      "text": "NFL Player Fumbles Stats | Marhuss Wax | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 399,
+      "frame_id": 399,
+      "text": "NFL Player Fumbles Stats | Jori Weaks | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 400,
+      "frame_id": 400,
+      "text": "NFL Player Fumbles Stats | Kristian Welch | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 401,
+      "frame_id": 401,
+      "text": "NFL Player Fumbles Stats | Pete Werner | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 2 | FR TD (Fumble Recovery TDs): 0 | opportunistic defender | Pete Werner good hands | ball hawk"
+    },
+    {
+      "chunk_id": 402,
+      "frame_id": 402,
+      "text": "NFL Player Fumbles Stats | CJ West | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 403,
+      "frame_id": 403,
+      "text": "NFL Player Fumbles Stats | Nick Westbrook-Ikhine | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 404,
+      "frame_id": 404,
+      "text": "NFL Player Fumbles Stats | Ja'Markus Weston | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 405,
+      "frame_id": 405,
+      "text": "NFL Player Fumbles Stats | Jack Westover | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 406,
+      "frame_id": 406,
+      "text": "NFL Player Fumbles Stats | Tershawn Wharton | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 407,
+      "frame_id": 407,
+      "text": "NFL Player Fumbles Stats | Cody White | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 408,
+      "frame_id": 408,
+      "text": "NFL Player Fumbles Stats | Kellan White | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Kellan White awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 409,
+      "frame_id": 409,
+      "text": "NFL Player Fumbles Stats | Ryar White | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 410,
+      "frame_id": 410,
+      "text": "NFL Player Fumbles Stats | Ta'Darious White | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 411,
+      "frame_id": 411,
+      "text": "NFL Player Fumbles Stats | Blake Whitehead | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 412,
+      "frame_id": 412,
+      "text": "NFL Player Fumbles Stats | Nick Whiteside | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 413,
+      "frame_id": 413,
+      "text": "NFL Player Fumbles Stats | Jordan Whittington | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 414,
+      "frame_id": 414,
+      "text": "NFL Player Fumbles Stats | Nate Wiggins | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 415,
+      "frame_id": 415,
+      "text": "NFL Player Fumbles Stats | Elijah Wilkinson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 416,
+      "frame_id": 416,
+      "text": "NFL Player Fumbles Stats | Jonah Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 417,
+      "frame_id": 417,
+      "text": "NFL Player Fumbles Stats | Chris Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 418,
+      "frame_id": 418,
+      "text": "NFL Player Fumbles Stats | Danson Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 419,
+      "frame_id": 419,
+      "text": "NFL Player Fumbles Stats | Dowen Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Dowen Williams awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 420,
+      "frame_id": 420,
+      "text": "NFL Player Fumbles Stats | Elijah Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 421,
+      "frame_id": 421,
+      "text": "NFL Player Fumbles Stats | Evan Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Evan Williams awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 422,
+      "frame_id": 422,
+      "text": "NFL Player Fumbles Stats | James Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 423,
+      "frame_id": 423,
+      "text": "NFL Player Fumbles Stats | Jameson Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 424,
+      "frame_id": 424,
+      "text": "NFL Player Fumbles Stats | Jeanette Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 425,
+      "frame_id": 425,
+      "text": "NFL Player Fumbles Stats | Jonah Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 426,
+      "frame_id": 426,
+      "text": "NFL Player Fumbles Stats | Joshua Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 427,
+      "frame_id": 427,
+      "text": "NFL Player Fumbles Stats | Leonard Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 428,
+      "frame_id": 428,
+      "text": "NFL Player Fumbles Stats | Milton Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 429,
+      "frame_id": 429,
+      "text": "NFL Player Fumbles Stats | Myzel Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 430,
+      "frame_id": 430,
+      "text": "NFL Player Fumbles Stats | Heidi Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 431,
+      "frame_id": 431,
+      "text": "NFL Player Fumbles Stats | Quency Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 432,
+      "frame_id": 432,
+      "text": "NFL Player Fumbles Stats | Jayson Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 433,
+      "frame_id": 433,
+      "text": "NFL Player Fumbles Stats | Trent Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 434,
+      "frame_id": 434,
+      "text": "NFL Player Fumbles Stats | Tydik Williams | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 435,
+      "frame_id": 435,
+      "text": "NFL Player Fumbles Stats | Kendall Williamson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 436,
+      "frame_id": 436,
+      "text": "NFL Player Fumbles Stats | Brayden Wills | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 437,
+      "frame_id": 437,
+      "text": "NFL Player Fumbles Stats | Emmanuel Wilson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 438,
+      "frame_id": 438,
+      "text": "NFL Player Fumbles Stats | Garrett Wilson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 439,
+      "frame_id": 439,
+      "text": "NFL Player Fumbles Stats | Logan Wilson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Logan Wilson awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 440,
+      "frame_id": 440,
+      "text": "NFL Player Fumbles Stats | Mario Wilson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 441,
+      "frame_id": 441,
+      "text": "NFL Player Fumbles Stats | Payton Wilson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Payton Wilson awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 442,
+      "frame_id": 442,
+      "text": "NFL Player Fumbles Stats | Roman Wilson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 443,
+      "frame_id": 443,
+      "text": "NFL Player Fumbles Stats | Tones Wilson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Tones Wilson awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 444,
+      "frame_id": 444,
+      "text": "NFL Player Fumbles Stats | James Winchester | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 445,
+      "frame_id": 445,
+      "text": "NFL Player Fumbles Stats | Andrew Wingord | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Andrew Wingord awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 446,
+      "frame_id": 446,
+      "text": "NFL Player Fumbles Stats | Makti Winge | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 447,
+      "frame_id": 447,
+      "text": "NFL Player Fumbles Stats | Kevin Winston Jr. | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 448,
+      "frame_id": 448,
+      "text": "NFL Player Fumbles Stats | Dee Writers | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 449,
+      "frame_id": 449,
+      "text": "NFL Player Fumbles Stats | Rashad Weadom | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 450,
+      "frame_id": 450,
+      "text": "NFL Player Fumbles Stats | Deatrich Wise | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 451,
+      "frame_id": 451,
+      "text": "NFL Player Fumbles Stats | Devon Witherspoon | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 452,
+      "frame_id": 452,
+      "text": "NFL Player Fumbles Stats | Al'Audis Witherspoon | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 453,
+      "frame_id": 453,
+      "text": "NFL Player Fumbles Stats | Samuel Womack | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 454,
+      "frame_id": 454,
+      "text": "NFL Player Fumbles Stats | D.J. Wonnum | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 455,
+      "frame_id": 455,
+      "text": "NFL Player Fumbles Stats | Zach Wood | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 456,
+      "frame_id": 456,
+      "text": "NFL Player Fumbles Stats | Colby Wooden | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 457,
+      "frame_id": 457,
+      "text": "NFL Player Fumbles Stats | Charles Woods | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 458,
+      "frame_id": 458,
+      "text": "NFL Player Fumbles Stats | Jash Woods | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 459,
+      "frame_id": 459,
+      "text": "NFL Player Fumbles Stats | Xavier Woods | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 460,
+      "frame_id": 460,
+      "text": "NFL Player Fumbles Stats | Craig Woodson | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Craig Woodson awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 461,
+      "frame_id": 461,
+      "text": "NFL Player Fumbles Stats | Riq Woolen | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 462,
+      "frame_id": 462,
+      "text": "NFL Player Fumbles Stats | Xavier Worthy | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 463,
+      "frame_id": 463,
+      "text": "NFL Player Fumbles Stats | Nahashan Wright | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 1 | FR TD (Fumble Recovery TDs): 0 | alert defender | Nahashan Wright awareness | recovers fumbles"
+    },
+    {
+      "chunk_id": 464,
+      "frame_id": 464,
+      "text": "NFL Player Fumbles Stats | Devonta Wyatt | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 465,
+      "frame_id": 465,
+      "text": "NFL Player Fumbles Stats | Colben Yarkoff | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 466,
+      "frame_id": 466,
+      "text": "NFL Player Fumbles Stats | Rock Ya-Sin | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 467,
+      "frame_id": 467,
+      "text": "NFL Player Fumbles Stats | Isaac Yadon | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 468,
+      "frame_id": 468,
+      "text": "NFL Player Fumbles Stats | Byron Young | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 469,
+      "frame_id": 469,
+      "text": "NFL Player Fumbles Stats | Danite Young | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 470,
+      "frame_id": 470,
+      "text": "NFL Player Fumbles Stats | Ben Yurasak | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 471,
+      "frame_id": 471,
+      "text": "NFL Player Fumbles Stats | Grey Zabel | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 472,
+      "frame_id": 472,
+      "text": "NFL Player Fumbles Stats | Kevin Zeitler | FF (Forced Fumbles): 0 | FR (Fumble Recoveries): 0 | FR TD (Fumble Recovery TDs): 0"
+    },
+    {
+      "chunk_id": 473,
+      "frame_id": 473,
+      "text": "NFL Fumbles Stats Summary 2025\n\nTop Forced Fumbles Leaders:\n- Samson Ebukam: 1 FF\n\nTop Fumble Recovery Leaders:\n- Jardan Phillips: 2 FR\n- Pete Werner: 2 FR\n- Brandon Aiyuk: 1 FR\n- Tyreek Hill: 1 FR\n- Jaylen Warren: 1 FR\n- Tee Higgins: 1 FR\n- Jayson Moore II: 1 FR\n- Kenneth Murray, Jr.: 1 FR\n- Keisean Nixon: 1 FR\n- Walter Nolen: 1 FR\n\nFumble Recovery TD Scorers:\n- Walter Nolen: 1 TD\n- James Pierre: 1 TD\n- Shalon Rankins: 1 TD\n- Breognn Smith: 1 TD"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}
