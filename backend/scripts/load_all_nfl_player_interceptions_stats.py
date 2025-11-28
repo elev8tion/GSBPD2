@@ -14,7 +14,7 @@ from typing import Dict, List, Any
 # Add parent directory to path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from lib.kre8vidmems.kre8vidmems import Kre8VidMemory
+from lib.kre8vidmems.kre8vidmems.api.memory import Kre8VidMemory
 
 def get_all_player_data() -> List[Dict[str, Any]]:
     """Get all player interception data - extracted from screenshots"""

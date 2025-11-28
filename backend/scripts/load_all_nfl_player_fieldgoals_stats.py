@@ -15,7 +15,7 @@ sys.path.insert(0, backend_path)
 sys.path.insert(0, os.path.join(backend_path, 'lib', 'kre8vidmems'))
 
 # Import Kre8VidMems
-from kre8vidmems import Kre8VidMemory
+from lib.kre8vidmems.kre8vidmems.api.memory import Kre8VidMemory
 
 def get_all_fieldgoals_data() -> List[Dict]:
     """Get all field goals data extracted from screenshots"""

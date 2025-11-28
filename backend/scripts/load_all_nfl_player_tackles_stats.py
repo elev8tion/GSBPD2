@@ -12,7 +12,7 @@ from typing import Dict, Any
 # Add project root to path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from kre8vidmems import Kre8VidMemory
+from lib.kre8vidmems.kre8vidmems.api.memory import Kre8VidMemory
 
 
 def format_player_tackles_stats(player: Dict[str, Any]) -> str:
