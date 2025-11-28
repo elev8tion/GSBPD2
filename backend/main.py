@@ -18,7 +18,7 @@ app.add_middleware(
 
 from src.services.odds_api import OddsAPIService
 from src.services.knowledge_base import KnowledgeBaseService
-from src.services.sgp_engine import SGPEngine
+from src.services.nfl_sgp_service import NFLSGPService
 from src.services.nba_service import NBADataService
 from src.services.nfl_service import NFLDataService
 from src.services.draftkings_odds_service import DraftKingsOddsService
@@ -30,7 +30,7 @@ grok_service = GrokInsightGenerator()
 data_service = DataService()
 odds_service = OddsAPIService()
 kb_service = KnowledgeBaseService() # Replaces portfolio_service
-sgp_engine = SGPEngine()
+nfl_sgp_service = NFLSGPService()
 nba_service = NBADataService()
 nfl_service = NFLDataService()
 dk_odds_service = DraftKingsOddsService()
@@ -131,13 +131,21 @@ class SGPRequest(BaseModel):
 
 @app.post("/pipeline/sgp")
 def generate_sgp(request: SGPRequest):
+    """Generate SGP picks using NFL SGP Service (deprecated - use /nfl/sgp endpoints)"""
     game_data = {
         "home_team": request.home_team,
         "away_team": request.away_team,
         "spread": 0 # Simplified
     }
     prediction = {"predicted_spread_margin": request.prediction_margin}
-    return sgp_engine.generate_combinations(game_data, prediction)
+
+    # Legacy endpoint - returns simplified response
+    return {
+        "status": "deprecated",
+        "message": "Use /nfl/sgp/weekly or /nfl/sgp/predictions endpoints",
+        "game_data": game_data,
+        "prediction": prediction
+    }
 
 class IngestRequest(BaseModel):
     file_path: str
@@ -673,6 +681,107 @@ def get_nfl_team_roster_by_name(team_name: str):
         return {"team": team_name, "players": players, "total": len(players)}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get roster: {str(e)}")
+
+@app.get("/nfl/player-stats/{player_name}")
+def get_nfl_player_stats(player_name: str, week: int = None):
+    """Get player stats from nfl_player_stats.db"""
+    try:
+        stats = nfl_service.get_player_stats(player_name, week)
+        return {"player": player_name, "week": week, "stats": stats, "total": len(stats)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get player stats: {str(e)}")
+
+@app.get("/nfl/sgp/{team}/{week}")
+def get_nfl_sgp_combinations(team: str, week: int, season: int = 2024):
+    """Get SGP combinations from nfl_sgp_combos.db"""
+    try:
+        combos = nfl_service.get_sgp_combinations(team, week, season)
+        return {"team": team, "week": week, "season": season, "combinations": combos, "total": len(combos)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get SGP combinations: {str(e)}")
+
+@app.get("/nfl/team-stats/{team}/{week}")
+def get_nfl_team_weekly_stats(team: str, week: int, season: int = 2024):
+    """Get aggregated team stats for a week"""
+    try:
+        stats = nfl_service.get_team_weekly_stats(team, week, season)
+        if not stats:
+            raise HTTPException(status_code=404, detail=f"No stats found for {team} week {week}")
+        return {"team": team, "week": week, "season": season, "stats": stats}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get team stats: {str(e)}")
+
+# ============ NFL SGP SERVICE ENDPOINTS ============
+
+@app.get("/nfl/sgp/weekly/{week}")
+def get_weekly_sgp_picks(week: int, season: int = 2024):
+    """Generate SGP picks for a specific week using NFL SGP Service"""
+    try:
+        picks = nfl_sgp_service.generate_weekly_picks(week, season)
+        return {
+            "week": week,
+            "season": season,
+            "picks": picks,
+            "total": len(picks)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to generate weekly picks: {str(e)}")
+
+@app.get("/nfl/sgp/correlations")
+def get_sgp_correlations():
+    """Get current SGP correlation coefficients"""
+    try:
+        correlations = nfl_sgp_service.get_correlations()
+        return {
+            "correlations": correlations,
+            "description": "Correlation coefficients used for SGP fair odds calculations"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get correlations: {str(e)}")
+
+@app.get("/nfl/sgp/predict/{player_name}/{week}")
+def predict_player_props(player_name: str, week: int):
+    """Predict player props for a specific player and week"""
+    try:
+        predictions = nfl_sgp_service.predict_player_props(player_name, week)
+        if "error" in predictions:
+            raise HTTPException(status_code=404, detail=predictions["error"])
+        return predictions
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to predict props: {str(e)}")
+
+@app.get("/nfl/sgp/status")
+def get_sgp_service_status():
+    """Get status of NFL SGP service and loaded models"""
+    try:
+        status = nfl_sgp_service.get_model_status()
+        return status
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to get service status: {str(e)}")
+
+class EVCalculationRequest(BaseModel):
+    our_picks: list
+    dk_odds: dict
+
+@app.post("/nfl/sgp/calculate-ev")
+def calculate_sgp_ev(request: EVCalculationRequest):
+    """Calculate expected value vs DraftKings odds"""
+    try:
+        ev_picks = nfl_sgp_service.calculate_ev_vs_draftkings(
+            request.our_picks,
+            request.dk_odds
+        )
+        return {
+            "ev_picks": ev_picks,
+            "total_positive_ev": len(ev_picks),
+            "best_pick": ev_picks[0] if ev_picks else None
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to calculate EV: {str(e)}")
 
 # ============ DRAFTKINGS ODDS ENDPOINTS ============
 

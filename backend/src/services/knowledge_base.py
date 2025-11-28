@@ -229,21 +229,21 @@ class KnowledgeBaseService:
             if not text_files:
                 return {"status": "error", "message": f"No .txt or .md files found in {docs_dir}"}
 
-            # Combine all text
-            all_text = []
-            for file_path in text_files:
-                with open(file_path, 'r') as f:
-                    all_text.append(f.read())
-
-            combined_text = "\n\n".join(all_text)
-
             # Create memory
             full_memory_name = f"{sport}-{memory_name}"
             memories_dir = Path("data/memories")
             memories_dir.mkdir(parents=True, exist_ok=True)
 
             memory = Kre8VidMemory()
-            memory.add_text(combined_text)
+
+            # Add each file as a chunk to the memory
+            for file_path in text_files:
+                with open(file_path, 'r') as f:
+                    content = f.read()
+                    # Split content into reasonable chunks and add each
+                    # For SGP picks, each file can be a single chunk
+                    memory.add(content)
+
             memory.save(str(memories_dir / full_memory_name))
 
             return {

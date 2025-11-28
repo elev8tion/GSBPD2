@@ -1,13 +1,16 @@
 """
 NFL Data Service
 Handles storing and retrieving NFL data using Kre8VidMems
+Integrates with NFL player stats and SGP databases
 """
 
 import json
 import os
+import sqlite3
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
+import pandas as pd
 
 # Use Kre8VidMems directly - no more FAISS crashes!
 from kre8vidmems import Kre8VidMemory
@@ -64,6 +67,10 @@ class NFLDataService:
         self.data_dir = base_dir / "data"
         self.data_dir.mkdir(exist_ok=True)
         self.rosters_file = self.data_dir / "nfl_rosters.json"
+
+        # Database paths
+        self.player_stats_db = self.data_dir / "nfl_player_stats.db"
+        self.sgp_combos_db = self.data_dir / "nfl_sgp_combos.db"
 
         # Initialize Kre8VidMems retrievers
         self.teams_memory = None
@@ -245,3 +252,115 @@ class NFLDataService:
                     if team_name_lower in team_full or team_full in team_name_lower:
                         return team.get("players", [])
         return []
+
+    def get_player_stats(self, player_name: str, week: Optional[int] = None) -> List[Dict]:
+        """
+        Get player stats from nfl_player_stats.db
+
+        Args:
+            player_name (str): Player name to search for
+            week (int, optional): Filter by specific week
+
+        Returns:
+            List[Dict]: Player stats records
+        """
+        if not self.player_stats_db.exists():
+            print(f"⚠️ Player stats database not found: {self.player_stats_db}")
+            return []
+
+        try:
+            conn = sqlite3.connect(self.player_stats_db)
+
+            query = "SELECT * FROM NFL_Model_Data WHERE player_display_name LIKE ?"
+            params = [f"%{player_name}%"]
+
+            if week is not None:
+                query += " AND week = ?"
+                params.append(week)
+
+            df = pd.read_sql_query(query, conn, params=params)
+            conn.close()
+
+            return df.to_dict('records')
+
+        except Exception as e:
+            print(f"❌ Error fetching player stats: {e}")
+            return []
+
+    def get_sgp_combinations(self, team: str, week: int, season: int = 2024) -> List[Dict]:
+        """
+        Get SGP combinations from nfl_sgp_combos.db
+
+        Args:
+            team (str): Team abbreviation
+            week (int): Week number
+            season (int): Season year
+
+        Returns:
+            List[Dict]: SGP combination records
+        """
+        if not self.sgp_combos_db.exists():
+            print(f"⚠️ SGP combos database not found: {self.sgp_combos_db}")
+            return []
+
+        try:
+            conn = sqlite3.connect(self.sgp_combos_db)
+
+            query = """
+                SELECT * FROM NFL_Model_Data
+                WHERE team = ? AND week = ? AND season = ?
+            """
+
+            df = pd.read_sql_query(query, conn, params=[team, week, season])
+            conn.close()
+
+            return df.to_dict('records')
+
+        except Exception as e:
+            print(f"❌ Error fetching SGP combinations: {e}")
+            return []
+
+    def get_team_weekly_stats(self, team: str, week: int, season: int = 2024) -> Dict:
+        """
+        Get aggregated team stats for a week
+
+        Args:
+            team (str): Team abbreviation
+            week (int): Week number
+            season (int): Season year
+
+        Returns:
+            Dict: Aggregated team statistics
+        """
+        if not self.player_stats_db.exists():
+            return {}
+
+        try:
+            conn = sqlite3.connect(self.player_stats_db)
+
+            query = """
+                SELECT
+                    recent_team,
+                    week,
+                    season,
+                    SUM(passing_yards) as total_passing_yards,
+                    SUM(rushing_yards) as total_rushing_yards,
+                    SUM(receiving_yards) as total_receiving_yards,
+                    SUM(passing_tds + rushing_tds + receiving_tds) as total_tds,
+                    COUNT(DISTINCT player_id) as total_players
+                FROM NFL_Model_Data
+                WHERE recent_team = ? AND week = ? AND season = ?
+                GROUP BY recent_team, week, season
+            """
+
+            df = pd.read_sql_query(query, conn, params=[team, week, season])
+            conn.close()
+
+            if df.empty:
+                return {}
+
+            return df.iloc[0].to_dict()
+
+        except Exception as e:
+            print(f"❌ Error fetching team stats: {e}")
+            return {}

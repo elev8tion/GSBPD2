@@ -195,7 +195,6 @@ Navigate to the **Betting Insights** tab to view:
 - **NBA Teams**: 30 teams indexed
 - **NBA Players**: 524 players indexed
 - **API Endpoints**: 40+ routes
-- **Memvid Memories**: 4 active (nba-teams, nba-players, nba-games, portfolio)
 - **Total Compressed Data**: ~2.2 MB
 - **Backend Code**: ~2,500 lines Python
 - **Frontend Code**: ~15,000 lines JSX
@@ -205,7 +204,6 @@ Navigate to the **Betting Insights** tab to view:
 - **[PROJECT_INVENTORY.md](PROJECT_INVENTORY.md)** - Comprehensive project status and inventory
 - **[ROADMAP.md](ROADMAP.md)** - Strategic development plan
 - **[CURRENT_ARCHITECTURE.md](CURRENT_ARCHITECTURE.md)** - System architecture details
-- **[MEMVID_INTEGRATION_COMPLETE.md](backend/MEMVID_INTEGRATION_COMPLETE.md)** - Memvid setup guide
 - **[API Documentation](http://localhost:8000/docs)** - Interactive API docs (when server running)
 
 ## 🐛 Troubleshooting
