@@ -1,0 +1,1451 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NFL 2024 Season Player Rushing Statistics | running back stats | RB stats | rushing yards | rushing touchdowns | yards per carry"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "Player: Jonathan Taylor | Rush Yards: 1197 | Attempts: 205 | TDs: 15 | 20+ Yard Runs: 9 | 40+ Yard Runs: 4 | Longest: 83 | First Downs: 60 | First Down %: 29.3% | Fumbles: 0 | 1000 yard rusher | Jonathan Taylor feature back | RB1 | elite TD producer | 15+ rushing TDs | Jonathan Taylor red zone monster | home run hitter | explosive runner | Jonathan Taylor big play threat | elite efficiency | 5.5+ YPA | Jonathan Taylor explosive | excellent ball security | no fumbles | Jonathan Taylor reliable | Jonathan Taylor rushing | Jonathan Taylor running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "Player: James Cook | Rush Yards: 1084 | Attempts: 199 | TDs: 8 | 20+ Yard Runs: 7 | 40+ Yard Runs: 3 | Longest: 64 | First Downs: 47 | First Down %: 23.6% | Fumbles: 2 | 1000 yard rusher | James Cook feature back | RB1 | good TD producer | James Cook scoring threat | home run hitter | explosive runner | James Cook big play threat | good efficiency | 4.5+ YPA | James Cook productive | James Cook rushing | James Cook running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "Player: Jahmyr Gibbs | Rush Yards: 1019 | Attempts: 175 | TDs: 10 | 20+ Yard Runs: 10 | 40+ Yard Runs: 6 | Longest: 78 | First Downs: 46 | First Down %: 26.3% | Fumbles: 0 | 1000 yard rusher | Jahmyr Gibbs feature back | RB1 | high TD producer | 10+ rushing TDs | Jahmyr Gibbs goal line back | home run hitter | explosive runner | Jahmyr Gibbs big play threat | elite efficiency | 5.5+ YPA | Jahmyr Gibbs explosive | excellent ball security | no fumbles | Jahmyr Gibbs reliable | Jahmyr Gibbs rushing | Jahmyr Gibbs running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "Player: Javonte Williams | Rush Yards: 955 | Attempts: 198 | TDs: 8 | 20+ Yard Runs: 5 | 40+ Yard Runs: 1 | Longest: 66 | First Downs: 50 | First Down %: 25.2% | Fumbles: 1 | solid RB | 800+ yards | Javonte Williams good rusher | RB2 | good TD producer | Javonte Williams scoring threat | explosive runner | chunk play ability | Javonte Williams breakaway speed | good efficiency | 4.5+ YPA | Javonte Williams productive | Javonte Williams rushing | Javonte Williams quarterback rushing | QB rushing stats | dual threat QB | mobile QB | running quarterback"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "Player: De'Von Achane | Rush Yards: 900 | Attempts: 164 | TDs: 5 | 20+ Yard Runs: 9 | 40+ Yard Runs: 3 | Longest: 59 | First Downs: 40 | First Down %: 24.4% | Fumbles: 1 | solid RB | 800+ yards | De'Von Achane good rusher | RB2 | home run hitter | explosive runner | De'Von Achane big play threat | good efficiency | 4.5+ YPA | De'Von Achane productive | De'Von Achane rushing | De'Von Achane running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "Player: Rico Dowdle | Rush Yards: 871 | Attempts: 174 | TDs: 5 | 20+ Yard Runs: 6 | 40+ Yard Runs: 2 | Longest: 53 | First Downs: 43 | First Down %: 24.7% | Fumbles: 0 | solid RB | 800+ yards | Rico Dowdle good rusher | RB2 | explosive runner | chunk play ability | Rico Dowdle breakaway speed | good efficiency | 4.5+ YPA | Rico Dowdle productive | excellent ball security | no fumbles | Rico Dowdle reliable | Rico Dowdle rushing | Rico Dowdle running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "Player: Derrick Henry | Rush Yards: 871 | Attempts: 187 | TDs: 9 | 20+ Yard Runs: 6 | 40+ Yard Runs: 3 | Longest: 59 | First Downs: 42 | First Down %: 22.5% | Fumbles: 3 | solid RB | 800+ yards | Derrick Henry good rusher | RB2 | good TD producer | Derrick Henry scoring threat | home run hitter | explosive runner | Derrick Henry big play threat | good efficiency | 4.5+ YPA | Derrick Henry productive | fumble prone | ball security issues | Derrick Henry risky | Derrick Henry rushing | Derrick Henry running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "Player: Bijan Robinson | Rush Yards: 853 | Attempts: 172 | TDs: 4 | 20+ Yard Runs: 4 | 40+ Yard Runs: 1 | Longest: 81 | First Downs: 36 | First Down %: 20.9% | Fumbles: 2 | solid RB | 800+ yards | Bijan Robinson good rusher | RB2 | good efficiency | 4.5+ YPA | Bijan Robinson productive | Bijan Robinson rushing | Bijan Robinson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "Player: Travis Etienne | Rush Yards: 815 | Attempts: 169 | TDs: 5 | 20+ Yard Runs: 5 | 40+ Yard Runs: 3 | Longest: 71 | First Downs: 34 | First Down %: 20.1% | Fumbles: 0 | solid RB | 800+ yards | Travis Etienne good rusher | RB2 | home run hitter | explosive runner | Travis Etienne big play threat | good efficiency | 4.5+ YPA | Travis Etienne productive | excellent ball security | no fumbles | Travis Etienne reliable | Travis Etienne rushing | Travis Etienne running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "Player: Christian McCaffrey | Rush Yards: 796 | Attempts: 217 | TDs: 7 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 20 | First Downs: 50 | First Down %: 23% | Fumbles: 1 | productive RB | 600+ yards | Christian McCaffrey contributor | good TD producer | Christian McCaffrey scoring threat | Christian McCaffrey rushing | Christian McCaffrey running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "Player: Kyren Williams | Rush Yards: 796 | Attempts: 170 | TDs: 6 | 20+ Yard Runs: 3 | 40+ Yard Runs: 0 | Longest: 34 | First Downs: 49 | First Down %: 28.8% | Fumbles: 2 | productive RB | 600+ yards | Kyren Williams contributor | good efficiency | 4.5+ YPA | Kyren Williams productive | Kyren Williams rushing | Kyren Williams quarterback rushing | QB rushing stats | dual threat QB | mobile QB | running quarterback"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "Player: J.K. Dobbins | Rush Yards: 772 | Attempts: 153 | TDs: 4 | 20+ Yard Runs: 5 | 40+ Yard Runs: 1 | Longest: 41 | First Downs: 37 | First Down %: 24.2% | Fumbles: 0 | productive RB | 600+ yards | J.K. Dobbins contributor | explosive runner | chunk play ability | J.K. Dobbins breakaway speed | good efficiency | 4.5+ YPA | J.K. Dobbins productive | excellent ball security | no fumbles | J.K. Dobbins reliable | J.K. Dobbins rushing | J.K. Dobbins running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "Player: Breece Hall | Rush Yards: 766 | Attempts: 168 | TDs: 2 | 20+ Yard Runs: 7 | 40+ Yard Runs: 0 | Longest: 35 | First Downs: 43 | First Down %: 25.6% | Fumbles: 2 | productive RB | 600+ yards | Breece Hall contributor | explosive runner | chunk play ability | Breece Hall breakaway speed | good efficiency | 4.5+ YPA | Breece Hall productive | Breece Hall rushing | Breece Hall running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "Player: Josh Jacobs | Rush Yards: 731 | Attempts: 186 | TDs: 11 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 29 | First Downs: 43 | First Down %: 23.1% | Fumbles: 2 | productive RB | 600+ yards | Josh Jacobs contributor | high TD producer | 10+ rushing TDs | Josh Jacobs goal line back | Josh Jacobs rushing | Josh Jacobs running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "Player: Saquon Barkley | Rush Yards: 684 | Attempts: 185 | TDs: 4 | 20+ Yard Runs: 2 | 40+ Yard Runs: 1 | Longest: 65 | First Downs: 27 | First Down %: 14.6% | Fumbles: 0 | productive RB | 600+ yards | Saquon Barkley contributor | excellent ball security | no fumbles | Saquon Barkley reliable | Saquon Barkley rushing | Saquon Barkley running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "Player: Kenneth Walker III | Rush Yards: 677 | Attempts: 147 | TDs: 4 | 20+ Yard Runs: 7 | 40+ Yard Runs: 0 | Longest: 31 | First Downs: 32 | First Down %: 21.8% | Fumbles: 0 | productive RB | 600+ yards | Kenneth Walker III contributor | explosive runner | chunk play ability | Kenneth Walker III breakaway speed | good efficiency | 4.5+ YPA | Kenneth Walker III productive | excellent ball security | no fumbles | Kenneth Walker III reliable | Kenneth Walker III rushing | Kenneth Walker III running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "Player: Quinshon Judkins | Rush Yards: 667 | Attempts: 173 | TDs: 7 | 20+ Yard Runs: 4 | 40+ Yard Runs: 1 | Longest: 46 | First Downs: 40 | First Down %: 23.1% | Fumbles: 0 | productive RB | 600+ yards | Quinshon Judkins contributor | good TD producer | Quinshon Judkins scoring threat | excellent ball security | no fumbles | Quinshon Judkins reliable | Quinshon Judkins rushing | Quinshon Judkins running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "Player: D'Andre Swift | Rush Yards: 649 | Attempts: 142 | TDs: 4 | 20+ Yard Runs: 3 | 40+ Yard Runs: 0 | Longest: 25 | First Downs: 38 | First Down %: 26.8% | Fumbles: 2 | productive RB | 600+ yards | D'Andre Swift contributor | good efficiency | 4.5+ YPA | D'Andre Swift productive | D'Andre Swift rushing | D'Andre Swift running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "Player: Chase Brown | Rush Yards: 626 | Attempts: 145 | TDs: 2 | 20+ Yard Runs: 5 | 40+ Yard Runs: 0 | Longest: 37 | First Downs: 35 | First Down %: 24.1% | Fumbles: 1 | productive RB | 600+ yards | Chase Brown contributor | explosive runner | chunk play ability | Chase Brown breakaway speed | Chase Brown rushing | Chase Brown running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "Player: Ashton Jeanty | Rush Yards: 604 | Attempts: 166 | TDs: 4 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 64 | First Downs: 30 | First Down %: 18.1% | Fumbles: 1 | productive RB | 600+ yards | Ashton Jeanty contributor | Ashton Jeanty rushing | Ashton Jeanty running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "Player: Jaylen Warren | Rush Yards: 604 | Attempts: 141 | TDs: 3 | 20+ Yard Runs: 3 | 40+ Yard Runs: 0 | Longest: 37 | First Downs: 36 | First Down %: 25.5% | Fumbles: 0 | productive RB | 600+ yards | Jaylen Warren contributor | excellent ball security | no fumbles | Jaylen Warren reliable | Jaylen Warren rushing | Jaylen Warren running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "Player: TreVeyon Henderson | Rush Yards: 558 | Attempts: 118 | TDs: 5 | 20+ Yard Runs: 3 | 40+ Yard Runs: 2 | Longest: 69 | First Downs: 29 | First Down %: 24.6% | Fumbles: 1 | backup RB | committee back | TreVeyon Henderson rotational | good efficiency | 4.5+ YPA | TreVeyon Henderson productive | TreVeyon Henderson rushing | TreVeyon Henderson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "Player: David Montgomery | Rush Yards: 543 | Attempts: 123 | TDs: 6 | 20+ Yard Runs: 2 | 40+ Yard Runs: 1 | Longest: 72 | First Downs: 28 | First Down %: 22.8% | Fumbles: 2 | backup RB | committee back | David Montgomery rotational | David Montgomery rushing | David Montgomery running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "Player: Jordan Mason | Rush Yards: 531 | Attempts: 116 | TDs: 5 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 24 | First Downs: 33 | First Down %: 28.4% | Fumbles: 2 | backup RB | committee back | Jordan Mason rotational | good efficiency | 4.5+ YPA | Jordan Mason productive | Jordan Mason rushing | Jordan Mason running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "Player: Tony Pollard | Rush Yards: 522 | Attempts: 140 | TDs: 2 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 21 | First Downs: 26 | First Down %: 18.6% | Fumbles: 2 | backup RB | committee back | Tony Pollard rotational | Tony Pollard rushing | Tony Pollard running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "Player: Kareem Hunt | Rush Yards: 515 | Attempts: 130 | TDs: 7 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 33 | First Downs: 42 | First Down %: 32.3% | Fumbles: 2 | backup RB | committee back | Kareem Hunt rotational | good TD producer | Kareem Hunt scoring threat | Kareem Hunt rushing | Kareem Hunt running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "Player: Jacarry Croskey-Merritt | Rush Yards: 498 | Attempts: 114 | TDs: 4 | 20+ Yard Runs: 2 | 40+ Yard Runs: 1 | Longest: 42 | First Downs: 25 | First Down %: 21.9% | Fumbles: 2 | backup RB | committee back | Jacarry Croskey-Merritt rotational | Jacarry Croskey-Merritt rushing | Jacarry Croskey-Merritt running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "Player: Alvin Kamara | Rush Yards: 471 | Attempts: 131 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 18 | First Downs: 21 | First Down %: 16% | Fumbles: 1 | backup RB | committee back | Alvin Kamara rotational | Alvin Kamara rushing | Alvin Kamara running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "Player: Kyle Monangai | Rush Yards: 461 | Attempts: 99 | TDs: 4 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 39 | First Downs: 26 | First Down %: 26.3% | Fumbles: 0 | backup RB | committee back | Kyle Monangai rotational | good efficiency | 4.5+ YPA | Kyle Monangai productive | Kyle Monangai rushing | Kyle Monangai running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "Player: Nick Chubb | Rush Yards: 435 | Attempts: 105 | TDs: 2 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 27 | First Downs: 18 | First Down %: 17.1% | Fumbles: 0 | backup RB | committee back | Nick Chubb rotational | excellent ball security | no fumbles | Nick Chubb reliable | Nick Chubb rushing | Nick Chubb running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "Player: Woody Marks | Rush Yards: 423 | Attempts: 115 | TDs: 2 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 23 | First Downs: 22 | First Down %: 19.1% | Fumbles: 0 | backup RB | committee back | Woody Marks rotational | excellent ball security | no fumbles | Woody Marks reliable | Woody Marks rushing | Woody Marks running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "Player: Kalel Mullings | Rush Yards: 417 | Attempts: 96 | TDs: 2 | 20+ Yard Runs: 3 | 40+ Yard Runs: 0 | Longest: 38 | First Downs: 24 | First Down %: 25% | Fumbles: 1 | backup RB | committee back | Kalel Mullings rotational | Kalel Mullings rushing | Kalel Mullings running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "Player: Rachaad White | Rush Yards: 414 | Attempts: 104 | TDs: 4 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 16 | First Downs: 32 | First Down %: 30.8% | Fumbles: 0 | backup RB | committee back | Rachaad White rotational | excellent ball security | no fumbles | Rachaad White reliable | Rachaad White rushing | Rachaad White running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "Player: Cam Skattebo | Rush Yards: 410 | Attempts: 101 | TDs: 5 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 24 | First Downs: 27 | First Down %: 26.7% | Fumbles: 1 | backup RB | committee back | Cam Skattebo rotational | Cam Skattebo rushing | Cam Skattebo running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "Player: Tyrone Tracy Jr. | Rush Yards: 398 | Attempts: 103 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 31 | First Downs: 21 | First Down %: 20.4% | Fumbles: 0 | part-time RB | Tyrone Tracy Jr. depth player | excellent ball security | no fumbles | Tyrone Tracy Jr. reliable | Tyrone Tracy Jr. rushing | Tyrone Tracy Jr. running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "Player: Zach Charbonnet | Rush Yards: 385 | Attempts: 111 | TDs: 7 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 30 | First Downs: 24 | First Down %: 21.6% | Fumbles: 0 | part-time RB | Zach Charbonnet depth player | good TD producer | Zach Charbonnet scoring threat | poor efficiency | below 3.5 YPA | Zach Charbonnet struggling | excellent ball security | no fumbles | Zach Charbonnet reliable | Zach Charbonnet rushing | Zach Charbonnet running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "Player: Justin Fields | Rush Yards: 383 | Attempts: 71 | TDs: 4 | 20+ Yard Runs: 2 | 40+ Yard Runs: 1 | Longest: 43 | First Downs: 26 | First Down %: 36.6% | Fumbles: 2 | part-time RB | Justin Fields depth player | good efficiency | 4.5+ YPA | Justin Fields productive | Justin Fields rushing | Justin Fields quarterback rushing | QB rushing stats | dual threat QB | mobile QB | running quarterback"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "Player: Josh Allen | Rush Yards: 371 | Attempts: 70 | TDs: 10 | 20+ Yard Runs: 3 | 40+ Yard Runs: 1 | Longest: 40 | First Downs: 29 | First Down %: 41.4% | Fumbles: 5 | part-time RB | Josh Allen depth player | high TD producer | 10+ rushing TDs | Josh Allen goal line back | good efficiency | 4.5+ YPA | Josh Allen productive | fumble prone | ball security issues | Josh Allen risky | Josh Allen rushing | Josh Allen quarterback rushing | QB rushing stats | dual threat QB | mobile QB | running quarterback"
+    },
+    {
+      "chunk_id": 39,
+      "frame_id": 39,
+      "text": "Player: Chuba Hubbard | Rush Yards: 360 | Attempts: 94 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 18 | First Down %: 19.2% | Fumbles: 0 | part-time RB | Chuba Hubbard depth player | Chuba Hubbard rushing | Chuba Hubbard running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 40,
+      "frame_id": 40,
+      "text": "Player: Patrick Mahomes | Rush Yards: 348 | Attempts: 55 | TDs: 4 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 22 | First Downs: 25 | First Down %: 45.4% | Fumbles: 0 | part-time RB | Patrick Mahomes depth player | elite efficiency | 5.5+ YPA | Patrick Mahomes explosive | Patrick Mahomes rushing | Patrick Mahomes quarterback rushing | QB rushing stats | dual threat QB | mobile QB | running quarterback"
+    },
+    {
+      "chunk_id": 41,
+      "frame_id": 41,
+      "text": "Player: Justin Herbert | Rush Yards: 345 | Attempts: 54 | TDs: 1 | 20+ Yard Runs: 3 | 40+ Yard Runs: 1 | Longest: 41 | First Downs: 26 | First Down %: 48.2% | Fumbles: 2 | part-time RB | Justin Herbert depth player | elite efficiency | 5.5+ YPA | Justin Herbert explosive | Justin Herbert rushing | Justin Herbert quarterback rushing | QB rushing stats | dual threat QB | mobile QB | running quarterback"
+    },
+    {
+      "chunk_id": 42,
+      "frame_id": 42,
+      "text": "Player: Isiah Pacheco | Rush Yards: 345 | Attempts: 81 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 16 | First Downs: 21 | First Down %: 25.9% | Fumbles: 0 | part-time RB | Isiah Pacheco depth player | Isiah Pacheco rushing | Isiah Pacheco running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 43,
+      "frame_id": 43,
+      "text": "Player: Blake Corum | Rush Yards: 341 | Attempts: 82 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 21 | First Downs: 21 | First Down %: 25.6% | Fumbles: 0 | part-time RB | Blake Corum depth player | Blake Corum rushing | Blake Corum running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 44,
+      "frame_id": 44,
+      "text": "Player: Emanuel Wilson | Rush Yards: 341 | Attempts: 85 | TDs: 3 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 22 | First Down %: 25.9% | Fumbles: 0 | part-time RB | Emanuel Wilson depth player | Emanuel Wilson rushing | Emanuel Wilson quarterback rushing | QB rushing stats | dual threat QB | mobile QB | running quarterback"
+    },
+    {
+      "chunk_id": 45,
+      "frame_id": 45,
+      "text": "Player: Kenneth Gainwell | Rush Yards: 336 | Attempts: 71 | TDs: 3 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 55 | First Downs: 23 | First Down %: 32.4% | Fumbles: 1 | part-time RB | Kenneth Gainwell depth player | good efficiency | 4.5+ YPA | Kenneth Gainwell productive | Kenneth Gainwell rushing | Kenneth Gainwell running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 46,
+      "frame_id": 46,
+      "text": "Player: Tyler Allgeier | Rush Yards: 324 | Attempts: 89 | TDs: 7 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 21 | First Downs: 25 | First Down %: 28.1% | Fumbles: 0 | part-time RB | Tyler Allgeier depth player | good TD producer | Tyler Allgeier scoring threat | Tyler Allgeier rushing | Tyler Allgeier running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 47,
+      "frame_id": 47,
+      "text": "Player: Jaxson Dart | Rush Yards: 317 | Attempts: 57 | TDs: 7 | 20+ Yard Runs: 3 | 40+ Yard Runs: 0 | Longest: 24 | First Downs: 26 | First Down %: 45.6% | Fumbles: 2 | part-time RB | Jaxson Dart depth player | good TD producer | Jaxson Dart scoring threat | elite efficiency | 5.5+ YPA | Jaxson Dart explosive | Jaxson Dart rushing | Jaxson Dart running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 48,
+      "frame_id": 48,
+      "text": "Player: Omarion Hampton | Rush Yards: 314 | Attempts: 66 | TDs: 2 | 20+ Yard Runs: 2 | 40+ Yard Runs: 1 | Longest: 54 | First Downs: 17 | First Down %: 25.8% | Fumbles: 0 | part-time RB | Omarion Hampton depth player | good efficiency | 4.5+ YPA | Omarion Hampton productive | Omarion Hampton rushing | Omarion Hampton running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 49,
+      "frame_id": 49,
+      "text": "Player: Drake Maye | Rush Yards: 307 | Attempts: 75 | TDs: 2 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 28 | First Downs: 23 | First Down %: 30.7% | Fumbles: 2 | part-time RB | Drake Maye depth player | Drake Maye rushing | Drake Maye quarterback rushing | QB rushing stats | dual threat QB | mobile QB | running quarterback"
+    },
+    {
+      "chunk_id": 50,
+      "frame_id": 50,
+      "text": "Player: Brian Robinson | Rush Yards: 302 | Attempts: 64 | TDs: 2 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 19 | First Downs: 16 | First Down %: 25% | Fumbles: 0 | part-time RB | Brian Robinson depth player | good efficiency | 4.5+ YPA | Brian Robinson productive | Brian Robinson rushing | Brian Robinson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 51,
+      "frame_id": 51,
+      "text": "Player: Jalen Hurts | Rush Yards: 298 | Attempts: 80 | TDs: 8 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 29 | First Downs: 32 | First Down %: 40% | Fumbles: 3 | part-time RB | Jalen Hurts depth player | good TD producer | Jalen Hurts scoring threat | fumble prone | ball security issues | Jalen Hurts risky | Jalen Hurts rushing | Jalen Hurts quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 52,
+      "frame_id": 52,
+      "text": "Player: Aaron Jones | Rush Yards: 297 | Attempts: 61 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 31 | First Downs: 13 | First Down %: 21.3% | Fumbles: 0 | part-time RB | Aaron Jones depth player | good efficiency | 4.5+ YPA | Aaron Jones productive | Aaron Jones rushing | Aaron Jones quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 53,
+      "frame_id": 53,
+      "text": "Player: Caleb Williams | Rush Yards: 293 | Attempts: 56 | TDs: 3 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 29 | First Downs: 18 | First Down %: 32.1% | Fumbles: 5 | part-time RB | Caleb Williams depth player | good efficiency | 4.5+ YPA | Caleb Williams productive | fumble prone | ball security issues | Caleb Williams risky | Caleb Williams rushing | Caleb Williams quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 54,
+      "frame_id": 54,
+      "text": "Player: Rhamondre Stevenson | Rush Yards: 284 | Attempts: 89 | TDs: 3 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 22 | First Downs: 13 | First Down %: 14.6% | Fumbles: 2 | part-time RB | Rhamondre Stevenson depth player | poor efficiency | below 3.5 YPA | Rhamondre Stevenson struggling | Rhamondre Stevenson rushing | Rhamondre Stevenson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 55,
+      "frame_id": 55,
+      "text": "Player: Chris Rodriguez Jr. | Rush Yards: 279 | Attempts: 60 | TDs: 3 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 48 | First Downs: 19 | First Down %: 31.7% | Fumbles: 0 | part-time RB | Chris Rodriguez Jr. depth player | good efficiency | 4.5+ YPA | Chris Rodriguez Jr. productive | Chris Rodriguez Jr. rushing | Chris Rodriguez Jr. running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 56,
+      "frame_id": 56,
+      "text": "Player: Sean Tucker | Rush Yards: 277 | Attempts: 63 | TDs: 4 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 43 | First Downs: 16 | First Down %: 25.4% | Fumbles: 1 | part-time RB | Sean Tucker depth player | Sean Tucker rushing | Sean Tucker running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 57,
+      "frame_id": 57,
+      "text": "Player: Jayden Daniels | Rush Yards: 262 | Attempts: 54 | TDs: 2 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 18 | First Downs: 13 | First Down %: 24.1% | Fumbles: 1 | part-time RB | Jayden Daniels depth player | good efficiency | 4.5+ YPA | Jayden Daniels productive | Jayden Daniels rushing | Jayden Daniels quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 58,
+      "frame_id": 58,
+      "text": "Player: Brashard Smith | Rush Yards: 255 | Attempts: 67 | TDs: 3 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 19 | First Down %: 28.4% | Fumbles: 0 | part-time RB | Brashard Smith depth player | Brashard Smith rushing | Brashard Smith quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 59,
+      "frame_id": 59,
+      "text": "Player: RJ Harvey | Rush Yards: 244 | Attempts: 61 | TDs: 2 | 20+ Yard Runs: 2 | 40+ Yard Runs: 2 | Longest: 50 | First Downs: 9 | First Down %: 14.8% | Fumbles: 0 | part-time RB | RJ Harvey depth player | RJ Harvey rushing | RJ Harvey running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 60,
+      "frame_id": 60,
+      "text": "Player: Emari Demercado | Rush Yards: 241 | Attempts: 31 | TDs: 0 | 20+ Yard Runs: 2 | 40+ Yard Runs: 2 | Longest: 71 | First Downs: 6 | First Down %: 19.4% | Fumbles: 1 | part-time RB | Emari Demercado depth player | elite efficiency | 5.5+ YPA | Emari Demercado explosive | Emari Demercado rushing | Emari Demercado running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 61,
+      "frame_id": 61,
+      "text": "Player: Devin Singletary | Rush Yards: 238 | Attempts: 74 | TDs: 2 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 15 | First Down %: 20.3% | Fumbles: 0 | part-time RB | Devin Singletary depth player | poor efficiency | below 3.5 YPA | Devin Singletary struggling | Devin Singletary rushing | Devin Singletary running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 62,
+      "frame_id": 62,
+      "text": "Player: Bucky Irving | Rush Yards: 237 | Attempts: 71 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 16 | First Downs: 7 | First Down %: 9.9% | Fumbles: 1 | part-time RB | Bucky Irving depth player | poor efficiency | below 3.5 YPA | Bucky Irving struggling | Bucky Irving rushing | Bucky Irving running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 63,
+      "frame_id": 63,
+      "text": "Player: Lamar Jackson | Rush Yards: 237 | Attempts: 46 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 19 | First Downs: 15 | First Down %: 32.6% | Fumbles: 1 | part-time RB | Lamar Jackson depth player | good efficiency | 4.5+ YPA | Lamar Jackson productive | Lamar Jackson rushing | Lamar Jackson quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 64,
+      "frame_id": 64,
+      "text": "Player: Baker Mayfield | Rush Yards: 216 | Attempts: 31 | TDs: 1 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 33 | First Downs: 17 | First Down %: 54.8% | Fumbles: 1 | part-time RB | Baker Mayfield depth player | elite efficiency | 5.5+ YPA | Baker Mayfield explosive | Baker Mayfield rushing | Baker Mayfield quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 65,
+      "frame_id": 65,
+      "text": "Player: Bo Nix | Rush Yards: 213 | Attempts: 50 | TDs: 3 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 25 | First Downs: 13 | First Down %: 26% | Fumbles: 1 | part-time RB | Bo Nix depth player | Bo Nix rushing | Bo Nix quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 66,
+      "frame_id": 66,
+      "text": "Player: Trevor Lawrence | Rush Yards: 210 | Attempts: 54 | TDs: 5 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 21 | First Downs: 23 | First Down %: 42.6% | Fumbles: 2 | part-time RB | Trevor Lawrence depth player | Trevor Lawrence rushing | Trevor Lawrence quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 67,
+      "frame_id": 67,
+      "text": "Player: Samaje Perine | Rush Yards: 198 | Attempts: 32 | TDs: 1 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 32 | First Downs: 15 | First Down %: 46.9% | Fumbles: 1 | elite efficiency | 5.5+ YPA | Samaje Perine explosive | Samaje Perine rushing | Samaje Perine running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 68,
+      "frame_id": 68,
+      "text": "Player: Bam Knight | Rush Yards: 193 | Attempts: 63 | TDs: 4 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 17 | First Downs: 16 | First Down %: 25.4% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Bam Knight struggling | Bam Knight rushing | Bam Knight running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 69,
+      "frame_id": 69,
+      "text": "Player: Marcus Mariota | Rush Yards: 193 | Attempts: 27 | TDs: 1 | 20+ Yard Runs: 4 | 40+ Yard Runs: 1 | Longest: 44 | First Downs: 7 | First Down %: 25.9% | Fumbles: 2 | elite efficiency | 5.5+ YPA | Marcus Mariota explosive | Marcus Mariota rushing | Marcus Mariota running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 70,
+      "frame_id": 70,
+      "text": "Player: Kendre Miller | Rush Yards: 193 | Attempts: 47 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 18 | First Downs: 9 | First Down %: 19.2% | Fumbles: 0 | Kendre Miller rushing | Kendre Miller running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 71,
+      "frame_id": 71,
+      "text": "Player: C.J. Stroud | Rush Yards: 189 | Attempts: 29 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 30 | First Downs: 14 | First Down %: 48.3% | Fumbles: 0 | elite efficiency | 5.5+ YPA | C.J. Stroud explosive | C.J. Stroud rushing | C.J. Stroud quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 72,
+      "frame_id": 72,
+      "text": "Player: Jeremy McNichols | Rush Yards: 181 | Attempts: 26 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 40 | First Downs: 10 | First Down %: 38.5% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Jeremy McNichols explosive | Jeremy McNichols rushing | Jeremy McNichols running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 73,
+      "frame_id": 73,
+      "text": "Player: Tank Bigsby | Rush Yards: 176 | Attempts: 23 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 29 | First Downs: 8 | First Down %: 34.8% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Tank Bigsby explosive | Tank Bigsby rushing | Tank Bigsby running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 74,
+      "frame_id": 74,
+      "text": "Player: Kyler Murray | Rush Yards: 173 | Attempts: 29 | TDs: 1 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 30 | First Downs: 10 | First Down %: 34.5% | Fumbles: 1 | elite efficiency | 5.5+ YPA | Kyler Murray explosive | Kyler Murray rushing | Kyler Murray quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 75,
+      "frame_id": 75,
+      "text": "Player: Spencer Rattler | Rush Yards: 167 | Attempts: 31 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 17 | First Down %: 54.8% | Fumbles: 1 | good efficiency | 4.5+ YPA | Spencer Rattler productive | Spencer Rattler rushing | Spencer Rattler quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 76,
+      "frame_id": 76,
+      "text": "Player: Ollie Gordon II | Rush Yards: 164 | Attempts: 50 | TDs: 2 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 20 | First Downs: 17 | First Down %: 34% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Ollie Gordon II struggling | Ollie Gordon II rushing | Ollie Gordon II running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 77,
+      "frame_id": 77,
+      "text": "Player: Jordan Love | Rush Yards: 164 | Attempts: 41 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 25 | First Downs: 11 | First Down %: 26.8% | Fumbles: 2 | Jordan Love rushing | Jordan Love quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 78,
+      "frame_id": 78,
+      "text": "Player: Trey Benson | Rush Yards: 160 | Attempts: 29 | TDs: 0 | 20+ Yard Runs: 2 | 40+ Yard Runs: 1 | Longest: 52 | First Downs: 4 | First Down %: 13.8% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Trey Benson explosive | Trey Benson rushing | Trey Benson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 79,
+      "frame_id": 79,
+      "text": "Player: Daniel Jones | Rush Yards: 159 | Attempts: 43 | TDs: 5 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 19 | First Downs: 19 | First Down %: 44.2% | Fumbles: 1 | Daniel Jones rushing | Daniel Jones quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 80,
+      "frame_id": 80,
+      "text": "Player: Tyjae Spears | Rush Yards: 159 | Attempts: 37 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 41 | First Downs: 6 | First Down %: 16.2% | Fumbles: 0 | Tyjae Spears rushing | Tyjae Spears running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 81,
+      "frame_id": 81,
+      "text": "Player: Isaiah Davis | Rush Yards: 137 | Attempts: 26 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 50 | First Downs: 3 | First Down %: 11.5% | Fumbles: 0 | good efficiency | 4.5+ YPA | Isaiah Davis productive | Isaiah Davis rushing | Isaiah Davis running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 82,
+      "frame_id": 82,
+      "text": "Player: Michael Carter | Rush Yards: 135 | Attempts: 45 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 9 | First Down %: 20% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Michael Carter struggling | Michael Carter rushing | Michael Carter running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 83,
+      "frame_id": 83,
+      "text": "Player: Keaton Mitchell | Rush Yards: 134 | Attempts: 23 | TDs: 0 | 20+ Yard Runs: 2 | 40+ Yard Runs: 0 | Longest: 25 | First Downs: 7 | First Down %: 30.4% | Fumbles: 1 | elite efficiency | 5.5+ YPA | Keaton Mitchell explosive | Keaton Mitchell rushing | Keaton Mitchell running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 84,
+      "frame_id": 84,
+      "text": "Player: Dak Prescott | Rush Yards: 124 | Attempts: 41 | TDs: 2 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 9 | First Down %: 22% | Fumbles: 2 | poor efficiency | below 3.5 YPA | Dak Prescott struggling | Dak Prescott rushing | Dak Prescott quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 85,
+      "frame_id": 85,
+      "text": "Player: J.J. McCarthy | Rush Yards: 120 | Attempts: 23 | TDs: 2 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 26 | First Downs: 6 | First Down %: 26.1% | Fumbles: 3 | good efficiency | 4.5+ YPA | J.J. McCarthy productive | fumble prone | ball security issues | J.J. McCarthy risky | J.J. McCarthy rushing | J.J. McCarthy running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 86,
+      "frame_id": 86,
+      "text": "Player: Miles Sanders | Rush Yards: 117 | Attempts: 20 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 49 | First Downs: 5 | First Down %: 25% | Fumbles: 1 | elite efficiency | 5.5+ YPA | Miles Sanders explosive | Miles Sanders rushing | Miles Sanders running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 87,
+      "frame_id": 87,
+      "text": "Player: Cam Ward | Rush Yards: 116 | Attempts: 27 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 20 | First Downs: 10 | First Down %: 37% | Fumbles: 1 | Cam Ward rushing | Cam Ward quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 88,
+      "frame_id": 88,
+      "text": "Player: Geno Smith | Rush Yards: 110 | Attempts: 37 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 20 | First Downs: 13 | First Down %: 35.1% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Geno Smith struggling | Geno Smith rushing | Geno Smith quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 89,
+      "frame_id": 89,
+      "text": "Player: Antonio Gibson | Rush Yards: 106 | Attempts: 25 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 21 | First Downs: 6 | First Down %: 24% | Fumbles: 1 | Antonio Gibson rushing | Antonio Gibson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 90,
+      "frame_id": 90,
+      "text": "Player: Russell Wilson | Rush Yards: 106 | Attempts: 18 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 6 | First Down %: 33.3% | Fumbles: 1 | elite efficiency | 5.5+ YPA | Russell Wilson explosive | Russell Wilson rushing | Russell Wilson quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 91,
+      "frame_id": 91,
+      "text": "Player: Jacoby Brissett | Rush Yards: 100 | Attempts: 24 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 11 | First Down %: 45.8% | Fumbles: 1 | Jacoby Brissett rushing | Jacoby Brissett running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 92,
+      "frame_id": 92,
+      "text": "Player: Tyrod Taylor | Rush Yards: 99 | Attempts: 19 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 6 | First Down %: 31.6% | Fumbles: 0 | good efficiency | 4.5+ YPA | Tyrod Taylor productive | Tyrod Taylor rushing | Tyrod Taylor running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 93,
+      "frame_id": 93,
+      "text": "Player: Bryce Young | Rush Yards: 98 | Attempts: 27 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 22 | First Downs: 9 | First Down %: 33.3% | Fumbles: 2 | Bryce Young rushing | Bryce Young quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 94,
+      "frame_id": 94,
+      "text": "Player: Malik Davis | Rush Yards: 97 | Attempts: 13 | TDs: 1 | 20+ Yard Runs: 2 | 40+ Yard Runs: 1 | Longest: 43 | First Downs: 4 | First Down %: 30.8% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Malik Davis explosive | Malik Davis rushing | Malik Davis running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 95,
+      "frame_id": 95,
+      "text": "Player: James Conner | Rush Yards: 95 | Attempts: 32 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 12 | First Downs: 7 | First Down %: 21.9% | Fumbles: 1 | poor efficiency | below 3.5 YPA | James Conner struggling | James Conner rushing | James Conner running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 96,
+      "frame_id": 96,
+      "text": "Player: Trevor Etienne | Rush Yards: 94 | Attempts: 20 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 22 | First Downs: 6 | First Down %: 30% | Fumbles: 0 | good efficiency | 4.5+ YPA | Trevor Etienne productive | Trevor Etienne rushing | Trevor Etienne running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 97,
+      "frame_id": 97,
+      "text": "Player: Justice Hill | Rush Yards: 93 | Attempts: 18 | TDs: 2 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 71 | First Downs: 4 | First Down %: 22.2% | Fumbles: 1 | good efficiency | 4.5+ YPA | Justice Hill productive | Justice Hill rushing | Justice Hill running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 98,
+      "frame_id": 98,
+      "text": "Player: Tyler Huntley | Rush Yards: 92 | Attempts: 11 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 29 | First Downs: 6 | First Down %: 54.6% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Tyler Huntley explosive | Tyler Huntley rushing | Tyler Huntley running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 99,
+      "frame_id": 99,
+      "text": "Player: Raheem Mostert | Rush Yards: 92 | Attempts: 20 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 37 | First Downs: 5 | First Down %: 25% | Fumbles: 0 | good efficiency | 4.5+ YPA | Raheem Mostert productive | Raheem Mostert rushing | Raheem Mostert running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 100,
+      "frame_id": 100,
+      "text": "Player: Ty Johnson | Rush Yards: 90 | Attempts: 21 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 17 | First Downs: 3 | First Down %: 14.3% | Fumbles: 0 | Ty Johnson rushing | Ty Johnson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 101,
+      "frame_id": 101,
+      "text": "Player: Dylan Sampson | Rush Yards: 89 | Attempts: 30 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 26 | First Downs: 7 | First Down %: 18.4% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Dylan Sampson struggling | Dylan Sampson rushing | Dylan Sampson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 102,
+      "frame_id": 102,
+      "text": "Player: Braelon Allen | Rush Yards: 87 | Attempts: 29 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 8 | First Downs: 2 | First Down %: 6.9% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Braelon Allen struggling | Braelon Allen rushing | Braelon Allen quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 103,
+      "frame_id": 103,
+      "text": "Player: Dillon Gabriel | Rush Yards: 86 | Attempts: 14 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 19 | First Downs: 4 | First Down %: 28.6% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Dillon Gabriel explosive | Dillon Gabriel rushing | Dillon Gabriel running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 104,
+      "frame_id": 104,
+      "text": "Player: Xavier Worthy | Rush Yards: 86 | Attempts: 9 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 35 | First Downs: 4 | First Down %: 44.4% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Xavier Worthy explosive | Xavier Worthy rushing | Xavier Worthy running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 105,
+      "frame_id": 105,
+      "text": "Player: Malik Washington | Rush Yards: 78 | Attempts: 13 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 18 | First Downs: 3 | First Down %: 23.1% | Fumbles: 1 | elite efficiency | 5.5+ YPA | Malik Washington explosive | Malik Washington rushing | Malik Washington running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 106,
+      "frame_id": 106,
+      "text": "Player: Brandon Allen | Rush Yards: 76 | Attempts: 18 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 4 | First Down %: 22.2% | Fumbles: 1 | Brandon Allen rushing | Brandon Allen quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 107,
+      "frame_id": 107,
+      "text": "Player: Jaret Patterson | Rush Yards: 75 | Attempts: 21 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 3 | First Down %: 14.3% | Fumbles: 0 | Jaret Patterson rushing | Jaret Patterson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 108,
+      "frame_id": 108,
+      "text": "Player: Jerome Ford | Rush Yards: 73 | Attempts: 24 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 12 | First Downs: 5 | First Down %: 20.8% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jerome Ford struggling | Jerome Ford rushing | Jerome Ford running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 109,
+      "frame_id": 109,
+      "text": "Player: George Holani | Rush Yards: 73 | Attempts: 22 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 5 | First Down %: 22.7% | Fumbles: 1 | poor efficiency | below 3.5 YPA | George Holani struggling | George Holani rushing | George Holani running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 110,
+      "frame_id": 110,
+      "text": "Player: Terrell Jennings | Rush Yards: 73 | Attempts: 23 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 8 | First Down %: 34.8% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Terrell Jennings struggling | Terrell Jennings rushing | Terrell Jennings running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 111,
+      "frame_id": 111,
+      "text": "Player: Puka Nacua | Rush Yards: 73 | Attempts: 6 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 1 | Longest: 45 | First Downs: 3 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Puka Nacua explosive | Puka Nacua rushing | Puka Nacua running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 112,
+      "frame_id": 112,
+      "text": "Player: LeQuint Allen Jr. | Rush Yards: 70 | Attempts: 14 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 12 | First Downs: 5 | First Down %: 35.7% | Fumbles: 0 | good efficiency | 4.5+ YPA | LeQuint Allen Jr. productive | LeQuint Allen Jr. rushing | LeQuint Allen Jr. quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 113,
+      "frame_id": 113,
+      "text": "Player: Michael Penix Jr. | Rush Yards: 70 | Attempts: 21 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 5 | First Down %: 23.8% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Michael Penix Jr. struggling | Michael Penix Jr. rushing | Michael Penix Jr. quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 114,
+      "frame_id": 114,
+      "text": "Player: Taysom Hill | Rush Yards: 69 | Attempts: 32 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 29 | First Downs: 12 | First Down %: 37.5% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Taysom Hill struggling | Taysom Hill rushing | Taysom Hill running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 115,
+      "frame_id": 115,
+      "text": "Player: Zavier Scott | Rush Yards: 69 | Attempts: 21 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 3 | First Down %: 14.3% | Fumbles: 2 | poor efficiency | below 3.5 YPA | Zavier Scott struggling | Zavier Scott rushing | Zavier Scott running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 116,
+      "frame_id": 116,
+      "text": "Player: Malachi Corley | Rush Yards: 68 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 31 | First Downs: 4 | First Down %: 80% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Malachi Corley explosive | Malachi Corley rushing | Malachi Corley running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 117,
+      "frame_id": 117,
+      "text": "Player: DJ Giddens | Rush Yards: 66 | Attempts: 18 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 12 | First Downs: 3 | First Down %: 16.7% | Fumbles: 0 | DJ Giddens rushing | DJ Giddens running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 118,
+      "frame_id": 118,
+      "text": "Player: Jaydon Blue | Rush Yards: 65 | Attempts: 22 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 3 | First Down %: 13.6% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Jaydon Blue struggling | Jaydon Blue rushing | Jaydon Blue running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 119,
+      "frame_id": 119,
+      "text": "Player: KaVontae Turpin | Rush Yards: 63 | Attempts: 12 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 25 | First Downs: 3 | First Down %: 25% | Fumbles: 1 | good efficiency | 4.5+ YPA | KaVontae Turpin productive | KaVontae Turpin rushing | KaVontae Turpin running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 120,
+      "frame_id": 120,
+      "text": "Player: Najee Harris | Rush Yards: 61 | Attempts: 15 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 7 | First Downs: 3 | First Down %: 20% | Fumbles: 0 | Najee Harris rushing | Najee Harris running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 121,
+      "frame_id": 121,
+      "text": "Player: Mac Jones | Rush Yards: 61 | Attempts: 31 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 13 | First Downs: 10 | First Down %: 32.3% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Mac Jones struggling | Mac Jones rushing | Mac Jones quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 122,
+      "frame_id": 122,
+      "text": "Player: Devin Neal | Rush Yards: 61 | Attempts: 17 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 2 | First Down %: 11.8% | Fumbles: 0 | Devin Neal rushing | Devin Neal running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 123,
+      "frame_id": 123,
+      "text": "Player: Tahj Washington | Rush Yards: 60 | Attempts: 9 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 12 | First Downs: 3 | First Down %: 33.3% | Fumbles: 1 | elite efficiency | 5.5+ YPA | Tahj Washington explosive | Tahj Washington rushing | Tahj Washington running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 124,
+      "frame_id": 124,
+      "text": "Player: AJ Dillon | Rush Yards: 60 | Attempts: 12 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 4 | First Down %: 33.3% | Fumbles: 0 | good efficiency | 4.5+ YPA | AJ Dillon productive | AJ Dillon rushing | AJ Dillon running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 125,
+      "frame_id": 125,
+      "text": "Player: Keilan Robinson | Rush Yards: 58 | Attempts: 22 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 2 | First Down %: 9.1% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Keilan Robinson struggling | Keilan Robinson rushing | Keilan Robinson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 126,
+      "frame_id": 126,
+      "text": "Player: DJ Moore | Rush Yards: 57 | Attempts: 13 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 17 | First Downs: 3 | First Down %: 23.1% | Fumbles: 0 | DJ Moore rushing | DJ Moore running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 127,
+      "frame_id": 127,
+      "text": "Player: Carson Wentz | Rush Yards: 57 | Attempts: 11 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 16 | First Downs: 3 | First Down %: 27.3% | Fumbles: 1 | good efficiency | 4.5+ YPA | Carson Wentz productive | Carson Wentz rushing | Carson Wentz running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 128,
+      "frame_id": 128,
+      "text": "Player: Marvin Mims Jr. | Rush Yards: 56 | Attempts: 8 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 16 | First Downs: 3 | First Down %: 37.5% | Fumbles: 1 | elite efficiency | 5.5+ YPA | Marvin Mims Jr. explosive | Marvin Mims Jr. rushing | Marvin Mims Jr. running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 129,
+      "frame_id": 129,
+      "text": "Player: Deebo Samuel Sr. | Rush Yards: 53 | Attempts: 11 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 19 | First Downs: 3 | First Down %: 27.3% | Fumbles: 0 | good efficiency | 4.5+ YPA | Deebo Samuel Sr. productive | Deebo Samuel Sr. rushing | Deebo Samuel Sr. running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 130,
+      "frame_id": 130,
+      "text": "Player: Sam Darnold | Rush Yards: 49 | Attempts: 16 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 24 | First Downs: 4 | First Down %: 25% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Sam Darnold struggling | Sam Darnold rushing | Sam Darnold quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 131,
+      "frame_id": 131,
+      "text": "Player: Jaylen Wright | Rush Yards: 49 | Attempts: 15 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 18 | First Downs: 2 | First Down %: 13.3% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jaylen Wright struggling | Jaylen Wright rushing | Jaylen Wright running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 132,
+      "frame_id": 132,
+      "text": "Player: Davis Mills | Rush Yards: 48 | Attempts: 12 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 1 | First Down %: 8.3% | Fumbles: 1 | Davis Mills rushing | Davis Mills running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 133,
+      "frame_id": 133,
+      "text": "Player: Jared Goff | Rush Yards: 46 | Attempts: 13 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 24 | First Downs: 4 | First Down %: 30.8% | Fumbles: 1 | Jared Goff rushing | Jared Goff quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 134,
+      "frame_id": 134,
+      "text": "Player: Mark Andrews | Rush Yards: 45 | Attempts: 9 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 35 | First Downs: 6 | First Down %: 66.7% | Fumbles: 0 | good efficiency | 4.5+ YPA | Mark Andrews productive | Mark Andrews rushing | Mark Andrews running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 135,
+      "frame_id": 135,
+      "text": "Player: Matthew Golden | Rush Yards: 45 | Attempts: 8 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 3 | First Down %: 37.5% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Matthew Golden explosive | Matthew Golden rushing | Matthew Golden running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 136,
+      "frame_id": 136,
+      "text": "Player: Will Shipley | Rush Yards: 45 | Attempts: 11 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 20 | First Downs: 4 | First Down %: 36.4% | Fumbles: 0 | Will Shipley rushing | Will Shipley running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 137,
+      "frame_id": 137,
+      "text": "Player: Ray Davis | Rush Yards: 44 | Attempts: 24 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 8 | First Downs: 2 | First Down %: 8.3% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Ray Davis struggling | Ray Davis rushing | Ray Davis running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 138,
+      "frame_id": 138,
+      "text": "Player: Ashton Dulin | Rush Yards: 44 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 22 | First Downs: 2 | First Down %: 66.7% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Ashton Dulin explosive | Ashton Dulin rushing | Ashton Dulin running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 139,
+      "frame_id": 139,
+      "text": "Player: Jaylon Johnson | Rush Yards: 44 | Attempts: 7 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 2 | First Down %: 28.6% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Jaylon Johnson explosive | Jaylon Johnson rushing | Jaylon Johnson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 140,
+      "frame_id": 140,
+      "text": "Player: Austin Ekeler | Rush Yards: 43 | Attempts: 14 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 3 | First Down %: 21.4% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Austin Ekeler struggling | Austin Ekeler rushing | Austin Ekeler running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 141,
+      "frame_id": 141,
+      "text": "Player: Zay Flowers | Rush Yards: 42 | Attempts: 8 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 2 | First Down %: 25% | Fumbles: 0 | good efficiency | 4.5+ YPA | Zay Flowers productive | Zay Flowers rushing | Zay Flowers running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 142,
+      "frame_id": 142,
+      "text": "Player: Ameer Abdullah | Rush Yards: 40 | Attempts: 8 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 3 | First Down %: 37.5% | Fumbles: 0 | good efficiency | 4.5+ YPA | Ameer Abdullah productive | Ameer Abdullah rushing | Ameer Abdullah running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 143,
+      "frame_id": 143,
+      "text": "Player: Jake Browning | Rush Yards: 39 | Attempts: 9 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 13 | First Downs: 5 | First Down %: 55.6% | Fumbles: 0 | Jake Browning rushing | Jake Browning running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 144,
+      "frame_id": 144,
+      "text": "Player: Julius Chestnut | Rush Yards: 39 | Attempts: 10 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 27 | First Downs: 3 | First Down %: 30% | Fumbles: 0 | Julius Chestnut rushing | Julius Chestnut running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 145,
+      "frame_id": 145,
+      "text": "Player: Brock Purdy | Rush Yards: 39 | Attempts: 14 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 6 | First Down %: 42.9% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Brock Purdy struggling | Brock Purdy rushing | Brock Purdy running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 146,
+      "frame_id": 146,
+      "text": "Player: Tua Tagovailoa | Rush Yards: 38 | Attempts: 14 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 8 | First Downs: 1 | First Down %: 7.1% | Fumbles: 4 | poor efficiency | below 3.5 YPA | Tua Tagovailoa struggling | fumble prone | ball security issues | Tua Tagovailoa risky | Tua Tagovailoa rushing | Tua Tagovailoa quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 147,
+      "frame_id": 147,
+      "text": "Player: Bralen Trice | Rush Yards: 37 | Attempts: 5 | TDs: 1 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 22 | First Downs: 2 | First Down %: 40% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Bralen Trice explosive | Bralen Trice rushing | Bralen Trice running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 148,
+      "frame_id": 148,
+      "text": "Player: Jaxon Smith-Njigba | Rush Yards: 37 | Attempts: 6 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 2 | First Down %: 33.3% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Jaxon Smith-Njigba explosive | Jaxon Smith-Njigba rushing | Jaxon Smith-Njigba quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 149,
+      "frame_id": 149,
+      "text": "Player: DJ Tucker | Rush Yards: 36 | Attempts: 6 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | elite efficiency | 5.5+ YPA | DJ Tucker explosive | DJ Tucker rushing | DJ Tucker running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 150,
+      "frame_id": 150,
+      "text": "Player: Bo Melton | Rush Yards: 35 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 17 | First Downs: 2 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Bo Melton explosive | Bo Melton rushing | Bo Melton running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 151,
+      "frame_id": 151,
+      "text": "Player: Tyler Shough | Rush Yards: 33 | Attempts: 15 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 3 | First Down %: 20% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Tyler Shough struggling | Tyler Shough rushing | Tyler Shough running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 152,
+      "frame_id": 152,
+      "text": "Player: Rashid Shaheed | Rush Yards: 32 | Attempts: 6 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 10 | First Downs: 2 | First Down %: 33.3% | Fumbles: 0 | good efficiency | 4.5+ YPA | Rashid Shaheed productive | Rashid Shaheed rushing | Rashid Shaheed running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 153,
+      "frame_id": 153,
+      "text": "Player: Chris Brooks | Rush Yards: 31 | Attempts: 11 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 10 | First Downs: 2 | First Down %: 18.2% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Chris Brooks struggling | Chris Brooks rushing | Chris Brooks running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 154,
+      "frame_id": 154,
+      "text": "Player: Joe Flacco | Rush Yards: 31 | Attempts: 16 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 13 | First Downs: 7 | First Down %: 43.8% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Joe Flacco struggling | Joe Flacco rushing | Joe Flacco quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 155,
+      "frame_id": 155,
+      "text": "Player: Hassan Haskins | Rush Yards: 30 | Attempts: 12 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 10 | First Downs: 2 | First Down %: 16.7% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Hassan Haskins struggling | Hassan Haskins rushing | Hassan Haskins running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 156,
+      "frame_id": 156,
+      "text": "Player: Isaiah Williams | Rush Yards: 29 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 1 | 40+ Yard Runs: 0 | Longest: 25 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Isaiah Williams explosive | Isaiah Williams rushing | Isaiah Williams quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 157,
+      "frame_id": 157,
+      "text": "Player: Tahj Brooks | Rush Yards: 28 | Attempts: 9 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 7 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Tahj Brooks struggling | Tahj Brooks rushing | Tahj Brooks running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 158,
+      "frame_id": 158,
+      "text": "Player: Savion Williams | Rush Yards: 28 | Attempts: 9 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 16 | First Downs: 1 | First Down %: 11.1% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Savion Williams struggling | Savion Williams rushing | Savion Williams quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 159,
+      "frame_id": 159,
+      "text": "Player: Dyami Brown | Rush Yards: 26 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 2 | First Down %: 40% | Fumbles: 0 | good efficiency | 4.5+ YPA | Dyami Brown productive | Dyami Brown rushing | Dyami Brown running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 160,
+      "frame_id": 160,
+      "text": "Player: Dameon Pierce | Rush Yards: 26 | Attempts: 10 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 10 | First Downs: 1 | First Down %: 10% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Dameon Pierce struggling | Dameon Pierce rushing | Dameon Pierce running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 161,
+      "frame_id": 161,
+      "text": "Player: Aaron Rodgers | Rush Yards: 26 | Attempts: 14 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 10 | First Downs: 2 | First Down %: 14.3% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Aaron Rodgers struggling | Aaron Rodgers rushing | Aaron Rodgers quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 162,
+      "frame_id": 162,
+      "text": "Player: Ryan Flournoy | Rush Yards: 25 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 12 | First Downs: 2 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Ryan Flournoy explosive | Ryan Flournoy rushing | Ryan Flournoy running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 163,
+      "frame_id": 163,
+      "text": "Player: Zamir White | Rush Yards: 25 | Attempts: 10 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Zamir White struggling | Zamir White rushing | Zamir White running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 164,
+      "frame_id": 164,
+      "text": "Player: Olamide Zaccheaus | Rush Yards: 25 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 12 | First Downs: 1 | First Down %: 25% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Olamide Zaccheaus explosive | Olamide Zaccheaus rushing | Olamide Zaccheaus running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 165,
+      "frame_id": 165,
+      "text": "Player: Elijah Moore | Rush Yards: 24 | Attempts: 6 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 3 | First Down %: 50% | Fumbles: 0 | Elijah Moore rushing | Elijah Moore running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 166,
+      "frame_id": 166,
+      "text": "Player: Jameis Winston | Rush Yards: 23 | Attempts: 7 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 3 | First Down %: 42.9% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jameis Winston struggling | Jameis Winston rushing | Jameis Winston running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 167,
+      "frame_id": 167,
+      "text": "Player: Luther Burden III | Rush Yards: 21 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 2 | First Down %: 66.7% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Luther Burden III explosive | Luther Burden III rushing | Luther Burden III running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 168,
+      "frame_id": 168,
+      "text": "Player: Rashee Rice | Rush Yards: 20 | Attempts: 5 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 7 | First Downs: 2 | First Down %: 40% | Fumbles: 1 | Rashee Rice rushing | Rashee Rice running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 169,
+      "frame_id": 169,
+      "text": "Player: Michael Warren II | Rush Yards: 20 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 10 | First Downs: 1 | First Down %: 20% | Fumbles: 0 | Michael Warren II rushing | Michael Warren II running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 170,
+      "frame_id": 170,
+      "text": "Player: Cam Akers | Rush Yards: 19 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 1 | First Down %: 20% | Fumbles: 0 | Cam Akers rushing | Cam Akers running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 171,
+      "frame_id": 171,
+      "text": "Player: Jaleel McLaughlin | Rush Yards: 19 | Attempts: 7 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 5 | First Downs: 2 | First Down %: 28.6% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jaleel McLaughlin struggling | Jaleel McLaughlin rushing | Jaleel McLaughlin running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 172,
+      "frame_id": 172,
+      "text": "Player: Khalif Raymond | Rush Yards: 19 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 10 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Khalif Raymond explosive | Khalif Raymond rushing | Khalif Raymond running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 173,
+      "frame_id": 173,
+      "text": "Player: Sterling Shepard | Rush Yards: 19 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 1 | First Down %: 25% | Fumbles: 0 | good efficiency | 4.5+ YPA | Sterling Shepard productive | Sterling Shepard rushing | Sterling Shepard running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 174,
+      "frame_id": 174,
+      "text": "Player: Malik Willis | Rush Yards: 19 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 16 | First Downs: 2 | First Down %: 66.7% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Malik Willis explosive | Malik Willis rushing | Malik Willis running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 175,
+      "frame_id": 175,
+      "text": "Player: Dare Ogunbowale | Rush Yards: 18 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Dare Ogunbowale explosive | Dare Ogunbowale rushing | Dare Ogunbowale running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 176,
+      "frame_id": 176,
+      "text": "Player: Isaiah Bond | Rush Yards: 17 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Isaiah Bond explosive | Isaiah Bond rushing | Isaiah Bond running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 177,
+      "frame_id": 177,
+      "text": "Player: Dylan Drummond | Rush Yards: 17 | Attempts: 8 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Dylan Drummond struggling | Dylan Drummond rushing | Dylan Drummond running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 178,
+      "frame_id": 178,
+      "text": "Player: Roschon Johnson | Rush Yards: 17 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Roschon Johnson explosive | Roschon Johnson rushing | Roschon Johnson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 179,
+      "frame_id": 179,
+      "text": "Player: Tez Johnson | Rush Yards: 17 | Attempts: 6 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Tez Johnson struggling | Tez Johnson rushing | Tez Johnson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 180,
+      "frame_id": 180,
+      "text": "Player: Adam Prentice | Rush Yards: 17 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 8 | First Downs: 3 | First Down %: 75% | Fumbles: 0 | Adam Prentice rushing | Adam Prentice running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 181,
+      "frame_id": 181,
+      "text": "Player: Jonnu Smith | Rush Yards: 17 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 10 | First Downs: 1 | First Down %: 33.3% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Jonnu Smith explosive | Jonnu Smith rushing | Jonnu Smith quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 182,
+      "frame_id": 182,
+      "text": "Player: Jordan Addison | Rush Yards: 16 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 16 | First Downs: 1 | First Down %: 100% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Jordan Addison explosive | Jordan Addison rushing | Jordan Addison running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 183,
+      "frame_id": 183,
+      "text": "Player: DeMario Douglas | Rush Yards: 16 | Attempts: 6 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 14 | First Downs: 2 | First Down %: 33.3% | Fumbles: 0 | poor efficiency | below 3.5 YPA | DeMario Douglas struggling | DeMario Douglas rushing | DeMario Douglas running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 184,
+      "frame_id": 184,
+      "text": "Player: Brian Thomas Jr. | Rush Yards: 16 | Attempts: 2 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 2 | First Down %: 100% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Brian Thomas Jr. explosive | Brian Thomas Jr. rushing | Brian Thomas Jr. running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 185,
+      "frame_id": 185,
+      "text": "Player: British Brooks | Rush Yards: 15 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 2 | First Down %: 50% | Fumbles: 0 | British Brooks rushing | British Brooks running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 186,
+      "frame_id": 186,
+      "text": "Player: Greg Dortch | Rush Yards: 15 | Attempts: 7 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 1 | First Down %: 14.3% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Greg Dortch struggling | Greg Dortch rushing | Greg Dortch running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 187,
+      "frame_id": 187,
+      "text": "Player: Jalen Nailor | Rush Yards: 15 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 15 | First Downs: 1 | First Down %: 100% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Jalen Nailor explosive | Jalen Nailor rushing | Jalen Nailor running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 188,
+      "frame_id": 188,
+      "text": "Player: Shedeur Sanders | Rush Yards: 15 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 1 | First Down %: 25% | Fumbles: 0 | Shedeur Sanders rushing | Shedeur Sanders running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 189,
+      "frame_id": 189,
+      "text": "Player: Xavier Hutchinson | Rush Yards: 14 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Xavier Hutchinson explosive | Xavier Hutchinson rushing | Xavier Hutchinson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 190,
+      "frame_id": 190,
+      "text": "Player: Andrei Iosivas | Rush Yards: 14 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 5 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | good efficiency | 4.5+ YPA | Andrei Iosivas productive | Andrei Iosivas rushing | Andrei Iosivas running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 191,
+      "frame_id": 191,
+      "text": "Player: Clyde Edwards-Helaire | Rush Yards: 13 | Attempts: 7 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 7 | First Downs: 1 | First Down %: 14.3% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Clyde Edwards-Helaire struggling | Clyde Edwards-Helaire rushing | Clyde Edwards-Helaire running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 192,
+      "frame_id": 192,
+      "text": "Player: Eric Wilson II | Rush Yards: 13 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Eric Wilson II explosive | Eric Wilson II rushing | Eric Wilson II quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 193,
+      "frame_id": 193,
+      "text": "Player: Hunter Luepke | Rush Yards: 13 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 2 | First Down %: 66.7% | Fumbles: 0 | Hunter Luepke rushing | Hunter Luepke running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 194,
+      "frame_id": 194,
+      "text": "Player: Tyler Goodson | Rush Yards: 12 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Tyler Goodson struggling | Tyler Goodson rushing | Tyler Goodson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 195,
+      "frame_id": 195,
+      "text": "Player: Trey Lance | Rush Yards: 12 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 1 | First Down %: 25% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Trey Lance struggling | Trey Lance rushing | Trey Lance running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 196,
+      "frame_id": 196,
+      "text": "Player: DK Metcalf | Rush Yards: 12 | Attempts: 2 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | DK Metcalf explosive | DK Metcalf rushing | DK Metcalf running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 197,
+      "frame_id": 197,
+      "text": "Player: David Moore | Rush Yards: 12 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 12 | First Downs: 1 | First Down %: 100% | Fumbles: 0 | elite efficiency | 5.5+ YPA | David Moore explosive | David Moore rushing | David Moore running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 198,
+      "frame_id": 198,
+      "text": "Player: Jordan Whittington | Rush Yards: 12 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | Jordan Whittington rushing | Jordan Whittington running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 199,
+      "frame_id": 199,
+      "text": "Player: AJ Barner | Rush Yards: 11 | Attempts: 8 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 7 | First Down %: 87.5% | Fumbles: 0 | poor efficiency | below 3.5 YPA | AJ Barner struggling | AJ Barner rushing | AJ Barner running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 200,
+      "frame_id": 200,
+      "text": "Player: Nikko Remigio | Rush Yards: 11 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 1 | First Down %: 100% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Nikko Remigio explosive | Nikko Remigio rushing | Nikko Remigio running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 201,
+      "frame_id": 201,
+      "text": "Player: DeShone Kizer | Rush Yards: 11 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | elite efficiency | 5.5+ YPA | DeShone Kizer explosive | DeShone Kizer rushing | DeShone Kizer running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 202,
+      "frame_id": 202,
+      "text": "Player: Arian Smith | Rush Yards: 11 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 13 | First Downs: 1 | First Down %: 33.3% | Fumbles: 0 | Arian Smith rushing | Arian Smith quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 203,
+      "frame_id": 203,
+      "text": "Player: Darius Slayton | Rush Yards: 11 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 1 | First Down %: 100% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Darius Slayton explosive | Darius Slayton rushing | Darius Slayton running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 204,
+      "frame_id": 204,
+      "text": "Player: Jeremiah Williams | Rush Yards: 11 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jeremiah Williams struggling | Jeremiah Williams rushing | Jeremiah Williams quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 205,
+      "frame_id": 205,
+      "text": "Player: Garrett Wilson | Rush Yards: 10 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 1 | First Down %: 25% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Garrett Wilson struggling | Garrett Wilson rushing | Garrett Wilson quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 206,
+      "frame_id": 206,
+      "text": "Player: Tyler Badie | Rush Yards: 9 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | good efficiency | 4.5+ YPA | Tyler Badie productive | Tyler Badie rushing | Tyler Badie running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 207,
+      "frame_id": 207,
+      "text": "Player: Kirk Cousins | Rush Yards: 9 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 2 | First Down %: 40% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Kirk Cousins struggling | Kirk Cousins rushing | Kirk Cousins quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 208,
+      "frame_id": 208,
+      "text": "Player: Emeka Egbuka | Rush Yards: 9 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | good efficiency | 4.5+ YPA | Emeka Egbuka productive | Emeka Egbuka rushing | Emeka Egbuka running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 209,
+      "frame_id": 209,
+      "text": "Player: Troy Franklin | Rush Yards: 9 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 11 | First Downs: 2 | First Down %: 50% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Troy Franklin struggling | Troy Franklin rushing | Troy Franklin running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 210,
+      "frame_id": 210,
+      "text": "Player: Connor Heyward | Rush Yards: 9 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 4 | First Down %: 80% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Connor Heyward struggling | Connor Heyward rushing | Connor Heyward running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 211,
+      "frame_id": 211,
+      "text": "Player: Alec Ingold | Rush Yards: 9 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | good efficiency | 4.5+ YPA | Alec Ingold productive | Alec Ingold rushing | Alec Ingold running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 212,
+      "frame_id": 212,
+      "text": "Player: Chris Moore | Rush Yards: 9 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Chris Moore explosive | Chris Moore rushing | Chris Moore running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 213,
+      "frame_id": 213,
+      "text": "Player: Jaylin Noel | Rush Yards: 9 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 5 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jaylin Noel struggling | Jaylin Noel rushing | Jaylin Noel running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 214,
+      "frame_id": 214,
+      "text": "Player: Amon-Ra St. Brown | Rush Yards: 9 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 1 | First Down %: 33.3% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Amon-Ra St. Brown struggling | Amon-Ra St. Brown rushing | Amon-Ra St. Brown running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 215,
+      "frame_id": 215,
+      "text": "Player: Nico Collins | Rush Yards: 8 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 8 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Nico Collins explosive | Nico Collins rushing | Nico Collins running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 216,
+      "frame_id": 216,
+      "text": "Player: Aidan Johnson | Rush Yards: 8 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | Aidan Johnson rushing | Aidan Johnson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 217,
+      "frame_id": 217,
+      "text": "Player: Tyson Bagent | Rush Yards: 7 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 7 | First Downs: 0 | First Down %: 0% | Fumbles: 1 | Tyson Bagent rushing | Tyson Bagent running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 218,
+      "frame_id": 218,
+      "text": "Player: Evan Engram | Rush Yards: 7 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 7 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Evan Engram explosive | Evan Engram rushing | Evan Engram running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 219,
+      "frame_id": 219,
+      "text": "Player: D'Ernest Johnson | Rush Yards: 7 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 5 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | D'Ernest Johnson struggling | D'Ernest Johnson rushing | D'Ernest Johnson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 220,
+      "frame_id": 220,
+      "text": "Player: Quentin Johnston | Rush Yards: 7 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | Quentin Johnston rushing | Quentin Johnston running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 221,
+      "frame_id": 221,
+      "text": "Player: Jordan Battle | Rush Yards: 7 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 7 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Jordan Battle explosive | Jordan Battle rushing | Jordan Battle running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 222,
+      "frame_id": 222,
+      "text": "Player: Ja'Marr Chase | Rush Yards: 6 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Ja'Marr Chase struggling | Ja'Marr Chase rushing | Ja'Marr Chase running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 223,
+      "frame_id": 223,
+      "text": "Player: Mason Rudolph | Rush Yards: 6 | Attempts: 7 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 2 | First Down %: 28.6% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Mason Rudolph struggling | Mason Rudolph rushing | Mason Rudolph running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 224,
+      "frame_id": 224,
+      "text": "Player: Tyler Warren | Rush Yards: 6 | Attempts: 4 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 2 | First Down %: 50% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Tyler Warren struggling | Tyler Warren rushing | Tyler Warren running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 225,
+      "frame_id": 225,
+      "text": "Player: Dontayvion Wicks | Rush Yards: 6 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | elite efficiency | 5.5+ YPA | Dontayvion Wicks explosive | Dontayvion Wicks rushing | Dontayvion Wicks running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 226,
+      "frame_id": 226,
+      "text": "Player: Owen Wright | Rush Yards: 6 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Owen Wright struggling | Owen Wright rushing | Owen Wright running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 227,
+      "frame_id": 227,
+      "text": "Player: Darius Davis | Rush Yards: 5 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Darius Davis struggling | Darius Davis rushing | Darius Davis running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 228,
+      "frame_id": 228,
+      "text": "Player: Dylan Laube | Rush Yards: 5 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Dylan Laube struggling | Dylan Laube rushing | Dylan Laube running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 229,
+      "frame_id": 229,
+      "text": "Player: Khalil Shakir | Rush Yards: 5 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 5 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | good efficiency | 4.5+ YPA | Khalil Shakir productive | Khalil Shakir rushing | Khalil Shakir running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 230,
+      "frame_id": 230,
+      "text": "Player: Parker Washington | Rush Yards: 5 | Attempts: 6 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 5 | First Downs: 1 | First Down %: 16.7% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Parker Washington struggling | Parker Washington rushing | Parker Washington running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 231,
+      "frame_id": 231,
+      "text": "Player: Jameson Williams | Rush Yards: 5 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 9 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jameson Williams struggling | Jameson Williams rushing | Jameson Williams quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 232,
+      "frame_id": 232,
+      "text": "Player: Teddy Bridgewater | Rush Yards: 4 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Teddy Bridgewater struggling | Teddy Bridgewater rushing | Teddy Bridgewater running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 233,
+      "frame_id": 233,
+      "text": "Player: Fabian Franks | Rush Yards: 4 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 2 | First Down %: 100% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Fabian Franks struggling | Fabian Franks rushing | Fabian Franks running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 234,
+      "frame_id": 234,
+      "text": "Player: Mack Hollins | Rush Yards: 4 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | Mack Hollins rushing | Mack Hollins running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 235,
+      "frame_id": 235,
+      "text": "Player: Justin Jefferson | Rush Yards: 4 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | Justin Jefferson rushing | Justin Jefferson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 236,
+      "frame_id": 236,
+      "text": "Player: Jalen Milroe | Rush Yards: 4 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 0 | First Down %: 0% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Jalen Milroe struggling | Jalen Milroe rushing | Jalen Milroe running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 237,
+      "frame_id": 237,
+      "text": "Player: Craig Reynolds | Rush Yards: 4 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Craig Reynolds struggling | Craig Reynolds rushing | Craig Reynolds running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 238,
+      "frame_id": 238,
+      "text": "Player: Sione Vaki | Rush Yards: 4 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | Sione Vaki rushing | Sione Vaki running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 239,
+      "frame_id": 239,
+      "text": "Player: Tucker Kraft | Rush Yards: 3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Tucker Kraft struggling | Tucker Kraft rushing | Tucker Kraft running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 240,
+      "frame_id": 240,
+      "text": "Player: Gage Larvadain | Rush Yards: 3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Gage Larvadain struggling | Gage Larvadain rushing | Gage Larvadain running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 241,
+      "frame_id": 241,
+      "text": "Player: Patrick Ricard | Rush Yards: 3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 1 | First Down %: 100% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Patrick Ricard struggling | Patrick Ricard rushing | Patrick Ricard running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 242,
+      "frame_id": 242,
+      "text": "Player: Drew Sample | Rush Yards: 3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Drew Sample struggling | Drew Sample rushing | Drew Sample running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 243,
+      "frame_id": 243,
+      "text": "Player: Trevon Sanders | Rush Yards: 3 | Attempts: 3 | TDs: 1 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 2 | First Down %: 66.7% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Trevon Sanders struggling | Trevon Sanders rushing | Trevon Sanders running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 244,
+      "frame_id": 244,
+      "text": "Player: Rashawn Thomas | Rush Yards: 3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 1 | First Down %: 100% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Rashawn Thomas struggling | Rashawn Thomas rushing | Rashawn Thomas running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 245,
+      "frame_id": 245,
+      "text": "Player: Christian Watson | Rush Yards: 3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Christian Watson struggling | Christian Watson rushing | Christian Watson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 246,
+      "frame_id": 246,
+      "text": "Player: Zach Wilson | Rush Yards: 3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Zach Wilson struggling | Zach Wilson rushing | Zach Wilson quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 247,
+      "frame_id": 247,
+      "text": "Player: Brock Bowers | Rush Yards: 2 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Brock Bowers struggling | Brock Bowers rushing | Brock Bowers running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 248,
+      "frame_id": 248,
+      "text": "Player: Tyler Conklin | Rush Yards: 2 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 1 | First Down %: 100% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Tyler Conklin struggling | Tyler Conklin rushing | Tyler Conklin running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 249,
+      "frame_id": 249,
+      "text": "Player: CeeDee Lamb | Rush Yards: 2 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | CeeDee Lamb struggling | CeeDee Lamb rushing | CeeDee Lamb running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 250,
+      "frame_id": 250,
+      "text": "Player: Kendall Milton | Rush Yards: 2 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Kendall Milton struggling | Kendall Milton rushing | Kendall Milton running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 251,
+      "frame_id": 251,
+      "text": "Player: Wan'Dale Robinson | Rush Yards: 2 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 1 | First Down %: 50% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Wan'Dale Robinson struggling | Wan'Dale Robinson rushing | Wan'Dale Robinson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 252,
+      "frame_id": 252,
+      "text": "Player: Jake Ferguson | Rush Yards: 1 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jake Ferguson struggling | Jake Ferguson rushing | Jake Ferguson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 253,
+      "frame_id": 253,
+      "text": "Player: Travis Kelce | Rush Yards: 1 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Travis Kelce struggling | Travis Kelce rushing | Travis Kelce running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 254,
+      "frame_id": 254,
+      "text": "Player: Riley Leonard | Rush Yards: 1 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Riley Leonard struggling | Riley Leonard rushing | Riley Leonard running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 255,
+      "frame_id": 255,
+      "text": "Player: Skyy Moore | Rush Yards: 1 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Skyy Moore struggling | Skyy Moore rushing | Skyy Moore running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 256,
+      "frame_id": 256,
+      "text": "Player: Mitchell Trubisky | Rush Yards: 1 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 4 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Mitchell Trubisky struggling | Mitchell Trubisky rushing | Mitchell Trubisky running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 257,
+      "frame_id": 257,
+      "text": "Player: Ulysses Bentley IV | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Ulysses Bentley IV struggling | Ulysses Bentley IV rushing | Ulysses Bentley IV running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 258,
+      "frame_id": 258,
+      "text": "Player: DeeJay Dallas | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | DeeJay Dallas struggling | DeeJay Dallas rushing | DeeJay Dallas running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 259,
+      "frame_id": 259,
+      "text": "Player: Quinn Ewers | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Quinn Ewers struggling | Quinn Ewers rushing | Quinn Ewers running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 260,
+      "frame_id": 260,
+      "text": "Player: Terrance Ferguson | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Terrance Ferguson struggling | Terrance Ferguson rushing | Terrance Ferguson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 261,
+      "frame_id": 261,
+      "text": "Player: T.J. Hockenson | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | T.J. Hockenson struggling | T.J. Hockenson rushing | T.J. Hockenson running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 262,
+      "frame_id": 262,
+      "text": "Player: Travis Hunter | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Travis Hunter struggling | Travis Hunter rushing | Travis Hunter running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 263,
+      "frame_id": 263,
+      "text": "Player: Xavier Legette | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Xavier Legette struggling | Xavier Legette rushing | Xavier Legette running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 264,
+      "frame_id": 264,
+      "text": "Player: Kenny Pickett | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Kenny Pickett struggling | Kenny Pickett rushing | Kenny Pickett running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 265,
+      "frame_id": 265,
+      "text": "Player: Grant Stuard | Rush Yards: 0 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Grant Stuard struggling | Grant Stuard rushing | Grant Stuard running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 266,
+      "frame_id": 266,
+      "text": "Player: Max Borghi | Rush Yards: -1 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Max Borghi struggling | Max Borghi rushing | Max Borghi running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 267,
+      "frame_id": 267,
+      "text": "Player: Adrian Martinez | Rush Yards: -1 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Adrian Martinez struggling | Adrian Martinez rushing | Adrian Martinez running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 268,
+      "frame_id": 268,
+      "text": "Player: Anthony Richardson | Rush Yards: -1 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 1 | First Down %: 25% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Anthony Richardson struggling | Anthony Richardson rushing | Anthony Richardson quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 269,
+      "frame_id": 269,
+      "text": "Player: Jarrett Stidham | Rush Yards: -1 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jarrett Stidham struggling | Jarrett Stidham rushing | Jarrett Stidham running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 270,
+      "frame_id": 270,
+      "text": "Player: Trayveon Williams | Rush Yards: -1 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Trayveon Williams struggling | Trayveon Williams rushing | Trayveon Williams quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 271,
+      "frame_id": 271,
+      "text": "Player: Andy Dalton | Rush Yards: -2 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 1 | First Downs: 0 | First Down %: 0% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Andy Dalton struggling | Andy Dalton rushing | Andy Dalton running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 272,
+      "frame_id": 272,
+      "text": "Player: Nyheim Hines | Rush Yards: -2 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Nyheim Hines struggling | Nyheim Hines rushing | Nyheim Hines running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 273,
+      "frame_id": 273,
+      "text": "Player: Travis Homer | Rush Yards: -2 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -2 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Travis Homer struggling | Travis Homer rushing | Travis Homer running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 274,
+      "frame_id": 274,
+      "text": "Player: Tanner McKee | Rush Yards: -2 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Tanner McKee struggling | Tanner McKee rushing | Tanner McKee running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 275,
+      "frame_id": 275,
+      "text": "Player: Ricky Pearsall | Rush Yards: -2 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 2 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Ricky Pearsall struggling | Ricky Pearsall rushing | Ricky Pearsall running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 276,
+      "frame_id": 276,
+      "text": "Player: Kyle Williams | Rush Yards: -2 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -2 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Kyle Williams struggling | Kyle Williams rushing | Kyle Williams quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 277,
+      "frame_id": 277,
+      "text": "Player: Kyle Allen | Rush Yards: -3 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Kyle Allen struggling | Kyle Allen rushing | Kyle Allen quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 278,
+      "frame_id": 278,
+      "text": "Player: Jimmy Garoppolo | Rush Yards: -3 | Attempts: 3 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Jimmy Garoppolo struggling | Jimmy Garoppolo rushing | Jimmy Garoppolo quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 279,
+      "frame_id": 279,
+      "text": "Player: Kyle Juszczyk | Rush Yards: -3 | Attempts: 2 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Kyle Juszczyk struggling | Kyle Juszczyk rushing | Kyle Juszczyk running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 280,
+      "frame_id": 280,
+      "text": "Player: George Kittle | Rush Yards: -3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | George Kittle struggling | George Kittle rushing | George Kittle running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 281,
+      "frame_id": 281,
+      "text": "Player: Chris Olave | Rush Yards: -3 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -3 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Chris Olave struggling | Chris Olave rushing | Chris Olave running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 282,
+      "frame_id": 282,
+      "text": "Player: Joshua Dobbs | Rush Yards: -4 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Joshua Dobbs struggling | Joshua Dobbs rushing | Joshua Dobbs running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 283,
+      "frame_id": 283,
+      "text": "Player: Cooper Rush | Rush Yards: -4 | Attempts: 4 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Cooper Rush struggling | Cooper Rush rushing | Cooper Rush running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 284,
+      "frame_id": 284,
+      "text": "Player: Drew Lock | Rush Yards: -5 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 0 | First Downs: 0 | First Down %: 0% | Fumbles: 1 | poor efficiency | below 3.5 YPA | Drew Lock struggling | Drew Lock rushing | Drew Lock running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 285,
+      "frame_id": 285,
+      "text": "Player: Gardner Minshew | Rush Yards: -6 | Attempts: 5 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -1 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Gardner Minshew struggling | Gardner Minshew rushing | Gardner Minshew running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 286,
+      "frame_id": 286,
+      "text": "Player: John Metchie III | Rush Yards: -7 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -7 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | John Metchie III struggling | John Metchie III rushing | John Metchie III running back | RB stats | NFL RB"
+    },
+    {
+      "chunk_id": 287,
+      "frame_id": 287,
+      "text": "Player: Matthew Stafford | Rush Yards: -9 | Attempts: 24 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: 6 | First Downs: 0 | First Down %: 0% | Fumbles: 3 | poor efficiency | below 3.5 YPA | Matthew Stafford struggling | fumble prone | ball security issues | Matthew Stafford risky | Matthew Stafford rushing | Matthew Stafford quarterback rushing | QB rushing stats | dual threat QB"
+    },
+    {
+      "chunk_id": 288,
+      "frame_id": 288,
+      "text": "Player: Braden Mann | Rush Yards: -34 | Attempts: 1 | TDs: 0 | 20+ Yard Runs: 0 | 40+ Yard Runs: 0 | Longest: -34 | First Downs: 0 | First Down %: 0% | Fumbles: 0 | poor efficiency | below 3.5 YPA | Braden Mann struggling | Braden Mann rushing | Braden Mann running back | RB stats | NFL RB"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}

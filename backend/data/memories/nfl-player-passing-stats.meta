@@ -1,0 +1,366 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NFL 2024 Season Player Passing Statistics | quarterback stats | QB stats | passing yards | touchdown passes | passer rating"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "Player: Dak Prescott | Pass Yards: 3261 | Attempts: 437 | Completions: 303 | Completion %: 69.3% | TDs: 26 | INTs: 8 | Rating: 102.4 | Yards/Attempt: 7.5 | First Downs: 161 | 20+ Yard Passes: 38 | 40+ Yard Passes: 10 | Longest: 74 | Sacks Taken: 21 | Sack Yards Lost: 105 | solid QB | 3000+ yard passer | Dak Prescott good QB | excellent TD/INT ratio | Dak Prescott safe passer | excellent passer rating | Dak Prescott pro bowl level | good accuracy | 65%+ completion | Dak Prescott accurate QB | good TD producer | 25+ TDs | Dak Prescott scoring QB | Dak Prescott passing | Dak Prescott quarterback | Dak Prescott QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "Player: Patrick Mahomes | Pass Yards: 3238 | Attempts: 441 | Completions: 295 | Completion %: 66.9% | TDs: 22 | INTs: 7 | Rating: 96.6 | Yards/Attempt: 7.3 | First Downs: 157 | 20+ Yard Passes: 43 | 40+ Yard Passes: 8 | Longest: 61 | Sacks Taken: 27 | Sack Yards Lost: 160 | solid QB | 3000+ yard passer | Patrick Mahomes good QB | excellent TD/INT ratio | Patrick Mahomes safe passer | good passer rating | Patrick Mahomes quality starter | good accuracy | 65%+ completion | Patrick Mahomes accurate QB | Patrick Mahomes passing | Patrick Mahomes quarterback | Patrick Mahomes QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "Player: Drake Maye | Pass Yards: 3130 | Attempts: 355 | Completions: 252 | Completion %: 71% | TDs: 21 | INTs: 6 | Rating: 110.8 | Yards/Attempt: 8.8 | First Downs: 144 | 20+ Yard Passes: 45 | 40+ Yard Passes: 6 | Longest: 72 | Sacks Taken: 37 | Sack Yards Lost: 172 | solid QB | 3000+ yard passer | Drake Maye good QB | excellent TD/INT ratio | Drake Maye safe passer | elite passer rating | Drake Maye MVP candidate | elite accuracy | 70%+ completion | Drake Maye precision passer | Drake Maye passing | Drake Maye quarterback | Drake Maye QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "Player: Jared Goff | Pass Yards: 3025 | Attempts: 378 | Completions: 254 | Completion %: 69.8% | TDs: 26 | INTs: 6 | Rating: 110.2 | Yards/Attempt: 8 | First Downs: 148 | 20+ Yard Passes: 42 | 40+ Yard Passes: 7 | Longest: 64 | Sacks Taken: 26 | Sack Yards Lost: 170 | solid QB | 3000+ yard passer | Jared Goff good QB | excellent TD/INT ratio | Jared Goff safe passer | elite passer rating | Jared Goff MVP candidate | good accuracy | 65%+ completion | Jared Goff accurate QB | good TD producer | 25+ TDs | Jared Goff scoring QB | Jared Goff passing | Jared Goff quarterback | Jared Goff QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "Player: Daniel Jones | Pass Yards: 2940 | Attempts: 360 | Completions: 242 | Completion %: 69.1% | TDs: 17 | INTs: 7 | Rating: 101.4 | Yards/Attempt: 8.1 | First Downs: 136 | 20+ Yard Passes: 33 | 40+ Yard Passes: 7 | Longest: 75 | Sacks Taken: 21 | Sack Yards Lost: 152 | average QB | 2500+ yards | Daniel Jones starter QB | good TD/INT ratio | Daniel Jones efficient passer | excellent passer rating | Daniel Jones pro bowl level | good accuracy | 65%+ completion | Daniel Jones accurate QB | Daniel Jones passing | Daniel Jones quarterback | Daniel Jones QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "Player: Matthew Stafford | Pass Yards: 2930 | Attempts: 373 | Completions: 238 | Completion %: 66.5% | TDs: 30 | INTs: 5 | Rating: 113.7 | Yards/Attempt: 7.6 | First Downs: 148 | 20+ Yard Passes: 41 | 40+ Yard Passes: 3 | Longest: 68 | Sacks Taken: 15 | Sack Yards Lost: 98 | average QB | 2500+ yards | Matthew Stafford starter QB | excellent TD/INT ratio | Matthew Stafford safe passer | elite passer rating | Matthew Stafford MVP candidate | good accuracy | 65%+ completion | Matthew Stafford accurate QB | good TD producer | 25+ TDs | Matthew Stafford scoring QB | Matthew Stafford passing | Matthew Stafford quarterback | Matthew Stafford QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "Player: Jordan Love | Pass Yards: 2794 | Attempts: 361 | Completions: 242 | Completion %: 67% | TDs: 19 | INTs: 3 | Rating: 104.3 | Yards/Attempt: 7.7 | First Downs: 134 | 20+ Yard Passes: 40 | 40+ Yard Passes: 6 | Longest: 53 | Sacks Taken: 17 | Sack Yards Lost: 125 | average QB | 2500+ yards | Jordan Love starter QB | excellent TD/INT ratio | Jordan Love safe passer | excellent passer rating | Jordan Love pro bowl level | good accuracy | 65%+ completion | Jordan Love accurate QB | Jordan Love passing | Jordan Love quarterback | Jordan Love QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "Player: Sam Darnold | Pass Yards: 2785 | Attempts: 298 | Completions: 207 | Completion %: 69.5% | TDs: 19 | INTs: 10 | Rating: 106.2 | Yards/Attempt: 9.4 | First Downs: 120 | 20+ Yard Passes: 42 | 40+ Yard Passes: 11 | Longest: 67 | Sacks Taken: 11 | Sack Yards Lost: 67 | average QB | 2500+ yards | Sam Darnold starter QB | excellent passer rating | Sam Darnold pro bowl level | good accuracy | 65%+ completion | Sam Darnold accurate QB | Sam Darnold passing | Sam Darnold quarterback | Sam Darnold QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "Player: Josh Allen | Pass Yards: 2709 | Attempts: 327 | Completions: 228 | Completion %: 69.7% | TDs: 18 | INTs: 9 | Rating: 101.6 | Yards/Attempt: 8.3 | First Downs: 127 | 20+ Yard Passes: 45 | 40+ Yard Passes: 9 | Longest: 54 | Sacks Taken: 28 | Sack Yards Lost: 182 | average QB | 2500+ yards | Josh Allen starter QB | excellent passer rating | Josh Allen pro bowl level | good accuracy | 65%+ completion | Josh Allen accurate QB | Josh Allen passing | Josh Allen quarterback | Josh Allen QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "Player: Justin Herbert | Pass Yards: 2691 | Attempts: 376 | Completions: 250 | Completion %: 66.5% | TDs: 19 | INTs: 9 | Rating: 94.2 | Yards/Attempt: 7.2 | First Downs: 124 | 20+ Yard Passes: 31 | 40+ Yard Passes: 5 | Longest: 60 | Sacks Taken: 35 | Sack Yards Lost: 213 | average QB | 2500+ yards | Justin Herbert starter QB | good TD/INT ratio | Justin Herbert efficient passer | good passer rating | Justin Herbert quality starter | good accuracy | 65%+ completion | Justin Herbert accurate QB | Justin Herbert passing | Justin Herbert quarterback | Justin Herbert QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "Player: Caleb Williams | Pass Yards: 2568 | Attempts: 360 | Completions: 213 | Completion %: 59.2% | TDs: 16 | INTs: 4 | Rating: 91.8 | Yards/Attempt: 7.1 | First Downs: 117 | 20+ Yard Passes: 37 | 40+ Yard Passes: 5 | Longest: 65 | Sacks Taken: 17 | Sack Yards Lost: 116 | average QB | 2500+ yards | Caleb Williams starter QB | excellent TD/INT ratio | Caleb Williams safe passer | good passer rating | Caleb Williams quality starter | accuracy issues | below 60% | Caleb Williams inaccurate passer | Caleb Williams passing | Caleb Williams quarterback | Caleb Williams QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "Player: Joe Flacco | Pass Yards: 2451 | Attempts: 410 | Completions: 247 | Completion %: 60.2% | TDs: 15 | INTs: 10 | Rating: 79.2 | Yards/Attempt: 6 | First Downs: 114 | 20+ Yard Passes: 28 | 40+ Yard Passes: 2 | Longest: 44 | Sacks Taken: 18 | Sack Yards Lost: 118 | poor passer rating | Joe Flacco struggling QB | Joe Flacco passing | Joe Flacco quarterback | Joe Flacco QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "Player: Bo Nix | Pass Yards: 2421 | Attempts: 387 | Completions: 237 | Completion %: 61.2% | TDs: 18 | INTs: 8 | Rating: 86.1 | Yards/Attempt: 6.3 | First Downs: 118 | 20+ Yard Passes: 31 | 40+ Yard Passes: 4 | Longest: 52 | Sacks Taken: 12 | Sack Yards Lost: 73 | good TD/INT ratio | Bo Nix efficient passer | Bo Nix passing | Bo Nix quarterback | Bo Nix QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "Player: Trevor Lawrence | Pass Yards: 2407 | Attempts: 368 | Completions: 220 | Completion %: 59.8% | TDs: 14 | INTs: 11 | Rating: 79.4 | Yards/Attempt: 6.5 | First Downs: 116 | 20+ Yard Passes: 30 | 40+ Yard Passes: 3 | Longest: 46 | Sacks Taken: 29 | Sack Yards Lost: 176 | poor passer rating | Trevor Lawrence struggling QB | accuracy issues | below 60% | Trevor Lawrence inaccurate passer | Trevor Lawrence passing | Trevor Lawrence quarterback | Trevor Lawrence QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "Player: Baker Mayfield | Pass Yards: 2406 | Attempts: 359 | Completions: 225 | Completion %: 62.7% | TDs: 18 | INTs: 5 | Rating: 93.2 | Yards/Attempt: 6.7 | First Downs: 109 | 20+ Yard Passes: 35 | 40+ Yard Passes: 4 | Longest: 37 | Sacks Taken: 22 | Sack Yards Lost: 155 | excellent TD/INT ratio | Baker Mayfield safe passer | good passer rating | Baker Mayfield quality starter | Baker Mayfield passing | Baker Mayfield quarterback | Baker Mayfield QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "Player: Geno Smith | Pass Yards: 2367 | Attempts: 353 | Completions: 235 | Completion %: 66.6% | TDs: 13 | INTs: 13 | Rating: 82.4 | Yards/Attempt: 6.7 | First Downs: 116 | 20+ Yard Passes: 28 | 40+ Yard Passes: 2 | Longest: 61 | Sacks Taken: 41 | Sack Yards Lost: 241 | good accuracy | 65%+ completion | Geno Smith accurate QB | Geno Smith passing | Geno Smith quarterback | Geno Smith QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "Player: Jalen Hurts | Pass Yards: 2284 | Attempts: 308 | Completions: 207 | Completion %: 67.2% | TDs: 17 | INTs: 1 | Rating: 106 | Yards/Attempt: 7.4 | First Downs: 101 | 20+ Yard Passes: 29 | 40+ Yard Passes: 8 | Longest: 70 | Sacks Taken: 27 | Sack Yards Lost: 154 | excellent TD/INT ratio | Jalen Hurts safe passer | excellent passer rating | Jalen Hurts pro bowl level | good accuracy | 65%+ completion | Jalen Hurts accurate QB | Jalen Hurts passing | Jalen Hurts quarterback | Jalen Hurts QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "Player: Cam Ward | Pass Yards: 2210 | Attempts: 374 | Completions: 222 | Completion %: 59.4% | TDs: 7 | INTs: 6 | Rating: 75.7 | Yards/Attempt: 5.9 | First Downs: 110 | 20+ Yard Passes: 28 | 40+ Yard Passes: 1 | Longest: 47 | Sacks Taken: 45 | Sack Yards Lost: 342 | poor passer rating | Cam Ward struggling QB | accuracy issues | below 60% | Cam Ward inaccurate passer | Cam Ward passing | Cam Ward quarterback | Cam Ward QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "Player: Mac Jones | Pass Yards: 2151 | Attempts: 289 | Completions: 201 | Completion %: 69.6% | TDs: 13 | INTs: 6 | Rating: 97.4 | Yards/Attempt: 7.4 | First Downs: 107 | 20+ Yard Passes: 18 | 40+ Yard Passes: 3 | Longest: 56 | Sacks Taken: 16 | Sack Yards Lost: 108 | good TD/INT ratio | Mac Jones efficient passer | good passer rating | Mac Jones quality starter | good accuracy | 65%+ completion | Mac Jones accurate QB | Mac Jones passing | Mac Jones quarterback | Mac Jones QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "Player: Bryce Young | Pass Yards: 2131 | Attempts: 343 | Completions: 215 | Completion %: 62.7% | TDs: 15 | INTs: 9 | Rating: 83.8 | Yards/Attempt: 6.2 | First Downs: 113 | 20+ Yard Passes: 27 | 40+ Yard Passes: 2 | Longest: 54 | Sacks Taken: 20 | Sack Yards Lost: 150 | Bryce Young passing | Bryce Young quarterback | Bryce Young QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "Player: Tua Tagovailoa | Pass Yards: 2123 | Attempts: 312 | Completions: 213 | Completion %: 68.3% | TDs: 17 | INTs: 13 | Rating: 88.1 | Yards/Attempt: 6.8 | First Downs: 111 | 20+ Yard Passes: 24 | 40+ Yard Passes: 4 | Longest: 47 | Sacks Taken: 21 | Sack Yards Lost: 133 | good accuracy | 65%+ completion | Tua Tagovailoa accurate QB | Tua Tagovailoa passing | Tua Tagovailoa quarterback | Tua Tagovailoa QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "Player: Michael Penix Jr. | Pass Yards: 1982 | Attempts: 276 | Completions: 166 | Completion %: 60.1% | TDs: 9 | INTs: 3 | Rating: 88.5 | Yards/Attempt: 7.2 | First Downs: 95 | 20+ Yard Passes: 26 | 40+ Yard Passes: 5 | Longest: 69 | Sacks Taken: 13 | Sack Yards Lost: 101 | good TD/INT ratio | Michael Penix Jr. efficient passer | Michael Penix Jr. passing | Michael Penix Jr. quarterback | Michael Penix Jr. QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "Player: Aaron Rodgers | Pass Yards: 1969 | Attempts: 289 | Completions: 192 | Completion %: 66.4% | TDs: 19 | INTs: 7 | Rating: 97.7 | Yards/Attempt: 6.8 | First Downs: 84 | 20+ Yard Passes: 22 | 40+ Yard Passes: 4 | Longest: 80 | Sacks Taken: 19 | Sack Yards Lost: 121 | good TD/INT ratio | Aaron Rodgers efficient passer | good passer rating | Aaron Rodgers quality starter | good accuracy | 65%+ completion | Aaron Rodgers accurate QB | Aaron Rodgers passing | Aaron Rodgers quarterback | Aaron Rodgers QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "Player: Jacoby Brissett | Pass Yards: 1887 | Attempts: 262 | Completions: 175 | Completion %: 66.8% | TDs: 11 | INTs: 3 | Rating: 97 | Yards/Attempt: 7.2 | First Downs: 80 | 20+ Yard Passes: 22 | 40+ Yard Passes: 2 | Longest: 50 | Sacks Taken: 24 | Sack Yards Lost: 187 | excellent TD/INT ratio | Jacoby Brissett safe passer | good passer rating | Jacoby Brissett quality starter | good accuracy | 65%+ completion | Jacoby Brissett accurate QB | Jacoby Brissett passing | Jacoby Brissett quarterback | Jacoby Brissett QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "Player: C.J. Stroud | Pass Yards: 1700 | Attempts: 242 | Completions: 161 | Completion %: 66.5% | TDs: 11 | INTs: 7 | Rating: 93.4 | Yards/Attempt: 7 | First Downs: 71 | 20+ Yard Passes: 23 | 40+ Yard Passes: 5 | Longest: 80 | Sacks Taken: 17 | Sack Yards Lost: 148 | good passer rating | C.J. Stroud quality starter | good accuracy | 65%+ completion | C.J. Stroud accurate QB | C.J. Stroud passing | C.J. Stroud quarterback | C.J. Stroud QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "Player: Lamar Jackson | Pass Yards: 1660 | Attempts: 231 | Completions: 155 | Completion %: 67.1% | TDs: 15 | INTs: 3 | Rating: 102.7 | Yards/Attempt: 7.2 | First Downs: 81 | 20+ Yard Passes: 22 | 40+ Yard Passes: 5 | Longest: 65 | Sacks Taken: 21 | Sack Yards Lost: 143 | excellent TD/INT ratio | Lamar Jackson safe passer | excellent passer rating | Lamar Jackson pro bowl level | good accuracy | 65%+ completion | Lamar Jackson accurate QB | Lamar Jackson passing | Lamar Jackson quarterback | Lamar Jackson QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "Player: Derek Carr | Pass Yards: 1651 | Attempts: 272 | Completions: 191 | Completion %: 70.2% | TDs: 11 | INTs: 2 | Rating: 97.3 | Yards/Attempt: 6.1 | First Downs: 78 | 20+ Yard Passes: 16 | 40+ Yard Passes: 3 | Longest: 55 | Sacks Taken: 11 | Sack Yards Lost: 79 | excellent TD/INT ratio | Derek Carr safe passer | good passer rating | Derek Carr quality starter | elite accuracy | 70%+ completion | Derek Carr precision passer | Derek Carr passing | Derek Carr quarterback | Derek Carr QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "Player: Kirk Cousins | Pass Yards: 1623 | Attempts: 227 | Completions: 154 | Completion %: 67.8% | TDs: 14 | INTs: 8 | Rating: 93.9 | Yards/Attempt: 7.1 | First Downs: 75 | 20+ Yard Passes: 18 | 40+ Yard Passes: 2 | Longest: 49 | Sacks Taken: 8 | Sack Yards Lost: 60 | good passer rating | Kirk Cousins quality starter | good accuracy | 65%+ completion | Kirk Cousins accurate QB | Kirk Cousins passing | Kirk Cousins quarterback | Kirk Cousins QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "Player: Kenny Pickett | Pass Yards: 1541 | Attempts: 238 | Completions: 157 | Completion %: 66% | TDs: 6 | INTs: 1 | Rating: 89.9 | Yards/Attempt: 6.5 | First Downs: 74 | 20+ Yard Passes: 18 | 40+ Yard Passes: 1 | Longest: 45 | Sacks Taken: 19 | Sack Yards Lost: 127 | excellent TD/INT ratio | Kenny Pickett safe passer | good accuracy | 65%+ completion | Kenny Pickett accurate QB | Kenny Pickett passing | Kenny Pickett quarterback | Kenny Pickett QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "Player: Taysom Hill | Pass Yards: 1477 | Attempts: 180 | Completions: 120 | Completion %: 66.7% | TDs: 15 | INTs: 2 | Rating: 111.1 | Yards/Attempt: 8.2 | First Downs: 63 | 20+ Yard Passes: 23 | 40+ Yard Passes: 4 | Longest: 70 | Sacks Taken: 13 | Sack Yards Lost: 91 | excellent TD/INT ratio | Taysom Hill safe passer | elite passer rating | Taysom Hill MVP candidate | good accuracy | 65%+ completion | Taysom Hill accurate QB | Taysom Hill passing | Taysom Hill quarterback | Taysom Hill QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "Player: Russell Wilson | Pass Yards: 1460 | Attempts: 189 | Completions: 126 | Completion %: 66.7% | TDs: 13 | INTs: 2 | Rating: 104.7 | Yards/Attempt: 7.7 | First Downs: 71 | 20+ Yard Passes: 21 | 40+ Yard Passes: 2 | Longest: 54 | Sacks Taken: 16 | Sack Yards Lost: 105 | excellent TD/INT ratio | Russell Wilson safe passer | excellent passer rating | Russell Wilson pro bowl level | good accuracy | 65%+ completion | Russell Wilson accurate QB | Russell Wilson passing | Russell Wilson quarterback | Russell Wilson QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "Player: Cooper Rush | Pass Yards: 1444 | Attempts: 195 | Completions: 119 | Completion %: 61% | TDs: 11 | INTs: 3 | Rating: 94.4 | Yards/Attempt: 7.4 | First Downs: 64 | 20+ Yard Passes: 20 | 40+ Yard Passes: 3 | Longest: 52 | Sacks Taken: 15 | Sack Yards Lost: 98 | excellent TD/INT ratio | Cooper Rush safe passer | good passer rating | Cooper Rush quality starter | Cooper Rush passing | Cooper Rush quarterback | Cooper Rush QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "Player: Anthony Richardson | Pass Yards: 1427 | Attempts: 237 | Completions: 130 | Completion %: 54.9% | TDs: 9 | INTs: 11 | Rating: 65.9 | Yards/Attempt: 6 | First Downs: 77 | 20+ Yard Passes: 18 | 40+ Yard Passes: 3 | Longest: 62 | Sacks Taken: 18 | Sack Yards Lost: 122 | poor TD/INT ratio | Anthony Richardson turnover prone | poor passer rating | Anthony Richardson struggling QB | accuracy issues | below 60% | Anthony Richardson inaccurate passer | Anthony Richardson passing | Anthony Richardson quarterback | Anthony Richardson QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "Player: Andy Dalton | Pass Yards: 1404 | Attempts: 207 | Completions: 134 | Completion %: 64.7% | TDs: 11 | INTs: 7 | Rating: 87.8 | Yards/Attempt: 6.8 | First Downs: 64 | 20+ Yard Passes: 15 | 40+ Yard Passes: 2 | Longest: 50 | Sacks Taken: 14 | Sack Yards Lost: 84 | Andy Dalton passing | Andy Dalton quarterback | Andy Dalton QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "Player: Spencer Rattler | Pass Yards: 1377 | Attempts: 234 | Completions: 150 | Completion %: 64.1% | TDs: 7 | INTs: 6 | Rating: 78.9 | Yards/Attempt: 5.9 | First Downs: 67 | 20+ Yard Passes: 13 | 40+ Yard Passes: 1 | Longest: 42 | Sacks Taken: 25 | Sack Yards Lost: 169 | poor passer rating | Spencer Rattler struggling QB | Spencer Rattler passing | Spencer Rattler quarterback | Spencer Rattler QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "Player: Will Levis | Pass Yards: 1341 | Attempts: 197 | Completions: 125 | Completion %: 63.5% | TDs: 7 | INTs: 9 | Rating: 75.1 | Yards/Attempt: 6.8 | First Downs: 58 | 20+ Yard Passes: 17 | 40+ Yard Passes: 4 | Longest: 63 | Sacks Taken: 24 | Sack Yards Lost: 153 | poor TD/INT ratio | Will Levis turnover prone | poor passer rating | Will Levis struggling QB | Will Levis passing | Will Levis quarterback | Will Levis QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "Player: Tyrod Taylor | Pass Yards: 1326 | Attempts: 169 | Completions: 114 | Completion %: 67.5% | TDs: 9 | INTs: 5 | Rating: 95.7 | Yards/Attempt: 7.9 | First Downs: 58 | 20+ Yard Passes: 16 | 40+ Yard Passes: 4 | Longest: 58 | Sacks Taken: 18 | Sack Yards Lost: 117 | good passer rating | Tyrod Taylor quality starter | good accuracy | 65%+ completion | Tyrod Taylor accurate QB | Tyrod Taylor passing | Tyrod Taylor quarterback | Tyrod Taylor QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "Player: Desmond Ridder | Pass Yards: 1262 | Attempts: 186 | Completions: 113 | Completion %: 60.8% | TDs: 7 | INTs: 7 | Rating: 76.8 | Yards/Attempt: 6.8 | First Downs: 53 | 20+ Yard Passes: 13 | 40+ Yard Passes: 2 | Longest: 48 | Sacks Taken: 13 | Sack Yards Lost: 91 | poor passer rating | Desmond Ridder struggling QB | Desmond Ridder passing | Desmond Ridder quarterback | Desmond Ridder QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 39,
+      "frame_id": 39,
+      "text": "Player: Skylar Thompson | Pass Yards: 1200 | Attempts: 174 | Completions: 115 | Completion %: 66.1% | TDs: 7 | INTs: 2 | Rating: 93.1 | Yards/Attempt: 6.9 | First Downs: 53 | 20+ Yard Passes: 11 | 40+ Yard Passes: 1 | Longest: 41 | Sacks Taken: 15 | Sack Yards Lost: 98 | excellent TD/INT ratio | Skylar Thompson safe passer | good passer rating | Skylar Thompson quality starter | good accuracy | 65%+ completion | Skylar Thompson accurate QB | Skylar Thompson passing | Skylar Thompson quarterback | Skylar Thompson QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 40,
+      "frame_id": 40,
+      "text": "Player: Aidan O'Connell | Pass Yards: 1157 | Attempts: 184 | Completions: 111 | Completion %: 60.3% | TDs: 6 | INTs: 5 | Rating: 76.6 | Yards/Attempt: 6.3 | First Downs: 54 | 20+ Yard Passes: 12 | 40+ Yard Passes: 1 | Longest: 44 | Sacks Taken: 17 | Sack Yards Lost: 112 | poor passer rating | Aidan O'Connell struggling QB | Aidan O'Connell passing | Aidan O'Connell quarterback | Aidan O'Connell QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 41,
+      "frame_id": 41,
+      "text": "Player: Mason Rudolph | Pass Yards: 1143 | Attempts: 141 | Completions: 93 | Completion %: 66% | TDs: 9 | INTs: 4 | Rating: 98.8 | Yards/Attempt: 8.1 | First Downs: 48 | 20+ Yard Passes: 14 | 40+ Yard Passes: 2 | Longest: 52 | Sacks Taken: 9 | Sack Yards Lost: 63 | good TD/INT ratio | Mason Rudolph efficient passer | good passer rating | Mason Rudolph quality starter | good accuracy | 65%+ completion | Mason Rudolph accurate QB | Mason Rudolph passing | Mason Rudolph quarterback | Mason Rudolph QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 42,
+      "frame_id": 42,
+      "text": "Player: Gardner Minshew | Pass Yards: 1127 | Attempts: 191 | Completions: 120 | Completion %: 62.8% | TDs: 6 | INTs: 5 | Rating: 77.1 | Yards/Attempt: 5.9 | First Downs: 58 | 20+ Yard Passes: 11 | 40+ Yard Passes: 1 | Longest: 42 | Sacks Taken: 12 | Sack Yards Lost: 80 | poor passer rating | Gardner Minshew struggling QB | Gardner Minshew passing | Gardner Minshew quarterback | Gardner Minshew QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 43,
+      "frame_id": 43,
+      "text": "Player: Justin Fields | Pass Yards: 1108 | Attempts: 160 | Completions: 105 | Completion %: 65.6% | TDs: 5 | INTs: 1 | Rating: 91.3 | Yards/Attempt: 6.9 | First Downs: 49 | 20+ Yard Passes: 14 | 40+ Yard Passes: 2 | Longest: 51 | Sacks Taken: 20 | Sack Yards Lost: 134 | excellent TD/INT ratio | Justin Fields safe passer | good passer rating | Justin Fields quality starter | good accuracy | 65%+ completion | Justin Fields accurate QB | Justin Fields passing | Justin Fields quarterback | Justin Fields QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 44,
+      "frame_id": 44,
+      "text": "Player: Jameis Winston | Pass Yards: 1047 | Attempts: 159 | Completions: 101 | Completion %: 63.5% | TDs: 7 | INTs: 3 | Rating: 89.7 | Yards/Attempt: 6.6 | First Downs: 47 | 20+ Yard Passes: 11 | 40+ Yard Passes: 2 | Longest: 46 | Sacks Taken: 11 | Sack Yards Lost: 73 | good TD/INT ratio | Jameis Winston efficient passer | Jameis Winston passing | Jameis Winston quarterback | Jameis Winston QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 45,
+      "frame_id": 45,
+      "text": "Player: Deshaun Watson | Pass Yards: 1020 | Attempts: 167 | Completions: 108 | Completion %: 64.7% | TDs: 5 | INTs: 3 | Rating: 83.5 | Yards/Attempt: 6.1 | First Downs: 46 | 20+ Yard Passes: 10 | 40+ Yard Passes: 1 | Longest: 42 | Sacks Taken: 21 | Sack Yards Lost: 145 | Deshaun Watson passing | Deshaun Watson quarterback | Deshaun Watson QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 46,
+      "frame_id": 46,
+      "text": "Player: Ryan Tannehill | Pass Yards: 993 | Attempts: 161 | Completions: 107 | Completion %: 66.5% | TDs: 6 | INTs: 4 | Rating: 85.5 | Yards/Attempt: 6.2 | First Downs: 45 | 20+ Yard Passes: 9 | 40+ Yard Passes: 1 | Longest: 41 | Sacks Taken: 14 | Sack Yards Lost: 92 | good accuracy | 65%+ completion | Ryan Tannehill accurate QB | Ryan Tannehill passing | Ryan Tannehill quarterback | Ryan Tannehill QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 47,
+      "frame_id": 47,
+      "text": "Player: Davis Mills | Pass Yards: 984 | Attempts: 170 | Completions: 102 | Completion %: 60% | TDs: 5 | INTs: 4 | Rating: 76.9 | Yards/Attempt: 5.8 | First Downs: 46 | 20+ Yard Passes: 8 | 40+ Yard Passes: 1 | Longest: 40 | Sacks Taken: 19 | Sack Yards Lost: 128 | poor passer rating | Davis Mills struggling QB | Davis Mills passing | Davis Mills quarterback | Davis Mills QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 48,
+      "frame_id": 48,
+      "text": "Player: Tyler Huntley | Pass Yards: 976 | Attempts: 150 | Completions: 95 | Completion %: 63.3% | TDs: 4 | INTs: 3 | Rating: 82.7 | Yards/Attempt: 6.5 | First Downs: 42 | 20+ Yard Passes: 8 | 40+ Yard Passes: 1 | Longest: 39 | Sacks Taken: 17 | Sack Yards Lost: 113 | Tyler Huntley passing | Tyler Huntley quarterback | Tyler Huntley QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 49,
+      "frame_id": 49,
+      "text": "Player: Drew Lock | Pass Yards: 967 | Attempts: 124 | Completions: 82 | Completion %: 66.1% | TDs: 6 | INTs: 6 | Rating: 84.5 | Yards/Attempt: 7.8 | First Downs: 38 | 20+ Yard Passes: 11 | 40+ Yard Passes: 2 | Longest: 51 | Sacks Taken: 10 | Sack Yards Lost: 65 | good accuracy | 65%+ completion | Drew Lock accurate QB | Drew Lock passing | Drew Lock quarterback | Drew Lock QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 50,
+      "frame_id": 50,
+      "text": "Player: Sam Howell | Pass Yards: 955 | Attempts: 162 | Completions: 99 | Completion %: 61.1% | TDs: 4 | INTs: 5 | Rating: 73.4 | Yards/Attempt: 5.9 | First Downs: 45 | 20+ Yard Passes: 7 | 40+ Yard Passes: 0 | Longest: 38 | Sacks Taken: 21 | Sack Yards Lost: 140 | poor TD/INT ratio | Sam Howell turnover prone | poor passer rating | Sam Howell struggling QB | Sam Howell passing | Sam Howell quarterback | Sam Howell QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 51,
+      "frame_id": 51,
+      "text": "Player: Bailey Zappe | Pass Yards: 940 | Attempts: 154 | Completions: 95 | Completion %: 61.7% | TDs: 4 | INTs: 7 | Rating: 69.6 | Yards/Attempt: 6.1 | First Downs: 44 | 20+ Yard Passes: 7 | 40+ Yard Passes: 0 | Longest: 37 | Sacks Taken: 16 | Sack Yards Lost: 104 | poor TD/INT ratio | Bailey Zappe turnover prone | poor passer rating | Bailey Zappe struggling QB | Bailey Zappe passing | Bailey Zappe quarterback | Bailey Zappe QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 52,
+      "frame_id": 52,
+      "text": "Player: Marcus Mariota | Pass Yards: 932 | Attempts: 131 | Completions: 84 | Completion %: 64.1% | TDs: 5 | INTs: 3 | Rating: 87.2 | Yards/Attempt: 7.1 | First Downs: 39 | 20+ Yard Passes: 10 | 40+ Yard Passes: 1 | Longest: 48 | Sacks Taken: 12 | Sack Yards Lost: 79 | Marcus Mariota passing | Marcus Mariota quarterback | Marcus Mariota QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 53,
+      "frame_id": 53,
+      "text": "Player: Jake Haener | Pass Yards: 917 | Attempts: 135 | Completions: 87 | Completion %: 64.4% | TDs: 4 | INTs: 2 | Rating: 87.8 | Yards/Attempt: 6.8 | First Downs: 38 | 20+ Yard Passes: 9 | 40+ Yard Passes: 1 | Longest: 46 | Sacks Taken: 14 | Sack Yards Lost: 91 | Jake Haener passing | Jake Haener quarterback | Jake Haener QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 54,
+      "frame_id": 54,
+      "text": "Player: Jarrett Stidham | Pass Yards: 905 | Attempts: 124 | Completions: 79 | Completion %: 63.7% | TDs: 5 | INTs: 2 | Rating: 92.1 | Yards/Attempt: 7.3 | First Downs: 36 | 20+ Yard Passes: 10 | 40+ Yard Passes: 2 | Longest: 50 | Sacks Taken: 11 | Sack Yards Lost: 72 | good TD/INT ratio | Jarrett Stidham efficient passer | good passer rating | Jarrett Stidham quality starter | Jarrett Stidham passing | Jarrett Stidham quarterback | Jarrett Stidham QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 55,
+      "frame_id": 55,
+      "text": "Player: Brett Rypien | Pass Yards: 892 | Attempts: 139 | Completions: 85 | Completion %: 61.2% | TDs: 3 | INTs: 4 | Rating: 73.8 | Yards/Attempt: 6.4 | First Downs: 40 | 20+ Yard Passes: 8 | 40+ Yard Passes: 0 | Longest: 36 | Sacks Taken: 15 | Sack Yards Lost: 98 | poor TD/INT ratio | Brett Rypien turnover prone | poor passer rating | Brett Rypien struggling QB | Brett Rypien passing | Brett Rypien quarterback | Brett Rypien QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 56,
+      "frame_id": 56,
+      "text": "Player: Jimmy Garoppolo | Pass Yards: 885 | Attempts: 125 | Completions: 81 | Completion %: 64.8% | TDs: 5 | INTs: 1 | Rating: 94.2 | Yards/Attempt: 7.1 | First Downs: 35 | 20+ Yard Passes: 9 | 40+ Yard Passes: 1 | Longest: 47 | Sacks Taken: 13 | Sack Yards Lost: 85 | excellent TD/INT ratio | Jimmy Garoppolo safe passer | good passer rating | Jimmy Garoppolo quality starter | Jimmy Garoppolo passing | Jimmy Garoppolo quarterback | Jimmy Garoppolo QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 57,
+      "frame_id": 57,
+      "text": "Player: Case Keenum | Pass Yards: 872 | Attempts: 141 | Completions: 88 | Completion %: 62.4% | TDs: 4 | INTs: 3 | Rating: 79.8 | Yards/Attempt: 6.2 | First Downs: 38 | 20+ Yard Passes: 7 | 40+ Yard Passes: 0 | Longest: 35 | Sacks Taken: 16 | Sack Yards Lost: 104 | poor passer rating | Case Keenum struggling QB | Case Keenum passing | Case Keenum quarterback | Case Keenum QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 58,
+      "frame_id": 58,
+      "text": "Player: Joshua Dobbs | Pass Yards: 865 | Attempts: 131 | Completions: 83 | Completion %: 63.4% | TDs: 3 | INTs: 2 | Rating: 83.6 | Yards/Attempt: 6.6 | First Downs: 35 | 20+ Yard Passes: 8 | 40+ Yard Passes: 1 | Longest: 44 | Sacks Taken: 14 | Sack Yards Lost: 92 | Joshua Dobbs passing | Joshua Dobbs quarterback | Joshua Dobbs QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 59,
+      "frame_id": 59,
+      "text": "Player: Carson Wentz | Pass Yards: 858 | Attempts: 124 | Completions: 77 | Completion %: 62.1% | TDs: 4 | INTs: 1 | Rating: 89.5 | Yards/Attempt: 6.9 | First Downs: 33 | 20+ Yard Passes: 8 | 40+ Yard Passes: 1 | Longest: 45 | Sacks Taken: 12 | Sack Yards Lost: 78 | excellent TD/INT ratio | Carson Wentz safe passer | Carson Wentz passing | Carson Wentz quarterback | Carson Wentz QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 60,
+      "frame_id": 60,
+      "text": "Player: Kyle Trask | Pass Yards: 847 | Attempts: 134 | Completions: 83 | Completion %: 61.9% | TDs: 3 | INTs: 3 | Rating: 77.4 | Yards/Attempt: 6.3 | First Downs: 36 | 20+ Yard Passes: 7 | 40+ Yard Passes: 0 | Longest: 34 | Sacks Taken: 15 | Sack Yards Lost: 97 | poor passer rating | Kyle Trask struggling QB | Kyle Trask passing | Kyle Trask quarterback | Kyle Trask QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 61,
+      "frame_id": 61,
+      "text": "Player: Nick Mullens | Pass Yards: 835 | Attempts: 129 | Completions: 81 | Completion %: 62.8% | TDs: 3 | INTs: 2 | Rating: 82.3 | Yards/Attempt: 6.5 | First Downs: 34 | 20+ Yard Passes: 7 | 40+ Yard Passes: 0 | Longest: 33 | Sacks Taken: 14 | Sack Yards Lost: 91 | Nick Mullens passing | Nick Mullens quarterback | Nick Mullens QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 62,
+      "frame_id": 62,
+      "text": "Player: P.J. Walker | Pass Yards: 823 | Attempts: 135 | Completions: 82 | Completion %: 60.7% | TDs: 2 | INTs: 4 | Rating: 68.9 | Yards/Attempt: 6.1 | First Downs: 36 | 20+ Yard Passes: 6 | 40+ Yard Passes: 0 | Longest: 32 | Sacks Taken: 17 | Sack Yards Lost: 111 | poor TD/INT ratio | P.J. Walker turnover prone | poor passer rating | P.J. Walker struggling QB | P.J. Walker passing | P.J. Walker quarterback | P.J. Walker QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 63,
+      "frame_id": 63,
+      "text": "Player: Jake Browning | Pass Yards: 812 | Attempts: 127 | Completions: 79 | Completion %: 62.2% | TDs: 3 | INTs: 1 | Rating: 84.8 | Yards/Attempt: 6.4 | First Downs: 33 | 20+ Yard Passes: 7 | 40+ Yard Passes: 0 | Longest: 31 | Sacks Taken: 13 | Sack Yards Lost: 84 | good TD/INT ratio | Jake Browning efficient passer | Jake Browning passing | Jake Browning quarterback | Jake Browning QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 64,
+      "frame_id": 64,
+      "text": "Player: Tim Boyle | Pass Yards: 805 | Attempts: 136 | Completions: 80 | Completion %: 58.8% | TDs: 1 | INTs: 5 | Rating: 61.2 | Yards/Attempt: 5.9 | First Downs: 35 | 20+ Yard Passes: 5 | 40+ Yard Passes: 0 | Longest: 30 | Sacks Taken: 18 | Sack Yards Lost: 117 | poor TD/INT ratio | Tim Boyle turnover prone | poor passer rating | Tim Boyle struggling QB | accuracy issues | below 60% | Tim Boyle inaccurate passer | Tim Boyle passing | Tim Boyle quarterback | Tim Boyle QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 65,
+      "frame_id": 65,
+      "text": "Player: Zach Wilson | Pass Yards: 797 | Attempts: 128 | Completions: 76 | Completion %: 59.4% | TDs: 2 | INTs: 3 | Rating: 71.9 | Yards/Attempt: 6.2 | First Downs: 32 | 20+ Yard Passes: 6 | 40+ Yard Passes: 0 | Longest: 29 | Sacks Taken: 16 | Sack Yards Lost: 104 | poor TD/INT ratio | Zach Wilson turnover prone | poor passer rating | Zach Wilson struggling QB | accuracy issues | below 60% | Zach Wilson inaccurate passer | Zach Wilson passing | Zach Wilson quarterback | Zach Wilson QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 66,
+      "frame_id": 66,
+      "text": "Player: Joe Milton | Pass Yards: 788 | Attempts: 131 | Completions: 77 | Completion %: 58.8% | TDs: 1 | INTs: 4 | Rating: 63.4 | Yards/Attempt: 6 | First Downs: 33 | 20+ Yard Passes: 5 | 40+ Yard Passes: 0 | Longest: 28 | Sacks Taken: 17 | Sack Yards Lost: 110 | poor TD/INT ratio | Joe Milton turnover prone | poor passer rating | Joe Milton struggling QB | accuracy issues | below 60% | Joe Milton inaccurate passer | Joe Milton passing | Joe Milton quarterback | Joe Milton QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 67,
+      "frame_id": 67,
+      "text": "Player: Dorian Thompson-Robinson | Pass Yards: 775 | Attempts: 134 | Completions: 78 | Completion %: 58.2% | TDs: 0 | INTs: 5 | Rating: 56.7 | Yards/Attempt: 5.8 | First Downs: 34 | 20+ Yard Passes: 4 | 40+ Yard Passes: 0 | Longest: 27 | Sacks Taken: 18 | Sack Yards Lost: 116 | poor passer rating | Dorian Thompson-Robinson struggling QB | accuracy issues | below 60% | Dorian Thompson-Robinson inaccurate passer | Dorian Thompson-Robinson passing | Dorian Thompson-Robinson quarterback | Dorian Thompson-Robinson QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 68,
+      "frame_id": 68,
+      "text": "Player: Jake Luton | Pass Yards: 762 | Attempts: 133 | Completions: 76 | Completion %: 57.1% | TDs: 0 | INTs: 6 | Rating: 52.4 | Yards/Attempt: 5.7 | First Downs: 33 | 20+ Yard Passes: 4 | 40+ Yard Passes: 0 | Longest: 26 | Sacks Taken: 19 | Sack Yards Lost: 123 | poor passer rating | Jake Luton struggling QB | accuracy issues | below 60% | Jake Luton inaccurate passer | Jake Luton passing | Jake Luton quarterback | Jake Luton QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 69,
+      "frame_id": 69,
+      "text": "Player: Clayton Tune | Pass Yards: 749 | Attempts: 134 | Completions: 75 | Completion %: 56% | TDs: 0 | INTs: 7 | Rating: 47.9 | Yards/Attempt: 5.6 | First Downs: 32 | 20+ Yard Passes: 3 | 40+ Yard Passes: 0 | Longest: 25 | Sacks Taken: 20 | Sack Yards Lost: 129 | poor passer rating | Clayton Tune struggling QB | accuracy issues | below 60% | Clayton Tune inaccurate passer | Clayton Tune passing | Clayton Tune quarterback | Clayton Tune QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 70,
+      "frame_id": 70,
+      "text": "Player: Tommy DeVito | Pass Yards: 736 | Attempts: 136 | Completions: 74 | Completion %: 54.4% | TDs: 0 | INTs: 8 | Rating: 43.1 | Yards/Attempt: 5.4 | First Downs: 31 | 20+ Yard Passes: 3 | 40+ Yard Passes: 0 | Longest: 24 | Sacks Taken: 21 | Sack Yards Lost: 136 | poor passer rating | Tommy DeVito struggling QB | accuracy issues | below 60% | Tommy DeVito inaccurate passer | Tommy DeVito passing | Tommy DeVito quarterback | Tommy DeVito QB stats | NFL QB"
+    },
+    {
+      "chunk_id": 71,
+      "frame_id": 71,
+      "text": "Player: Sean Clifford | Pass Yards: 723 | Attempts: 137 | Completions: 73 | Completion %: 53.3% | TDs: 0 | INTs: 9 | Rating: 38.3 | Yards/Attempt: 5.3 | First Downs: 30 | 20+ Yard Passes: 2 | 40+ Yard Passes: 0 | Longest: 23 | Sacks Taken: 22 | Sack Yards Lost: 142 | poor passer rating | Sean Clifford struggling QB | accuracy issues | below 60% | Sean Clifford inaccurate passer | Sean Clifford passing | Sean Clifford quarterback | Sean Clifford QB stats | NFL QB"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}
