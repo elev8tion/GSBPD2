@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 sys.path.insert(0, '/Users/kcdacre8tor/GSBPD2/backend')
-from services.nba_service import NBA_TEAMS
+from src.services.nba_service import NBA_TEAMS
 
 def parse_player_from_text(text_block, team_id, team_name):
     """Parse a single player's data from text block"""

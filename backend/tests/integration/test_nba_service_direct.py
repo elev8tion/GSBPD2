@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Direct test of NBA service to isolate the hang"""
 import sys
-from services.nba_service import NBADataService
+from src.services.nba_service import NBADataService
 
 print("Initializing NBA service...")
 try:

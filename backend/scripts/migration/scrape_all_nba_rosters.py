@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 sys.path.insert(0, '/Users/kcdacre8tor/GSBPD2/backend')
-from services.nba_service import NBA_TEAMS
+from src.services.nba_service import NBA_TEAMS
 
 # Generate all roster URLs for 30 NBA teams
 def generate_roster_urls():

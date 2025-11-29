@@ -6,7 +6,7 @@ Quick script to trigger NBA data scraping
 import sys
 sys.path.insert(0, '/Users/kcdacre8tor/GSBPD2/backend')
 
-from services.nba_service import NBADataService
+from src.services.nba_service import NBADataService
 
 if __name__ == "__main__":
     print("Starting NBA data scraping...")

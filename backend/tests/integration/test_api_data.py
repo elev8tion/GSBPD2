@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Test that API can serve Memvid data"""
-from services.nba_service import NBADataService
+from src.services.nba_service import NBADataService
 import json
 
 print("=" * 80)

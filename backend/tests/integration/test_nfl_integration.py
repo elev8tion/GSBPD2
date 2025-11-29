@@ -12,7 +12,7 @@ import sys
 # Add backend to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from services.nfl_service import NFLDataService
+from src.services.nfl_service import NFLDataService
 
 def test_direct_service():
     """Test the NFL service directly."""

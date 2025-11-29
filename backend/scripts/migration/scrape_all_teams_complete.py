@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 sys.path.insert(0, '/Users/kcdacre8tor/GSBPD2/backend')
-from services.nba_service import NBA_TEAMS
+from src.services.nba_service import NBA_TEAMS
 from parse_roster_v2 import parse_roster_markdown_v2
 
 def main():

@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 sys.path.insert(0, '/Users/kcdacre8tor/GSBPD2/backend')
-from services.nba_service import NBA_TEAMS
+from src.services.nba_service import NBA_TEAMS
 
 # This script will be run after Firecrawl scraping is complete
 # For now, we'll use the sample data structure and prepare for batch processing

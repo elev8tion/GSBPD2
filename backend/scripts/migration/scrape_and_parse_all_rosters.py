@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 sys.path.insert(0, '/Users/kcdacre8tor/GSBPD2/backend')
-from services.nba_service import NBA_TEAMS
+from src.services.nba_service import NBA_TEAMS
 
 def extract_player_data(markdown_text, team_id, team_name):
     """

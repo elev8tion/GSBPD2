@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 sys.path.insert(0, '/Users/kcdacre8tor/GSBPD2/backend')
-from services.nba_service import NBADataService, NBA_TEAMS
+from src.services.nba_service import NBADataService, NBA_TEAMS
 
 # Real standings data from NBA.com (scraped via Firecrawl)
 STANDINGS = {
