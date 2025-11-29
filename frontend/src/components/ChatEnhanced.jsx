@@ -19,6 +19,7 @@ const ChatEnhanced = () => {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
+  const textareaRef = useRef(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -27,6 +28,15 @@ const ChatEnhanced = () => {
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  // Auto-resize textarea
+  const handleInputChange = (e) => {
+    setInput(e.target.value);
+    if (textareaRef.current) {
+      textareaRef.current.style.height = 'auto';
+      textareaRef.current.style.height = `${Math.min(textareaRef.current.scrollHeight, 200)}px`;
+    }
+  };
 
   const handleSend = async () => {
     if (!input.trim() || loading) return;
@@ -247,13 +257,34 @@ const ChatEnhanced = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.15 }}
         className="section"
-        style={{ padding: '20px' }}
+        style={{
+          padding: '24px',
+          background: 'var(--bg-elevated)',
+          borderTop: '2px solid var(--border-subtle)'
+        }}
       >
-        <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-end' }}>
-          <div style={{ flex: 1, position: 'relative' }}>
+        <div className="chat-input-container" style={{
+          display: 'flex',
+          gap: '16px',
+          alignItems: 'flex-end',
+          position: 'relative'
+        }}>
+          <div style={{
+            flex: 1,
+            position: 'relative',
+            background: 'var(--bg-card)',
+            borderRadius: '16px',
+            border: '2px solid var(--border-subtle)',
+            transition: 'all 0.2s ease',
+            overflow: 'hidden'
+          }}
+          onFocus={(e) => e.currentTarget.style.borderColor = 'var(--primary)'}
+          onBlur={(e) => e.currentTarget.style.borderColor = 'var(--border-subtle)'}
+          >
             <textarea
+              ref={textareaRef}
               value={input}
-              onChange={(e) => setInput(e.target.value)}
+              onChange={handleInputChange}
               onKeyPress={(e) => {
                 if (e.key === 'Enter' && !e.shiftKey) {
                   e.preventDefault();
@@ -261,50 +292,105 @@ const ChatEnhanced = () => {
                 }
               }}
               placeholder="Ask me anything about betting strategies, game analysis, or predictions..."
-              className="input-field"
               style={{
-                minHeight: '60px',
-                maxHeight: '120px',
-                resize: 'vertical',
-                fontSize: '14px',
-                lineHeight: '1.5'
+                width: '100%',
+                minHeight: '80px',
+                maxHeight: '200px',
+                padding: '20px',
+                background: 'transparent',
+                border: 'none',
+                outline: 'none',
+                resize: 'none',
+                fontSize: '15px',
+                lineHeight: '1.6',
+                color: 'var(--text-primary)',
+                fontFamily: 'inherit',
+                overflow: 'auto'
               }}
             />
+            <div style={{
+              position: 'absolute',
+              bottom: '12px',
+              left: '20px',
+              fontSize: '12px',
+              color: 'var(--text-tertiary)',
+              pointerEvents: 'none',
+              opacity: input ? 0 : 0.6,
+              transition: 'opacity 0.2s ease'
+            }}>
+              💡 Tip: Press Shift + Enter for new line
+            </div>
           </div>
+
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={handleSend}
             disabled={loading || !input.trim()}
             style={{
-              padding: '16px 24px',
-              background: input.trim() ? 'var(--primary)' : 'var(--bg-elevated)',
-              border: 'none',
-              borderRadius: '8px',
-              color: input.trim() ? 'white' : 'var(--text-tertiary)',
-              fontSize: '14px',
+              padding: '20px 32px',
+              background: 'transparent',
+              border: `2px solid ${input.trim() ? 'var(--primary)' : 'var(--border-subtle)'}`,
+              borderRadius: '16px',
+              color: input.trim() ? 'var(--primary)' : 'var(--text-tertiary)',
+              fontSize: '15px',
               fontWeight: '600',
               cursor: input.trim() ? 'pointer' : 'not-allowed',
-              transition: 'all 0.15s ease',
+              transition: 'all 0.2s ease',
               fontFamily: 'inherit',
               display: 'flex',
               alignItems: 'center',
-              gap: '8px',
-              opacity: input.trim() ? 1 : 0.5
+              gap: '10px',
+              opacity: input.trim() ? 1 : 0.5,
+              minHeight: '80px'
             }}
           >
-            <Send size={18} />
-            Send
+            <Send size={20} />
+            <span>Send</span>
           </motion.button>
         </div>
-        <p style={{
-          fontSize: '11px',
-          color: 'var(--text-tertiary)',
-          margin: '12px 0 0 0',
-          fontStyle: 'italic'
+
+        <div className="chat-status-bar" style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginTop: '16px',
+          paddingTop: '16px',
+          borderTop: '1px solid var(--border-subtle)'
         }}>
-          Press Enter to send, Shift + Enter for new line
-        </p>
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '12px'
+          }}>
+            <div style={{
+              width: '8px',
+              height: '8px',
+              borderRadius: '50%',
+              background: 'var(--success)',
+              boxShadow: '0 0 8px var(--success)',
+              animation: 'pulse 2s infinite'
+            }} />
+            <span style={{
+              fontSize: '13px',
+              color: 'var(--text-secondary)',
+              fontWeight: '500'
+            }}>
+              KC AI is online and ready to help
+            </span>
+          </div>
+
+          <div style={{
+            fontSize: '12px',
+            color: 'var(--text-tertiary)',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px'
+          }}>
+            <MessageSquare size={14} />
+            {messages.length - 1} message{messages.length - 1 !== 1 ? 's' : ''} in chat
+          </div>
+        </div>
       </motion.div>
     </div>
   );
@@ -331,13 +417,14 @@ const Message = ({ message, index }) => {
           width: '36px',
           height: '36px',
           borderRadius: '50%',
-          background: 'linear-gradient(135deg, var(--primary), var(--success))',
+          background: 'transparent',
+          border: '2px solid var(--primary)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           flexShrink: 0
         }}>
-          <Bot size={20} style={{ color: 'white' }} />
+          <Bot size={18} style={{ color: 'var(--primary)' }} />
         </div>
       )}
 

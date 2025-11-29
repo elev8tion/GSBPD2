@@ -727,3 +727,38 @@
     gap: 12px;
   }
 }
+
+/* Chat Input Responsive Styles */
+@media (max-width: 768px) {
+  /* Chat input area stacks on mobile */
+  .chat-input-container {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .chat-input-container button {
+    width: 100%;
+    min-height: 56px !important;
+    justify-content: center;
+  }
+
+  .chat-input-container textarea {
+    min-height: 100px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .chat-input-container {
+    gap: 12px !important;
+  }
+
+  .chat-input-container > div {
+    padding: 16px !important;
+  }
+
+  .chat-status-bar {
+    flex-direction: column !important;
+    gap: 12px !important;
+    text-align: center;
+  }
+}
