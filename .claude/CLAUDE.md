@@ -1,5 +1,15 @@
 # GSBPD2 Project Guidelines
 
+## CRITICAL: Action Restrictions
+**DO NOT execute any actions unless explicitly requested by the user.**
+- ❌ DO NOT create files without being asked
+- ❌ DO NOT run scripts without being asked
+- ❌ DO NOT modify code without being asked
+- ❌ DO NOT git commit/push without being asked
+- ✅ You MAY suggest actions
+- ✅ You MAY analyze and explain
+- ✅ You MUST wait for user approval before executing
+
 ## Core Principles
 - Always remember to create pipelines instead of doing things in a non-programmatic way.
 
