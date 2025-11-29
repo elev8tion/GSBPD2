@@ -126,7 +126,7 @@ const SettingsEnhanced = () => {
         </motion.div>
       )}
 
-      <div style={{ display: 'grid', gridTemplateColumns: '240px 1fr', gap: '24px' }}>
+      <div className="settings-layout">
         {/* Sidebar Navigation */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}

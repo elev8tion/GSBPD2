@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { TrendingUp, RefreshCw } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { TrendingUp, RefreshCw, DollarSign, Target, Clock, Star, BarChart3 } from 'lucide-react';
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
 
@@ -39,17 +40,19 @@ const BettingInsights = () => {
   };
 
   const getOddsColor = (odds) => {
-    if (!odds) return 'text-slate-400';
-    if (odds < 1.5) return 'text-green-400';  // Heavy favorite
-    if (odds < 2.0) return 'text-blue-400';   // Moderate favorite
-    return 'text-orange-400';                  // Underdog
+    if (!odds) return 'var(--text-tertiary)';
+    if (odds < 1.5) return 'var(--success)';  // Heavy favorite
+    if (odds < 2.0) return 'var(--info)';     // Moderate favorite
+    return 'var(--warning)';                  // Underdog
   };
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-center py-20">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+        <div className="skeleton" style={{ height: '120px' }} />
+        <div className="grid-2">
+          <div className="skeleton" style={{ height: '600px' }} />
+          <div className="skeleton" style={{ height: '600px' }} />
         </div>
       </div>
     );
@@ -57,70 +60,265 @@ const BettingInsights = () => {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-center py-20">
-          <div className="text-red-400">{error}</div>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="card"
+        style={{ padding: '60px', textAlign: 'center' }}
+      >
+        <div style={{
+          width: '64px',
+          height: '64px',
+          margin: '0 auto 24px',
+          borderRadius: '50%',
+          background: 'rgba(255, 62, 157, 0.1)',
+          border: '2px solid var(--danger)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}>
+          <TrendingUp size={32} style={{ color: 'var(--danger)' }} />
         </div>
-      </div>
+        <p style={{ color: 'var(--danger)', fontSize: '16px', marginBottom: '8px', fontWeight: '600' }}>
+          {error}
+        </p>
+        <p style={{ color: 'var(--text-tertiary)', fontSize: '14px', marginBottom: '24px' }}>
+          Please try refreshing or check back later
+        </p>
+        <motion.button
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          onClick={fetchBettingInsights}
+          className="btn btn-primary"
+        >
+          <RefreshCw size={16} />
+          Try Again
+        </motion.button>
+      </motion.div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6">
-      {/* Header */}
-      <div className="max-w-7xl mx-auto mb-8">
-        <div className="flex items-center justify-between">
-          <div>
-            <h1 className="text-4xl font-bold text-white mb-2">Betting Insights</h1>
-            <p className="text-slate-400">AI-powered analysis from DraftKings lines</p>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
+      {/* Header Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="card-elevated"
+        style={{ padding: '32px', position: 'relative' }}
+      >
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          height: '3px',
+          background: 'linear-gradient(90deg, var(--primary), var(--secondary))'
+        }} />
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <div style={{
+              padding: '14px',
+              background: 'var(--bg-elevated)',
+              borderRadius: '50%',
+              border: '2px solid var(--primary)',
+              boxShadow: 'var(--glow-primary)'
+            }}>
+              <DollarSign size={28} style={{ color: 'var(--primary)' }} />
+            </div>
+            <div>
+              <h1 style={{
+                fontSize: '28px',
+                fontWeight: '700',
+                margin: '0 0 4px 0',
+                color: 'var(--text-primary)',
+                letterSpacing: '-0.02em'
+              }}>
+                Betting Insights
+              </h1>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', margin: '0' }}>
+                AI-powered analysis from DraftKings live odds
+              </p>
+            </div>
           </div>
-          <button
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
             onClick={fetchBettingInsights}
-            className="flex items-center gap-2 px-4 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"
+            className="btn btn-primary"
+            style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
           >
-            <RefreshCw size={18} />
-            Refresh
-          </button>
+            <RefreshCw size={16} />
+            Refresh Data
+          </motion.button>
         </div>
-      </div>
+      </motion.div>
+
+      {/* Quick Stats */}
+      {insights.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="grid-3"
+        >
+          <motion.div
+            whileHover={{ y: -4 }}
+            className="metric-card"
+            style={{ textAlign: 'center' }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
+              <div style={{
+                padding: '12px',
+                background: 'var(--bg-elevated)',
+                borderRadius: '50%',
+                border: '2px solid var(--info)',
+                boxShadow: '0 0 20px rgba(99, 102, 241, 0.15)'
+              }}>
+                <BarChart3 size={24} style={{ color: 'var(--info)' }} />
+              </div>
+            </div>
+            <div className="metric-label">Games Available</div>
+            <div className="metric-value" style={{ color: 'var(--info)' }}>
+              {insights.length}
+            </div>
+          </motion.div>
+
+          <motion.div
+            whileHover={{ y: -4 }}
+            className="metric-card"
+            style={{ textAlign: 'center' }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
+              <div style={{
+                padding: '12px',
+                background: 'var(--bg-elevated)',
+                borderRadius: '50%',
+                border: '2px solid var(--primary)',
+                boxShadow: 'var(--glow-primary)'
+              }}>
+                <Target size={24} style={{ color: 'var(--primary)' }} />
+              </div>
+            </div>
+            <div className="metric-label">Live Markets</div>
+            <div className="metric-value" style={{ color: 'var(--primary)' }}>
+              {insights.length * 2}
+            </div>
+            <div style={{ fontSize: '12px', color: 'var(--text-tertiary)', marginTop: '4px' }}>
+              Spread & Total
+            </div>
+          </motion.div>
+
+          <motion.div
+            whileHover={{ y: -4 }}
+            className="metric-card"
+            style={{ textAlign: 'center' }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
+              <div style={{
+                padding: '12px',
+                background: 'var(--bg-elevated)',
+                borderRadius: '50%',
+                border: '2px solid var(--success)',
+                boxShadow: 'var(--glow-primary)'
+              }}>
+                <Star size={24} style={{ color: 'var(--success)' }} />
+              </div>
+            </div>
+            <div className="metric-label">AI Analyzed</div>
+            <div className="metric-value" style={{ color: 'var(--success)' }}>
+              {insights.length}
+            </div>
+            <div style={{ fontSize: '12px', color: 'var(--text-tertiary)', marginTop: '4px' }}>
+              Full insights
+            </div>
+          </motion.div>
+        </motion.div>
+      )}
 
       {/* Insights Grid */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {insights.map((insight) => (
-          <div
+      <div className="insights-grid">
+        {insights.map((insight, index) => (
+          <motion.div
             key={insight.game_id}
-            className="bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-blue-500 transition-all"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.1 }}
+            className="section"
           >
             {/* Game Header */}
-            <div className="mb-4">
-              <h3 className="text-xl font-bold text-white mb-1">
-                {insight.matchup}
-              </h3>
-              <p className="text-sm text-slate-400">
-                {formatTime(insight.commence_time)}
-              </p>
+            <div className="section-header">
+              <Clock className="section-icon" size={20} style={{ color: 'var(--warning)' }} />
+              <h2 className="section-title">{insight.matchup}</h2>
+            </div>
+            <div style={{
+              fontSize: '13px',
+              color: 'var(--text-secondary)',
+              marginBottom: '20px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px'
+            }}>
+              <Clock size={14} />
+              {formatTime(insight.commence_time)}
             </div>
 
             {/* Team Stats Comparison */}
             {insight.team_stats?.home && insight.team_stats?.away && (
-              <div className="bg-slate-700/50 rounded-lg p-4 mb-4">
-                <div className="text-xs text-slate-400 uppercase mb-3 font-semibold">Team Stats (Season Avg)</div>
-                <div className="grid grid-cols-3 gap-3">
+              <div style={{
+                background: 'var(--bg-elevated)',
+                borderRadius: 'var(--radius-md)',
+                padding: '20px',
+                marginBottom: '20px',
+                border: '1px solid var(--border-subtle)'
+              }}>
+                <div style={{
+                  fontSize: '11px',
+                  color: 'var(--text-secondary)',
+                  textTransform: 'uppercase',
+                  marginBottom: '16px',
+                  fontWeight: '600',
+                  letterSpacing: '0.05em'
+                }}>
+                  Season Averages
+                </div>
+                <div style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(3, 1fr)',
+                  gap: '16px'
+                }}>
                   {/* Points Per Game */}
                   <div>
-                    <div className="text-xs text-slate-500 text-center mb-1">PPG</div>
-                    <div className="flex justify-between items-center">
-                      <span className={`text-sm font-semibold ${
-                        parseFloat(insight.team_stats.home.pts) > parseFloat(insight.team_stats.away.pts)
-                          ? 'text-green-400' : 'text-slate-400'
-                      }`}>
+                    <div style={{
+                      fontSize: '11px',
+                      color: 'var(--text-tertiary)',
+                      textAlign: 'center',
+                      marginBottom: '8px',
+                      fontWeight: '500'
+                    }}>
+                      PPG
+                    </div>
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      gap: '8px'
+                    }}>
+                      <span style={{
+                        fontSize: '14px',
+                        fontWeight: '600',
+                        color: parseFloat(insight.team_stats.home.pts) > parseFloat(insight.team_stats.away.pts)
+                          ? 'var(--success)' : 'var(--text-secondary)'
+                      }}>
                         {insight.team_stats.home.pts}
                       </span>
-                      <span className="text-xs text-slate-600 mx-1">vs</span>
-                      <span className={`text-sm font-semibold ${
-                        parseFloat(insight.team_stats.away.pts) > parseFloat(insight.team_stats.home.pts)
-                          ? 'text-green-400' : 'text-slate-400'
-                      }`}>
+                      <span style={{ fontSize: '11px', color: 'var(--text-tertiary)' }}>vs</span>
+                      <span style={{
+                        fontSize: '14px',
+                        fontWeight: '600',
+                        color: parseFloat(insight.team_stats.away.pts) > parseFloat(insight.team_stats.home.pts)
+                          ? 'var(--success)' : 'var(--text-secondary)'
+                      }}>
                         {insight.team_stats.away.pts}
                       </span>
                     </div>
@@ -128,19 +326,36 @@ const BettingInsights = () => {
 
                   {/* Rebounds Per Game */}
                   <div>
-                    <div className="text-xs text-slate-500 text-center mb-1">RPG</div>
-                    <div className="flex justify-between items-center">
-                      <span className={`text-sm font-semibold ${
-                        parseFloat(insight.team_stats.home.reb) > parseFloat(insight.team_stats.away.reb)
-                          ? 'text-green-400' : 'text-slate-400'
-                      }`}>
+                    <div style={{
+                      fontSize: '11px',
+                      color: 'var(--text-tertiary)',
+                      textAlign: 'center',
+                      marginBottom: '8px',
+                      fontWeight: '500'
+                    }}>
+                      RPG
+                    </div>
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      gap: '8px'
+                    }}>
+                      <span style={{
+                        fontSize: '14px',
+                        fontWeight: '600',
+                        color: parseFloat(insight.team_stats.home.reb) > parseFloat(insight.team_stats.away.reb)
+                          ? 'var(--success)' : 'var(--text-secondary)'
+                      }}>
                         {insight.team_stats.home.reb}
                       </span>
-                      <span className="text-xs text-slate-600 mx-1">vs</span>
-                      <span className={`text-sm font-semibold ${
-                        parseFloat(insight.team_stats.away.reb) > parseFloat(insight.team_stats.home.reb)
-                          ? 'text-green-400' : 'text-slate-400'
-                      }`}>
+                      <span style={{ fontSize: '11px', color: 'var(--text-tertiary)' }}>vs</span>
+                      <span style={{
+                        fontSize: '14px',
+                        fontWeight: '600',
+                        color: parseFloat(insight.team_stats.away.reb) > parseFloat(insight.team_stats.home.reb)
+                          ? 'var(--success)' : 'var(--text-secondary)'
+                      }}>
                         {insight.team_stats.away.reb}
                       </span>
                     </div>
@@ -148,19 +363,36 @@ const BettingInsights = () => {
 
                   {/* Assists Per Game */}
                   <div>
-                    <div className="text-xs text-slate-500 text-center mb-1">APG</div>
-                    <div className="flex justify-between items-center">
-                      <span className={`text-sm font-semibold ${
-                        parseFloat(insight.team_stats.home.ast) > parseFloat(insight.team_stats.away.ast)
-                          ? 'text-green-400' : 'text-slate-400'
-                      }`}>
+                    <div style={{
+                      fontSize: '11px',
+                      color: 'var(--text-tertiary)',
+                      textAlign: 'center',
+                      marginBottom: '8px',
+                      fontWeight: '500'
+                    }}>
+                      APG
+                    </div>
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      gap: '8px'
+                    }}>
+                      <span style={{
+                        fontSize: '14px',
+                        fontWeight: '600',
+                        color: parseFloat(insight.team_stats.home.ast) > parseFloat(insight.team_stats.away.ast)
+                          ? 'var(--success)' : 'var(--text-secondary)'
+                      }}>
                         {insight.team_stats.home.ast}
                       </span>
-                      <span className="text-xs text-slate-600 mx-1">vs</span>
-                      <span className={`text-sm font-semibold ${
-                        parseFloat(insight.team_stats.away.ast) > parseFloat(insight.team_stats.home.ast)
-                          ? 'text-green-400' : 'text-slate-400'
-                      }`}>
+                      <span style={{ fontSize: '11px', color: 'var(--text-tertiary)' }}>vs</span>
+                      <span style={{
+                        fontSize: '14px',
+                        fontWeight: '600',
+                        color: parseFloat(insight.team_stats.away.ast) > parseFloat(insight.team_stats.home.ast)
+                          ? 'var(--success)' : 'var(--text-secondary)'
+                      }}>
                         {insight.team_stats.away.ast}
                       </span>
                     </div>
@@ -170,56 +402,105 @@ const BettingInsights = () => {
             )}
 
             {/* Betting Lines */}
-            <div className="grid grid-cols-2 gap-4 mb-4">
+            <div className="stats-grid-2" style={{ marginBottom: '20px' }}>
               {/* Spread */}
-              <div className="bg-slate-700/50 rounded-lg p-3">
-                <div className="text-xs text-slate-500 uppercase mb-1">Spread</div>
-                <div className="text-xl font-bold text-white">
+              <div className="metric-card">
+                <div className="metric-label">Spread</div>
+                <div className="metric-value" style={{ color: 'var(--primary)' }}>
                   {insight.spread > 0 ? '+' : ''}{insight.spread}
                 </div>
-                <div className="text-xs text-slate-400 mt-1">
+                <div style={{ fontSize: '12px', color: 'var(--text-tertiary)', marginTop: '6px' }}>
                   Favorite: {insight.favorite}
                 </div>
               </div>
 
               {/* Total */}
-              <div className="bg-slate-700/50 rounded-lg p-3">
-                <div className="text-xs text-slate-500 uppercase mb-1">Total (O/U)</div>
-                <div className="text-xl font-bold text-white">
+              <div className="metric-card">
+                <div className="metric-label">Total (O/U)</div>
+                <div className="metric-value" style={{ color: 'var(--secondary)' }}>
                   {insight.total}
                 </div>
-                <div className="text-xs text-slate-400 mt-1 flex justify-between">
-                  <span>O: {insight.betting_analysis.over_odds}</span>
-                  <span>U: {insight.betting_analysis.under_odds}</span>
+                <div style={{
+                  fontSize: '12px',
+                  color: 'var(--text-tertiary)',
+                  marginTop: '6px',
+                  display: 'flex',
+                  justifyContent: 'space-between'
+                }}>
+                  <span>Over: {insight.betting_analysis.over_odds}</span>
+                  <span>Under: {insight.betting_analysis.under_odds}</span>
                 </div>
               </div>
             </div>
 
             {/* Implied Probabilities */}
             {insight.implied_probabilities.home && (
-              <div className="bg-slate-700/50 rounded-lg p-3 mb-4">
-                <div className="text-xs text-slate-500 uppercase mb-2 font-semibold">Implied Probabilities</div>
-                <div className="flex justify-between items-center">
+              <div style={{
+                background: 'var(--bg-elevated)',
+                borderRadius: 'var(--radius-md)',
+                padding: '20px',
+                marginBottom: '20px',
+                border: '1px solid var(--border-subtle)'
+              }}>
+                <div style={{
+                  fontSize: '11px',
+                  color: 'var(--text-secondary)',
+                  textTransform: 'uppercase',
+                  marginBottom: '12px',
+                  fontWeight: '600',
+                  letterSpacing: '0.05em'
+                }}>
+                  Implied Probabilities
+                </div>
+                <div style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  marginBottom: '12px'
+                }}>
                   <div>
-                    <div className="text-sm text-slate-400">Home</div>
-                    <div className={`text-lg font-semibold ${getOddsColor(insight.implied_probabilities.home / 100)}`}>
+                    <div style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '4px' }}>
+                      Home
+                    </div>
+                    <div style={{
+                      fontSize: '20px',
+                      fontWeight: '700',
+                      color: getOddsColor(insight.implied_probabilities.home / 100)
+                    }}>
                       {insight.implied_probabilities.home}%
                     </div>
                   </div>
-                  <div className="text-slate-600">vs</div>
-                  <div className="text-right">
-                    <div className="text-sm text-slate-400">Away</div>
-                    <div className={`text-lg font-semibold ${getOddsColor(insight.implied_probabilities.away / 100)}`}>
+                  <div style={{
+                    fontSize: '12px',
+                    color: 'var(--text-tertiary)',
+                    fontWeight: '500'
+                  }}>
+                    vs
+                  </div>
+                  <div style={{ textAlign: 'right' }}>
+                    <div style={{ fontSize: '13px', color: 'var(--text-secondary)', marginBottom: '4px' }}>
+                      Away
+                    </div>
+                    <div style={{
+                      fontSize: '20px',
+                      fontWeight: '700',
+                      color: getOddsColor(insight.implied_probabilities.away / 100)
+                    }}>
                       {insight.implied_probabilities.away}%
                     </div>
                   </div>
                 </div>
                 {insight.betting_analysis.market_efficiency && (
-                  <div className="mt-2 pt-2 border-t border-slate-700">
-                    <div className="text-xs text-slate-500">
-                      Market Efficiency: {insight.betting_analysis.market_efficiency}%
-                      <span className="ml-2 text-slate-600">(includes vig)</span>
-                    </div>
+                  <div style={{
+                    paddingTop: '12px',
+                    borderTop: '1px solid var(--border-subtle)',
+                    fontSize: '12px',
+                    color: 'var(--text-secondary)'
+                  }}>
+                    Market Efficiency: <span style={{ color: 'var(--text-primary)', fontWeight: '600' }}>
+                      {insight.betting_analysis.market_efficiency}%
+                    </span>
+                    <span style={{ color: 'var(--text-tertiary)', marginLeft: '8px' }}>(includes vig)</span>
                   </div>
                 )}
               </div>
@@ -227,19 +508,56 @@ const BettingInsights = () => {
 
             {/* Key Players */}
             {insight.top_players?.home && insight.top_players?.away && (
-              <div className="bg-slate-700/50 rounded-lg p-4 mb-4">
-                <div className="text-xs text-slate-400 uppercase mb-3 font-semibold">Top Scorers</div>
-                <div className="grid grid-cols-2 gap-4">
+              <div style={{
+                background: 'var(--bg-elevated)',
+                borderRadius: 'var(--radius-md)',
+                padding: '20px',
+                marginBottom: '20px',
+                border: '1px solid var(--border-subtle)'
+              }}>
+                <div style={{
+                  fontSize: '11px',
+                  color: 'var(--text-secondary)',
+                  textTransform: 'uppercase',
+                  marginBottom: '16px',
+                  fontWeight: '600',
+                  letterSpacing: '0.05em'
+                }}>
+                  Top Scorers
+                </div>
+                <div className="stats-grid-2" style={{ gap: '20px' }}>
                   {/* Home Team Players */}
                   <div>
-                    <div className="text-xs text-slate-500 mb-2">Home</div>
-                    <div className="space-y-2">
+                    <div style={{
+                      fontSize: '11px',
+                      color: 'var(--text-tertiary)',
+                      marginBottom: '12px',
+                      fontWeight: '600'
+                    }}>
+                      Home
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                       {insight.top_players.home.slice(0, 3).map((player, idx) => (
-                        <div key={idx} className="flex justify-between items-center">
-                          <span className="text-sm text-white truncate mr-2">
+                        <div
+                          key={idx}
+                          style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            alignItems: 'center'
+                          }}
+                        >
+                          <span style={{
+                            fontSize: '13px',
+                            color: 'var(--text-primary)',
+                            flex: 1,
+                            overflow: 'hidden',
+                            textOverflow: 'ellipsis',
+                            whiteSpace: 'nowrap',
+                            marginRight: '8px'
+                          }}>
                             {player.name}
                           </span>
-                          <span className="text-sm font-semibold text-blue-400">
+                          <span className="badge info">
                             {player.ppg} PPG
                           </span>
                         </div>
@@ -249,14 +567,36 @@ const BettingInsights = () => {
 
                   {/* Away Team Players */}
                   <div>
-                    <div className="text-xs text-slate-500 mb-2">Away</div>
-                    <div className="space-y-2">
+                    <div style={{
+                      fontSize: '11px',
+                      color: 'var(--text-tertiary)',
+                      marginBottom: '12px',
+                      fontWeight: '600'
+                    }}>
+                      Away
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                       {insight.top_players.away.slice(0, 3).map((player, idx) => (
-                        <div key={idx} className="flex justify-between items-center">
-                          <span className="text-sm text-white truncate mr-2">
+                        <div
+                          key={idx}
+                          style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            alignItems: 'center'
+                          }}
+                        >
+                          <span style={{
+                            fontSize: '13px',
+                            color: 'var(--text-primary)',
+                            flex: 1,
+                            overflow: 'hidden',
+                            textOverflow: 'ellipsis',
+                            whiteSpace: 'nowrap',
+                            marginRight: '8px'
+                          }}>
                             {player.name}
                           </span>
-                          <span className="text-sm font-semibold text-orange-400">
+                          <span className="badge warning">
                             {player.ppg} PPG
                           </span>
                         </div>
@@ -267,29 +607,95 @@ const BettingInsights = () => {
               </div>
             )}
 
-            {/* Recommendation */}
-            <div className="bg-blue-600/10 border border-blue-500/30 rounded-lg p-4">
-              <div className="text-xs text-blue-400 uppercase mb-2 font-semibold">AI Analysis</div>
-              <div className="text-sm text-white leading-relaxed">
+            {/* AI Recommendation */}
+            <div style={{
+              background: 'rgba(0, 217, 255, 0.08)',
+              border: '1px solid rgba(0, 217, 255, 0.2)',
+              borderRadius: 'var(--radius-md)',
+              padding: '20px'
+            }}>
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                marginBottom: '12px'
+              }}>
+                <TrendingUp size={16} style={{ color: 'var(--primary)' }} />
+                <div style={{
+                  fontSize: '11px',
+                  color: 'var(--primary)',
+                  textTransform: 'uppercase',
+                  fontWeight: '600',
+                  letterSpacing: '0.05em'
+                }}>
+                  AI Analysis
+                </div>
+              </div>
+              <div style={{
+                fontSize: '14px',
+                color: 'var(--text-primary)',
+                lineHeight: '1.6',
+                letterSpacing: '-0.01em'
+              }}>
                 {insight.recommendation}
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
 
+      {/* Empty State */}
       {insights.length === 0 && (
-        <div className="max-w-7xl mx-auto text-center py-20">
-          <p className="text-slate-400 text-lg">No betting insights available</p>
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="card"
+          style={{ padding: '60px', textAlign: 'center' }}
+        >
+          <div style={{
+            width: '64px',
+            height: '64px',
+            margin: '0 auto 24px',
+            borderRadius: '50%',
+            background: 'var(--bg-elevated)',
+            border: '2px solid var(--border-strong)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <DollarSign size={32} style={{ color: 'var(--text-tertiary)' }} />
+          </div>
+          <p style={{ color: 'var(--text-primary)', fontSize: '16px', marginBottom: '8px', fontWeight: '600' }}>
+            No betting insights available
+          </p>
+          <p style={{ color: 'var(--text-tertiary)', fontSize: '14px' }}>
+            Check back later for AI-powered betting insights
+          </p>
+        </motion.div>
       )}
 
       {/* Disclaimer */}
-      <div className="max-w-7xl mx-auto mt-8 bg-yellow-900/20 border border-yellow-900/50 rounded-lg p-4 text-center">
-        <p className="text-sm text-yellow-400">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.3 }}
+        style={{
+          background: 'rgba(255, 184, 0, 0.08)',
+          border: '1px solid rgba(255, 184, 0, 0.2)',
+          borderRadius: 'var(--radius-md)',
+          padding: '16px 20px',
+          textAlign: 'center'
+        }}
+      >
+        <p style={{
+          fontSize: '13px',
+          color: 'var(--warning)',
+          margin: 0,
+          fontWeight: '500'
+        }}>
           ⚠️ For entertainment purposes only. Bet responsibly. Never wager more than you can afford to lose.
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };
