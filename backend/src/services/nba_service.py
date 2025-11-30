@@ -6,6 +6,7 @@ Handles scraping, storing, and retrieving NBA data using Firecrawl + Memvid
 import json
 import os
 import re
+import sqlite3
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
@@ -66,12 +67,18 @@ class NBADataService:
         self.firecrawl_api_key = os.getenv("FIRECRAWL_API_KEY")
         self.odds_api_key = os.getenv("ODDS_API_KEY")
 
+        # Database paths
+        self.player_stats_db = base_dir.parent / "data" / "nba_player_stats.db"
+
         # Cache expiry time (in seconds) - default 1 hour
         self.cache_expiry = 3600
 
         # Initialize Kre8VidMems retrievers
         self.memories_dir = base_dir.parent / "data" / "memories"
         self._init_kre8vidmems_retrievers()
+
+        # Initialize player ID lookup cache
+        self._player_id_cache = {}
 
     def _init_kre8vidmems_retrievers(self):
         """Initialize Kre8VidMems memories for NBA data"""
@@ -333,6 +340,9 @@ class NBADataService:
                     if player:
                         players_data.append(player)
 
+                # Enrich players with IDs and image URLs from database
+                players_data = self._enrich_players_with_ids_and_images(players_data)
+
                 print(f"✓ Retrieved {len(players_data)} players from Kre8VidMems")
                 return players_data
 
@@ -416,6 +426,45 @@ class NBADataService:
         except Exception as e:
             print(f"⚠ Error parsing player: {e}")
             return None
+
+    def _enrich_players_with_ids_and_images(self, players: List[Dict]) -> List[Dict]:
+        """Enrich player data with player_id from database and add image URLs"""
+        if not self.player_stats_db.exists():
+            print("⚠ Player stats database not found, skipping ID/image enrichment")
+            return players
+
+        try:
+            # Build player ID lookup from database (cache it)
+            if not self._player_id_cache:
+                conn = sqlite3.connect(str(self.player_stats_db))
+                cursor = conn.cursor()
+                cursor.execute("SELECT DISTINCT player_id, player_name FROM game_logs")
+                for player_id, player_name in cursor.fetchall():
+                    self._player_id_cache[player_name.lower().strip()] = player_id
+                conn.close()
+                print(f"✓ Loaded {len(self._player_id_cache)} player IDs from database")
+
+            # Enrich each player
+            enriched_count = 0
+            for player in players:
+                player_name = player.get('name', '').lower().strip()
+
+                # Get player_id from cache
+                if player_name in self._player_id_cache:
+                    player_id = self._player_id_cache[player_name]
+                    player['player_id'] = player_id
+
+                    # Generate image URLs
+                    player['image_url'] = f"https://cdn.nba.com/headshots/nba/latest/1040x760/{player_id}.png"
+                    player['image_url_small'] = f"https://cdn.nba.com/headshots/nba/latest/260x190/{player_id}.png"
+                    enriched_count += 1
+
+            print(f"✓ Enriched {enriched_count}/{len(players)} players with IDs and images")
+            return players
+
+        except Exception as e:
+            print(f"⚠ Error enriching players with IDs: {e}")
+            return players
 
     def _is_cache_fresh(self) -> bool:
         """Check if games cache is fresh (within expiry time)"""

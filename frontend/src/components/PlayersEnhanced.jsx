@@ -318,14 +318,33 @@ const PlayerCard = ({ player, index, sport, onClick }) => {
         <div style={{
           width: '48px',
           height: '48px',
-          background: 'linear-gradient(135deg, var(--primary), var(--success))',
+          background: player.image_url_small ? 'transparent' : 'linear-gradient(135deg, var(--primary), var(--success))',
           borderRadius: '50%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          flexShrink: 0
+          flexShrink: 0,
+          overflow: 'hidden',
+          border: '2px solid var(--border-subtle)'
         }}>
-          <User size={24} style={{ color: 'white' }} />
+          {player.image_url_small ? (
+            <img
+              src={player.image_url_small}
+              alt={player.name}
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover'
+              }}
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.parentElement.innerHTML = '<svg width="24" height="24" fill="white"><use href="#user-icon"/></svg>';
+                e.target.parentElement.style.background = 'linear-gradient(135deg, var(--primary), var(--success))';
+              }}
+            />
+          ) : (
+            <User size={24} style={{ color: 'white' }} />
+          )}
         </div>
         <div style={{ flex: 1, minWidth: 0 }}>
           <h3 style={{
