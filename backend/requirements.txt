@@ -28,3 +28,5 @@ easyocr>=1.7.0
 
 # Text scraping
 beautifulsoup4>=4.12.0
+nba_api>=1.1.0
+lightgbm>=4.0.0

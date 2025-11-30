@@ -19,6 +19,7 @@ app.add_middleware(
 from src.services.odds_api import OddsAPIService
 from src.services.knowledge_base import KnowledgeBaseService
 from src.services.nfl_sgp_service import NFLSGPService
+from src.services.nba_sgp_service import NBASGPService
 from src.services.nba_service import NBADataService
 from src.services.nfl_service import NFLDataService
 from src.services.draftkings_odds_service import DraftKingsOddsService
@@ -31,6 +32,7 @@ data_service = DataService()
 odds_service = OddsAPIService()
 kb_service = KnowledgeBaseService() # Replaces portfolio_service
 nfl_sgp_service = NFLSGPService()
+nba_sgp_service = NBASGPService()
 nba_service = NBADataService()
 nfl_service = NFLDataService()
 dk_odds_service = DraftKingsOddsService()
@@ -601,6 +603,86 @@ async def search_schedule(q: str):
             "results_count": len(results),
             "results": results
         }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+# ============ NBA SGP ENDPOINTS ============
+
+class NBATrainRequest(BaseModel):
+    season: str = "2023-24"
+    force_download: bool = False
+
+class NBAParlayRequest(BaseModel):
+    game_id: str
+    max_legs: int = 10
+    min_ev: float = 0.05
+
+@app.post("/nba/sgp/download")
+def download_nba_data(request: NBATrainRequest):
+    """Download NBA player data for a season"""
+    try:
+        result = nba_sgp_service.download_season_data(request.season, request.force_download)
+        if result.get("status") == "error":
+            raise HTTPException(status_code=500, detail=result.get("message"))
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Download failed: {str(e)}")
+
+@app.post("/nba/sgp/train")
+def train_nba_models(request: NBATrainRequest):
+    """Train NBA SGP prediction models"""
+    try:
+        result = nba_sgp_service.train_models(request.season)
+        if result.get("status") == "error":
+            raise HTTPException(status_code=500, detail=result.get("message"))
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Training failed: {str(e)}")
+
+@app.get("/nba/sgp/player/{player_id}/{game_id}")
+def get_player_prop_predictions(player_id: str, game_id: str):
+    """Get prop predictions for a specific player in a game"""
+    try:
+        predictions = nba_sgp_service.predict_player_props(player_id, game_id)
+        return predictions
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/nba/sgp/parlays")
+def build_nba_parlays(request: NBAParlayRequest):
+    """Build optimal NBA parlays for a game"""
+    try:
+        parlays = nba_sgp_service.build_parlays(
+            game_id=request.game_id,
+            max_legs=request.max_legs,
+            min_ev=request.min_ev
+        )
+        return {
+            "game_id": request.game_id,
+            "parlays": parlays,
+            "total": len(parlays)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/nba/sgp/ev")
+def calculate_nba_prop_ev(our_probability: float, sportsbook_odds: int):
+    """Calculate expected value for an NBA prop bet"""
+    try:
+        ev = nba_sgp_service.calculate_ev(our_probability, sportsbook_odds)
+        return ev
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/sgp/correlations")
+def get_nba_sgp_correlations():
+    """Get NBA-specific correlation coefficients for SGP calculations"""
+    try:
+        return nba_sgp_service.get_correlations()
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
