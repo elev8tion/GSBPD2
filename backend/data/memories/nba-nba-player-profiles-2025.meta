@@ -1,0 +1,2636 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "Player: Donovan Clingan\nPosition: C\nTeam: 1610612757\nHeight: 7-2\nWeight: 280\nExperience: 1 years\nSchool: Connecticut\nJersey: #23"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "Player: Dejounte Murray\nPosition: G\nTeam: 1610612740\nHeight: 6-4\nWeight: 180\nExperience: 9 years\nSchool: Washington\nJersey: #5"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "Player: Dario \u0160ari\u0107\nPosition: F-C\nTeam: 1610612758\nHeight: 6-10\nWeight: 225\nExperience: 9 years\nSchool: Anadolu Efes\nJersey: #20"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "Player: Tristan Vukcevic\nPosition: F\nTeam: 1610612764\nHeight: 7-0\nWeight: 220\nExperience: 2 years\nSchool: Real Madrid\nJersey: #00"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "Player: Tre Mann\nPosition: G\nTeam: 1610612766\nHeight: 6-4\nWeight: 178\nExperience: 4 years\nSchool: Florida\nJersey: #23"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "Player: Scoot Henderson\nPosition: G\nTeam: 1610612757\nHeight: 6-3\nWeight: 207\nExperience: 2 years\nSchool: NBA G League Ignite\nJersey: #00"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "Player: LeBron James\nPosition: F\nTeam: 1610612747\nHeight: 6-9\nWeight: 250\nExperience: 22 years\nSchool: St. Vincent-St. Mary HS (OH)\nJersey: #23"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "Player: Kris Dunn\nPosition: G\nTeam: 1610612746\nHeight: 6-3\nWeight: 205\nExperience: 9 years\nSchool: Providence\nJersey: #8"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "Player: Ryan Rollins\nPosition: G\nTeam: 1610612749\nHeight: 6-3\nWeight: 180\nExperience: 3 years\nSchool: Toledo\nJersey: #13"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "Player: Tobias Harris\nPosition: F\nTeam: 1610612765\nHeight: 6-8\nWeight: 226\nExperience: 14 years\nSchool: Tennessee\nJersey: #12"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "Player: Josh Okogie\nPosition: G\nTeam: 1610612745\nHeight: 6-4\nWeight: 213\nExperience: 7 years\nSchool: Georgia Tech\nJersey: #20"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "Player: Kawhi Leonard\nPosition: F\nTeam: 1610612746\nHeight: 6-6\nWeight: 225\nExperience: 14 years\nSchool: San Diego State\nJersey: #2"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "Player: Ziaire Williams\nPosition: F\nTeam: 1610612751\nHeight: 6-9\nWeight: 185\nExperience: 4 years\nSchool: Stanford\nJersey: #1"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "Player: Jaylen Wells\nPosition: F\nTeam: 1610612763\nHeight: 6-7\nWeight: None\nExperience: 1 years\nSchool: Washington State\nJersey: #0"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "Player: Jock Landale\nPosition: C\nTeam: 1610612763\nHeight: 6-11\nWeight: 255\nExperience: 4 years\nSchool: St. Mary's\nJersey: #31"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "Player: Yves Missi\nPosition: C\nTeam: 1610612740\nHeight: 6-11\nWeight: 235\nExperience: 1 years\nSchool: Baylor\nJersey: #21"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "Player: Chris Youngblood\nPosition: G\nTeam: 1610612760\nHeight: 6-4\nWeight: None\nExperience: R years\nSchool: Alabama\nJersey: #3"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "Player: Curtis Jones\nPosition: G\nTeam: 1610612743\nHeight: 6-3\nWeight: 195\nExperience: R years\nSchool: Iowa State\nJersey: #1"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "Player: Bennedict Mathurin\nPosition: G-F\nTeam: 1610612754\nHeight: 6-5\nWeight: 210\nExperience: 3 years\nSchool: Arizona\nJersey: #00"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "Player: Brandon Williams\nPosition: G\nTeam: 1610612742\nHeight: 6-1\nWeight: 190\nExperience: 3 years\nSchool: Arizona\nJersey: #10"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "Player: Cam Christie\nPosition: G\nTeam: 1610612746\nHeight: 6-5\nWeight: 190\nExperience: 1 years\nSchool: Minnesota\nJersey: #12"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "Player: Cam Spencer\nPosition: G\nTeam: 1610612763\nHeight: 6-3\nWeight: 205\nExperience: 1 years\nSchool: Connecticut\nJersey: #24"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "Player: Brice Sensabaugh\nPosition: F\nTeam: 1610612762\nHeight: 6-6\nWeight: 235\nExperience: 2 years\nSchool: Ohio State\nJersey: #28"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "Player: Bilal Coulibaly\nPosition: G\nTeam: 1610612764\nHeight: 6-7\nWeight: 195\nExperience: 2 years\nSchool: Metropolitans 92\nJersey: #0"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "Player: Craig Porter Jr.\nPosition: G\nTeam: 1610612739\nHeight: 6-1\nWeight: 180\nExperience: 2 years\nSchool: Wichita State\nJersey: #9"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "Player: Chris Paul\nPosition: G\nTeam: 1610612746\nHeight: 6-0\nWeight: 175\nExperience: 20 years\nSchool: Wake Forest\nJersey: #3"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "Player: Zaccharie Risacher\nPosition: F\nTeam: 1610612737\nHeight: 6-8\nWeight: 200\nExperience: 1 years\nSchool: JL Bourg-en-Bresse\nJersey: #10"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "Player: Joe Ingles\nPosition: F-G\nTeam: 1610612750\nHeight: 6-8\nWeight: 220\nExperience: 11 years\nSchool: Maccabi Tel Aviv\nJersey: #7"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "Player: Zion Williamson\nPosition: F\nTeam: 1610612740\nHeight: 6-6\nWeight: 284\nExperience: 6 years\nSchool: Duke\nJersey: #1"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "Player: Jaylin Williams\nPosition: F\nTeam: 1610612760\nHeight: 6-9\nWeight: 240\nExperience: 3 years\nSchool: Arkansas\nJersey: #6"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "Player: Kasparas Jaku\u010dionis\nPosition: G\nTeam: 1610612748\nHeight: 6-5\nWeight: 200\nExperience: R years\nSchool: Illinois-Urbana-Champaign\nJersey: #25"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "Player: Josh Minott\nPosition: F\nTeam: 1610612738\nHeight: 6-8\nWeight: 205\nExperience: 3 years\nSchool: Memphis\nJersey: #8"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "Player: Tolu Smith\nPosition: F\nTeam: 1610612765\nHeight: 6-11\nWeight: None\nExperience: 1 years\nSchool: Mississippi State\nJersey: #35"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "Player: Kris Murray\nPosition: F\nTeam: 1610612757\nHeight: 6-8\nWeight: 218\nExperience: 2 years\nSchool: Iowa\nJersey: #24"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "Player: Saddiq Bey\nPosition: G-F\nTeam: 1610612740\nHeight: 6-8\nWeight: 215\nExperience: 5 years\nSchool: Villanova\nJersey: #41"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "Player: Scottie Barnes\nPosition: F-G\nTeam: 1610612761\nHeight: 6-8\nWeight: 237\nExperience: 4 years\nSchool: Florida State\nJersey: #4"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "Player: Leonard Miller\nPosition: F\nTeam: 1610612750\nHeight: 6-10\nWeight: 220\nExperience: 2 years\nSchool: NBA G League Ignite\nJersey: #33"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "Player: Tre Jones\nPosition: G\nTeam: 1610612741\nHeight: 6-1\nWeight: 185\nExperience: 5 years\nSchool: Duke\nJersey: #30"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "Player: Trey Murphy III\nPosition: F\nTeam: 1610612740\nHeight: 6-8\nWeight: 206\nExperience: 4 years\nSchool: Virginia\nJersey: #25"
+    },
+    {
+      "chunk_id": 39,
+      "frame_id": 39,
+      "text": "Player: Darius Garland\nPosition: G\nTeam: 1610612739\nHeight: 6-1\nWeight: 192\nExperience: 6 years\nSchool: Vanderbilt\nJersey: #10"
+    },
+    {
+      "chunk_id": 40,
+      "frame_id": 40,
+      "text": "Player: Deni Avdija\nPosition: F\nTeam: 1610612757\nHeight: 6-8\nWeight: 228\nExperience: 5 years\nSchool: Maccabi Tel Aviv\nJersey: #8"
+    },
+    {
+      "chunk_id": 41,
+      "frame_id": 41,
+      "text": "Player: Donovan Mitchell\nPosition: G\nTeam: 1610612739\nHeight: 6-2\nWeight: 215\nExperience: 8 years\nSchool: Louisville\nJersey: #45"
+    },
+    {
+      "chunk_id": 42,
+      "frame_id": 42,
+      "text": "Player: Dereck Lively II\nPosition: C\nTeam: 1610612742\nHeight: 7-1\nWeight: 230\nExperience: 2 years\nSchool: Duke\nJersey: #2"
+    },
+    {
+      "chunk_id": 43,
+      "frame_id": 43,
+      "text": "Player: Dorian Finney-Smith\nPosition: F\nTeam: 1610612745\nHeight: 6-7\nWeight: 220\nExperience: 9 years\nSchool: Florida\nJersey: #2"
+    },
+    {
+      "chunk_id": 44,
+      "frame_id": 44,
+      "text": "Player: Trayce Jackson-Davis\nPosition: F\nTeam: 1610612744\nHeight: 6-9\nWeight: 245\nExperience: 2 years\nSchool: Indiana\nJersey: #32"
+    },
+    {
+      "chunk_id": 45,
+      "frame_id": 45,
+      "text": "Player: Trey Alexander\nPosition: G\nTeam: 1610612740\nHeight: 6-5\nWeight: 185\nExperience: 1 years\nSchool: Creighton\nJersey: #23"
+    },
+    {
+      "chunk_id": 46,
+      "frame_id": 46,
+      "text": "Player: Sam Merrill\nPosition: G\nTeam: 1610612739\nHeight: 6-4\nWeight: 205\nExperience: 5 years\nSchool: Utah State\nJersey: #5"
+    },
+    {
+      "chunk_id": 47,
+      "frame_id": 47,
+      "text": "Player: Kon Knueppel\nPosition: G-F\nTeam: 1610612766\nHeight: 6-6\nWeight: 215\nExperience: R years\nSchool: Duke\nJersey: #7"
+    },
+    {
+      "chunk_id": 48,
+      "frame_id": 48,
+      "text": "Player: Lauri Markkanen\nPosition: F-C\nTeam: 1610612762\nHeight: 7-1\nWeight: 240\nExperience: 8 years\nSchool: Arizona\nJersey: #23"
+    },
+    {
+      "chunk_id": 49,
+      "frame_id": 49,
+      "text": "Player: Shaedon Sharpe\nPosition: G\nTeam: 1610612757\nHeight: 6-5\nWeight: 210\nExperience: 3 years\nSchool: Kentucky\nJersey: #17"
+    },
+    {
+      "chunk_id": 50,
+      "frame_id": 50,
+      "text": "Player: Kevin McCullar Jr.\nPosition: G\nTeam: 1610612752\nHeight: 6-6\nWeight: 210\nExperience: 1 years\nSchool: Kansas\nJersey: #9"
+    },
+    {
+      "chunk_id": 51,
+      "frame_id": 51,
+      "text": "Player: Keaton Wallace\nPosition: G\nTeam: 1610612737\nHeight: 6-3\nWeight: 185\nExperience: 1 years\nSchool: Texas-San Antonio\nJersey: #2"
+    },
+    {
+      "chunk_id": 52,
+      "frame_id": 52,
+      "text": "Player: Jrue Holiday\nPosition: G\nTeam: 1610612757\nHeight: 6-4\nWeight: 220\nExperience: 16 years\nSchool: UCLA\nJersey: #5"
+    },
+    {
+      "chunk_id": 53,
+      "frame_id": 53,
+      "text": "Player: Joan Beringer\nPosition: F\nTeam: 1610612750\nHeight: 6-11\nWeight: 230\nExperience: R years\nSchool: None\nJersey: #19"
+    },
+    {
+      "chunk_id": 54,
+      "frame_id": 54,
+      "text": "Player: Jaylen Clark\nPosition: G\nTeam: 1610612750\nHeight: 6-5\nWeight: 205\nExperience: 1 years\nSchool: UCLA\nJersey: #22"
+    },
+    {
+      "chunk_id": 55,
+      "frame_id": 55,
+      "text": "Player: Jordan Clarkson\nPosition: G\nTeam: 1610612752\nHeight: 6-5\nWeight: 194\nExperience: 11 years\nSchool: Missouri\nJersey: #00"
+    },
+    {
+      "chunk_id": 56,
+      "frame_id": 56,
+      "text": "Player: Cooper Flagg\nPosition: F\nTeam: 1610612742\nHeight: 6-9\nWeight: 205\nExperience: R years\nSchool: Duke\nJersey: #32"
+    },
+    {
+      "chunk_id": 57,
+      "frame_id": 57,
+      "text": "Player: Chris Livingston\nPosition: F\nTeam: 1610612739\nHeight: 6-6\nWeight: 220\nExperience: 2 years\nSchool: Kentucky\nJersey: #8"
+    },
+    {
+      "chunk_id": 58,
+      "frame_id": 58,
+      "text": "Player: Brook Lopez\nPosition: C\nTeam: 1610612746\nHeight: 7-1\nWeight: 282\nExperience: 17 years\nSchool: Stanford\nJersey: #11"
+    },
+    {
+      "chunk_id": 59,
+      "frame_id": 59,
+      "text": "Player: Blake Wesley\nPosition: G\nTeam: 1610612757\nHeight: 6-4\nWeight: 190\nExperience: 3 years\nSchool: Notre Dame\nJersey: #1"
+    },
+    {
+      "chunk_id": 60,
+      "frame_id": 60,
+      "text": "Player: Bismack Biyombo\nPosition: C\nTeam: 1610612759\nHeight: 6-8\nWeight: 255\nExperience: 14 years\nSchool: Baloncesto Fuenlabrada\nJersey: #18"
+    },
+    {
+      "chunk_id": 61,
+      "frame_id": 61,
+      "text": "Player: Bronny James\nPosition: G\nTeam: 1610612747\nHeight: 6-2\nWeight: 210\nExperience: 1 years\nSchool: Southern California\nJersey: #9"
+    },
+    {
+      "chunk_id": 62,
+      "frame_id": 62,
+      "text": "Player: Chris Ma\u00f1on\nPosition: G\nTeam: 1610612747\nHeight: 6-4\nWeight: 209\nExperience: R years\nSchool: Vanderbilt\nJersey: #30"
+    },
+    {
+      "chunk_id": 63,
+      "frame_id": 63,
+      "text": "Player: Corey Kispert\nPosition: F\nTeam: 1610612764\nHeight: 6-6\nWeight: 224\nExperience: 4 years\nSchool: Gonzaga\nJersey: #24"
+    },
+    {
+      "chunk_id": 64,
+      "frame_id": 64,
+      "text": "Player: Jonathan Mogbo\nPosition: F\nTeam: 1610612761\nHeight: 6-9\nWeight: 225\nExperience: 1 years\nSchool: San Francisco\nJersey: #2"
+    },
+    {
+      "chunk_id": 65,
+      "frame_id": 65,
+      "text": "Player: Jaylen Brown\nPosition: G-F\nTeam: 1610612738\nHeight: 6-6\nWeight: 223\nExperience: 9 years\nSchool: California\nJersey: #7"
+    },
+    {
+      "chunk_id": 66,
+      "frame_id": 66,
+      "text": "Player: Jimmy Butler III\nPosition: F\nTeam: 1610612744\nHeight: 6-6\nWeight: 230\nExperience: 14 years\nSchool: Marquette\nJersey: #10"
+    },
+    {
+      "chunk_id": 67,
+      "frame_id": 67,
+      "text": "Player: Julian Champagnie\nPosition: F\nTeam: 1610612759\nHeight: 6-7\nWeight: 217\nExperience: 3 years\nSchool: St. John's\nJersey: #30"
+    },
+    {
+      "chunk_id": 68,
+      "frame_id": 68,
+      "text": "Player: Keegan Murray\nPosition: F\nTeam: 1610612758\nHeight: 6-8\nWeight: 225\nExperience: 3 years\nSchool: Iowa\nJersey: #13"
+    },
+    {
+      "chunk_id": 69,
+      "frame_id": 69,
+      "text": "Player: Kevin Love\nPosition: F-C\nTeam: 1610612762\nHeight: 6-10\nWeight: 251\nExperience: 17 years\nSchool: UCLA\nJersey: #42"
+    },
+    {
+      "chunk_id": 70,
+      "frame_id": 70,
+      "text": "Player: Larry Nance Jr.\nPosition: F-C\nTeam: 1610612739\nHeight: 6-6\nWeight: 245\nExperience: 10 years\nSchool: Wyoming\nJersey: #22"
+    },
+    {
+      "chunk_id": 71,
+      "frame_id": 71,
+      "text": "Player: Scotty Pippen Jr.\nPosition: G\nTeam: 1610612763\nHeight: 6-2\nWeight: 170\nExperience: 3 years\nSchool: Vanderbilt\nJersey: #1"
+    },
+    {
+      "chunk_id": 72,
+      "frame_id": 72,
+      "text": "Player: Sam Hauser\nPosition: F\nTeam: 1610612738\nHeight: 6-7\nWeight: 217\nExperience: 4 years\nSchool: Virginia\nJersey: #30"
+    },
+    {
+      "chunk_id": 73,
+      "frame_id": 73,
+      "text": "Player: Koby Brea\nPosition: G\nTeam: 1610612756\nHeight: 6-5\nWeight: 215\nExperience: R years\nSchool: Kentucky\nJersey: #14"
+    },
+    {
+      "chunk_id": 74,
+      "frame_id": 74,
+      "text": "Player: Trey Jemison III\nPosition: C\nTeam: 1610612752\nHeight: 6-10\nWeight: 270\nExperience: 2 years\nSchool: Alabama-Birmingham\nJersey: #50"
+    },
+    {
+      "chunk_id": 75,
+      "frame_id": 75,
+      "text": "Player: Tre Johnson\nPosition: G\nTeam: 1610612764\nHeight: 6-5\nWeight: 190\nExperience: R years\nSchool: Texas\nJersey: #12"
+    },
+    {
+      "chunk_id": 76,
+      "frame_id": 76,
+      "text": "Player: Donte DiVincenzo\nPosition: G\nTeam: 1610612750\nHeight: 6-4\nWeight: 203\nExperience: 7 years\nSchool: Villanova\nJersey: #0"
+    },
+    {
+      "chunk_id": 77,
+      "frame_id": 77,
+      "text": "Player: Dennis Schr\u00f6der\nPosition: G\nTeam: 1610612758\nHeight: 6-1\nWeight: 175\nExperience: 12 years\nSchool: Braunschweig\nJersey: #17"
+    },
+    {
+      "chunk_id": 78,
+      "frame_id": 78,
+      "text": "Player: Derrick White\nPosition: G\nTeam: 1610612738\nHeight: 6-4\nWeight: 190\nExperience: 8 years\nSchool: Colorado\nJersey: #9"
+    },
+    {
+      "chunk_id": 79,
+      "frame_id": 79,
+      "text": "Player: Domantas Sabonis\nPosition: F-C\nTeam: 1610612758\nHeight: 6-10\nWeight: 240\nExperience: 9 years\nSchool: Gonzaga\nJersey: #11"
+    },
+    {
+      "chunk_id": 80,
+      "frame_id": 80,
+      "text": "Player: Tosan Evbuomwan\nPosition: F\nTeam: 1610612752\nHeight: 6-8\nWeight: 217\nExperience: 2 years\nSchool: Princeton\nJersey: #20"
+    },
+    {
+      "chunk_id": 81,
+      "frame_id": 81,
+      "text": "Player: Ty Jerome\nPosition: G-F\nTeam: 1610612763\nHeight: 6-5\nWeight: 195\nExperience: 6 years\nSchool: Virginia\nJersey: #2"
+    },
+    {
+      "chunk_id": 82,
+      "frame_id": 82,
+      "text": "Player: Kobe Bufkin\nPosition: G\nTeam: 1610612763\nHeight: 6-4\nWeight: 195\nExperience: 2 years\nSchool: Michigan\nJersey: #44"
+    },
+    {
+      "chunk_id": 83,
+      "frame_id": 83,
+      "text": "Player: Kristaps Porzi\u0146\u0123is\nPosition: F-C\nTeam: 1610612737\nHeight: 7-2\nWeight: 240\nExperience: 10 years\nSchool: Cajasol Sevilla\nJersey: #8"
+    },
+    {
+      "chunk_id": 84,
+      "frame_id": 84,
+      "text": "Player: Ryan Kalkbrenner\nPosition: C\nTeam: 1610612766\nHeight: 7-1\nWeight: 256\nExperience: R years\nSchool: Creighton\nJersey: #11"
+    },
+    {
+      "chunk_id": 85,
+      "frame_id": 85,
+      "text": "Player: Sidy Cissoko\nPosition: G\nTeam: 1610612757\nHeight: 6-6\nWeight: 220\nExperience: 2 years\nSchool: NBA G League Ignite\nJersey: #91"
+    },
+    {
+      "chunk_id": 86,
+      "frame_id": 86,
+      "text": "Player: Kyshawn George\nPosition: F\nTeam: 1610612764\nHeight: 6-8\nWeight: 200\nExperience: 1 years\nSchool: Miami\nJersey: #18"
+    },
+    {
+      "chunk_id": 87,
+      "frame_id": 87,
+      "text": "Player: Karlo Matkovi\u0107\nPosition: F-C\nTeam: 1610612740\nHeight: 6-10\nWeight: 231\nExperience: 1 years\nSchool: Mega Basket\nJersey: #17"
+    },
+    {
+      "chunk_id": 88,
+      "frame_id": 88,
+      "text": "Player: Justin Champagnie\nPosition: G-F\nTeam: 1610612764\nHeight: 6-6\nWeight: 206\nExperience: 4 years\nSchool: Pittsburgh\nJersey: #9"
+    },
+    {
+      "chunk_id": 89,
+      "frame_id": 89,
+      "text": "Player: Josh Green\nPosition: G\nTeam: 1610612766\nHeight: 6-6\nWeight: 200\nExperience: 5 years\nSchool: Arizona\nJersey: #10"
+    },
+    {
+      "chunk_id": 90,
+      "frame_id": 90,
+      "text": "Player: Jeremy Sochan\nPosition: F\nTeam: 1610612759\nHeight: 6-8\nWeight: 230\nExperience: 3 years\nSchool: Baylor\nJersey: #10"
+    },
+    {
+      "chunk_id": 91,
+      "frame_id": 91,
+      "text": "Player: Zach LaVine\nPosition: G\nTeam: 1610612758\nHeight: 6-5\nWeight: 200\nExperience: 11 years\nSchool: UCLA\nJersey: #8"
+    },
+    {
+      "chunk_id": 92,
+      "frame_id": 92,
+      "text": "Player: Jaylon Tyson\nPosition: G-F\nTeam: 1610612739\nHeight: 6-6\nWeight: 215\nExperience: 1 years\nSchool: California\nJersey: #20"
+    },
+    {
+      "chunk_id": 93,
+      "frame_id": 93,
+      "text": "Player: Collin Gillespie\nPosition: G\nTeam: 1610612756\nHeight: 6-1\nWeight: 195\nExperience: 2 years\nSchool: Villanova\nJersey: #12"
+    },
+    {
+      "chunk_id": 94,
+      "frame_id": 94,
+      "text": "Player: Chucky Hepburn\nPosition: G\nTeam: 1610612761\nHeight: 6-0\nWeight: 190\nExperience: R years\nSchool: Louisville\nJersey: #24"
+    },
+    {
+      "chunk_id": 95,
+      "frame_id": 95,
+      "text": "Player: Brandon Ingram\nPosition: F\nTeam: 1610612761\nHeight: 6-8\nWeight: 190\nExperience: 9 years\nSchool: Duke\nJersey: #3"
+    },
+    {
+      "chunk_id": 96,
+      "frame_id": 96,
+      "text": "Player: Bogdan Bogdanovi\u0107\nPosition: G\nTeam: 1610612746\nHeight: 6-5\nWeight: 225\nExperience: 8 years\nSchool: Fenerbahce\nJersey: #10"
+    },
+    {
+      "chunk_id": 97,
+      "frame_id": 97,
+      "text": "Player: Bones Hyland\nPosition: G\nTeam: 1610612750\nHeight: 6-2\nWeight: 169\nExperience: 4 years\nSchool: Virginia Commonwealth\nJersey: #8"
+    },
+    {
+      "chunk_id": 98,
+      "frame_id": 98,
+      "text": "Player: Brandon Miller\nPosition: F\nTeam: 1610612766\nHeight: 6-7\nWeight: 200\nExperience: 2 years\nSchool: Alabama\nJersey: #24"
+    },
+    {
+      "chunk_id": 99,
+      "frame_id": 99,
+      "text": "Player: Christian Braun\nPosition: G\nTeam: 1610612743\nHeight: 6-6\nWeight: 220\nExperience: 3 years\nSchool: Kansas\nJersey: #0"
+    },
+    {
+      "chunk_id": 100,
+      "frame_id": 100,
+      "text": "Player: Colin Castleton\nPosition: C\nTeam: 1610612753\nHeight: 6-10\nWeight: 250\nExperience: 2 years\nSchool: Florida\nJersey: #14"
+    },
+    {
+      "chunk_id": 101,
+      "frame_id": 101,
+      "text": "Player: Zeke Nnaji\nPosition: F-C\nTeam: 1610612743\nHeight: 6-10\nWeight: 240\nExperience: 5 years\nSchool: Arizona\nJersey: #22"
+    },
+    {
+      "chunk_id": 102,
+      "frame_id": 102,
+      "text": "Player: Jayson Tatum\nPosition: F-G\nTeam: 1610612738\nHeight: 6-8\nWeight: 210\nExperience: 8 years\nSchool: Duke\nJersey: #0"
+    },
+    {
+      "chunk_id": 103,
+      "frame_id": 103,
+      "text": "Player: Jericho Sims\nPosition: C\nTeam: 1610612749\nHeight: 6-10\nWeight: 250\nExperience: 4 years\nSchool: Texas\nJersey: #00"
+    },
+    {
+      "chunk_id": 104,
+      "frame_id": 104,
+      "text": "Player: Josh Hart\nPosition: G\nTeam: 1610612752\nHeight: 6-5\nWeight: 215\nExperience: 8 years\nSchool: Villanova\nJersey: #3"
+    },
+    {
+      "chunk_id": 105,
+      "frame_id": 105,
+      "text": "Player: Julius Randle\nPosition: F-C\nTeam: 1610612750\nHeight: 6-9\nWeight: 250\nExperience: 11 years\nSchool: Kentucky\nJersey: #30"
+    },
+    {
+      "chunk_id": 106,
+      "frame_id": 106,
+      "text": "Player: Karl-Anthony Towns\nPosition: C-F\nTeam: 1610612752\nHeight: 7-0\nWeight: 248\nExperience: 10 years\nSchool: Kentucky\nJersey: #32"
+    },
+    {
+      "chunk_id": 107,
+      "frame_id": 107,
+      "text": "Player: Simone Fontecchio\nPosition: F\nTeam: 1610612748\nHeight: 6-7\nWeight: 209\nExperience: 3 years\nSchool: Baskonia\nJersey: #0"
+    },
+    {
+      "chunk_id": 108,
+      "frame_id": 108,
+      "text": "Player: LaMelo Ball\nPosition: G\nTeam: 1610612766\nHeight: 6-7\nWeight: 180\nExperience: 5 years\nSchool: Illawarra\nJersey: #1"
+    },
+    {
+      "chunk_id": 109,
+      "frame_id": 109,
+      "text": "Player: Kyle Anderson\nPosition: F-G\nTeam: 1610612762\nHeight: 6-8\nWeight: 230\nExperience: 11 years\nSchool: UCLA\nJersey: #2"
+    },
+    {
+      "chunk_id": 110,
+      "frame_id": 110,
+      "text": "Player: Ryan Nembhard\nPosition: G\nTeam: 1610612742\nHeight: 5-11\nWeight: 180\nExperience: R years\nSchool: Gonzaga\nJersey: #9"
+    },
+    {
+      "chunk_id": 111,
+      "frame_id": 111,
+      "text": "Player: Kobe Sanders\nPosition: G\nTeam: 1610612746\nHeight: 6-8\nWeight: 207\nExperience: R years\nSchool: Nevada\nJersey: #4"
+    },
+    {
+      "chunk_id": 112,
+      "frame_id": 112,
+      "text": "Player: Tristan da Silva\nPosition: F\nTeam: 1610612753\nHeight: 6-8\nWeight: 217\nExperience: 1 years\nSchool: Colorado\nJersey: #23"
+    },
+    {
+      "chunk_id": 113,
+      "frame_id": 113,
+      "text": "Player: Tony Bradley\nPosition: C-F\nTeam: 1610612754\nHeight: 6-10\nWeight: 248\nExperience: 7 years\nSchool: North Carolina\nJersey: #13"
+    },
+    {
+      "chunk_id": 114,
+      "frame_id": 114,
+      "text": "Player: Dominick Barlow\nPosition: F\nTeam: 1610612755\nHeight: 6-9\nWeight: 215\nExperience: 3 years\nSchool: Overtime Elite\nJersey: #25"
+    },
+    {
+      "chunk_id": 115,
+      "frame_id": 115,
+      "text": "Player: Desmond Bane\nPosition: G\nTeam: 1610612753\nHeight: 6-6\nWeight: 215\nExperience: 5 years\nSchool: TCU\nJersey: #3"
+    },
+    {
+      "chunk_id": 116,
+      "frame_id": 116,
+      "text": "Player: Deandre Ayton\nPosition: C\nTeam: 1610612747\nHeight: 7-0\nWeight: 252\nExperience: 7 years\nSchool: Arizona\nJersey: #5"
+    },
+    {
+      "chunk_id": 117,
+      "frame_id": 117,
+      "text": "Player: Dillon Brooks\nPosition: G-F\nTeam: 1610612756\nHeight: 6-7\nWeight: 225\nExperience: 8 years\nSchool: Oregon\nJersey: #3"
+    },
+    {
+      "chunk_id": 118,
+      "frame_id": 118,
+      "text": "Player: Derrick Jones Jr.\nPosition: F\nTeam: 1610612746\nHeight: 6-6\nWeight: 210\nExperience: 9 years\nSchool: UNLV\nJersey: #5"
+    },
+    {
+      "chunk_id": 119,
+      "frame_id": 119,
+      "text": "Player: Tyler Herro\nPosition: G\nTeam: 1610612748\nHeight: 6-5\nWeight: 195\nExperience: 6 years\nSchool: Kentucky\nJersey: #14"
+    },
+    {
+      "chunk_id": 120,
+      "frame_id": 120,
+      "text": "Player: Toumani Camara\nPosition: F\nTeam: 1610612757\nHeight: 6-7\nWeight: 230\nExperience: 2 years\nSchool: Dayton\nJersey: #33"
+    },
+    {
+      "chunk_id": 121,
+      "frame_id": 121,
+      "text": "Player: Taylor Hendricks\nPosition: F\nTeam: 1610612762\nHeight: 6-9\nWeight: 215\nExperience: 2 years\nSchool: Central Florida\nJersey: #0"
+    },
+    {
+      "chunk_id": 122,
+      "frame_id": 122,
+      "text": "Player: Landry Shamet\nPosition: G\nTeam: 1610612752\nHeight: 6-5\nWeight: 190\nExperience: 7 years\nSchool: Wichita State\nJersey: #44"
+    },
+    {
+      "chunk_id": 123,
+      "frame_id": 123,
+      "text": "Player: Sharife Cooper\nPosition: G\nTeam: 1610612764\nHeight: 6-0\nWeight: 176\nExperience: 1 years\nSchool: Auburn\nJersey: #13"
+    },
+    {
+      "chunk_id": 124,
+      "frame_id": 124,
+      "text": "Player: Ryan Dunn\nPosition: F\nTeam: 1610612756\nHeight: 6-7\nWeight: 216\nExperience: 1 years\nSchool: Virginia\nJersey: #0"
+    },
+    {
+      "chunk_id": 125,
+      "frame_id": 125,
+      "text": "Player: Kyle Kuzma\nPosition: F\nTeam: 1610612749\nHeight: 6-8\nWeight: 221\nExperience: 8 years\nSchool: Utah\nJersey: #18"
+    },
+    {
+      "chunk_id": 126,
+      "frame_id": 126,
+      "text": "Player: Julian Phillips\nPosition: F\nTeam: 1610612741\nHeight: 6-6\nWeight: 198\nExperience: 2 years\nSchool: Tennessee\nJersey: #15"
+    },
+    {
+      "chunk_id": 127,
+      "frame_id": 127,
+      "text": "Player: KJ Simpson\nPosition: G\nTeam: 1610612766\nHeight: 6-2\nWeight: 189\nExperience: 1 years\nSchool: Colorado\nJersey: #25"
+    },
+    {
+      "chunk_id": 128,
+      "frame_id": 128,
+      "text": "Player: Walker Kessler\nPosition: C\nTeam: 1610612762\nHeight: 7-2\nWeight: 245\nExperience: 3 years\nSchool: Auburn\nJersey: #24"
+    },
+    {
+      "chunk_id": 129,
+      "frame_id": 129,
+      "text": "Player: Jerami Grant\nPosition: F\nTeam: 1610612757\nHeight: 6-7\nWeight: 213\nExperience: 11 years\nSchool: Syracuse\nJersey: #9"
+    },
+    {
+      "chunk_id": 130,
+      "frame_id": 130,
+      "text": "Player: Zach Edey\nPosition: C\nTeam: 1610612763\nHeight: 7-3\nWeight: 305\nExperience: 1 years\nSchool: Purdue\nJersey: #14"
+    },
+    {
+      "chunk_id": 131,
+      "frame_id": 131,
+      "text": "Player: Jevon Carter\nPosition: G\nTeam: 1610612741\nHeight: 6-0\nWeight: 200\nExperience: 7 years\nSchool: West Virginia\nJersey: #5"
+    },
+    {
+      "chunk_id": 132,
+      "frame_id": 132,
+      "text": "Player: Clint Capela\nPosition: C\nTeam: 1610612745\nHeight: 6-10\nWeight: 256\nExperience: 11 years\nSchool: Elan Chalon\nJersey: #30"
+    },
+    {
+      "chunk_id": 133,
+      "frame_id": 133,
+      "text": "Player: Collin Murray-Boyles\nPosition: F\nTeam: 1610612761\nHeight: 6-7\nWeight: 245\nExperience: R years\nSchool: South Carolina\nJersey: #12"
+    },
+    {
+      "chunk_id": 134,
+      "frame_id": 134,
+      "text": "Player: Chris Boucher\nPosition: F\nTeam: 1610612738\nHeight: 6-8\nWeight: 200\nExperience: 8 years\nSchool: Oregon\nJersey: #99"
+    },
+    {
+      "chunk_id": 135,
+      "frame_id": 135,
+      "text": "Player: Bobi Klintman\nPosition: F\nTeam: 1610612765\nHeight: 6-9\nWeight: 225\nExperience: 1 years\nSchool: Wake Forest\nJersey: #34"
+    },
+    {
+      "chunk_id": 136,
+      "frame_id": 136,
+      "text": "Player: Brandon Clarke\nPosition: F\nTeam: 1610612763\nHeight: 6-8\nWeight: 215\nExperience: 6 years\nSchool: Gonzaga\nJersey: #15"
+    },
+    {
+      "chunk_id": 137,
+      "frame_id": 137,
+      "text": "Player: Brandin Podziemski\nPosition: G\nTeam: 1610612744\nHeight: 6-4\nWeight: 205\nExperience: 2 years\nSchool: Santa Clara\nJersey: #2"
+    },
+    {
+      "chunk_id": 138,
+      "frame_id": 138,
+      "text": "Player: Bobby Portis\nPosition: F\nTeam: 1610612749\nHeight: 6-9\nWeight: 250\nExperience: 10 years\nSchool: Arkansas\nJersey: #9"
+    },
+    {
+      "chunk_id": 139,
+      "frame_id": 139,
+      "text": "Player: Chet Holmgren\nPosition: C-F\nTeam: 1610612760\nHeight: 7-1\nWeight: 208\nExperience: 2 years\nSchool: Gonzaga\nJersey: #7"
+    },
+    {
+      "chunk_id": 140,
+      "frame_id": 140,
+      "text": "Player: Collin Sexton\nPosition: G\nTeam: 1610612766\nHeight: 6-3\nWeight: 190\nExperience: 7 years\nSchool: Alabama\nJersey: #8"
+    },
+    {
+      "chunk_id": 141,
+      "frame_id": 141,
+      "text": "Player: Coby White\nPosition: G\nTeam: 1610612741\nHeight: 6-4\nWeight: 195\nExperience: 6 years\nSchool: North Carolina\nJersey: #0"
+    },
+    {
+      "chunk_id": 142,
+      "frame_id": 142,
+      "text": "Player: Jett Howard\nPosition: G\nTeam: 1610612753\nHeight: 6-8\nWeight: 215\nExperience: 2 years\nSchool: Michigan\nJersey: #13"
+    },
+    {
+      "chunk_id": 143,
+      "frame_id": 143,
+      "text": "Player: Jeff Green\nPosition: F\nTeam: 1610612745\nHeight: 6-8\nWeight: 235\nExperience: 18 years\nSchool: Georgetown\nJersey: #32"
+    },
+    {
+      "chunk_id": 144,
+      "frame_id": 144,
+      "text": "Player: Zach Collins\nPosition: F-C\nTeam: 1610612741\nHeight: 6-9\nWeight: 250\nExperience: 8 years\nSchool: Gonzaga\nJersey: #12"
+    },
+    {
+      "chunk_id": 145,
+      "frame_id": 145,
+      "text": "Player: V\u00edt Krej\u010d\u00ed\nPosition: G\nTeam: 1610612737\nHeight: 6-8\nWeight: 195\nExperience: 4 years\nSchool: Zaragoza\nJersey: #27"
+    },
+    {
+      "chunk_id": 146,
+      "frame_id": 146,
+      "text": "Player: Kam Jones\nPosition: G\nTeam: 1610612754\nHeight: 6-4\nWeight: 200\nExperience: R years\nSchool: Marquette\nJersey: #7"
+    },
+    {
+      "chunk_id": 147,
+      "frame_id": 147,
+      "text": "Player: Julian Strawther\nPosition: G\nTeam: 1610612743\nHeight: 6-6\nWeight: 205\nExperience: 2 years\nSchool: Gonzaga\nJersey: #3"
+    },
+    {
+      "chunk_id": 148,
+      "frame_id": 148,
+      "text": "Player: Russell Westbrook\nPosition: G\nTeam: 1610612758\nHeight: 6-4\nWeight: 200\nExperience: 17 years\nSchool: UCLA\nJersey: #18"
+    },
+    {
+      "chunk_id": 149,
+      "frame_id": 149,
+      "text": "Player: Kyle Filipowski\nPosition: C\nTeam: 1610612762\nHeight: 6-11\nWeight: 250\nExperience: 1 years\nSchool: Duke\nJersey: #22"
+    },
+    {
+      "chunk_id": 150,
+      "frame_id": 150,
+      "text": "Player: Lachlan Olbrich\nPosition: C\nTeam: 1610612741\nHeight: 6-8\nWeight: 236\nExperience: R years\nSchool: Illawarra\nJersey: #47"
+    },
+    {
+      "chunk_id": 151,
+      "frame_id": 151,
+      "text": "Player: Shai Gilgeous-Alexander\nPosition: G\nTeam: 1610612760\nHeight: 6-6\nWeight: 195\nExperience: 7 years\nSchool: Kentucky\nJersey: #2"
+    },
+    {
+      "chunk_id": 152,
+      "frame_id": 152,
+      "text": "Player: Taurean Prince\nPosition: F\nTeam: 1610612749\nHeight: 6-6\nWeight: 218\nExperience: 9 years\nSchool: Baylor\nJersey: #12"
+    },
+    {
+      "chunk_id": 153,
+      "frame_id": 153,
+      "text": "Player: Trae Young\nPosition: G\nTeam: 1610612737\nHeight: 6-2\nWeight: 164\nExperience: 7 years\nSchool: Oklahoma\nJersey: #11"
+    },
+    {
+      "chunk_id": 154,
+      "frame_id": 154,
+      "text": "Player: Tyler Kolek\nPosition: G\nTeam: 1610612752\nHeight: 6-2\nWeight: 195\nExperience: 1 years\nSchool: Marquette\nJersey: #13"
+    },
+    {
+      "chunk_id": 155,
+      "frame_id": 155,
+      "text": "Player: Derik Queen\nPosition: C\nTeam: 1610612740\nHeight: 6-9\nWeight: 250\nExperience: R years\nSchool: Maryland\nJersey: #22"
+    },
+    {
+      "chunk_id": 156,
+      "frame_id": 156,
+      "text": "Player: Devin Vassell\nPosition: G-F\nTeam: 1610612759\nHeight: 6-5\nWeight: 200\nExperience: 5 years\nSchool: Florida State\nJersey: #24"
+    },
+    {
+      "chunk_id": 157,
+      "frame_id": 157,
+      "text": "Player: Dean Wade\nPosition: F-C\nTeam: 1610612739\nHeight: 6-9\nWeight: 228\nExperience: 6 years\nSchool: Kansas State\nJersey: #32"
+    },
+    {
+      "chunk_id": 158,
+      "frame_id": 158,
+      "text": "Player: Isaiah Stewart\nPosition: F-C\nTeam: 1610612765\nHeight: 6-8\nWeight: 250\nExperience: 5 years\nSchool: Washington\nJersey: #28"
+    },
+    {
+      "chunk_id": 159,
+      "frame_id": 159,
+      "text": "Player: Hugo Gonz\u00e1lez\nPosition: G\nTeam: 1610612738\nHeight: 6-6\nWeight: 200\nExperience: R years\nSchool: Real Madrid\nJersey: #28"
+    },
+    {
+      "chunk_id": 160,
+      "frame_id": 160,
+      "text": "Player: Eric Gordon\nPosition: G\nTeam: 1610612755\nHeight: 6-3\nWeight: 215\nExperience: 17 years\nSchool: Indiana\nJersey: #23"
+    },
+    {
+      "chunk_id": 161,
+      "frame_id": 161,
+      "text": "Player: Drew Timme\nPosition: F\nTeam: 1610612747\nHeight: 6-9\nWeight: 235\nExperience: 1 years\nSchool: Gonzaga\nJersey: #26"
+    },
+    {
+      "chunk_id": 162,
+      "frame_id": 162,
+      "text": "Player: Noah Clowney\nPosition: F-C\nTeam: 1610612751\nHeight: 6-10\nWeight: 210\nExperience: 2 years\nSchool: Alabama\nJersey: #21"
+    },
+    {
+      "chunk_id": 163,
+      "frame_id": 163,
+      "text": "Player: Neemias Queta\nPosition: C\nTeam: 1610612738\nHeight: 7-0\nWeight: 248\nExperience: 4 years\nSchool: Utah State\nJersey: #88"
+    },
+    {
+      "chunk_id": 164,
+      "frame_id": 164,
+      "text": "Player: Matas Buzelis\nPosition: F\nTeam: 1610612741\nHeight: 6-8\nWeight: 209\nExperience: 1 years\nSchool: NBA G League Ignite\nJersey: #14"
+    },
+    {
+      "chunk_id": 165,
+      "frame_id": 165,
+      "text": "Player: Robert Williams III\nPosition: C-F\nTeam: 1610612757\nHeight: 6-9\nWeight: 249\nExperience: 7 years\nSchool: Texas A&M\nJersey: #35"
+    },
+    {
+      "chunk_id": 166,
+      "frame_id": 166,
+      "text": "Player: Rasheer Fleming\nPosition: F\nTeam: 1610612756\nHeight: 6-9\nWeight: 240\nExperience: R years\nSchool: St. Joseph's (PA)\nJersey: #20"
+    },
+    {
+      "chunk_id": 167,
+      "frame_id": 167,
+      "text": "Player: Luguentz Dort\nPosition: G\nTeam: 1610612760\nHeight: 6-4\nWeight: 220\nExperience: 6 years\nSchool: Arizona State\nJersey: #5"
+    },
+    {
+      "chunk_id": 168,
+      "frame_id": 168,
+      "text": "Player: Mitchell Robinson\nPosition: C-F\nTeam: 1610612752\nHeight: 7-0\nWeight: 240\nExperience: 7 years\nSchool: Western Kentucky\nJersey: #23"
+    },
+    {
+      "chunk_id": 169,
+      "frame_id": 169,
+      "text": "Player: Jalen Wilson\nPosition: F\nTeam: 1610612751\nHeight: 6-6\nWeight: 220\nExperience: 2 years\nSchool: Kansas\nJersey: #22"
+    },
+    {
+      "chunk_id": 170,
+      "frame_id": 170,
+      "text": "Player: Javon Small\nPosition: G\nTeam: 1610612763\nHeight: 6-1\nWeight: 190\nExperience: R years\nSchool: West Virginia\nJersey: #10"
+    },
+    {
+      "chunk_id": 171,
+      "frame_id": 171,
+      "text": "Player: Jahmyl Telfort\nPosition: G\nTeam: 1610612746\nHeight: 6-7\nWeight: None\nExperience: R years\nSchool: None\nJersey: #19"
+    },
+    {
+      "chunk_id": 172,
+      "frame_id": 172,
+      "text": "Player: Andrew Nembhard\nPosition: G-F\nTeam: 1610612754\nHeight: 6-4\nWeight: 191\nExperience: 3 years\nSchool: Gonzaga\nJersey: #2"
+    },
+    {
+      "chunk_id": 173,
+      "frame_id": 173,
+      "text": "Player: Baylor Scheierman\nPosition: G\nTeam: 1610612738\nHeight: 6-6\nWeight: 205\nExperience: 1 years\nSchool: Creighton\nJersey: #55"
+    },
+    {
+      "chunk_id": 174,
+      "frame_id": 174,
+      "text": "Player: Bam Adebayo\nPosition: C-F\nTeam: 1610612748\nHeight: 6-9\nWeight: 255\nExperience: 8 years\nSchool: Kentucky\nJersey: #13"
+    },
+    {
+      "chunk_id": 175,
+      "frame_id": 175,
+      "text": "Player: Andre Jackson Jr.\nPosition: G\nTeam: 1610612749\nHeight: 6-6\nWeight: 209\nExperience: 2 years\nSchool: Connecticut\nJersey: #44"
+    },
+    {
+      "chunk_id": 176,
+      "frame_id": 176,
+      "text": "Player: Jahmir Young\nPosition: G\nTeam: 1610612748\nHeight: 6-0\nWeight: 185\nExperience: 1 years\nSchool: Maryland\nJersey: #17"
+    },
+    {
+      "chunk_id": 177,
+      "frame_id": 177,
+      "text": "Player: Jase Richardson\nPosition: G\nTeam: 1610612753\nHeight: 6-1\nWeight: 180\nExperience: R years\nSchool: Michigan State\nJersey: #11"
+    },
+    {
+      "chunk_id": 178,
+      "frame_id": 178,
+      "text": "Player: Jalen Williams\nPosition: G-F\nTeam: 1610612760\nHeight: 6-5\nWeight: 211\nExperience: 3 years\nSchool: Santa Clara\nJersey: #8"
+    },
+    {
+      "chunk_id": 179,
+      "frame_id": 179,
+      "text": "Player: Miles McBride\nPosition: G\nTeam: 1610612752\nHeight: 6-2\nWeight: 195\nExperience: 4 years\nSchool: West Virginia\nJersey: #2"
+    },
+    {
+      "chunk_id": 180,
+      "frame_id": 180,
+      "text": "Player: RJ Barrett\nPosition: F-G\nTeam: 1610612761\nHeight: 6-6\nWeight: 214\nExperience: 6 years\nSchool: Duke\nJersey: #9"
+    },
+    {
+      "chunk_id": 181,
+      "frame_id": 181,
+      "text": "Player: Lonzo Ball\nPosition: G\nTeam: 1610612739\nHeight: 6-5\nWeight: 190\nExperience: 8 years\nSchool: UCLA\nJersey: #2"
+    },
+    {
+      "chunk_id": 182,
+      "frame_id": 182,
+      "text": "Player: Mason Plumlee\nPosition: F-C\nTeam: 1610612766\nHeight: 7-0\nWeight: 254\nExperience: 12 years\nSchool: Duke\nJersey: #22"
+    },
+    {
+      "chunk_id": 183,
+      "frame_id": 183,
+      "text": "Player: Rob Dillingham\nPosition: G\nTeam: 1610612750\nHeight: 6-2\nWeight: 175\nExperience: 1 years\nSchool: Kentucky\nJersey: #4"
+    },
+    {
+      "chunk_id": 184,
+      "frame_id": 184,
+      "text": "Player: Nic Claxton\nPosition: C\nTeam: 1610612751\nHeight: 6-11\nWeight: 215\nExperience: 6 years\nSchool: Georgia\nJersey: #33"
+    },
+    {
+      "chunk_id": 185,
+      "frame_id": 185,
+      "text": "Player: Noah Penda\nPosition: G-F\nTeam: 1610612753\nHeight: 6-7\nWeight: 215\nExperience: R years\nSchool: None\nJersey: #93"
+    },
+    {
+      "chunk_id": 186,
+      "frame_id": 186,
+      "text": "Player: Drew Peterson\nPosition: F\nTeam: 1610612766\nHeight: 6-8\nWeight: 205\nExperience: 2 years\nSchool: Southern California\nJersey: #9"
+    },
+    {
+      "chunk_id": 187,
+      "frame_id": 187,
+      "text": "Player: Enrique Freeman\nPosition: F\nTeam: 1610612750\nHeight: 6-9\nWeight: 220\nExperience: 1 years\nSchool: Akron\nJersey: #25"
+    },
+    {
+      "chunk_id": 188,
+      "frame_id": 188,
+      "text": "Player: Hunter Dickinson\nPosition: C\nTeam: 1610612740\nHeight: 7-1\nWeight: 255\nExperience: R years\nSchool: Kansas\nJersey: #4"
+    },
+    {
+      "chunk_id": 189,
+      "frame_id": 189,
+      "text": "Player: Ivica Zubac\nPosition: C\nTeam: 1610612746\nHeight: 7-0\nWeight: 240\nExperience: 9 years\nSchool: Mega Basket\nJersey: #40"
+    },
+    {
+      "chunk_id": 190,
+      "frame_id": 190,
+      "text": "Player: Hunter Tyson\nPosition: F\nTeam: 1610612743\nHeight: 6-8\nWeight: 215\nExperience: 2 years\nSchool: Clemson\nJersey: #5"
+    },
+    {
+      "chunk_id": 191,
+      "frame_id": 191,
+      "text": "Player: Ja Morant\nPosition: G\nTeam: 1610612763\nHeight: 6-2\nWeight: 174\nExperience: 6 years\nSchool: Murray State\nJersey: #12"
+    },
+    {
+      "chunk_id": 192,
+      "frame_id": 192,
+      "text": "Player: Draymond Green\nPosition: F\nTeam: 1610612744\nHeight: 6-6\nWeight: 230\nExperience: 13 years\nSchool: Michigan State\nJersey: #23"
+    },
+    {
+      "chunk_id": 193,
+      "frame_id": 193,
+      "text": "Player: Elijah Harkless\nPosition: G\nTeam: 1610612762\nHeight: 6-3\nWeight: 195\nExperience: 1 years\nSchool: UNLV\nJersey: #16"
+    },
+    {
+      "chunk_id": 194,
+      "frame_id": 194,
+      "text": "Player: Georges Niang\nPosition: F\nTeam: 1610612762\nHeight: 6-6\nWeight: 230\nExperience: 9 years\nSchool: Iowa State\nJersey: #31"
+    },
+    {
+      "chunk_id": 195,
+      "frame_id": 195,
+      "text": "Player: Naz Reid\nPosition: C-F\nTeam: 1610612750\nHeight: 6-9\nWeight: 264\nExperience: 6 years\nSchool: Louisiana State\nJersey: #11"
+    },
+    {
+      "chunk_id": 196,
+      "frame_id": 196,
+      "text": "Player: Noa Essengue\nPosition: F\nTeam: 1610612741\nHeight: 6-8\nWeight: 200\nExperience: R years\nSchool: None\nJersey: #24"
+    },
+    {
+      "chunk_id": 197,
+      "frame_id": 197,
+      "text": "Player: Luka Don\u010di\u0107\nPosition: F-G\nTeam: 1610612747\nHeight: 6-8\nWeight: 230\nExperience: 7 years\nSchool: Real Madrid\nJersey: #77"
+    },
+    {
+      "chunk_id": 198,
+      "frame_id": 198,
+      "text": "Player: Quenton Jackson\nPosition: G\nTeam: 1610612754\nHeight: 6-4\nWeight: 173\nExperience: 3 years\nSchool: Texas A&M\nJersey: #29"
+    },
+    {
+      "chunk_id": 199,
+      "frame_id": 199,
+      "text": "Player: Reed Sheppard\nPosition: G\nTeam: 1610612745\nHeight: 6-2\nWeight: 185\nExperience: 1 years\nSchool: Kentucky\nJersey: #15"
+    },
+    {
+      "chunk_id": 200,
+      "frame_id": 200,
+      "text": "Player: Matisse Thybulle\nPosition: G-F\nTeam: 1610612757\nHeight: 6-5\nWeight: 202\nExperience: 6 years\nSchool: Washington\nJersey: #4"
+    },
+    {
+      "chunk_id": 201,
+      "frame_id": 201,
+      "text": "Player: Payton Pritchard\nPosition: G\nTeam: 1610612738\nHeight: 6-1\nWeight: 195\nExperience: 5 years\nSchool: Oregon\nJersey: #11"
+    },
+    {
+      "chunk_id": 202,
+      "frame_id": 202,
+      "text": "Player: Javonte Cooke\nPosition: G\nTeam: 1610612757\nHeight: 6-6\nWeight: 185\nExperience: R years\nSchool: Winston-Salem\nJersey: #18"
+    },
+    {
+      "chunk_id": 203,
+      "frame_id": 203,
+      "text": "Player: Jamal Cain\nPosition: F\nTeam: 1610612753\nHeight: 6-7\nWeight: 191\nExperience: 3 years\nSchool: Oakland\nJersey: #8"
+    },
+    {
+      "chunk_id": 204,
+      "frame_id": 204,
+      "text": "Player: Austin Reaves\nPosition: G\nTeam: 1610612747\nHeight: 6-5\nWeight: 197\nExperience: 4 years\nSchool: Oklahoma\nJersey: #15"
+    },
+    {
+      "chunk_id": 205,
+      "frame_id": 205,
+      "text": "Player: Amir Coffey\nPosition: G-F\nTeam: 1610612749\nHeight: 6-7\nWeight: 210\nExperience: 6 years\nSchool: Minnesota\nJersey: #17"
+    },
+    {
+      "chunk_id": 206,
+      "frame_id": 206,
+      "text": "Player: Adem Bona\nPosition: F\nTeam: 1610612755\nHeight: 6-10\nWeight: 235\nExperience: 1 years\nSchool: UCLA\nJersey: #30"
+    },
+    {
+      "chunk_id": 207,
+      "frame_id": 207,
+      "text": "Player: Adou Thiero\nPosition: G\nTeam: 1610612747\nHeight: 6-7\nWeight: 220\nExperience: R years\nSchool: Arkansas\nJersey: #1"
+    },
+    {
+      "chunk_id": 208,
+      "frame_id": 208,
+      "text": "Player: Andre Drummond\nPosition: C\nTeam: 1610612755\nHeight: 6-11\nWeight: 279\nExperience: 13 years\nSchool: Connecticut\nJersey: #1"
+    },
+    {
+      "chunk_id": 209,
+      "frame_id": 209,
+      "text": "Player: Ayo Dosunmu\nPosition: G\nTeam: 1610612741\nHeight: 6-4\nWeight: 200\nExperience: 4 years\nSchool: Illinois\nJersey: #11"
+    },
+    {
+      "chunk_id": 210,
+      "frame_id": 210,
+      "text": "Player: Jamal Murray\nPosition: G\nTeam: 1610612743\nHeight: 6-4\nWeight: 215\nExperience: 9 years\nSchool: Kentucky\nJersey: #27"
+    },
+    {
+      "chunk_id": 211,
+      "frame_id": 211,
+      "text": "Player: Javonte Green\nPosition: G\nTeam: 1610612765\nHeight: 6-5\nWeight: 205\nExperience: 6 years\nSchool: Radford\nJersey: #31"
+    },
+    {
+      "chunk_id": 212,
+      "frame_id": 212,
+      "text": "Player: Pelle Larsson\nPosition: G\nTeam: 1610612748\nHeight: 6-5\nWeight: 215\nExperience: 1 years\nSchool: Arizona\nJersey: #9"
+    },
+    {
+      "chunk_id": 213,
+      "frame_id": 213,
+      "text": "Player: Riley Minix\nPosition: F\nTeam: 1610612759\nHeight: 6-7\nWeight: 230\nExperience: 1 years\nSchool: Morehead State\nJersey: #27"
+    },
+    {
+      "chunk_id": 214,
+      "frame_id": 214,
+      "text": "Player: Max Christie\nPosition: G\nTeam: 1610612742\nHeight: 6-5\nWeight: 190\nExperience: 3 years\nSchool: Michigan State\nJersey: #00"
+    },
+    {
+      "chunk_id": 215,
+      "frame_id": 215,
+      "text": "Player: Luka Garza\nPosition: C\nTeam: 1610612738\nHeight: 6-10\nWeight: 243\nExperience: 4 years\nSchool: Iowa\nJersey: #52"
+    },
+    {
+      "chunk_id": 216,
+      "frame_id": 216,
+      "text": "Player: Quinten Post\nPosition: C\nTeam: 1610612744\nHeight: 7-0\nWeight: 238\nExperience: 1 years\nSchool: Boston College\nJersey: #21"
+    },
+    {
+      "chunk_id": 217,
+      "frame_id": 217,
+      "text": "Player: Nique Clifford\nPosition: G\nTeam: 1610612758\nHeight: 6-5\nWeight: 175\nExperience: R years\nSchool: Colorado State\nJersey: #5"
+    },
+    {
+      "chunk_id": 218,
+      "frame_id": 218,
+      "text": "Player: Naji Marshall\nPosition: F\nTeam: 1610612742\nHeight: 6-6\nWeight: 220\nExperience: 5 years\nSchool: Xavier\nJersey: #13"
+    },
+    {
+      "chunk_id": 219,
+      "frame_id": 219,
+      "text": "Player: Giannis Antetokounmpo\nPosition: F\nTeam: 1610612749\nHeight: 6-11\nWeight: 243\nExperience: 12 years\nSchool: Filathlitikos\nJersey: #34"
+    },
+    {
+      "chunk_id": 220,
+      "frame_id": 220,
+      "text": "Player: Emanuel Miller\nPosition: F\nTeam: 1610612741\nHeight: 6-5\nWeight: 215\nExperience: 1 years\nSchool: TCU\nJersey: #2"
+    },
+    {
+      "chunk_id": 221,
+      "frame_id": 221,
+      "text": "Player: Drew Eubanks\nPosition: F-C\nTeam: 1610612758\nHeight: 6-10\nWeight: 245\nExperience: 7 years\nSchool: Oregon State\nJersey: #19"
+    },
+    {
+      "chunk_id": 222,
+      "frame_id": 222,
+      "text": "Player: JD Davison\nPosition: G\nTeam: 1610612745\nHeight: 6-1\nWeight: 195\nExperience: 3 years\nSchool: Alabama\nJersey: #4"
+    },
+    {
+      "chunk_id": 223,
+      "frame_id": 223,
+      "text": "Player: Hunter Sallis\nPosition: G\nTeam: 1610612755\nHeight: 6-4\nWeight: 185\nExperience: R years\nSchool: Wake Forest\nJersey: #45"
+    },
+    {
+      "chunk_id": 224,
+      "frame_id": 224,
+      "text": "Player: Isaac Okoro\nPosition: F-G\nTeam: 1610612741\nHeight: 6-4\nWeight: 225\nExperience: 5 years\nSchool: Auburn\nJersey: #35"
+    },
+    {
+      "chunk_id": 225,
+      "frame_id": 225,
+      "text": "Player: Isaiah Livers\nPosition: F\nTeam: 1610612756\nHeight: 6-6\nWeight: 232\nExperience: 3 years\nSchool: Michigan\nJersey: #18"
+    },
+    {
+      "chunk_id": 226,
+      "frame_id": 226,
+      "text": "Player: Herbert Jones\nPosition: F\nTeam: 1610612740\nHeight: 6-7\nWeight: 206\nExperience: 4 years\nSchool: Alabama\nJersey: #2"
+    },
+    {
+      "chunk_id": 227,
+      "frame_id": 227,
+      "text": "Player: Duncan Robinson\nPosition: F\nTeam: 1610612765\nHeight: 6-7\nWeight: 215\nExperience: 7 years\nSchool: Michigan\nJersey: #55"
+    },
+    {
+      "chunk_id": 228,
+      "frame_id": 228,
+      "text": "Player: E.J. Liddell\nPosition: F\nTeam: 1610612751\nHeight: 6-6\nWeight: 240\nExperience: 2 years\nSchool: Ohio State\nJersey: #9"
+    },
+    {
+      "chunk_id": 229,
+      "frame_id": 229,
+      "text": "Player: Nick Richards\nPosition: C\nTeam: 1610612756\nHeight: 6-11\nWeight: 245\nExperience: 5 years\nSchool: Kentucky\nJersey: #2"
+    },
+    {
+      "chunk_id": 230,
+      "frame_id": 230,
+      "text": "Player: Nikola Jovi\u0107\nPosition: F\nTeam: 1610612748\nHeight: 6-10\nWeight: 205\nExperience: 3 years\nSchool: Mega Basket\nJersey: #5"
+    },
+    {
+      "chunk_id": 231,
+      "frame_id": 231,
+      "text": "Player: P.J. Washington\nPosition: F\nTeam: 1610612742\nHeight: 6-7\nWeight: 230\nExperience: 6 years\nSchool: Kentucky\nJersey: #25"
+    },
+    {
+      "chunk_id": 232,
+      "frame_id": 232,
+      "text": "Player: Peyton Watson\nPosition: G\nTeam: 1610612743\nHeight: 6-8\nWeight: 200\nExperience: 3 years\nSchool: UCLA\nJersey: #8"
+    },
+    {
+      "chunk_id": 233,
+      "frame_id": 233,
+      "text": "Player: Malaki Branham\nPosition: F\nTeam: 1610612764\nHeight: 6-4\nWeight: 180\nExperience: 3 years\nSchool: Ohio State\nJersey: #8"
+    },
+    {
+      "chunk_id": 234,
+      "frame_id": 234,
+      "text": "Player: Marvin Bagley III\nPosition: F\nTeam: 1610612764\nHeight: 6-10\nWeight: 235\nExperience: 7 years\nSchool: Duke\nJersey: #35"
+    },
+    {
+      "chunk_id": 235,
+      "frame_id": 235,
+      "text": "Player: Ron Harper Jr.\nPosition: G-F\nTeam: 1610612738\nHeight: 6-5\nWeight: 233\nExperience: 3 years\nSchool: Rutgers\nJersey: #13"
+    },
+    {
+      "chunk_id": 236,
+      "frame_id": 236,
+      "text": "Player: Jarrett Allen\nPosition: C\nTeam: 1610612739\nHeight: 6-9\nWeight: 243\nExperience: 8 years\nSchool: Texas\nJersey: #31"
+    },
+    {
+      "chunk_id": 237,
+      "frame_id": 237,
+      "text": "Player: Jamir Watkins\nPosition: F\nTeam: 1610612764\nHeight: 6-6\nWeight: 210\nExperience: R years\nSchool: Florida State\nJersey: #5"
+    },
+    {
+      "chunk_id": 238,
+      "frame_id": 238,
+      "text": "Player: Amen Thompson\nPosition: G-F\nTeam: 1610612745\nHeight: 6-7\nWeight: 200\nExperience: 2 years\nSchool: Overtime Elite\nJersey: #1"
+    },
+    {
+      "chunk_id": 239,
+      "frame_id": 239,
+      "text": "Player: Ariel Hukporti\nPosition: C\nTeam: 1610612752\nHeight: 7-0\nWeight: 246\nExperience: 1 years\nSchool: Riesen Ludwigsburg\nJersey: #55"
+    },
+    {
+      "chunk_id": 240,
+      "frame_id": 240,
+      "text": "Player: Anfernee Simons\nPosition: G\nTeam: 1610612738\nHeight: 6-3\nWeight: 200\nExperience: 7 years\nSchool: Edgewater HS (FL)\nJersey: #4"
+    },
+    {
+      "chunk_id": 241,
+      "frame_id": 241,
+      "text": "Player: Andrew Wiggins\nPosition: F\nTeam: 1610612748\nHeight: 6-6\nWeight: 197\nExperience: 11 years\nSchool: Kansas\nJersey: #22"
+    },
+    {
+      "chunk_id": 242,
+      "frame_id": 242,
+      "text": "Player: Antonio Reeves\nPosition: G\nTeam: 1610612766\nHeight: 6-5\nWeight: 205\nExperience: 1 years\nSchool: Kentucky\nJersey: #12"
+    },
+    {
+      "chunk_id": 243,
+      "frame_id": 243,
+      "text": "Player: Amari Williams\nPosition: F-C\nTeam: 1610612738\nHeight: 6-11\nWeight: 250\nExperience: R years\nSchool: Kentucky\nJersey: #77"
+    },
+    {
+      "chunk_id": 244,
+      "frame_id": 244,
+      "text": "Player: James Harden\nPosition: G\nTeam: 1610612746\nHeight: 6-5\nWeight: 220\nExperience: 16 years\nSchool: Arizona State\nJersey: #1"
+    },
+    {
+      "chunk_id": 245,
+      "frame_id": 245,
+      "text": "Player: Jarred Vanderbilt\nPosition: F\nTeam: 1610612747\nHeight: 6-8\nWeight: 214\nExperience: 7 years\nSchool: Kentucky\nJersey: #2"
+    },
+    {
+      "chunk_id": 246,
+      "frame_id": 246,
+      "text": "Player: Mark Williams\nPosition: C\nTeam: 1610612756\nHeight: 7-1\nWeight: 240\nExperience: 3 years\nSchool: Duke\nJersey: #15"
+    },
+    {
+      "chunk_id": 247,
+      "frame_id": 247,
+      "text": "Player: Rocco Zikarsky\nPosition: C\nTeam: 1610612750\nHeight: 7-3\nWeight: 227\nExperience: R years\nSchool: None\nJersey: #44"
+    },
+    {
+      "chunk_id": 248,
+      "frame_id": 248,
+      "text": "Player: Pete Nance\nPosition: F\nTeam: 1610612749\nHeight: 6-9\nWeight: 225\nExperience: 2 years\nSchool: Northwestern\nJersey: #35"
+    },
+    {
+      "chunk_id": 249,
+      "frame_id": 249,
+      "text": "Player: Luke Travers\nPosition: F\nTeam: 1610612739\nHeight: 6-6\nWeight: 207\nExperience: 1 years\nSchool: Rockingham Flames (Aus.)\nJersey: #33"
+    },
+    {
+      "chunk_id": 250,
+      "frame_id": 250,
+      "text": "Player: Ousmane Dieng\nPosition: F\nTeam: 1610612760\nHeight: 6-9\nWeight: 185\nExperience: 3 years\nSchool: New Zealand Breakers\nJersey: #13"
+    },
+    {
+      "chunk_id": 251,
+      "frame_id": 251,
+      "text": "Player: Nikola Topi\u0107\nPosition: G\nTeam: 1610612760\nHeight: 6-6\nWeight: 200\nExperience: R years\nSchool: Crvena zvezda\nJersey: #44"
+    },
+    {
+      "chunk_id": 252,
+      "frame_id": 252,
+      "text": "Player: Nick Smith Jr.\nPosition: G\nTeam: 1610612747\nHeight: 6-2\nWeight: 185\nExperience: 2 years\nSchool: Arkansas\nJersey: #20"
+    },
+    {
+      "chunk_id": 253,
+      "frame_id": 253,
+      "text": "Player: Dyson Daniels\nPosition: G\nTeam: 1610612737\nHeight: 6-7\nWeight: 199\nExperience: 3 years\nSchool: NBA G League Ignite\nJersey: #5"
+    },
+    {
+      "chunk_id": 254,
+      "frame_id": 254,
+      "text": "Player: Dru Smith\nPosition: G\nTeam: 1610612748\nHeight: 6-2\nWeight: 203\nExperience: 3 years\nSchool: Missouri\nJersey: #12"
+    },
+    {
+      "chunk_id": 255,
+      "frame_id": 255,
+      "text": "Player: Haywood Highsmith\nPosition: F\nTeam: 1610612751\nHeight: 6-5\nWeight: 220\nExperience: 5 years\nSchool: Wheeling Jesuit\nJersey: #7"
+    },
+    {
+      "chunk_id": 256,
+      "frame_id": 256,
+      "text": "Player: Isaiah Stevens\nPosition: G\nTeam: 1610612758\nHeight: 5-11\nWeight: 185\nExperience: 1 years\nSchool: Colorado State\nJersey: #24"
+    },
+    {
+      "chunk_id": 257,
+      "frame_id": 257,
+      "text": "Player: Isaiah Collier\nPosition: G\nTeam: 1610612762\nHeight: 6-4\nWeight: 210\nExperience: 1 years\nSchool: Southern California\nJersey: #8"
+    },
+    {
+      "chunk_id": 258,
+      "frame_id": 258,
+      "text": "Player: Isaiah Joe\nPosition: G\nTeam: 1610612760\nHeight: 6-4\nWeight: 165\nExperience: 5 years\nSchool: Arkansas\nJersey: #11"
+    },
+    {
+      "chunk_id": 259,
+      "frame_id": 259,
+      "text": "Player: Isaac Jones\nPosition: F\nTeam: 1610612765\nHeight: 6-8\nWeight: 245\nExperience: 1 years\nSchool: Washington State\nJersey: #3"
+    },
+    {
+      "chunk_id": 260,
+      "frame_id": 260,
+      "text": "Player: Egor D\u00ebmin\nPosition: G\nTeam: 1610612751\nHeight: 6-8\nWeight: 200\nExperience: R years\nSchool: Brigham Young\nJersey: #8"
+    },
+    {
+      "chunk_id": 261,
+      "frame_id": 261,
+      "text": "Player: Duop Reath\nPosition: C\nTeam: 1610612757\nHeight: 6-9\nWeight: 245\nExperience: 2 years\nSchool: Louisiana State\nJersey: #26"
+    },
+    {
+      "chunk_id": 262,
+      "frame_id": 262,
+      "text": "Player: Nikola \u0110uri\u0161i\u0107\nPosition: G\nTeam: 1610612737\nHeight: 6-8\nWeight: 214\nExperience: R years\nSchool: Mega Basket\nJersey: #22"
+    },
+    {
+      "chunk_id": 263,
+      "frame_id": 263,
+      "text": "Player: Nicolas Batum\nPosition: G-F\nTeam: 1610612746\nHeight: 6-7\nWeight: 230\nExperience: 17 years\nSchool: Le Mans\nJersey: #33"
+    },
+    {
+      "chunk_id": 264,
+      "frame_id": 264,
+      "text": "Player: N'Faly Dante\nPosition: C\nTeam: 1610612737\nHeight: 6-11\nWeight: 230\nExperience: 1 years\nSchool: Oregon\nJersey: #12"
+    },
+    {
+      "chunk_id": 265,
+      "frame_id": 265,
+      "text": "Player: Ronald Holland II\nPosition: F\nTeam: 1610612765\nHeight: 6-8\nWeight: 206\nExperience: 1 years\nSchool: NBA G League Ignite\nJersey: #5"
+    },
+    {
+      "chunk_id": 266,
+      "frame_id": 266,
+      "text": "Player: Marcus Smart\nPosition: G\nTeam: 1610612747\nHeight: 6-3\nWeight: 220\nExperience: 11 years\nSchool: Oklahoma State\nJersey: #36"
+    },
+    {
+      "chunk_id": 267,
+      "frame_id": 267,
+      "text": "Player: Luke Kennard\nPosition: G\nTeam: 1610612737\nHeight: 6-5\nWeight: 206\nExperience: 8 years\nSchool: Duke\nJersey: #3"
+    },
+    {
+      "chunk_id": 268,
+      "frame_id": 268,
+      "text": "Player: Precious Achiuwa\nPosition: F\nTeam: 1610612758\nHeight: 6-8\nWeight: 243\nExperience: 5 years\nSchool: Memphis\nJersey: #9"
+    },
+    {
+      "chunk_id": 269,
+      "frame_id": 269,
+      "text": "Player: Jalen Smith\nPosition: F-C\nTeam: 1610612741\nHeight: 6-8\nWeight: 215\nExperience: 5 years\nSchool: Maryland\nJersey: #25"
+    },
+    {
+      "chunk_id": 270,
+      "frame_id": 270,
+      "text": "Player: Jamal Shead\nPosition: G\nTeam: 1610612761\nHeight: 6-1\nWeight: 200\nExperience: 1 years\nSchool: Houston\nJersey: #23"
+    },
+    {
+      "chunk_id": 271,
+      "frame_id": 271,
+      "text": "Player: Jared McCain\nPosition: G\nTeam: 1610612755\nHeight: 6-3\nWeight: 195\nExperience: 1 years\nSchool: Duke\nJersey: #20"
+    },
+    {
+      "chunk_id": 272,
+      "frame_id": 272,
+      "text": "Player: Anthony Black\nPosition: G\nTeam: 1610612753\nHeight: 6-7\nWeight: 200\nExperience: 2 years\nSchool: Arkansas\nJersey: #0"
+    },
+    {
+      "chunk_id": 273,
+      "frame_id": 273,
+      "text": "Player: Asa Newell\nPosition: F\nTeam: 1610612737\nHeight: 6-10\nWeight: 220\nExperience: R years\nSchool: Georgia\nJersey: #14"
+    },
+    {
+      "chunk_id": 274,
+      "frame_id": 274,
+      "text": "Player: Ausar Thompson\nPosition: G-F\nTeam: 1610612765\nHeight: 6-7\nWeight: 205\nExperience: 2 years\nSchool: Overtime Elite\nJersey: #9"
+    },
+    {
+      "chunk_id": 275,
+      "frame_id": 275,
+      "text": "Player: Anthony Davis\nPosition: F-C\nTeam: 1610612742\nHeight: 6-10\nWeight: 253\nExperience: 13 years\nSchool: Kentucky\nJersey: #3"
+    },
+    {
+      "chunk_id": 276,
+      "frame_id": 276,
+      "text": "Player: Jaren Jackson Jr.\nPosition: F-C\nTeam: 1610612763\nHeight: 6-10\nWeight: 242\nExperience: 7 years\nSchool: Michigan State\nJersey: #8"
+    },
+    {
+      "chunk_id": 277,
+      "frame_id": 277,
+      "text": "Player: Jamaree Bouyea\nPosition: G\nTeam: 1610612756\nHeight: 6-2\nWeight: 180\nExperience: 3 years\nSchool: San Francisco\nJersey: #15"
+    },
+    {
+      "chunk_id": 278,
+      "frame_id": 278,
+      "text": "Player: Jalen Suggs\nPosition: G\nTeam: 1610612753\nHeight: 6-5\nWeight: 205\nExperience: 4 years\nSchool: Gonzaga\nJersey: #4"
+    },
+    {
+      "chunk_id": 279,
+      "frame_id": 279,
+      "text": "Player: Luke Kornet\nPosition: C-F\nTeam: 1610612759\nHeight: 7-1\nWeight: 250\nExperience: 8 years\nSchool: Vanderbilt\nJersey: #7"
+    },
+    {
+      "chunk_id": 280,
+      "frame_id": 280,
+      "text": "Player: Quentin Grimes\nPosition: G\nTeam: 1610612755\nHeight: 6-4\nWeight: 210\nExperience: 4 years\nSchool: Houston\nJersey: #5"
+    },
+    {
+      "chunk_id": 281,
+      "frame_id": 281,
+      "text": "Player: Royce O'Neale\nPosition: F\nTeam: 1610612756\nHeight: 6-6\nWeight: 226\nExperience: 8 years\nSchool: Baylor\nJersey: #00"
+    },
+    {
+      "chunk_id": 282,
+      "frame_id": 282,
+      "text": "Player: Mark Sears\nPosition: G\nTeam: 1610612749\nHeight: 6-0\nWeight: 185\nExperience: R years\nSchool: Alabama\nJersey: #19"
+    },
+    {
+      "chunk_id": 283,
+      "frame_id": 283,
+      "text": "Player: Nae'Qwan Tomlin\nPosition: F\nTeam: 1610612739\nHeight: 6-8\nWeight: 210\nExperience: 1 years\nSchool: Memphis\nJersey: #35"
+    },
+    {
+      "chunk_id": 284,
+      "frame_id": 284,
+      "text": "Player: Nickeil Alexander-Walker\nPosition: G\nTeam: 1610612737\nHeight: 6-5\nWeight: 205\nExperience: 6 years\nSchool: Virginia Tech\nJersey: #7"
+    },
+    {
+      "chunk_id": 285,
+      "frame_id": 285,
+      "text": "Player: Nikola Vu\u010devi\u0107\nPosition: C\nTeam: 1610612741\nHeight: 6-9\nWeight: 260\nExperience: 14 years\nSchool: Southern California\nJersey: #9"
+    },
+    {
+      "chunk_id": 286,
+      "frame_id": 286,
+      "text": "Player: Dwight Powell\nPosition: F-C\nTeam: 1610612742\nHeight: 6-10\nWeight: 240\nExperience: 11 years\nSchool: Stanford\nJersey: #7"
+    },
+    {
+      "chunk_id": 287,
+      "frame_id": 287,
+      "text": "Player: Eli John Ndiaye\nPosition: F\nTeam: 1610612737\nHeight: 6-8\nWeight: 209\nExperience: R years\nSchool: Real Madrid\nJersey: #30"
+    },
+    {
+      "chunk_id": 288,
+      "frame_id": 288,
+      "text": "Player: Immanuel Quickley\nPosition: G\nTeam: 1610612761\nHeight: 6-2\nWeight: 190\nExperience: 5 years\nSchool: Kentucky\nJersey: #5"
+    },
+    {
+      "chunk_id": 289,
+      "frame_id": 289,
+      "text": "Player: Isaiah Jackson\nPosition: F\nTeam: 1610612754\nHeight: 6-8\nWeight: 205\nExperience: 4 years\nSchool: Kentucky\nJersey: #22"
+    },
+    {
+      "chunk_id": 290,
+      "frame_id": 290,
+      "text": "Player: Isaiah Hartenstein\nPosition: C-F\nTeam: 1610612760\nHeight: 7-0\nWeight: 250\nExperience: 7 years\nSchool: Zalgiris\nJersey: #55"
+    },
+    {
+      "chunk_id": 291,
+      "frame_id": 291,
+      "text": "Player: Harrison Barnes\nPosition: F\nTeam: 1610612759\nHeight: 6-7\nWeight: 225\nExperience: 13 years\nSchool: North Carolina\nJersey: #40"
+    },
+    {
+      "chunk_id": 292,
+      "frame_id": 292,
+      "text": "Player: Gabe Vincent\nPosition: G\nTeam: 1610612747\nHeight: 6-2\nWeight: 200\nExperience: 6 years\nSchool: California-Santa Barbara\nJersey: #7"
+    },
+    {
+      "chunk_id": 293,
+      "frame_id": 293,
+      "text": "Player: Moussa Cisse\nPosition: C\nTeam: 1610612742\nHeight: 6-11\nWeight: 220\nExperience: R years\nSchool: Memphis\nJersey: #30"
+    },
+    {
+      "chunk_id": 294,
+      "frame_id": 294,
+      "text": "Player: Pascal Siakam\nPosition: F\nTeam: 1610612754\nHeight: 6-8\nWeight: 245\nExperience: 9 years\nSchool: New Mexico State\nJersey: #43"
+    },
+    {
+      "chunk_id": 295,
+      "frame_id": 295,
+      "text": "Player: Oscar Tshiebwe\nPosition: F-C\nTeam: 1610612762\nHeight: 6-8\nWeight: 255\nExperience: 2 years\nSchool: Kentucky\nJersey: #34"
+    },
+    {
+      "chunk_id": 296,
+      "frame_id": 296,
+      "text": "Player: Maxi Kleber\nPosition: F\nTeam: 1610612747\nHeight: 6-10\nWeight: 240\nExperience: 8 years\nSchool: Bayern Munich\nJersey: #14"
+    },
+    {
+      "chunk_id": 297,
+      "frame_id": 297,
+      "text": "Player: Malik Monk\nPosition: G\nTeam: 1610612758\nHeight: 6-3\nWeight: 200\nExperience: 8 years\nSchool: Kentucky\nJersey: #0"
+    },
+    {
+      "chunk_id": 298,
+      "frame_id": 298,
+      "text": "Player: Jabari Walker\nPosition: F\nTeam: 1610612755\nHeight: 6-7\nWeight: 237\nExperience: 3 years\nSchool: Colorado\nJersey: #33"
+    },
+    {
+      "chunk_id": 299,
+      "frame_id": 299,
+      "text": "Player: Jalen Duren\nPosition: C\nTeam: 1610612765\nHeight: 6-10\nWeight: 250\nExperience: 3 years\nSchool: Memphis\nJersey: #0"
+    },
+    {
+      "chunk_id": 300,
+      "frame_id": 300,
+      "text": "Player: Jamison Battle\nPosition: F\nTeam: 1610612761\nHeight: 6-7\nWeight: 220\nExperience: 1 years\nSchool: Ohio State\nJersey: #77"
+    },
+    {
+      "chunk_id": 301,
+      "frame_id": 301,
+      "text": "Player: AJ Johnson\nPosition: G\nTeam: 1610612764\nHeight: 6-5\nWeight: 160\nExperience: 1 years\nSchool: Illawarra\nJersey: #4"
+    },
+    {
+      "chunk_id": 302,
+      "frame_id": 302,
+      "text": "Player: Alijah Martin\nPosition: G\nTeam: 1610612761\nHeight: 6-2\nWeight: 210\nExperience: R years\nSchool: Florida\nJersey: #55"
+    },
+    {
+      "chunk_id": 303,
+      "frame_id": 303,
+      "text": "Player: Alperen Sengun\nPosition: C\nTeam: 1610612745\nHeight: 6-11\nWeight: 243\nExperience: 4 years\nSchool: Besiktas\nJersey: #28"
+    },
+    {
+      "chunk_id": 304,
+      "frame_id": 304,
+      "text": "Player: Aaron Gordon\nPosition: F\nTeam: 1610612743\nHeight: 6-8\nWeight: 235\nExperience: 11 years\nSchool: Arizona\nJersey: #32"
+    },
+    {
+      "chunk_id": 305,
+      "frame_id": 305,
+      "text": "Player: Jarace Walker\nPosition: F\nTeam: 1610612754\nHeight: 6-7\nWeight: 235\nExperience: 2 years\nSchool: Houston\nJersey: #5"
+    },
+    {
+      "chunk_id": 306,
+      "frame_id": 306,
+      "text": "Player: Jalen Green\nPosition: G\nTeam: 1610612756\nHeight: 6-4\nWeight: 186\nExperience: 4 years\nSchool: NBA G League Ignite\nJersey: #4"
+    },
+    {
+      "chunk_id": 307,
+      "frame_id": 307,
+      "text": "Player: Jackson Rowe\nPosition: F\nTeam: 1610612744\nHeight: 6-6\nWeight: 210\nExperience: 1 years\nSchool: California State-Fullerton\nJersey: #44"
+    },
+    {
+      "chunk_id": 308,
+      "frame_id": 308,
+      "text": "Player: Marcus Sasser\nPosition: G\nTeam: 1610612765\nHeight: 6-1\nWeight: 195\nExperience: 2 years\nSchool: Houston\nJersey: #25"
+    },
+    {
+      "chunk_id": 309,
+      "frame_id": 309,
+      "text": "Player: Oso Ighodaro\nPosition: F\nTeam: 1610612756\nHeight: 6-11\nWeight: 235\nExperience: 1 years\nSchool: Marquette\nJersey: #11"
+    },
+    {
+      "chunk_id": 310,
+      "frame_id": 310,
+      "text": "Player: Maxime Raynaud\nPosition: C\nTeam: 1610612758\nHeight: 7-1\nWeight: 250\nExperience: R years\nSchool: Stanford\nJersey: #42"
+    },
+    {
+      "chunk_id": 311,
+      "frame_id": 311,
+      "text": "Player: Moussa Diabat\u00e9\nPosition: F\nTeam: 1610612766\nHeight: 6-10\nWeight: 210\nExperience: 3 years\nSchool: Michigan\nJersey: #14"
+    },
+    {
+      "chunk_id": 312,
+      "frame_id": 312,
+      "text": "Player: Pat Connaughton\nPosition: G\nTeam: 1610612766\nHeight: 6-5\nWeight: 209\nExperience: 10 years\nSchool: Notre Dame\nJersey: #21"
+    },
+    {
+      "chunk_id": 313,
+      "frame_id": 313,
+      "text": "Player: Garrett Temple\nPosition: G-F\nTeam: 1610612761\nHeight: 6-5\nWeight: 195\nExperience: 15 years\nSchool: Louisiana State\nJersey: #17"
+    },
+    {
+      "chunk_id": 314,
+      "frame_id": 314,
+      "text": "Player: Harrison Ingram\nPosition: F\nTeam: 1610612759\nHeight: 6-5\nWeight: 230\nExperience: 1 years\nSchool: North Carolina\nJersey: #55"
+    },
+    {
+      "chunk_id": 315,
+      "frame_id": 315,
+      "text": "Player: Isaiah Crawford\nPosition: F\nTeam: 1610612745\nHeight: 6-6\nWeight: 220\nExperience: 1 years\nSchool: Louisiana Tech\nJersey: #27"
+    },
+    {
+      "chunk_id": 316,
+      "frame_id": 316,
+      "text": "Player: GG Jackson\nPosition: F\nTeam: 1610612763\nHeight: 6-9\nWeight: 210\nExperience: 2 years\nSchool: South Carolina\nJersey: #45"
+    },
+    {
+      "chunk_id": 317,
+      "frame_id": 317,
+      "text": "Player: Gui Santos\nPosition: F\nTeam: 1610612744\nHeight: 6-7\nWeight: 185\nExperience: 2 years\nSchool: Minas\nJersey: #15"
+    },
+    {
+      "chunk_id": 318,
+      "frame_id": 318,
+      "text": "Player: Dylan Harper\nPosition: G\nTeam: 1610612759\nHeight: 6-5\nWeight: 215\nExperience: R years\nSchool: Rutgers\nJersey: #2"
+    },
+    {
+      "chunk_id": 319,
+      "frame_id": 319,
+      "text": "Player: Nigel Hayes-Davis\nPosition: F\nTeam: 1610612756\nHeight: 6-7\nWeight: 254\nExperience: 1 years\nSchool: Wisconsin\nJersey: #21"
+    },
+    {
+      "chunk_id": 320,
+      "frame_id": 320,
+      "text": "Player: Michael Porter Jr.\nPosition: F\nTeam: 1610612751\nHeight: 6-10\nWeight: 218\nExperience: 6 years\nSchool: Missouri\nJersey: #17"
+    },
+    {
+      "chunk_id": 321,
+      "frame_id": 321,
+      "text": "Player: Orlando Robinson\nPosition: C\nTeam: 1610612753\nHeight: 6-10\nWeight: 235\nExperience: 3 years\nSchool: Fresno State\nJersey: #7"
+    },
+    {
+      "chunk_id": 322,
+      "frame_id": 322,
+      "text": "Player: Paolo Banchero\nPosition: F\nTeam: 1610612753\nHeight: 6-10\nWeight: 250\nExperience: 3 years\nSchool: Duke\nJersey: #5"
+    },
+    {
+      "chunk_id": 323,
+      "frame_id": 323,
+      "text": "Player: Myron Gardner\nPosition: F\nTeam: 1610612748\nHeight: 6-5\nWeight: 220\nExperience: R years\nSchool: Arkansas-Little Rock\nJersey: #15"
+    },
+    {
+      "chunk_id": 324,
+      "frame_id": 324,
+      "text": "Player: Rui Hachimura\nPosition: F\nTeam: 1610612747\nHeight: 6-8\nWeight: 230\nExperience: 6 years\nSchool: Gonzaga\nJersey: #28"
+    },
+    {
+      "chunk_id": 325,
+      "frame_id": 325,
+      "text": "Player: Jalen Pickett\nPosition: G\nTeam: 1610612743\nHeight: 6-2\nWeight: 202\nExperience: 2 years\nSchool: Penn State\nJersey: #24"
+    },
+    {
+      "chunk_id": 326,
+      "frame_id": 326,
+      "text": "Player: Jaden Hardy\nPosition: G\nTeam: 1610612742\nHeight: 6-3\nWeight: 198\nExperience: 3 years\nSchool: NBA G League Ignite\nJersey: #1"
+    },
+    {
+      "chunk_id": 327,
+      "frame_id": 327,
+      "text": "Player: Alex Toohey\nPosition: F\nTeam: 1610612744\nHeight: 6-8\nWeight: 223\nExperience: R years\nSchool: Sydney Kings\nJersey: #22"
+    },
+    {
+      "chunk_id": 328,
+      "frame_id": 328,
+      "text": "Player: AJ Green\nPosition: G\nTeam: 1610612749\nHeight: 6-4\nWeight: 190\nExperience: 3 years\nSchool: Northern Iowa\nJersey: #20"
+    },
+    {
+      "chunk_id": 329,
+      "frame_id": 329,
+      "text": "Player: Anthony Gill\nPosition: F\nTeam: 1610612764\nHeight: 6-7\nWeight: 230\nExperience: 5 years\nSchool: Virginia\nJersey: #16"
+    },
+    {
+      "chunk_id": 330,
+      "frame_id": 330,
+      "text": "Player: Anthony Edwards\nPosition: G\nTeam: 1610612750\nHeight: 6-4\nWeight: 225\nExperience: 5 years\nSchool: Georgia\nJersey: #5"
+    },
+    {
+      "chunk_id": 331,
+      "frame_id": 331,
+      "text": "Player: A.J. Lawson\nPosition: G\nTeam: 1610612761\nHeight: 6-6\nWeight: 179\nExperience: 3 years\nSchool: South Carolina\nJersey: #0"
+    },
+    {
+      "chunk_id": 332,
+      "frame_id": 332,
+      "text": "Player: Alex Sarr\nPosition: C\nTeam: 1610612764\nHeight: 7-0\nWeight: 205\nExperience: 1 years\nSchool: Washington Wizards\nJersey: #20"
+    },
+    {
+      "chunk_id": 333,
+      "frame_id": 333,
+      "text": "Player: Jacob Toppin\nPosition: F\nTeam: 1610612737\nHeight: 6-9\nWeight: 200\nExperience: 2 years\nSchool: Kentucky\nJersey: #0"
+    },
+    {
+      "chunk_id": 334,
+      "frame_id": 334,
+      "text": "Player: Jalen Johnson\nPosition: F\nTeam: 1610612737\nHeight: 6-8\nWeight: 219\nExperience: 4 years\nSchool: Duke\nJersey: #1"
+    },
+    {
+      "chunk_id": 335,
+      "frame_id": 335,
+      "text": "Player: Rudy Gobert\nPosition: C\nTeam: 1610612750\nHeight: 7-1\nWeight: 258\nExperience: 12 years\nSchool: Cholet\nJersey: #27"
+    },
+    {
+      "chunk_id": 336,
+      "frame_id": 336,
+      "text": "Player: Pac\u00f4me Dadiet\nPosition: F\nTeam: 1610612752\nHeight: 6-9\nWeight: 210\nExperience: 1 years\nSchool: Ratiopharm Ulm\nJersey: #4"
+    },
+    {
+      "chunk_id": 337,
+      "frame_id": 337,
+      "text": "Player: Myles Turner\nPosition: C-F\nTeam: 1610612749\nHeight: 6-11\nWeight: 250\nExperience: 10 years\nSchool: Texas\nJersey: #3"
+    },
+    {
+      "chunk_id": 338,
+      "frame_id": 338,
+      "text": "Player: Micah Peavy\nPosition: G-F\nTeam: 1610612740\nHeight: 6-7\nWeight: 215\nExperience: R years\nSchool: Georgetown\nJersey: #14"
+    },
+    {
+      "chunk_id": 339,
+      "frame_id": 339,
+      "text": "Player: Onyeka Okongwu\nPosition: F-C\nTeam: 1610612737\nHeight: 6-10\nWeight: 240\nExperience: 5 years\nSchool: Southern California\nJersey: #17"
+    },
+    {
+      "chunk_id": 340,
+      "frame_id": 340,
+      "text": "Player: Nikola Joki\u0107\nPosition: C\nTeam: 1610612743\nHeight: 6-11\nWeight: 284\nExperience: 10 years\nSchool: Mega Basket\nJersey: #15"
+    },
+    {
+      "chunk_id": 341,
+      "frame_id": 341,
+      "text": "Player: Dylan Cardwell\nPosition: C\nTeam: 1610612758\nHeight: 6-10\nWeight: 255\nExperience: R years\nSchool: Auburn\nJersey: #32"
+    },
+    {
+      "chunk_id": 342,
+      "frame_id": 342,
+      "text": "Player: Guerschon Yabusele\nPosition: F\nTeam: 1610612752\nHeight: 6-7\nWeight: 265\nExperience: 3 years\nSchool: Rouen, France\nJersey: #28"
+    },
+    {
+      "chunk_id": 343,
+      "frame_id": 343,
+      "text": "Player: Fred VanVleet\nPosition: G\nTeam: 1610612745\nHeight: 6-0\nWeight: 197\nExperience: 9 years\nSchool: Wichita State\nJersey: #5"
+    },
+    {
+      "chunk_id": 344,
+      "frame_id": 344,
+      "text": "Player: Evan Mobley\nPosition: C\nTeam: 1610612739\nHeight: 6-11\nWeight: 215\nExperience: 4 years\nSchool: Southern California\nJersey: #4"
+    },
+    {
+      "chunk_id": 345,
+      "frame_id": 345,
+      "text": "Player: Garrison Mathews\nPosition: G\nTeam: 1610612754\nHeight: 6-5\nWeight: 215\nExperience: 6 years\nSchool: Lipscomb\nJersey: #24"
+    },
+    {
+      "chunk_id": 346,
+      "frame_id": 346,
+      "text": "Player: Goga Bitadze\nPosition: C-F\nTeam: 1610612753\nHeight: 6-11\nWeight: 250\nExperience: 6 years\nSchool: Mega Basket\nJersey: #35"
+    },
+    {
+      "chunk_id": 347,
+      "frame_id": 347,
+      "text": "Player: Norman Powell\nPosition: G\nTeam: 1610612748\nHeight: 6-3\nWeight: 215\nExperience: 10 years\nSchool: UCLA\nJersey: #24"
+    },
+    {
+      "chunk_id": 348,
+      "frame_id": 348,
+      "text": "Player: RayJ Dennis\nPosition: G\nTeam: 1610612754\nHeight: 6-1\nWeight: 180\nExperience: 1 years\nSchool: Baylor\nJersey: #10"
+    },
+    {
+      "chunk_id": 349,
+      "frame_id": 349,
+      "text": "Player: OG Anunoby\nPosition: F-G\nTeam: 1610612752\nHeight: 6-7\nWeight: 240\nExperience: 8 years\nSchool: Indiana\nJersey: #8"
+    },
+    {
+      "chunk_id": 350,
+      "frame_id": 350,
+      "text": "Player: Miles Bridges\nPosition: F\nTeam: 1610612766\nHeight: 6-7\nWeight: 225\nExperience: 6 years\nSchool: Michigan State\nJersey: #0"
+    },
+    {
+      "chunk_id": 351,
+      "frame_id": 351,
+      "text": "Player: Moses Moody\nPosition: G\nTeam: 1610612744\nHeight: 6-5\nWeight: 211\nExperience: 4 years\nSchool: Arkansas\nJersey: #4"
+    },
+    {
+      "chunk_id": 352,
+      "frame_id": 352,
+      "text": "Player: Pat Spencer\nPosition: G\nTeam: 1610612744\nHeight: 6-2\nWeight: 205\nExperience: 2 years\nSchool: Northwestern\nJersey: #61"
+    },
+    {
+      "chunk_id": 353,
+      "frame_id": 353,
+      "text": "Player: Jakob Poeltl\nPosition: C\nTeam: 1610612761\nHeight: 7-0\nWeight: 253\nExperience: 9 years\nSchool: Utah\nJersey: #19"
+    },
+    {
+      "chunk_id": 354,
+      "frame_id": 354,
+      "text": "Player: Jae'Sean Tate\nPosition: F\nTeam: 1610612745\nHeight: 6-4\nWeight: 230\nExperience: 5 years\nSchool: Ohio State\nJersey: #8"
+    },
+    {
+      "chunk_id": 355,
+      "frame_id": 355,
+      "text": "Player: Ben Saraf\nPosition: G\nTeam: 1610612751\nHeight: 6-6\nWeight: 200\nExperience: R years\nSchool: Ratiopharm Ulm\nJersey: #77"
+    },
+    {
+      "chunk_id": 356,
+      "frame_id": 356,
+      "text": "Player: Ajay Mitchell\nPosition: G\nTeam: 1610612760\nHeight: 6-4\nWeight: 190\nExperience: 1 years\nSchool: California-Santa Barbara\nJersey: #25"
+    },
+    {
+      "chunk_id": 357,
+      "frame_id": 357,
+      "text": "Player: Aaron Holiday\nPosition: G\nTeam: 1610612745\nHeight: 6-0\nWeight: 185\nExperience: 7 years\nSchool: UCLA\nJersey: #0"
+    },
+    {
+      "chunk_id": 358,
+      "frame_id": 358,
+      "text": "Player: Aaron Nesmith\nPosition: G-F\nTeam: 1610612754\nHeight: 6-5\nWeight: 215\nExperience: 5 years\nSchool: Vanderbilt\nJersey: #23"
+    },
+    {
+      "chunk_id": 359,
+      "frame_id": 359,
+      "text": "Player: Al Horford\nPosition: C-F\nTeam: 1610612744\nHeight: 6-8\nWeight: 240\nExperience: 18 years\nSchool: Florida\nJersey: #20"
+    },
+    {
+      "chunk_id": 360,
+      "frame_id": 360,
+      "text": "Player: Ben Sheppard\nPosition: G\nTeam: 1610612754\nHeight: 6-6\nWeight: 190\nExperience: 2 years\nSchool: Belmont\nJersey: #26"
+    },
+    {
+      "chunk_id": 361,
+      "frame_id": 361,
+      "text": "Player: Jahmai Mashack\nPosition: G\nTeam: 1610612763\nHeight: 6-4\nWeight: 203\nExperience: R years\nSchool: Tennessee\nJersey: #None"
+    },
+    {
+      "chunk_id": 362,
+      "frame_id": 362,
+      "text": "Player: Jalen Brunson\nPosition: G\nTeam: 1610612752\nHeight: 6-2\nWeight: 190\nExperience: 7 years\nSchool: Villanova\nJersey: #11"
+    },
+    {
+      "chunk_id": 363,
+      "frame_id": 363,
+      "text": "Player: Mouhamed Gueye\nPosition: F\nTeam: 1610612737\nHeight: 6-11\nWeight: 210\nExperience: 2 years\nSchool: Washington State\nJersey: #18"
+    },
+    {
+      "chunk_id": 364,
+      "frame_id": 364,
+      "text": "Player: Patrick Williams\nPosition: F\nTeam: 1610612741\nHeight: 6-6\nWeight: 215\nExperience: 5 years\nSchool: Florida State\nJersey: #44"
+    },
+    {
+      "chunk_id": 365,
+      "frame_id": 365,
+      "text": "Player: Obi Toppin\nPosition: F\nTeam: 1610612754\nHeight: 6-9\nWeight: 220\nExperience: 5 years\nSchool: Dayton\nJersey: #1"
+    },
+    {
+      "chunk_id": 366,
+      "frame_id": 366,
+      "text": "Player: Miles Kelly\nPosition: G\nTeam: 1610612742\nHeight: 6-4\nWeight: 190\nExperience: R years\nSchool: Auburn\nJersey: #14"
+    },
+    {
+      "chunk_id": 367,
+      "frame_id": 367,
+      "text": "Player: Rayan Rupert\nPosition: G-F\nTeam: 1610612757\nHeight: 6-7\nWeight: 205\nExperience: 2 years\nSchool: New Zealand Breakers\nJersey: #21"
+    },
+    {
+      "chunk_id": 368,
+      "frame_id": 368,
+      "text": "Player: Nolan Traore\nPosition: G\nTeam: 1610612751\nHeight: 6-3\nWeight: 185\nExperience: R years\nSchool: Saint-Quentin\nJersey: #88"
+    },
+    {
+      "chunk_id": 369,
+      "frame_id": 369,
+      "text": "Player: Gradey Dick\nPosition: G-F\nTeam: 1610612761\nHeight: 6-7\nWeight: 200\nExperience: 2 years\nSchool: Kansas\nJersey: #1"
+    },
+    {
+      "chunk_id": 370,
+      "frame_id": 370,
+      "text": "Player: Gary Harris\nPosition: G\nTeam: 1610612749\nHeight: 6-4\nWeight: 210\nExperience: 11 years\nSchool: Michigan State\nJersey: #11"
+    },
+    {
+      "chunk_id": 371,
+      "frame_id": 371,
+      "text": "Player: Franz Wagner\nPosition: F\nTeam: 1610612753\nHeight: 6-10\nWeight: 220\nExperience: 4 years\nSchool: Michigan\nJersey: #22"
+    },
+    {
+      "chunk_id": 372,
+      "frame_id": 372,
+      "text": "Player: Ja'Kobe Walter\nPosition: G\nTeam: 1610612761\nHeight: 6-4\nWeight: 180\nExperience: 1 years\nSchool: Baylor\nJersey: #14"
+    },
+    {
+      "chunk_id": 373,
+      "frame_id": 373,
+      "text": "Player: Grayson Allen\nPosition: G\nTeam: 1610612756\nHeight: 6-3\nWeight: 198\nExperience: 7 years\nSchool: Duke\nJersey: #8"
+    },
+    {
+      "chunk_id": 374,
+      "frame_id": 374,
+      "text": "Player: Gary Trent Jr.\nPosition: G\nTeam: 1610612749\nHeight: 6-5\nWeight: 204\nExperience: 7 years\nSchool: Duke\nJersey: #5"
+    },
+    {
+      "chunk_id": 375,
+      "frame_id": 375,
+      "text": "Player: Max Strus\nPosition: G-F\nTeam: 1610612739\nHeight: 6-5\nWeight: 215\nExperience: 6 years\nSchool: DePaul\nJersey: #1"
+    },
+    {
+      "chunk_id": 376,
+      "frame_id": 376,
+      "text": "Player: Paul Reed\nPosition: F\nTeam: 1610612765\nHeight: 6-9\nWeight: 210\nExperience: 5 years\nSchool: DePaul\nJersey: #7"
+    },
+    {
+      "chunk_id": 377,
+      "frame_id": 377,
+      "text": "Player: Moritz Wagner\nPosition: F-C\nTeam: 1610612753\nHeight: 6-11\nWeight: 245\nExperience: 7 years\nSchool: Michigan\nJersey: #21"
+    },
+    {
+      "chunk_id": 378,
+      "frame_id": 378,
+      "text": "Player: Mike Conley\nPosition: G\nTeam: 1610612750\nHeight: 6-1\nWeight: 175\nExperience: 18 years\nSchool: Ohio State\nJersey: #10"
+    },
+    {
+      "chunk_id": 379,
+      "frame_id": 379,
+      "text": "Player: Olivier-Maxence Prosper\nPosition: F\nTeam: 1610612763\nHeight: 6-7\nWeight: 230\nExperience: 2 years\nSchool: Marquette\nJersey: #18"
+    },
+    {
+      "chunk_id": 380,
+      "frame_id": 380,
+      "text": "Player: Jay Huff\nPosition: C\nTeam: 1610612754\nHeight: 7-1\nWeight: 240\nExperience: 4 years\nSchool: Virginia\nJersey: #32"
+    },
+    {
+      "chunk_id": 381,
+      "frame_id": 381,
+      "text": "Player: Jaden McDaniels\nPosition: F\nTeam: 1610612750\nHeight: 6-9\nWeight: 185\nExperience: 5 years\nSchool: Washington\nJersey: #3"
+    },
+    {
+      "chunk_id": 382,
+      "frame_id": 382,
+      "text": "Player: Jake LaRavia\nPosition: F\nTeam: 1610612747\nHeight: 6-7\nWeight: 235\nExperience: 3 years\nSchool: Wake Forest\nJersey: #12"
+    },
+    {
+      "chunk_id": 383,
+      "frame_id": 383,
+      "text": "Player: Ace Bailey\nPosition: F\nTeam: 1610612762\nHeight: 6-9\nWeight: 200\nExperience: R years\nSchool: Rutgers\nJersey: #19"
+    },
+    {
+      "chunk_id": 384,
+      "frame_id": 384,
+      "text": "Player: Alex Caruso\nPosition: G\nTeam: 1610612760\nHeight: 6-5\nWeight: 186\nExperience: 8 years\nSchool: Texas A&M\nJersey: #9"
+    },
+    {
+      "chunk_id": 385,
+      "frame_id": 385,
+      "text": "Player: Alex Antetokounmpo\nPosition: F\nTeam: 1610612749\nHeight: 6-8\nWeight: 214\nExperience: R years\nSchool:                                    \nJersey: #29"
+    },
+    {
+      "chunk_id": 386,
+      "frame_id": 386,
+      "text": "Player: Aaron Wiggins\nPosition: G\nTeam: 1610612760\nHeight: 6-5\nWeight: 190\nExperience: 4 years\nSchool: Maryland\nJersey: #21"
+    },
+    {
+      "chunk_id": 387,
+      "frame_id": 387,
+      "text": "Player: Jaime Jaquez Jr.\nPosition: G\nTeam: 1610612748\nHeight: 6-6\nWeight: 225\nExperience: 2 years\nSchool: UCLA\nJersey: #11"
+    },
+    {
+      "chunk_id": 388,
+      "frame_id": 388,
+      "text": "Player: Jaden Ivey\nPosition: G\nTeam: 1610612765\nHeight: 6-3\nWeight: 195\nExperience: 3 years\nSchool: Purdue\nJersey: #23"
+    },
+    {
+      "chunk_id": 389,
+      "frame_id": 389,
+      "text": "Player: Jaxson Hayes\nPosition: C-F\nTeam: 1610612747\nHeight: 7-0\nWeight: 220\nExperience: 6 years\nSchool: Texas\nJersey: #11"
+    },
+    {
+      "chunk_id": 390,
+      "frame_id": 390,
+      "text": "Player: Mikal Bridges\nPosition: G-F\nTeam: 1610612752\nHeight: 6-6\nWeight: 209\nExperience: 7 years\nSchool: Villanova\nJersey: #25"
+    },
+    {
+      "chunk_id": 391,
+      "frame_id": 391,
+      "text": "Player: Ochai Agbaji\nPosition: G\nTeam: 1610612761\nHeight: 6-5\nWeight: 215\nExperience: 3 years\nSchool: Kansas\nJersey: #30"
+    },
+    {
+      "chunk_id": 392,
+      "frame_id": 392,
+      "text": "Player: Paul George\nPosition: F\nTeam: 1610612755\nHeight: 6-8\nWeight: 220\nExperience: 15 years\nSchool: Fresno State\nJersey: #8"
+    },
+    {
+      "chunk_id": 393,
+      "frame_id": 393,
+      "text": "Player: Mohamed Diawara\nPosition: F\nTeam: 1610612752\nHeight: 6-9\nWeight: 225\nExperience: R years\nSchool: None\nJersey: #51"
+    },
+    {
+      "chunk_id": 394,
+      "frame_id": 394,
+      "text": "Player: Max Shulga\nPosition: G\nTeam: 1610612738\nHeight: 6-4\nWeight: 210\nExperience: R years\nSchool: Virginia Commonwealth\nJersey: #44"
+    },
+    {
+      "chunk_id": 395,
+      "frame_id": 395,
+      "text": "Player: Gary Payton II\nPosition: G\nTeam: 1610612744\nHeight: 6-2\nWeight: 195\nExperience: 9 years\nSchool: Oregon State\nJersey: #0"
+    },
+    {
+      "chunk_id": 396,
+      "frame_id": 396,
+      "text": "Player: Grant Williams\nPosition: F\nTeam: 1610612766\nHeight: 6-7\nWeight: 236\nExperience: 6 years\nSchool: Tennessee\nJersey: #2"
+    },
+    {
+      "chunk_id": 397,
+      "frame_id": 397,
+      "text": "Player: Jabari Smith Jr.\nPosition: F\nTeam: 1610612745\nHeight: 6-11\nWeight: 220\nExperience: 3 years\nSchool: Auburn\nJersey: #10"
+    },
+    {
+      "chunk_id": 398,
+      "frame_id": 398,
+      "text": "Player: De'Anthony Melton\nPosition: G\nTeam: 1610612744\nHeight: 6-2\nWeight: 200\nExperience: 7 years\nSchool: Southern California\nJersey: #8"
+    },
+    {
+      "chunk_id": 399,
+      "frame_id": 399,
+      "text": "Player: Dalen Terry\nPosition: F\nTeam: 1610612741\nHeight: 6-6\nWeight: 195\nExperience: 3 years\nSchool: Arizona\nJersey: #7"
+    },
+    {
+      "chunk_id": 400,
+      "frame_id": 400,
+      "text": "Player: Devin Carter\nPosition: G\nTeam: 1610612758\nHeight: 6-2\nWeight: 195\nExperience: 1 years\nSchool: Providence\nJersey: #22"
+    },
+    {
+      "chunk_id": 401,
+      "frame_id": 401,
+      "text": "Player: Terrence Shannon Jr.\nPosition: G-F\nTeam: 1610612750\nHeight: 6-6\nWeight: 215\nExperience: 1 years\nSchool: Illinois\nJersey: #1"
+    },
+    {
+      "chunk_id": 402,
+      "frame_id": 402,
+      "text": "Player: Kobe Brown\nPosition: F\nTeam: 1610612746\nHeight: 6-7\nWeight: 250\nExperience: 2 years\nSchool: Missouri\nJersey: #24"
+    },
+    {
+      "chunk_id": 403,
+      "frame_id": 403,
+      "text": "Player: Kentavious Caldwell-Pope\nPosition: G\nTeam: 1610612763\nHeight: 6-5\nWeight: 204\nExperience: 12 years\nSchool: Georgia\nJersey: #3"
+    },
+    {
+      "chunk_id": 404,
+      "frame_id": 404,
+      "text": "Player: Taelon Peter\nPosition: G\nTeam: 1610612754\nHeight: 6-3\nWeight: 185\nExperience: R years\nSchool: Liberty\nJersey: #4"
+    },
+    {
+      "chunk_id": 405,
+      "frame_id": 405,
+      "text": "Player: Spencer Jones\nPosition: F\nTeam: 1610612743\nHeight: 6-7\nWeight: 225\nExperience: 1 years\nSchool: Stanford\nJersey: #21"
+    },
+    {
+      "chunk_id": 406,
+      "frame_id": 406,
+      "text": "Player: Justin Edwards\nPosition: F\nTeam: 1610612755\nHeight: 6-7\nWeight: 203\nExperience: 1 years\nSchool: Kentucky\nJersey: #11"
+    },
+    {
+      "chunk_id": 407,
+      "frame_id": 407,
+      "text": "Player: Victor Wembanyama\nPosition: F-C\nTeam: 1610612759\nHeight: 7-4\nWeight: 235\nExperience: 2 years\nSchool: Metropolitans 92\nJersey: #1"
+    },
+    {
+      "chunk_id": 408,
+      "frame_id": 408,
+      "text": "Player: Johnny Furphy\nPosition: G\nTeam: 1610612754\nHeight: 6-8\nWeight: 200\nExperience: 1 years\nSchool: Kansas\nJersey: #12"
+    },
+    {
+      "chunk_id": 409,
+      "frame_id": 409,
+      "text": "Player: Josh Giddey\nPosition: G\nTeam: 1610612741\nHeight: 6-7\nWeight: 216\nExperience: 4 years\nSchool: NBA Global Academy\nJersey: #3"
+    },
+    {
+      "chunk_id": 410,
+      "frame_id": 410,
+      "text": "Player: Wendell Carter Jr.\nPosition: C-F\nTeam: 1610612753\nHeight: 6-10\nWeight: 270\nExperience: 7 years\nSchool: Duke\nJersey: #34"
+    },
+    {
+      "chunk_id": 411,
+      "frame_id": 411,
+      "text": "Player: Bub Carrington\nPosition: G\nTeam: 1610612764\nHeight: 6-4\nWeight: 190\nExperience: 1 years\nSchool: Pittsburgh\nJersey: #7"
+    },
+    {
+      "chunk_id": 412,
+      "frame_id": 412,
+      "text": "Player: Cason Wallace\nPosition: G\nTeam: 1610612760\nHeight: 6-3\nWeight: 195\nExperience: 2 years\nSchool: Kentucky\nJersey: #22"
+    },
+    {
+      "chunk_id": 413,
+      "frame_id": 413,
+      "text": "Player: Branden Carlson\nPosition: C\nTeam: 1610612760\nHeight: 7-0\nWeight: 220\nExperience: 1 years\nSchool: Utah\nJersey: #15"
+    },
+    {
+      "chunk_id": 414,
+      "frame_id": 414,
+      "text": "Player: Bradley Beal\nPosition: G\nTeam: 1610612746\nHeight: 6-4\nWeight: 207\nExperience: 13 years\nSchool: Florida\nJersey: #0"
+    },
+    {
+      "chunk_id": 415,
+      "frame_id": 415,
+      "text": "Player: Carter Bryant\nPosition: F\nTeam: 1610612759\nHeight: 6-6\nWeight: 220\nExperience: R years\nSchool: Arizona\nJersey: #11"
+    },
+    {
+      "chunk_id": 416,
+      "frame_id": 416,
+      "text": "Player: Bryce McGowens\nPosition: G\nTeam: 1610612740\nHeight: 6-6\nWeight: 190\nExperience: 3 years\nSchool: Nebraska\nJersey: #11"
+    },
+    {
+      "chunk_id": 417,
+      "frame_id": 417,
+      "text": "Player: Jose Alvarado\nPosition: G\nTeam: 1610612740\nHeight: 6-0\nWeight: 179\nExperience: 4 years\nSchool: Georgia Tech\nJersey: #15"
+    },
+    {
+      "chunk_id": 418,
+      "frame_id": 418,
+      "text": "Player: Walter Clayton Jr.\nPosition: G\nTeam: 1610612762\nHeight: 6-4\nWeight: 195\nExperience: R years\nSchool: Florida\nJersey: #13"
+    },
+    {
+      "chunk_id": 419,
+      "frame_id": 419,
+      "text": "Player: VJ Edgecombe\nPosition: G\nTeam: 1610612755\nHeight: 6-4\nWeight: 180\nExperience: R years\nSchool: Baylor\nJersey: #77"
+    },
+    {
+      "chunk_id": 420,
+      "frame_id": 420,
+      "text": "Player: Johni Broome\nPosition: F\nTeam: 1610612755\nHeight: 6-10\nWeight: 235\nExperience: R years\nSchool: Auburn\nJersey: #22"
+    },
+    {
+      "chunk_id": 421,
+      "frame_id": 421,
+      "text": "Player: Jusuf Nurki\u0107\nPosition: C\nTeam: 1610612762\nHeight: 6-11\nWeight: 290\nExperience: 11 years\nSchool: Cedevita\nJersey: #30"
+    },
+    {
+      "chunk_id": 422,
+      "frame_id": 422,
+      "text": "Player: Sion James\nPosition: G\nTeam: 1610612766\nHeight: 6-5\nWeight: 220\nExperience: R years\nSchool: Duke\nJersey: #4"
+    },
+    {
+      "chunk_id": 423,
+      "frame_id": 423,
+      "text": "Player: Kenrich Williams\nPosition: G-F\nTeam: 1610612760\nHeight: 6-7\nWeight: 210\nExperience: 7 years\nSchool: TCU\nJersey: #34"
+    },
+    {
+      "chunk_id": 424,
+      "frame_id": 424,
+      "text": "Player: T.J. McConnell\nPosition: G\nTeam: 1610612754\nHeight: 6-1\nWeight: 190\nExperience: 10 years\nSchool: Arizona\nJersey: #9"
+    },
+    {
+      "chunk_id": 425,
+      "frame_id": 425,
+      "text": "Player: Terance Mann\nPosition: G-F\nTeam: 1610612751\nHeight: 6-6\nWeight: 215\nExperience: 6 years\nSchool: Florida State\nJersey: #14"
+    },
+    {
+      "chunk_id": 426,
+      "frame_id": 426,
+      "text": "Player: Klay Thompson\nPosition: G\nTeam: 1610612742\nHeight: 6-5\nWeight: 220\nExperience: 14 years\nSchool: Washington State\nJersey: #31"
+    },
+    {
+      "chunk_id": 427,
+      "frame_id": 427,
+      "text": "Player: Devin Booker\nPosition: G\nTeam: 1610612756\nHeight: 6-5\nWeight: 206\nExperience: 10 years\nSchool: Kentucky\nJersey: #1"
+    },
+    {
+      "chunk_id": 428,
+      "frame_id": 428,
+      "text": "Player: Daeqwon Plowden\nPosition: G-F\nTeam: 1610612758\nHeight: 6-4\nWeight: 216\nExperience: 1 years\nSchool: Bowling Green\nJersey: #29"
+    },
+    {
+      "chunk_id": 429,
+      "frame_id": 429,
+      "text": "Player: De'Andre Hunter\nPosition: F-G\nTeam: 1610612739\nHeight: 6-7\nWeight: 221\nExperience: 6 years\nSchool: Virginia\nJersey: #12"
+    },
+    {
+      "chunk_id": 430,
+      "frame_id": 430,
+      "text": "Player: Dalton Knecht\nPosition: F\nTeam: 1610612747\nHeight: 6-6\nWeight: 215\nExperience: 1 years\nSchool: Tennessee\nJersey: #4"
+    },
+    {
+      "chunk_id": 431,
+      "frame_id": 431,
+      "text": "Player: DeAndre Jordan\nPosition: C\nTeam: 1610612740\nHeight: 6-11\nWeight: 265\nExperience: 17 years\nSchool: Texas A&M\nJersey: #9"
+    },
+    {
+      "chunk_id": 432,
+      "frame_id": 432,
+      "text": "Player: Tyrese Martin\nPosition: F\nTeam: 1610612751\nHeight: 6-6\nWeight: 215\nExperience: 2 years\nSchool: Connecticut\nJersey: #13"
+    },
+    {
+      "chunk_id": 433,
+      "frame_id": 433,
+      "text": "Player: Tamar Bates\nPosition: G\nTeam: 1610612743\nHeight: 6-4\nWeight: 195\nExperience: R years\nSchool: Missouri\nJersey: #7"
+    },
+    {
+      "chunk_id": 434,
+      "frame_id": 434,
+      "text": "Player: Kelly Olynyk\nPosition: F-C\nTeam: 1610612759\nHeight: 7-0\nWeight: 240\nExperience: 12 years\nSchool: Gonzaga\nJersey: #8"
+    },
+    {
+      "chunk_id": 435,
+      "frame_id": 435,
+      "text": "Player: Khaman Maluach\nPosition: C\nTeam: 1610612756\nHeight: 7-1\nWeight: 250\nExperience: R years\nSchool: Duke\nJersey: #10"
+    },
+    {
+      "chunk_id": 436,
+      "frame_id": 436,
+      "text": "Player: Terry Rozier\nPosition: G\nTeam: 1610612748\nHeight: 6-1\nWeight: 190\nExperience: 10 years\nSchool: Louisville\nJersey: #2"
+    },
+    {
+      "chunk_id": 437,
+      "frame_id": 437,
+      "text": "Player: Kyle Lowry\nPosition: G\nTeam: 1610612755\nHeight: 6-0\nWeight: 196\nExperience: 19 years\nSchool: Villanova\nJersey: #7"
+    },
+    {
+      "chunk_id": 438,
+      "frame_id": 438,
+      "text": "Player: Wendell Moore Jr.\nPosition: G\nTeam: 1610612765\nHeight: 6-5\nWeight: 215\nExperience: 3 years\nSchool: Duke\nJersey: #9"
+    },
+    {
+      "chunk_id": 439,
+      "frame_id": 439,
+      "text": "Player: Jordan Poole\nPosition: G\nTeam: 1610612740\nHeight: 6-4\nWeight: 194\nExperience: 6 years\nSchool: Michigan\nJersey: #3"
+    },
+    {
+      "chunk_id": 440,
+      "frame_id": 440,
+      "text": "Player: John Konchar\nPosition: G\nTeam: 1610612763\nHeight: 6-5\nWeight: 210\nExperience: 6 years\nSchool: Indiana-Purdue Fort Wayne\nJersey: #46"
+    },
+    {
+      "chunk_id": 441,
+      "frame_id": 441,
+      "text": "Player: Vince Williams Jr.\nPosition: G\nTeam: 1610612763\nHeight: 6-4\nWeight: 205\nExperience: 3 years\nSchool: Virginia Commonwealth\nJersey: #5"
+    },
+    {
+      "chunk_id": 442,
+      "frame_id": 442,
+      "text": "Player: Jeremiah Fears\nPosition: G\nTeam: 1610612740\nHeight: 6-3\nWeight: 190\nExperience: R years\nSchool: Oklahoma\nJersey: #0"
+    },
+    {
+      "chunk_id": 443,
+      "frame_id": 443,
+      "text": "Player: Cole Anthony\nPosition: G\nTeam: 1610612749\nHeight: 6-2\nWeight: 185\nExperience: 5 years\nSchool: North Carolina\nJersey: #50"
+    },
+    {
+      "chunk_id": 444,
+      "frame_id": 444,
+      "text": "Player: Cedric Coward\nPosition: G\nTeam: 1610612763\nHeight: 6-5\nWeight: 206\nExperience: R years\nSchool: Washington State\nJersey: #23"
+    },
+    {
+      "chunk_id": 445,
+      "frame_id": 445,
+      "text": "Player: Buddy Hield\nPosition: G\nTeam: 1610612744\nHeight: 6-4\nWeight: 220\nExperience: 9 years\nSchool: Oklahoma\nJersey: #7"
+    },
+    {
+      "chunk_id": 446,
+      "frame_id": 446,
+      "text": "Player: CJ McCollum\nPosition: G\nTeam: 1610612764\nHeight: 6-3\nWeight: 190\nExperience: 12 years\nSchool: Lehigh\nJersey: #3"
+    },
+    {
+      "chunk_id": 447,
+      "frame_id": 447,
+      "text": "Player: Chaz Lanier\nPosition: G\nTeam: 1610612765\nHeight: 6-3\nWeight: 206\nExperience: R years\nSchool: Tennessee\nJersey: #20"
+    },
+    {
+      "chunk_id": 448,
+      "frame_id": 448,
+      "text": "Player: Cody Williams\nPosition: F\nTeam: 1610612762\nHeight: 6-8\nWeight: 190\nExperience: 1 years\nSchool: Colorado\nJersey: #5"
+    },
+    {
+      "chunk_id": 449,
+      "frame_id": 449,
+      "text": "Player: Jeremiah Robinson-Earl\nPosition: F\nTeam: 1610612754\nHeight: 6-9\nWeight: 240\nExperience: 4 years\nSchool: Villanova\nJersey: #25"
+    },
+    {
+      "chunk_id": 450,
+      "frame_id": 450,
+      "text": "Player: John Tonje\nPosition: G\nTeam: 1610612762\nHeight: 6-4\nWeight: 218\nExperience: R years\nSchool: Wisconsin\nJersey: #17"
+    },
+    {
+      "chunk_id": 451,
+      "frame_id": 451,
+      "text": "Player: Vladislav Goldin\nPosition: C\nTeam: 1610612748\nHeight: 7-0\nWeight: 250\nExperience: R years\nSchool: Michigan\nJersey: #50"
+    },
+    {
+      "chunk_id": 452,
+      "frame_id": 452,
+      "text": "Player: Will Richard\nPosition: G\nTeam: 1610612744\nHeight: 6-3\nWeight: 206\nExperience: R years\nSchool: Florida\nJersey: #3"
+    },
+    {
+      "chunk_id": 453,
+      "frame_id": 453,
+      "text": "Player: Jordan Walsh\nPosition: G\nTeam: 1610612738\nHeight: 6-6\nWeight: 205\nExperience: 2 years\nSchool: Arkansas\nJersey: #27"
+    },
+    {
+      "chunk_id": 454,
+      "frame_id": 454,
+      "text": "Player: Kyrie Irving\nPosition: G\nTeam: 1610612742\nHeight: 6-2\nWeight: 195\nExperience: 14 years\nSchool: Duke\nJersey: #11"
+    },
+    {
+      "chunk_id": 455,
+      "frame_id": 455,
+      "text": "Player: Khris Middleton\nPosition: F\nTeam: 1610612764\nHeight: 6-7\nWeight: 222\nExperience: 13 years\nSchool: Texas A&M\nJersey: #22"
+    },
+    {
+      "chunk_id": 456,
+      "frame_id": 456,
+      "text": "Player: Thanasis Antetokounmpo\nPosition: F\nTeam: 1610612749\nHeight: 6-7\nWeight: 219\nExperience: 6 years\nSchool: Panathinaikos\nJersey: #43"
+    },
+    {
+      "chunk_id": 457,
+      "frame_id": 457,
+      "text": "Player: Tari Eason\nPosition: F\nTeam: 1610612745\nHeight: 6-8\nWeight: 215\nExperience: 3 years\nSchool: Louisiana State\nJersey: #17"
+    },
+    {
+      "chunk_id": 458,
+      "frame_id": 458,
+      "text": "Player: Kelly Oubre Jr.\nPosition: F-G\nTeam: 1610612755\nHeight: 6-8\nWeight: 203\nExperience: 10 years\nSchool: Kansas\nJersey: #9"
+    },
+    {
+      "chunk_id": 459,
+      "frame_id": 459,
+      "text": "Player: Tyrese Haliburton\nPosition: G\nTeam: 1610612754\nHeight: 6-5\nWeight: 185\nExperience: 5 years\nSchool: Iowa State\nJersey: #0"
+    },
+    {
+      "chunk_id": 460,
+      "frame_id": 460,
+      "text": "Player: DeMar DeRozan\nPosition: G-F\nTeam: 1610612758\nHeight: 6-6\nWeight: 220\nExperience: 16 years\nSchool: Southern California\nJersey: #10"
+    },
+    {
+      "chunk_id": 461,
+      "frame_id": 461,
+      "text": "Player: Damian Lillard\nPosition: G\nTeam: 1610612757\nHeight: 6-2\nWeight: 200\nExperience: 13 years\nSchool: Weber State\nJersey: #0"
+    },
+    {
+      "chunk_id": 462,
+      "frame_id": 462,
+      "text": "Player: Dant\u00e9 Exum\nPosition: G\nTeam: 1610612742\nHeight: 6-5\nWeight: 214\nExperience: 9 years\nSchool: Australian Institute of Sport\nJersey: #0"
+    },
+    {
+      "chunk_id": 463,
+      "frame_id": 463,
+      "text": "Player: De'Aaron Fox\nPosition: G\nTeam: 1610612759\nHeight: 6-3\nWeight: 185\nExperience: 8 years\nSchool: Kentucky\nJersey: #4"
+    },
+    {
+      "chunk_id": 464,
+      "frame_id": 464,
+      "text": "Player: Trendon Watford\nPosition: G-F\nTeam: 1610612755\nHeight: 6-8\nWeight: 237\nExperience: 4 years\nSchool: Louisiana State\nJersey: #12"
+    },
+    {
+      "chunk_id": 465,
+      "frame_id": 465,
+      "text": "Player: Lindy Waters III\nPosition: F\nTeam: 1610612759\nHeight: 6-5\nWeight: 210\nExperience: 4 years\nSchool: Oklahoma State\nJersey: #43"
+    },
+    {
+      "chunk_id": 466,
+      "frame_id": 466,
+      "text": "Player: Keshad Johnson\nPosition: F\nTeam: 1610612748\nHeight: 6-6\nWeight: 225\nExperience: 1 years\nSchool: Arizona\nJersey: #16"
+    },
+    {
+      "chunk_id": 467,
+      "frame_id": 467,
+      "text": "Player: Svi Mykhailiuk\nPosition: G-F\nTeam: 1610612762\nHeight: 6-7\nWeight: 205\nExperience: 7 years\nSchool: Kansas\nJersey: #10"
+    },
+    {
+      "chunk_id": 468,
+      "frame_id": 468,
+      "text": "Player: Tim Hardaway Jr.\nPosition: G-F\nTeam: 1610612743\nHeight: 6-5\nWeight: 205\nExperience: 12 years\nSchool: Michigan\nJersey: #10"
+    },
+    {
+      "chunk_id": 469,
+      "frame_id": 469,
+      "text": "Player: Kevon Harris\nPosition: G\nTeam: 1610612745\nHeight: 6-5\nWeight: 216\nExperience: 2 years\nSchool: Stephen F. Austin\nJersey: #00"
+    },
+    {
+      "chunk_id": 470,
+      "frame_id": 470,
+      "text": "Player: John Collins\nPosition: F-C\nTeam: 1610612746\nHeight: 6-9\nWeight: 226\nExperience: 8 years\nSchool: Wake Forest\nJersey: #20"
+    },
+    {
+      "chunk_id": 471,
+      "frame_id": 471,
+      "text": "Player: Jordan Hawkins\nPosition: G\nTeam: 1610612740\nHeight: 6-5\nWeight: 190\nExperience: 2 years\nSchool: Connecticut\nJersey: #24"
+    },
+    {
+      "chunk_id": 472,
+      "frame_id": 472,
+      "text": "Player: Yanic Konan Niederh\u00e4user\nPosition: C\nTeam: 1610612746\nHeight: 6-11\nWeight: 242\nExperience: R years\nSchool: Penn State\nJersey: #14"
+    },
+    {
+      "chunk_id": 473,
+      "frame_id": 473,
+      "text": "Player: Tyus Jones\nPosition: G\nTeam: 1610612753\nHeight: 6-0\nWeight: 196\nExperience: 10 years\nSchool: Duke\nJersey: #2"
+    },
+    {
+      "chunk_id": 474,
+      "frame_id": 474,
+      "text": "Player: Jonas Valan\u010di\u016bnas\nPosition: C\nTeam: 1610612743\nHeight: 6-11\nWeight: 265\nExperience: 13 years\nSchool: Lietuvos rytas Vilnius\nJersey: #17"
+    },
+    {
+      "chunk_id": 475,
+      "frame_id": 475,
+      "text": "Player: D'Angelo Russell\nPosition: G\nTeam: 1610612742\nHeight: 6-3\nWeight: 193\nExperience: 10 years\nSchool: Ohio State\nJersey: #5"
+    },
+    {
+      "chunk_id": 476,
+      "frame_id": 476,
+      "text": "Player: Caris LeVert\nPosition: G\nTeam: 1610612765\nHeight: 6-7\nWeight: 205\nExperience: 9 years\nSchool: Michigan\nJersey: #8"
+    },
+    {
+      "chunk_id": 477,
+      "frame_id": 477,
+      "text": "Player: Caleb Martin\nPosition: F\nTeam: 1610612742\nHeight: 6-5\nWeight: 205\nExperience: 6 years\nSchool: Nevada\nJersey: #16"
+    },
+    {
+      "chunk_id": 478,
+      "frame_id": 478,
+      "text": "Player: Caleb Love\nPosition: G\nTeam: 1610612757\nHeight: 6-3\nWeight: 212\nExperience: R years\nSchool: Arizona\nJersey: #2"
+    },
+    {
+      "chunk_id": 479,
+      "frame_id": 479,
+      "text": "Player: Cameron Johnson\nPosition: F\nTeam: 1610612743\nHeight: 6-8\nWeight: 210\nExperience: 6 years\nSchool: North Carolina\nJersey: #23"
+    },
+    {
+      "chunk_id": 480,
+      "frame_id": 480,
+      "text": "Player: DaRon Holmes II\nPosition: F\nTeam: 1610612743\nHeight: 6-9\nWeight: 225\nExperience: R years\nSchool: Dayton\nJersey: #14"
+    },
+    {
+      "chunk_id": 481,
+      "frame_id": 481,
+      "text": "Player: Tyson Etienne\nPosition: G\nTeam: 1610612751\nHeight: 6-0\nWeight: 200\nExperience: 1 years\nSchool: Wichita State\nJersey: #10"
+    },
+    {
+      "chunk_id": 482,
+      "frame_id": 482,
+      "text": "Player: Johnny Juzang\nPosition: G\nTeam: 1610612750\nHeight: 6-7\nWeight: 226\nExperience: 3 years\nSchool: UCLA\nJersey: #9"
+    },
+    {
+      "chunk_id": 483,
+      "frame_id": 483,
+      "text": "Player: Jordan Goodwin\nPosition: G\nTeam: 1610612756\nHeight: 6-3\nWeight: 215\nExperience: 4 years\nSchool: St. Louis\nJersey: #23"
+    },
+    {
+      "chunk_id": 484,
+      "frame_id": 484,
+      "text": "Player: Yang Hansen\nPosition: C\nTeam: 1610612757\nHeight: 7-1\nWeight: 270\nExperience: R years\nSchool: None\nJersey: #16"
+    },
+    {
+      "chunk_id": 485,
+      "frame_id": 485,
+      "text": "Player: Joel Embiid\nPosition: C-F\nTeam: 1610612755\nHeight: 7-0\nWeight: 280\nExperience: 9 years\nSchool: Kansas\nJersey: #21"
+    },
+    {
+      "chunk_id": 486,
+      "frame_id": 486,
+      "text": "Player: Tidjane Sala\u00fcn\nPosition: F\nTeam: 1610612766\nHeight: 6-10\nWeight: 207\nExperience: 1 years\nSchool: Cholet\nJersey: #31"
+    },
+    {
+      "chunk_id": 487,
+      "frame_id": 487,
+      "text": "Player: Kevin Porter Jr.\nPosition: G-F\nTeam: 1610612749\nHeight: 6-5\nWeight: 203\nExperience: 5 years\nSchool: Southern California\nJersey: #7"
+    },
+    {
+      "chunk_id": 488,
+      "frame_id": 488,
+      "text": "Player: Keon Ellis\nPosition: G\nTeam: 1610612758\nHeight: 6-4\nWeight: 175\nExperience: 3 years\nSchool: Alabama\nJersey: #23"
+    },
+    {
+      "chunk_id": 489,
+      "frame_id": 489,
+      "text": "Player: Steven Adams\nPosition: C\nTeam: 1610612745\nHeight: 6-11\nWeight: 265\nExperience: 12 years\nSchool: Pittsburgh\nJersey: #12"
+    },
+    {
+      "chunk_id": 490,
+      "frame_id": 490,
+      "text": "Player: Liam McNeeley\nPosition: F\nTeam: 1610612766\nHeight: 6-7\nWeight: 210\nExperience: R years\nSchool: Connecticut\nJersey: #33"
+    },
+    {
+      "chunk_id": 491,
+      "frame_id": 491,
+      "text": "Player: Trentyn Flowers\nPosition: F\nTeam: 1610612741\nHeight: 6-9\nWeight: 185\nExperience: 1 years\nSchool: Adelaide\nJersey: #00"
+    },
+    {
+      "chunk_id": 492,
+      "frame_id": 492,
+      "text": "Player: Day'Ron Sharpe\nPosition: C\nTeam: 1610612751\nHeight: 6-10\nWeight: 265\nExperience: 4 years\nSchool: North Carolina\nJersey: #20"
+    },
+    {
+      "chunk_id": 493,
+      "frame_id": 493,
+      "text": "Player: Danny Wolf\nPosition: F\nTeam: 1610612751\nHeight: 6-11\nWeight: 250\nExperience: R years\nSchool: Michigan\nJersey: #2"
+    },
+    {
+      "chunk_id": 494,
+      "frame_id": 494,
+      "text": "Player: Doug McDermott\nPosition: F\nTeam: 1610612758\nHeight: 6-7\nWeight: 225\nExperience: 11 years\nSchool: Creighton\nJersey: #7"
+    },
+    {
+      "chunk_id": 495,
+      "frame_id": 495,
+      "text": "Player: David Jones Garcia\nPosition: F\nTeam: 1610612759\nHeight: 6-4\nWeight: 210\nExperience: R years\nSchool: Memphis\nJersey: #25"
+    },
+    {
+      "chunk_id": 496,
+      "frame_id": 496,
+      "text": "Player: Daniel Gafford\nPosition: F-C\nTeam: 1610612742\nHeight: 6-10\nWeight: 265\nExperience: 6 years\nSchool: Arkansas\nJersey: #21"
+    },
+    {
+      "chunk_id": 497,
+      "frame_id": 497,
+      "text": "Player: Sandro Mamukelashvili\nPosition: F-C\nTeam: 1610612761\nHeight: 6-9\nWeight: 240\nExperience: 4 years\nSchool: Seton Hall\nJersey: #54"
+    },
+    {
+      "chunk_id": 498,
+      "frame_id": 498,
+      "text": "Player: Kevon Looney\nPosition: F\nTeam: 1610612740\nHeight: 6-9\nWeight: 222\nExperience: 10 years\nSchool: UCLA\nJersey: #55"
+    },
+    {
+      "chunk_id": 499,
+      "frame_id": 499,
+      "text": "Player: Thomas Bryant\nPosition: C-F\nTeam: 1610612739\nHeight: 6-9\nWeight: 248\nExperience: 8 years\nSchool: Indiana\nJersey: #3"
+    },
+    {
+      "chunk_id": 500,
+      "frame_id": 500,
+      "text": "Player: Stephen Curry\nPosition: G\nTeam: 1610612744\nHeight: 6-2\nWeight: 185\nExperience: 16 years\nSchool: Davidson\nJersey: #30"
+    },
+    {
+      "chunk_id": 501,
+      "frame_id": 501,
+      "text": "Player: Kevin Durant\nPosition: F\nTeam: 1610612745\nHeight: 6-11\nWeight: 240\nExperience: 18 years\nSchool: Texas\nJersey: #7"
+    },
+    {
+      "chunk_id": 502,
+      "frame_id": 502,
+      "text": "Player: Keldon Johnson\nPosition: F-G\nTeam: 1610612759\nHeight: 6-6\nWeight: 220\nExperience: 6 years\nSchool: Kentucky\nJersey: #3"
+    },
+    {
+      "chunk_id": 503,
+      "frame_id": 503,
+      "text": "Player: Jonathan Isaac\nPosition: F\nTeam: 1610612753\nHeight: 6-10\nWeight: 230\nExperience: 8 years\nSchool: Florida State\nJersey: #1"
+    },
+    {
+      "chunk_id": 504,
+      "frame_id": 504,
+      "text": "Player: Tyrese Maxey\nPosition: G\nTeam: 1610612755\nHeight: 6-2\nWeight: 200\nExperience: 5 years\nSchool: Kentucky\nJersey: #0"
+    },
+    {
+      "chunk_id": 505,
+      "frame_id": 505,
+      "text": "Player: Will Riley\nPosition: F\nTeam: 1610612764\nHeight: 6-9\nWeight: 180\nExperience: R years\nSchool: Illinois-Urbana-Champaign\nJersey: #27"
+    },
+    {
+      "chunk_id": 506,
+      "frame_id": 506,
+      "text": "Player: Jordan McLaughlin\nPosition: G\nTeam: 1610612759\nHeight: 5-11\nWeight: 185\nExperience: 6 years\nSchool: Southern California\nJersey: #0"
+    },
+    {
+      "chunk_id": 507,
+      "frame_id": 507,
+      "text": "Player: Brooks Barnhizer\nPosition: G\nTeam: 1610612760\nHeight: 6-5\nWeight: 230\nExperience: R years\nSchool: Northwestern\nJersey: #23"
+    },
+    {
+      "chunk_id": 508,
+      "frame_id": 508,
+      "text": "Player: Cade Cunningham\nPosition: G\nTeam: 1610612765\nHeight: 6-6\nWeight: 220\nExperience: 4 years\nSchool: Oklahoma State\nJersey: #2"
+    },
+    {
+      "chunk_id": 509,
+      "frame_id": 509,
+      "text": "Player: Cam Thomas\nPosition: G\nTeam: 1610612751\nHeight: 6-3\nWeight: 210\nExperience: 4 years\nSchool: Louisiana State\nJersey: #24"
+    },
+    {
+      "chunk_id": 510,
+      "frame_id": 510,
+      "text": "Player: Cam Whitmore\nPosition: F\nTeam: 1610612764\nHeight: 6-6\nWeight: 230\nExperience: 2 years\nSchool: Villanova\nJersey: #1"
+    },
+    {
+      "chunk_id": 511,
+      "frame_id": 511,
+      "text": "Player: Caleb Houstan\nPosition: G\nTeam: 1610612737\nHeight: 6-8\nWeight: 205\nExperience: 3 years\nSchool: Michigan\nJersey: #33"
+    },
+    {
+      "chunk_id": 512,
+      "frame_id": 512,
+      "text": "Player: Bruce Brown\nPosition: G-F\nTeam: 1610612743\nHeight: 6-4\nWeight: 202\nExperience: 7 years\nSchool: Miami\nJersey: #11"
+    },
+    {
+      "chunk_id": 513,
+      "frame_id": 513,
+      "text": "Player: Xavier Tillman\nPosition: F\nTeam: 1610612738\nHeight: 6-8\nWeight: 245\nExperience: 5 years\nSchool: Michigan State\nJersey: #26"
+    },
+    {
+      "chunk_id": 514,
+      "frame_id": 514,
+      "text": "Player: Jordan Miller\nPosition: G\nTeam: 1610612746\nHeight: 6-5\nWeight: 194\nExperience: 2 years\nSchool: Miami\nJersey: #22"
+    },
+    {
+      "chunk_id": 515,
+      "frame_id": 515,
+      "text": "Player: Jonathan Kuminga\nPosition: F\nTeam: 1610612744\nHeight: 6-7\nWeight: 225\nExperience: 4 years\nSchool: NBA G League Ignite\nJersey: #1"
+    },
+    {
+      "chunk_id": 516,
+      "frame_id": 516,
+      "text": "Player: Tyrese Proctor\nPosition: G\nTeam: 1610612739\nHeight: 6-4\nWeight: 185\nExperience: R years\nSchool: Duke\nJersey: #24"
+    },
+    {
+      "chunk_id": 517,
+      "frame_id": 517,
+      "text": "Player: Kel'el Ware\nPosition: C\nTeam: 1610612748\nHeight: 7-0\nWeight: 230\nExperience: 1 years\nSchool: Indiana\nJersey: #7"
+    },
+    {
+      "chunk_id": 518,
+      "frame_id": 518,
+      "text": "Player: Stephon Castle\nPosition: G\nTeam: 1610612759\nHeight: 6-6\nWeight: 215\nExperience: 1 years\nSchool: Connecticut\nJersey: #5"
+    },
+    {
+      "chunk_id": 519,
+      "frame_id": 519,
+      "text": "Player: Kevin Huerter\nPosition: G-F\nTeam: 1610612741\nHeight: 6-6\nWeight: 198\nExperience: 7 years\nSchool: Maryland\nJersey: #13"
+    },
+    {
+      "chunk_id": 520,
+      "frame_id": 520,
+      "text": "Player: Keyonte George\nPosition: G\nTeam: 1610612762\nHeight: 6-4\nWeight: 185\nExperience: 2 years\nSchool: Baylor\nJersey: #3"
+    },
+    {
+      "chunk_id": 521,
+      "frame_id": 521,
+      "text": "Player: Thomas Sorber\nPosition: C\nTeam: 1610612760\nHeight: 6-9\nWeight: 250\nExperience: R years\nSchool: Georgetown\nJersey: #12"
+    },
+    {
+      "chunk_id": 522,
+      "frame_id": 522,
+      "text": "Player: Santi Aldama\nPosition: F-C\nTeam: 1610612763\nHeight: 7-0\nWeight: 215\nExperience: 4 years\nSchool: Loyola-Maryland\nJersey: #7"
+    },
+    {
+      "chunk_id": 523,
+      "frame_id": 523,
+      "text": "Player: Daniss Jenkins\nPosition: G\nTeam: 1610612765\nHeight: 6-4\nWeight: 165\nExperience: 1 years\nSchool: St. John's\nJersey: #24"
+    },
+    {
+      "chunk_id": 524,
+      "frame_id": 524,
+      "text": "Player: Davion Mitchell\nPosition: G\nTeam: 1610612748\nHeight: 6-0\nWeight: 202\nExperience: 4 years\nSchool: Baylor\nJersey: #45"
+    },
+    {
+      "chunk_id": 525,
+      "frame_id": 525,
+      "text": "Player: Drake Powell\nPosition: G-F\nTeam: 1610612751\nHeight: 6-5\nWeight: 195\nExperience: R years\nSchool: North Carolina\nJersey: #4"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}

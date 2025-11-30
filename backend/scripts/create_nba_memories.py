@@ -217,7 +217,7 @@ Defense: {row['spg']:.1f} SPG, {row['bpg']:.1f} BPG
     query = '''
     SELECT player_id, season, games_played, ppg, rpg, apg, spg, bpg, fg_pct, fg3_pct, ft_pct
     FROM season_averages
-    WHERE season LIKE '%2025-26%'
+    WHERE season = '22025'
     ORDER BY ppg DESC
     '''
 

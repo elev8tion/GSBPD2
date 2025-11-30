@@ -1,0 +1,1806 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "NBA Game on 2025-11-10\nMatchup: MIN @ UTA\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500205"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "NBA Game on 2025-11-12\nMatchup: LAL @ OKC\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500222"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "NBA Game on 2025-11-14\nMatchup: MIA @ NYK\nHome Team: Miami Heat\nAway Team: \nGame ID: 0022500039"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "NBA Game on 2025-10-09\nMatchup: NYK vs. MIN\nHome Team: New York Knicks\nAway Team: \nGame ID: 0012500039"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "NBA Game on 2025-10-12\nMatchup: DEN @ LAC\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0012500052"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "NBA Game on 2025-10-22\nMatchup: CHI vs. DET\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500084"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "NBA Game on 2025-10-17\nMatchup: TOR vs. BKN\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0012500065"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "NBA Game on 2025-10-27\nMatchup: PHX @ UTA\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500120"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "NBA Game on 2025-10-25\nMatchup: CHA @ PHI\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500102"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "NBA Game on 2025-11-17\nMatchup: TOR vs. CHA\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500245"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "NBA Game on 2025-11-16\nMatchup: SAS vs. SAC\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500234"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "NBA Game on 2025-11-23\nMatchup: OKC vs. POR\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500280"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "NBA Game on 2025-11-21\nMatchup: DEN @ HOU\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500054"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "NBA Game on 2025-11-19\nMatchup: MIN vs. WAS\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500259"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "NBA Game on 2025-11-19\nMatchup: NOP vs. DEN\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0022500260"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "NBA Game on 2025-11-21\nMatchup: IND @ CLE\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500048"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "NBA Game on 2025-11-23\nMatchup: LAC @ CLE\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500278"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "NBA Game on 2025-11-16\nMatchup: WAS vs. BKN\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500235"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "NBA Game on 2025-11-17\nMatchup: PHI vs. LAC\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0022500243"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "NBA Game on 2025-10-25\nMatchup: ATL vs. OKC\nHome Team: Atlanta Hawks\nAway Team: \nGame ID: 0022500101"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "NBA Game on 2025-10-27\nMatchup: DEN @ MIN\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500008"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "NBA Game on 2025-10-17\nMatchup: NYK vs. CHA\nHome Team: New York Knicks\nAway Team: \nGame ID: 0012500066"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "NBA Game on 2025-10-22\nMatchup: UTA vs. LAC\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500087"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "NBA Game on 2025-10-12\nMatchup: LAL vs. GSW\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0012500004"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "NBA Game on 2025-10-08\nMatchup: BOS @ MEM\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0012500038"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "NBA Game on 2025-11-14\nMatchup: CHA @ MIL\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500043"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "NBA Game on 2025-11-12\nMatchup: NOP vs. POR\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0022500219"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "NBA Game on 2025-11-10\nMatchup: ORL vs. POR\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500200"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "NBA Game on 2025-11-12\nMatchup: DEN @ LAC\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500224"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "NBA Game on 2025-11-10\nMatchup: DAL vs. MIL\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500203"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "NBA Game on 2025-10-12\nMatchup: MIA @ ORL\nHome Team: Miami Heat\nAway Team: \nGame ID: 0012500049"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "NBA Game on 2025-10-09\nMatchup: OKC vs. CHA\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0012500042"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "NBA Game on 2025-10-14\nMatchup: OKC @ MIL\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0012500058"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "NBA Game on 2025-10-17\nMatchup: IND @ SAS\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0012500068"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "NBA Game on 2025-10-22\nMatchup: DAL vs. SAS\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500004"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "NBA Game on 2025-10-26\nMatchup: DET vs. BOS\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500106"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "NBA Game on 2025-10-27\nMatchup: BOS @ NOP\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500117"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "NBA Game on 2025-10-24\nMatchup: MIN @ LAL\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500019"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "NBA Game on 2025-11-16\nMatchup: ORL @ HOU\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500236"
+    },
+    {
+      "chunk_id": 39,
+      "frame_id": 39,
+      "text": "NBA Game on 2025-11-18\nMatchup: BOS @ BKN\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500250"
+    },
+    {
+      "chunk_id": 40,
+      "frame_id": 40,
+      "text": "NBA Game on 2025-11-21\nMatchup: MIN @ PHX\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500053"
+    },
+    {
+      "chunk_id": 41,
+      "frame_id": 41,
+      "text": "NBA Game on 2025-11-23\nMatchup: PHX vs. SAS\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500281"
+    },
+    {
+      "chunk_id": 42,
+      "frame_id": 42,
+      "text": "NBA Game on 2025-11-23\nMatchup: UTA vs. LAL\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500282"
+    },
+    {
+      "chunk_id": 43,
+      "frame_id": 43,
+      "text": "NBA Game on 2025-11-21\nMatchup: MIA @ CHI\nHome Team: Miami Heat\nAway Team: \nGame ID: 0022500051"
+    },
+    {
+      "chunk_id": 44,
+      "frame_id": 44,
+      "text": "NBA Game on 2025-11-18\nMatchup: ORL vs. GSW\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500249"
+    },
+    {
+      "chunk_id": 45,
+      "frame_id": 45,
+      "text": "NBA Game on 2025-11-16\nMatchup: UTA vs. CHI\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500240"
+    },
+    {
+      "chunk_id": 46,
+      "frame_id": 46,
+      "text": "NBA Game on 2025-10-24\nMatchup: ORL vs. ATL\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500090"
+    },
+    {
+      "chunk_id": 47,
+      "frame_id": 47,
+      "text": "NBA Game on 2025-10-27\nMatchup: TOR @ SAS\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500118"
+    },
+    {
+      "chunk_id": 48,
+      "frame_id": 48,
+      "text": "NBA Game on 2025-10-26\nMatchup: DAL vs. TOR\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500111"
+    },
+    {
+      "chunk_id": 49,
+      "frame_id": 49,
+      "text": "NBA Game on 2025-10-22\nMatchup: MEM vs. NOP\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500085"
+    },
+    {
+      "chunk_id": 50,
+      "frame_id": 50,
+      "text": "NBA Game on 2025-10-16\nMatchup: DET vs. WAS\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0012500063"
+    },
+    {
+      "chunk_id": 51,
+      "frame_id": 51,
+      "text": "NBA Game on 2025-10-14\nMatchup: GSW @ POR\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0012500021"
+    },
+    {
+      "chunk_id": 52,
+      "frame_id": 52,
+      "text": "NBA Game on 2025-10-09\nMatchup: GUA @ LAC\nHome Team: Guangzhou Loong-Lions\nAway Team: \nGame ID: 0012500043"
+    },
+    {
+      "chunk_id": 53,
+      "frame_id": 53,
+      "text": "NBA Game on 2025-10-12\nMatchup: MIL @ CHI\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0012500051"
+    },
+    {
+      "chunk_id": 54,
+      "frame_id": 54,
+      "text": "NBA Game on 2025-11-10\nMatchup: LAC vs. ATL\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500206"
+    },
+    {
+      "chunk_id": 55,
+      "frame_id": 55,
+      "text": "NBA Game on 2025-11-12\nMatchup: MEM @ BOS\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500216"
+    },
+    {
+      "chunk_id": 56,
+      "frame_id": 56,
+      "text": "NBA Game on 2025-11-12\nMatchup: SAS vs. GSW\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500220"
+    },
+    {
+      "chunk_id": 57,
+      "frame_id": 57,
+      "text": "NBA Game on 2025-11-11\nMatchup: BOS @ PHI\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500209"
+    },
+    {
+      "chunk_id": 58,
+      "frame_id": 58,
+      "text": "NBA Game on 2025-10-12\nMatchup: WAS vs. TOR\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0012500048"
+    },
+    {
+      "chunk_id": 59,
+      "frame_id": 59,
+      "text": "NBA Game on 2025-10-11\nMatchup: MEM vs. ATL\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0012500018"
+    },
+    {
+      "chunk_id": 60,
+      "frame_id": 60,
+      "text": "NBA Game on 2025-10-10\nMatchup: SAC @ POR\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0012500017"
+    },
+    {
+      "chunk_id": 61,
+      "frame_id": 61,
+      "text": "NBA Game on 2025-10-17\nMatchup: GSW vs. LAC\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0012500069"
+    },
+    {
+      "chunk_id": 62,
+      "frame_id": 62,
+      "text": "NBA Game on 2025-10-21\nMatchup: LAL vs. GSW\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500002"
+    },
+    {
+      "chunk_id": 63,
+      "frame_id": 63,
+      "text": "NBA Game on 2025-10-22\nMatchup: PHX vs. SAC\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500088"
+    },
+    {
+      "chunk_id": 64,
+      "frame_id": 64,
+      "text": "NBA Game on 2025-10-26\nMatchup: SAC vs. LAL\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500113"
+    },
+    {
+      "chunk_id": 65,
+      "frame_id": 65,
+      "text": "NBA Game on 2025-10-27\nMatchup: DAL vs. OKC\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500119"
+    },
+    {
+      "chunk_id": 66,
+      "frame_id": 66,
+      "text": "NBA Game on 2025-11-16\nMatchup: BOS vs. LAC\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500233"
+    },
+    {
+      "chunk_id": 67,
+      "frame_id": 67,
+      "text": "NBA Game on 2025-11-17\nMatchup: DET vs. IND\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500242"
+    },
+    {
+      "chunk_id": 68,
+      "frame_id": 68,
+      "text": "NBA Game on 2025-11-22\nMatchup: MEM @ DAL\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500273"
+    },
+    {
+      "chunk_id": 69,
+      "frame_id": 69,
+      "text": "NBA Game on 2025-11-23\nMatchup: ORL @ BOS\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500277"
+    },
+    {
+      "chunk_id": 70,
+      "frame_id": 70,
+      "text": "NBA Game on 2025-11-22\nMatchup: NOP vs. ATL\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0022500270"
+    },
+    {
+      "chunk_id": 71,
+      "frame_id": 71,
+      "text": "NBA Game on 2025-11-22\nMatchup: LAC @ CHA\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500268"
+    },
+    {
+      "chunk_id": 72,
+      "frame_id": 72,
+      "text": "NBA Game on 2025-11-17\nMatchup: NYK @ MIA\nHome Team: New York Knicks\nAway Team: \nGame ID: 0022500244"
+    },
+    {
+      "chunk_id": 73,
+      "frame_id": 73,
+      "text": "NBA Game on 2025-11-16\nMatchup: POR @ DAL\nHome Team: Portland Trail Blazers\nAway Team: \nGame ID: 0022500238"
+    },
+    {
+      "chunk_id": 74,
+      "frame_id": 74,
+      "text": "NBA Game on 2025-10-27\nMatchup: DET vs. CLE\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500007"
+    },
+    {
+      "chunk_id": 75,
+      "frame_id": 75,
+      "text": "NBA Game on 2025-10-26\nMatchup: SAS vs. BKN\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500105"
+    },
+    {
+      "chunk_id": 76,
+      "frame_id": 76,
+      "text": "NBA Game on 2025-10-22\nMatchup: MIN @ POR\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500089"
+    },
+    {
+      "chunk_id": 77,
+      "frame_id": 77,
+      "text": "NBA Game on 2025-10-22\nMatchup: BKN @ CHA\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500080"
+    },
+    {
+      "chunk_id": 78,
+      "frame_id": 78,
+      "text": "NBA Game on 2025-10-17\nMatchup: SAC @ LAL\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0012500007"
+    },
+    {
+      "chunk_id": 79,
+      "frame_id": 79,
+      "text": "NBA Game on 2025-10-10\nMatchup: PHI vs. ORL\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0012500070"
+    },
+    {
+      "chunk_id": 80,
+      "frame_id": 80,
+      "text": "NBA Game on 2025-10-11\nMatchup: CHA @ DAL\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0012500047"
+    },
+    {
+      "chunk_id": 81,
+      "frame_id": 81,
+      "text": "NBA Game on 2025-10-12\nMatchup: BOS vs. CLE\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0012500050"
+    },
+    {
+      "chunk_id": 82,
+      "frame_id": 82,
+      "text": "NBA Game on 2025-11-10\nMatchup: WAS @ DET\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500199"
+    },
+    {
+      "chunk_id": 83,
+      "frame_id": 83,
+      "text": "NBA Game on 2025-11-11\nMatchup: OKC vs. GSW\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500210"
+    },
+    {
+      "chunk_id": 84,
+      "frame_id": 84,
+      "text": "NBA Game on 2025-11-12\nMatchup: ORL @ NYK\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500215"
+    },
+    {
+      "chunk_id": 85,
+      "frame_id": 85,
+      "text": "NBA Game on 2025-11-11\nMatchup: MEM @ NYK\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500208"
+    },
+    {
+      "chunk_id": 86,
+      "frame_id": 86,
+      "text": "NBA Game on 2025-11-12\nMatchup: CHA vs. MIL\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500213"
+    },
+    {
+      "chunk_id": 87,
+      "frame_id": 87,
+      "text": "NBA Game on 2025-10-09\nMatchup: CHI vs. CLE\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0012500040"
+    },
+    {
+      "chunk_id": 88,
+      "frame_id": 88,
+      "text": "NBA Game on 2025-10-10\nMatchup: SAS vs. UTA\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0012500045"
+    },
+    {
+      "chunk_id": 89,
+      "frame_id": 89,
+      "text": "NBA Game on 2025-10-22\nMatchup: ATL vs. TOR\nHome Team: Atlanta Hawks\nAway Team: \nGame ID: 0022500082"
+    },
+    {
+      "chunk_id": 90,
+      "frame_id": 90,
+      "text": "NBA Game on 2025-10-17\nMatchup: PHI vs. MIN\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0012500071"
+    },
+    {
+      "chunk_id": 91,
+      "frame_id": 91,
+      "text": "NBA Game on 2025-10-26\nMatchup: MIL @ CLE\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500107"
+    },
+    {
+      "chunk_id": 92,
+      "frame_id": 92,
+      "text": "NBA Game on 2025-10-26\nMatchup: CHA @ WAS\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500109"
+    },
+    {
+      "chunk_id": 93,
+      "frame_id": 93,
+      "text": "NBA Game on 2025-11-17\nMatchup: CHI @ DEN\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500248"
+    },
+    {
+      "chunk_id": 94,
+      "frame_id": 94,
+      "text": "NBA Game on 2025-11-16\nMatchup: ATL @ PHX\nHome Team: Atlanta Hawks\nAway Team: \nGame ID: 0022500239"
+    },
+    {
+      "chunk_id": 95,
+      "frame_id": 95,
+      "text": "NBA Game on 2025-11-18\nMatchup: ATL vs. DET\nHome Team: Atlanta Hawks\nAway Team: \nGame ID: 0022500251"
+    },
+    {
+      "chunk_id": 96,
+      "frame_id": 96,
+      "text": "NBA Game on 2025-11-23\nMatchup: MIA @ PHI\nHome Team: Miami Heat\nAway Team: \nGame ID: 0022500275"
+    },
+    {
+      "chunk_id": 97,
+      "frame_id": 97,
+      "text": "NBA Game on 2025-11-22\nMatchup: CHI vs. WAS\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500271"
+    },
+    {
+      "chunk_id": 98,
+      "frame_id": 98,
+      "text": "NBA Game on 2025-11-22\nMatchup: NYK @ ORL\nHome Team: New York Knicks\nAway Team: \nGame ID: 0022500269"
+    },
+    {
+      "chunk_id": 99,
+      "frame_id": 99,
+      "text": "NBA Game on 2025-11-23\nMatchup: TOR vs. BKN\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500279"
+    },
+    {
+      "chunk_id": 100,
+      "frame_id": 100,
+      "text": "NBA Game on 2025-11-18\nMatchup: PHX @ POR\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500254"
+    },
+    {
+      "chunk_id": 101,
+      "frame_id": 101,
+      "text": "NBA Game on 2025-11-16\nMatchup: GSW @ NOP\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0022500237"
+    },
+    {
+      "chunk_id": 102,
+      "frame_id": 102,
+      "text": "NBA Game on 2025-11-17\nMatchup: MIN vs. DAL\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500246"
+    },
+    {
+      "chunk_id": 103,
+      "frame_id": 103,
+      "text": "NBA Game on 2025-10-26\nMatchup: NYK @ MIA\nHome Team: New York Knicks\nAway Team: \nGame ID: 0022500108"
+    },
+    {
+      "chunk_id": 104,
+      "frame_id": 104,
+      "text": "NBA Game on 2025-10-27\nMatchup: PHI vs. ORL\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0022500114"
+    },
+    {
+      "chunk_id": 105,
+      "frame_id": 105,
+      "text": "NBA Game on 2025-10-17\nMatchup: OKC vs. DEN\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0012500067"
+    },
+    {
+      "chunk_id": 106,
+      "frame_id": 106,
+      "text": "NBA Game on 2025-10-22\nMatchup: BOS vs. PHI\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500083"
+    },
+    {
+      "chunk_id": 107,
+      "frame_id": 107,
+      "text": "NBA Game on 2025-10-11\nMatchup: OKC @ IND\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0012500046"
+    },
+    {
+      "chunk_id": 108,
+      "frame_id": 108,
+      "text": "NBA Game on 2025-10-09\nMatchup: DET @ MIL\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0012500041"
+    },
+    {
+      "chunk_id": 109,
+      "frame_id": 109,
+      "text": "NBA Game on 2025-11-12\nMatchup: CLE @ MIA\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500217"
+    },
+    {
+      "chunk_id": 110,
+      "frame_id": 110,
+      "text": "NBA Game on 2025-11-11\nMatchup: TOR @ BKN\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500207"
+    },
+    {
+      "chunk_id": 111,
+      "frame_id": 111,
+      "text": "NBA Game on 2025-11-12\nMatchup: DET vs. CHI\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500214"
+    },
+    {
+      "chunk_id": 112,
+      "frame_id": 112,
+      "text": "NBA Game on 2025-11-03\nMatchup: UTA @ BOS\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500158"
+    },
+    {
+      "chunk_id": 113,
+      "frame_id": 113,
+      "text": "NBA Game on 2025-11-04\nMatchup: ORL @ ATL\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500166"
+    },
+    {
+      "chunk_id": 114,
+      "frame_id": 114,
+      "text": "NBA Game on 2025-11-07\nMatchup: SAS vs. HOU\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500032"
+    },
+    {
+      "chunk_id": 115,
+      "frame_id": 115,
+      "text": "NBA Game on 2025-11-09\nMatchup: IND @ GSW\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500196"
+    },
+    {
+      "chunk_id": 116,
+      "frame_id": 116,
+      "text": "NBA Game on 2025-10-04\nMatchup: DEN vs. MIN\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0012500028"
+    },
+    {
+      "chunk_id": 117,
+      "frame_id": 117,
+      "text": "NBA Game on 2025-10-08\nMatchup: GSW vs. POR\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0012500015"
+    },
+    {
+      "chunk_id": 118,
+      "frame_id": 118,
+      "text": "NBA Game on 2025-10-29\nMatchup: HOU @ TOR\nHome Team: Houston Rockets\nAway Team: \nGame ID: 0022500131"
+    },
+    {
+      "chunk_id": 119,
+      "frame_id": 119,
+      "text": "NBA Game on 2025-10-28\nMatchup: OKC vs. SAC\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500126"
+    },
+    {
+      "chunk_id": 120,
+      "frame_id": 120,
+      "text": "NBA Game on 2025-10-31\nMatchup: BOS @ PHI\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500021"
+    },
+    {
+      "chunk_id": 121,
+      "frame_id": 121,
+      "text": "NBA Game on 2025-11-26\nMatchup: CHA vs. NYK\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500061"
+    },
+    {
+      "chunk_id": 122,
+      "frame_id": 122,
+      "text": "NBA Game on 2025-11-24\nMatchup: PHX vs. HOU\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500290"
+    },
+    {
+      "chunk_id": 123,
+      "frame_id": 123,
+      "text": "NBA Game on 2025-11-24\nMatchup: UTA @ GSW\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500291"
+    },
+    {
+      "chunk_id": 124,
+      "frame_id": 124,
+      "text": "NBA Game on 2025-11-26\nMatchup: SAC vs. PHX\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500068"
+    },
+    {
+      "chunk_id": 125,
+      "frame_id": 125,
+      "text": "NBA Game on 2025-11-01\nMatchup: MIL vs. SAC\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500142"
+    },
+    {
+      "chunk_id": 126,
+      "frame_id": 126,
+      "text": "NBA Game on 2025-10-28\nMatchup: LAC @ GSW\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500127"
+    },
+    {
+      "chunk_id": 127,
+      "frame_id": 127,
+      "text": "NBA Game on 2025-10-30\nMatchup: MIA @ SAS\nHome Team: Miami Heat\nAway Team: \nGame ID: 0022500141"
+    },
+    {
+      "chunk_id": 128,
+      "frame_id": 128,
+      "text": "NBA Game on 2025-10-08\nMatchup: SAC vs. TOR\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0012500016"
+    },
+    {
+      "chunk_id": 129,
+      "frame_id": 129,
+      "text": "NBA Game on 2025-10-04\nMatchup: MIA vs. ORL\nHome Team: Miami Heat\nAway Team: \nGame ID: 0012500027"
+    },
+    {
+      "chunk_id": 130,
+      "frame_id": 130,
+      "text": "NBA Game on 2025-11-09\nMatchup: OKC @ MEM\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500194"
+    },
+    {
+      "chunk_id": 131,
+      "frame_id": 131,
+      "text": "NBA Game on 2025-11-08\nMatchup: DEN vs. IND\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500189"
+    },
+    {
+      "chunk_id": 132,
+      "frame_id": 132,
+      "text": "NBA Game on 2025-11-04\nMatchup: MIL @ TOR\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500165"
+    },
+    {
+      "chunk_id": 133,
+      "frame_id": 133,
+      "text": "NBA Game on 2025-11-02\nMatchup: BKN vs. PHI\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500149"
+    },
+    {
+      "chunk_id": 134,
+      "frame_id": 134,
+      "text": "NBA Game on 2025-11-04\nMatchup: PHX @ GSW\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500169"
+    },
+    {
+      "chunk_id": 135,
+      "frame_id": 135,
+      "text": "NBA Game on 2025-11-02\nMatchup: CLE vs. ATL\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500151"
+    },
+    {
+      "chunk_id": 136,
+      "frame_id": 136,
+      "text": "NBA Game on 2025-11-10\nMatchup: CHA vs. LAL\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500198"
+    },
+    {
+      "chunk_id": 137,
+      "frame_id": 137,
+      "text": "NBA Game on 2025-11-08\nMatchup: LAL @ ATL\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500185"
+    },
+    {
+      "chunk_id": 138,
+      "frame_id": 138,
+      "text": "NBA Game on 2025-11-06\nMatchup: LAC @ PHX\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500182"
+    },
+    {
+      "chunk_id": 139,
+      "frame_id": 139,
+      "text": "NBA Game on 2025-10-07\nMatchup: CHI @ CLE\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0012500035"
+    },
+    {
+      "chunk_id": 140,
+      "frame_id": 140,
+      "text": "NBA Game on 2025-10-04\nMatchup: NYK @ PHI\nHome Team: New York Knicks\nAway Team: \nGame ID: 0012500010"
+    },
+    {
+      "chunk_id": 141,
+      "frame_id": 141,
+      "text": "NBA Game on 2025-10-27\nMatchup: LAL vs. POR\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500122"
+    },
+    {
+      "chunk_id": 142,
+      "frame_id": 142,
+      "text": "NBA Game on 2025-10-29\nMatchup: NOP @ DEN\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0022500134"
+    },
+    {
+      "chunk_id": 143,
+      "frame_id": 143,
+      "text": "NBA Game on 2025-11-24\nMatchup: BKN vs. NYK\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500285"
+    },
+    {
+      "chunk_id": 144,
+      "frame_id": 144,
+      "text": "NBA Game on 2025-11-26\nMatchup: DET @ BOS\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500060"
+    },
+    {
+      "chunk_id": 145,
+      "frame_id": 145,
+      "text": "NBA Game on 2025-11-28\nMatchup: IND vs. WAS\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500073"
+    },
+    {
+      "chunk_id": 146,
+      "frame_id": 146,
+      "text": "NBA Game on 2025-11-28\nMatchup: CHI @ CHA\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500071"
+    },
+    {
+      "chunk_id": 147,
+      "frame_id": 147,
+      "text": "NBA Game on 2025-11-26\nMatchup: IND @ TOR\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500063"
+    },
+    {
+      "chunk_id": 148,
+      "frame_id": 148,
+      "text": "NBA Game on 2025-11-24\nMatchup: DAL @ MIA\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500286"
+    },
+    {
+      "chunk_id": 149,
+      "frame_id": 149,
+      "text": "NBA Game on 2025-10-29\nMatchup: CLE @ BOS\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500128"
+    },
+    {
+      "chunk_id": 150,
+      "frame_id": 150,
+      "text": "NBA Game on 2025-10-27\nMatchup: ATL @ CHI\nHome Team: Atlanta Hawks\nAway Team: \nGame ID: 0022500115"
+    },
+    {
+      "chunk_id": 151,
+      "frame_id": 151,
+      "text": "NBA Game on 2025-10-03\nMatchup: MEL @ NOP\nHome Team: Melbourne United\nAway Team: \nGame ID: 0012500009"
+    },
+    {
+      "chunk_id": 152,
+      "frame_id": 152,
+      "text": "NBA Game on 2025-10-07\nMatchup: MIN vs. IND\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0012500036"
+    },
+    {
+      "chunk_id": 153,
+      "frame_id": 153,
+      "text": "NBA Game on 2025-11-05\nMatchup: DAL vs. NOP\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500177"
+    },
+    {
+      "chunk_id": 154,
+      "frame_id": 154,
+      "text": "NBA Game on 2025-11-08\nMatchup: DAL @ WAS\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500183"
+    },
+    {
+      "chunk_id": 155,
+      "frame_id": 155,
+      "text": "NBA Game on 2025-11-10\nMatchup: PHX vs. NOP\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500204"
+    },
+    {
+      "chunk_id": 156,
+      "frame_id": 156,
+      "text": "NBA Game on 2025-11-02\nMatchup: NYK vs. CHI\nHome Team: New York Knicks\nAway Team: \nGame ID: 0022500153"
+    },
+    {
+      "chunk_id": 157,
+      "frame_id": 157,
+      "text": "NBA Game on 2025-11-04\nMatchup: CHA @ NOP\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500168"
+    },
+    {
+      "chunk_id": 158,
+      "frame_id": 158,
+      "text": "NBA Game on 2025-11-03\nMatchup: LAC vs. MIA\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500164"
+    },
+    {
+      "chunk_id": 159,
+      "frame_id": 159,
+      "text": "NBA Game on 2025-11-03\nMatchup: MIL @ IND\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500157"
+    },
+    {
+      "chunk_id": 160,
+      "frame_id": 160,
+      "text": "NBA Game on 2025-11-05\nMatchup: UTA @ DET\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500172"
+    },
+    {
+      "chunk_id": 161,
+      "frame_id": 161,
+      "text": "NBA Game on 2025-11-09\nMatchup: DET @ PHI\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500195"
+    },
+    {
+      "chunk_id": 162,
+      "frame_id": 162,
+      "text": "NBA Game on 2025-11-08\nMatchup: LAC vs. PHX\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500190"
+    },
+    {
+      "chunk_id": 163,
+      "frame_id": 163,
+      "text": "NBA Game on 2025-10-06\nMatchup: MIL @ MIA\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0012500002"
+    },
+    {
+      "chunk_id": 164,
+      "frame_id": 164,
+      "text": "NBA Game on 2025-10-04\nMatchup: NOP vs. SEM\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0012500011"
+    },
+    {
+      "chunk_id": 165,
+      "frame_id": 165,
+      "text": "NBA Game on 2025-10-28\nMatchup: CHA @ MIA\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500124"
+    },
+    {
+      "chunk_id": 166,
+      "frame_id": 166,
+      "text": "NBA Game on 2025-10-29\nMatchup: PHX vs. MEM\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500137"
+    },
+    {
+      "chunk_id": 167,
+      "frame_id": 167,
+      "text": "NBA Game on 2025-11-26\nMatchup: POR vs. SAS\nHome Team: Portland Trail Blazers\nAway Team: \nGame ID: 0022500067"
+    },
+    {
+      "chunk_id": 168,
+      "frame_id": 168,
+      "text": "NBA Game on 2025-11-24\nMatchup: CHI @ NOP\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500289"
+    },
+    {
+      "chunk_id": 169,
+      "frame_id": 169,
+      "text": "NBA Game on 2025-11-26\nMatchup: MEM @ NOP\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500065"
+    },
+    {
+      "chunk_id": 170,
+      "frame_id": 170,
+      "text": "NBA Game on 2025-11-26\nMatchup: GSW vs. HOU\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0022500066"
+    },
+    {
+      "chunk_id": 171,
+      "frame_id": 171,
+      "text": "NBA Game on 2025-11-24\nMatchup: TOR vs. CLE\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500284"
+    },
+    {
+      "chunk_id": 172,
+      "frame_id": 172,
+      "text": "NBA Game on 2025-11-26\nMatchup: MIA vs. MIL\nHome Team: Miami Heat\nAway Team: \nGame ID: 0022500062"
+    },
+    {
+      "chunk_id": 173,
+      "frame_id": 173,
+      "text": "NBA Game on 2025-10-29\nMatchup: LAL @ MIN\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500136"
+    },
+    {
+      "chunk_id": 174,
+      "frame_id": 174,
+      "text": "NBA Game on 2025-10-28\nMatchup: PHI @ WAS\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0022500123"
+    },
+    {
+      "chunk_id": 175,
+      "frame_id": 175,
+      "text": "NBA Game on 2025-10-04\nMatchup: BKN vs. HAP\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0012500026"
+    },
+    {
+      "chunk_id": 176,
+      "frame_id": 176,
+      "text": "NBA Game on 2025-10-06\nMatchup: DEN @ TOR\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0012500034"
+    },
+    {
+      "chunk_id": 177,
+      "frame_id": 177,
+      "text": "NBA Game on 2025-11-08\nMatchup: CLE vs. CHI\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500186"
+    },
+    {
+      "chunk_id": 178,
+      "frame_id": 178,
+      "text": "NBA Game on 2025-11-09\nMatchup: NYK vs. BKN\nHome Team: New York Knicks\nAway Team: \nGame ID: 0022500192"
+    },
+    {
+      "chunk_id": 179,
+      "frame_id": 179,
+      "text": "NBA Game on 2025-11-05\nMatchup: SAC vs. GSW\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500181"
+    },
+    {
+      "chunk_id": 180,
+      "frame_id": 180,
+      "text": "NBA Game on 2025-11-03\nMatchup: DEN vs. SAC\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500162"
+    },
+    {
+      "chunk_id": 181,
+      "frame_id": 181,
+      "text": "NBA Game on 2025-11-03\nMatchup: MIN @ BKN\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500156"
+    },
+    {
+      "chunk_id": 182,
+      "frame_id": 182,
+      "text": "NBA Game on 2025-11-03\nMatchup: HOU vs. DAL\nHome Team: Houston Rockets\nAway Team: \nGame ID: 0022500160"
+    },
+    {
+      "chunk_id": 183,
+      "frame_id": 183,
+      "text": "NBA Game on 2025-11-04\nMatchup: OKC @ LAC\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500170"
+    },
+    {
+      "chunk_id": 184,
+      "frame_id": 184,
+      "text": "NBA Game on 2025-11-08\nMatchup: MIA vs. POR\nHome Team: Miami Heat\nAway Team: \nGame ID: 0022500187"
+    },
+    {
+      "chunk_id": 185,
+      "frame_id": 185,
+      "text": "NBA Game on 2025-11-09\nMatchup: BOS @ ORL\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500193"
+    },
+    {
+      "chunk_id": 186,
+      "frame_id": 186,
+      "text": "NBA Game on 2025-10-05\nMatchup: OKC @ CHA\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0012500029"
+    },
+    {
+      "chunk_id": 187,
+      "frame_id": 187,
+      "text": "NBA Game on 2025-10-06\nMatchup: SAS vs. GUA\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0012500032"
+    },
+    {
+      "chunk_id": 188,
+      "frame_id": 188,
+      "text": "NBA Game on 2025-10-30\nMatchup: OKC vs. WAS\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500140"
+    },
+    {
+      "chunk_id": 189,
+      "frame_id": 189,
+      "text": "NBA Game on 2025-10-29\nMatchup: BKN vs. ATL\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500130"
+    },
+    {
+      "chunk_id": 190,
+      "frame_id": 190,
+      "text": "NBA Game on 2025-10-29\nMatchup: IND @ DAL\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500133"
+    },
+    {
+      "chunk_id": 191,
+      "frame_id": 191,
+      "text": "NBA Game on 2025-11-25\nMatchup: WAS vs. ATL\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500057"
+    },
+    {
+      "chunk_id": 192,
+      "frame_id": 192,
+      "text": "NBA Game on 2025-11-24\nMatchup: MIN @ SAC\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500292"
+    },
+    {
+      "chunk_id": 193,
+      "frame_id": 193,
+      "text": "NBA Game on 2025-11-24\nMatchup: MEM vs. DEN\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500287"
+    },
+    {
+      "chunk_id": 194,
+      "frame_id": 194,
+      "text": "NBA Game on 2025-11-25\nMatchup: ORL @ PHI\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500058"
+    },
+    {
+      "chunk_id": 195,
+      "frame_id": 195,
+      "text": "NBA Game on 2025-10-28\nMatchup: MIL vs. NYK\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500125"
+    },
+    {
+      "chunk_id": 196,
+      "frame_id": 196,
+      "text": "NBA Game on 2025-10-29\nMatchup: ORL @ DET\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500129"
+    },
+    {
+      "chunk_id": 197,
+      "frame_id": 197,
+      "text": "NBA Game on 2025-10-30\nMatchup: CHA vs. ORL\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500138"
+    },
+    {
+      "chunk_id": 198,
+      "frame_id": 198,
+      "text": "NBA Game on 2025-10-06\nMatchup: DET @ MEM\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0012500031"
+    },
+    {
+      "chunk_id": 199,
+      "frame_id": 199,
+      "text": "NBA Game on 2025-10-05\nMatchup: LAL @ GSW\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0012500030"
+    },
+    {
+      "chunk_id": 200,
+      "frame_id": 200,
+      "text": "NBA Game on 2025-11-09\nMatchup: MIL vs. HOU\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500191"
+    },
+    {
+      "chunk_id": 201,
+      "frame_id": 201,
+      "text": "NBA Game on 2025-11-08\nMatchup: SAS vs. NOP\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500188"
+    },
+    {
+      "chunk_id": 202,
+      "frame_id": 202,
+      "text": "NBA Game on 2025-11-04\nMatchup: PHI @ CHI\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0022500167"
+    },
+    {
+      "chunk_id": 203,
+      "frame_id": 203,
+      "text": "NBA Game on 2025-11-03\nMatchup: LAL @ POR\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500163"
+    },
+    {
+      "chunk_id": 204,
+      "frame_id": 204,
+      "text": "NBA Game on 2025-11-03\nMatchup: NYK vs. WAS\nHome Team: New York Knicks\nAway Team: \nGame ID: 0022500159"
+    },
+    {
+      "chunk_id": 205,
+      "frame_id": 205,
+      "text": "NBA Game on 2025-11-05\nMatchup: MEM vs. HOU\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500176"
+    },
+    {
+      "chunk_id": 206,
+      "frame_id": 206,
+      "text": "NBA Game on 2025-11-07\nMatchup: UTA @ MIN\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500036"
+    },
+    {
+      "chunk_id": 207,
+      "frame_id": 207,
+      "text": "NBA Game on 2025-10-06\nMatchup: HOU vs. ATL\nHome Team: Houston Rockets\nAway Team: \nGame ID: 0012500014"
+    },
+    {
+      "chunk_id": 208,
+      "frame_id": 208,
+      "text": "NBA Game on 2025-11-02\nMatchup: PHX vs. SAS\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500154"
+    },
+    {
+      "chunk_id": 209,
+      "frame_id": 209,
+      "text": "NBA Game on 2025-10-31\nMatchup: PHX vs. UTA\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500025"
+    },
+    {
+      "chunk_id": 210,
+      "frame_id": 210,
+      "text": "NBA Game on 2025-10-29\nMatchup: CHI vs. SAC\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500132"
+    },
+    {
+      "chunk_id": 211,
+      "frame_id": 211,
+      "text": "NBA Game on 2025-11-29\nMatchup: IND vs. CHI\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500295"
+    },
+    {
+      "chunk_id": 212,
+      "frame_id": 212,
+      "text": "NBA Game on 2025-11-28\nMatchup: OKC vs. PHX\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500075"
+    },
+    {
+      "chunk_id": 213,
+      "frame_id": 213,
+      "text": "NBA Game on 2025-11-26\nMatchup: OKC vs. MIN\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500064"
+    },
+    {
+      "chunk_id": 214,
+      "frame_id": 214,
+      "text": "NBA Game on 2025-11-29\nMatchup: DET @ MIA\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500296"
+    },
+    {
+      "chunk_id": 215,
+      "frame_id": 215,
+      "text": "NBA Game on 2025-10-29\nMatchup: UTA vs. POR\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500135"
+    },
+    {
+      "chunk_id": 216,
+      "frame_id": 216,
+      "text": "NBA Game on 2025-10-31\nMatchup: NOP @ LAC\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0022500027"
+    },
+    {
+      "chunk_id": 217,
+      "frame_id": 217,
+      "text": "NBA Game on 2025-11-02\nMatchup: LAL vs. MIA\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500155"
+    },
+    {
+      "chunk_id": 218,
+      "frame_id": 218,
+      "text": "NBA Game on 2025-10-06\nMatchup: OKC @ DAL\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0012500033"
+    },
+    {
+      "chunk_id": 219,
+      "frame_id": 219,
+      "text": "NBA Game on 2025-11-07\nMatchup: DAL @ MEM\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500034"
+    },
+    {
+      "chunk_id": 220,
+      "frame_id": 220,
+      "text": "NBA Game on 2025-11-05\nMatchup: BKN @ IND\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500173"
+    },
+    {
+      "chunk_id": 221,
+      "frame_id": 221,
+      "text": "NBA Game on 2025-11-03\nMatchup: MEM vs. DET\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500161"
+    },
+    {
+      "chunk_id": 222,
+      "frame_id": 222,
+      "text": "NBA Game on 2025-11-07\nMatchup: MIL vs. CHI\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500035"
+    },
+    {
+      "chunk_id": 223,
+      "frame_id": 223,
+      "text": "NBA Game on 2025-11-05\nMatchup: DEN vs. MIA\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500178"
+    },
+    {
+      "chunk_id": 224,
+      "frame_id": 224,
+      "text": "NBA Game on 2025-11-08\nMatchup: TOR @ PHI\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500184"
+    },
+    {
+      "chunk_id": 225,
+      "frame_id": 225,
+      "text": "NBA Game on 2025-10-30\nMatchup: MIL vs. GSW\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500139"
+    },
+    {
+      "chunk_id": 226,
+      "frame_id": 226,
+      "text": "NBA Game on 2025-11-01\nMatchup: DAL @ DET\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500147"
+    },
+    {
+      "chunk_id": 227,
+      "frame_id": 227,
+      "text": "NBA Game on 2025-11-28\nMatchup: ATL vs. CLE\nHome Team: Atlanta Hawks\nAway Team: \nGame ID: 0022500069"
+    },
+    {
+      "chunk_id": 228,
+      "frame_id": 228,
+      "text": "NBA Game on 2025-11-29\nMatchup: TOR @ CHA\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500294"
+    },
+    {
+      "chunk_id": 229,
+      "frame_id": 229,
+      "text": "NBA Game on 2025-11-24\nMatchup: DET @ IND\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500283"
+    },
+    {
+      "chunk_id": 230,
+      "frame_id": 230,
+      "text": "NBA Game on 2025-11-25\nMatchup: LAC @ LAL\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500059"
+    },
+    {
+      "chunk_id": 231,
+      "frame_id": 231,
+      "text": "NBA Game on 2025-11-29\nMatchup: MIN vs. BOS\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500293"
+    },
+    {
+      "chunk_id": 232,
+      "frame_id": 232,
+      "text": "NBA Game on 2025-11-28\nMatchup: MIL @ NYK\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500074"
+    },
+    {
+      "chunk_id": 233,
+      "frame_id": 233,
+      "text": "NBA Game on 2025-11-02\nMatchup: NOP @ OKC\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0022500148"
+    },
+    {
+      "chunk_id": 234,
+      "frame_id": 234,
+      "text": "NBA Game on 2025-10-31\nMatchup: DEN @ POR\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500026"
+    },
+    {
+      "chunk_id": 235,
+      "frame_id": 235,
+      "text": "NBA Game on 2025-11-09\nMatchup: MIN @ SAC\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500197"
+    },
+    {
+      "chunk_id": 236,
+      "frame_id": 236,
+      "text": "NBA Game on 2025-11-05\nMatchup: WAS @ BOS\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500174"
+    },
+    {
+      "chunk_id": 237,
+      "frame_id": 237,
+      "text": "NBA Game on 2025-11-07\nMatchup: BKN vs. DET\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500031"
+    },
+    {
+      "chunk_id": 238,
+      "frame_id": 238,
+      "text": "NBA Game on 2025-11-07\nMatchup: GSW @ DEN\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0022500037"
+    },
+    {
+      "chunk_id": 239,
+      "frame_id": 239,
+      "text": "NBA Game on 2025-11-07\nMatchup: OKC @ SAC\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500038"
+    },
+    {
+      "chunk_id": 240,
+      "frame_id": 240,
+      "text": "NBA Game on 2025-11-05\nMatchup: NYK vs. MIN\nHome Team: New York Knicks\nAway Team: \nGame ID: 0022500175"
+    },
+    {
+      "chunk_id": 241,
+      "frame_id": 241,
+      "text": "NBA Game on 2025-10-31\nMatchup: IND vs. ATL\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500020"
+    },
+    {
+      "chunk_id": 242,
+      "frame_id": 242,
+      "text": "NBA Game on 2025-11-01\nMatchup: MIN @ CHA\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500143"
+    },
+    {
+      "chunk_id": 243,
+      "frame_id": 243,
+      "text": "NBA Game on 2025-11-24\nMatchup: MIL vs. POR\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500288"
+    },
+    {
+      "chunk_id": 244,
+      "frame_id": 244,
+      "text": "NBA Game on 2025-11-28\nMatchup: SAC @ UTA\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500077"
+    },
+    {
+      "chunk_id": 245,
+      "frame_id": 245,
+      "text": "NBA Game on 2025-11-29\nMatchup: MIL vs. BKN\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500297"
+    },
+    {
+      "chunk_id": 246,
+      "frame_id": 246,
+      "text": "NBA Game on 2025-11-29\nMatchup: GSW vs. NOP\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0022500298"
+    },
+    {
+      "chunk_id": 247,
+      "frame_id": 247,
+      "text": "NBA Game on 2025-11-28\nMatchup: MEM @ LAC\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500079"
+    },
+    {
+      "chunk_id": 248,
+      "frame_id": 248,
+      "text": "NBA Game on 2025-11-23\nMatchup: CHA @ ATL\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500276"
+    },
+    {
+      "chunk_id": 249,
+      "frame_id": 249,
+      "text": "NBA Game on 2025-11-01\nMatchup: WAS vs. ORL\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500145"
+    },
+    {
+      "chunk_id": 250,
+      "frame_id": 250,
+      "text": "NBA Game on 2025-10-31\nMatchup: CLE vs. TOR\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500022"
+    },
+    {
+      "chunk_id": 251,
+      "frame_id": 251,
+      "text": "NBA Game on 2025-11-05\nMatchup: SAS @ LAL\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500179"
+    },
+    {
+      "chunk_id": 252,
+      "frame_id": 252,
+      "text": "NBA Game on 2025-11-07\nMatchup: ORL vs. BOS\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500028"
+    },
+    {
+      "chunk_id": 253,
+      "frame_id": 253,
+      "text": "NBA Game on 2025-11-07\nMatchup: CHA @ MIA\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500033"
+    },
+    {
+      "chunk_id": 254,
+      "frame_id": 254,
+      "text": "NBA Game on 2025-11-02\nMatchup: CHA vs. UTA\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500150"
+    },
+    {
+      "chunk_id": 255,
+      "frame_id": 255,
+      "text": "NBA Game on 2025-11-05\nMatchup: POR vs. OKC\nHome Team: Portland Trail Blazers\nAway Team: \nGame ID: 0022500180"
+    },
+    {
+      "chunk_id": 256,
+      "frame_id": 256,
+      "text": "NBA Game on 2025-11-07\nMatchup: TOR @ ATL\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500030"
+    },
+    {
+      "chunk_id": 257,
+      "frame_id": 257,
+      "text": "NBA Game on 2025-10-02\nMatchup: PHI @ NYK\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0012500008"
+    },
+    {
+      "chunk_id": 258,
+      "frame_id": 258,
+      "text": "NBA Game on 2025-10-27\nMatchup: BKN @ HOU\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500116"
+    },
+    {
+      "chunk_id": 259,
+      "frame_id": 259,
+      "text": "NBA Game on 2025-11-01\nMatchup: IND vs. GSW\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500144"
+    },
+    {
+      "chunk_id": 260,
+      "frame_id": 260,
+      "text": "NBA Game on 2025-10-31\nMatchup: NYK @ CHI\nHome Team: New York Knicks\nAway Team: \nGame ID: 0022500023"
+    },
+    {
+      "chunk_id": 261,
+      "frame_id": 261,
+      "text": "NBA Game on 2025-11-28\nMatchup: ORL @ DET\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500072"
+    },
+    {
+      "chunk_id": 262,
+      "frame_id": 262,
+      "text": "NBA Game on 2025-11-28\nMatchup: SAS @ DEN\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500076"
+    },
+    {
+      "chunk_id": 263,
+      "frame_id": 263,
+      "text": "NBA Game on 2025-11-28\nMatchup: LAL vs. DAL\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500078"
+    },
+    {
+      "chunk_id": 264,
+      "frame_id": 264,
+      "text": "NBA Game on 2025-11-28\nMatchup: BKN vs. PHI\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500070"
+    },
+    {
+      "chunk_id": 265,
+      "frame_id": 265,
+      "text": "NBA Game on 2025-10-31\nMatchup: MEM vs. LAL\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500024"
+    },
+    {
+      "chunk_id": 266,
+      "frame_id": 266,
+      "text": "NBA Game on 2025-11-01\nMatchup: BOS vs. HOU\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500146"
+    },
+    {
+      "chunk_id": 267,
+      "frame_id": 267,
+      "text": "NBA Game on 2025-10-27\nMatchup: GSW vs. MEM\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0022500121"
+    },
+    {
+      "chunk_id": 268,
+      "frame_id": 268,
+      "text": "NBA Game on 2025-10-03\nMatchup: LAL vs. PHX\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0012500001"
+    },
+    {
+      "chunk_id": 269,
+      "frame_id": 269,
+      "text": "NBA Game on 2025-11-07\nMatchup: CLE @ WAS\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500029"
+    },
+    {
+      "chunk_id": 270,
+      "frame_id": 270,
+      "text": "NBA Game on 2025-11-05\nMatchup: PHI @ CLE\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0022500171"
+    },
+    {
+      "chunk_id": 271,
+      "frame_id": 271,
+      "text": "NBA Game on 2025-11-02\nMatchup: MEM @ TOR\nHome Team: Memphis Grizzlies\nAway Team: \nGame ID: 0022500152"
+    },
+    {
+      "chunk_id": 272,
+      "frame_id": 272,
+      "text": "NBA Game on 2025-11-12\nMatchup: WAS @ HOU\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500218"
+    },
+    {
+      "chunk_id": 273,
+      "frame_id": 273,
+      "text": "NBA Game on 2025-11-15\nMatchup: MIN vs. DEN\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500232"
+    },
+    {
+      "chunk_id": 274,
+      "frame_id": 274,
+      "text": "NBA Game on 2025-11-11\nMatchup: IND @ UTA\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500211"
+    },
+    {
+      "chunk_id": 275,
+      "frame_id": 275,
+      "text": "NBA Game on 2025-10-12\nMatchup: BKN @ PHX\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0012500013"
+    },
+    {
+      "chunk_id": 276,
+      "frame_id": 276,
+      "text": "NBA Game on 2025-10-15\nMatchup: DAL @ LAL\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0012500005"
+    },
+    {
+      "chunk_id": 277,
+      "frame_id": 277,
+      "text": "NBA Game on 2025-10-21\nMatchup: OKC vs. HOU\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500001"
+    },
+    {
+      "chunk_id": 278,
+      "frame_id": 278,
+      "text": "NBA Game on 2025-10-24\nMatchup: POR vs. GSW\nHome Team: Portland Trail Blazers\nAway Team: \nGame ID: 0022500097"
+    },
+    {
+      "chunk_id": 279,
+      "frame_id": 279,
+      "text": "NBA Game on 2025-10-22\nMatchup: WAS @ MIL\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500086"
+    },
+    {
+      "chunk_id": 280,
+      "frame_id": 280,
+      "text": "NBA Game on 2025-11-21\nMatchup: POR @ GSW\nHome Team: Portland Trail Blazers\nAway Team: \nGame ID: 0022500056"
+    },
+    {
+      "chunk_id": 281,
+      "frame_id": 281,
+      "text": "NBA Game on 2025-11-19\nMatchup: GSW @ MIA\nHome Team: Golden State Warriors\nAway Team: \nGame ID: 0022500257"
+    },
+    {
+      "chunk_id": 282,
+      "frame_id": 282,
+      "text": "NBA Game on 2025-11-22\nMatchup: DET @ MIL\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500272"
+    },
+    {
+      "chunk_id": 283,
+      "frame_id": 283,
+      "text": "NBA Game on 2025-11-22\nMatchup: DEN vs. SAC\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500274"
+    },
+    {
+      "chunk_id": 284,
+      "frame_id": 284,
+      "text": "NBA Game on 2025-11-19\nMatchup: HOU @ CLE\nHome Team: Houston Rockets\nAway Team: \nGame ID: 0022500255"
+    },
+    {
+      "chunk_id": 285,
+      "frame_id": 285,
+      "text": "NBA Game on 2025-11-21\nMatchup: OKC @ UTA\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500055"
+    },
+    {
+      "chunk_id": 286,
+      "frame_id": 286,
+      "text": "NBA Game on 2025-10-22\nMatchup: CLE @ NYK\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500003"
+    },
+    {
+      "chunk_id": 287,
+      "frame_id": 287,
+      "text": "NBA Game on 2025-10-24\nMatchup: TOR vs. MIL\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500092"
+    },
+    {
+      "chunk_id": 288,
+      "frame_id": 288,
+      "text": "NBA Game on 2025-10-17\nMatchup: MIA vs. MEM\nHome Team: Miami Heat\nAway Team: \nGame ID: 0012500006"
+    },
+    {
+      "chunk_id": 289,
+      "frame_id": 289,
+      "text": "NBA Game on 2025-10-15\nMatchup: BOS vs. TOR\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0012500062"
+    },
+    {
+      "chunk_id": 290,
+      "frame_id": 290,
+      "text": "NBA Game on 2025-10-13\nMatchup: SAS @ IND\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0012500053"
+    },
+    {
+      "chunk_id": 291,
+      "frame_id": 291,
+      "text": "NBA Game on 2025-11-11\nMatchup: SAC vs. DEN\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500212"
+    },
+    {
+      "chunk_id": 292,
+      "frame_id": 292,
+      "text": "NBA Game on 2025-11-15\nMatchup: TOR @ IND\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500230"
+    },
+    {
+      "chunk_id": 293,
+      "frame_id": 293,
+      "text": "NBA Game on 2025-11-13\nMatchup: PHX vs. IND\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500226"
+    },
+    {
+      "chunk_id": 294,
+      "frame_id": 294,
+      "text": "NBA Game on 2025-11-15\nMatchup: CHA vs. OKC\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0022500229"
+    },
+    {
+      "chunk_id": 295,
+      "frame_id": 295,
+      "text": "NBA Game on 2025-11-12\nMatchup: DAL vs. PHX\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500221"
+    },
+    {
+      "chunk_id": 296,
+      "frame_id": 296,
+      "text": "NBA Game on 2025-10-16\nMatchup: MIN @ CHI\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0012500064"
+    },
+    {
+      "chunk_id": 297,
+      "frame_id": 297,
+      "text": "NBA Game on 2025-10-13\nMatchup: UTA vs. DAL\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0012500056"
+    },
+    {
+      "chunk_id": 298,
+      "frame_id": 298,
+      "text": "NBA Game on 2025-10-10\nMatchup: PHX @ BKN\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0012500012"
+    },
+    {
+      "chunk_id": 299,
+      "frame_id": 299,
+      "text": "NBA Game on 2025-10-23\nMatchup: DEN @ GSW\nHome Team: Denver Nuggets\nAway Team: \nGame ID: 0022500006"
+    },
+    {
+      "chunk_id": 300,
+      "frame_id": 300,
+      "text": "NBA Game on 2025-10-25\nMatchup: CHI @ ORL\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500100"
+    },
+    {
+      "chunk_id": 301,
+      "frame_id": 301,
+      "text": "NBA Game on 2025-10-26\nMatchup: MIN vs. IND\nHome Team: Minnesota Timberwolves\nAway Team: \nGame ID: 0022500110"
+    },
+    {
+      "chunk_id": 302,
+      "frame_id": 302,
+      "text": "NBA Game on 2025-11-17\nMatchup: MIL @ CLE\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500241"
+    },
+    {
+      "chunk_id": 303,
+      "frame_id": 303,
+      "text": "NBA Game on 2025-11-18\nMatchup: LAL vs. UTA\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500253"
+    },
+    {
+      "chunk_id": 304,
+      "frame_id": 304,
+      "text": "NBA Game on 2025-11-21\nMatchup: DAL vs. NOP\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500052"
+    },
+    {
+      "chunk_id": 305,
+      "frame_id": 305,
+      "text": "NBA Game on 2025-11-20\nMatchup: SAS vs. ATL\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500267"
+    },
+    {
+      "chunk_id": 306,
+      "frame_id": 306,
+      "text": "NBA Game on 2025-11-18\nMatchup: SAS vs. MEM\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500252"
+    },
+    {
+      "chunk_id": 307,
+      "frame_id": 307,
+      "text": "NBA Game on 2025-11-17\nMatchup: OKC @ NOP\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500247"
+    },
+    {
+      "chunk_id": 308,
+      "frame_id": 308,
+      "text": "NBA Game on 2025-10-26\nMatchup: LAC vs. POR\nHome Team: LA Clippers\nAway Team: \nGame ID: 0022500112"
+    },
+    {
+      "chunk_id": 309,
+      "frame_id": 309,
+      "text": "NBA Game on 2025-10-24\nMatchup: NOP vs. SAS\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0022500095"
+    },
+    {
+      "chunk_id": 310,
+      "frame_id": 310,
+      "text": "NBA Game on 2025-10-22\nMatchup: ORL vs. MIA\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500081"
+    },
+    {
+      "chunk_id": 311,
+      "frame_id": 311,
+      "text": "NBA Game on 2025-10-10\nMatchup: TOR vs. BOS\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0012500044"
+    },
+    {
+      "chunk_id": 312,
+      "frame_id": 312,
+      "text": "NBA Game on 2025-10-13\nMatchup: WAS @ NYK\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0012500054"
+    },
+    {
+      "chunk_id": 313,
+      "frame_id": 313,
+      "text": "NBA Game on 2025-10-16\nMatchup: NOP @ ORL\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0012500023"
+    },
+    {
+      "chunk_id": 314,
+      "frame_id": 314,
+      "text": "NBA Game on 2025-11-12\nMatchup: SAC vs. ATL\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500223"
+    },
+    {
+      "chunk_id": 315,
+      "frame_id": 315,
+      "text": "NBA Game on 2025-11-14\nMatchup: DAL vs. LAC\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500046"
+    },
+    {
+      "chunk_id": 316,
+      "frame_id": 316,
+      "text": "NBA Game on 2025-11-14\nMatchup: POR @ HOU\nHome Team: Portland Trail Blazers\nAway Team: \nGame ID: 0022500042"
+    },
+    {
+      "chunk_id": 317,
+      "frame_id": 317,
+      "text": "NBA Game on 2025-11-13\nMatchup: TOR @ CLE\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500225"
+    },
+    {
+      "chunk_id": 318,
+      "frame_id": 318,
+      "text": "NBA Game on 2025-10-08\nMatchup: SAS @ MIA\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0012500003"
+    },
+    {
+      "chunk_id": 319,
+      "frame_id": 319,
+      "text": "NBA Game on 2025-10-15\nMatchup: CHA vs. MEM\nHome Team: Charlotte Hornets\nAway Team: \nGame ID: 0012500061"
+    },
+    {
+      "chunk_id": 320,
+      "frame_id": 320,
+      "text": "NBA Game on 2025-10-14\nMatchup: NOP vs. HOU\nHome Team: New Orleans Pelicans\nAway Team: \nGame ID: 0012500020"
+    },
+    {
+      "chunk_id": 321,
+      "frame_id": 321,
+      "text": "NBA Game on 2025-10-25\nMatchup: IND @ MEM\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500103"
+    },
+    {
+      "chunk_id": 322,
+      "frame_id": 322,
+      "text": "NBA Game on 2025-10-24\nMatchup: MIA @ MEM\nHome Team: Miami Heat\nAway Team: \nGame ID: 0022500094"
+    },
+    {
+      "chunk_id": 323,
+      "frame_id": 323,
+      "text": "NBA Game on 2025-10-24\nMatchup: WAS @ DAL\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500096"
+    },
+    {
+      "chunk_id": 324,
+      "frame_id": 324,
+      "text": "NBA Game on 2025-11-15\nMatchup: MIL vs. LAL\nHome Team: Milwaukee Bucks\nAway Team: \nGame ID: 0022500231"
+    },
+    {
+      "chunk_id": 325,
+      "frame_id": 325,
+      "text": "NBA Game on 2025-11-19\nMatchup: DAL vs. NYK\nHome Team: Dallas Mavericks\nAway Team: \nGame ID: 0022500262"
+    },
+    {
+      "chunk_id": 326,
+      "frame_id": 326,
+      "text": "NBA Game on 2025-11-19\nMatchup: TOR @ PHI\nHome Team: Toronto Raptors\nAway Team: \nGame ID: 0022500258"
+    },
+    {
+      "chunk_id": 327,
+      "frame_id": 327,
+      "text": "NBA Game on 2025-11-20\nMatchup: PHI @ MIL\nHome Team: Philadelphia 76ers\nAway Team: \nGame ID: 0022500266"
+    },
+    {
+      "chunk_id": 328,
+      "frame_id": 328,
+      "text": "NBA Game on 2025-11-19\nMatchup: OKC vs. SAC\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500261"
+    },
+    {
+      "chunk_id": 329,
+      "frame_id": 329,
+      "text": "NBA Game on 2025-11-15\nMatchup: CLE vs. MEM\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500228"
+    },
+    {
+      "chunk_id": 330,
+      "frame_id": 330,
+      "text": "NBA Game on 2025-10-24\nMatchup: SAC vs. UTA\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500098"
+    },
+    {
+      "chunk_id": 331,
+      "frame_id": 331,
+      "text": "NBA Game on 2025-10-24\nMatchup: DET @ HOU\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500093"
+    },
+    {
+      "chunk_id": 332,
+      "frame_id": 332,
+      "text": "NBA Game on 2025-10-25\nMatchup: PHX @ DEN\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500104"
+    },
+    {
+      "chunk_id": 333,
+      "frame_id": 333,
+      "text": "NBA Game on 2025-10-14\nMatchup: DET @ CLE\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0012500057"
+    },
+    {
+      "chunk_id": 334,
+      "frame_id": 334,
+      "text": "NBA Game on 2025-10-15\nMatchup: SAC vs. LAC\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0012500022"
+    },
+    {
+      "chunk_id": 335,
+      "frame_id": 335,
+      "text": "NBA Game on 2025-10-08\nMatchup: HOU vs. UTA\nHome Team: Houston Rockets\nAway Team: \nGame ID: 0012500037"
+    },
+    {
+      "chunk_id": 336,
+      "frame_id": 336,
+      "text": "NBA Game on 2025-11-13\nMatchup: UTA vs. ATL\nHome Team: Utah Jazz\nAway Team: \nGame ID: 0022500227"
+    },
+    {
+      "chunk_id": 337,
+      "frame_id": 337,
+      "text": "NBA Game on 2025-11-14\nMatchup: SAS vs. GSW\nHome Team: San Antonio Spurs\nAway Team: \nGame ID: 0022500047"
+    },
+    {
+      "chunk_id": 338,
+      "frame_id": 338,
+      "text": "NBA Game on 2025-11-10\nMatchup: CHI vs. SAS\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500202"
+    },
+    {
+      "chunk_id": 339,
+      "frame_id": 339,
+      "text": "NBA Game on 2025-11-14\nMatchup: BKN @ ORL\nHome Team: Brooklyn Nets\nAway Team: \nGame ID: 0022500040"
+    },
+    {
+      "chunk_id": 340,
+      "frame_id": 340,
+      "text": "NBA Game on 2025-11-14\nMatchup: DET vs. PHI\nHome Team: Detroit Pistons\nAway Team: \nGame ID: 0022500041"
+    },
+    {
+      "chunk_id": 341,
+      "frame_id": 341,
+      "text": "NBA Game on 2025-10-13\nMatchup: ATL vs. MIA\nHome Team: Atlanta Hawks\nAway Team: \nGame ID: 0012500019"
+    },
+    {
+      "chunk_id": 342,
+      "frame_id": 342,
+      "text": "NBA Game on 2025-10-14\nMatchup: CHI @ DEN\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0012500059"
+    },
+    {
+      "chunk_id": 343,
+      "frame_id": 343,
+      "text": "NBA Game on 2025-10-16\nMatchup: ATL vs. HOU\nHome Team: Atlanta Hawks\nAway Team: \nGame ID: 0012500024"
+    },
+    {
+      "chunk_id": 344,
+      "frame_id": 344,
+      "text": "NBA Game on 2025-10-24\nMatchup: BOS @ NYK\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500018"
+    },
+    {
+      "chunk_id": 345,
+      "frame_id": 345,
+      "text": "NBA Game on 2025-10-24\nMatchup: PHX @ LAC\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0022500099"
+    },
+    {
+      "chunk_id": 346,
+      "frame_id": 346,
+      "text": "NBA Game on 2025-11-21\nMatchup: WAS @ TOR\nHome Team: Washington Wizards\nAway Team: \nGame ID: 0022500050"
+    },
+    {
+      "chunk_id": 347,
+      "frame_id": 347,
+      "text": "NBA Game on 2025-11-20\nMatchup: ORL vs. LAC\nHome Team: Orlando Magic\nAway Team: \nGame ID: 0022500264"
+    },
+    {
+      "chunk_id": 348,
+      "frame_id": 348,
+      "text": "NBA Game on 2025-11-19\nMatchup: CHI @ POR\nHome Team: Chicago Bulls\nAway Team: \nGame ID: 0022500263"
+    },
+    {
+      "chunk_id": 349,
+      "frame_id": 349,
+      "text": "NBA Game on 2025-11-19\nMatchup: IND vs. CHA\nHome Team: Indiana Pacers\nAway Team: \nGame ID: 0022500256"
+    },
+    {
+      "chunk_id": 350,
+      "frame_id": 350,
+      "text": "NBA Game on 2025-11-20\nMatchup: SAC @ MEM\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500265"
+    },
+    {
+      "chunk_id": 351,
+      "frame_id": 351,
+      "text": "NBA Game on 2025-11-21\nMatchup: BOS vs. BKN\nHome Team: Boston Celtics\nAway Team: \nGame ID: 0022500049"
+    },
+    {
+      "chunk_id": 352,
+      "frame_id": 352,
+      "text": "NBA Game on 2025-10-23\nMatchup: OKC @ IND\nHome Team: Oklahoma City Thunder\nAway Team: \nGame ID: 0022500005"
+    },
+    {
+      "chunk_id": 353,
+      "frame_id": 353,
+      "text": "NBA Game on 2025-10-24\nMatchup: CLE @ BKN\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500091"
+    },
+    {
+      "chunk_id": 354,
+      "frame_id": 354,
+      "text": "NBA Game on 2025-10-16\nMatchup: POR @ UTA\nHome Team: Portland Trail Blazers\nAway Team: \nGame ID: 0012500025"
+    },
+    {
+      "chunk_id": 355,
+      "frame_id": 355,
+      "text": "NBA Game on 2025-10-14\nMatchup: PHX vs. LAL\nHome Team: Phoenix Suns\nAway Team: \nGame ID: 0012500060"
+    },
+    {
+      "chunk_id": 356,
+      "frame_id": 356,
+      "text": "NBA Game on 2025-10-13\nMatchup: GUA @ MIN\nHome Team: Guangzhou Loong-Lions\nAway Team: \nGame ID: 0012500055"
+    },
+    {
+      "chunk_id": 357,
+      "frame_id": 357,
+      "text": "NBA Game on 2025-11-14\nMatchup: LAL @ NOP\nHome Team: Los Angeles Lakers\nAway Team: \nGame ID: 0022500045"
+    },
+    {
+      "chunk_id": 358,
+      "frame_id": 358,
+      "text": "NBA Game on 2025-11-14\nMatchup: SAC @ MIN\nHome Team: Sacramento Kings\nAway Team: \nGame ID: 0022500044"
+    },
+    {
+      "chunk_id": 359,
+      "frame_id": 359,
+      "text": "NBA Game on 2025-11-10\nMatchup: CLE @ MIA\nHome Team: Cleveland Cavaliers\nAway Team: \nGame ID: 0022500201"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}

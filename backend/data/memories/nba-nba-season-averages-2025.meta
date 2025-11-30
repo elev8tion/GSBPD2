@@ -1,0 +1,2381 @@
+{
+  "metadata": [
+    {
+      "chunk_id": 0,
+      "frame_id": 0,
+      "text": "Player Season Stats\nPlayer ID: 1630200\nSeason: 22025\nGames: 15\nAverages: 12.5 PPG, 3.5 RPG, 5.2 APG\nShooting: 47.7% FG, 23.3% 3PT, 75.3% FT\nDefense: 1.9 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 1,
+      "frame_id": 1,
+      "text": "Player Season Stats\nPlayer ID: 202331\nSeason: 22025\nGames: 4\nAverages: 13.5 PPG, 4.2 RPG, 3.2 APG\nShooting: 42.6% FG, 30.5% 3PT, 53.0% FT\nDefense: 1.2 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 2,
+      "frame_id": 2,
+      "text": "Player Season Stats\nPlayer ID: 201566\nSeason: 22025\nGames: 20\nAverages: 14.1 PPG, 7.2 RPG, 6.8 APG\nShooting: 43.2% FG, 37.4% 3PT, 45.8% FT\nDefense: 1.2 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 3,
+      "frame_id": 3,
+      "text": "Player Season Stats\nPlayer ID: 1630548\nSeason: 22025\nGames: 7\nAverages: 1.3 PPG, 0.4 RPG, 0.1 APG\nShooting: 26.2% FG, 21.4% 3PT, 7.1% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 4,
+      "frame_id": 4,
+      "text": "Player Season Stats\nPlayer ID: 1642914\nSeason: 22025\nGames: 8\nAverages: 4.2 PPG, 1.0 RPG, 2.8 APG\nShooting: 27.5% FG, 26.0% 3PT, 31.2% FT\nDefense: 0.0 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 5,
+      "frame_id": 5,
+      "text": "Player Season Stats\nPlayer ID: 1629020\nSeason: 22025\nGames: 14\nAverages: 4.6 PPG, 5.6 RPG, 1.5 APG\nShooting: 38.1% FG, 14.3% 3PT, 48.2% FT\nDefense: 1.0 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 6,
+      "frame_id": 6,
+      "text": "Player Season Stats\nPlayer ID: 203486\nSeason: 22025\nGames: 8\nAverages: 1.5 PPG, 2.4 RPG, 1.1 APG\nShooting: 37.5% FG, 0.0% 3PT, 14.6% FT\nDefense: 0.2 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 7,
+      "frame_id": 7,
+      "text": "Player Season Stats\nPlayer ID: 1642347\nSeason: 22025\nGames: 19\nAverages: 6.1 PPG, 1.6 RPG, 5.5 APG\nShooting: 43.2% FG, 40.0% 3PT, 51.2% FT\nDefense: 0.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 8,
+      "frame_id": 8,
+      "text": "Player Season Stats\nPlayer ID: 1627936\nSeason: 22025\nGames: 15\nAverages: 5.7 PPG, 2.4 RPG, 2.5 APG\nShooting: 39.2% FG, 34.8% 3PT, 26.7% FT\nDefense: 1.6 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 9,
+      "frame_id": 9,
+      "text": "Player Season Stats\nPlayer ID: 1631169\nSeason: 22025\nGames: 18\nAverages: 7.6 PPG, 5.0 RPG, 1.3 APG\nShooting: 48.4% FG, 38.4% 3PT, 41.7% FT\nDefense: 0.9 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 10,
+      "frame_id": 10,
+      "text": "Player Season Stats\nPlayer ID: 1630573\nSeason: 22025\nGames: 19\nAverages: 6.9 PPG, 3.4 RPG, 1.5 APG\nShooting: 30.0% FG, 29.9% 3PT, 7.9% FT\nDefense: 0.5 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 11,
+      "frame_id": 11,
+      "text": "Player Season Stats\nPlayer ID: 1627826\nSeason: 22025\nGames: 19\nAverages: 16.2 PPG, 11.5 RPG, 2.6 APG\nShooting: 59.1% FG, 0.0% 3PT, 52.7% FT\nDefense: 0.5 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 12,
+      "frame_id": 12,
+      "text": "Player Season Stats\nPlayer ID: 1630170\nSeason: 22025\nGames: 18\nAverages: 15.6 PPG, 3.7 RPG, 2.4 APG\nShooting: 43.1% FG, 37.1% 3PT, 58.3% FT\nDefense: 1.1 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 13,
+      "frame_id": 13,
+      "text": "Player Season Stats\nPlayer ID: 203897\nSeason: 22025\nGames: 18\nAverages: 20.8 PPG, 3.2 RPG, 2.4 APG\nShooting: 47.9% FG, 36.3% 3PT, 70.0% FT\nDefense: 0.7 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 14,
+      "frame_id": 14,
+      "text": "Player Season Stats\nPlayer ID: 1642259\nSeason: 22025\nGames: 16\nAverages: 19.1 PPG, 8.6 RPG, 3.2 APG\nShooting: 51.0% FG, 28.2% 3PT, 54.8% FT\nDefense: 0.8 SPG, 2.0 BPG"
+    },
+    {
+      "chunk_id": 15,
+      "frame_id": 15,
+      "text": "Player Season Stats\nPlayer ID: 203468\nSeason: 22025\nGames: 18\nAverages: 17.8 PPG, 3.2 RPG, 3.3 APG\nShooting: 40.2% FG, 37.8% 3PT, 64.1% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 16,
+      "frame_id": 16,
+      "text": "Player Season Stats\nPlayer ID: 1629027\nSeason: 22025\nGames: 5\nAverages: 17.8 PPG, 2.0 RPG, 7.8 APG\nShooting: 39.6% FG, 21.5% 3PT, 79.1% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 17,
+      "frame_id": 17,
+      "text": "Player Season Stats\nPlayer ID: 1641706\nSeason: 22025\nGames: 5\nAverages: 19.0 PPG, 2.0 RPG, 3.0 APG\nShooting: 42.8% FG, 26.4% 3PT, 67.3% FT\nDefense: 0.8 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 18,
+      "frame_id": 18,
+      "text": "Player Season Stats\nPlayer ID: 1630581\nSeason: 22025\nGames: 16\nAverages: 20.8 PPG, 9.9 RPG, 9.4 APG\nShooting: 46.3% FG, 38.6% 3PT, 78.2% FT\nDefense: 1.0 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 19,
+      "frame_id": 19,
+      "text": "Player Season Stats\nPlayer ID: 1642845\nSeason: 22025\nGames: 15\nAverages: 15.6 PPG, 6.0 RPG, 4.2 APG\nShooting: 39.8% FG, 37.0% 3PT, 66.4% FT\nDefense: 1.3 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 20,
+      "frame_id": 20,
+      "text": "Player Season Stats\nPlayer ID: 1628969\nSeason: 22025\nGames: 18\nAverages: 16.2 PPG, 4.6 RPG, 4.4 APG\nShooting: 53.3% FG, 40.5% 3PT, 47.8% FT\nDefense: 2.1 SPG, 1.2 BPG"
+    },
+    {
+      "chunk_id": 21,
+      "frame_id": 21,
+      "text": "Player Season Stats\nPlayer ID: 1641772\nSeason: 22025\nGames: 11\nAverages: 6.9 PPG, 2.6 RPG, 0.5 APG\nShooting: 45.5% FG, 18.2% 3PT, 34.8% FT\nDefense: 0.7 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 22,
+      "frame_id": 22,
+      "text": "Player Season Stats\nPlayer ID: 203994\nSeason: 22025\nGames: 18\nAverages: 7.6 PPG, 9.7 RPG, 3.8 APG\nShooting: 45.2% FG, 14.8% 3PT, 46.8% FT\nDefense: 1.7 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 23,
+      "frame_id": 23,
+      "text": "Player Season Stats\nPlayer ID: 201144\nSeason: 22025\nGames: 19\nAverages: 5.8 PPG, 1.8 RPG, 3.4 APG\nShooting: 43.3% FG, 44.2% 3PT, 40.9% FT\nDefense: 0.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 24,
+      "frame_id": 24,
+      "text": "Player Season Stats\nPlayer ID: 1627752\nSeason: 22025\nGames: 8\nAverages: 6.1 PPG, 1.6 RPG, 1.0 APG\nShooting: 45.4% FG, 45.8% 3PT, 12.5% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 25,
+      "frame_id": 25,
+      "text": "Player Season Stats\nPlayer ID: 1642877\nSeason: 22025\nGames: 15\nAverages: 4.5 PPG, 2.5 RPG, 1.1 APG\nShooting: 31.7% FG, 7.8% 3PT, 16.7% FT\nDefense: 0.5 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 26,
+      "frame_id": 26,
+      "text": "Player Season Stats\nPlayer ID: 1630256\nSeason: 22025\nGames: 9\nAverages: 1.4 PPG, 0.9 RPG, 0.1 APG\nShooting: 35.2% FG, 11.1% 3PT, 0.0% FT\nDefense: 0.1 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 27,
+      "frame_id": 27,
+      "text": "Player Season Stats\nPlayer ID: 1641809\nSeason: 22025\nGames: 4\nAverages: 1.2 PPG, 1.8 RPG, 0.5 APG\nShooting: 8.3% FG, 0.0% 3PT, 12.5% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 28,
+      "frame_id": 28,
+      "text": "Player Season Stats\nPlayer ID: 1641707\nSeason: 22025\nGames: 11\nAverages: 4.0 PPG, 3.7 RPG, 0.5 APG\nShooting: 32.3% FG, 21.2% 3PT, 25.0% FT\nDefense: 0.5 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 29,
+      "frame_id": 29,
+      "text": "Player Season Stats\nPlayer ID: 202699\nSeason: 22025\nGames: 10\nAverages: 14.1 PPG, 5.1 RPG, 2.7 APG\nShooting: 45.9% FG, 32.7% 3PT, 81.3% FT\nDefense: 0.6 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 30,
+      "frame_id": 30,
+      "text": "Player Season Stats\nPlayer ID: 1629014\nSeason: 22025\nGames: 19\nAverages: 13.4 PPG, 2.3 RPG, 2.6 APG\nShooting: 42.2% FG, 42.4% 3PT, 56.7% FT\nDefense: 0.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 31,
+      "frame_id": 31,
+      "text": "Player Season Stats\nPlayer ID: 1628989\nSeason: 22025\nGames: 17\nAverages: 12.5 PPG, 3.5 RPG, 2.6 APG\nShooting: 47.0% FG, 26.8% 3PT, 57.8% FT\nDefense: 0.8 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 32,
+      "frame_id": 32,
+      "text": "Player Season Stats\nPlayer ID: 1630198\nSeason: 22025\nGames: 15\nAverages: 13.0 PPG, 2.7 RPG, 1.5 APG\nShooting: 44.0% FG, 38.3% 3PT, 60.0% FT\nDefense: 0.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 33,
+      "frame_id": 33,
+      "text": "Player Season Stats\nPlayer ID: 1630180\nSeason: 22025\nGames: 18\nAverages: 12.4 PPG, 5.6 RPG, 2.2 APG\nShooting: 39.3% FG, 32.7% 3PT, 44.1% FT\nDefense: 1.0 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 34,
+      "frame_id": 34,
+      "text": "Player Season Stats\nPlayer ID: 1628997\nSeason: 22025\nGames: 17\nAverages: 1.4 PPG, 1.4 RPG, 0.9 APG\nShooting: 15.2% FG, 2.9% 3PT, 20.6% FT\nDefense: 0.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 35,
+      "frame_id": 35,
+      "text": "Player Season Stats\nPlayer ID: 1642345\nSeason: 22025\nGames: 20\nAverages: 4.7 PPG, 3.4 RPG, 1.6 APG\nShooting: 47.0% FG, 0.0% 3PT, 19.7% FT\nDefense: 0.7 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 36,
+      "frame_id": 36,
+      "text": "Player Season Stats\nPlayer ID: 1626192\nSeason: 22025\nGames: 12\nAverages: 4.2 PPG, 1.9 RPG, 0.6 APG\nShooting: 37.8% FG, 24.4% 3PT, 18.8% FT\nDefense: 0.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 37,
+      "frame_id": 37,
+      "text": "Player Season Stats\nPlayer ID: 203648\nSeason: 22025\nGames: 6\nAverages: 1.2 PPG, 0.3 RPG, 0.0 APG\nShooting: 33.3% FG, 0.0% 3PT, 33.3% FT\nDefense: 0.3 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 38,
+      "frame_id": 38,
+      "text": "Player Season Stats\nPlayer ID: 1642383\nSeason: 22025\nGames: 14\nAverages: 5.0 PPG, 2.0 RPG, 3.1 APG\nShooting: 35.9% FG, 26.7% 3PT, 50.0% FT\nDefense: 0.5 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 39,
+      "frame_id": 39,
+      "text": "Player Season Stats\nPlayer ID: 1630702\nSeason: 22025\nGames: 17\nAverages: 5.6 PPG, 1.2 RPG, 0.4 APG\nShooting: 31.2% FG, 35.5% 3PT, 33.1% FT\nDefense: 0.2 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 40,
+      "frame_id": 40,
+      "text": "Player Season Stats\nPlayer ID: 1631119\nSeason: 22025\nGames: 19\nAverages: 6.1 PPG, 4.5 RPG, 2.4 APG\nShooting: 34.1% FG, 28.8% 3PT, 29.8% FT\nDefense: 0.6 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 41,
+      "frame_id": 41,
+      "text": "Player Season Stats\nPlayer ID: 1642272\nSeason: 22025\nGames: 9\nAverages: 7.0 PPG, 1.3 RPG, 1.1 APG\nShooting: 22.4% FG, 23.2% 3PT, 27.8% FT\nDefense: 0.8 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 42,
+      "frame_id": 42,
+      "text": "Player Season Stats\nPlayer ID: 1628963\nSeason: 22025\nGames: 14\nAverages: 7.6 PPG, 4.4 RPG, 1.4 APG\nShooting: 60.4% FG, 17.9% 3PT, 58.3% FT\nDefense: 0.6 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 43,
+      "frame_id": 43,
+      "text": "Player Season Stats\nPlayer ID: 1641767\nSeason: 22025\nGames: 19\nAverages: 6.5 PPG, 4.3 RPG, 2.0 APG\nShooting: 30.4% FG, 23.7% 3PT, 27.6% FT\nDefense: 0.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 44,
+      "frame_id": 44,
+      "text": "Player Season Stats\nPlayer ID: 1630183\nSeason: 22025\nGames: 18\nAverages: 15.7 PPG, 4.8 RPG, 2.4 APG\nShooting: 52.6% FG, 50.1% 3PT, 63.2% FT\nDefense: 1.2 SPG, 1.1 BPG"
+    },
+    {
+      "chunk_id": 45,
+      "frame_id": 45,
+      "text": "Player Season Stats\nPlayer ID: 1629656\nSeason: 22025\nGames: 18\nAverages: 16.4 PPG, 3.4 RPG, 4.3 APG\nShooting: 43.7% FG, 34.9% 3PT, 85.3% FT\nDefense: 0.9 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 46,
+      "frame_id": 46,
+      "text": "Player Season Stats\nPlayer ID: 1630596\nSeason: 22025\nGames: 19\nAverages: 18.7 PPG, 8.9 RPG, 4.1 APG\nShooting: 49.5% FG, 38.1% 3PT, 59.6% FT\nDefense: 1.1 SPG, 1.6 BPG"
+    },
+    {
+      "chunk_id": 47,
+      "frame_id": 47,
+      "text": "Player Season Stats\nPlayer ID: 1630530\nSeason: 22025\nGames: 19\nAverages: 19.7 PPG, 6.2 RPG, 3.2 APG\nShooting: 44.3% FG, 35.1% 3PT, 77.3% FT\nDefense: 1.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 48,
+      "frame_id": 48,
+      "text": "Player Season Stats\nPlayer ID: 202710\nSeason: 22025\nGames: 18\nAverages: 20.0 PPG, 5.6 RPG, 4.9 APG\nShooting: 54.0% FG, 30.4% 3PT, 74.9% FT\nDefense: 1.7 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 49,
+      "frame_id": 49,
+      "text": "Player Season Stats\nPlayer ID: 203932\nSeason: 22025\nGames: 13\nAverages: 18.8 PPG, 5.9 RPG, 1.3 APG\nShooting: 46.7% FG, 33.3% 3PT, 85.6% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 50,
+      "frame_id": 50,
+      "text": "Player Season Stats\nPlayer ID: 203952\nSeason: 22025\nGames: 16\nAverages: 16.4 PPG, 4.8 RPG, 2.8 APG\nShooting: 47.8% FG, 33.9% 3PT, 47.1% FT\nDefense: 1.1 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 51,
+      "frame_id": 51,
+      "text": "Player Season Stats\nPlayer ID: 1629028\nSeason: 22025\nGames: 16\nAverages: 15.6 PPG, 8.4 RPG, 0.9 APG\nShooting: 71.0% FG, 0.0% 3PT, 40.6% FT\nDefense: 0.8 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 52,
+      "frame_id": 52,
+      "text": "Player Season Stats\nPlayer ID: 1642267\nSeason: 22025\nGames: 18\nAverages: 6.5 PPG, 3.6 RPG, 4.1 APG\nShooting: 35.8% FG, 46.5% 3PT, 17.6% FT\nDefense: 0.5 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 53,
+      "frame_id": 53,
+      "text": "Player Season Stats\nPlayer ID: 1631230\nSeason: 22025\nGames: 9\nAverages: 7.7 PPG, 5.4 RPG, 2.2 APG\nShooting: 58.0% FG, 21.3% 3PT, 37.0% FT\nDefense: 0.3 SPG, 1.1 BPG"
+    },
+    {
+      "chunk_id": 54,
+      "frame_id": 54,
+      "text": "Player Season Stats\nPlayer ID: 1641753\nSeason: 22025\nGames: 1\nAverages: 7.0 PPG, 3.0 RPG, 1.0 APG\nShooting: 60.0% FG, 0.0% 3PT, 100.0% FT\nDefense: 1.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 55,
+      "frame_id": 55,
+      "text": "Player Season Stats\nPlayer ID: 1629234\nSeason: 22025\nGames: 20\nAverages: 6.0 PPG, 3.2 RPG, 0.4 APG\nShooting: 52.3% FG, 5.0% 3PT, 25.4% FT\nDefense: 0.6 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 56,
+      "frame_id": 56,
+      "text": "Player Season Stats\nPlayer ID: 1631200\nSeason: 22025\nGames: 18\nAverages: 5.6 PPG, 3.8 RPG, 1.1 APG\nShooting: 43.0% FG, 24.1% 3PT, 22.2% FT\nDefense: 1.1 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 57,
+      "frame_id": 57,
+      "text": "Player Season Stats\nPlayer ID: 1642266\nSeason: 22025\nGames: 17\nAverages: 5.0 PPG, 1.9 RPG, 0.6 APG\nShooting: 37.2% FG, 34.8% 3PT, 20.6% FT\nDefense: 1.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 58,
+      "frame_id": 58,
+      "text": "Player Season Stats\nPlayer ID: 1641774\nSeason: 22025\nGames: 15\nAverages: 4.3 PPG, 1.9 RPG, 0.7 APG\nShooting: 45.3% FG, 22.8% 3PT, 36.1% FT\nDefense: 0.3 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 59,
+      "frame_id": 59,
+      "text": "Player Season Stats\nPlayer ID: 1642403\nSeason: 22025\nGames: 4\nAverages: 1.2 PPG, 0.5 RPG, 0.2 APG\nShooting: 25.0% FG, 0.0% 3PT, 12.5% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 60,
+      "frame_id": 60,
+      "text": "Player Season Stats\nPlayer ID: 1628502\nSeason: 22025\nGames: 14\nAverages: 1.4 PPG, 1.3 RPG, 0.4 APG\nShooting: 24.4% FG, 3.6% 3PT, 3.6% FT\nDefense: 0.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 61,
+      "frame_id": 61,
+      "text": "Player Season Stats\nPlayer ID: 203482\nSeason: 22025\nGames: 9\nAverages: 4.7 PPG, 2.7 RPG, 2.0 APG\nShooting: 48.9% FG, 25.0% 3PT, 36.7% FT\nDefense: 0.4 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 62,
+      "frame_id": 62,
+      "text": "Player Season Stats\nPlayer ID: 1641730\nSeason: 22025\nGames: 18\nAverages: 12.4 PPG, 3.7 RPG, 1.7 APG\nShooting: 35.9% FG, 29.7% 3PT, 64.8% FT\nDefense: 0.7 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 63,
+      "frame_id": 63,
+      "text": "Player Season Stats\nPlayer ID: 1642907\nSeason: 22025\nGames: 20\nAverages: 13.3 PPG, 5.9 RPG, 2.8 APG\nShooting: 47.3% FG, 30.8% 3PT, 71.3% FT\nDefense: 0.7 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 64,
+      "frame_id": 64,
+      "text": "Player Season Stats\nPlayer ID: 1631109\nSeason: 22025\nGames: 17\nAverages: 12.9 PPG, 9.2 RPG, 1.1 APG\nShooting: 60.0% FG, 0.0% 3PT, 59.1% FT\nDefense: 1.3 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 65,
+      "frame_id": 65,
+      "text": "Player Season Stats\nPlayer ID: 1631221\nSeason: 22025\nGames: 20\nAverages: 12.7 PPG, 4.0 RPG, 5.1 APG\nShooting: 42.1% FG, 41.5% 3PT, 50.0% FT\nDefense: 1.2 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 66,
+      "frame_id": 66,
+      "text": "Player Season Stats\nPlayer ID: 1641775\nSeason: 22025\nGames: 15\nAverages: 4.7 PPG, 4.1 RPG, 1.1 APG\nShooting: 38.7% FG, 23.8% 3PT, 15.0% FT\nDefense: 0.9 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 67,
+      "frame_id": 67,
+      "text": "Player Season Stats\nPlayer ID: 1641810\nSeason: 22025\nGames: 2\nAverages: 4.5 PPG, 1.0 RPG, 0.0 APG\nShooting: 25.0% FG, 30.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 68,
+      "frame_id": 68,
+      "text": "Player Season Stats\nPlayer ID: 1641747\nSeason: 22025\nGames: 2\nAverages: 1.5 PPG, 0.0 RPG, 0.0 APG\nShooting: 50.0% FG, 50.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 69,
+      "frame_id": 69,
+      "text": "Player Season Stats\nPlayer ID: 1642282\nSeason: 22025\nGames: 5\nAverages: 1.0 PPG, 0.2 RPG, 0.6 APG\nShooting: 30.0% FG, 0.0% 3PT, 10.0% FT\nDefense: 0.0 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 70,
+      "frame_id": 70,
+      "text": "Player Season Stats\nPlayer ID: 1642265\nSeason: 22025\nGames: 17\nAverages: 4.4 PPG, 1.1 RPG, 2.0 APG\nShooting: 34.1% FG, 25.5% 3PT, 19.1% FT\nDefense: 0.9 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 71,
+      "frame_id": 71,
+      "text": "Player Season Stats\nPlayer ID: 1641854\nSeason: 22025\nGames: 17\nAverages: 5.8 PPG, 2.9 RPG, 2.5 APG\nShooting: 47.8% FG, 29.4% 3PT, 13.7% FT\nDefense: 1.0 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 72,
+      "frame_id": 72,
+      "text": "Player Season Stats\nPlayer ID: 1642942\nSeason: 22025\nGames: 1\nAverages: 6.0 PPG, 2.0 RPG, 0.0 APG\nShooting: 50.0% FG, 50.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 73,
+      "frame_id": 73,
+      "text": "Player Season Stats\nPlayer ID: 1642274\nSeason: 22025\nGames: 14\nAverages: 6.1 PPG, 5.4 RPG, 1.4 APG\nShooting: 47.9% FG, 0.0% 3PT, 21.4% FT\nDefense: 0.2 SPG, 1.3 BPG"
+    },
+    {
+      "chunk_id": 74,
+      "frame_id": 74,
+      "text": "Player Season Stats\nPlayer ID: 1642867\nSeason: 22025\nGames: 14\nAverages: 7.1 PPG, 3.0 RPG, 1.1 APG\nShooting: 52.2% FG, 27.5% 3PT, 46.4% FT\nDefense: 0.6 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 75,
+      "frame_id": 75,
+      "text": "Player Season Stats\nPlayer ID: 203937\nSeason: 22025\nGames: 5\nAverages: 7.6 PPG, 3.2 RPG, 4.0 APG\nShooting: 53.7% FG, 0.0% 3PT, 53.3% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 76,
+      "frame_id": 76,
+      "text": "Player Season Stats\nPlayer ID: 1630193\nSeason: 22025\nGames: 20\nAverages: 15.8 PPG, 4.7 RPG, 6.2 APG\nShooting: 45.3% FG, 35.7% 3PT, 54.6% FT\nDefense: 1.3 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 77,
+      "frame_id": 77,
+      "text": "Player Season Stats\nPlayer ID: 1631170\nSeason: 22025\nGames: 19\nAverages: 16.2 PPG, 6.3 RPG, 5.3 APG\nShooting: 53.6% FG, 16.8% 3PT, 68.8% FT\nDefense: 0.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 78,
+      "frame_id": 78,
+      "text": "Player Season Stats\nPlayer ID: 203924\nSeason: 22025\nGames: 18\nAverages: 19.2 PPG, 3.5 RPG, 2.4 APG\nShooting: 45.1% FG, 36.8% 3PT, 81.6% FT\nDefense: 0.8 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 79,
+      "frame_id": 79,
+      "text": "Player Season Stats\nPlayer ID: 1631105\nSeason: 22025\nGames: 17\nAverages: 19.5 PPG, 11.8 RPG, 2.0 APG\nShooting: 64.4% FG, 0.0% 3PT, 69.7% FT\nDefense: 0.9 SPG, 1.1 BPG"
+    },
+    {
+      "chunk_id": 80,
+      "frame_id": 80,
+      "text": "Player Season Stats\nPlayer ID: 1630567\nSeason: 22025\nGames: 19\nAverages: 19.5 PPG, 7.9 RPG, 5.0 APG\nShooting: 50.7% FG, 25.2% 3PT, 63.3% FT\nDefense: 1.4 SPG, 1.6 BPG"
+    },
+    {
+      "chunk_id": 81,
+      "frame_id": 81,
+      "text": "Player Season Stats\nPlayer ID: 1628389\nSeason: 22025\nGames: 13\nAverages: 19.2 PPG, 8.4 RPG, 2.7 APG\nShooting: 43.5% FG, 31.6% 3PT, 78.0% FT\nDefense: 0.8 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 82,
+      "frame_id": 82,
+      "text": "Player Season Stats\nPlayer ID: 1630202\nSeason: 22025\nGames: 19\nAverages: 16.2 PPG, 4.4 RPG, 4.9 APG\nShooting: 42.7% FG, 30.6% 3PT, 54.5% FT\nDefense: 0.7 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 83,
+      "frame_id": 83,
+      "text": "Player Season Stats\nPlayer ID: 1642273\nSeason: 22025\nGames: 16\nAverages: 15.8 PPG, 6.1 RPG, 4.8 APG\nShooting: 46.2% FG, 38.9% 3PT, 45.7% FT\nDefense: 1.0 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 84,
+      "frame_id": 84,
+      "text": "Player Season Stats\nPlayer ID: 1630172\nSeason: 22025\nGames: 17\nAverages: 7.5 PPG, 3.1 RPG, 1.5 APG\nShooting: 41.0% FG, 40.8% 3PT, 40.7% FT\nDefense: 0.9 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 85,
+      "frame_id": 85,
+      "text": "Player Season Stats\nPlayer ID: 1630643\nSeason: 22025\nGames: 19\nAverages: 7.1 PPG, 3.4 RPG, 1.0 APG\nShooting: 37.6% FG, 23.8% 3PT, 32.3% FT\nDefense: 0.2 SPG, 2.2 BPG"
+    },
+    {
+      "chunk_id": 86,
+      "frame_id": 86,
+      "text": "Player Season Stats\nPlayer ID: 1630194\nSeason: 22025\nGames: 15\nAverages: 6.1 PPG, 3.9 RPG, 1.1 APG\nShooting: 55.4% FG, 20.0% 3PT, 21.7% FT\nDefense: 0.9 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 87,
+      "frame_id": 87,
+      "text": "Player Season Stats\nPlayer ID: 1641724\nSeason: 22025\nGames: 14\nAverages: 6.0 PPG, 1.1 RPG, 0.8 APG\nShooting: 39.4% FG, 35.1% 3PT, 14.3% FT\nDefense: 0.1 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 88,
+      "frame_id": 88,
+      "text": "Player Season Stats\nPlayer ID: 201143\nSeason: 22025\nGames: 12\nAverages: 5.8 PPG, 4.2 RPG, 1.8 APG\nShooting: 34.1% FG, 28.3% 3PT, 16.7% FT\nDefense: 1.0 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 89,
+      "frame_id": 89,
+      "text": "Player Season Stats\nPlayer ID: 1642873\nSeason: 22025\nGames: 3\nAverages: 1.0 PPG, 1.7 RPG, 0.3 APG\nShooting: 16.7% FG, 0.0% 3PT, 16.7% FT\nDefense: 0.3 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 90,
+      "frame_id": 90,
+      "text": "Player Season Stats\nPlayer ID: 1631250\nSeason: 22025\nGames: 3\nAverages: 4.3 PPG, 0.7 RPG, 0.3 APG\nShooting: 60.0% FG, 55.6% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 91,
+      "frame_id": 91,
+      "text": "Player Season Stats\nPlayer ID: 201569\nSeason: 22025\nGames: 4\nAverages: 4.5 PPG, 0.5 RPG, 0.8 APG\nShooting: 43.8% FG, 41.7% 3PT, 0.0% FT\nDefense: 0.8 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 92,
+      "frame_id": 92,
+      "text": "Player Season Stats\nPlayer ID: 200768\nSeason: 22025\nGames: 2\nAverages: 1.5 PPG, 0.0 RPG, 1.5 APG\nShooting: 50.0% FG, 50.0% 3PT, 0.0% FT\nDefense: 0.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 93,
+      "frame_id": 93,
+      "text": "Player Season Stats\nPlayer ID: 1630811\nSeason: 22025\nGames: 18\nAverages: 4.7 PPG, 1.6 RPG, 2.7 APG\nShooting: 40.6% FG, 35.2% 3PT, 8.3% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 94,
+      "frame_id": 94,
+      "text": "Player Season Stats\nPlayer ID: 1629640\nSeason: 22025\nGames: 18\nAverages: 12.6 PPG, 6.6 RPG, 1.8 APG\nShooting: 58.7% FG, 26.6% 3PT, 49.5% FT\nDefense: 0.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 95,
+      "frame_id": 95,
+      "text": "Player Season Stats\nPlayer ID: 1626167\nSeason: 22025\nGames: 20\nAverages: 12.8 PPG, 6.5 RPG, 1.8 APG\nShooting: 42.3% FG, 39.6% 3PT, 54.2% FT\nDefense: 1.1 SPG, 1.8 BPG"
+    },
+    {
+      "chunk_id": 96,
+      "frame_id": 96,
+      "text": "Player Season Stats\nPlayer ID: 1641824\nSeason: 22025\nGames: 18\nAverages: 13.5 PPG, 5.3 RPG, 1.4 APG\nShooting: 44.1% FG, 32.1% 3PT, 70.2% FT\nDefense: 0.7 SPG, 1.3 BPG"
+    },
+    {
+      "chunk_id": 97,
+      "frame_id": 97,
+      "text": "Player Season Stats\nPlayer ID: 1628370\nSeason: 22025\nGames: 17\nAverages: 12.7 PPG, 1.7 RPG, 1.9 APG\nShooting: 42.3% FG, 35.1% 3PT, 43.4% FT\nDefense: 0.8 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 98,
+      "frame_id": 98,
+      "text": "Player Season Stats\nPlayer ID: 1629675\nSeason: 22025\nGames: 19\nAverages: 12.9 PPG, 5.7 RPG, 1.9 APG\nShooting: 43.9% FG, 33.5% 3PT, 43.4% FT\nDefense: 0.9 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 99,
+      "frame_id": 99,
+      "text": "Player Season Stats\nPlayer ID: 1641787\nSeason: 22025\nGames: 1\nAverages: 0.0 PPG, 1.0 RPG, 0.0 APG\nShooting: 0.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 100,
+      "frame_id": 100,
+      "text": "Player Season Stats\nPlayer ID: 1641726\nSeason: 22025\nGames: 7\nAverages: 4.3 PPG, 5.3 RPG, 1.9 APG\nShooting: 63.8% FG, 0.0% 3PT, 57.1% FT\nDefense: 0.6 SPG, 1.6 BPG"
+    },
+    {
+      "chunk_id": 101,
+      "frame_id": 101,
+      "text": "Player Season Stats\nPlayer ID: 1630623\nSeason: 22025\nGames: 6\nAverages: 1.0 PPG, 0.0 RPG, 0.0 APG\nShooting: 13.9% FG, 13.9% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 102,
+      "frame_id": 102,
+      "text": "Player Season Stats\nPlayer ID: 1629026\nSeason: 22025\nGames: 2\nAverages: 1.5 PPG, 2.5 RPG, 1.0 APG\nShooting: 16.7% FG, 25.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 103,
+      "frame_id": 103,
+      "text": "Player Season Stats\nPlayer ID: 201587\nSeason: 22025\nGames: 19\nAverages: 4.5 PPG, 2.7 RPG, 0.6 APG\nShooting: 37.7% FG, 37.2% 3PT, 14.0% FT\nDefense: 1.0 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 104,
+      "frame_id": 104,
+      "text": "Player Season Stats\nPlayer ID: 1631104\nSeason: 22025\nGames: 6\nAverages: 6.0 PPG, 2.3 RPG, 3.2 APG\nShooting: 41.5% FG, 6.7% 3PT, 29.4% FT\nDefense: 1.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 105,
+      "frame_id": 105,
+      "text": "Player Season Stats\nPlayer ID: 1642875\nSeason: 22025\nGames: 12\nAverages: 5.9 PPG, 3.3 RPG, 0.5 APG\nShooting: 39.3% FG, 12.5% 3PT, 40.0% FT\nDefense: 0.3 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 106,
+      "frame_id": 106,
+      "text": "Player Season Stats\nPlayer ID: 1641842\nSeason: 22025\nGames: 19\nAverages: 7.3 PPG, 3.4 RPG, 1.8 APG\nShooting: 36.6% FG, 24.6% 3PT, 35.5% FT\nDefense: 1.7 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 107,
+      "frame_id": 107,
+      "text": "Player Season Stats\nPlayer ID: 1641733\nSeason: 22025\nGames: 6\nAverages: 7.0 PPG, 1.0 RPG, 2.2 APG\nShooting: 47.1% FG, 30.6% 3PT, 11.1% FT\nDefense: 0.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 108,
+      "frame_id": 108,
+      "text": "Player Season Stats\nPlayer ID: 1629012\nSeason: 22025\nGames: 18\nAverages: 16.1 PPG, 2.2 RPG, 4.4 APG\nShooting: 50.0% FG, 32.7% 3PT, 84.5% FT\nDefense: 0.6 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 109,
+      "frame_id": 109,
+      "text": "Player Season Stats\nPlayer ID: 1642843\nSeason: 22025\nGames: 19\nAverages: 15.7 PPG, 6.5 RPG, 3.5 APG\nShooting: 44.7% FG, 22.2% 3PT, 64.2% FT\nDefense: 1.4 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 110,
+      "frame_id": 110,
+      "text": "Player Season Stats\nPlayer ID: 202696\nSeason: 22025\nGames: 17\nAverages: 16.5 PPG, 9.9 RPG, 3.4 APG\nShooting: 48.8% FG, 39.9% 3PT, 58.2% FT\nDefense: 0.6 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 111,
+      "frame_id": 111,
+      "text": "Player Season Stats\nPlayer ID: 1631099\nSeason: 22025\nGames: 5\nAverages: 19.6 PPG, 8.0 RPG, 2.0 APG\nShooting: 47.0% FG, 30.6% 3PT, 75.0% FT\nDefense: 1.6 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 112,
+      "frame_id": 112,
+      "text": "Player Season Stats\nPlayer ID: 1629638\nSeason: 22025\nGames: 18\nAverages: 19.3 PPG, 3.1 RPG, 3.5 APG\nShooting: 45.4% FG, 35.1% 3PT, 76.2% FT\nDefense: 0.9 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 113,
+      "frame_id": 113,
+      "text": "Player Season Stats\nPlayer ID: 203076\nSeason: 22025\nGames: 6\nAverages: 19.3 PPG, 9.3 RPG, 2.7 APG\nShooting: 55.0% FG, 16.7% 3PT, 52.1% FT\nDefense: 1.3 SPG, 1.5 BPG"
+    },
+    {
+      "chunk_id": 114,
+      "frame_id": 114,
+      "text": "Player Season Stats\nPlayer ID: 203954\nSeason: 22025\nGames: 6\nAverages: 19.7 PPG, 5.5 RPG, 3.3 APG\nShooting: 44.9% FG, 31.9% 3PT, 83.2% FT\nDefense: 0.8 SPG, 1.5 BPG"
+    },
+    {
+      "chunk_id": 115,
+      "frame_id": 115,
+      "text": "Player Season Stats\nPlayer ID: 2544\nSeason: 22025\nGames: 4\nAverages: 16.5 PPG, 5.0 RPG, 8.2 APG\nShooting: 50.0% FG, 35.0% 3PT, 45.8% FT\nDefense: 1.0 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 116,
+      "frame_id": 116,
+      "text": "Player Season Stats\nPlayer ID: 1630245\nSeason: 22025\nGames: 16\nAverages: 15.7 PPG, 2.6 RPG, 2.9 APG\nShooting: 54.6% FG, 46.4% 3PT, 64.2% FT\nDefense: 0.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 117,
+      "frame_id": 117,
+      "text": "Player Season Stats\nPlayer ID: 1628401\nSeason: 22025\nGames: 19\nAverages: 16.0 PPG, 4.0 RPG, 5.1 APG\nShooting: 36.9% FG, 32.0% 3PT, 60.5% FT\nDefense: 1.7 SPG, 1.3 BPG"
+    },
+    {
+      "chunk_id": 118,
+      "frame_id": 118,
+      "text": "Player Season Stats\nPlayer ID: 1630173\nSeason: 22025\nGames: 13\nAverages: 7.0 PPG, 5.1 RPG, 1.1 APG\nShooting: 53.2% FG, 15.4% 3PT, 33.3% FT\nDefense: 0.7 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 119,
+      "frame_id": 119,
+      "text": "Player Season Stats\nPlayer ID: 203484\nSeason: 22025\nGames: 20\nAverages: 7.3 PPG, 2.4 RPG, 3.0 APG\nShooting: 35.4% FG, 27.6% 3PT, 41.2% FT\nDefense: 0.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 120,
+      "frame_id": 120,
+      "text": "Player Season Stats\nPlayer ID: 1628366\nSeason: 22025\nGames: 16\nAverages: 5.9 PPG, 4.4 RPG, 5.1 APG\nShooting: 27.8% FG, 25.7% 3PT, 20.8% FT\nDefense: 1.0 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 121,
+      "frame_id": 121,
+      "text": "Player Season Stats\nPlayer ID: 1631165\nSeason: 22025\nGames: 19\nAverages: 6.0 PPG, 1.4 RPG, 0.6 APG\nShooting: 38.2% FG, 34.6% 3PT, 21.1% FT\nDefense: 1.3 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 122,
+      "frame_id": 122,
+      "text": "Player Season Stats\nPlayer ID: 1628467\nSeason: 22025\nGames: 7\nAverages: 1.6 PPG, 1.9 RPG, 0.6 APG\nShooting: 33.3% FG, 28.6% 3PT, 7.1% FT\nDefense: 0.3 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 123,
+      "frame_id": 123,
+      "text": "Player Season Stats\nPlayer ID: 201599\nSeason: 22025\nGames: 2\nAverages: 4.5 PPG, 5.0 RPG, 0.0 APG\nShooting: 87.5% FG, 0.0% 3PT, 25.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 124,
+      "frame_id": 124,
+      "text": "Player Season Stats\nPlayer ID: 1631321\nSeason: 22025\nGames: 14\nAverages: 4.3 PPG, 2.0 RPG, 1.4 APG\nShooting: 39.4% FG, 18.5% 3PT, 32.1% FT\nDefense: 0.6 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 125,
+      "frame_id": 125,
+      "text": "Player Season Stats\nPlayer ID: 1641748\nSeason: 22025\nGames: 8\nAverages: 1.1 PPG, 0.8 RPG, 1.6 APG\nShooting: 6.7% FG, 7.3% 3PT, 6.2% FT\nDefense: 0.5 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 126,
+      "frame_id": 126,
+      "text": "Player Season Stats\nPlayer ID: 1630536\nSeason: 22025\nGames: 4\nAverages: 0.0 PPG, 0.0 RPG, 0.0 APG\nShooting: 0.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 127,
+      "frame_id": 127,
+      "text": "Player Season Stats\nPlayer ID: 1641710\nSeason: 22025\nGames: 20\nAverages: 13.0 PPG, 3.0 RPG, 2.8 APG\nShooting: 46.5% FG, 29.3% 3PT, 57.2% FT\nDefense: 1.5 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 128,
+      "frame_id": 128,
+      "text": "Player Season Stats\nPlayer ID: 1642844\nSeason: 22025\nGames: 8\nAverages: 12.8 PPG, 3.4 RPG, 3.5 APG\nShooting: 48.3% FG, 26.2% 3PT, 78.1% FT\nDefense: 1.1 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 129,
+      "frame_id": 129,
+      "text": "Player Season Stats\nPlayer ID: 1628398\nSeason: 22025\nGames: 19\nAverages: 13.6 PPG, 4.7 RPG, 2.1 APG\nShooting: 48.3% FG, 28.7% 3PT, 62.8% FT\nDefense: 0.8 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 130,
+      "frame_id": 130,
+      "text": "Player Season Stats\nPlayer ID: 1641731\nSeason: 22025\nGames: 10\nAverages: 9.7 PPG, 3.8 RPG, 3.2 APG\nShooting: 37.0% FG, 29.5% 3PT, 80.4% FT\nDefense: 1.1 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 131,
+      "frame_id": 131,
+      "text": "Player Season Stats\nPlayer ID: 1642270\nSeason: 22025\nGames: 19\nAverages: 10.2 PPG, 10.0 RPG, 1.7 APG\nShooting: 46.8% FG, 20.2% 3PT, 62.3% FT\nDefense: 0.7 SPG, 1.5 BPG"
+    },
+    {
+      "chunk_id": 132,
+      "frame_id": 132,
+      "text": "Player Season Stats\nPlayer ID: 1641783\nSeason: 22025\nGames: 20\nAverages: 11.3 PPG, 3.9 RPG, 1.3 APG\nShooting: 46.0% FG, 35.7% 3PT, 35.0% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 133,
+      "frame_id": 133,
+      "text": "Player Season Stats\nPlayer ID: 1628392\nSeason: 22025\nGames: 19\nAverages: 12.2 PPG, 10.7 RPG, 3.4 APG\nShooting: 66.6% FG, 0.0% 3PT, 50.3% FT\nDefense: 1.3 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 134,
+      "frame_id": 134,
+      "text": "Player Season Stats\nPlayer ID: 1641989\nSeason: 22025\nGames: 7\nAverages: 2.4 PPG, 0.9 RPG, 0.7 APG\nShooting: 23.6% FG, 19.0% 3PT, 42.9% FT\nDefense: 0.6 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 135,
+      "frame_id": 135,
+      "text": "Player Season Stats\nPlayer ID: 203914\nSeason: 22025\nGames: 13\nAverages: 2.6 PPG, 1.0 RPG, 1.0 APG\nShooting: 37.4% FG, 20.5% 3PT, 23.1% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 136,
+      "frame_id": 136,
+      "text": "Player Season Stats\nPlayer ID: 1626204\nSeason: 22025\nGames: 16\nAverages: 3.6 PPG, 2.8 RPG, 1.2 APG\nShooting: 31.3% FG, 31.2% 3PT, 2.1% FT\nDefense: 0.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 137,
+      "frame_id": 137,
+      "text": "Player Season Stats\nPlayer ID: 1642928\nSeason: 22025\nGames: 3\nAverages: 1.7 PPG, 1.7 RPG, 0.0 APG\nShooting: 41.7% FG, 0.0% 3PT, 16.7% FT\nDefense: 0.7 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 138,
+      "frame_id": 138,
+      "text": "Player Season Stats\nPlayer ID: 1630579\nSeason: 22025\nGames: 14\nAverages: 1.8 PPG, 2.1 RPG, 0.6 APG\nShooting: 42.9% FG, 0.0% 3PT, 10.7% FT\nDefense: 0.2 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 139,
+      "frame_id": 139,
+      "text": "Player Season Stats\nPlayer ID: 1642886\nSeason: 22025\nGames: 1\nAverages: 4.0 PPG, 0.0 RPG, 1.0 APG\nShooting: 50.0% FG, 0.0% 3PT, 100.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 140,
+      "frame_id": 140,
+      "text": "Player Season Stats\nPlayer ID: 1641737\nSeason: 22025\nGames: 13\nAverages: 3.0 PPG, 3.6 RPG, 0.2 APG\nShooting: 39.9% FG, 7.7% 3PT, 19.2% FT\nDefense: 0.4 SPG, 1.8 BPG"
+    },
+    {
+      "chunk_id": 141,
+      "frame_id": 141,
+      "text": "Player Season Stats\nPlayer ID: 1642449\nSeason: 22025\nGames: 2\nAverages: 8.5 PPG, 5.5 RPG, 1.0 APG\nShooting: 75.0% FG, 0.0% 3PT, 35.7% FT\nDefense: 0.5 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 142,
+      "frame_id": 142,
+      "text": "Player Season Stats\nPlayer ID: 1631093\nSeason: 22025\nGames: 4\nAverages: 8.0 PPG, 2.0 RPG, 0.8 APG\nShooting: 47.2% FG, 50.0% 3PT, 37.5% FT\nDefense: 0.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 143,
+      "frame_id": 143,
+      "text": "Player Season Stats\nPlayer ID: 203992\nSeason: 22025\nGames: 9\nAverages: 9.2 PPG, 3.4 RPG, 3.3 APG\nShooting: 33.1% FG, 28.8% 3PT, 38.0% FT\nDefense: 0.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 144,
+      "frame_id": 144,
+      "text": "Player Season Stats\nPlayer ID: 1627750\nSeason: 22025\nGames: 17\nAverages: 24.0 PPG, 4.6 RPG, 6.8 APG\nShooting: 48.3% FG, 37.3% 3PT, 88.8% FT\nDefense: 1.1 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 145,
+      "frame_id": 145,
+      "text": "Player Season Stats\nPlayer ID: 1631094\nSeason: 22025\nGames: 12\nAverages: 21.7 PPG, 8.7 RPG, 4.1 APG\nShooting: 45.1% FG, 23.6% 3PT, 77.3% FT\nDefense: 0.8 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 146,
+      "frame_id": 146,
+      "text": "Player Season Stats\nPlayer ID: 1626157\nSeason: 22025\nGames: 18\nAverages: 21.7 PPG, 12.2 RPG, 3.4 APG\nShooting: 42.8% FG, 32.7% 3PT, 88.5% FT\nDefense: 0.8 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 147,
+      "frame_id": 147,
+      "text": "Player Season Stats\nPlayer ID: 1629632\nSeason: 22025\nGames: 5\nAverages: 24.2 PPG, 3.0 RPG, 6.2 APG\nShooting: 44.1% FG, 33.4% 3PT, 75.0% FT\nDefense: 0.8 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 148,
+      "frame_id": 148,
+      "text": "Player Season Stats\nPlayer ID: 1630533\nSeason: 22025\nGames: 15\nAverages: 9.3 PPG, 2.7 RPG, 0.6 APG\nShooting: 33.5% FG, 27.8% 3PT, 66.7% FT\nDefense: 0.8 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 149,
+      "frame_id": 149,
+      "text": "Player Season Stats\nPlayer ID: 1628988\nSeason: 22025\nGames: 11\nAverages: 8.0 PPG, 0.7 RPG, 1.1 APG\nShooting: 36.5% FG, 33.8% 3PT, 59.1% FT\nDefense: 0.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 150,
+      "frame_id": 150,
+      "text": "Player Season Stats\nPlayer ID: 1642856\nSeason: 22025\nGames: 17\nAverages: 8.5 PPG, 3.7 RPG, 3.5 APG\nShooting: 37.7% FG, 34.0% 3PT, 26.5% FT\nDefense: 0.8 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 151,
+      "frame_id": 151,
+      "text": "Player Season Stats\nPlayer ID: 1631172\nSeason: 22025\nGames: 14\nAverages: 3.0 PPG, 1.7 RPG, 0.8 APG\nShooting: 33.0% FG, 23.8% 3PT, 14.3% FT\nDefense: 0.1 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 152,
+      "frame_id": 152,
+      "text": "Player Season Stats\nPlayer ID: 203939\nSeason: 22025\nGames: 15\nAverages: 1.8 PPG, 1.9 RPG, 0.6 APG\nShooting: 14.4% FG, 0.0% 3PT, 18.9% FT\nDefense: 0.3 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 153,
+      "frame_id": 153,
+      "text": "Player Season Stats\nPlayer ID: 1642869\nSeason: 22025\nGames: 10\nAverages: 4.0 PPG, 3.1 RPG, 1.2 APG\nShooting: 41.7% FG, 35.0% 3PT, 32.5% FT\nDefense: 0.1 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 154,
+      "frame_id": 154,
+      "text": "Player Season Stats\nPlayer ID: 1642419\nSeason: 22025\nGames: 14\nAverages: 3.6 PPG, 1.1 RPG, 0.1 APG\nShooting: 47.6% FG, 28.6% 3PT, 7.1% FT\nDefense: 0.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 155,
+      "frame_id": 155,
+      "text": "Player Season Stats\nPlayer ID: 1631127\nSeason: 22025\nGames: 3\nAverages: 1.7 PPG, 1.0 RPG, 0.0 APG\nShooting: 50.0% FG, 33.3% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 156,
+      "frame_id": 156,
+      "text": "Player Season Stats\nPlayer ID: 1627824\nSeason: 22025\nGames: 17\nAverages: 2.6 PPG, 2.2 RPG, 0.5 APG\nShooting: 34.0% FG, 28.9% 3PT, 5.9% FT\nDefense: 0.1 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 157,
+      "frame_id": 157,
+      "text": "Player Season Stats\nPlayer ID: 1631115\nSeason: 22025\nGames: 3\nAverages: 2.3 PPG, 1.0 RPG, 0.7 APG\nShooting: 25.0% FG, 33.3% 3PT, 0.0% FT\nDefense: 0.3 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 158,
+      "frame_id": 158,
+      "text": "Player Season Stats\nPlayer ID: 1630541\nSeason: 22025\nGames: 18\nAverages: 12.2 PPG, 3.4 RPG, 1.5 APG\nShooting: 37.0% FG, 35.6% 3PT, 58.1% FT\nDefense: 0.9 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 159,
+      "frame_id": 159,
+      "text": "Player Season Stats\nPlayer ID: 1626220\nSeason: 22025\nGames: 20\nAverages: 11.3 PPG, 5.3 RPG, 2.6 APG\nShooting: 44.0% FG, 44.3% 3PT, 13.8% FT\nDefense: 1.2 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 160,
+      "frame_id": 160,
+      "text": "Player Season Stats\nPlayer ID: 1630191\nSeason: 22025\nGames: 16\nAverages: 10.2 PPG, 6.2 RPG, 1.3 APG\nShooting: 55.0% FG, 43.1% 3PT, 48.4% FT\nDefense: 0.2 SPG, 1.8 BPG"
+    },
+    {
+      "chunk_id": 161,
+      "frame_id": 161,
+      "text": "Player Season Stats\nPlayer ID: 1627747\nSeason: 22025\nGames: 14\nAverages: 9.6 PPG, 1.6 RPG, 3.0 APG\nShooting: 45.8% FG, 38.3% 3PT, 50.6% FT\nDefense: 0.6 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 162,
+      "frame_id": 162,
+      "text": "Player Season Stats\nPlayer ID: 1629018\nSeason: 22025\nGames: 20\nAverages: 10.1 PPG, 1.4 RPG, 1.9 APG\nShooting: 40.5% FG, 40.4% 3PT, 32.0% FT\nDefense: 1.0 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 163,
+      "frame_id": 163,
+      "text": "Player Season Stats\nPlayer ID: 1630529\nSeason: 22025\nGames: 16\nAverages: 9.5 PPG, 3.8 RPG, 2.3 APG\nShooting: 39.9% FG, 35.3% 3PT, 40.1% FT\nDefense: 1.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 164,
+      "frame_id": 164,
+      "text": "Player Season Stats\nPlayer ID: 1629130\nSeason: 22025\nGames: 19\nAverages: 12.3 PPG, 2.7 RPG, 2.0 APG\nShooting: 43.7% FG, 40.7% 3PT, 35.5% FT\nDefense: 1.0 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 165,
+      "frame_id": 165,
+      "text": "Player Season Stats\nPlayer ID: 1631106\nSeason: 22025\nGames: 11\nAverages: 11.5 PPG, 5.2 RPG, 1.6 APG\nShooting: 47.2% FG, 46.0% 3PT, 21.2% FT\nDefense: 0.8 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 166,
+      "frame_id": 166,
+      "text": "Player Season Stats\nPlayer ID: 1630314\nSeason: 22025\nGames: 18\nAverages: 10.9 PPG, 2.7 RPG, 3.9 APG\nShooting: 35.2% FG, 16.1% 3PT, 69.6% FT\nDefense: 1.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 167,
+      "frame_id": 167,
+      "text": "Player Season Stats\nPlayer ID: 1642277\nSeason: 22025\nGames: 3\nAverages: 2.7 PPG, 2.0 RPG, 0.0 APG\nShooting: 33.3% FG, 50.0% 3PT, 0.0% FT\nDefense: 0.7 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 168,
+      "frame_id": 168,
+      "text": "Player Season Stats\nPlayer ID: 1631216\nSeason: 22025\nGames: 7\nAverages: 2.4 PPG, 0.6 RPG, 0.3 APG\nShooting: 29.5% FG, 28.6% 3PT, 14.3% FT\nDefense: 0.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 169,
+      "frame_id": 169,
+      "text": "Player Season Stats\nPlayer ID: 1630208\nSeason: 22025\nGames: 20\nAverages: 4.0 PPG, 3.5 RPG, 0.3 APG\nShooting: 52.9% FG, 0.0% 3PT, 41.7% FT\nDefense: 0.1 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 170,
+      "frame_id": 170,
+      "text": "Player Season Stats\nPlayer ID: 1642355\nSeason: 22025\nGames: 11\nAverages: 1.9 PPG, 0.8 RPG, 1.7 APG\nShooting: 22.7% FG, 18.2% 3PT, 9.1% FT\nDefense: 0.7 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 171,
+      "frame_id": 171,
+      "text": "Player Season Stats\nPlayer ID: 1642849\nSeason: 22025\nGames: 4\nAverages: 1.8 PPG, 0.2 RPG, 1.2 APG\nShooting: 13.3% FG, 20.8% 3PT, 12.5% FT\nDefense: 0.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 172,
+      "frame_id": 172,
+      "text": "Player Season Stats\nPlayer ID: 1629162\nSeason: 22025\nGames: 8\nAverages: 3.5 PPG, 0.8 RPG, 1.2 APG\nShooting: 35.1% FG, 33.3% 3PT, 25.0% FT\nDefense: 0.9 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 173,
+      "frame_id": 173,
+      "text": "Player Season Stats\nPlayer ID: 1642066\nSeason: 22025\nGames: 3\nAverages: 2.0 PPG, 0.7 RPG, 0.3 APG\nShooting: 66.7% FG, 66.7% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 174,
+      "frame_id": 174,
+      "text": "Player Season Stats\nPlayer ID: 1631126\nSeason: 22025\nGames: 11\nAverages: 7.9 PPG, 3.2 RPG, 2.3 APG\nShooting: 27.4% FG, 21.2% 3PT, 25.0% FT\nDefense: 0.4 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 175,
+      "frame_id": 175,
+      "text": "Player Season Stats\nPlayer ID: 1631246\nSeason: 22025\nGames: 15\nAverages: 8.5 PPG, 4.8 RPG, 5.5 APG\nShooting: 34.8% FG, 25.9% 3PT, 48.3% FT\nDefense: 1.0 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 176,
+      "frame_id": 176,
+      "text": "Player Season Stats\nPlayer ID: 1629627\nSeason: 22025\nGames: 9\nAverages: 21.8 PPG, 5.4 RPG, 4.0 APG\nShooting: 52.5% FG, 0.0% 3PT, 71.2% FT\nDefense: 1.8 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 177,
+      "frame_id": 177,
+      "text": "Player Season Stats\nPlayer ID: 1626181\nSeason: 22025\nGames: 15\nAverages: 24.5 PPG, 3.9 RPG, 2.3 APG\nShooting: 49.3% FG, 41.1% 3PT, 90.4% FT\nDefense: 1.3 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 178,
+      "frame_id": 178,
+      "text": "Player Season Stats\nPlayer ID: 1630595\nSeason: 22025\nGames: 16\nAverages: 28.8 PPG, 6.6 RPG, 9.4 APG\nShooting: 45.7% FG, 31.1% 3PT, 84.7% FT\nDefense: 1.2 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 179,
+      "frame_id": 179,
+      "text": "Player Season Stats\nPlayer ID: 1630162\nSeason: 22025\nGames: 15\nAverages: 28.7 PPG, 4.6 RPG, 3.7 APG\nShooting: 46.4% FG, 37.5% 3PT, 78.7% FT\nDefense: 1.4 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 180,
+      "frame_id": 180,
+      "text": "Player Season Stats\nPlayer ID: 1629008\nSeason: 22025\nGames: 16\nAverages: 24.2 PPG, 7.4 RPG, 3.0 APG\nShooting: 47.9% FG, 37.4% 3PT, 70.3% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 181,
+      "frame_id": 181,
+      "text": "Player Season Stats\nPlayer ID: 1628970\nSeason: 22025\nGames: 19\nAverages: 21.7 PPG, 6.5 RPG, 3.8 APG\nShooting: 42.3% FG, 32.0% 3PT, 76.7% FT\nDefense: 0.6 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 182,
+      "frame_id": 182,
+      "text": "Player Season Stats\nPlayer ID: 1642346\nSeason: 22025\nGames: 16\nAverages: 8.4 PPG, 4.8 RPG, 1.9 APG\nShooting: 48.9% FG, 36.5% 3PT, 28.1% FT\nDefense: 1.4 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 183,
+      "frame_id": 183,
+      "text": "Player Season Stats\nPlayer ID: 1627739\nSeason: 22025\nGames: 19\nAverages: 7.9 PPG, 2.7 RPG, 2.6 APG\nShooting: 47.9% FG, 35.9% 3PT, 35.5% FT\nDefense: 1.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 184,
+      "frame_id": 184,
+      "text": "Player Season Stats\nPlayer ID: 1642461\nSeason: 22025\nGames: 14\nAverages: 2.0 PPG, 1.1 RPG, 0.6 APG\nShooting: 30.6% FG, 19.3% 3PT, 14.3% FT\nDefense: 0.6 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 185,
+      "frame_id": 185,
+      "text": "Player Season Stats\nPlayer ID: 1642874\nSeason: 22025\nGames: 4\nAverages: 1.8 PPG, 1.8 RPG, 0.8 APG\nShooting: 0.0% FG, 0.0% 3PT, 45.8% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 186,
+      "frame_id": 186,
+      "text": "Player Season Stats\nPlayer ID: 1631103\nSeason: 22025\nGames: 8\nAverages: 3.5 PPG, 1.2 RPG, 0.6 APG\nShooting: 30.4% FG, 12.5% 3PT, 37.5% FT\nDefense: 0.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 187,
+      "frame_id": 187,
+      "text": "Player Season Stats\nPlayer ID: 1630538\nSeason: 22025\nGames: 13\nAverages: 3.9 PPG, 1.2 RPG, 1.4 APG\nShooting: 40.3% FG, 23.3% 3PT, 11.5% FT\nDefense: 0.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 188,
+      "frame_id": 188,
+      "text": "Player Season Stats\nPlayer ID: 1631159\nSeason: 22025\nGames: 8\nAverages: 1.9 PPG, 1.4 RPG, 0.5 APG\nShooting: 43.8% FG, 0.0% 3PT, 14.6% FT\nDefense: 0.2 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 189,
+      "frame_id": 189,
+      "text": "Player Season Stats\nPlayer ID: 1626172\nSeason: 22025\nGames: 9\nAverages: 2.4 PPG, 4.0 RPG, 1.4 APG\nShooting: 32.4% FG, 5.6% 3PT, 11.1% FT\nDefense: 0.2 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 190,
+      "frame_id": 190,
+      "text": "Player Season Stats\nPlayer ID: 1631199\nSeason: 22025\nGames: 3\nAverages: 2.7 PPG, 1.0 RPG, 1.0 APG\nShooting: 40.0% FG, 33.3% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 191,
+      "frame_id": 191,
+      "text": "Player Season Stats\nPlayer ID: 1628404\nSeason: 22025\nGames: 17\nAverages: 10.9 PPG, 7.5 RPG, 4.9 APG\nShooting: 44.4% FG, 34.0% 3PT, 48.9% FT\nDefense: 1.2 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 192,
+      "frame_id": 192,
+      "text": "Player Season Stats\nPlayer ID: 1631128\nSeason: 22025\nGames: 11\nAverages: 11.4 PPG, 4.4 RPG, 3.0 APG\nShooting: 52.4% FG, 15.0% 3PT, 57.6% FT\nDefense: 0.8 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 193,
+      "frame_id": 193,
+      "text": "Player Season Stats\nPlayer ID: 1642852\nSeason: 22025\nGames: 19\nAverages: 12.3 PPG, 6.3 RPG, 3.6 APG\nShooting: 47.2% FG, 3.9% 3PT, 67.4% FT\nDefense: 1.1 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 194,
+      "frame_id": 194,
+      "text": "Player Season Stats\nPlayer ID: 1642846\nSeason: 22025\nGames: 18\nAverages: 9.6 PPG, 3.4 RPG, 1.7 APG\nShooting: 42.2% FG, 23.5% 3PT, 39.4% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 195,
+      "frame_id": 195,
+      "text": "Player Season Stats\nPlayer ID: 1630572\nSeason: 22025\nGames: 18\nAverages: 10.2 PPG, 4.0 RPG, 1.8 APG\nShooting: 54.7% FG, 41.2% 3PT, 50.5% FT\nDefense: 0.5 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 196,
+      "frame_id": 196,
+      "text": "Player Season Stats\nPlayer ID: 1629645\nSeason: 22025\nGames: 1\nAverages: 10.0 PPG, 0.0 RPG, 2.0 APG\nShooting: 60.0% FG, 66.7% 3PT, 100.0% FT\nDefense: 1.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 197,
+      "frame_id": 197,
+      "text": "Player Season Stats\nPlayer ID: 203114\nSeason: 22025\nGames: 14\nAverages: 9.7 PPG, 4.3 RPG, 3.3 APG\nShooting: 48.3% FG, 33.7% 3PT, 33.3% FT\nDefense: 0.7 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 198,
+      "frame_id": 198,
+      "text": "Player Season Stats\nPlayer ID: 202691\nSeason: 22025\nGames: 19\nAverages: 10.3 PPG, 2.3 RPG, 1.5 APG\nShooting: 34.4% FG, 31.1% 3PT, 31.6% FT\nDefense: 0.4 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 199,
+      "frame_id": 199,
+      "text": "Player Season Stats\nPlayer ID: 1628976\nSeason: 22025\nGames: 19\nAverages: 12.1 PPG, 7.6 RPG, 2.0 APG\nShooting: 55.9% FG, 41.3% 3PT, 66.1% FT\nDefense: 0.6 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 200,
+      "frame_id": 200,
+      "text": "Player Season Stats\nPlayer ID: 1631245\nSeason: 22025\nGames: 5\nAverages: 11.8 PPG, 3.4 RPG, 3.6 APG\nShooting: 48.9% FG, 45.0% 3PT, 54.3% FT\nDefense: 1.0 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 201,
+      "frame_id": 201,
+      "text": "Player Season Stats\nPlayer ID: 1629618\nSeason: 22025\nGames: 7\nAverages: 2.6 PPG, 1.0 RPG, 1.0 APG\nShooting: 44.0% FG, 32.1% 3PT, 14.3% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 202,
+      "frame_id": 202,
+      "text": "Player Season Stats\nPlayer ID: 1642443\nSeason: 22025\nGames: 4\nAverages: 2.5 PPG, 0.2 RPG, 0.8 APG\nShooting: 30.8% FG, 25.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 203,
+      "frame_id": 203,
+      "text": "Player Season Stats\nPlayer ID: 1642860\nSeason: 22025\nGames: 13\nAverages: 2.2 PPG, 1.5 RPG, 0.8 APG\nShooting: 36.2% FG, 2.6% 3PT, 5.8% FT\nDefense: 0.2 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 204,
+      "frame_id": 204,
+      "text": "Player Season Stats\nPlayer ID: 1642876\nSeason: 22025\nGames: 3\nAverages: 2.0 PPG, 0.3 RPG, 0.0 APG\nShooting: 66.7% FG, 0.0% 3PT, 33.3% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 205,
+      "frame_id": 205,
+      "text": "Player Season Stats\nPlayer ID: 1642382\nSeason: 22025\nGames: 13\nAverages: 3.8 PPG, 1.8 RPG, 0.6 APG\nShooting: 45.8% FG, 19.9% 3PT, 11.5% FT\nDefense: 0.2 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 206,
+      "frame_id": 206,
+      "text": "Player Season Stats\nPlayer ID: 1642404\nSeason: 22025\nGames: 12\nAverages: 3.6 PPG, 1.2 RPG, 0.8 APG\nShooting: 29.2% FG, 21.5% 3PT, 8.3% FT\nDefense: 0.2 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 207,
+      "frame_id": 207,
+      "text": "Player Season Stats\nPlayer ID: 1642863\nSeason: 22025\nGames: 8\nAverages: 1.6 PPG, 0.8 RPG, 0.1 APG\nShooting: 22.9% FG, 0.0% 3PT, 31.2% FT\nDefense: 0.0 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 208,
+      "frame_id": 208,
+      "text": "Player Season Stats\nPlayer ID: 1630543\nSeason: 22025\nGames: 19\nAverages: 8.1 PPG, 5.5 RPG, 1.0 APG\nShooting: 54.0% FG, 0.0% 3PT, 48.9% FT\nDefense: 0.7 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 209,
+      "frame_id": 209,
+      "text": "Player Season Stats\nPlayer ID: 1630175\nSeason: 22025\nGames: 19\nAverages: 8.3 PPG, 3.1 RPG, 4.7 APG\nShooting: 42.3% FG, 18.3% 3PT, 23.3% FT\nDefense: 0.7 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 210,
+      "frame_id": 210,
+      "text": "Player Season Stats\nPlayer ID: 201142\nSeason: 22025\nGames: 14\nAverages: 24.6 PPG, 4.8 RPG, 3.3 APG\nShooting: 49.0% FG, 42.4% 3PT, 81.7% FT\nDefense: 1.0 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 211,
+      "frame_id": 211,
+      "text": "Player Season Stats\nPlayer ID: 1630552\nSeason: 22025\nGames: 18\nAverages: 21.9 PPG, 9.6 RPG, 7.3 APG\nShooting: 55.0% FG, 35.2% 3PT, 84.8% FT\nDefense: 1.7 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 212,
+      "frame_id": 212,
+      "text": "Player Season Stats\nPlayer ID: 1627783\nSeason: 22025\nGames: 18\nAverages: 23.9 PPG, 7.1 RPG, 4.4 APG\nShooting: 47.8% FG, 28.3% 3PT, 66.8% FT\nDefense: 1.3 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 213,
+      "frame_id": 213,
+      "text": "Player Season Stats\nPlayer ID: 1628368\nSeason: 22025\nGames: 10\nAverages: 24.0 PPG, 3.6 RPG, 6.9 APG\nShooting: 48.5% FG, 35.2% 3PT, 76.9% FT\nDefense: 1.4 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 214,
+      "frame_id": 214,
+      "text": "Player Season Stats\nPlayer ID: 1630578\nSeason: 22025\nGames: 16\nAverages: 22.0 PPG, 9.4 RPG, 7.1 APG\nShooting: 50.5% FG, 34.1% 3PT, 66.7% FT\nDefense: 1.1 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 215,
+      "frame_id": 215,
+      "text": "Player Season Stats\nPlayer ID: 202695\nSeason: 22025\nGames: 9\nAverages: 24.9 PPG, 5.0 RPG, 2.9 APG\nShooting: 49.7% FG, 38.6% 3PT, 97.8% FT\nDefense: 2.2 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 216,
+      "frame_id": 216,
+      "text": "Player Season Stats\nPlayer ID: 203110\nSeason: 22025\nGames: 17\nAverages: 8.4 PPG, 5.9 RPG, 5.9 APG\nShooting: 41.6% FG, 34.8% 3PT, 25.5% FT\nDefense: 0.8 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 217,
+      "frame_id": 217,
+      "text": "Player Season Stats\nPlayer ID: 202685\nSeason: 22025\nGames: 18\nAverages: 8.1 PPG, 4.7 RPG, 1.0 APG\nShooting: 54.2% FG, 3.7% 3PT, 44.3% FT\nDefense: 0.1 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 218,
+      "frame_id": 218,
+      "text": "Player Season Stats\nPlayer ID: 1631248\nSeason: 22025\nGames: 15\nAverages: 3.7 PPG, 1.9 RPG, 0.6 APG\nShooting: 34.4% FG, 31.0% 3PT, 6.7% FT\nDefense: 0.3 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 219,
+      "frame_id": 219,
+      "text": "Player Season Stats\nPlayer ID: 203967\nSeason: 22025\nGames: 3\nAverages: 1.7 PPG, 1.7 RPG, 0.7 APG\nShooting: 16.7% FG, 16.7% 3PT, 33.3% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 220,
+      "frame_id": 220,
+      "text": "Player Season Stats\nPlayer ID: 1642866\nSeason: 22025\nGames: 9\nAverages: 2.0 PPG, 1.3 RPG, 0.0 APG\nShooting: 50.0% FG, 0.0% 3PT, 11.1% FT\nDefense: 0.1 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 221,
+      "frame_id": 221,
+      "text": "Player Season Stats\nPlayer ID: 1629011\nSeason: 22025\nGames: 11\nAverages: 3.8 PPG, 7.8 RPG, 0.9 APG\nShooting: 60.3% FG, 0.0% 3PT, 6.1% FT\nDefense: 0.8 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 222,
+      "frame_id": 222,
+      "text": "Player Season Stats\nPlayer ID: 1628418\nSeason: 22025\nGames: 13\nAverages: 2.2 PPG, 1.5 RPG, 0.2 APG\nShooting: 28.2% FG, 7.7% 3PT, 0.0% FT\nDefense: 0.3 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 223,
+      "frame_id": 223,
+      "text": "Player Season Stats\nPlayer ID: 1642864\nSeason: 22025\nGames: 14\nAverages: 2.5 PPG, 1.8 RPG, 0.7 APG\nShooting: 34.1% FG, 27.4% 3PT, 7.1% FT\nDefense: 0.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 224,
+      "frame_id": 224,
+      "text": "Player Season Stats\nPlayer ID: 1630192\nSeason: 22025\nGames: 9\nAverages: 2.6 PPG, 1.8 RPG, 0.2 APG\nShooting: 31.5% FG, 18.5% 3PT, 22.2% FT\nDefense: 0.2 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 225,
+      "frame_id": 225,
+      "text": "Player Season Stats\nPlayer ID: 1630230\nSeason: 22025\nGames: 20\nAverages: 11.8 PPG, 5.0 RPG, 2.3 APG\nShooting: 44.9% FG, 23.4% 3PT, 67.9% FT\nDefense: 1.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 226,
+      "frame_id": 226,
+      "text": "Player Season Stats\nPlayer ID: 1641764\nSeason: 22025\nGames: 20\nAverages: 12.2 PPG, 4.5 RPG, 2.9 APG\nShooting: 43.1% FG, 41.6% 3PT, 46.2% FT\nDefense: 1.2 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 227,
+      "frame_id": 227,
+      "text": "Player Season Stats\nPlayer ID: 1631323\nSeason: 22025\nGames: 19\nAverages: 10.3 PPG, 2.8 RPG, 1.6 APG\nShooting: 44.5% FG, 40.2% 3PT, 54.7% FT\nDefense: 0.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 228,
+      "frame_id": 228,
+      "text": "Player Season Stats\nPlayer ID: 1630544\nSeason: 22025\nGames: 17\nAverages: 9.7 PPG, 2.9 RPG, 2.8 APG\nShooting: 36.7% FG, 28.8% 3PT, 27.5% FT\nDefense: 0.6 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 229,
+      "frame_id": 229,
+      "text": "Player Season Stats\nPlayer ID: 1630188\nSeason: 22025\nGames: 18\nAverages: 10.0 PPG, 5.8 RPG, 1.2 APG\nShooting: 49.1% FG, 36.0% 3PT, 43.1% FT\nDefense: 0.3 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 230,
+      "frame_id": 230,
+      "text": "Player Season Stats\nPlayer ID: 1629674\nSeason: 22025\nGames: 18\nAverages: 9.8 PPG, 8.5 RPG, 1.6 APG\nShooting: 69.2% FG, 0.0% 3PT, 36.3% FT\nDefense: 0.6 SPG, 1.4 BPG"
+    },
+    {
+      "chunk_id": 231,
+      "frame_id": 231,
+      "text": "Player Season Stats\nPlayer ID: 1641796\nSeason: 22025\nGames: 19\nAverages: 10.1 PPG, 2.9 RPG, 3.5 APG\nShooting: 43.0% FG, 32.2% 3PT, 59.1% FT\nDefense: 0.6 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 232,
+      "frame_id": 232,
+      "text": "Player Season Stats\nPlayer ID: 1642848\nSeason: 22025\nGames: 15\nAverages: 11.5 PPG, 3.0 RPG, 1.3 APG\nShooting: 45.7% FG, 40.4% 3PT, 47.8% FT\nDefense: 0.4 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 233,
+      "frame_id": 233,
+      "text": "Player Season Stats\nPlayer ID: 1641709\nSeason: 22025\nGames: 15\nAverages: 12.0 PPG, 5.9 RPG, 2.9 APG\nShooting: 50.7% FG, 17.8% 3PT, 38.1% FT\nDefense: 1.6 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 234,
+      "frame_id": 234,
+      "text": "Player Season Stats\nPlayer ID: 1630587\nSeason: 22025\nGames: 13\nAverages: 2.5 PPG, 2.2 RPG, 0.4 APG\nShooting: 32.6% FG, 21.8% 3PT, 20.5% FT\nDefense: 0.5 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 235,
+      "frame_id": 235,
+      "text": "Player Season Stats\nPlayer ID: 1630214\nSeason: 22025\nGames: 8\nAverages: 2.5 PPG, 2.1 RPG, 0.6 APG\nShooting: 34.4% FG, 16.7% 3PT, 0.0% FT\nDefense: 0.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 236,
+      "frame_id": 236,
+      "text": "Player Season Stats\nPlayer ID: 101108\nSeason: 22025\nGames: 14\nAverages: 2.8 PPG, 1.9 RPG, 3.4 APG\nShooting: 33.4% FG, 27.4% 3PT, 7.1% FT\nDefense: 0.7 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 237,
+      "frame_id": 237,
+      "text": "Player Season Stats\nPlayer ID: 1642959\nSeason: 22025\nGames: 16\nAverages: 1.6 PPG, 0.7 RPG, 0.2 APG\nShooting: 26.0% FG, 26.0% 3PT, 12.5% FT\nDefense: 0.1 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 238,
+      "frame_id": 238,
+      "text": "Player Season Stats\nPlayer ID: 1629216\nSeason: 22025\nGames: 7\nAverages: 3.7 PPG, 0.6 RPG, 1.6 APG\nShooting: 42.6% FG, 41.7% 3PT, 14.3% FT\nDefense: 0.6 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 239,
+      "frame_id": 239,
+      "text": "Player Season Stats\nPlayer ID: 1642854\nSeason: 22025\nGames: 12\nAverages: 3.9 PPG, 1.6 RPG, 0.2 APG\nShooting: 25.8% FG, 29.2% 3PT, 27.1% FT\nDefense: 0.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 240,
+      "frame_id": 240,
+      "text": "Player Season Stats\nPlayer ID: 201145\nSeason: 22025\nGames: 6\nAverages: 2.0 PPG, 0.5 RPG, 0.0 APG\nShooting: 41.7% FG, 41.7% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 241,
+      "frame_id": 241,
+      "text": "Player Season Stats\nPlayer ID: 1642954\nSeason: 22025\nGames: 18\nAverages: 8.7 PPG, 2.7 RPG, 1.2 APG\nShooting: 57.9% FG, 41.1% 3PT, 39.4% FT\nDefense: 1.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 242,
+      "frame_id": 242,
+      "text": "Player Season Stats\nPlayer ID: 1628436\nSeason: 22025\nGames: 11\nAverages: 8.4 PPG, 6.1 RPG, 2.1 APG\nShooting: 63.1% FG, 0.0% 3PT, 49.2% FT\nDefense: 0.1 SPG, 1.3 BPG"
+    },
+    {
+      "chunk_id": 243,
+      "frame_id": 243,
+      "text": "Player Season Stats\nPlayer ID: 203083\nSeason: 22025\nGames: 17\nAverages: 8.2 PPG, 10.3 RPG, 0.7 APG\nShooting: 51.7% FG, 32.4% 3PT, 39.7% FT\nDefense: 0.7 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 244,
+      "frame_id": 244,
+      "text": "Player Season Stats\nPlayer ID: 1641718\nSeason: 22025\nGames: 18\nAverages: 23.8 PPG, 4.1 RPG, 7.1 APG\nShooting: 44.7% FG, 32.3% 3PT, 90.3% FT\nDefense: 1.0 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 245,
+      "frame_id": 245,
+      "text": "Player Season Stats\nPlayer ID: 1627742\nSeason: 22025\nGames: 19\nAverages: 21.8 PPG, 5.9 RPG, 3.7 APG\nShooting: 49.3% FG, 27.2% 3PT, 76.4% FT\nDefense: 1.1 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 246,
+      "frame_id": 246,
+      "text": "Player Season Stats\nPlayer ID: 1631101\nSeason: 22025\nGames: 15\nAverages: 21.8 PPG, 5.0 RPG, 2.1 APG\nShooting: 44.8% FG, 24.2% 3PT, 82.9% FT\nDefense: 1.3 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 247,
+      "frame_id": 247,
+      "text": "Player Season Stats\nPlayer ID: 203944\nSeason: 22025\nGames: 19\nAverages: 23.1 PPG, 7.6 RPG, 5.7 APG\nShooting: 48.8% FG, 33.0% 3PT, 80.9% FT\nDefense: 1.2 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 248,
+      "frame_id": 248,
+      "text": "Player Season Stats\nPlayer ID: 203078\nSeason: 22025\nGames: 6\nAverages: 8.2 PPG, 0.8 RPG, 1.7 APG\nShooting: 41.5% FG, 32.5% 3PT, 50.0% FT\nDefense: 0.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 249,
+      "frame_id": 249,
+      "text": "Player Season Stats\nPlayer ID: 1642271\nSeason: 22025\nGames: 17\nAverages: 8.4 PPG, 5.8 RPG, 2.2 APG\nShooting: 42.9% FG, 29.4% 3PT, 47.5% FT\nDefense: 0.4 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 250,
+      "frame_id": 250,
+      "text": "Player Season Stats\nPlayer ID: 1630631\nSeason: 22025\nGames: 18\nAverages: 8.6 PPG, 3.0 RPG, 2.8 APG\nShooting: 39.1% FG, 36.6% 3PT, 23.6% FT\nDefense: 1.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 251,
+      "frame_id": 251,
+      "text": "Player Season Stats\nPlayer ID: 1642357\nSeason: 22025\nGames: 6\nAverages: 3.8 PPG, 1.8 RPG, 2.2 APG\nShooting: 59.1% FG, 16.7% 3PT, 25.0% FT\nDefense: 0.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 252,
+      "frame_id": 252,
+      "text": "Player Season Stats\nPlayer ID: 1643007\nSeason: 22025\nGames: 12\nAverages: 1.9 PPG, 1.2 RPG, 1.2 APG\nShooting: 18.4% FG, 18.1% 3PT, 8.3% FT\nDefense: 0.2 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 253,
+      "frame_id": 253,
+      "text": "Player Season Stats\nPlayer ID: 1629599\nSeason: 22025\nGames: 15\nAverages: 1.6 PPG, 0.9 RPG, 0.5 APG\nShooting: 34.4% FG, 16.7% 3PT, 6.7% FT\nDefense: 0.0 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 254,
+      "frame_id": 254,
+      "text": "Player Season Stats\nPlayer ID: 1631124\nSeason: 22025\nGames: 9\nAverages: 3.7 PPG, 1.6 RPG, 0.4 APG\nShooting: 29.8% FG, 13.3% 3PT, 35.2% FT\nDefense: 0.0 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 255,
+      "frame_id": 255,
+      "text": "Player Season Stats\nPlayer ID: 1642949\nSeason: 22025\nGames: 9\nAverages: 2.8 PPG, 1.3 RPG, 0.3 APG\nShooting: 50.0% FG, 0.0% 3PT, 13.9% FT\nDefense: 0.0 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 256,
+      "frame_id": 256,
+      "text": "Player Season Stats\nPlayer ID: 1629723\nSeason: 22025\nGames: 18\nAverages: 2.5 PPG, 2.8 RPG, 1.2 APG\nShooting: 34.8% FG, 23.6% 3PT, 8.3% FT\nDefense: 0.8 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 257,
+      "frame_id": 257,
+      "text": "Player Season Stats\nPlayer ID: 1630611\nSeason: 22025\nGames: 15\nAverages: 2.5 PPG, 1.5 RPG, 0.3 APG\nShooting: 34.8% FG, 28.9% 3PT, 13.3% FT\nDefense: 0.3 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 258,
+      "frame_id": 258,
+      "text": "Player Season Stats\nPlayer ID: 1641739\nSeason: 22025\nGames: 19\nAverages: 11.9 PPG, 5.3 RPG, 2.7 APG\nShooting: 40.1% FG, 30.0% 3PT, 44.7% FT\nDefense: 1.1 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 259,
+      "frame_id": 259,
+      "text": "Player Season Stats\nPlayer ID: 1628381\nSeason: 22025\nGames: 19\nAverages: 11.5 PPG, 4.9 RPG, 0.5 APG\nShooting: 47.7% FG, 28.4% 3PT, 70.4% FT\nDefense: 0.7 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 260,
+      "frame_id": 260,
+      "text": "Player Season Stats\nPlayer ID: 1631212\nSeason: 22025\nGames: 18\nAverages: 10.1 PPG, 4.8 RPG, 1.7 APG\nShooting: 44.0% FG, 27.9% 3PT, 59.3% FT\nDefense: 1.1 SPG, 1.1 BPG"
+    },
+    {
+      "chunk_id": 261,
+      "frame_id": 261,
+      "text": "Player Season Stats\nPlayer ID: 1630558\nSeason: 22025\nGames: 19\nAverages: 9.8 PPG, 2.9 RPG, 7.4 APG\nShooting: 51.0% FG, 39.8% 3PT, 31.1% FT\nDefense: 1.3 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 262,
+      "frame_id": 262,
+      "text": "Player Season Stats\nPlayer ID: 1630700\nSeason: 22025\nGames: 20\nAverages: 9.9 PPG, 6.5 RPG, 5.9 APG\nShooting: 49.0% FG, 14.6% 3PT, 38.8% FT\nDefense: 2.2 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 263,
+      "frame_id": 263,
+      "text": "Player Season Stats\nPlayer ID: 1627884\nSeason: 22025\nGames: 13\nAverages: 10.5 PPG, 2.4 RPG, 1.1 APG\nShooting: 55.5% FG, 30.7% 3PT, 40.8% FT\nDefense: 0.8 SPG, 1.2 BPG"
+    },
+    {
+      "chunk_id": 264,
+      "frame_id": 264,
+      "text": "Player Season Stats\nPlayer ID: 1642377\nSeason: 22025\nGames: 20\nAverages: 11.2 PPG, 3.5 RPG, 1.8 APG\nShooting: 42.5% FG, 33.0% 3PT, 45.8% FT\nDefense: 0.7 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 265,
+      "frame_id": 265,
+      "text": "Player Season Stats\nPlayer ID: 1641752\nSeason: 22025\nGames: 6\nAverages: 2.8 PPG, 2.7 RPG, 0.7 APG\nShooting: 39.5% FG, 13.9% 3PT, 0.0% FT\nDefense: 0.3 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 266,
+      "frame_id": 266,
+      "text": "Player Season Stats\nPlayer ID: 1630604\nSeason: 22025\nGames: 6\nAverages: 2.0 PPG, 1.3 RPG, 0.0 APG\nShooting: 27.8% FG, 16.7% 3PT, 25.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 267,
+      "frame_id": 267,
+      "text": "Player Season Stats\nPlayer ID: 1641763\nSeason: 22025\nGames: 17\nAverages: 2.2 PPG, 1.2 RPG, 0.2 APG\nShooting: 25.0% FG, 14.2% 3PT, 5.9% FT\nDefense: 0.4 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 268,
+      "frame_id": 268,
+      "text": "Player Season Stats\nPlayer ID: 1641871\nSeason: 22025\nGames: 15\nAverages: 3.3 PPG, 0.7 RPG, 0.3 APG\nShooting: 42.2% FG, 39.8% 3PT, 0.0% FT\nDefense: 0.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 269,
+      "frame_id": 269,
+      "text": "Player Season Stats\nPlayer ID: 1642862\nSeason: 22025\nGames: 13\nAverages: 3.8 PPG, 2.0 RPG, 0.9 APG\nShooting: 33.0% FG, 33.8% 3PT, 41.7% FT\nDefense: 0.2 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 270,
+      "frame_id": 270,
+      "text": "Player Season Stats\nPlayer ID: 1631217\nSeason: 22025\nGames: 19\nAverages: 9.4 PPG, 8.1 RPG, 1.2 APG\nShooting: 69.0% FG, 0.0% 3PT, 68.8% FT\nDefense: 0.6 SPG, 1.2 BPG"
+    },
+    {
+      "chunk_id": 271,
+      "frame_id": 271,
+      "text": "Player Season Stats\nPlayer ID: 1630557\nSeason: 22025\nGames: 17\nAverages: 8.9 PPG, 2.5 RPG, 1.7 APG\nShooting: 47.1% FG, 37.3% 3PT, 43.7% FT\nDefense: 0.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 272,
+      "frame_id": 272,
+      "text": "Player Season Stats\nPlayer ID: 1630171\nSeason: 22025\nGames: 15\nAverages: 8.2 PPG, 2.7 RPG, 1.6 APG\nShooting: 40.8% FG, 33.9% 3PT, 30.0% FT\nDefense: 0.4 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 273,
+      "frame_id": 273,
+      "text": "Player Season Stats\nPlayer ID: 1630178\nSeason: 22025\nGames: 18\nAverages: 31.7 PPG, 4.7 RPG, 7.5 APG\nShooting: 46.7% FG, 40.3% 3PT, 89.5% FT\nDefense: 1.6 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 274,
+      "frame_id": 274,
+      "text": "Player Season Stats\nPlayer ID: 1626164\nSeason: 22025\nGames: 20\nAverages: 25.8 PPG, 4.5 RPG, 6.8 APG\nShooting: 45.9% FG, 31.0% 3PT, 89.4% FT\nDefense: 0.9 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 275,
+      "frame_id": 275,
+      "text": "Player Season Stats\nPlayer ID: 1630166\nSeason: 22025\nGames: 19\nAverages: 25.5 PPG, 6.4 RPG, 5.5 APG\nShooting: 47.4% FG, 38.0% 3PT, 76.4% FT\nDefense: 0.5 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 276,
+      "frame_id": 276,
+      "text": "Player Season Stats\nPlayer ID: 203507\nSeason: 22025\nGames: 14\nAverages: 31.1 PPG, 11.1 RPG, 6.9 APG\nShooting: 64.3% FG, 40.5% 3PT, 62.1% FT\nDefense: 0.9 SPG, 1.1 BPG"
+    },
+    {
+      "chunk_id": 277,
+      "frame_id": 277,
+      "text": "Player Season Stats\nPlayer ID: 1630692\nSeason: 22025\nGames: 17\nAverages: 8.2 PPG, 4.6 RPG, 2.0 APG\nShooting: 38.6% FG, 31.2% 3PT, 23.0% FT\nDefense: 1.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 278,
+      "frame_id": 278,
+      "text": "Player Season Stats\nPlayer ID: 1630570\nSeason: 22025\nGames: 14\nAverages: 8.9 PPG, 4.7 RPG, 3.6 APG\nShooting: 49.2% FG, 23.8% 3PT, 51.4% FT\nDefense: 0.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 279,
+      "frame_id": 279,
+      "text": "Player Season Stats\nPlayer ID: 1631222\nSeason: 22025\nGames: 18\nAverages: 9.3 PPG, 3.9 RPG, 2.1 APG\nShooting: 47.5% FG, 28.2% 3PT, 51.6% FT\nDefense: 1.3 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 280,
+      "frame_id": 280,
+      "text": "Player Season Stats\nPlayer ID: 1642363\nSeason: 22025\nGames: 16\nAverages: 3.8 PPG, 2.7 RPG, 1.8 APG\nShooting: 22.1% FG, 16.9% 3PT, 29.7% FT\nDefense: 0.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 281,
+      "frame_id": 281,
+      "text": "Player Season Stats\nPlayer ID: 1630264\nSeason: 22025\nGames: 6\nAverages: 2.2 PPG, 0.8 RPG, 0.0 APG\nShooting: 66.7% FG, 16.7% 3PT, 33.3% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 282,
+      "frame_id": 282,
+      "text": "Player Season Stats\nPlayer ID: 1642879\nSeason: 22025\nGames: 7\nAverages: 3.3 PPG, 1.9 RPG, 2.4 APG\nShooting: 33.8% FG, 20.0% 3PT, 23.8% FT\nDefense: 0.3 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 283,
+      "frame_id": 283,
+      "text": "Player Season Stats\nPlayer ID: 1642859\nSeason: 22025\nGames: 11\nAverages: 2.8 PPG, 0.6 RPG, 0.9 APG\nShooting: 21.5% FG, 20.5% 3PT, 22.7% FT\nDefense: 0.1 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 284,
+      "frame_id": 284,
+      "text": "Player Season Stats\nPlayer ID: 1630621\nSeason: 22025\nGames: 1\nAverages: 2.0 PPG, 0.0 RPG, 0.0 APG\nShooting: 50.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 285,
+      "frame_id": 285,
+      "text": "Player Season Stats\nPlayer ID: 1631260\nSeason: 22025\nGames: 20\nAverages: 11.2 PPG, 2.9 RPG, 1.9 APG\nShooting: 48.9% FG, 48.5% 3PT, 24.0% FT\nDefense: 0.6 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 286,
+      "frame_id": 286,
+      "text": "Player Season Stats\nPlayer ID: 203903\nSeason: 22025\nGames: 18\nAverages: 10.4 PPG, 2.0 RPG, 1.7 APG\nShooting: 46.2% FG, 27.4% 3PT, 30.1% FT\nDefense: 0.3 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 287,
+      "frame_id": 287,
+      "text": "Player Season Stats\nPlayer ID: 1642285\nSeason: 22025\nGames: 20\nAverages: 10.0 PPG, 2.1 RPG, 3.5 APG\nShooting: 45.8% FG, 44.6% 3PT, 60.8% FT\nDefense: 0.7 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 288,
+      "frame_id": 288,
+      "text": "Player Season Stats\nPlayer ID: 1630540\nSeason: 22025\nGames: 15\nAverages: 11.2 PPG, 2.5 RPG, 2.4 APG\nShooting: 42.0% FG, 42.6% 3PT, 28.3% FT\nDefense: 0.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 289,
+      "frame_id": 289,
+      "text": "Player Season Stats\nPlayer ID: 203497\nSeason: 22025\nGames: 19\nAverages: 10.5 PPG, 10.2 RPG, 1.8 APG\nShooting: 71.9% FG, 0.0% 3PT, 43.6% FT\nDefense: 0.4 SPG, 1.7 BPG"
+    },
+    {
+      "chunk_id": 290,
+      "frame_id": 290,
+      "text": "Player Season Stats\nPlayer ID: 1642258\nSeason: 22025\nGames: 17\nAverages: 11.8 PPG, 2.8 RPG, 1.6 APG\nShooting: 46.6% FG, 30.9% 3PT, 32.4% FT\nDefense: 1.0 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 291,
+      "frame_id": 291,
+      "text": "Player Season Stats\nPlayer ID: 1630322\nSeason: 22025\nGames: 8\nAverages: 2.5 PPG, 1.0 RPG, 0.4 APG\nShooting: 45.8% FG, 41.7% 3PT, 0.0% FT\nDefense: 0.1 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 292,
+      "frame_id": 292,
+      "text": "Player Season Stats\nPlayer ID: 1642278\nSeason: 22025\nGames: 14\nAverages: 3.2 PPG, 0.6 RPG, 1.6 APG\nShooting: 37.9% FG, 19.6% 3PT, 3.6% FT\nDefense: 0.4 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 293,
+      "frame_id": 293,
+      "text": "Player Season Stats\nPlayer ID: 1642364\nSeason: 22025\nGames: 5\nAverages: 2.2 PPG, 1.2 RPG, 0.0 APG\nShooting: 21.7% FG, 10.0% 3PT, 20.0% FT\nDefense: 0.0 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 294,
+      "frame_id": 294,
+      "text": "Player Season Stats\nPlayer ID: 1626145\nSeason: 22025\nGames: 20\nAverages: 2.0 PPG, 0.9 RPG, 1.9 APG\nShooting: 25.8% FG, 13.8% 3PT, 5.0% FT\nDefense: 0.7 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 295,
+      "frame_id": 295,
+      "text": "Player Season Stats\nPlayer ID: 1642905\nSeason: 22025\nGames: 10\nAverages: 2.8 PPG, 1.6 RPG, 0.7 APG\nShooting: 24.3% FG, 1.7% 3PT, 45.0% FT\nDefense: 0.0 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 296,
+      "frame_id": 296,
+      "text": "Player Season Stats\nPlayer ID: 1631288\nSeason: 22025\nGames: 5\nAverages: 1.6 PPG, 0.8 RPG, 0.4 APG\nShooting: 23.3% FG, 20.0% 3PT, 10.0% FT\nDefense: 0.2 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 297,
+      "frame_id": 297,
+      "text": "Player Season Stats\nPlayer ID: 1631107\nSeason: 22025\nGames: 14\nAverages: 8.8 PPG, 4.4 RPG, 3.1 APG\nShooting: 36.4% FG, 22.6% 3PT, 55.4% FT\nDefense: 0.6 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 298,
+      "frame_id": 298,
+      "text": "Player Season Stats\nPlayer ID: 1641757\nSeason: 22025\nGames: 3\nAverages: 9.3 PPG, 2.7 RPG, 1.0 APG\nShooting: 42.2% FG, 23.8% 3PT, 61.1% FT\nDefense: 0.3 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 299,
+      "frame_id": 299,
+      "text": "Player Season Stats\nPlayer ID: 1641705\nSeason: 22025\nGames: 12\nAverages: 26.2 PPG, 12.9 RPG, 4.0 APG\nShooting: 51.1% FG, 25.8% 3PT, 73.4% FT\nDefense: 1.1 SPG, 3.6 BPG"
+    },
+    {
+      "chunk_id": 300,
+      "frame_id": 300,
+      "text": "Player Season Stats\nPlayer ID: 1628983\nSeason: 22025\nGames: 20\nAverages: 32.9 PPG, 4.8 RPG, 6.7 APG\nShooting: 55.8% FG, 46.3% 3PT, 91.1% FT\nDefense: 1.6 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 301,
+      "frame_id": 301,
+      "text": "Player Season Stats\nPlayer ID: 1631097\nSeason: 22025\nGames: 8\nAverages: 22.6 PPG, 5.6 RPG, 2.4 APG\nShooting: 45.6% FG, 46.1% 3PT, 82.6% FT\nDefense: 0.6 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 302,
+      "frame_id": 302,
+      "text": "Player Season Stats\nPlayer ID: 1630532\nSeason: 22025\nGames: 20\nAverages: 22.8 PPG, 6.4 RPG, 3.8 APG\nShooting: 47.8% FG, 29.5% 3PT, 83.9% FT\nDefense: 1.1 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 303,
+      "frame_id": 303,
+      "text": "Player Season Stats\nPlayer ID: 1629029\nSeason: 22025\nGames: 14\nAverages: 35.1 PPG, 8.5 RPG, 9.4 APG\nShooting: 47.0% FG, 33.2% 3PT, 79.4% FT\nDefense: 1.8 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 304,
+      "frame_id": 304,
+      "text": "Player Season Stats\nPlayer ID: 1629639\nSeason: 22025\nGames: 2\nAverages: 26.5 PPG, 6.0 RPG, 3.5 APG\nShooting: 63.3% FG, 30.0% 3PT, 50.0% FT\nDefense: 2.0 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 305,
+      "frame_id": 305,
+      "text": "Player Season Stats\nPlayer ID: 1641715\nSeason: 22025\nGames: 18\nAverages: 9.3 PPG, 2.7 RPG, 0.7 APG\nShooting: 42.5% FG, 32.8% 3PT, 48.2% FT\nDefense: 0.7 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 306,
+      "frame_id": 306,
+      "text": "Player Season Stats\nPlayer ID: 1631213\nSeason: 22025\nGames: 18\nAverages: 8.8 PPG, 3.2 RPG, 2.7 APG\nShooting: 36.0% FG, 29.9% 3PT, 34.3% FT\nDefense: 0.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 307,
+      "frame_id": 307,
+      "text": "Player Season Stats\nPlayer ID: 1631210\nSeason: 22025\nGames: 5\nAverages: 1.6 PPG, 0.2 RPG, 0.2 APG\nShooting: 40.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 308,
+      "frame_id": 308,
+      "text": "Player Season Stats\nPlayer ID: 1642269\nSeason: 22025\nGames: 8\nAverages: 2.1 PPG, 1.5 RPG, 1.1 APG\nShooting: 16.7% FG, 4.2% 3PT, 37.5% FT\nDefense: 0.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 309,
+      "frame_id": 309,
+      "text": "Player Season Stats\nPlayer ID: 1630551\nSeason: 22025\nGames: 16\nAverages: 2.8 PPG, 3.1 RPG, 0.7 APG\nShooting: 22.9% FG, 6.2% 3PT, 35.4% FT\nDefense: 0.6 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 310,
+      "frame_id": 310,
+      "text": "Player Season Stats\nPlayer ID: 1630619\nSeason: 22025\nGames: 15\nAverages: 3.3 PPG, 3.6 RPG, 0.2 APG\nShooting: 38.1% FG, 0.0% 3PT, 15.5% FT\nDefense: 0.3 SPG, 1.2 BPG"
+    },
+    {
+      "chunk_id": 311,
+      "frame_id": 311,
+      "text": "Player Season Stats\nPlayer ID: 1631247\nSeason: 22025\nGames: 8\nAverages: 2.2 PPG, 1.9 RPG, 0.8 APG\nShooting: 12.9% FG, 4.2% 3PT, 50.0% FT\nDefense: 0.8 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 312,
+      "frame_id": 312,
+      "text": "Player Season Stats\nPlayer ID: 1641713\nSeason: 22025\nGames: 8\nAverages: 2.5 PPG, 1.8 RPG, 0.2 APG\nShooting: 13.0% FG, 0.0% 3PT, 33.3% FT\nDefense: 0.5 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 313,
+      "frame_id": 313,
+      "text": "Player Season Stats\nPlayer ID: 1626156\nSeason: 22025\nGames: 17\nAverages: 11.9 PPG, 2.8 RPG, 4.8 APG\nShooting: 34.5% FG, 18.5% 3PT, 55.7% FT\nDefense: 0.5 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 314,
+      "frame_id": 314,
+      "text": "Player Season Stats\nPlayer ID: 1641716\nSeason: 22025\nGames: 19\nAverages: 10.5 PPG, 5.4 RPG, 2.5 APG\nShooting: 34.8% FG, 28.0% 3PT, 55.6% FT\nDefense: 0.6 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 315,
+      "frame_id": 315,
+      "text": "Player Season Stats\nPlayer ID: 1629111\nSeason: 22025\nGames: 20\nAverages: 11.2 PPG, 5.5 RPG, 1.5 APG\nShooting: 52.9% FG, 43.2% 3PT, 41.2% FT\nDefense: 0.5 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 316,
+      "frame_id": 316,
+      "text": "Player Season Stats\nPlayer ID: 1630577\nSeason: 22025\nGames: 18\nAverages: 11.3 PPG, 5.4 RPG, 1.4 APG\nShooting: 42.6% FG, 37.4% 3PT, 59.5% FT\nDefense: 0.9 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 317,
+      "frame_id": 317,
+      "text": "Player Season Stats\nPlayer ID: 1642281\nSeason: 22025\nGames: 15\nAverages: 11.1 PPG, 4.5 RPG, 1.7 APG\nShooting: 50.9% FG, 46.7% 3PT, 41.7% FT\nDefense: 1.2 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 318,
+      "frame_id": 318,
+      "text": "Player Season Stats\nPlayer ID: 1626171\nSeason: 22025\nGames: 20\nAverages: 10.8 PPG, 5.5 RPG, 1.2 APG\nShooting: 48.1% FG, 47.3% 3PT, 18.3% FT\nDefense: 0.5 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 319,
+      "frame_id": 319,
+      "text": "Player Season Stats\nPlayer ID: 1642868\nSeason: 22025\nGames: 13\nAverages: 2.3 PPG, 1.5 RPG, 0.0 APG\nShooting: 17.7% FG, 19.2% 3PT, 15.4% FT\nDefense: 0.3 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 320,
+      "frame_id": 320,
+      "text": "Player Season Stats\nPlayer ID: 1642853\nSeason: 22025\nGames: 9\nAverages: 1.8 PPG, 1.4 RPG, 0.2 APG\nShooting: 20.4% FG, 11.1% 3PT, 11.1% FT\nDefense: 0.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 321,
+      "frame_id": 321,
+      "text": "Player Season Stats\nPlayer ID: 1631207\nSeason: 22025\nGames: 10\nAverages: 2.3 PPG, 1.3 RPG, 1.5 APG\nShooting: 38.3% FG, 13.3% 3PT, 12.5% FT\nDefense: 0.4 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 322,
+      "frame_id": 322,
+      "text": "Player Season Stats\nPlayer ID: 1642275\nSeason: 22025\nGames: 7\nAverages: 3.1 PPG, 3.6 RPG, 0.7 APG\nShooting: 32.4% FG, 31.0% 3PT, 17.9% FT\nDefense: 0.3 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 323,
+      "frame_id": 323,
+      "text": "Player Season Stats\nPlayer ID: 1630534\nSeason: 22025\nGames: 14\nAverages: 2.9 PPG, 1.6 RPG, 0.6 APG\nShooting: 32.6% FG, 1.8% 3PT, 25.0% FT\nDefense: 0.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 324,
+      "frame_id": 324,
+      "text": "Player Season Stats\nPlayer ID: 1631111\nSeason: 22025\nGames: 3\nAverages: 2.0 PPG, 1.3 RPG, 1.0 APG\nShooting: 55.6% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.7 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 325,
+      "frame_id": 325,
+      "text": "Player Season Stats\nPlayer ID: 1641717\nSeason: 22025\nGames: 19\nAverages: 8.9 PPG, 2.9 RPG, 2.5 APG\nShooting: 45.4% FG, 40.4% 3PT, 23.7% FT\nDefense: 2.3 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 326,
+      "frame_id": 326,
+      "text": "Player Season Stats\nPlayer ID: 1629004\nSeason: 22025\nGames: 18\nAverages: 9.3 PPG, 2.6 RPG, 2.1 APG\nShooting: 45.4% FG, 36.6% 3PT, 20.4% FT\nDefense: 0.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 327,
+      "frame_id": 327,
+      "text": "Player Season Stats\nPlayer ID: 1630560\nSeason: 22025\nGames: 8\nAverages: 21.4 PPG, 1.4 RPG, 2.6 APG\nShooting: 33.6% FG, 28.7% 3PT, 73.5% FT\nDefense: 0.5 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 328,
+      "frame_id": 328,
+      "text": "Player Season Stats\nPlayer ID: 1630559\nSeason: 22025\nGames: 15\nAverages: 28.5 PPG, 5.9 RPG, 6.7 APG\nShooting: 52.1% FG, 34.0% 3PT, 87.1% FT\nDefense: 1.3 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 329,
+      "frame_id": 329,
+      "text": "Player Season Stats\nPlayer ID: 1628378\nSeason: 22025\nGames: 18\nAverages: 30.6 PPG, 4.7 RPG, 5.3 APG\nShooting: 50.8% FG, 39.4% 3PT, 83.9% FT\nDefense: 1.4 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 330,
+      "frame_id": 330,
+      "text": "Player Season Stats\nPlayer ID: 1628973\nSeason: 22025\nGames: 16\nAverages: 29.1 PPG, 3.2 RPG, 6.2 APG\nShooting: 48.1% FG, 37.0% 3PT, 87.0% FT\nDefense: 0.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 331,
+      "frame_id": 331,
+      "text": "Player Season Stats\nPlayer ID: 1628374\nSeason: 22025\nGames: 18\nAverages: 28.5 PPG, 6.2 RPG, 2.2 APG\nShooting: 46.8% FG, 36.0% 3PT, 86.1% FT\nDefense: 0.9 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 332,
+      "frame_id": 332,
+      "text": "Player Season Stats\nPlayer ID: 1628415\nSeason: 22025\nGames: 14\nAverages: 21.1 PPG, 3.2 RPG, 1.7 APG\nShooting: 44.7% FG, 33.2% 3PT, 79.2% FT\nDefense: 1.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 333,
+      "frame_id": 333,
+      "text": "Player Season Stats\nPlayer ID: 1629013\nSeason: 22025\nGames: 15\nAverages: 9.3 PPG, 2.0 RPG, 1.2 APG\nShooting: 43.4% FG, 45.2% 3PT, 52.2% FT\nDefense: 0.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 334,
+      "frame_id": 334,
+      "text": "Player Season Stats\nPlayer ID: 1629611\nSeason: 22025\nGames: 18\nAverages: 8.9 PPG, 3.4 RPG, 3.7 APG\nShooting: 41.4% FG, 38.0% 3PT, 45.9% FT\nDefense: 0.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 335,
+      "frame_id": 335,
+      "text": "Player Season Stats\nPlayer ID: 1631120\nSeason: 22025\nGames: 7\nAverages: 2.9 PPG, 0.1 RPG, 1.1 APG\nShooting: 54.8% FG, 47.6% 3PT, 0.0% FT\nDefense: 0.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 336,
+      "frame_id": 336,
+      "text": "Player Season Stats\nPlayer ID: 1631166\nSeason: 22025\nGames: 1\nAverages: 2.0 PPG, 0.0 RPG, 0.0 APG\nShooting: 50.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 1.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 337,
+      "frame_id": 337,
+      "text": "Player Season Stats\nPlayer ID: 1642262\nSeason: 22025\nGames: 11\nAverages: 2.3 PPG, 0.9 RPG, 0.5 APG\nShooting: 25.6% FG, 4.5% 3PT, 4.5% FT\nDefense: 0.3 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 338,
+      "frame_id": 338,
+      "text": "Player Season Stats\nPlayer ID: 1627780\nSeason: 22025\nGames: 19\nAverages: 3.1 PPG, 2.8 RPG, 1.5 APG\nShooting: 35.3% FG, 13.2% 3PT, 5.3% FT\nDefense: 0.6 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 339,
+      "frame_id": 339,
+      "text": "Player Season Stats\nPlayer ID: 1641712\nSeason: 22025\nGames: 12\nAverages: 1.8 PPG, 2.0 RPG, 0.3 APG\nShooting: 18.6% FG, 12.5% 3PT, 8.3% FT\nDefense: 0.5 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 340,
+      "frame_id": 340,
+      "text": "Player Season Stats\nPlayer ID: 1631451\nSeason: 22025\nGames: 3\nAverages: 2.3 PPG, 0.3 RPG, 1.0 APG\nShooting: 22.2% FG, 16.7% 3PT, 0.0% FT\nDefense: 0.3 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 341,
+      "frame_id": 341,
+      "text": "Player Season Stats\nPlayer ID: 1627751\nSeason: 22025\nGames: 14\nAverages: 10.7 PPG, 8.1 RPG, 1.9 APG\nShooting: 73.4% FG, 0.0% 3PT, 40.6% FT\nDefense: 0.7 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 342,
+      "frame_id": 342,
+      "text": "Player Season Stats\nPlayer ID: 1629661\nSeason: 22025\nGames: 17\nAverages: 11.0 PPG, 3.4 RPG, 2.1 APG\nShooting: 43.0% FG, 32.9% 3PT, 56.9% FT\nDefense: 0.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 343,
+      "frame_id": 343,
+      "text": "Player Season Stats\nPlayer ID: 203501\nSeason: 22025\nGames: 18\nAverages: 11.3 PPG, 1.9 RPG, 1.4 APG\nShooting: 43.7% FG, 39.2% 3PT, 44.4% FT\nDefense: 0.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 344,
+      "frame_id": 344,
+      "text": "Player Season Stats\nPlayer ID: 1629655\nSeason: 22025\nGames: 14\nAverages: 9.4 PPG, 6.5 RPG, 1.4 APG\nShooting: 58.5% FG, 0.0% 3PT, 63.6% FT\nDefense: 0.9 SPG, 1.5 BPG"
+    },
+    {
+      "chunk_id": 345,
+      "frame_id": 345,
+      "text": "Player Season Stats\nPlayer ID: 204456\nSeason: 22025\nGames: 9\nAverages: 10.7 PPG, 2.8 RPG, 4.4 APG\nShooting: 52.2% FG, 27.8% 3PT, 11.1% FT\nDefense: 0.9 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 346,
+      "frame_id": 346,
+      "text": "Player Season Stats\nPlayer ID: 1641744\nSeason: 22025\nGames: 7\nAverages: 11.0 PPG, 10.3 RPG, 1.0 APG\nShooting: 66.6% FG, 14.3% 3PT, 61.1% FT\nDefense: 0.9 SPG, 1.9 BPG"
+    },
+    {
+      "chunk_id": 347,
+      "frame_id": 347,
+      "text": "Player Season Stats\nPlayer ID: 1631133\nSeason: 22025\nGames: 18\nAverages: 3.4 PPG, 3.1 RPG, 0.6 APG\nShooting: 32.3% FG, 13.9% 3PT, 16.7% FT\nDefense: 0.1 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 348,
+      "frame_id": 348,
+      "text": "Player Season Stats\nPlayer ID: 1641780\nSeason: 22025\nGames: 5\nAverages: 2.0 PPG, 1.8 RPG, 0.6 APG\nShooting: 12.4% FG, 0.0% 3PT, 20.0% FT\nDefense: 0.4 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 349,
+      "frame_id": 349,
+      "text": "Player Season Stats\nPlayer ID: 1628371\nSeason: 22025\nGames: 18\nAverages: 2.9 PPG, 3.2 RPG, 0.1 APG\nShooting: 37.2% FG, 21.3% 3PT, 12.5% FT\nDefense: 0.3 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 350,
+      "frame_id": 350,
+      "text": "Player Season Stats\nPlayer ID: 1641813\nSeason: 22025\nGames: 7\nAverages: 3.1 PPG, 0.3 RPG, 0.3 APG\nShooting: 33.3% FG, 23.8% 3PT, 19.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 351,
+      "frame_id": 351,
+      "text": "Player Season Stats\nPlayer ID: 1629726\nSeason: 22025\nGames: 4\nAverages: 2.2 PPG, 0.8 RPG, 0.2 APG\nShooting: 7.1% FG, 7.1% 3PT, 25.0% FT\nDefense: 0.2 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 352,
+      "frame_id": 352,
+      "text": "Player Season Stats\nPlayer ID: 1628379\nSeason: 22025\nGames: 17\nAverages: 7.8 PPG, 1.8 RPG, 2.2 APG\nShooting: 47.4% FG, 39.0% 3PT, 45.6% FT\nDefense: 0.9 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 353,
+      "frame_id": 353,
+      "text": "Player Season Stats\nPlayer ID: 203935\nSeason: 22025\nGames: 14\nAverages: 9.3 PPG, 2.3 RPG, 2.9 APG\nShooting: 42.1% FG, 31.3% 3PT, 54.2% FT\nDefense: 1.8 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 354,
+      "frame_id": 354,
+      "text": "Player Season Stats\nPlayer ID: 1642268\nSeason: 22025\nGames: 10\nAverages: 9.0 PPG, 2.6 RPG, 5.8 APG\nShooting: 53.9% FG, 18.3% 3PT, 60.7% FT\nDefense: 0.5 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 355,
+      "frame_id": 355,
+      "text": "Player Season Stats\nPlayer ID: 1627759\nSeason: 22025\nGames: 19\nAverages: 28.8 PPG, 5.8 RPG, 4.5 APG\nShooting: 50.4% FG, 33.6% 3PT, 69.1% FT\nDefense: 1.2 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 356,
+      "frame_id": 356,
+      "text": "Player Season Stats\nPlayer ID: 201935\nSeason: 22025\nGames: 18\nAverages: 27.6 PPG, 5.8 RPG, 8.6 APG\nShooting: 44.3% FG, 35.8% 3PT, 90.3% FT\nDefense: 1.1 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 357,
+      "frame_id": 357,
+      "text": "Player Season Stats\nPlayer ID: 201939\nSeason: 22025\nGames: 16\nAverages: 27.9 PPG, 3.7 RPG, 4.0 APG\nShooting: 44.9% FG, 36.7% 3PT, 91.8% FT\nDefense: 1.3 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 358,
+      "frame_id": 358,
+      "text": "Player Season Stats\nPlayer ID: 203999\nSeason: 22025\nGames: 18\nAverages: 29.1 PPG, 12.6 RPG, 11.0 APG\nShooting: 64.6% FG, 50.1% 3PT, 74.0% FT\nDefense: 1.6 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 359,
+      "frame_id": 359,
+      "text": "Player Season Stats\nPlayer ID: 1641750\nSeason: 22025\nGames: 17\nAverages: 9.2 PPG, 6.7 RPG, 0.4 APG\nShooting: 77.2% FG, 0.0% 3PT, 44.1% FT\nDefense: 0.8 SPG, 1.9 BPG"
+    },
+    {
+      "chunk_id": 360,
+      "frame_id": 360,
+      "text": "Player Season Stats\nPlayer ID: 1642450\nSeason: 22025\nGames: 14\nAverages: 9.3 PPG, 1.8 RPG, 3.7 APG\nShooting: 38.3% FG, 33.9% 3PT, 39.3% FT\nDefense: 1.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 361,
+      "frame_id": 361,
+      "text": "Player Season Stats\nPlayer ID: 1629652\nSeason: 22025\nGames: 14\nAverages: 7.9 PPG, 3.7 RPG, 1.1 APG\nShooting: 38.7% FG, 32.5% 3PT, 32.1% FT\nDefense: 1.0 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 362,
+      "frame_id": 362,
+      "text": "Player Season Stats\nPlayer ID: 1641738\nSeason: 22025\nGames: 12\nAverages: 3.2 PPG, 1.5 RPG, 0.9 APG\nShooting: 36.8% FG, 18.1% 3PT, 16.7% FT\nDefense: 0.2 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 363,
+      "frame_id": 363,
+      "text": "Player Season Stats\nPlayer ID: 1628449\nSeason: 22025\nGames: 8\nAverages: 2.2 PPG, 2.2 RPG, 0.4 APG\nShooting: 22.9% FG, 6.2% 3PT, 18.8% FT\nDefense: 0.6 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 364,
+      "frame_id": 364,
+      "text": "Player Season Stats\nPlayer ID: 1631342\nSeason: 22025\nGames: 1\nAverages: 2.0 PPG, 2.0 RPG, 0.0 APG\nShooting: 20.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 365,
+      "frame_id": 365,
+      "text": "Player Season Stats\nPlayer ID: 1642434\nSeason: 22025\nGames: 3\nAverages: 3.0 PPG, 0.7 RPG, 0.3 APG\nShooting: 22.2% FG, 11.1% 3PT, 0.0% FT\nDefense: 0.3 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 366,
+      "frame_id": 366,
+      "text": "Player Season Stats\nPlayer ID: 203991\nSeason: 22025\nGames: 15\nAverages: 3.5 PPG, 4.7 RPG, 0.4 APG\nShooting: 58.1% FG, 0.0% 3PT, 23.3% FT\nDefense: 0.5 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 367,
+      "frame_id": 367,
+      "text": "Player Season Stats\nPlayer ID: 1631114\nSeason: 22025\nGames: 1\nAverages: 11.0 PPG, 4.0 RPG, 8.0 APG\nShooting: 25.0% FG, 100.0% 3PT, 100.0% FT\nDefense: 2.0 SPG, 1.0 BPG"
+    },
+    {
+      "chunk_id": 368,
+      "frame_id": 368,
+      "text": "Player Season Stats\nPlayer ID: 1630249\nSeason: 22025\nGames: 16\nAverages: 10.7 PPG, 2.1 RPG, 1.9 APG\nShooting: 49.9% FG, 44.7% 3PT, 19.3% FT\nDefense: 0.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 369,
+      "frame_id": 369,
+      "text": "Player Season Stats\nPlayer ID: 1641729\nSeason: 22025\nGames: 17\nAverages: 9.4 PPG, 2.5 RPG, 1.1 APG\nShooting: 41.5% FG, 29.1% 3PT, 44.6% FT\nDefense: 0.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 370,
+      "frame_id": 370,
+      "text": "Player Season Stats\nPlayer ID: 1628978\nSeason: 22025\nGames: 19\nAverages: 13.7 PPG, 3.9 RPG, 3.6 APG\nShooting: 42.2% FG, 38.6% 3PT, 69.6% FT\nDefense: 1.2 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 371,
+      "frame_id": 371,
+      "text": "Player Season Stats\nPlayer ID: 1642847\nSeason: 22025\nGames: 19\nAverages: 15.1 PPG, 3.2 RPG, 2.7 APG\nShooting: 45.2% FG, 31.8% 3PT, 69.5% FT\nDefense: 1.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 372,
+      "frame_id": 372,
+      "text": "Player Season Stats\nPlayer ID: 203084\nSeason: 22025\nGames: 18\nAverages: 12.8 PPG, 3.2 RPG, 2.2 APG\nShooting: 51.2% FG, 40.6% 3PT, 69.0% FT\nDefense: 1.1 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 373,
+      "frame_id": 373,
+      "text": "Player Season Stats\nPlayer ID: 1642384\nSeason: 22025\nGames: 1\nAverages: 0.0 PPG, 0.0 RPG, 0.0 APG\nShooting: 0.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 374,
+      "frame_id": 374,
+      "text": "Player Season Stats\nPlayer ID: 1630311\nSeason: 22025\nGames: 12\nAverages: 4.8 PPG, 1.9 RPG, 2.6 APG\nShooting: 32.4% FG, 20.8% 3PT, 35.4% FT\nDefense: 0.7 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 375,
+      "frame_id": 375,
+      "text": "Player Season Stats\nPlayer ID: 1630526\nSeason: 22025\nGames: 14\nAverages: 5.1 PPG, 5.6 RPG, 0.9 APG\nShooting: 39.6% FG, 29.8% 3PT, 33.9% FT\nDefense: 0.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 376,
+      "frame_id": 376,
+      "text": "Player Season Stats\nPlayer ID: 1641816\nSeason: 22025\nGames: 6\nAverages: 0.3 PPG, 1.8 RPG, 0.3 APG\nShooting: 0.0% FG, 0.0% 3PT, 16.7% FT\nDefense: 0.2 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 377,
+      "frame_id": 377,
+      "text": "Player Season Stats\nPlayer ID: 1642885\nSeason: 22025\nGames: 11\nAverages: 0.9 PPG, 0.6 RPG, 0.5 APG\nShooting: 27.3% FG, 18.2% 3PT, 0.0% FT\nDefense: 0.2 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 378,
+      "frame_id": 378,
+      "text": "Player Season Stats\nPlayer ID: 203500\nSeason: 22025\nGames: 14\nAverages: 6.0 PPG, 9.2 RPG, 1.5 APG\nShooting: 51.7% FG, 0.0% 3PT, 68.5% FT\nDefense: 0.6 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 379,
+      "frame_id": 379,
+      "text": "Player Season Stats\nPlayer ID: 1642348\nSeason: 22025\nGames: 16\nAverages: 6.6 PPG, 1.9 RPG, 1.4 APG\nShooting: 37.9% FG, 30.2% 3PT, 28.1% FT\nDefense: 0.7 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 380,
+      "frame_id": 380,
+      "text": "Player Season Stats\nPlayer ID: 1631243\nSeason: 22025\nGames: 20\nAverages: 6.2 PPG, 4.0 RPG, 1.2 APG\nShooting: 46.8% FG, 14.5% 3PT, 20.8% FT\nDefense: 0.5 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 381,
+      "frame_id": 381,
+      "text": "Player Season Stats\nPlayer ID: 1642851\nSeason: 22025\nGames: 20\nAverages: 18.4 PPG, 5.7 RPG, 3.0 APG\nShooting: 46.1% FG, 41.2% 3PT, 66.1% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 382,
+      "frame_id": 382,
+      "text": "Player Season Stats\nPlayer ID: 1626162\nSeason: 22025\nGames: 12\nAverages: 16.8 PPG, 5.1 RPG, 1.3 APG\nShooting: 47.5% FG, 33.6% 3PT, 81.7% FT\nDefense: 1.1 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 383,
+      "frame_id": 383,
+      "text": "Player Season Stats\nPlayer ID: 1629628\nSeason: 22025\nGames: 17\nAverages: 19.4 PPG, 4.8 RPG, 3.8 APG\nShooting: 51.2% FG, 36.4% 3PT, 68.9% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 384,
+      "frame_id": 384,
+      "text": "Player Season Stats\nPlayer ID: 1630163\nSeason: 22025\nGames: 13\nAverages: 19.5 PPG, 6.2 RPG, 8.5 APG\nShooting: 37.8% FG, 27.1% 3PT, 79.8% FT\nDefense: 1.2 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 385,
+      "frame_id": 385,
+      "text": "Player Season Stats\nPlayer ID: 1627734\nSeason: 22025\nGames: 11\nAverages: 17.2 PPG, 12.3 RPG, 3.7 APG\nShooting: 51.6% FG, 14.4% 3PT, 56.9% FT\nDefense: 1.2 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 386,
+      "frame_id": 386,
+      "text": "Player Season Stats\nPlayer ID: 1628960\nSeason: 22025\nGames: 13\nAverages: 18.5 PPG, 3.1 RPG, 4.3 APG\nShooting: 48.2% FG, 44.2% 3PT, 49.5% FT\nDefense: 1.6 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 387,
+      "frame_id": 387,
+      "text": "Player Season Stats\nPlayer ID: 1630696\nSeason: 22025\nGames: 19\nAverages: 6.2 PPG, 2.6 RPG, 2.9 APG\nShooting: 46.8% FG, 30.2% 3PT, 24.6% FT\nDefense: 1.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 388,
+      "frame_id": 388,
+      "text": "Player Season Stats\nPlayer ID: 1642920\nSeason: 22025\nGames: 11\nAverages: 6.6 PPG, 1.4 RPG, 1.3 APG\nShooting: 35.6% FG, 27.5% 3PT, 50.0% FT\nDefense: 0.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 389,
+      "frame_id": 389,
+      "text": "Player Season Stats\nPlayer ID: 203926\nSeason: 22025\nGames: 1\nAverages: 6.0 PPG, 0.0 RPG, 0.0 APG\nShooting: 66.7% FG, 66.7% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 390,
+      "frame_id": 390,
+      "text": "Player Season Stats\nPlayer ID: 1642939\nSeason: 22025\nGames: 2\nAverages: 1.0 PPG, 2.0 RPG, 0.0 APG\nShooting: 25.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 391,
+      "frame_id": 391,
+      "text": "Player Season Stats\nPlayer ID: 1629057\nSeason: 22025\nGames: 12\nAverages: 5.2 PPG, 4.5 RPG, 0.8 APG\nShooting: 62.1% FG, 8.3% 3PT, 8.3% FT\nDefense: 0.7 SPG, 1.3 BPG"
+    },
+    {
+      "chunk_id": 392,
+      "frame_id": 392,
+      "text": "Player Season Stats\nPlayer ID: 1642359\nSeason: 22025\nGames: 8\nAverages: 0.5 PPG, 0.6 RPG, 0.2 APG\nShooting: 6.2% FG, 0.0% 3PT, 12.5% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 393,
+      "frame_id": 393,
+      "text": "Player Season Stats\nPlayer ID: 1641998\nSeason: 22025\nGames: 2\nAverages: 0.0 PPG, 1.0 RPG, 0.0 APG\nShooting: 0.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 394,
+      "frame_id": 394,
+      "text": "Player Season Stats\nPlayer ID: 1642354\nSeason: 22025\nGames: 8\nAverages: 4.9 PPG, 2.0 RPG, 2.5 APG\nShooting: 30.7% FG, 33.3% 3PT, 18.8% FT\nDefense: 0.6 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 395,
+      "frame_id": 395,
+      "text": "Player Season Stats\nPlayer ID: 1631108\nSeason: 22025\nGames: 20\nAverages: 12.8 PPG, 3.5 RPG, 2.1 APG\nShooting: 48.3% FG, 44.7% 3PT, 46.2% FT\nDefense: 0.5 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 396,
+      "frame_id": 396,
+      "text": "Player Season Stats\nPlayer ID: 1642349\nSeason: 22025\nGames: 20\nAverages: 15.2 PPG, 3.4 RPG, 3.6 APG\nShooting: 44.9% FG, 30.8% 3PT, 75.0% FT\nDefense: 1.6 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 397,
+      "frame_id": 397,
+      "text": "Player Season Stats\nPlayer ID: 1630583\nSeason: 22025\nGames: 20\nAverages: 13.8 PPG, 6.7 RPG, 3.0 APG\nShooting: 47.8% FG, 34.5% 3PT, 46.2% FT\nDefense: 0.9 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 398,
+      "frame_id": 398,
+      "text": "Player Season Stats\nPlayer ID: 1631095\nSeason: 22025\nGames: 15\nAverages: 15.1 PPG, 6.7 RPG, 1.8 APG\nShooting: 45.4% FG, 36.1% 3PT, 64.8% FT\nDefense: 0.8 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 399,
+      "frame_id": 399,
+      "text": "Player Season Stats\nPlayer ID: 1629636\nSeason: 22025\nGames: 6\nAverages: 13.7 PPG, 2.8 RPG, 6.7 APG\nShooting: 34.7% FG, 35.8% 3PT, 83.3% FT\nDefense: 0.7 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 400,
+      "frame_id": 400,
+      "text": "Player Season Stats\nPlayer ID: 202687\nSeason: 22025\nGames: 6\nAverages: 0.3 PPG, 1.0 RPG, 0.3 APG\nShooting: 16.7% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 401,
+      "frame_id": 401,
+      "text": "Player Season Stats\nPlayer ID: 201567\nSeason: 22025\nGames: 11\nAverages: 5.4 PPG, 4.6 RPG, 1.9 APG\nShooting: 32.2% FG, 27.6% 3PT, 36.4% FT\nDefense: 0.2 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 402,
+      "frame_id": 402,
+      "text": "Player Season Stats\nPlayer ID: 1628396\nSeason: 22025\nGames: 18\nAverages: 4.9 PPG, 2.8 RPG, 0.7 APG\nShooting: 61.6% FG, 0.0% 3PT, 38.9% FT\nDefense: 0.1 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 403,
+      "frame_id": 403,
+      "text": "Player Season Stats\nPlayer ID: 1642855\nSeason: 22025\nGames: 2\nAverages: 0.0 PPG, 0.0 RPG, 0.0 APG\nShooting: 0.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 404,
+      "frame_id": 404,
+      "text": "Player Season Stats\nPlayer ID: 1641765\nSeason: 22025\nGames: 11\nAverages: 4.5 PPG, 2.4 RPG, 0.5 APG\nShooting: 39.5% FG, 9.1% 3PT, 51.5% FT\nDefense: 0.2 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 405,
+      "frame_id": 405,
+      "text": "Player Season Stats\nPlayer ID: 1629048\nSeason: 22025\nGames: 19\nAverages: 6.3 PPG, 5.2 RPG, 1.4 APG\nShooting: 71.1% FG, 7.9% 3PT, 43.4% FT\nDefense: 0.7 SPG, 1.2 BPG"
+    },
+    {
+      "chunk_id": 406,
+      "frame_id": 406,
+      "text": "Player Season Stats\nPlayer ID: 1628975\nSeason: 22025\nGames: 9\nAverages: 6.7 PPG, 1.3 RPG, 1.2 APG\nShooting: 41.2% FG, 36.1% 3PT, 22.2% FT\nDefense: 0.7 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 407,
+      "frame_id": 407,
+      "text": "Player Season Stats\nPlayer ID: 1627741\nSeason: 22025\nGames: 20\nAverages: 7.2 PPG, 1.9 RPG, 1.6 APG\nShooting: 34.4% FG, 21.3% 3PT, 33.3% FT\nDefense: 0.8 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 408,
+      "frame_id": 408,
+      "text": "Player Season Stats\nPlayer ID: 1628384\nSeason: 22025\nGames: 12\nAverages: 15.8 PPG, 5.6 RPG, 2.2 APG\nShooting: 45.7% FG, 38.7% 3PT, 66.0% FT\nDefense: 1.9 SPG, 0.7 BPG"
+    },
+    {
+      "chunk_id": 409,
+      "frame_id": 409,
+      "text": "Player Season Stats\nPlayer ID: 201950\nSeason: 22025\nGames: 12\nAverages: 16.7 PPG, 5.2 RPG, 8.2 APG\nShooting: 44.5% FG, 35.5% 3PT, 56.7% FT\nDefense: 1.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 410,
+      "frame_id": 410,
+      "text": "Player Season Stats\nPlayer ID: 1630217\nSeason: 22025\nGames: 20\nAverages: 18.3 PPG, 4.5 RPG, 4.5 APG\nShooting: 43.1% FG, 28.8% 3PT, 84.7% FT\nDefense: 0.8 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 411,
+      "frame_id": 411,
+      "text": "Player Season Stats\nPlayer ID: 1631157\nSeason: 22025\nGames: 20\nAverages: 18.3 PPG, 4.2 RPG, 6.0 APG\nShooting: 48.3% FG, 40.0% 3PT, 63.7% FT\nDefense: 1.6 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 412,
+      "frame_id": 412,
+      "text": "Player Season Stats\nPlayer ID: 1630168\nSeason: 22025\nGames: 19\nAverages: 16.5 PPG, 7.1 RPG, 2.6 APG\nShooting: 52.8% FG, 38.8% 3PT, 62.3% FT\nDefense: 0.8 SPG, 1.1 BPG"
+    },
+    {
+      "chunk_id": 413,
+      "frame_id": 413,
+      "text": "Player Season Stats\nPlayer ID: 1629023\nSeason: 22025\nGames: 19\nAverages: 16.0 PPG, 7.8 RPG, 2.3 APG\nShooting: 43.6% FG, 30.3% 3PT, 56.4% FT\nDefense: 0.9 SPG, 1.2 BPG"
+    },
+    {
+      "chunk_id": 414,
+      "frame_id": 414,
+      "text": "Player Season Stats\nPlayer ID: 1629006\nSeason: 22025\nGames: 16\nAverages: 7.1 PPG, 2.4 RPG, 1.1 APG\nShooting: 37.7% FG, 35.1% 3PT, 38.5% FT\nDefense: 1.4 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 415,
+      "frame_id": 415,
+      "text": "Player Season Stats\nPlayer ID: 1642962\nSeason: 22025\nGames: 12\nAverages: 6.7 PPG, 1.9 RPG, 1.9 APG\nShooting: 57.8% FG, 19.4% 3PT, 47.9% FT\nDefense: 0.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 416,
+      "frame_id": 416,
+      "text": "Player Season Stats\nPlayer ID: 1631110\nSeason: 22025\nGames: 12\nAverages: 6.2 PPG, 3.2 RPG, 1.8 APG\nShooting: 51.4% FG, 31.9% 3PT, 39.6% FT\nDefense: 0.4 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 417,
+      "frame_id": 417,
+      "text": "Player Season Stats\nPlayer ID: 1631218\nSeason: 22025\nGames: 12\nAverages: 4.4 PPG, 3.2 RPG, 1.0 APG\nShooting: 54.2% FG, 0.0% 3PT, 46.4% FT\nDefense: 0.2 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 418,
+      "frame_id": 418,
+      "text": "Player Season Stats\nPlayer ID: 1631121\nSeason: 22025\nGames: 9\nAverages: 4.9 PPG, 1.0 RPG, 0.8 APG\nShooting: 37.2% FG, 14.8% 3PT, 55.6% FT\nDefense: 0.3 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 419,
+      "frame_id": 419,
+      "text": "Player Season Stats\nPlayer ID: 1643024\nSeason: 22025\nGames: 2\nAverages: 0.0 PPG, 1.0 RPG, 0.0 APG\nShooting: 0.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 420,
+      "frame_id": 420,
+      "text": "Player Season Stats\nPlayer ID: 1643141\nSeason: 22025\nGames: 7\nAverages: 0.1 PPG, 0.4 RPG, 0.1 APG\nShooting: 0.0% FG, 0.0% 3PT, 3.6% FT\nDefense: 0.1 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 421,
+      "frame_id": 421,
+      "text": "Player Season Stats\nPlayer ID: 1629731\nSeason: 22025\nGames: 18\nAverages: 5.3 PPG, 3.9 RPG, 1.6 APG\nShooting: 37.6% FG, 29.4% 3PT, 34.7% FT\nDefense: 0.8 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 422,
+      "frame_id": 422,
+      "text": "Player Season Stats\nPlayer ID: 1630591\nSeason: 22025\nGames: 15\nAverages: 13.7 PPG, 3.9 RPG, 4.8 APG\nShooting: 49.7% FG, 36.5% 3PT, 62.2% FT\nDefense: 1.7 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 423,
+      "frame_id": 423,
+      "text": "Player Season Stats\nPlayer ID: 1629060\nSeason: 22025\nGames: 17\nAverages: 14.8 PPG, 3.9 RPG, 1.0 APG\nShooting: 54.5% FG, 46.4% 3PT, 38.2% FT\nDefense: 0.6 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 424,
+      "frame_id": 424,
+      "text": "Player Season Stats\nPlayer ID: 1642263\nSeason: 22025\nGames: 16\nAverages: 14.2 PPG, 2.8 RPG, 3.3 APG\nShooting: 48.6% FG, 45.4% 3PT, 30.7% FT\nDefense: 1.6 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 425,
+      "frame_id": 425,
+      "text": "Player Season Stats\nPlayer ID: 1630228\nSeason: 22025\nGames: 13\nAverages: 13.8 PPG, 6.6 RPG, 2.8 APG\nShooting: 44.7% FG, 24.2% 3PT, 57.4% FT\nDefense: 0.4 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 426,
+      "frame_id": 426,
+      "text": "Player Season Stats\nPlayer ID: 1642352\nSeason: 22025\nGames: 8\nAverages: 4.0 PPG, 2.9 RPG, 0.1 APG\nShooting: 29.4% FG, 15.4% 3PT, 12.5% FT\nDefense: 0.4 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 427,
+      "frame_id": 427,
+      "text": "Player Season Stats\nPlayer ID: 1630592\nSeason: 22025\nGames: 15\nAverages: 5.1 PPG, 0.9 RPG, 0.6 APG\nShooting: 42.5% FG, 33.7% 3PT, 23.1% FT\nDefense: 0.1 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 428,
+      "frame_id": 428,
+      "text": "Player Season Stats\nPlayer ID: 1642368\nSeason: 22025\nGames: 4\nAverages: 0.8 PPG, 1.8 RPG, 0.0 APG\nShooting: 25.0% FG, 0.0% 3PT, 25.0% FT\nDefense: 0.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 429,
+      "frame_id": 429,
+      "text": "Player Season Stats\nPlayer ID: 1642353\nSeason: 22025\nGames: 13\nAverages: 4.9 PPG, 2.0 RPG, 0.7 APG\nShooting: 32.4% FG, 28.8% 3PT, 49.7% FT\nDefense: 0.3 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 430,
+      "frame_id": 430,
+      "text": "Player Season Stats\nPlayer ID: 1641711\nSeason: 22025\nGames: 20\nAverages: 6.8 PPG, 1.9 RPG, 0.8 APG\nShooting: 38.0% FG, 27.1% 3PT, 38.4% FT\nDefense: 0.7 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 431,
+      "frame_id": 431,
+      "text": "Player Season Stats\nPlayer ID: 1630568\nSeason: 22025\nGames: 17\nAverages: 6.5 PPG, 3.8 RPG, 0.8 APG\nShooting: 47.8% FG, 31.9% 3PT, 42.6% FT\nDefense: 0.3 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 432,
+      "frame_id": 432,
+      "text": "Player Season Stats\nPlayer ID: 1642366\nSeason: 22025\nGames: 20\nAverages: 6.6 PPG, 4.0 RPG, 1.1 APG\nShooting: 33.8% FG, 26.5% 3PT, 19.0% FT\nDefense: 0.7 SPG, 0.6 BPG"
+    },
+    {
+      "chunk_id": 433,
+      "frame_id": 433,
+      "text": "Player Season Stats\nPlayer ID: 1630224\nSeason: 22025\nGames: 2\nAverages: 15.5 PPG, 2.0 RPG, 2.0 APG\nShooting: 41.6% FG, 23.1% 3PT, 30.0% FT\nDefense: 1.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 434,
+      "frame_id": 434,
+      "text": "Player Season Stats\nPlayer ID: 1629673\nSeason: 22025\nGames: 7\nAverages: 17.3 PPG, 1.7 RPG, 3.4 APG\nShooting: 33.8% FG, 31.5% 3PT, 97.6% FT\nDefense: 0.3 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 435,
+      "frame_id": 435,
+      "text": "Player Season Stats\nPlayer ID: 1629630\nSeason: 22025\nGames: 12\nAverages: 17.9 PPG, 3.5 RPG, 7.6 APG\nShooting: 39.8% FG, 12.2% 3PT, 93.9% FT\nDefense: 1.0 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 436,
+      "frame_id": 436,
+      "text": "Player Season Stats\nPlayer ID: 1629631\nSeason: 22025\nGames: 16\nAverages: 17.9 PPG, 4.8 RPG, 2.7 APG\nShooting: 46.4% FG, 32.2% 3PT, 75.7% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 437,
+      "frame_id": 437,
+      "text": "Player Season Stats\nPlayer ID: 1642264\nSeason: 22025\nGames: 13\nAverages: 17.3 PPG, 5.8 RPG, 7.5 APG\nShooting: 48.7% FG, 22.2% 3PT, 72.4% FT\nDefense: 1.7 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 438,
+      "frame_id": 438,
+      "text": "Player Season Stats\nPlayer ID: 1630174\nSeason: 22025\nGames: 11\nAverages: 15.5 PPG, 4.5 RPG, 1.5 APG\nShooting: 37.0% FG, 39.2% 3PT, 58.8% FT\nDefense: 0.8 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 439,
+      "frame_id": 439,
+      "text": "Player Season Stats\nPlayer ID: 1642261\nSeason: 22025\nGames: 15\nAverages: 6.6 PPG, 2.1 RPG, 0.5 APG\nShooting: 34.9% FG, 28.2% 3PT, 13.3% FT\nDefense: 0.5 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 440,
+      "frame_id": 440,
+      "text": "Player Season Stats\nPlayer ID: 1630549\nSeason: 22025\nGames: 17\nAverages: 6.5 PPG, 5.4 RPG, 1.6 APG\nShooting: 59.5% FG, 14.7% 3PT, 43.4% FT\nDefense: 0.8 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 441,
+      "frame_id": 441,
+      "text": "Player Season Stats\nPlayer ID: 1629750\nSeason: 22025\nGames: 19\nAverages: 6.9 PPG, 3.2 RPG, 0.9 APG\nShooting: 36.6% FG, 26.7% 3PT, 36.8% FT\nDefense: 0.9 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 442,
+      "frame_id": 442,
+      "text": "Player Season Stats\nPlayer ID: 1642948\nSeason: 22025\nGames: 7\nAverages: 5.0 PPG, 0.9 RPG, 2.9 APG\nShooting: 31.8% FG, 8.6% 3PT, 14.3% FT\nDefense: 0.1 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 443,
+      "frame_id": 443,
+      "text": "Player Season Stats\nPlayer ID: 1641722\nSeason: 22025\nGames: 17\nAverages: 5.1 PPG, 1.8 RPG, 1.0 APG\nShooting: 32.2% FG, 27.8% 3PT, 13.7% FT\nDefense: 0.2 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 444,
+      "frame_id": 444,
+      "text": "Player Season Stats\nPlayer ID: 1642358\nSeason: 22025\nGames: 9\nAverages: 0.8 PPG, 0.7 RPG, 0.4 APG\nShooting: 6.5% FG, 0.0% 3PT, 16.7% FT\nDefense: 0.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 445,
+      "frame_id": 445,
+      "text": "Player Season Stats\nPlayer ID: 1641740\nSeason: 22025\nGames: 17\nAverages: 4.0 PPG, 2.4 RPG, 0.5 APG\nShooting: 37.7% FG, 31.4% 3PT, 27.9% FT\nDefense: 0.8 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 446,
+      "frame_id": 446,
+      "text": "Player Season Stats\nPlayer ID: 1630241\nSeason: 22025\nGames: 12\nAverages: 13.9 PPG, 2.1 RPG, 2.2 APG\nShooting: 49.7% FG, 47.4% 3PT, 54.2% FT\nDefense: 0.5 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 447,
+      "frame_id": 447,
+      "text": "Player Season Stats\nPlayer ID: 1628386\nSeason: 22025\nGames: 15\nAverages: 14.3 PPG, 7.6 RPG, 1.8 APG\nShooting: 54.8% FG, 0.0% 3PT, 68.7% FT\nDefense: 1.0 SPG, 0.9 BPG"
+    },
+    {
+      "chunk_id": 448,
+      "frame_id": 448,
+      "text": "Player Season Stats\nPlayer ID: 203471\nSeason: 22025\nGames: 18\nAverages: 12.4 PPG, 3.7 RPG, 6.0 APG\nShooting: 35.9% FG, 30.1% 3PT, 56.9% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 449,
+      "frame_id": 449,
+      "text": "Player Season Stats\nPlayer ID: 1629651\nSeason: 22025\nGames: 18\nAverages: 14.0 PPG, 7.4 RPG, 3.9 APG\nShooting: 57.2% FG, 0.0% 3PT, 62.6% FT\nDefense: 0.7 SPG, 1.3 BPG"
+    },
+    {
+      "chunk_id": 450,
+      "frame_id": 450,
+      "text": "Player Season Stats\nPlayer ID: 1630598\nSeason: 22025\nGames: 9\nAverages: 14.8 PPG, 3.7 RPG, 2.2 APG\nShooting: 45.5% FG, 38.6% 3PT, 16.7% FT\nDefense: 0.4 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 451,
+      "frame_id": 451,
+      "text": "Player Season Stats\nPlayer ID: 1642964\nSeason: 22025\nGames: 15\nAverages: 1.4 PPG, 2.1 RPG, 0.3 APG\nShooting: 40.0% FG, 6.7% 3PT, 3.3% FT\nDefense: 0.1 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 452,
+      "frame_id": 452,
+      "text": "Player Season Stats\nPlayer ID: 1642484\nSeason: 22025\nGames: 13\nAverages: 4.9 PPG, 1.6 RPG, 2.0 APG\nShooting: 26.2% FG, 27.1% 3PT, 26.9% FT\nDefense: 0.2 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 453,
+      "frame_id": 453,
+      "text": "Player Season Stats\nPlayer ID: 204060\nSeason: 22025\nGames: 6\nAverages: 0.0 PPG, 0.0 RPG, 1.0 APG\nShooting: 0.0% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.2 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 454,
+      "frame_id": 454,
+      "text": "Player Season Stats\nPlayer ID: 1642367\nSeason: 22025\nGames: 7\nAverages: 0.9 PPG, 1.3 RPG, 0.6 APG\nShooting: 21.4% FG, 0.0% 3PT, 0.0% FT\nDefense: 0.1 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 455,
+      "frame_id": 455,
+      "text": "Player Season Stats\nPlayer ID: 1642878\nSeason: 22025\nGames: 16\nAverages: 5.1 PPG, 1.2 RPG, 1.3 APG\nShooting: 26.5% FG, 17.2% 3PT, 33.9% FT\nDefense: 0.3 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 456,
+      "frame_id": 456,
+      "text": "Player Season Stats\nPlayer ID: 1630545\nSeason: 22025\nGames: 10\nAverages: 5.5 PPG, 2.0 RPG, 0.9 APG\nShooting: 30.4% FG, 37.3% 3PT, 36.7% FT\nDefense: 0.4 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 457,
+      "frame_id": 457,
+      "text": "Player Season Stats\nPlayer ID: 1642883\nSeason: 22025\nGames: 20\nAverages: 6.6 PPG, 3.2 RPG, 1.6 APG\nShooting: 42.0% FG, 42.3% 3PT, 52.1% FT\nDefense: 0.8 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 458,
+      "frame_id": 458,
+      "text": "Player Season Stats\nPlayer ID: 1628971\nSeason: 22025\nGames: 18\nAverages: 6.4 PPG, 3.9 RPG, 1.6 APG\nShooting: 38.8% FG, 22.2% 3PT, 44.4% FT\nDefense: 0.8 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 459,
+      "frame_id": 459,
+      "text": "Player Season Stats\nPlayer ID: 204001\nSeason: 22025\nGames: 12\nAverages: 18.7 PPG, 5.9 RPG, 3.2 APG\nShooting: 47.2% FG, 31.9% 3PT, 70.3% FT\nDefense: 0.4 SPG, 1.6 BPG"
+    },
+    {
+      "chunk_id": 460,
+      "frame_id": 460,
+      "text": "Player Season Stats\nPlayer ID: 1631096\nSeason: 22025\nGames: 16\nAverages: 18.2 PPG, 7.9 RPG, 1.8 APG\nShooting: 54.8% FG, 33.8% 3PT, 78.3% FT\nDefense: 0.7 SPG, 1.4 BPG"
+    },
+    {
+      "chunk_id": 461,
+      "frame_id": 461,
+      "text": "Player Season Stats\nPlayer ID: 1629614\nSeason: 22025\nGames: 11\nAverages: 17.5 PPG, 1.8 RPG, 6.2 APG\nShooting: 36.5% FG, 33.1% 3PT, 88.0% FT\nDefense: 0.9 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 462,
+      "frame_id": 462,
+      "text": "Player Season Stats\nPlayer ID: 1641708\nSeason: 22025\nGames: 16\nAverages: 17.4 PPG, 6.9 RPG, 5.1 APG\nShooting: 46.9% FG, 26.0% 3PT, 78.0% FT\nDefense: 1.4 SPG, 0.4 BPG"
+    },
+    {
+      "chunk_id": 463,
+      "frame_id": 463,
+      "text": "Player Season Stats\nPlayer ID: 201942\nSeason: 22025\nGames: 20\nAverages: 18.1 PPG, 3.0 RPG, 3.5 APG\nShooting: 48.7% FG, 23.7% 3PT, 83.6% FT\nDefense: 1.2 SPG, 0.1 BPG"
+    },
+    {
+      "chunk_id": 464,
+      "frame_id": 464,
+      "text": "Player Season Stats\nPlayer ID: 1628991\nSeason: 22025\nGames: 18\nAverages: 18.6 PPG, 5.1 RPG, 1.7 APG\nShooting: 49.3% FG, 37.7% 3PT, 77.8% FT\nDefense: 0.6 SPG, 1.1 BPG"
+    },
+    {
+      "chunk_id": 465,
+      "frame_id": 465,
+      "text": "Player Season Stats\nPlayer ID: 201572\nSeason: 22025\nGames: 17\nAverages: 6.3 PPG, 1.9 RPG, 0.5 APG\nShooting: 36.8% FG, 30.2% 3PT, 22.1% FT\nDefense: 0.3 SPG, 0.8 BPG"
+    },
+    {
+      "chunk_id": 466,
+      "frame_id": 466,
+      "text": "Player Season Stats\nPlayer ID: 1631123\nSeason: 22025\nGames: 4\nAverages: 6.5 PPG, 0.8 RPG, 0.2 APG\nShooting: 58.4% FG, 73.3% 3PT, 0.0% FT\nDefense: 0.0 SPG, 0.2 BPG"
+    },
+    {
+      "chunk_id": 467,
+      "frame_id": 467,
+      "text": "Player Season Stats\nPlayer ID: 1629637\nSeason: 22025\nGames: 15\nAverages: 5.5 PPG, 3.9 RPG, 1.2 APG\nShooting: 71.1% FG, 6.7% 3PT, 28.4% FT\nDefense: 0.4 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 468,
+      "frame_id": 468,
+      "text": "Player Season Stats\nPlayer ID: 1630574\nSeason: 22025\nGames: 11\nAverages: 0.8 PPG, 2.2 RPG, 0.5 APG\nShooting: 22.7% FG, 0.0% 3PT, 4.5% FT\nDefense: 0.1 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 469,
+      "frame_id": 469,
+      "text": "Player Season Stats\nPlayer ID: 1629680\nSeason: 22025\nGames: 4\nAverages: 5.0 PPG, 1.0 RPG, 0.8 APG\nShooting: 62.5% FG, 62.5% 3PT, 50.0% FT\nDefense: 2.5 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 470,
+      "frame_id": 470,
+      "text": "Player Season Stats\nPlayer ID: 1631255\nSeason: 22025\nGames: 12\nAverages: 4.9 PPG, 2.8 RPG, 0.8 APG\nShooting: 60.8% FG, 13.9% 3PT, 10.4% FT\nDefense: 0.2 SPG, 0.5 BPG"
+    },
+    {
+      "chunk_id": 471,
+      "frame_id": 471,
+      "text": "Player Season Stats\nPlayer ID: 202066\nSeason: 22025\nGames: 3\nAverages: 1.3 PPG, 0.3 RPG, 0.3 APG\nShooting: 33.3% FG, 33.3% 3PT, 16.7% FT\nDefense: 0.0 SPG, 0.3 BPG"
+    },
+    {
+      "chunk_id": 472,
+      "frame_id": 472,
+      "text": "Player Season Stats\nPlayer ID: 1631117\nSeason: 22025\nGames: 5\nAverages: 14.4 PPG, 10.8 RPG, 3.0 APG\nShooting: 74.7% FG, 45.0% 3PT, 48.8% FT\nDefense: 1.4 SPG, 1.8 BPG"
+    },
+    {
+      "chunk_id": 473,
+      "frame_id": 473,
+      "text": "Player Season Stats\nPlayer ID: 1630167\nSeason: 22025\nGames: 3\nAverages: 14.0 PPG, 6.7 RPG, 1.7 APG\nShooting: 39.8% FG, 22.2% 3PT, 100.0% FT\nDefense: 1.0 SPG, 0.0 BPG"
+    },
+    {
+      "chunk_id": 474,
+      "frame_id": 474,
+      "text": "Player Season Stats\nPlayer ID: 1642276\nSeason: 22025\nGames: 19\nAverages: 12.4 PPG, 10.9 RPG, 0.6 APG\nShooting: 55.4% FG, 52.9% 3PT, 56.1% FT\nDefense: 1.1 SPG, 1.4 BPG"
+    }
+  ],
+  "dimension": 384,
+  "metric": "angular"
+}

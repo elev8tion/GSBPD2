@@ -704,20 +704,24 @@ def get_player_game_logs(player_id: str, season: str = "2025-26", limit: int = N
     """Get game logs for a specific player"""
     try:
         import sqlite3
+        # Convert season format: "2025-26" -> "22025" (NBA API format)
+        season_year = season.split('-')[0]
+        nba_api_season = f"2{season_year}"
+
         conn = sqlite3.connect(nba_stats_collector.stats_db)
         cursor = conn.cursor()
 
         query = '''
         SELECT game_date, matchup, pts, reb, ast, min, fgm, fga, fg3m, fg3a, ftm, fta
         FROM game_logs
-        WHERE player_id = ? AND season_id LIKE ?
+        WHERE player_id = ? AND season_id = ?
         ORDER BY game_date DESC
         '''
 
         if limit:
             query += f" LIMIT {limit}"
 
-        cursor.execute(query, (player_id, f"%{season}%"))
+        cursor.execute(query, (player_id, nba_api_season))
         rows = cursor.fetchall()
         conn.close()
 
@@ -752,14 +756,18 @@ def get_player_season_averages(player_id: str, season: str = "2025-26"):
     """Get season averages for a specific player"""
     try:
         import sqlite3
+        # Convert season format: "2025-26" -> "22025" (NBA API format)
+        season_year = season.split('-')[0]
+        nba_api_season = f"2{season_year}"
+
         conn = sqlite3.connect(nba_stats_collector.stats_db)
         cursor = conn.cursor()
 
         cursor.execute('''
         SELECT games_played, mpg, ppg, rpg, apg, spg, bpg, topg, fg_pct, fg3_pct, ft_pct
         FROM season_averages
-        WHERE player_id = ? AND season LIKE ?
-        ''', (player_id, f"%{season}%"))
+        WHERE player_id = ? AND season = ?
+        ''', (player_id, nba_api_season))
 
         row = cursor.fetchone()
         conn.close()

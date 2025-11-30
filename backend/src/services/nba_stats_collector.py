@@ -664,6 +664,11 @@ class NBAStatsCollector:
         status = {}
 
         try:
+            # Convert season format for NBA API database queries
+            # "2025-26" -> "22025" (NBA API season ID format)
+            season_year = self.current_season.split('-')[0]
+            nba_api_season = f"2{season_year}"
+
             # Teams count
             conn = sqlite3.connect(self.teams_db)
             cursor = conn.cursor()
@@ -678,14 +683,14 @@ class NBAStatsCollector:
             cursor = conn.cursor()
             cursor.execute("SELECT COUNT(*) FROM game_logs")
             status['game_logs_count'] = cursor.fetchone()[0]
-            cursor.execute("SELECT COUNT(*) FROM season_averages WHERE season = ?", (self.current_season,))
+            cursor.execute("SELECT COUNT(*) FROM season_averages WHERE season = ?", (nba_api_season,))
             status['season_averages_count'] = cursor.fetchone()[0]
             conn.close()
 
             # Schedule count
             conn = sqlite3.connect(self.schedule_db)
             cursor = conn.cursor()
-            cursor.execute("SELECT COUNT(*) FROM schedule WHERE season = ?", (self.current_season,))
+            cursor.execute("SELECT COUNT(*) FROM schedule WHERE season LIKE ?", (f"%{nba_api_season}",))
             status['schedule_games_count'] = cursor.fetchone()[0]
             conn.close()
 
