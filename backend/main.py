@@ -24,6 +24,7 @@ from src.services.nba_service import NBADataService
 from src.services.nfl_service import NFLDataService
 from src.services.draftkings_odds_service import DraftKingsOddsService
 from src.services.openai_service import OpenAIInsightsService
+from src.services.nba_stats_collector import NBAStatsCollector
 
 # Initialize services
 model_service = PredictionModel()
@@ -37,6 +38,7 @@ nba_service = NBADataService()
 nfl_service = NFLDataService()
 dk_odds_service = DraftKingsOddsService()
 openai_service = OpenAIInsightsService()
+nba_stats_collector = NBAStatsCollector()
 
 class PredictionRequest(BaseModel):
     team_strength: float
@@ -683,6 +685,187 @@ def get_nba_sgp_correlations():
     """Get NBA-specific correlation coefficients for SGP calculations"""
     try:
         return nba_sgp_service.get_correlations()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+# ============ NBA STATS DATA ENDPOINTS (New Database) ============
+
+@app.get("/nba/stats/collection-status")
+def get_nba_collection_status():
+    """Get status of NBA data collection"""
+    try:
+        status = nba_stats_collector.get_collection_status()
+        return status
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/stats/players/{player_id}/gamelogs")
+def get_player_game_logs(player_id: str, season: str = "2025-26", limit: int = None):
+    """Get game logs for a specific player"""
+    try:
+        import sqlite3
+        conn = sqlite3.connect(nba_stats_collector.stats_db)
+        cursor = conn.cursor()
+
+        query = '''
+        SELECT game_date, matchup, pts, reb, ast, min, fgm, fga, fg3m, fg3a, ftm, fta
+        FROM game_logs
+        WHERE player_id = ? AND season_id LIKE ?
+        ORDER BY game_date DESC
+        '''
+
+        if limit:
+            query += f" LIMIT {limit}"
+
+        cursor.execute(query, (player_id, f"%{season}%"))
+        rows = cursor.fetchall()
+        conn.close()
+
+        games = []
+        for row in rows:
+            games.append({
+                "game_date": row[0],
+                "matchup": row[1],
+                "pts": row[2],
+                "reb": row[3],
+                "ast": row[4],
+                "min": row[5],
+                "fgm": row[6],
+                "fga": row[7],
+                "fg3m": row[8],
+                "fg3a": row[9],
+                "ftm": row[10],
+                "fta": row[11]
+            })
+
+        return {
+            "player_id": player_id,
+            "season": season,
+            "games": games,
+            "total_games": len(games)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/stats/players/{player_id}/averages")
+def get_player_season_averages(player_id: str, season: str = "2025-26"):
+    """Get season averages for a specific player"""
+    try:
+        import sqlite3
+        conn = sqlite3.connect(nba_stats_collector.stats_db)
+        cursor = conn.cursor()
+
+        cursor.execute('''
+        SELECT games_played, mpg, ppg, rpg, apg, spg, bpg, topg, fg_pct, fg3_pct, ft_pct
+        FROM season_averages
+        WHERE player_id = ? AND season LIKE ?
+        ''', (player_id, f"%{season}%"))
+
+        row = cursor.fetchone()
+        conn.close()
+
+        if not row:
+            raise HTTPException(status_code=404, detail="Player averages not found")
+
+        return {
+            "player_id": player_id,
+            "season": season,
+            "games_played": row[0],
+            "minutes_per_game": round(row[1], 1) if row[1] else 0,
+            "points_per_game": round(row[2], 1) if row[2] else 0,
+            "rebounds_per_game": round(row[3], 1) if row[3] else 0,
+            "assists_per_game": round(row[4], 1) if row[4] else 0,
+            "steals_per_game": round(row[5], 1) if row[5] else 0,
+            "blocks_per_game": round(row[6], 1) if row[6] else 0,
+            "turnovers_per_game": round(row[7], 1) if row[7] else 0,
+            "field_goal_pct": round(row[8], 1) if row[8] else 0,
+            "three_point_pct": round(row[9], 1) if row[9] else 0,
+            "free_throw_pct": round(row[10], 1) if row[10] else 0
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/stats/teams/{team_id}/roster")
+def get_team_roster_from_db(team_id: str, season: str = "2025-26"):
+    """Get team roster from database"""
+    try:
+        import sqlite3
+        conn = sqlite3.connect(nba_stats_collector.teams_db)
+        cursor = conn.cursor()
+
+        cursor.execute('''
+        SELECT player_id, full_name, jersey_number, position, height, weight
+        FROM rosters
+        WHERE team_id = ? AND season = ?
+        ORDER BY full_name
+        ''', (team_id, season))
+
+        rows = cursor.fetchall()
+        conn.close()
+
+        roster = []
+        for row in rows:
+            roster.append({
+                "player_id": row[0],
+                "full_name": row[1],
+                "jersey_number": row[2],
+                "position": row[3],
+                "height": row[4],
+                "weight": row[5]
+            })
+
+        return {
+            "team_id": team_id,
+            "season": season,
+            "roster": roster,
+            "total_players": len(roster)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/nba/stats/schedule")
+def get_nba_schedule_from_db(date: str = None, limit: int = 100):
+    """Get NBA schedule from database"""
+    try:
+        import sqlite3
+        conn = sqlite3.connect(nba_stats_collector.schedule_db)
+        cursor = conn.cursor()
+
+        if date:
+            cursor.execute('''
+            SELECT game_id, game_date, matchup, home_team_name, away_team_name
+            FROM schedule
+            WHERE game_date = ?
+            ORDER BY game_date
+            LIMIT ?
+            ''', (date, limit))
+        else:
+            cursor.execute('''
+            SELECT game_id, game_date, matchup, home_team_name, away_team_name
+            FROM schedule
+            ORDER BY game_date DESC
+            LIMIT ?
+            ''', (limit,))
+
+        rows = cursor.fetchall()
+        conn.close()
+
+        games = []
+        for row in rows:
+            games.append({
+                "game_id": row[0],
+                "game_date": row[1],
+                "matchup": row[2],
+                "home_team": row[3],
+                "away_team": row[4]
+            })
+
+        return {
+            "games": games,
+            "total": len(games)
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
