@@ -70,56 +70,56 @@ class NBADataService:
         self.cache_expiry = 3600
 
         # Initialize Kre8VidMems retrievers
-        self.memories_dir = base_dir / "memories"
+        self.memories_dir = base_dir.parent / "data" / "memories"
         self._init_kre8vidmems_retrievers()
 
     def _init_kre8vidmems_retrievers(self):
         """Initialize Kre8VidMems memories for NBA data"""
         try:
             from kre8vidmems import Kre8VidMemory
-            print("✅ NBA Service: Using Kre8VidMems directly (no FAISS!)")
+            print("✅ NBA Service: Using Kre8VidMems directly (Annoy-based, no FAISS!)")
 
+            # Updated paths to match actual memory files (2025 season)
             # NBA Players memory
-            players_path = self.memories_dir / "nba-players" / "nba-players"
+            players_path = self.memories_dir / "nba-nba-player-profiles-2025"
 
-            # NBA Games/Standings memory
-            games_path = self.memories_dir / "nba-games" / "nba-games"
+            # NBA Teams memory
+            teams_path = self.memories_dir / "nba-nba-teams-2025"
 
             # NBA Schedule memory
-            schedule_path = self.memories_dir / "nba-schedule" / "nba-schedule"
+            schedule_path = self.memories_dir / "nba-nba-schedule-2025"
 
             # Load memories
             try:
                 self.players_retriever = Kre8VidMemory.load(str(players_path))
-                print("✓ NBA Players Kre8VidMems memory loaded")
-            except:
+                print(f"✓ NBA Players Kre8VidMems memory loaded ({len(self.players_retriever.vector_store.metadata)} chunks)")
+            except Exception as e:
                 self.players_retriever = None
-                print("⚠ NBA Players memory not found")
-                print("⚠ NBA Players memory not found - using fallback JSON")
+                print(f"⚠ NBA Players memory not found - using fallback JSON ({e})")
 
             try:
-                self.games_retriever = Kre8VidMemory.load(str(games_path))
-                print("✓ NBA Games Kre8VidMems memory loaded")
-            except:
-                self.games_retriever = None
-                print("⚠ NBA Games memory not found - using fallback JSON")
+                self.teams_retriever = Kre8VidMemory.load(str(teams_path))
+                print(f"✓ NBA Teams Kre8VidMems memory loaded ({len(self.teams_retriever.vector_store.metadata)} chunks)")
+            except Exception as e:
+                self.teams_retriever = None
+                print(f"⚠ NBA Teams memory not found - using fallback JSON ({e})")
 
             try:
                 self.schedule_retriever = Kre8VidMemory.load(str(schedule_path))
-                print("✓ NBA Schedule Kre8VidMems memory loaded")
-            except:
+                print(f"✓ NBA Schedule Kre8VidMems memory loaded ({len(self.schedule_retriever.vector_store.metadata)} chunks)")
+            except Exception as e:
                 self.schedule_retriever = None
-                print("⚠ NBA Schedule memory not found - using fallback JSON")
+                print(f"⚠ NBA Schedule memory not found - using fallback JSON ({e})")
 
-        except ImportError:
-            print("⚠ Memvid not available - using fallback JSON data")
+        except ImportError as e:
+            print(f"⚠ Kre8VidMems not available - using fallback JSON data ({e})")
             self.players_retriever = None
-            self.games_retriever = None
+            self.teams_retriever = None
             self.schedule_retriever = None
         except Exception as e:
-            print(f"⚠ Error initializing Memvid retrievers: {e}")
+            print(f"⚠ Error initializing Kre8VidMems retrievers: {e}")
             self.players_retriever = None
-            self.games_retriever = None
+            self.teams_retriever = None
             self.schedule_retriever = None
 
     def scrape_with_firecrawl(self, url: str) -> str:
@@ -318,9 +318,27 @@ class NBADataService:
         return teams
 
     def get_all_players(self) -> List[Dict]:
-        """Get all players from JSON cache (Memvid temporarily disabled due to FAISS hang)"""
-        # FIXME: Memvid players query causes FAISS hang on macOS - temporarily disabled
-        # Need to investigate why FAISS .search() hangs even with environment variables set
+        """Get all players from Kre8VidMems or JSON cache fallback"""
+
+        # Try Kre8VidMems first (FIXED: .idx symlinks were missing, now working!)
+        if self.players_retriever:
+            try:
+                # Extract all player data from metadata
+                players_data = []
+
+                for meta in self.players_retriever.vector_store.metadata:
+                    # Parse player info from text chunk
+                    text = meta['text']
+                    player = self._parse_player_from_text(text)
+                    if player:
+                        players_data.append(player)
+
+                print(f"✓ Retrieved {len(players_data)} players from Kre8VidMems")
+                return players_data
+
+            except Exception as e:
+                print(f"⚠ Error retrieving players from Kre8VidMems: {e}")
+                # Fall through to JSON fallback
 
         # Fallback to JSON file
         if self.players_file.exists():
@@ -329,8 +347,75 @@ class NBADataService:
                 print(f"✓ Retrieved {len(players_data)} players from JSON cache")
                 return players_data
 
-        print("⚠ No players data available - players.json not found")
+        print("⚠ No players data available - neither Kre8VidMems nor players.json found")
         return []
+
+    def _parse_player_from_text(self, text: str) -> Optional[Dict]:
+        """Parse player data from text chunk"""
+        try:
+            # Extract player info using regex patterns
+            player = {}
+
+            # Player name
+            name_match = re.search(r'Player:\s*([^\n]+)', text)
+            if name_match:
+                player['name'] = name_match.group(1).strip()
+            else:
+                return None  # Must have a name
+
+            # Position
+            pos_match = re.search(r'Position:\s*([^\n]+)', text)
+            if pos_match:
+                player['position'] = pos_match.group(1).strip()
+
+            # Team ID
+            team_match = re.search(r'Team:\s*(\d+)', text)
+            if team_match:
+                player['team_id'] = team_match.group(1).strip()
+                # Map team ID to team name
+                team_name = next((t['name'] for t in NBA_TEAMS if t['id'] == player['team_id']), 'Unknown')
+                player['team_name'] = team_name
+
+            # Jersey number
+            jersey_match = re.search(r'Jersey:\s*#?(\d+)', text)
+            if jersey_match:
+                player['jersey_number'] = jersey_match.group(1).strip()
+
+            # Height
+            height_match = re.search(r'Height:\s*([^\n]+)', text)
+            if height_match:
+                player['height'] = height_match.group(1).strip()
+
+            # Weight
+            weight_match = re.search(r'Weight:\s*(\d+)', text)
+            if weight_match:
+                player['weight'] = weight_match.group(1).strip()
+
+            # Experience
+            exp_match = re.search(r'Experience:\s*([^\n]+)', text)
+            if exp_match:
+                player['experience'] = exp_match.group(1).strip()
+
+            # School
+            school_match = re.search(r'School:\s*([^\n]+)', text)
+            if school_match:
+                player['school'] = school_match.group(1).strip()
+
+            # Player ID (try multiple patterns)
+            id_match = re.search(r'Player ID:\s*(\d+)', text)
+            if id_match:
+                player['player_id'] = id_match.group(1).strip()
+            else:
+                # Fallback: try to extract from any number in the text
+                id_match = re.search(r'ID:\s*(\d+)', text)
+                if id_match:
+                    player['player_id'] = id_match.group(1).strip()
+
+            return player if player.get('name') else None
+
+        except Exception as e:
+            print(f"⚠ Error parsing player: {e}")
+            return None
 
     def _is_cache_fresh(self) -> bool:
         """Check if games cache is fresh (within expiry time)"""
