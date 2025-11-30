@@ -8,14 +8,15 @@ const GameSelector = ({ onSelectGame }) => {
     const { selectedSport } = useSport();
     const [games, setGames] = useState([]);
     const [loading, setLoading] = useState(true);
+    const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
     useEffect(() => {
         const fetchGames = async () => {
             try {
                 // Dynamically select endpoint based on selected sport
                 const endpoint = selectedSport === 'NBA'
-                    ? 'http://localhost:8000/nba/games'
-                    : 'http://localhost:8000/games';
+                    ? `${API_BASE}/nba/games`
+                    : `${API_BASE}/games`;
 
                 const response = await axios.get(endpoint);
 

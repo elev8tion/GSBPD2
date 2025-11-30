@@ -4,6 +4,8 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import { Activity, Zap, Wallet, LayoutDashboard, GitMerge, Database, Settings as SettingsIcon, TrendingUp, MessageSquare, Users, UserCircle, Calendar, DollarSign } from 'lucide-react';
 import { useSport } from './contexts/SportContext';
+import { useNotification } from './contexts/NotificationContext';
+import Notification from './components/Notification';
 import PredictionCard from './components/PredictionCard';
 import GrokInsight from './components/GrokInsight';
 import StatsChart from './components/StatsChart';
@@ -30,6 +32,7 @@ function App() {
   const location = useLocation();
   const navigate = useNavigate();
   const { selectedSport, setSelectedSport } = useSport();
+  const { notifications, removeNotification } = useNotification();
   const [prediction, setPrediction] = useState(null);
   const [insight, setInsight] = useState(null);
   const [shapValues, setShapValues] = useState(null);
@@ -324,6 +327,11 @@ function App() {
         onClose={handleBetModalClose}
         prediction={prediction}
         gameData={lastInput}
+      />
+
+      <Notification
+        notifications={notifications}
+        removeNotification={removeNotification}
       />
     </div>
   );
